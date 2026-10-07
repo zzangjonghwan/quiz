@@ -1,0 +1,678 @@
+{
+  "category": "tech",
+  "version": 1,
+  "cards": [
+    {
+      "id": "tech-m5001",
+      "difficulty": "easy",
+      "answer": "Ctrl + C",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "윈도에서 '복사'하는 단축키는?",
+          "choices": [
+            "Ctrl + C",
+            "Ctrl + V",
+            "Ctrl + X",
+            "Ctrl + Z"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "V는 붙여 넣기, X는 잘라 내기, Z는 실행 취소예요. 맥에서는 Ctrl 대신 Command(⌘)를 써요.",
+        "tip": "C = Copy"
+      }
+    },
+    {
+      "id": "tech-m5002",
+      "difficulty": "easy",
+      "answer": "Ctrl + A",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "윈도에서 '모두 선택'하는 단축키는?",
+          "choices": [
+            "Ctrl + A",
+            "Ctrl + S",
+            "Ctrl + F",
+            "Ctrl + P"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "A는 All이에요. S는 저장, F는 찾기, P는 인쇄예요.",
+        "tip": "A = All"
+      }
+    },
+    {
+      "id": "tech-m5003",
+      "difficulty": "easy",
+      "answer": "Ctrl + F",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "문서나 웹 페이지에서 원하는 단어를 '찾기' 하는 단축키는?",
+          "choices": [
+            "Ctrl + F",
+            "Ctrl + H",
+            "Ctrl + N",
+            "Ctrl + W"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "F는 Find예요. 긴 글에서 특정 단어를 바로 찾을 수 있어요.",
+        "tip": "F = Find"
+      }
+    },
+    {
+      "id": "tech-m5004",
+      "difficulty": "normal",
+      "answer": "Alt + Tab",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "윈도에서 열려 있는 프로그램 사이를 빠르게 전환하는 단축키는?",
+          "choices": [
+            "Alt + Tab",
+            "Ctrl + Tab",
+            "Shift + Tab",
+            "Win + Tab만 가능"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "Alt를 누른 채 Tab을 여러 번 누르면 원하는 창으로 옮겨 가요.",
+        "tip": "창 바꾸기"
+      }
+    },
+    {
+      "id": "tech-m5005",
+      "difficulty": "normal",
+      "answer": "Ctrl + Shift + T",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인터넷 브라우저에서 실수로 닫은 탭을 다시 여는 단축키는?",
+          "choices": [
+            "Ctrl + Shift + T",
+            "Ctrl + Shift + N",
+            "Ctrl + Alt + T",
+            "Shift + Alt + W"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "Ctrl + T는 새 탭, Ctrl + W는 탭 닫기예요.",
+        "tip": "닫은 탭 되살리기"
+      }
+    },
+    {
+      "id": "tech-m5006",
+      "difficulty": "normal",
+      "answer": "윈도 키 + D",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "윈도에서 바탕 화면을 바로 보여 주는 단축키는?",
+          "choices": [
+            "윈도 키 + D",
+            "윈도 키 + L",
+            "윈도 키 + E",
+            "Alt + F4"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "윈도 키 + L은 화면 잠금, 윈도 키 + E는 파일 탐색기 열기예요.",
+        "tip": "D = Desktop"
+      }
+    },
+    {
+      "id": "tech-m5007",
+      "difficulty": "normal",
+      "answer": "윈도 키 + L",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자리를 비울 때 윈도 화면을 바로 잠그는 단축키는?",
+          "choices": [
+            "윈도 키 + L",
+            "윈도 키 + D",
+            "Ctrl + L",
+            "Alt + L"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "L은 Lock이에요. 회사나 도서관에서 자리를 뜰 때 유용해요.",
+        "tip": "L = Lock"
+      }
+    },
+    {
+      "id": "tech-m5008",
+      "difficulty": "easy",
+      "answer": "F5",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "웹 페이지를 '새로 고침' 하는 키는?",
+          "choices": [
+            "F5",
+            "F1",
+            "F2",
+            "F12"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "F1은 도움말, F2는 이름 바꾸기에 흔히 쓰여요.",
+        "tip": "F5 = 새로 고침"
+      }
+    },
+    {
+      "id": "tech-m5009",
+      "difficulty": "hard",
+      "answer": "윈도 키 + Shift + S",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "윈도에서 화면 일부를 바로 캡처하는 도구를 여는 단축키는?",
+          "choices": [
+            "윈도 키 + Shift + S",
+            "Ctrl + Shift + C",
+            "Alt + S",
+            "윈도 키 + C"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원하는 영역을 마우스로 선택하면 바로 복사돼요.",
+        "tip": "부분 캡처"
+      }
+    },
+    {
+      "id": "tech-m5010",
+      "difficulty": "hard",
+      "answer": "Ctrl + Shift + Esc",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "응답하지 않는 프로그램을 끄려고 '작업 관리자'를 바로 여는 단축키는?",
+          "choices": [
+            "Ctrl + Shift + Esc",
+            "Ctrl + Alt + Tab",
+            "Alt + Esc",
+            "Shift + F10"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "Ctrl + Alt + Del을 누른 뒤 고를 수도 있어요.",
+        "tip": "먹통일 때"
+      }
+    },
+    {
+      "id": "tech-m5011",
+      "difficulty": "normal",
+      "answer": "TSMC",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계 반도체 위탁 생산(파운드리) 1위 기업으로 대만에 본사가 있는 회사는?",
+          "choices": [
+            "TSMC",
+            "인텔",
+            "퀄컴",
+            "엔비디아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "애플, 엔비디아 등이 설계한 칩을 대신 만들어요.",
+        "tip": "대만의 반도체 공장"
+      }
+    },
+    {
+      "id": "tech-m5012",
+      "difficulty": "hard",
+      "answer": "ASML",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "최첨단 반도체 회로를 그리는 데 꼭 필요한 '극자외선(EUV) 노광 장비'를 사실상 혼자 만드는 네덜란드 회사는?",
+          "choices": [
+            "ASML",
+            "TSMC",
+            "삼성전자",
+            "ARM"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "장비 한 대가 수천억 원에 이르고, 비행기 여러 대로 나눠 실어 날라요.",
+        "tip": "네덜란드 '슈퍼 을'"
+      }
+    },
+    {
+      "id": "tech-m5013",
+      "difficulty": "easy",
+      "answer": "엔비디아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "게임용 그래픽 카드로 시작해 AI 학습용 칩 시장을 장악한 미국 회사는?",
+          "choices": [
+            "엔비디아",
+            "AMD",
+            "인텔",
+            "IBM"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "GPU가 많은 계산을 동시에 처리하는 데 강해 AI 시대의 핵심 부품이 됐어요.",
+        "tip": "AI의 곡괭이 장수"
+      }
+    },
+    {
+      "id": "tech-m5014",
+      "difficulty": "hard",
+      "answer": "ARM",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "스마트폰 칩 설계도를 다른 회사에 빌려주는 사업으로 유명한 영국의 반도체 설계 회사는?",
+          "choices": [
+            "ARM",
+            "ASML",
+            "인텔",
+            "TSMC"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "전 세계 스마트폰 대부분이 ARM 설계를 바탕으로 한 칩을 써요.",
+        "tip": "설계도를 빌려주는 회사"
+      }
+    },
+    {
+      "id": "tech-m5015",
+      "difficulty": "normal",
+      "answer": "전원이 꺼지면 저장한 내용이 사라진다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'메모리 반도체'의 대표인 D램의 특징으로 알맞은 것은?",
+          "choices": [
+            "전원이 꺼지면 저장한 내용이 사라진다",
+            "전원이 꺼져도 영원히 남는다",
+            "사진을 찍는 부품이다",
+            "소리를 내는 부품이다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "전원을 꺼도 남는 메모리는 낸드 플래시예요. SSD와 USB 메모리에 쓰여요.",
+        "tip": "D램 = 휘발성"
+      }
+    },
+    {
+      "id": "tech-m5016",
+      "difficulty": "hard",
+      "answer": "64K D램",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1983년 삼성이 개발에 성공해 한국 반도체 산업의 출발점이 된 메모리 반도체는?",
+          "choices": [
+            "64K D램",
+            "1M 낸드",
+            "4K S램",
+            "256M D램"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국과 일본에 이어 세계 세 번째로 개발했어요. 이른바 '도쿄 선언' 뒤의 일이에요.",
+        "tip": "1983년 64K"
+      }
+    },
+    {
+      "id": "tech-m5017",
+      "difficulty": "easy",
+      "answer": "카카오톡",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2010년 출시되어 '국민 메신저'가 된 한국의 무료 메신저 앱은?",
+          "choices": [
+            "카카오톡",
+            "라인",
+            "네이트온",
+            "버디버디"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "라인은 네이버 계열 메신저로 일본과 동남아에서 인기가 많아요.",
+        "tip": "카톡"
+      }
+    },
+    {
+      "id": "tech-m5018",
+      "difficulty": "easy",
+      "answer": "싸이월드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2000년대 '미니홈피'와 '도토리'로 큰 인기를 끈 한국의 SNS는?",
+          "choices": [
+            "싸이월드",
+            "프리챌",
+            "다음 카페",
+            "버디버디"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'일촌' 맺기, 배경 음악, 파도타기 같은 문화를 만들었어요.",
+        "tip": "도토리와 일촌"
+      }
+    },
+    {
+      "id": "tech-m5019",
+      "difficulty": "hard",
+      "answer": "1999년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'네이버'가 처음 서비스를 시작한 해는?",
+          "choices": [
+            "1999년",
+            "1995년",
+            "2004년",
+            "2010년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "삼성SDS 사내 벤처로 출발했어요. 2002년 '지식iN'으로 크게 성장했어요.",
+        "tip": "지식iN의 시작"
+      }
+    },
+    {
+      "id": "tech-m5020",
+      "difficulty": "hard",
+      "answer": "전길남",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1982년 우리나라에서 처음 인터넷(TCP/IP) 연결에 성공해 '한국 인터넷의 아버지'로 불리는 사람은?",
+          "choices": [
+            "전길남",
+            "이해진",
+            "김범수",
+            "안철수"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서울대와 한국전자기술연구소의 컴퓨터를 이었어요. 미국에 이어 세계에서 두 번째 성공 사례로 꼽혀요.",
+        "tip": "SDN 연결"
+      }
+    },
+    {
+      "id": "tech-m5021",
+      "difficulty": "normal",
+      "answer": "안철수",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국 최초의 백신 프로그램 'V3'를 만든 사람은?",
+          "choices": [
+            "안철수",
+            "전길남",
+            "이찬진",
+            "김정주"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "의대 대학원생 시절 컴퓨터 바이러스를 치료하는 프로그램을 만들어 무료로 나눴어요.",
+        "tip": "V3"
+      }
+    },
+    {
+      "id": "tech-m5022",
+      "difficulty": "hard",
+      "answer": "삼성전자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'우리나라 기업의 첫 번째 휴대 전화'로 1988년 서울 올림픽 무렵 나온 제품의 회사는?",
+          "choices": [
+            "삼성전자",
+            "LG전자",
+            "팬택",
+            "현대전자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "SH-100이라는 모델이에요. 이후 '애니콜' 브랜드로 성장했어요.",
+        "tip": "SH-100"
+      }
+    },
+    {
+      "id": "tech-m5023",
+      "difficulty": "easy",
+      "answer": "일론 머스크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "테슬라, 스페이스X를 이끌고 2022년 트위터를 인수한 기업가는?",
+          "choices": [
+            "일론 머스크",
+            "제프 베이조스",
+            "마크 저커버그",
+            "젠슨 황"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스페이스X는 다시 쓸 수 있는 로켓으로 발사 비용을 크게 낮췄어요.",
+        "tip": "재사용 로켓"
+      }
+    },
+    {
+      "id": "tech-m5024",
+      "difficulty": "normal",
+      "answer": "젠슨 황",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'가죽 재킷'으로 유명한 엔비디아의 공동 창업자이자 최고 경영자는?",
+          "choices": [
+            "젠슨 황",
+            "리사 수",
+            "팀 쿡",
+            "순다르 피차이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대만에서 태어나 미국으로 이민했어요. 1993년 데니스 식당에서 창업을 의논했다는 이야기가 유명해요.",
+        "tip": "가죽 재킷 CEO"
+      }
+    },
+    {
+      "id": "tech-m5025",
+      "difficulty": "normal",
+      "answer": "튜링 테스트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람과 기계를 구별하지 못할 만큼 기계가 대화할 수 있는지 시험하는 방법은?",
+          "choices": [
+            "튜링 테스트",
+            "무어의 법칙",
+            "캡차 테스트",
+            "알고리즘 테스트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사람이 기계와 대화하고도 기계인 줄 모르면 '생각한다'고 볼 수 있다는 아이디어예요. 캡차는 반대로 사람인지 확인하는 시험이에요.",
+        "tip": "기계가 사람인 척"
+      }
+    },
+    {
+      "id": "tech-m5026",
+      "difficulty": "hard",
+      "answer": "알파폴드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "구글 딥마인드가 만든, 단백질 구조를 예측해 2024년 노벨 화학상의 계기가 된 AI는?",
+          "choices": [
+            "알파폴드",
+            "알파고",
+            "제미나이",
+            "딥 블루"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "데미스 허사비스와 존 점퍼가 노벨 화학상을 받았어요.",
+        "tip": "단백질 접기"
+      }
+    },
+    {
+      "id": "tech-m5027",
+      "difficulty": "hard",
+      "answer": "제프리 힌턴",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2024년 노벨 물리학상을 받은, 인공 신경망 연구의 기초를 놓은 두 학자에 들어가는 사람은?",
+          "choices": [
+            "제프리 힌턴",
+            "일론 머스크",
+            "샘 올트먼",
+            "빌 게이츠"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "존 홉필드와 제프리 힌턴이 받았어요. 힌턴은 '딥러닝의 대부'로 불려요.",
+        "tip": "딥러닝의 대부"
+      }
+    },
+    {
+      "id": "tech-m5028",
+      "difficulty": "normal",
+      "answer": "레벨 5",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람이 운전에 전혀 관여하지 않는 완전 자율 주행은 몇 단계로 분류될까?",
+          "choices": [
+            "레벨 5",
+            "레벨 1",
+            "레벨 3",
+            "레벨 10"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "레벨 0(자동화 없음)부터 레벨 5(완전 자율)까지 6단계로 나눠요.",
+        "tip": "0부터 5까지"
+      }
+    },
+    {
+      "id": "tech-m5029",
+      "difficulty": "normal",
+      "answer": "수소 연료 전지차",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "화석 연료 대신 수소와 산소의 반응으로 전기를 만들어 달리는 자동차는?",
+          "choices": [
+            "수소 연료 전지차",
+            "하이브리드차",
+            "전기차",
+            "디젤차"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "배기가스 대신 물이 나와요. 현대자동차 '넥쏘'가 대표적이에요.",
+        "tip": "배기구에서 물"
+      }
+    },
+    {
+      "id": "tech-m5030",
+      "difficulty": "normal",
+      "answer": "리튬 이온 배터리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "전기차 배터리로 가장 많이 쓰이는 종류는?",
+          "choices": [
+            "리튬 이온 배터리",
+            "납축전지",
+            "알칼리 건전지",
+            "수은 전지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스마트폰 배터리와 같은 종류예요. 개발자들이 2019년 노벨 화학상을 받았어요.",
+        "tip": "스마트폰과 같은 배터리"
+      }
+    },
+    {
+      "id": "tech-m5031",
+      "difficulty": "hard",
+      "answer": "ESS",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "전기를 저장했다가 필요할 때 꺼내 쓰는 대용량 배터리 시설의 약자는?",
+          "choices": [
+            "ESS",
+            "EV",
+            "GPS",
+            "LED"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "에너지 저장 장치(Energy Storage System)예요. 태양광처럼 들쭉날쭉한 전기를 저장해요.",
+        "tip": "전기 저금통"
+      }
+    },
+    {
+      "id": "tech-m5032",
+      "difficulty": "hard",
+      "answer": "BCI",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람이 생각만으로 컴퓨터나 기계를 움직이게 하는 기술의 약자는?",
+          "choices": [
+            "BCI",
+            "API",
+            "GUI",
+            "CPU"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뇌-컴퓨터 인터페이스(Brain-Computer Interface)예요. 몸이 불편한 사람을 돕는 연구가 활발해요.",
+        "tip": "생각으로 조종"
+      }
+    }
+  ]
+}

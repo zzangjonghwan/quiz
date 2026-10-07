@@ -1,5 +1,5 @@
 {
-  "version": 134,
+  "version": 136,
   "files": [
     {
       "category": "idiom",
@@ -669,6 +669,16 @@
     {
       "category": "tech",
       "file": "tech.m3.json",
+      "version": 1
+    },
+    {
+      "category": "tech",
+      "file": "tech.m4.json",
+      "version": 1
+    },
+    {
+      "category": "tech",
+      "file": "tech.m5.json",
       "version": 1
     }
   ]
