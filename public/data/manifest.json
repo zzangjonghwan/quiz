@@ -1,5 +1,5 @@
 {
-  "version": 109,
+  "version": 113,
   "files": [
     {
       "category": "idiom",
@@ -408,6 +408,16 @@
     },
     {
       "category": "film",
+      "file": "film.m2.json",
+      "version": 1
+    },
+    {
+      "category": "film",
+      "file": "film.m3.json",
+      "version": 1
+    },
+    {
+      "category": "film",
       "file": "film.t.json",
       "version": 1
     },
@@ -419,6 +429,16 @@
     {
       "category": "music",
       "file": "music.m.json",
+      "version": 1
+    },
+    {
+      "category": "music",
+      "file": "music.m2.json",
+      "version": 1
+    },
+    {
+      "category": "music",
+      "file": "music.m3.json",
       "version": 1
     },
     {

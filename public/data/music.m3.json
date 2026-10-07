@@ -1,0 +1,1140 @@
+{
+  "category": "music",
+  "version": 1,
+  "cards": [
+    {
+      "id": "music-m3001",
+      "difficulty": "normal",
+      "answer": "블루스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국 남부 흑인들의 노동요와 애환에서 생겨난, 재즈와 록의 뿌리가 된 음악은?",
+          "choices": [
+            "블루스",
+            "컨트리",
+            "가스펠",
+            "디스코"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'블루(우울한)'한 감정을 노래해 이런 이름이 붙었어요. 12마디 형식이 기본이에요.",
+        "tip": "우울한 = blue"
+      }
+    },
+    {
+      "id": "music-m3002",
+      "difficulty": "easy",
+      "answer": "재즈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "20세기 초 미국 뉴올리언스에서 생겨난, 즉흥 연주가 특징인 음악은?",
+          "choices": [
+            "재즈",
+            "블루스",
+            "컨트리",
+            "힙합"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "루이 암스트롱, 마일스 데이비스 같은 연주자가 유명해요. 악보보다 즉흥 연주(애드리브)가 중요해요.",
+        "tip": "즉흥이 생명"
+      }
+    },
+    {
+      "id": "music-m3003",
+      "difficulty": "normal",
+      "answer": "루이 암스트롱",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'새치모'라는 별명으로 불리며 「What a Wonderful World」를 부른 재즈 트럼펫 연주자는?",
+          "choices": [
+            "루이 암스트롱",
+            "마일스 데이비스",
+            "듀크 엘링턴",
+            "레이 찰스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "걸걸한 목소리와 트럼펫 연주로 재즈를 세계에 알렸어요.",
+        "tip": "\"What a wonderful world~\""
+      }
+    },
+    {
+      "id": "music-m3004",
+      "difficulty": "easy",
+      "answer": "힙합",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1970년대 미국 뉴욕 브롱크스의 흑인·라틴계 청년 문화에서 생겨난 음악은?",
+          "choices": [
+            "힙합",
+            "재즈",
+            "디스코",
+            "펑크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "DJ가 음반을 돌리고 MC가 랩을 하며 시작됐어요. 브레이크 댄스, 그라피티와 함께 힙합 문화를 이뤄요.",
+        "tip": "브롱크스의 파티"
+      }
+    },
+    {
+      "id": "music-m3005",
+      "difficulty": "easy",
+      "answer": "디스코",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1970년대 유행한, 반짝이는 미러볼 아래 춤추는 댄스 음악은?",
+          "choices": [
+            "디스코",
+            "펑크 록",
+            "헤비메탈",
+            "그런지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영화 「토요일 밤의 열기」와 비지스의 노래가 디스코 열풍을 이끌었어요.",
+        "tip": "미러볼"
+      }
+    },
+    {
+      "id": "music-m3006",
+      "difficulty": "normal",
+      "answer": "레게",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자메이카에서 생겨난 음악으로, 밥 말리가 세계에 알린 장르는?",
+          "choices": [
+            "레게",
+            "스카",
+            "칼립소",
+            "살사"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "느긋한 엇박자 리듬이 특징이에요. 2018년 유네스코 인류 무형 유산에 올랐어요.",
+        "tip": "밥 말리"
+      }
+    },
+    {
+      "id": "music-m3007",
+      "difficulty": "normal",
+      "answer": "우드스톡",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1969년 미국 뉴욕주 농장에서 3일 동안 열려 40만 명 넘게 모인 전설적인 음악 축제는?",
+          "choices": [
+            "우드스톡",
+            "코첼라",
+            "글래스턴베리",
+            "롤라팔루자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'평화와 음악의 3일'이라는 구호를 내걸었어요. 지미 헨드릭스의 미국 국가 연주가 유명해요.",
+        "tip": "평화와 음악의 3일"
+      }
+    },
+    {
+      "id": "music-m3008",
+      "difficulty": "normal",
+      "answer": "코첼라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해마다 4월 미국 캘리포니아 사막에서 열리는 대형 음악 축제로, 한국 가수들도 무대에 서서 화제가 된 곳은?",
+          "choices": [
+            "코첼라",
+            "우드스톡",
+            "글래스턴베리",
+            "롤라팔루자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2023년 블랙핑크가 아시아 가수 최초로 헤드라이너를 맡았어요.",
+        "tip": "사막의 축제"
+      }
+    },
+    {
+      "id": "music-m3009",
+      "difficulty": "easy",
+      "answer": "보헤미안 랩소디",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국 록 밴드 퀸의 대표곡으로, 오페라와 록을 섞어 6분 가까이 이어지는 노래는?",
+          "choices": [
+            "보헤미안 랩소디",
+            "위 윌 록 유",
+            "위 아 더 챔피언스",
+            "돈 스톱 미 나우"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1975년 발표 당시 너무 길다는 걱정을 들었지만 큰 인기를 끌었어요.",
+        "tip": "\"Mama, just killed a man\""
+      }
+    },
+    {
+      "id": "music-m3010",
+      "difficulty": "normal",
+      "answer": "위 윌 록 유",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "퀸의 노래로, 관객이 '쿵쿵짝' 박자에 맞춰 발을 구르고 손뼉 치게 만든 곡은?",
+          "choices": [
+            "위 윌 록 유",
+            "보헤미안 랩소디",
+            "위 아 더 챔피언스",
+            "라디오 가가"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "기타리스트 브라이언 메이가 관객이 함께할 수 있는 곡을 만들고 싶어 썼어요. 경기장 응원가로 많이 쓰여요.",
+        "tip": "쿵쿵짝"
+      }
+    },
+    {
+      "id": "music-m3011",
+      "difficulty": "hard",
+      "answer": "지미 헨드릭스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'기타의 신'으로 불리며 왼손으로 오른손잡이 기타를 거꾸로 쳐 전설이 된 기타리스트는?",
+          "choices": [
+            "지미 헨드릭스",
+            "에릭 클랩턴",
+            "지미 페이지",
+            "커트 코베인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "불붙은 기타를 무대에서 부수는 퍼포먼스로도 유명해요. 27세에 세상을 떠났어요.",
+        "tip": "거꾸로 든 기타"
+      }
+    },
+    {
+      "id": "music-m3012",
+      "difficulty": "hard",
+      "answer": "27 클럽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "27세에 세상을 떠난 유명 음악가들을 묶어 부르는 말은?",
+          "choices": [
+            "27 클럽",
+            "로큰롤 명예의 전당",
+            "빌보드 클럽",
+            "골든 클럽"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지미 헨드릭스, 재니스 조플린, 짐 모리슨, 커트 코베인, 에이미 와인하우스가 모두 27세에 세상을 떠났어요.",
+        "tip": "안타까운 나이 27"
+      }
+    },
+    {
+      "id": "music-m3013",
+      "difficulty": "hard",
+      "answer": "Smells Like Teen Spirit",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1990년대 '그런지' 열풍을 이끈 미국 밴드 너바나의 대표곡은?",
+          "choices": [
+            "Smells Like Teen Spirit",
+            "Bohemian Rhapsody",
+            "Hotel California",
+            "Stairway to Heaven"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "보컬 커트 코베인이 만든 곡으로, 1991년 앨범 「네버마인드」에 실렸어요.",
+        "tip": "물속 아기 앨범 표지"
+      }
+    },
+    {
+      "id": "music-m3014",
+      "difficulty": "normal",
+      "answer": "호텔 캘리포니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이글스의 노래로, \"언제든 체크아웃할 수 있지만 절대 떠날 수 없다\"는 가사로 유명한 곡은?",
+          "choices": [
+            "호텔 캘리포니아",
+            "보헤미안 랩소디",
+            "스테어웨이 투 헤븐",
+            "이매진"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1976년 발표됐어요. 긴 기타 듀엣 연주가 유명해요.",
+        "tip": "체크아웃은 되는데 못 나가는 호텔"
+      }
+    },
+    {
+      "id": "music-m3015",
+      "difficulty": "normal",
+      "answer": "이매진",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "비틀스 멤버 존 레넌이 \"국경도 종교도 없는 세상을 상상해 보라\"고 노래한 곡은?",
+          "choices": [
+            "이매진",
+            "렛 잇 비",
+            "헤이 주드",
+            "예스터데이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1971년 솔로 앨범에 실린 곡으로, 평화를 상징하는 노래가 됐어요. 올림픽 개막식에서도 자주 불려요.",
+        "tip": "\"Imagine all the people\""
+      }
+    },
+    {
+      "id": "music-m3016",
+      "difficulty": "normal",
+      "answer": "믹 재거",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "비틀스의 멤버가 아닌 사람은?",
+          "choices": [
+            "믹 재거",
+            "존 레넌",
+            "폴 매카트니",
+            "링고 스타"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "비틀스는 존 레넌, 폴 매카트니, 조지 해리슨, 링고 스타였어요. 믹 재거는 롤링 스톤스의 보컬이에요.",
+        "tip": "믹 재거 = 롤링 스톤스"
+      }
+    },
+    {
+      "id": "music-m3017",
+      "difficulty": "normal",
+      "answer": "애비 로드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "비틀스 멤버 네 명이 횡단보도를 건너는 사진이 표지인 앨범의 이름은?",
+          "choices": [
+            "애비 로드",
+            "렛 잇 비",
+            "서전트 페퍼",
+            "화이트 앨범"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "런던 애비 로드 스튜디오 앞 횡단보도예요. 지금도 관광객들이 같은 사진을 찍으러 가요.",
+        "tip": "횡단보도 앨범"
+      }
+    },
+    {
+      "id": "music-m3018",
+      "difficulty": "normal",
+      "answer": "스릴러",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마이클 잭슨의 1982년 앨범으로, 역사상 가장 많이 팔린 앨범으로 꼽히는 것은?",
+          "choices": [
+            "스릴러",
+            "배드",
+            "데인저러스",
+            "오프 더 월"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "좀비 춤이 나오는 14분짜리 뮤직비디오도 큰 화제였어요.",
+        "tip": "좀비 뮤비"
+      }
+    },
+    {
+      "id": "music-m3019",
+      "difficulty": "normal",
+      "answer": "마돈나",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'팝의 여왕'으로 불리며 「Like a Virgin」으로 1980년대를 휩쓴 가수는?",
+          "choices": [
+            "마돈나",
+            "휘트니 휴스턴",
+            "머라이어 캐리",
+            "신디 로퍼"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파격적인 패션과 퍼포먼스로 여성 팝 스타의 새 모습을 보여 줬어요.",
+        "tip": "팝의 여왕"
+      }
+    },
+    {
+      "id": "music-m3020",
+      "difficulty": "normal",
+      "answer": "휘트니 휴스턴",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「보디가드」 주제가 「I Will Always Love You」를 부른 가수는?",
+          "choices": [
+            "휘트니 휴스턴",
+            "셀린 디온",
+            "머라이어 캐리",
+            "마돈나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원곡은 컨트리 가수 돌리 파턴의 노래예요. 휘트니 휴스턴이 다시 불러 세계적으로 히트했어요.",
+        "tip": "\"앤다이야~\""
+      }
+    },
+    {
+      "id": "music-m3021",
+      "difficulty": "easy",
+      "answer": "셀린 디온",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「타이타닉」 주제가 「My Heart Will Go On」을 부른 캐나다 가수는?",
+          "choices": [
+            "셀린 디온",
+            "휘트니 휴스턴",
+            "머라이어 캐리",
+            "샤니아 트웨인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2024년 파리 올림픽 개막식에서 에펠탑 위에서 노래해 감동을 줬어요.",
+        "tip": "타이타닉 OST"
+      }
+    },
+    {
+      "id": "music-m3022",
+      "difficulty": "easy",
+      "answer": "머라이어 캐리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해마다 크리스마스 시즌이면 차트에 다시 오르는 「All I Want for Christmas Is You」를 부른 가수는?",
+          "choices": [
+            "머라이어 캐리",
+            "아리아나 그란데",
+            "셀린 디온",
+            "테일러 스위프트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1994년 발표곡인데 해마다 12월이면 다시 차트 1위에 올라 '캐럴 연금'이라는 말도 생겼어요.",
+        "tip": "캐럴 연금"
+      }
+    },
+    {
+      "id": "music-m3023",
+      "difficulty": "easy",
+      "answer": "그래미 어워드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국 음악 산업계에서 가장 권위 있는 음반 시상식은?",
+          "choices": [
+            "그래미 어워드",
+            "에미 어워드",
+            "토니 어워드",
+            "빌보드 뮤직 어워드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "트로피는 축음기(그라모폰) 모양이에요. 에미는 TV, 토니는 연극·뮤지컬, 오스카는 영화예요.",
+        "tip": "축음기 트로피"
+      }
+    },
+    {
+      "id": "music-m3024",
+      "difficulty": "easy",
+      "answer": "빌보드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국의 대표 음악 순위 차트로, 싱글 순위는 '핫 100'이라 부르는 것은?",
+          "choices": [
+            "빌보드",
+            "오리콘",
+            "멜론",
+            "롤링 스톤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "앨범 순위는 '빌보드 200'이에요. 오리콘은 일본의 음악 차트예요.",
+        "tip": "핫 100"
+      }
+    },
+    {
+      "id": "music-m3025",
+      "difficulty": "easy",
+      "answer": "강남스타일",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2012년 유튜브 최초로 조회 수 10억 회를 넘긴 싸이의 노래는?",
+          "choices": [
+            "강남스타일",
+            "젠틀맨",
+            "대디",
+            "챔피언"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "말 타기 춤이 전 세계에서 유행했어요. 빌보드 핫 100에서 7주 연속 2위에 올랐어요.",
+        "tip": "말춤"
+      }
+    },
+    {
+      "id": "music-m3026",
+      "difficulty": "normal",
+      "answer": "Dynamite",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "K-팝 가수 최초로 빌보드 핫 100 1위에 오른 방탄소년단의 노래는?",
+          "choices": [
+            "Dynamite",
+            "Butter",
+            "Fake Love",
+            "작은 것들을 위한 시"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2020년 8월 발표한 영어 노래로, 핫 100에 1위로 처음 진입했어요.",
+        "tip": "첫 핫 100 1위"
+      }
+    },
+    {
+      "id": "music-m3027",
+      "difficulty": "easy",
+      "answer": "아이유",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'국민 여동생'으로 불리며 「좋은 날」의 3단 고음으로 유명한 가수 겸 배우는?",
+          "choices": [
+            "아이유",
+            "태연",
+            "백지영",
+            "에일리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2010년 「좋은 날」 마지막 부분의 3단 고음이 큰 화제가 됐어요.",
+        "tip": "3단 고음"
+      }
+    },
+    {
+      "id": "music-m3028",
+      "difficulty": "easy",
+      "answer": "트로트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2020년대 초 TV 오디션 열풍으로 다시 큰 인기를 얻은, 꺾는 창법이 특징인 한국 대중가요 장르는?",
+          "choices": [
+            "트로트",
+            "발라드",
+            "인디",
+            "포크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「미스트롯」, 「미스터트롯」 이후 임영웅, 송가인 같은 스타가 나왔어요. 2박자나 4박자의 쿵짝 리듬이 특징이에요.",
+        "tip": "뽕짝"
+      }
+    },
+    {
+      "id": "music-m3029",
+      "difficulty": "easy",
+      "answer": "연습생",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "K-팝 그룹이 데뷔 전 기획사에서 노래와 춤을 배우며 준비하는 기간을 부르는 말은?",
+          "choices": [
+            "연습생",
+            "인턴",
+            "수습생",
+            "견습생"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몇 년씩 연습생 생활을 거쳐 데뷔하는 경우가 많아요.",
+        "tip": "데뷔 전 시절"
+      }
+    },
+    {
+      "id": "music-m3030",
+      "difficulty": "normal",
+      "answer": "빅뱅 - 블링크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "K-팝 그룹의 공식 팬클럽 이름 짝으로 알맞지 않은 것은?",
+          "choices": [
+            "빅뱅 - 블링크",
+            "방탄소년단 - 아미",
+            "블랙핑크 - 블링크",
+            "트와이스 - 원스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빅뱅의 팬클럽은 'VIP'예요. 블링크는 블랙핑크의 팬클럽이에요.",
+        "tip": "빅뱅 = VIP"
+      }
+    },
+    {
+      "id": "music-m3031",
+      "difficulty": "normal",
+      "answer": "빅뱅",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1990년대 후반 데뷔해 '1세대 아이돌'로 꼽히는 그룹이 아닌 것은?",
+          "choices": [
+            "빅뱅",
+            "H.O.T.",
+            "젝스키스",
+            "S.E.S."
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빅뱅은 2006년 데뷔한 2세대 아이돌이에요. H.O.T.는 1996년, 젝스키스는 1997년, S.E.S.는 1997년 데뷔했어요.",
+        "tip": "1세대 = 90년대 후반"
+      }
+    },
+    {
+      "id": "music-m3032",
+      "difficulty": "normal",
+      "answer": "훅",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "노래 한 곡의 가장 귀에 꽂히는 반복 부분, 곧 '후렴'을 부르는 영어 표현은?",
+          "choices": [
+            "훅",
+            "벌스",
+            "브리지",
+            "인트로"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'갈고리(hook)'처럼 귀에 걸린다는 뜻이에요. 노래를 시작하는 부분은 인트로, 이야기를 풀어 가는 부분은 벌스예요.",
+        "tip": "귀에 걸리는 갈고리"
+      }
+    },
+    {
+      "id": "music-m3033",
+      "difficulty": "easy",
+      "answer": "올킬",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "음원이 발매되자마자 여러 음원 차트 1위를 휩쓰는 것을 부르는 말은?",
+          "choices": [
+            "올킬",
+            "역주행",
+            "줄세우기",
+            "차트 인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "모든 차트를 다 잡았다는 뜻이에요. 한 가수의 노래가 차트 상위권을 모두 차지하면 '줄세우기'라고 해요.",
+        "tip": "모든 차트 정복"
+      }
+    },
+    {
+      "id": "music-m3034",
+      "difficulty": "easy",
+      "answer": "역주행",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "예전에 발표한 노래가 뒤늦게 인기를 얻어 차트 순위가 거꾸로 오르는 현상은?",
+          "choices": [
+            "역주행",
+            "올킬",
+            "정주행",
+            "음원 깡패"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "군부대 위문 공연 영상으로 뜬 EXID의 「위아래」, 브레이브걸스의 「롤린」이 대표적이에요.",
+        "tip": "롤린 신화"
+      }
+    },
+    {
+      "id": "music-m3035",
+      "difficulty": "easy",
+      "answer": "오페라의 유령",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "파리 오페라 극장 지하에 숨어 사는 가면 쓴 천재 음악가가 나오는 뮤지컬은?",
+          "choices": [
+            "오페라의 유령",
+            "레 미제라블",
+            "캣츠",
+            "노트르담 드 파리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "앤드루 로이드 웨버가 작곡했어요. 브로드웨이 최장기 공연 기록을 세웠어요.",
+        "tip": "하얀 반쪽 가면"
+      }
+    },
+    {
+      "id": "music-m3036",
+      "difficulty": "easy",
+      "answer": "레 미제라블",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "빅토르 위고의 소설이 원작으로, 장 발장의 일생과 프랑스 혁명기 민중의 이야기를 그린 뮤지컬은?",
+          "choices": [
+            "레 미제라블",
+            "오페라의 유령",
+            "노트르담 드 파리",
+            "미스 사이공"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'불쌍한 사람들'이라는 뜻이에요. 「민중의 노래」가 유명해요.",
+        "tip": "빵 한 조각과 19년"
+      }
+    },
+    {
+      "id": "music-m3037",
+      "difficulty": "normal",
+      "answer": "캣츠",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "T. S. 엘리엇의 시를 바탕으로 고양이들이 주인공인 뮤지컬로, 「메모리」가 유명한 작품은?",
+          "choices": [
+            "캣츠",
+            "라이온 킹",
+            "오페라의 유령",
+            "시카고"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "앤드루 로이드 웨버의 작품이에요. 늙은 고양이 그리자벨라가 「메모리」를 불러요.",
+        "tip": "\"Memory~\""
+      }
+    },
+    {
+      "id": "music-m3038",
+      "difficulty": "normal",
+      "answer": "해밀턴",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국 건국의 아버지를 힙합과 랩으로 그린 브로드웨이 뮤지컬은?",
+          "choices": [
+            "해밀턴",
+            "시카고",
+            "렌트",
+            "위키드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "10달러 지폐 속 인물인 알렉산더 해밀턴의 일생을 다뤘어요. 린마누엘 미란다가 만들었어요.",
+        "tip": "랩으로 부르는 건국 이야기"
+      }
+    },
+    {
+      "id": "music-m3039",
+      "difficulty": "normal",
+      "answer": "위키드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「오즈의 마법사」 속 서쪽 마녀의 숨은 이야기를 그린 뮤지컬은?",
+          "choices": [
+            "위키드",
+            "캣츠",
+            "시카고",
+            "맘마미아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록 피부의 엘파바와 착한 마녀 글린다의 우정을 그렸어요. 「Defying Gravity」가 유명해요.",
+        "tip": "초록 마녀 엘파바"
+      }
+    },
+    {
+      "id": "music-m3040",
+      "difficulty": "easy",
+      "answer": "맘마미아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "스웨덴 그룹 아바(ABBA)의 노래로 만든 뮤지컬은?",
+          "choices": [
+            "맘마미아",
+            "위키드",
+            "렌트",
+            "시카고"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그리스 섬에서 결혼을 앞둔 소피가 아빠 후보 세 명을 초대하는 이야기예요.",
+        "tip": "ABBA 노래 뮤지컬"
+      }
+    },
+    {
+      "id": "music-m3041",
+      "difficulty": "easy",
+      "answer": "브로드웨이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "뮤지컬 공연이 많이 열리는 뉴욕의 극장 거리 이름은?",
+          "choices": [
+            "브로드웨이",
+            "웨스트엔드",
+            "할리우드",
+            "타임스 스퀘어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국 런던의 극장가는 '웨스트엔드'라고 해요.",
+        "tip": "뉴욕 = 브로드웨이, 런던 = 웨스트엔드"
+      }
+    },
+    {
+      "id": "music-m3042",
+      "difficulty": "normal",
+      "answer": "토니상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "브로드웨이 연극과 뮤지컬 분야에서 가장 권위 있는 상은?",
+          "choices": [
+            "토니상",
+            "그래미상",
+            "에미상",
+            "올리비에상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "런던 웨스트엔드의 대표 상은 '올리비에상'이에요. 2025년 한국 창작 뮤지컬 「어쩌면 해피엔딩」이 토니상 작품상을 받았어요.",
+        "tip": "공연 = 토니"
+      }
+    },
+    {
+      "id": "music-m3043",
+      "difficulty": "normal",
+      "answer": "어쩌면 해피엔딩",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2025년 미국 토니상에서 작품상 등 6개 부문을 받은, 버려진 로봇들의 사랑을 그린 한국 창작 뮤지컬은?",
+          "choices": [
+            "어쩌면 해피엔딩",
+            "영웅",
+            "빨래",
+            "레드북"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "박천휴 작가와 윌 애런슨 작곡가가 만든 작품이에요. 한국 창작 뮤지컬 최초의 토니상 작품상이에요.",
+        "tip": "헬퍼봇 올리버와 클레어"
+      }
+    },
+    {
+      "id": "music-m3044",
+      "difficulty": "normal",
+      "answer": "영웅",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "안중근 의사의 이야기를 그린 한국 창작 뮤지컬은?",
+          "choices": [
+            "영웅",
+            "명성황후",
+            "서편제",
+            "광화문 연가"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2009년 초연했고 2022년 영화로도 만들어졌어요. 「누가 죄인인가」가 유명한 넘버예요.",
+        "tip": "하얼빈의 총성"
+      }
+    },
+    {
+      "id": "music-m3045",
+      "difficulty": "hard",
+      "answer": "명성황후",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1995년 초연해 한국 창작 뮤지컬 최초로 미국 뉴욕 무대에 오른 작품은?",
+          "choices": [
+            "명성황후",
+            "영웅",
+            "난타",
+            "지킬 앤 하이드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1997년 뉴욕 링컨 센터에서 공연했어요. 마지막 곡 「백성이여 일어나라」가 유명해요.",
+        "tip": "1997년 뉴욕 링컨 센터"
+      }
+    },
+    {
+      "id": "music-m3046",
+      "difficulty": "easy",
+      "answer": "난타",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대사 없이 부엌칼과 도마 같은 주방 도구로 리듬을 연주하는 한국의 비언어극은?",
+          "choices": [
+            "난타",
+            "점프",
+            "사물놀이",
+            "페인터즈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1997년 초연했어요. 말이 필요 없어 외국인 관광객에게 큰 인기를 끌었어요.",
+        "tip": "칼 도마 드럼"
+      }
+    },
+    {
+      "id": "music-m3047",
+      "difficulty": "normal",
+      "answer": "넘버",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "뮤지컬에 나오는 노래 한 곡 한 곡을 부르는 말은?",
+          "choices": [
+            "넘버",
+            "트랙",
+            "아리아",
+            "레퍼토리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공연 프로그램에 노래마다 번호를 붙여 '넘버'라고 불러요.",
+        "tip": "뮤지컬 곡 = 넘버"
+      }
+    },
+    {
+      "id": "music-m3048",
+      "difficulty": "normal",
+      "answer": "더블 캐스팅",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "같은 배역을 두 명 이상의 배우가 번갈아 맡는 것을 부르는 말은?",
+          "choices": [
+            "더블 캐스팅",
+            "원캐스트",
+            "언더스터디",
+            "카메오"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세 명이 번갈아 하면 트리플 캐스팅이에요. 주연 배우가 갑자기 못 나올 때 대신하는 배우는 언더스터디예요.",
+        "tip": "같은 역, 다른 배우"
+      }
+    },
+    {
+      "id": "music-m3049",
+      "difficulty": "normal",
+      "answer": "아니리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "판소리에서 소리꾼이 노래 사이사이에 말로 이야기를 풀어 가는 부분은?",
+          "choices": [
+            "아니리",
+            "창",
+            "발림",
+            "추임새"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노래는 '창', 몸짓은 '발림', 고수와 관객이 \"얼쑤!\" 하고 넣는 소리는 '추임새'예요.",
+        "tip": "노래 = 창, 말 = 아니리"
+      }
+    },
+    {
+      "id": "music-m3050",
+      "difficulty": "easy",
+      "answer": "추임새",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "판소리 공연에서 고수나 관객이 \"얼씨구\", \"좋다\" 하고 흥을 돋우는 소리는?",
+          "choices": [
+            "추임새",
+            "아니리",
+            "발림",
+            "시김새"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "관객도 공연에 함께하는 판소리만의 문화예요.",
+        "tip": "\"얼쑤!\""
+      }
+    },
+    {
+      "id": "music-m3051",
+      "difficulty": "hard",
+      "answer": "진양조 - 중모리 - 자진모리 - 휘모리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'느리게'에서 '아주 빠르게'까지, 판소리와 산조에서 쓰는 장단이 느린 것부터 바르게 놓인 것은?",
+          "choices": [
+            "진양조 - 중모리 - 자진모리 - 휘모리",
+            "휘모리 - 자진모리 - 중모리 - 진양조",
+            "중모리 - 진양조 - 휘모리 - 자진모리",
+            "자진모리 - 진양조 - 휘모리 - 중모리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "진양조가 가장 느리고 휘모리가 가장 빨라요. '휘몰아친다'를 떠올리면 쉬워요.",
+        "tip": "휘몰아치는 = 가장 빠름"
+      }
+    },
+    {
+      "id": "music-m3052",
+      "difficulty": "normal",
+      "answer": "정악",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 궁중 연회나 제례에서 연주된 음악을 부르는 말은?",
+          "choices": [
+            "정악",
+            "민속악",
+            "판소리",
+            "산조"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'바른 음악'이라는 뜻이에요. 서민들이 즐긴 판소리, 민요, 농악 등은 민속악이에요.",
+        "tip": "궁중 = 정악, 백성 = 민속악"
+      }
+    },
+    {
+      "id": "music-m3053",
+      "difficulty": "normal",
+      "answer": "종묘 제례악",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 왕실 사당에서 제사 때 연주하는 음악으로, 2001년 유네스코 무형 유산 걸작에 오른 것은?",
+          "choices": [
+            "종묘 제례악",
+            "문묘 제례악",
+            "수제천",
+            "여민락"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세종이 만든 곡을 바탕으로 해요. 노래, 춤, 악기 연주가 어우러져요.",
+        "tip": "세종이 만든 제사 음악"
+      }
+    },
+    {
+      "id": "music-m3054",
+      "difficulty": "hard",
+      "answer": "정간보",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세종이 만든 것으로, 소리의 길이와 높이를 함께 적을 수 있는 동양 최초의 악보는?",
+          "choices": [
+            "정간보",
+            "오선보",
+            "육보",
+            "합자보"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "네모 칸(정간) 하나를 한 박으로 삼아 칸 안에 음을 적어요.",
+        "tip": "우물 정(井) 모양 칸"
+      }
+    }
+  ]
+}
