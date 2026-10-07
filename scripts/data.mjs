@@ -31,7 +31,7 @@ const manifest = { version: 0, files: [] }
 const summary = []
 
 const isText = (v) => typeof v === 'string' && v.trim().length > 0
-const dataFiles = readdirSync(DATA_DIR).filter((f) => f.endsWith('.json') && f !== 'manifest.json')
+const dataFiles = readdirSync(DATA_DIR).filter((f) => f.endsWith('.json') && f !== 'manifest.json' && f !== 'stories.json')
 
 for (const f of dataFiles) {
   if (!CATEGORIES.includes(f.split('.')[0])) errors.push(`${f}: 알 수 없는 카테고리 파일`)
