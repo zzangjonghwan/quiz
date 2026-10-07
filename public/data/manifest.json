@@ -1,5 +1,5 @@
 {
-  "version": 190,
+  "version": 191,
   "files": [
     {
       "category": "idiom",
@@ -179,6 +179,11 @@
     {
       "category": "celeb",
       "file": "celeb.m2.json",
+      "version": 1
+    },
+    {
+      "category": "celeb",
+      "file": "celeb.m3.json",
       "version": 1
     },
     {
