@@ -1,0 +1,594 @@
+{
+  "category": "koreanhistory",
+  "version": 1,
+  "cards": [
+    {
+      "id": "koreanhistory-m2001",
+      "difficulty": "easy",
+      "answer": "빗살무늬 토기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "물고기 뼈처럼 빗금을 새긴, 신석기 시대를 대표하는 토기는?",
+          "choices": [
+            "빗살무늬 토기",
+            "민무늬 토기",
+            "덧띠 토기",
+            "청자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "바닥이 뾰족해 모래나 흙에 꽂아 썼어요. 청동기 시대에는 무늬 없는 민무늬 토기를 주로 썼어요.",
+        "tip": "신석기 = 빗살무늬, 청동기 = 민무늬"
+      }
+    },
+    {
+      "id": "koreanhistory-m2002",
+      "difficulty": "normal",
+      "answer": "비파형 동검",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "악기 비파를 닮은 모양으로, 고조선의 세력 범위를 알려 주는 청동기 유물은?",
+          "choices": [
+            "비파형 동검",
+            "세형 동검",
+            "청동 거울",
+            "반달 돌칼"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "비파형 동검은 고인돌, 미송리식 토기와 함께 고조선의 대표 유물이에요. 뒤에 더 가는 세형 동검으로 발전했어요.",
+        "tip": "고조선 3대 유물: 비파형 동검·고인돌·미송리식 토기"
+      }
+    },
+    {
+      "id": "koreanhistory-m2003",
+      "difficulty": "normal",
+      "answer": "동예",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "삼국이 세워지기 전 한반도 남쪽에 있던 '삼한'에 속하지 않는 것은?",
+          "choices": [
+            "동예",
+            "마한",
+            "진한",
+            "변한"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "마한은 백제로, 진한은 신라로, 변한은 가야로 이어졌어요. 동예는 강원도 북부 동해안에 있던 나라예요.",
+        "tip": "마한→백제, 진한→신라, 변한→가야"
+      }
+    },
+    {
+      "id": "koreanhistory-m2004",
+      "difficulty": "hard",
+      "answer": "동맹",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고구려에서 해마다 10월에 하늘에 제사 지내던 행사는?",
+          "choices": [
+            "동맹",
+            "영고",
+            "무천",
+            "팔관회"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "부여는 영고(12월), 고구려는 동맹(10월), 동예는 무천(10월)이라는 제천 행사를 열었어요. 추수 감사제 성격이었어요.",
+        "tip": "부여 영고, 고구려 동맹, 동예 무천"
+      }
+    },
+    {
+      "id": "koreanhistory-m2005",
+      "difficulty": "hard",
+      "answer": "무용총",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "말을 탄 무사들이 활로 사냥하는 '수렵도'가 그려진 고구려 무덤은?",
+          "choices": [
+            "무용총",
+            "장군총",
+            "천마총",
+            "무령왕릉"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "무용총은 춤추는 사람들 그림(무용도)에서 이름이 붙었어요. 고구려 사람들의 씩씩한 기상을 보여 줘요.",
+        "tip": "춤(무용) 그림이 있는 무덤"
+      }
+    },
+    {
+      "id": "koreanhistory-m2006",
+      "difficulty": "hard",
+      "answer": "나당 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "신라가 당나라 군대를 매소성과 기벌포에서 물리치고 삼국 통일을 완성한 전쟁은?",
+          "choices": [
+            "나당 전쟁",
+            "살수 대첩",
+            "황산벌 전투",
+            "백강 전투"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "백제와 고구려를 함께 무너뜨린 당나라가 한반도 전체를 차지하려 하자, 신라가 맞서 싸워 676년 당을 몰아냈어요.",
+        "tip": "나(신라) + 당"
+      }
+    },
+    {
+      "id": "koreanhistory-m2007",
+      "difficulty": "hard",
+      "answer": "풍납토성과 몽촌토성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "서울 송파구에 있는, 백제 초기 수도 한성의 흙으로 쌓은 성 두 곳은?",
+          "choices": [
+            "풍납토성과 몽촌토성",
+            "남한산성과 북한산성",
+            "공산성과 부소산성",
+            "국내성과 환도산성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "백제는 처음 한강 유역 한성에 도읍했어요. 웅진(공주) 시대 성은 공산성, 사비(부여) 시대 성은 부소산성이에요.",
+        "tip": "한성(서울) → 웅진(공주) → 사비(부여)"
+      }
+    },
+    {
+      "id": "koreanhistory-m2008",
+      "difficulty": "easy",
+      "answer": "고려",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영어 이름 'Korea'의 유래가 된 나라는?",
+          "choices": [
+            "고려",
+            "고구려",
+            "고조선",
+            "조선"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "고려 때 예성강 하구 벽란도에 아라비아 상인들까지 드나들며 '고려(Corea)'라는 이름이 서양에 알려졌어요.",
+        "tip": "고려 → Corea → Korea"
+      }
+    },
+    {
+      "id": "koreanhistory-m2009",
+      "difficulty": "hard",
+      "answer": "벽란도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고려의 수도 개경 가까이에 있어 송나라와 아라비아 상인까지 드나든 국제 무역항은?",
+          "choices": [
+            "벽란도",
+            "청해진",
+            "제물포",
+            "울산항"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "예성강 하구의 벽란도는 고려 최대의 무역항이었어요. 청해진은 통일 신라 장보고의 해상 기지예요.",
+        "tip": "고려의 국제항"
+      }
+    },
+    {
+      "id": "koreanhistory-m2010",
+      "difficulty": "hard",
+      "answer": "팔관회",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고려 시대 불교 행사로, 부처와 함께 토속 신에게도 제사를 지낸 국가 행사는?",
+          "choices": [
+            "팔관회",
+            "연등회",
+            "동맹",
+            "무천"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태조 왕건은 「훈요 10조」에서 연등회와 팔관회를 꼭 열라고 당부했어요. 팔관회에는 외국 사신과 상인도 참여했어요.",
+        "tip": "고려 2대 행사: 연등회·팔관회"
+      }
+    },
+    {
+      "id": "koreanhistory-m2011",
+      "difficulty": "hard",
+      "answer": "장경판전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "팔만대장경판을 보관하고 있는 해인사의 건물은?",
+          "choices": [
+            "장경판전",
+            "대웅전",
+            "극락전",
+            "무량수전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "바람이 잘 통하고 습도가 조절되도록 지어 700년 넘게 경판을 지켜 왔어요. 유네스코 세계 유산이에요.",
+        "tip": "경판을 지킨 과학 건축"
+      }
+    },
+    {
+      "id": "koreanhistory-m2012",
+      "difficulty": "easy",
+      "answer": "조선",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1392년 이성계가 세운 나라는?",
+          "choices": [
+            "조선",
+            "고려",
+            "대한제국",
+            "후고구려"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이성계는 위화도 회군으로 권력을 잡은 뒤 고려를 무너뜨리고 조선을 세웠어요. 조선은 500년 넘게 이어졌어요.",
+        "tip": "1392 조선 건국"
+      }
+    },
+    {
+      "id": "koreanhistory-m2013",
+      "difficulty": "normal",
+      "answer": "4군 6진",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세종 때 최윤덕과 김종서를 보내 압록강과 두만강 일대를 개척한 일을 부르는 말은?",
+          "choices": [
+            "4군 6진",
+            "강동 6주",
+            "동북 9성",
+            "삼포 개항"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이때 개척으로 지금 한반도 국경선의 기틀이 잡혔어요. 강동 6주는 서희의 외교, 동북 9성은 윤관의 정벌로 얻은 땅이에요.",
+        "tip": "압록강 4군, 두만강 6진"
+      }
+    },
+    {
+      "id": "koreanhistory-m2014",
+      "difficulty": "hard",
+      "answer": "대마도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1419년 세종 때 이종무가 왜구의 근거지를 정벌한 섬은?",
+          "choices": [
+            "대마도",
+            "제주도",
+            "울릉도",
+            "강화도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "왜구의 노략질이 심해지자 상왕 태종의 주도로 대마도(쓰시마)를 정벌했어요.",
+        "tip": "쓰시마 정벌"
+      }
+    },
+    {
+      "id": "koreanhistory-m2015",
+      "difficulty": "easy",
+      "answer": "측우기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세종 때 만들어 각 지방에서 비가 내린 양을 재는 데 쓴 기구는?",
+          "choices": [
+            "측우기",
+            "자격루",
+            "앙부일구",
+            "혼천의"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1441년 만든 측우기는 비의 양을 과학적으로 잰 세계 최초의 기구 가운데 하나로 꼽혀요. 자격루는 물시계, 앙부일구는 해시계예요.",
+        "tip": "측(재다) 우(비) 기(기구)"
+      }
+    },
+    {
+      "id": "koreanhistory-m2016",
+      "difficulty": "easy",
+      "answer": "거북선",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "임진왜란 때 이순신이 활약시킨, 등에 쇠못을 꽂아 적이 올라타지 못하게 한 배는?",
+          "choices": [
+            "거북선",
+            "판옥선",
+            "세곡선",
+            "안택선"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "거북선은 판옥선 위에 덮개를 씌우고 철침을 박아 만든 돌격선이에요. 용머리에서 연기나 포를 뿜었어요.",
+        "tip": "판옥선이 주력, 거북선은 돌격대"
+      }
+    },
+    {
+      "id": "koreanhistory-m2017",
+      "difficulty": "hard",
+      "answer": "백운동 서원",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1543년 주세붕이 세운 우리나라 최초의 서원은?",
+          "choices": [
+            "백운동 서원",
+            "도산 서원",
+            "병산 서원",
+            "성균관"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "백운동 서원은 뒤에 임금이 이름을 내려 준 '소수 서원'이 되었어요. 성균관은 나라에서 세운 최고 교육 기관이에요.",
+        "tip": "백운동 → 소수 서원"
+      }
+    },
+    {
+      "id": "koreanhistory-m2018",
+      "difficulty": "hard",
+      "answer": "향약",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 마을 사람들이 서로 돕고 잘못을 바로잡으려고 만든 자치 규약은?",
+          "choices": [
+            "향약",
+            "두레",
+            "계",
+            "오가작통법"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "좋은 일은 서로 권하고, 잘못은 서로 바로잡고, 예의로 사귀고, 어려울 때 서로 돕자는 네 가지 덕목이 핵심이에요.",
+        "tip": "덕업상권·과실상규·예속상교·환난상휼"
+      }
+    },
+    {
+      "id": "koreanhistory-m2019",
+      "difficulty": "normal",
+      "answer": "조선 통신사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 일본에 보낸 공식 외교 사절단은?",
+          "choices": [
+            "조선 통신사",
+            "연행사",
+            "보빙사",
+            "수신사"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "임진왜란 뒤 끊겼던 교류를 다시 이으며 12차례 일본에 갔어요. 일본에서는 성대하게 맞이했어요. 수신사는 개항 뒤 일본에 보낸 사절이에요.",
+        "tip": "통신(通信) = 믿음을 나눔"
+      }
+    },
+    {
+      "id": "koreanhistory-m2020",
+      "difficulty": "hard",
+      "answer": "호조",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 관청 6조 가운데 나라의 재정과 세금을 맡은 곳은?",
+          "choices": [
+            "호조",
+            "이조",
+            "예조",
+            "공조"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이조는 인사, 호조는 재정, 예조는 외교·교육, 병조는 군사, 형조는 법, 공조는 건설을 맡았어요.",
+        "tip": "호(戶) = 집집마다 걷는 세금"
+      }
+    },
+    {
+      "id": "koreanhistory-m2021",
+      "difficulty": "normal",
+      "answer": "중인",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 신분 가운데 의관, 역관 같은 기술직이나 하급 관리가 속한 계층은?",
+          "choices": [
+            "중인",
+            "양반",
+            "상민",
+            "천민"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "조선의 신분은 크게 양반, 중인, 상민, 천민으로 나뉘었어요. 중인은 통역관, 의사, 화원 같은 전문직이었어요.",
+        "tip": "양반과 상민 사이 = 중인"
+      }
+    },
+    {
+      "id": "koreanhistory-m2022",
+      "difficulty": "easy",
+      "answer": "숭례문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한양 도성의 남쪽 정문으로 '남대문'이라고도 불리는 문의 정식 이름은?",
+          "choices": [
+            "숭례문",
+            "흥인지문",
+            "돈의문",
+            "숙정문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "숭례문(남), 흥인지문(동), 돈의문(서), 숙정문(북)이 한양의 4대문이에요. 숭례문은 2008년 화재 뒤 복원되었어요.",
+        "tip": "인의예지 중 예(禮) = 남쪽"
+      }
+    },
+    {
+      "id": "koreanhistory-m2023",
+      "difficulty": "normal",
+      "answer": "흥인지문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한양 도성의 동쪽 문으로 '동대문'이라고 불리는 문의 정식 이름은?",
+          "choices": [
+            "흥인지문",
+            "숭례문",
+            "돈의문",
+            "광화문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "4대문 이름에는 유교 덕목 인(仁)·의(義)·예(禮)·지(智)가 들어 있어요. 동쪽은 인(仁)이에요. 광화문은 경복궁의 정문이에요.",
+        "tip": "동 = 인(仁)"
+      }
+    },
+    {
+      "id": "koreanhistory-m2024",
+      "difficulty": "normal",
+      "answer": "창덕궁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선의 궁궐 가운데 자연 지형을 살려 지어 1997년 유네스코 세계 유산이 된 곳은?",
+          "choices": [
+            "창덕궁",
+            "경복궁",
+            "덕수궁",
+            "창경궁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "창덕궁은 조선 왕들이 가장 오래 머문 궁궐이에요. 뒤뜰 '후원(비원)'이 특히 아름다워요.",
+        "tip": "자연과 어우러진 궁궐"
+      }
+    },
+    {
+      "id": "koreanhistory-m2025",
+      "difficulty": "normal",
+      "answer": "종묘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 왕과 왕비의 신주를 모시고 제사를 지내던 사당으로, 유네스코 세계 유산인 곳은?",
+          "choices": [
+            "종묘",
+            "사직단",
+            "성균관",
+            "환구단"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "종묘에서 지내는 제사와 제례악은 유네스코 인류 무형 유산이기도 해요. 사직단은 땅과 곡식의 신에게 제사 지내던 곳이에요.",
+        "tip": "종묘사직 = 나라"
+      }
+    },
+    {
+      "id": "koreanhistory-m2026",
+      "difficulty": "normal",
+      "answer": "1919년 대한민국 임시 정부",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'대한민국'이라는 나라 이름을 처음 공식으로 쓴 것은?",
+          "choices": [
+            "1919년 대한민국 임시 정부",
+            "1897년 대한제국",
+            "1945년 광복",
+            "1948년 정부 수립"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1919년 상하이에서 세워진 임시 정부가 '대한민국'을 국호로 정했어요. 1948년 정부가 이 이름을 이어받았어요.",
+        "tip": "대한제국 → 대한민국 임시 정부"
+      }
+    },
+    {
+      "id": "koreanhistory-m2027",
+      "difficulty": "hard",
+      "answer": "신간회",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1927년 민족주의 세력과 사회주의 세력이 손잡고 만든 최대의 항일 단체는?",
+          "choices": [
+            "신간회",
+            "신민회",
+            "독립 협회",
+            "의열단"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "전국에 140여 개 지회를 두었고, 광주 학생 항일 운동 때 조사단을 보내 지원했어요. 신민회는 1907년 안창호 등이 만든 비밀 단체예요.",
+        "tip": "좌우 합작 = 신간회"
+      }
+    },
+    {
+      "id": "koreanhistory-m2028",
+      "difficulty": "easy",
+      "answer": "무궁화",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라의 나라꽃은?",
+          "choices": [
+            "무궁화",
+            "진달래",
+            "개나리",
+            "목련"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'다함이 없이 피는 꽃'이라는 뜻으로, 여름부터 가을까지 100일 가까이 계속 피고 져요. 애국가 후렴에도 나와요.",
+        "tip": "무궁화 삼천리 화려 강산"
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": 81,
+  "version": 84,
   "files": [
     {
       "category": "idiom",
@@ -134,6 +134,11 @@
     {
       "category": "koreanhistory",
       "file": "koreanhistory.m.json",
+      "version": 1
+    },
+    {
+      "category": "koreanhistory",
+      "file": "koreanhistory.m2.json",
       "version": 1
     },
     {
@@ -322,6 +327,11 @@
       "version": 1
     },
     {
+      "category": "economy",
+      "file": "economy.m3.json",
+      "version": 1
+    },
+    {
       "category": "book",
       "file": "book.json",
       "version": 1
@@ -404,6 +414,11 @@
     {
       "category": "tech",
       "file": "tech.m2.json",
+      "version": 1
+    },
+    {
+      "category": "tech",
+      "file": "tech.m3.json",
       "version": 1
     }
   ]
