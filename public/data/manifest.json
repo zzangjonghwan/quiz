@@ -1,5 +1,5 @@
 {
-  "version": 178,
+  "version": 179,
   "files": [
     {
       "category": "idiom",
@@ -649,6 +649,11 @@
     {
       "category": "book",
       "file": "book.t.json",
+      "version": 1
+    },
+    {
+      "category": "book",
+      "file": "book.t2.json",
       "version": 1
     },
     {
