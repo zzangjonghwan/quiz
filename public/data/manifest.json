@@ -1,5 +1,5 @@
 {
-  "version": 168,
+  "version": 170,
   "files": [
     {
       "category": "idiom",
@@ -364,6 +364,16 @@
     {
       "category": "geo",
       "file": "geo.m3.json",
+      "version": 1
+    },
+    {
+      "category": "geo",
+      "file": "geo.m4.json",
+      "version": 1
+    },
+    {
+      "category": "geo",
+      "file": "geo.m5.json",
       "version": 1
     },
     {
