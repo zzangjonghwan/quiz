@@ -1,5 +1,5 @@
 {
-  "version": 207,
+  "version": 208,
   "files": [
     {
       "category": "idiom",
@@ -609,6 +609,11 @@
     {
       "category": "food",
       "file": "food.m7.json",
+      "version": 1
+    },
+    {
+      "category": "food",
+      "file": "food.m8.json",
       "version": 1
     },
     {
