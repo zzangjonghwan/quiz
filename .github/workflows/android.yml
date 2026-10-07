@@ -1,0 +1,70 @@
+# Builds a signed release APK.
+# - Push to main: APK is attached to the workflow run as an artifact (for testing).
+# - Push a tag like v0.1.0: APK is also published to GitHub Releases (for sharing).
+#
+# versionCode comes from github.run_number, which only grows for this workflow file.
+# Don't rename this file: the counter would reset and phones would refuse the update.
+name: Android APK
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build web app and sync to Android
+        run: npm run cap:sync
+
+      - name: Decode signing key
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.jks"
+
+      - name: Build signed APK
+        working-directory: android
+        env:
+          ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/release.jks
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          VERSION_NAME=$(node -p "require('../package.json').version")
+          chmod +x gradlew
+          ./gradlew assembleRelease \
+            -PversionCode=${{ github.run_number }} \
+            -PversionName="$VERSION_NAME"
+          mkdir -p ../out
+          cp app/build/outputs/apk/release/app-release.apk "../out/sangsikhanip-$VERSION_NAME.apk"
+
+      - uses: actions/upload-artifact@v5
+        with:
+          name: sangsikhanip-apk
+          path: out/*.apk
+
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" out/*.apk --title "상식한입 $GITHUB_REF_NAME" --generate-notes
