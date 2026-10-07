@@ -1,0 +1,386 @@
+{
+  "category": "economy",
+  "version": 1,
+  "cards": [
+    {
+      "id": "economy-m8001",
+      "difficulty": "normal",
+      "answer": "다보탑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 10원짜리 동전에 새겨진 문화유산은?",
+          "choices": [
+            "다보탑",
+            "석가탑",
+            "첨성대",
+            "숭례문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "50원에는 벼 이삭, 100원에는 이순신, 500원에는 학이 새겨져 있어요.",
+        "tip": "불국사 탑"
+      }
+    },
+    {
+      "id": "economy-m8002",
+      "difficulty": "normal",
+      "answer": "벼 이삭",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 50원짜리 동전에 새겨진 그림은?",
+          "choices": [
+            "벼 이삭",
+            "무궁화",
+            "학",
+            "거북선"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "쌀 증산을 바라는 뜻을 담았어요. 1원짜리 동전에는 무궁화가 있어요.",
+        "tip": "쌀"
+      }
+    },
+    {
+      "id": "economy-m8003",
+      "difficulty": "hard",
+      "answer": "혼천의",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1만 원권 지폐 뒷면에 그려진 조선 시대 천체 관측 기구는?",
+          "choices": [
+            "혼천의",
+            "측우기",
+            "자격루",
+            "앙부일구"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "앞면에는 세종 대왕이 있어요. 혼천의 뒤로 「천상열차분야지도」가 함께 그려져 있어요.",
+        "tip": "천체 관측기"
+      }
+    },
+    {
+      "id": "economy-m8004",
+      "difficulty": "hard",
+      "answer": "실제로 있는 건축물이 아니라 시대별 양식을 본뜬 가상의 그림이다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "유로 지폐에 그려진 다리와 문 그림의 특징은?",
+          "choices": [
+            "실제로 있는 건축물이 아니라 시대별 양식을 본뜬 가상의 그림이다",
+            "모두 벨기에 브뤼셀에 실제로 있는 유명한 건물이다",
+            "나라마다 자기 나라 대표 건물을 골라 따로 그린다",
+            "역대 유럽 연합 의장들이 살았던 집을 그린 것이다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "어느 한 나라를 편들지 않으려고 실제 건물 대신 가상의 건축물을 그렸어요.",
+        "tip": "어디에도 없는 다리"
+      }
+    },
+    {
+      "id": "economy-m8005",
+      "difficulty": "normal",
+      "answer": "마오쩌둥",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중국 위안화 지폐 앞면에 주로 그려진 인물은?",
+          "choices": [
+            "마오쩌둥",
+            "쑨원",
+            "덩샤오핑",
+            "공자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "100위안부터 1위안까지 대부분의 지폐 앞면에 그려져 있어요.",
+        "tip": "중국의 지폐"
+      }
+    },
+    {
+      "id": "economy-m8006",
+      "difficulty": "hard",
+      "answer": "시부사와 에이이치",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2024년 새로 나온 일본 1만 엔권 지폐의 인물로, '일본 자본주의의 아버지'로 불리는 사람은?",
+          "choices": [
+            "시부사와 에이이치",
+            "후쿠자와 유키치",
+            "노구치 히데요",
+            "이토 히로부미"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "은행과 회사 500여 곳을 세웠어요. 일제 강점기 대한 제국에서 일본 제일은행권 발행에 관여해 우리에게는 불편한 인물이기도 해요.",
+        "tip": "새 1만 엔"
+      }
+    },
+    {
+      "id": "economy-m8007",
+      "difficulty": "hard",
+      "answer": "30개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국 다우 존스 산업 평균 지수는 몇 개 대표 기업의 주가로 계산할까?",
+          "choices": [
+            "30개",
+            "10개",
+            "100개",
+            "500개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1896년 처음에는 12개 기업으로 시작했어요. S&P 500은 500개 기업이에요.",
+        "tip": "다우 30"
+      }
+    },
+    {
+      "id": "economy-m8008",
+      "difficulty": "normal",
+      "answer": "닛케이 225",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "일본 도쿄 증권 거래소의 대표 주가 지수는?",
+          "choices": [
+            "닛케이 225",
+            "항셍 지수",
+            "코스피",
+            "DAX"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "홍콩은 항셍 지수, 독일은 DAX, 영국은 FTSE 100이 대표 지수예요.",
+        "tip": "일본 경제 신문"
+      }
+    },
+    {
+      "id": "economy-m8009",
+      "difficulty": "normal",
+      "answer": "오전 9시 ~ 오후 3시 30분",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 주식 시장(정규장)이 열리는 시간은?",
+          "choices": [
+            "오전 9시 ~ 오후 3시 30분",
+            "오전 10시 ~ 오후 4시",
+            "오전 8시 ~ 오후 6시",
+            "24시간"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정규장 앞뒤로 시간 외 거래도 있어요.",
+        "tip": "9시 개장"
+      }
+    },
+    {
+      "id": "economy-m8010",
+      "difficulty": "hard",
+      "answer": "데카콘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기업 가치가 100억 달러를 넘는 비상장 스타트업을 부르는 말은?",
+          "choices": [
+            "데카콘",
+            "유니콘",
+            "헥토콘",
+            "페가수스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "유니콘(10억 달러)의 10배라는 뜻으로 그리스어 '데카(10)'를 붙였어요.",
+        "tip": "유니콘 × 10"
+      }
+    },
+    {
+      "id": "economy-m8011",
+      "difficulty": "normal",
+      "answer": "쿠팡",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2021년 미국 뉴욕 증권 거래소에 상장해 큰 화제가 된 우리나라 전자 상거래 기업은?",
+          "choices": [
+            "쿠팡",
+            "네이버",
+            "카카오",
+            "배달의민족"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'로켓배송'으로 유명해요. 상장 첫날 시가 총액이 100조 원을 넘었어요.",
+        "tip": "로켓배송"
+      }
+    },
+    {
+      "id": "economy-m8012",
+      "difficulty": "normal",
+      "answer": "포니",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1975년 현대자동차가 내놓은 우리나라 최초의 고유 모델 자동차는?",
+          "choices": [
+            "포니",
+            "스텔라",
+            "엑셀",
+            "시발"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이탈리아 디자이너 조르제토 주지아로가 디자인했어요. 에콰도르에 처음 수출됐어요.",
+        "tip": "첫 국산차 모델"
+      }
+    },
+    {
+      "id": "economy-m8013",
+      "difficulty": "normal",
+      "answer": "포스코",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1973년 경북 포항에서 처음 쇳물을 생산한, 우리나라 최초의 일관 제철소를 세운 회사의 지금 이름은?",
+          "choices": [
+            "포스코",
+            "현대제철",
+            "동국제강",
+            "세아제강"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "처음 이름은 '포항 종합 제철'이었어요.",
+        "tip": "포항 제철"
+      }
+    },
+    {
+      "id": "economy-m8014",
+      "difficulty": "normal",
+      "answer": "10,320원",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2026년 우리나라 최저 임금(시급)은?",
+          "choices": [
+            "10,320원",
+            "9,860원",
+            "10,030원",
+            "11,000원"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2025년 10,030원에서 2.9% 올랐어요. 최저 임금 위원회에서 해마다 정해요.",
+        "tip": "1만 원 시대"
+      }
+    },
+    {
+      "id": "economy-m8015",
+      "difficulty": "hard",
+      "answer": "45%",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 개인 소득세의 가장 높은 세율은? (지방 소득세 제외, 2026년 기준)",
+          "choices": [
+            "45%",
+            "25%",
+            "35%",
+            "60%"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "과세 표준 10억 원을 넘는 부분에 적용돼요. 소득이 많을수록 세율이 높아지는 누진세예요.",
+        "tip": "최고 세율"
+      }
+    },
+    {
+      "id": "economy-m8016",
+      "difficulty": "normal",
+      "answer": "이익률",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "물건을 만들 때 원가보다 비싸게 팔아 남기는 이익을 '매출' 대비 비율로 나타낸 것은?",
+          "choices": [
+            "이익률",
+            "할인율",
+            "환율",
+            "실업률"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "매출에서 영업 이익이 차지하는 비율을 '영업 이익률'이라고 해요.",
+        "tip": "남는 비율"
+      }
+    },
+    {
+      "id": "economy-m8017",
+      "difficulty": "hard",
+      "answer": "블룸버그",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계 3대 신용 평가 회사가 아닌 것은?",
+          "choices": [
+            "블룸버그",
+            "무디스",
+            "S&P",
+            "피치"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세 회사가 나라와 기업의 빚 갚을 능력을 AAA 같은 등급으로 매겨요. 블룸버그는 금융 정보 회사예요.",
+        "tip": "무디스·S&P·피치"
+      }
+    },
+    {
+      "id": "economy-m8018",
+      "difficulty": "hard",
+      "answer": "통화 스와프",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "두 나라 중앙은행이 정해진 환율로 서로의 돈을 바꿔 주기로 약속해 외환 위기에 대비하는 계약은?",
+          "choices": [
+            "통화 스와프",
+            "양적 완화",
+            "기준 금리",
+            "외환 보유액"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'스와프'는 '교환'이라는 뜻이에요. 2008년 금융 위기 때 한미 통화 스와프가 큰 도움이 됐어요.",
+        "tip": "비상용 달러 통장"
+      }
+    }
+  ]
+}
