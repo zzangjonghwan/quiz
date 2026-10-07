@@ -38,8 +38,8 @@ export const CREDITS: Record<string, Credit> = {
   },
   'gemini-tts': {
     title: 'Google Gemini TTS',
-    usedFor: '상식플러스 이야기 음성 (아린, 모아, 도윤, 프로듀서)',
-    author: 'Google Gemini 음성 생성(Aoede, Leda, Sulafat, Sadaltager 음성)으로 제작',
+    usedFor: '상식플러스 이야기 음성 (모아, 아린)',
+    author: 'Google Gemini 음성 생성(Leda, Aoede 음성)으로 제작',
     license: 'Google Gemini API 이용 약관',
   },
 }

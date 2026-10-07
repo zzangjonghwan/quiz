@@ -1,10 +1,10 @@
 // Builds 상식플러스 audio stories: voices each paragraph of content/stories/*.mjs with Gemini TTS
-// in every app voice (arin, moa, doyun, producer), joins them into one MP3 per story and voice,
+// in the app's voices (moa, the default, and arin), joins them into one MP3 per story and voice,
 // and writes public/data/stories.json with the text, paragraph timings and audio file names.
 //
 //   node scripts/stories.mjs                      build everything missing or changed
 //   node scripts/stories.mjs <id> ...             only these stories
-//   node scripts/stories.mjs --voice=moa,doyun    only these voices
+//   node scripts/stories.mjs --voice=moa          only these voices
 //   node scripts/stories.mjs <id> --force         voice again even if the text is unchanged
 //   node scripts/stories.mjs --samples            the short preview clips in public/voices
 //
@@ -27,8 +27,6 @@ const AUDIO = join(OUT, 'audio')
 const VOICES = {
   arin: { name: 'Aoede', model: 'gemini-3.8-flash-tts' },
   moa: { name: 'Leda', model: 'gemini-3.8-flash-tts' },
-  doyun: { name: 'Sulafat', model: 'gemini-3.8-flash-lite-tts' },
-  producer: { name: 'Sadaltager', model: 'gemini-3.8-flash-tts' },
 }
 /** Listens to a finished take and reports where each paragraph starts (see align()). */
 const ALIGN_MODEL = 'gemini-3.6-flash'

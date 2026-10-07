@@ -15,7 +15,8 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const OUT = join(ROOT, '.stories', 'drafts')
 // gpt-5.5 wrote the first 18 stories; its 2판 drafts had too many vague or forced sentences.
-const MODEL = 'gpt-6-astra'
+// gpt-6-astra fixed that but used up credits fast; gpt-6-luna on high reasoning is the cheaper choice.
+const MODEL = 'gpt-6-luna'
 const REASONING = 'high'
 
 export const TOPICS = [

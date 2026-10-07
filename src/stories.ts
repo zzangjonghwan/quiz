@@ -6,14 +6,12 @@ import { BookOpen, Brain, Landmark, Palette, ScrollText, Sparkles, type LucideIc
 
 export type StoryCategory = 'samguk' | 'myth' | 'tarot' | 'art' | 'history' | 'wisdom'
 
-export type VoiceId = 'arin' | 'moa' | 'doyun' | 'producer'
+export type VoiceId = 'moa' | 'arin'
 
 /** The narrators to pick from in 설정 (Gemini voices; previews ship in public/voices). */
 export const VOICES: { id: VoiceId; name: string; desc: string }[] = [
-  { id: 'arin', name: '아린', desc: '밝고 부드러운 목소리' },
   { id: 'moa', name: '모아', desc: '명랑하고 생기 있는 목소리' },
-  { id: 'doyun', name: '도윤', desc: '담백하고 차분한 목소리' },
-  { id: 'producer', name: '프로듀서', desc: '낮고 믿음직한 남성 목소리' },
+  { id: 'arin', name: '아린', desc: '밝고 부드러운 목소리' },
 ]
 
 /** One recording of a story. */
@@ -54,7 +52,7 @@ const AUDIO_BASE = import.meta.env.DEV
 
 let cache: Promise<StoryData[]> | null = null
 
-/** The stories in the chosen voice (arin, or any recorded voice, wherever that one isn't recorded yet). */
+/** The stories in the chosen voice (모아, then 아린, wherever that one isn't recorded). */
 export function loadStories(voice: VoiceId) {
   cache ??= fetch(`${import.meta.env.BASE_URL}data/stories.json`)
     .then((r) => r.json() as Promise<{ stories: StoryData[] }>)
@@ -70,7 +68,7 @@ export async function recordedVoices() {
 }
 
 export function inVoice(story: StoryData, voice: VoiceId): Story {
-  const v = story.voices[voice] ? voice : story.voices.arin ? 'arin' : (Object.keys(story.voices)[0] as VoiceId)
+  const v = ([voice, 'moa', 'arin'] as VoiceId[]).find((id) => story.voices[id]) ?? (Object.keys(story.voices)[0] as VoiceId)
   return { ...story, ...story.voices[v]!, voice: v }
 }
 

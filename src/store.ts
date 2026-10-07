@@ -81,7 +81,7 @@ const DEFAULT_SETTINGS: Settings = {
   sound: true,
   soundPicks: {},
   soundVersion: 3,
-  storyVoice: 'arin',
+  storyVoice: 'moa',
 }
 
 let state: StoreState = { progress: {}, stats: EMPTY_STATS, settings: DEFAULT_SETTINGS, listening: {} }

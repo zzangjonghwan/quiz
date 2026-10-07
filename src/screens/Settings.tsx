@@ -167,8 +167,8 @@ function VoicePicker() {
   }, [])
 
   const shown = VOICES.filter((v) => recorded?.has(v.id))
-  // A voice picked earlier but not recorded (yet) plays as 아린, so show 아린 as the choice.
-  const chosen = recorded?.has(settings.storyVoice) ? settings.storyVoice : 'arin'
+  // A voice picked earlier but no longer offered plays as 모아, so show 모아 as the choice.
+  const chosen = recorded?.has(settings.storyVoice) ? settings.storyVoice : 'moa'
 
   const preview = (id: VoiceId) => {
     previewAudio?.pause()
