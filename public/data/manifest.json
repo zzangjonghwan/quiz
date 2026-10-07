@@ -1,5 +1,5 @@
 {
-  "version": 53,
+  "version": 54,
   "files": [
     {
       "category": "idiom",
@@ -9,6 +9,11 @@
     {
       "category": "idiom",
       "file": "idiom.m.json",
+      "version": 1
+    },
+    {
+      "category": "idiom",
+      "file": "idiom.m2.json",
       "version": 1
     },
     {
