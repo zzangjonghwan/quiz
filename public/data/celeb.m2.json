@@ -1,0 +1,424 @@
+{
+  "category": "celeb",
+  "version": 1,
+  "cards": [
+    {
+      "id": "celeb-m2001",
+      "difficulty": "normal",
+      "answer": "신화",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1998년 데뷔해 멤버 변화 없이 가장 오래 활동한 아이돌 그룹으로 꼽히는 그룹은?",
+          "choices": [
+            "신화",
+            "god",
+            "젝스키스",
+            "H.O.T."
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "에릭, 이민우, 김동완, 신혜성, 전진, 앤디 여섯 명이 데뷔 때 멤버 그대로 20년 넘게 활동했어요.",
+        "tip": "최장수 아이돌 = 신화"
+      }
+    },
+    {
+      "id": "celeb-m2002",
+      "difficulty": "normal",
+      "answer": "god",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「어머님께」, 「촛불하나」로 '국민 그룹'이라 불린 1999년 데뷔 그룹은?",
+          "choices": [
+            "god",
+            "신화",
+            "젝스키스",
+            "플라이 투 더 스카이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "박준형, 윤계상, 데니안, 손호영, 김태우 다섯 명으로, 예능 「god의 육아일기」로 친근한 이미지를 얻었어요.",
+        "tip": "\"짜장면이 싫다고 하셨어\""
+      }
+    },
+    {
+      "id": "celeb-m2003",
+      "difficulty": "normal",
+      "answer": "S.E.S.",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "바다, 유진, 슈로 이루어진 SM엔터테인먼트의 1세대 걸그룹은?",
+          "choices": [
+            "S.E.S.",
+            "핑클",
+            "베이비복스",
+            "쥬얼리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1997년 데뷔해 「I'm Your Girl」, 「Dreams Come True」 등을 불렀어요. 핑클과 함께 1세대 걸그룹의 양대 산맥이었어요.",
+        "tip": "S.E.S. vs 핑클"
+      }
+    },
+    {
+      "id": "celeb-m2004",
+      "difficulty": "easy",
+      "answer": "슈퍼주니어",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2009년 「Sorry, Sorry」로 큰 인기를 얻은 SM엔터테인먼트 남자 그룹은?",
+          "choices": [
+            "슈퍼주니어",
+            "동방신기",
+            "샤이니",
+            "엑소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한때 멤버가 13명에 이를 만큼 대규모 그룹이었고, 「Sorry, Sorry」의 손바닥 비비기 춤이 아시아 전역에서 유행했어요.",
+        "tip": "손 비비기 춤"
+      }
+    },
+    {
+      "id": "celeb-m2005",
+      "difficulty": "easy",
+      "answer": "2NE1",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「내가 제일 잘 나가」를 부른 YG엔터테인먼트 걸그룹은?",
+          "choices": [
+            "2NE1",
+            "원더걸스",
+            "카라",
+            "소녀시대"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "CL, 박봄, 산다라박, 공민지로 이루어진 그룹으로, 2009년 「Fire」로 데뷔해 강렬한 걸 크러시 콘셉트를 보여 줬어요.",
+        "tip": "걸 크러시의 원조"
+      }
+    },
+    {
+      "id": "celeb-m2006",
+      "difficulty": "normal",
+      "answer": "카라",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2009년 「미스터」의 '엉덩이춤'으로 큰 인기를 얻고 일본에서도 활약한 걸그룹은?",
+          "choices": [
+            "카라",
+            "애프터스쿨",
+            "포미닛",
+            "시크릿"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "카라는 「미스터」, 「루팡」 등으로 일본에서 큰 사랑을 받아 2세대 K-pop 걸그룹 한류를 이끌었어요.",
+        "tip": "엉덩이춤 = 미스터"
+      }
+    },
+    {
+      "id": "celeb-m2007",
+      "difficulty": "normal",
+      "answer": "샤이니",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2008년 「누난 너무 예뻐(Replay)」로 데뷔한 SM엔터테인먼트 그룹은?",
+          "choices": [
+            "샤이니",
+            "슈퍼주니어",
+            "엑소",
+            "NCT"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "샤이니는 세련된 퍼포먼스로 '컨템퍼러리 밴드'라 불렸고, 「Ring Ding Dong」, 「셜록」 등이 히트했어요.",
+        "tip": "누난 너무 예뻐 = 샤이니"
+      }
+    },
+    {
+      "id": "celeb-m2008",
+      "difficulty": "easy",
+      "answer": "좋은 날",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'3단 고음'으로 유명한 아이유의 2010년 히트곡은?",
+          "choices": [
+            "좋은 날",
+            "너랑 나",
+            "분홍신",
+            "밤편지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「좋은 날」 후반부에서 한 음씩 올려 부르는 '3단 고음'이 화제가 되며 아이유는 '국민 여동생'이 되었어요.",
+        "tip": "\"오빠가 좋은 걸 어떡해\""
+      }
+    },
+    {
+      "id": "celeb-m2009",
+      "difficulty": "normal",
+      "answer": "이문세",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「광화문 연가」, 「옛사랑」을 불렀고 작곡가 이영훈과 함께 1980년대 발라드를 이끈 가수는?",
+          "choices": [
+            "이문세",
+            "변진섭",
+            "신승훈",
+            "이승철"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이문세와 작곡가 이영훈의 노래들은 지금도 뮤지컬 「광화문 연가」로 사랑받고 있어요. 라디오 DJ로도 오래 활동했어요.",
+        "tip": "광화문 연가"
+      }
+    },
+    {
+      "id": "celeb-m2010",
+      "difficulty": "normal",
+      "answer": "신승훈",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「보이지 않는 사랑」, 「I Believe」를 부른 '발라드의 황제'는?",
+          "choices": [
+            "신승훈",
+            "이문세",
+            "김건모",
+            "조성모"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1990년 「미소 속에 비친 그대」로 데뷔해 1990년대 발라드 붐을 이끌었어요. 「I Believe」는 영화 「엽기적인 그녀」 주제곡이에요.",
+        "tip": "발라드의 황제"
+      }
+    },
+    {
+      "id": "celeb-m2011",
+      "difficulty": "normal",
+      "answer": "나훈아",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2020년 비대면 공연에서 부른 「테스형!」으로 화제를 모은 트로트 가수는?",
+          "choices": [
+            "나훈아",
+            "남진",
+            "송대관",
+            "태진아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'테스형'은 소크라테스를 친근하게 부른 말이에요. 나훈아는 남진과 함께 1970년대 트로트의 양대 산맥이었어요.",
+        "tip": "\"아 테스형, 세상이 왜 이래\""
+      }
+    },
+    {
+      "id": "celeb-m2012",
+      "difficulty": "normal",
+      "answer": "No More Dream",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "방탄소년단의 2013년 데뷔곡은?",
+          "choices": [
+            "No More Dream",
+            "I NEED U",
+            "Boy In Luv",
+            "Danger"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "10대들에게 진짜 꿈이 뭔지 묻는 힙합곡으로 데뷔했어요. 「Boy In Luv(상남자)」와 「Danger」는 2014년, 「I NEED U」는 2015년 곡이에요.",
+        "tip": "학교 3부작의 시작"
+      }
+    },
+    {
+      "id": "celeb-m2013",
+      "difficulty": "normal",
+      "answer": "휘파람과 붐바야",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "블랙핑크가 2016년 데뷔하며 함께 발표한 두 곡은?",
+          "choices": [
+            "휘파람과 붐바야",
+            "뚜두뚜두와 마지막처럼",
+            "Lovesick Girls와 Pink Venom",
+            "불장난과 STAY"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「휘파람」과 「붐바야」를 동시에 발표해 데뷔 직후 음원 차트 1위에 올랐어요.",
+        "tip": "더블 타이틀 데뷔"
+      }
+    },
+    {
+      "id": "celeb-m2014",
+      "difficulty": "normal",
+      "answer": "스트레이 키즈",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「神메뉴」, 「특」을 부르고 멤버들이 직접 곡을 만드는 JYP엔터테인먼트 보이그룹은?",
+          "choices": [
+            "스트레이 키즈",
+            "갓세븐",
+            "데이식스",
+            "2PM"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "유닛 3RACHA가 대부분의 곡을 직접 만들어요. 미국 빌보드 200 앨범 차트 1위에 여러 차례 올랐어요.",
+        "tip": "스키즈 = 자체 제작돌"
+      }
+    },
+    {
+      "id": "celeb-m2015",
+      "difficulty": "normal",
+      "answer": "눈, 코, 입",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "빅뱅 멤버 태양의 2014년 솔로 히트곡은?",
+          "choices": [
+            "눈, 코, 입",
+            "삐딱하게",
+            "맨정신",
+            "봄여름가을겨울"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "헤어진 연인을 잊지 못하는 마음을 담은 R&B 발라드로, 음원 차트를 휩쓸었어요.",
+        "tip": "\"내 눈 코 입\""
+      }
+    },
+    {
+      "id": "celeb-m2016",
+      "difficulty": "normal",
+      "answer": "송해",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1988년부터 30년 넘게 「전국노래자랑」을 진행해 세계 최고령 TV 음악 경연 프로그램 진행자로 기네스북에 오른 방송인은?",
+          "choices": [
+            "송해",
+            "허참",
+            "이상벽",
+            "김동건"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "송해는 95세까지 「전국노래자랑」을 진행했어요. \"전국~ 노래자랑!\" 외침이 트레이드마크였어요.",
+        "tip": "\"딩동댕\" 국민 MC"
+      }
+    },
+    {
+      "id": "celeb-m2017",
+      "difficulty": "normal",
+      "answer": "전도연",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2007년 영화 「밀양」으로 칸 영화제 여우주연상을 받은 배우는?",
+          "choices": [
+            "전도연",
+            "김혜수",
+            "문소리",
+            "김민희"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이창동 감독의 「밀양」에서 아이를 잃은 엄마 신애를 연기해 '칸의 여왕'이라는 별명을 얻었어요.",
+        "tip": "칸의 여왕"
+      }
+    },
+    {
+      "id": "celeb-m2018",
+      "difficulty": "hard",
+      "answer": "강수연",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1987년 영화 「씨받이」로 베니스 영화제 여우주연상을 받아 한국 배우 최초로 세계 3대 영화제 연기상을 받은 배우는?",
+          "choices": [
+            "강수연",
+            "윤정희",
+            "장미희",
+            "이미숙"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "임권택 감독의 「씨받이」로 상을 받으며 '월드 스타'로 불렸어요. 나중에 부산 국제 영화제 집행위원장도 맡았어요.",
+        "tip": "원조 월드 스타"
+      }
+    },
+    {
+      "id": "celeb-m2019",
+      "difficulty": "normal",
+      "answer": "양현석",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "서태지와 아이들 멤버 출신으로 YG엔터테인먼트를 세운 인물은?",
+          "choices": [
+            "양현석",
+            "이주노",
+            "박진영",
+            "이수만"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서태지와 아이들 은퇴 뒤 1996년 기획사를 세워 지누션, 원타임, 빅뱅, 2NE1 등을 키웠어요.",
+        "tip": "YG = 양군(Yang Goon)"
+      }
+    }
+  ]
+}

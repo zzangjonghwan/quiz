@@ -1,5 +1,5 @@
 {
-  "version": 71,
+  "version": 73,
   "files": [
     {
       "category": "idiom",
@@ -57,6 +57,11 @@
       "version": 1
     },
     {
+      "category": "slang",
+      "file": "slang.m2.json",
+      "version": 1
+    },
+    {
       "category": "loanword",
       "file": "loanword.json",
       "version": 1
@@ -89,6 +94,11 @@
     {
       "category": "celeb",
       "file": "celeb.m.json",
+      "version": 1
+    },
+    {
+      "category": "celeb",
+      "file": "celeb.m2.json",
       "version": 1
     },
     {
