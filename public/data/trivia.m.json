@@ -446,48 +446,6 @@
     {
       "id": "trivia-m022",
       "difficulty": "normal",
-      "answer": "소금",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "영어 'salary(월급)'와 어원이 이어진 것은?",
-          "choices": [
-            "소금",
-            "금화",
-            "밀",
-            "가축"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "라틴어 salarium에서 왔고, 그 뿌리는 sal(소금)이에요. 로마 병사가 소금을 사도록 받은 돈이라는 이야기는 확실하지 않아요.",
-        "tip": "sal = salt"
-      }
-    },
-    {
-      "id": "trivia-m023",
-      "difficulty": "hard",
-      "answer": "힌디어",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "'shampoo(샴푸)'는 원래 어느 언어에서 온 말일까?",
-          "choices": [
-            "힌디어",
-            "프랑스어",
-            "아랍어",
-            "독일어"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "힌디어 '참포(chāmpo)'는 '누르다, 마사지하다'라는 뜻이에요. 18세기 영국에 인도식 머리 마사지가 소개되며 퍼졌어요.",
-        "tip": "원래 뜻은 마사지"
-      }
-    },
-    {
-      "id": "trivia-m024",
-      "difficulty": "normal",
       "answer": "7",
       "questions": [
         {
@@ -507,7 +465,7 @@
       }
     },
     {
-      "id": "trivia-m025",
+      "id": "trivia-m023",
       "difficulty": "normal",
       "answer": "율리우스 카이사르",
       "questions": [
@@ -528,7 +486,7 @@
       }
     },
     {
-      "id": "trivia-m026",
+      "id": "trivia-m024",
       "difficulty": "hard",
       "answer": "일본어 '그림 문자'",
       "questions": [
@@ -549,7 +507,7 @@
       }
     },
     {
-      "id": "trivia-m027",
+      "id": "trivia-m025",
       "difficulty": "hard",
       "answer": "특별한 뜻이 없는 상표명",
       "questions": [
@@ -570,7 +528,7 @@
       }
     },
     {
-      "id": "trivia-m028",
+      "id": "trivia-m026",
       "difficulty": "normal",
       "answer": "10의 100제곱을 뜻하는 수 '구골'",
       "questions": [
@@ -591,7 +549,7 @@
       }
     },
     {
-      "id": "trivia-m029",
+      "id": "trivia-m027",
       "difficulty": "normal",
       "answer": "일본 지퍼 회사 이름",
       "questions": [
@@ -612,7 +570,7 @@
       }
     },
     {
-      "id": "trivia-m030",
+      "id": "trivia-m028",
       "difficulty": "normal",
       "answer": "삼켰을 때 숨이 막히지 않게 하려고",
       "questions": [
@@ -633,7 +591,7 @@
       }
     },
     {
-      "id": "trivia-m031",
+      "id": "trivia-m029",
       "difficulty": "easy",
       "answer": "회중시계",
       "questions": [
@@ -654,7 +612,7 @@
       }
     },
     {
-      "id": "trivia-m032",
+      "id": "trivia-m030",
       "difficulty": "normal",
       "answer": "공기 저항을 줄여 멀리 날게 하려고",
       "questions": [
@@ -675,7 +633,7 @@
       }
     },
     {
-      "id": "trivia-m033",
+      "id": "trivia-m031",
       "difficulty": "normal",
       "answer": "모서리에 압력이 몰려 금이 가는 걸 막으려고",
       "questions": [
@@ -696,7 +654,7 @@
       }
     },
     {
-      "id": "trivia-m034",
+      "id": "trivia-m032",
       "difficulty": "hard",
       "answer": "금·은 동전을 몰래 깎아 내는 것을 막으려고",
       "questions": [
@@ -717,7 +675,7 @@
       }
     },
     {
-      "id": "trivia-m035",
+      "id": "trivia-m033",
       "difficulty": "normal",
       "answer": "아니다, 은에 금을 입힌 것이다",
       "questions": [
@@ -738,7 +696,7 @@
       }
     },
     {
-      "id": "trivia-m036",
+      "id": "trivia-m034",
       "difficulty": "easy",
       "answer": "7",
       "questions": [
@@ -759,7 +717,7 @@
       }
     },
     {
-      "id": "trivia-m037",
+      "id": "trivia-m035",
       "difficulty": "normal",
       "answer": "헝가리",
       "questions": [
@@ -780,7 +738,7 @@
       }
     },
     {
-      "id": "trivia-m038",
+      "id": "trivia-m036",
       "difficulty": "hard",
       "answer": "덴마크어로 '잘 놀아라'",
       "questions": [
@@ -801,7 +759,7 @@
       }
     },
     {
-      "id": "trivia-m039",
+      "id": "trivia-m037",
       "difficulty": "normal",
       "answer": "소련",
       "questions": [
@@ -822,7 +780,7 @@
       }
     },
     {
-      "id": "trivia-m040",
+      "id": "trivia-m038",
       "difficulty": "hard",
       "answer": "목수",
       "questions": [
@@ -843,7 +801,7 @@
       }
     },
     {
-      "id": "trivia-m041",
+      "id": "trivia-m039",
       "difficulty": "normal",
       "answer": "당시 프랑스 남자 평균보다 조금 컸다",
       "questions": [
@@ -864,7 +822,7 @@
       }
     },
     {
-      "id": "trivia-m042",
+      "id": "trivia-m040",
       "difficulty": "normal",
       "answer": "19세기 오페라 의상",
       "questions": [
@@ -885,7 +843,7 @@
       }
     },
     {
-      "id": "trivia-m043",
+      "id": "trivia-m041",
       "difficulty": "easy",
       "answer": "보이지 않는다",
       "questions": [
@@ -906,7 +864,7 @@
       }
     },
     {
-      "id": "trivia-m044",
+      "id": "trivia-m042",
       "difficulty": "normal",
       "answer": "임금을 받던 노동자들",
       "questions": [
@@ -927,7 +885,7 @@
       }
     },
     {
-      "id": "trivia-m045",
+      "id": "trivia-m043",
       "difficulty": "hard",
       "answer": "시계탑 안의 큰 종",
       "questions": [
@@ -948,7 +906,7 @@
       }
     },
     {
-      "id": "trivia-m046",
+      "id": "trivia-m044",
       "difficulty": "normal",
       "answer": "겉면 구리가 녹슬어서",
       "questions": [
@@ -969,7 +927,7 @@
       }
     },
     {
-      "id": "trivia-m047",
+      "id": "trivia-m045",
       "difficulty": "hard",
       "answer": "세슘 원자의 진동",
       "questions": [
@@ -990,7 +948,7 @@
       }
     },
     {
-      "id": "trivia-m048",
+      "id": "trivia-m046",
       "difficulty": "normal",
       "answer": "약 5배 더 뜨겁다",
       "questions": [
@@ -1011,7 +969,7 @@
       }
     },
     {
-      "id": "trivia-m049",
+      "id": "trivia-m047",
       "difficulty": "hard",
       "answer": "마우나케아",
       "questions": [
@@ -1032,7 +990,7 @@
       }
     },
     {
-      "id": "trivia-m050",
+      "id": "trivia-m048",
       "difficulty": "normal",
       "answer": "아이작 뉴턴",
       "questions": [
