@@ -1,0 +1,825 @@
+{
+  "category": "worldhistory",
+  "version": 1,
+  "cards": [
+    {
+      "id": "worldhistory-m5001",
+      "difficulty": "hard",
+      "answer": "리버풀 - 맨체스터",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1830년 영국에서 개통해 증기 기관차가 사람과 화물을 실어 나르기 시작한 최초의 도시 간 철도 구간은?",
+          "choices": [
+            "리버풀 - 맨체스터",
+            "런던 - 파리",
+            "런던 - 에든버러",
+            "베를린 - 뮌헨"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "조지 스티븐슨 부자가 만든 '로켓호'가 달렸어요. 이후 철도가 세계로 퍼졌어요.",
+        "tip": "로켓호"
+      }
+    },
+    {
+      "id": "worldhistory-m5002",
+      "difficulty": "hard",
+      "answer": "차티스트 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "19세기 영국 노동자들이 성인 남성의 보통 선거권 등을 요구하며 벌인 운동은?",
+          "choices": [
+            "차티스트 운동",
+            "러다이트 운동",
+            "인클로저 운동",
+            "서프러제트 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'인민헌장(People's Charter)'을 내걸어 이런 이름이 붙었어요. 기계를 부순 운동은 러다이트 운동이에요.",
+        "tip": "인민헌장"
+      }
+    },
+    {
+      "id": "worldhistory-m5003",
+      "difficulty": "normal",
+      "answer": "공산당 선언",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1848년 마르크스와 엥겔스가 펴낸, \"만국의 노동자여, 단결하라!\"로 끝나는 글은?",
+          "choices": [
+            "공산당 선언",
+            "자본론",
+            "국부론",
+            "사회 계약론"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「자본론」은 마르크스가 자본주의 경제를 분석한 책으로, 1867년 1권이 나왔어요.",
+        "tip": "\"만국의 노동자여!\""
+      }
+    },
+    {
+      "id": "worldhistory-m5004",
+      "difficulty": "hard",
+      "answer": "서프러제트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "20세기 초 영국에서 여성 참정권을 요구하며 격렬하게 시위한 여성들을 부르는 말은?",
+          "choices": [
+            "서프러제트",
+            "차티스트",
+            "러다이트",
+            "페미니스트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국은 1918년 30세 이상 여성, 1928년 21세 이상 모든 여성에게 투표권을 줬어요. 여성 참정권을 가장 먼저 준 나라는 1893년 뉴질랜드예요.",
+        "tip": "suffrage = 참정권"
+      }
+    },
+    {
+      "id": "worldhistory-m5005",
+      "difficulty": "normal",
+      "answer": "뉴질랜드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 처음으로 여성에게 국가 선거 투표권을 준 나라는?",
+          "choices": [
+            "뉴질랜드",
+            "영국",
+            "미국",
+            "프랑스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1893년이에요. 한국은 1948년 정부 수립 때부터 남녀 모두 투표권을 가졌어요.",
+        "tip": "1893년"
+      }
+    },
+    {
+      "id": "worldhistory-m5006",
+      "difficulty": "normal",
+      "answer": "세포이 항쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1857년 영국 동인도 회사의 인도인 용병들이 일으킨 반란은?",
+          "choices": [
+            "세포이 항쟁",
+            "의화단 운동",
+            "태평천국 운동",
+            "마흐디 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "총알 포장지에 소와 돼지 기름을 썼다는 소문이 계기가 됐어요. 이후 영국 정부가 인도를 직접 다스렸어요.",
+        "tip": "총알 기름 소문"
+      }
+    },
+    {
+      "id": "worldhistory-m5007",
+      "difficulty": "hard",
+      "answer": "태평천국 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "19세기 중반 홍수전이 '멸만흥한'을 내걸고 일으킨 중국의 농민 운동은?",
+          "choices": [
+            "태평천국 운동",
+            "의화단 운동",
+            "양무운동",
+            "5·4 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "토지를 고르게 나누고 남녀평등을 주장했어요. 14년 동안 이어지며 수천만 명이 희생됐어요.",
+        "tip": "하늘 아래 태평한 나라"
+      }
+    },
+    {
+      "id": "worldhistory-m5008",
+      "difficulty": "hard",
+      "answer": "의화단 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1900년 '부청멸양(청을 도와 서양을 물리치자)'을 외치며 중국에서 일어난 반외세 운동은?",
+          "choices": [
+            "의화단 운동",
+            "태평천국 운동",
+            "양무운동",
+            "신해혁명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "8개국 연합군이 베이징을 점령하며 진압했고, 청은 막대한 배상금을 물었어요.",
+        "tip": "부청멸양"
+      }
+    },
+    {
+      "id": "worldhistory-m5009",
+      "difficulty": "normal",
+      "answer": "5·4 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1919년 베이징 학생들이 파리 강화 회의 결과에 항의하며 시작된 중국의 반제국주의 운동은?",
+          "choices": [
+            "5·4 운동",
+            "신해혁명",
+            "의화단 운동",
+            "대장정"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한국의 3·1 운동에 영향을 받았다는 평가도 있어요.",
+        "tip": "1919년 5월 4일"
+      }
+    },
+    {
+      "id": "worldhistory-m5010",
+      "difficulty": "hard",
+      "answer": "보어 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1899~1902년 남아프리카에서 영국과 네덜란드계 이주민 사이에 벌어진 전쟁은?",
+          "choices": [
+            "보어 전쟁",
+            "줄루 전쟁",
+            "크림 전쟁",
+            "아편 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "금과 다이아몬드가 나는 땅을 두고 싸웠어요. '보어'는 네덜란드어로 '농부'라는 뜻이에요.",
+        "tip": "금광을 둘러싼 전쟁"
+      }
+    },
+    {
+      "id": "worldhistory-m5011",
+      "difficulty": "normal",
+      "answer": "크림 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1853년 크림반도 등에서 러시아와 오스만·영국·프랑스 연합군이 싸운 전쟁으로, 나이팅게일이 활약한 전쟁은?",
+          "choices": [
+            "크림 전쟁",
+            "보어 전쟁",
+            "나폴레옹 전쟁",
+            "러일 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나이팅게일은 위생을 개선해 부상병 사망률을 크게 낮췄어요.",
+        "tip": "등불을 든 여인"
+      }
+    },
+    {
+      "id": "worldhistory-m5012",
+      "difficulty": "easy",
+      "answer": "러일 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1904~1905년 한반도와 만주를 두고 일본과 러시아가 벌인 전쟁은?",
+          "choices": [
+            "러일 전쟁",
+            "청일 전쟁",
+            "중일 전쟁",
+            "크림 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "일본이 이기며 포츠머스 조약으로 한국에 대한 우위를 인정받았고, 곧이어 을사늑약을 강요했어요.",
+        "tip": "포츠머스 조약"
+      }
+    },
+    {
+      "id": "worldhistory-m5013",
+      "difficulty": "normal",
+      "answer": "참호전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1차 세계 대전에서 양쪽 군대가 땅에 긴 구덩이를 파고 몇 년씩 대치한 싸움 방식은?",
+          "choices": [
+            "참호전",
+            "전격전",
+            "게릴라전",
+            "해상 봉쇄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "기관총 때문에 돌격이 어려워져 서부 전선은 몇 년 동안 거의 움직이지 않았어요.",
+        "tip": "구덩이 속 4년"
+      }
+    },
+    {
+      "id": "worldhistory-m5014",
+      "difficulty": "hard",
+      "answer": "루시타니아호",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1차 세계 대전 중 미국이 참전하는 계기가 된, 독일 잠수함이 영국 여객선을 격침한 사건의 배는?",
+          "choices": [
+            "루시타니아호",
+            "타이타닉호",
+            "브리타닉호",
+            "메이플라워호"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1915년 미국인 120여 명이 숨졌어요. 독일의 무제한 잠수함 작전이 이어지자 1917년 미국이 참전했어요.",
+        "tip": "U보트"
+      }
+    },
+    {
+      "id": "worldhistory-m5015",
+      "difficulty": "normal",
+      "answer": "국제 연맹",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1차 세계 대전 이후 평화를 지키려고 1920년 만든 국제기구는?",
+          "choices": [
+            "국제 연맹",
+            "국제 연합",
+            "유럽 연합",
+            "북대서양 조약 기구"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국 윌슨 대통령이 제안했지만 정작 미국은 가입하지 않았어요. 2차 대전을 막지 못했어요.",
+        "tip": "UN의 선배"
+      }
+    },
+    {
+      "id": "worldhistory-m5016",
+      "difficulty": "normal",
+      "answer": "민족 자결주의",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1차 세계 대전 뒤 미국 윌슨 대통령이 주장한, 각 민족이 스스로 운명을 결정해야 한다는 원칙은?",
+          "choices": [
+            "민족 자결주의",
+            "고립주의",
+            "먼로주의",
+            "제국주의"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "식민지 사람들에게 희망을 줘 3·1 운동 등에 영향을 줬어요.",
+        "tip": "스스로(自) 결정(決)"
+      }
+    },
+    {
+      "id": "worldhistory-m5017",
+      "difficulty": "normal",
+      "answer": "파시즘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1922년 무솔리니가 '로마 진군'으로 권력을 잡으며 이탈리아에 세운 정치 체제는?",
+          "choices": [
+            "파시즘",
+            "공산주의",
+            "입헌 군주제",
+            "공화정"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "국가와 민족을 개인보다 앞세우고 독재와 폭력을 정당화했어요. 고대 로마의 권력 상징 '파스케스'에서 이름이 왔어요.",
+        "tip": "묶은 막대기 다발"
+      }
+    },
+    {
+      "id": "worldhistory-m5018",
+      "difficulty": "normal",
+      "answer": "스페인",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1936년 시작되어 피카소의 「게르니카」의 배경이 된 내전이 일어난 나라는?",
+          "choices": [
+            "스페인",
+            "이탈리아",
+            "포르투갈",
+            "그리스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "프랑코의 반란군이 승리해 독재가 1975년까지 이어졌어요. 헤밍웨이의 「누구를 위하여 종은 울리나」도 이 내전을 다뤘어요.",
+        "tip": "게르니카 폭격"
+      }
+    },
+    {
+      "id": "worldhistory-m5019",
+      "difficulty": "hard",
+      "answer": "뮌헨 협정",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1938년 영국과 프랑스가 전쟁을 피하려고 독일의 체코슬로바키아 일부 점령을 인정한 협정은?",
+          "choices": [
+            "뮌헨 협정",
+            "얄타 협정",
+            "베르사유 조약",
+            "독소 불가침 조약"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국 총리 체임벌린은 \"우리 시대의 평화\"를 얻었다고 했지만, 1년 뒤 2차 대전이 터졌어요. 유화 정책 실패의 상징이에요.",
+        "tip": "\"우리 시대의 평화\""
+      }
+    },
+    {
+      "id": "worldhistory-m5020",
+      "difficulty": "normal",
+      "answer": "됭케르크 철수 작전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2차 대전 초기 독일군에 포위된 영국·프랑스군 30만여 명이 프랑스 해안에서 배를 타고 탈출한 작전은?",
+          "choices": [
+            "됭케르크 철수 작전",
+            "노르망디 상륙 작전",
+            "바르바로사 작전",
+            "마켓 가든 작전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "민간 어선과 요트까지 동원됐어요. 크리스토퍼 놀런 감독이 영화 「덩케르크」로 그렸어요.",
+        "tip": "작은 배들의 기적"
+      }
+    },
+    {
+      "id": "worldhistory-m5021",
+      "difficulty": "hard",
+      "answer": "스탈린그라드 전투",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1942~1943년 독일군과 소련군이 맞붙어 2차 대전의 흐름을 바꾼 전투는?",
+          "choices": [
+            "스탈린그라드 전투",
+            "쿠르스크 전투",
+            "레닌그라드 포위전",
+            "모스크바 전투"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "역사상 가장 많은 사상자가 나온 전투 가운데 하나예요. 이후 독일은 동부 전선에서 계속 밀렸어요.",
+        "tip": "동부 전선의 전환점"
+      }
+    },
+    {
+      "id": "worldhistory-m5022",
+      "difficulty": "hard",
+      "answer": "미드웨이 해전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1942년 미국 해군이 일본 항공모함 4척을 격침해 태평양 전쟁의 흐름을 바꾼 전투는?",
+          "choices": [
+            "미드웨이 해전",
+            "진주만 공습",
+            "과달카날 전투",
+            "레이테만 해전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국이 일본군 암호를 해독해 미리 대비할 수 있었어요.",
+        "tip": "태평양의 전환점"
+      }
+    },
+    {
+      "id": "worldhistory-m5023",
+      "difficulty": "easy",
+      "answer": "히로시마와 나가사키",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1945년 8월 원자 폭탄이 떨어진 일본의 두 도시는?",
+          "choices": [
+            "히로시마와 나가사키",
+            "도쿄와 오사카",
+            "교토와 나라",
+            "요코하마와 고베"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "8월 6일 히로시마, 8월 9일 나가사키에 떨어졌어요. 일본은 8월 15일 항복을 발표했어요.",
+        "tip": "8월 6일, 9일"
+      }
+    },
+    {
+      "id": "worldhistory-m5024",
+      "difficulty": "normal",
+      "answer": "뉘른베르크 재판",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2차 대전 뒤 나치 전범들을 재판하려고 독일에서 열린 국제 군사 재판은?",
+          "choices": [
+            "뉘른베르크 재판",
+            "도쿄 재판",
+            "헤이그 재판",
+            "베르사유 재판"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'인도에 반한 죄'라는 개념이 처음 쓰였어요. 일본 전범은 도쿄 재판에서 다뤘어요.",
+        "tip": "인도에 반한 죄"
+      }
+    },
+    {
+      "id": "worldhistory-m5025",
+      "difficulty": "easy",
+      "answer": "안네의 일기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "나치 시대 유대인 소녀가 은신처에서 쓴 일기로, 세계적인 기록 문학이 된 책은?",
+          "choices": [
+            "안네의 일기",
+            "밤",
+            "쥐",
+            "인간의 조건"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "네덜란드 암스테르담의 비밀 방에서 2년 넘게 숨어 지내며 썼어요. 안네는 강제 수용소에서 세상을 떠났어요.",
+        "tip": "암스테르담의 비밀 방"
+      }
+    },
+    {
+      "id": "worldhistory-m5026",
+      "difficulty": "normal",
+      "answer": "아우슈비츠",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "나치가 세운 강제 수용소 가운데 가장 많은 사람이 희생된, 폴란드에 있는 곳은?",
+          "choices": [
+            "아우슈비츠",
+            "다하우",
+            "부헨발트",
+            "트레블링카"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "100만 명이 넘는 사람이 희생됐어요. 지금은 박물관이자 유네스코 세계 유산이에요.",
+        "tip": "\"노동이 자유롭게 하리라\""
+      }
+    },
+    {
+      "id": "worldhistory-m5027",
+      "difficulty": "normal",
+      "answer": "철의 장막",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1946년 처칠이 \"발트해에서 아드리아해까지 대륙을 가로질러 내려졌다\"고 표현한 동서 진영의 경계는?",
+          "choices": [
+            "철의 장막",
+            "죽의 장막",
+            "베를린 장벽",
+            "휴전선"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "소련 쪽 동유럽의 폐쇄성을 비판한 말이에요. 중국의 폐쇄성은 '죽의 장막'이라고 불렀어요.",
+        "tip": "처칠의 비유"
+      }
+    },
+    {
+      "id": "worldhistory-m5028",
+      "difficulty": "hard",
+      "answer": "베를린 봉쇄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1948~1949년 소련이 서베를린으로 가는 길을 막자 미국 등이 비행기로 물자를 날라 준 사건은?",
+          "choices": [
+            "베를린 봉쇄",
+            "베를린 장벽 건설",
+            "쿠바 미사일 위기",
+            "프라하의 봄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약 11개월 동안 27만 번이 넘는 비행으로 식량과 석탄을 날랐어요. '베를린 공수'라고도 해요.",
+        "tip": "하늘로 보낸 석탄"
+      }
+    },
+    {
+      "id": "worldhistory-m5029",
+      "difficulty": "normal",
+      "answer": "1990년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "독일이 다시 하나로 통일된 해는?",
+          "choices": [
+            "1990년",
+            "1989년",
+            "1991년",
+            "1995년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1989년 장벽이 무너지고 이듬해 10월 3일 통일했어요. 이날은 독일의 국경일이에요.",
+        "tip": "10월 3일 독일 통일의 날"
+      }
+    },
+    {
+      "id": "worldhistory-m5030",
+      "difficulty": "normal",
+      "answer": "아파르트헤이트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "남아프리카 공화국에서 백인과 비백인을 법으로 분리하고 차별한 인종 격리 정책은?",
+          "choices": [
+            "아파르트헤이트",
+            "카스트 제도",
+            "짐 크로 법",
+            "홀로코스트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1994년 넬슨 만델라가 첫 흑인 대통령이 되며 완전히 끝났어요.",
+        "tip": "분리(apart)"
+      }
+    },
+    {
+      "id": "worldhistory-m5031",
+      "difficulty": "normal",
+      "answer": "소금 행진",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1930년 간디가 영국의 소금 독점에 맞서 바다까지 400km 가까이 걸어간 비폭력 저항 운동은?",
+          "choices": [
+            "소금 행진",
+            "물레 운동",
+            "카일라스 순례",
+            "독립 행진"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "바닷물로 직접 소금을 만들어 영국 법을 어기는 방식으로 저항했어요.",
+        "tip": "바다까지 걸은 24일"
+      }
+    },
+    {
+      "id": "worldhistory-m5032",
+      "difficulty": "easy",
+      "answer": "미국과 소련의 우주 경쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1969년 미국 아폴로 11호의 달 착륙은 어떤 경쟁 속에서 이뤄졌을까?",
+          "choices": [
+            "미국과 소련의 우주 경쟁",
+            "미국과 중국의 무역 경쟁",
+            "유럽 국가들의 식민지 경쟁",
+            "일본과 미국의 기술 경쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1957년 소련의 스푸트니크 발사에 충격을 받은 미국이 달 착륙으로 앞서 나갔어요.",
+        "tip": "냉전의 하늘 위 경쟁"
+      }
+    },
+    {
+      "id": "worldhistory-m5033",
+      "difficulty": "easy",
+      "answer": "유로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2002년 1월부터 유럽 12개 나라에서 실제 지폐와 동전으로 쓰이기 시작한 공동 화폐는?",
+          "choices": [
+            "유로",
+            "파운드",
+            "프랑",
+            "마르크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1999년 전자 화폐로 먼저 도입됐어요. 영국은 유로를 쓰지 않았어요.",
+        "tip": "€"
+      }
+    },
+    {
+      "id": "worldhistory-m5034",
+      "difficulty": "easy",
+      "answer": "코로나19",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계 보건 기구(WHO)가 2020년 3월 '세계적 대유행(팬데믹)'을 선언한 감염병은?",
+          "choices": [
+            "코로나19",
+            "사스",
+            "메르스",
+            "신종 플루"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2023년 5월 WHO가 국제 공중 보건 비상사태를 끝냈어요. 2009년 신종 플루도 팬데믹으로 선언된 적이 있어요.",
+        "tip": "2020년 팬데믹"
+      }
+    },
+    {
+      "id": "worldhistory-m5035",
+      "difficulty": "easy",
+      "answer": "후쿠시마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2011년 3월 일본 동북부 대지진과 쓰나미로 원자력 발전소 사고가 난 곳은?",
+          "choices": [
+            "후쿠시마",
+            "체르노빌",
+            "스리마일섬",
+            "고리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원자로 냉각이 멈추며 수소 폭발이 일어났어요. 체르노빌과 함께 가장 심각한 7등급 사고로 분류돼요.",
+        "tip": "7등급 사고"
+      }
+    },
+    {
+      "id": "worldhistory-m5036",
+      "difficulty": "normal",
+      "answer": "뉴욕",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1945년 세워진 국제 연합(UN)의 본부가 있는 도시는?",
+          "choices": [
+            "뉴욕",
+            "제네바",
+            "파리",
+            "워싱턴 D.C."
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스위스 제네바에도 유럽 본부가 있어요. 앞서 국제 연맹 본부는 제네바에 있었어요.",
+        "tip": "UN 본부 = 뉴욕"
+      }
+    },
+    {
+      "id": "worldhistory-m5037",
+      "difficulty": "normal",
+      "answer": "일본",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "UN 안전 보장 이사회에서 거부권을 가진 상임 이사국이 아닌 나라는?",
+          "choices": [
+            "일본",
+            "미국",
+            "중국",
+            "프랑스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "상임 이사국은 미국, 영국, 프랑스, 러시아, 중국 다섯 나라예요.",
+        "tip": "상임 5개국"
+      }
+    },
+    {
+      "id": "worldhistory-m5038",
+      "difficulty": "normal",
+      "answer": "파리 기후 변화 협정",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2015년 파리에서 지구 평균 기온 상승을 산업화 이전보다 2℃보다 훨씬 낮게 유지하자고 합의한 국제 협정은?",
+          "choices": [
+            "파리 기후 변화 협정",
+            "교토 의정서",
+            "몬트리올 의정서",
+            "람사르 협약"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가능하면 1.5℃로 제한하도록 노력하자고 했어요. 1997년 교토 의정서를 이은 협정이에요.",
+        "tip": "1.5℃ 목표"
+      }
+    },
+    {
+      "id": "worldhistory-m5039",
+      "difficulty": "hard",
+      "answer": "몬트리올 의정서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "오존층을 파괴하는 프레온 가스 사용을 줄이기로 1987년 맺은 국제 협약은?",
+          "choices": [
+            "몬트리올 의정서",
+            "교토 의정서",
+            "파리 협정",
+            "바젤 협약"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가장 성공한 환경 협약으로 꼽혀요. 남극 오존 구멍이 조금씩 회복되고 있어요.",
+        "tip": "오존층 지키기"
+      }
+    }
+  ]
+}

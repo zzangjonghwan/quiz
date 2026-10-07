@@ -1,5 +1,5 @@
 {
-  "version": 119,
+  "version": 121,
   "files": [
     {
       "category": "idiom",
@@ -189,6 +189,16 @@
     {
       "category": "worldhistory",
       "file": "worldhistory.m3.json",
+      "version": 1
+    },
+    {
+      "category": "worldhistory",
+      "file": "worldhistory.m4.json",
+      "version": 1
+    },
+    {
+      "category": "worldhistory",
+      "file": "worldhistory.m5.json",
       "version": 1
     },
     {

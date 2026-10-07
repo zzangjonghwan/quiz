@@ -1,0 +1,972 @@
+{
+  "category": "worldhistory",
+  "version": 1,
+  "cards": [
+    {
+      "id": "worldhistory-m4001",
+      "difficulty": "easy",
+      "answer": "미라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 이집트 사람들이 죽은 사람의 몸을 썩지 않게 보존해 만든 것은?",
+          "choices": [
+            "미라",
+            "토우",
+            "병마용",
+            "데스마스크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영혼이 다시 돌아올 몸이 필요하다고 믿었어요. 내장을 꺼내고 소금으로 말린 뒤 붕대로 감쌌어요.",
+        "tip": "붕대 감은 몸"
+      }
+    },
+    {
+      "id": "worldhistory-m4002",
+      "difficulty": "easy",
+      "answer": "나일강",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해마다 범람해 기름진 흙을 남겨 고대 이집트 문명을 키운 강은?",
+          "choices": [
+            "나일강",
+            "유프라테스강",
+            "인더스강",
+            "황허강"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "범람 시기를 알려고 천문학과 태양력이 발달했고, 땅을 다시 나누며 측량술도 발달했어요.",
+        "tip": "\"이집트는 나일강의 선물\""
+      }
+    },
+    {
+      "id": "worldhistory-m4003",
+      "difficulty": "hard",
+      "answer": "역사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 그리스의 역사가 헤로도토스가 \"이집트는 나일강의 선물\"이라고 했다면, '역사의 아버지'로 불리는 그의 책은?",
+          "choices": [
+            "역사",
+            "일리아스",
+            "국가",
+            "사기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "페르시아 전쟁을 중심으로 여러 지역의 풍습과 이야기를 모았어요. 동양의 '역사의 아버지'는 사마천이에요.",
+        "tip": "서양의 역사의 아버지"
+      }
+    },
+    {
+      "id": "worldhistory-m4004",
+      "difficulty": "normal",
+      "answer": "인더스 문명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계 4대 문명 가운데 계획도시 모헨조다로와 하라파를 남긴 문명은?",
+          "choices": [
+            "인더스 문명",
+            "황허 문명",
+            "메소포타미아 문명",
+            "이집트 문명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "반듯한 도로와 하수도, 공중목욕탕을 갖춘 도시를 지었어요. 아직 해독되지 않은 문자가 남아 있어요.",
+        "tip": "하수도가 있던 도시"
+      }
+    },
+    {
+      "id": "worldhistory-m4005",
+      "difficulty": "hard",
+      "answer": "히타이트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계 최초로 철기를 본격적으로 쓴 것으로 알려진 소아시아(지금의 튀르키예)의 나라는?",
+          "choices": [
+            "히타이트",
+            "페니키아",
+            "아시리아",
+            "페르시아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "철제 무기와 전차로 강해졌어요. 철 만드는 기술을 오랫동안 비밀로 지켰어요.",
+        "tip": "철의 제국"
+      }
+    },
+    {
+      "id": "worldhistory-m4006",
+      "difficulty": "hard",
+      "answer": "왕의 길",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 페르시아 제국이 수도와 지방을 잇기 위해 만든 2,400km가 넘는 도로는?",
+          "choices": [
+            "왕의 길",
+            "비단길",
+            "아피아 가도",
+            "향신료 길"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "역참을 두고 파발꾼이 이어 달려 일주일 남짓 만에 소식을 전했다고 해요.",
+        "tip": "페르시아의 고속 도로"
+      }
+    },
+    {
+      "id": "worldhistory-m4007",
+      "difficulty": "normal",
+      "answer": "직접 민주 정치",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 아테네에서 시민들이 직접 모여 나랏일을 결정한 정치 방식은?",
+          "choices": [
+            "직접 민주 정치",
+            "대의 민주 정치",
+            "귀족 정치",
+            "군주 정치"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다만 여성, 노예, 외국인은 시민이 아니어서 참여할 수 없었어요.",
+        "tip": "민회에서 직접 투표"
+      }
+    },
+    {
+      "id": "worldhistory-m4008",
+      "difficulty": "normal",
+      "answer": "알렉산드리아 도서관",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이집트 알렉산드리아에 세워진, 고대 세계 최대의 도서관은?",
+          "choices": [
+            "알렉산드리아 도서관",
+            "아테네 도서관",
+            "페르가몬 도서관",
+            "바빌론 도서관"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "프톨레마이오스 왕조가 세웠고 수십만 권의 두루마리를 모았다고 전해요. 여러 차례 불과 전쟁으로 사라졌어요.",
+        "tip": "고대의 지식 창고"
+      }
+    },
+    {
+      "id": "worldhistory-m4009",
+      "difficulty": "normal",
+      "answer": "원로원",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 로마 공화정에서 귀족 출신 원로들이 모여 나라의 중요한 일을 의논한 기구는?",
+          "choices": [
+            "원로원",
+            "민회",
+            "평의회",
+            "아레오파고스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'시니어(senior)'와 같은 뿌리의 '세나투스'예요. 미국 상원(Senate)의 이름도 여기서 왔어요.",
+        "tip": "Senate의 기원"
+      }
+    },
+    {
+      "id": "worldhistory-m4010",
+      "difficulty": "hard",
+      "answer": "12표법",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기원전 450년 무렵 로마에서 관습법을 처음 글로 새겨 광장에 세운 법은?",
+          "choices": [
+            "12표법",
+            "함무라비 법전",
+            "유스티니아누스 법전",
+            "나폴레옹 법전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "청동판 12장에 새겨 평민도 법을 알 수 있게 됐어요.",
+        "tip": "청동판 12장"
+      }
+    },
+    {
+      "id": "worldhistory-m4011",
+      "difficulty": "easy",
+      "answer": "포장도로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'모든 길은 로마로 통한다'는 말이 나올 만큼 로마가 넓은 영토에 깐 것은?",
+          "choices": [
+            "포장도로",
+            "운하",
+            "철도",
+            "성벽"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가장 유명한 것은 기원전 312년 만든 '아피아 가도'예요. 군대와 물자가 빠르게 이동했어요.",
+        "tip": "아피아 가도"
+      }
+    },
+    {
+      "id": "worldhistory-m4012",
+      "difficulty": "normal",
+      "answer": "팍스 로마나",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "로마 제국이 약 200년 동안 큰 전쟁 없이 번영한 시기를 부르는 말은?",
+          "choices": [
+            "팍스 로마나",
+            "팍스 아메리카나",
+            "르네상스",
+            "헬레니즘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'로마의 평화'라는 뜻이에요. 아우구스투스 때부터 약 200년간이에요.",
+        "tip": "로마의 평화"
+      }
+    },
+    {
+      "id": "worldhistory-m4013",
+      "difficulty": "normal",
+      "answer": "게르만족의 대이동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "4세기 후반 훈족에게 밀려 게르만족이 로마 제국 안으로 대거 옮겨 온 사건은?",
+          "choices": [
+            "게르만족의 대이동",
+            "바이킹의 침입",
+            "노르만 정복",
+            "십자군 원정"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 혼란 속에서 476년 서로마 제국이 무너졌어요.",
+        "tip": "훈족 → 게르만 → 로마"
+      }
+    },
+    {
+      "id": "worldhistory-m4014",
+      "difficulty": "normal",
+      "answer": "헬레니즘 문화",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "알렉산드로스 대왕의 원정 이후 그리스 문화와 오리엔트 문화가 섞여 생긴 문화는?",
+          "choices": [
+            "헬레니즘 문화",
+            "르네상스 문화",
+            "비잔틴 문화",
+            "이슬람 문화"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "인도의 간다라 불상에도 그리스 조각의 영향이 남아 있어요.",
+        "tip": "그리스 + 동방"
+      }
+    },
+    {
+      "id": "worldhistory-m4015",
+      "difficulty": "hard",
+      "answer": "간다라 미술",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "그리스 조각 양식의 영향을 받아 처음으로 사람 모습의 불상을 만든 인도 북서부의 미술 양식은?",
+          "choices": [
+            "간다라 미술",
+            "굽타 미술",
+            "아잔타 미술",
+            "마우리아 미술"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "쿠샨 왕조 때 지금의 파키스탄 지역에서 꽃피웠어요. 곱슬머리와 옷 주름이 그리스 조각을 닮았어요.",
+        "tip": "그리스풍 부처님"
+      }
+    },
+    {
+      "id": "worldhistory-m4016",
+      "difficulty": "normal",
+      "answer": "아소카왕",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인도의 마우리아 왕조 때 전쟁의 참상을 뉘우치고 불교를 널리 퍼뜨린 왕은?",
+          "choices": [
+            "아소카왕",
+            "찬드라굽타",
+            "카니슈카왕",
+            "샤 자한"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "칼링가 전쟁의 비참함을 보고 불교에 귀의했어요. 곳곳에 돌기둥을 세워 가르침을 새겼어요.",
+        "tip": "전쟁을 뉘우친 왕"
+      }
+    },
+    {
+      "id": "worldhistory-m4017",
+      "difficulty": "normal",
+      "answer": "아라비아 숫자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인도에서 숫자 '0'의 개념이 널리 쓰이기 시작해 아라비아를 거쳐 유럽에 전해졌는데, 우리가 쓰는 1, 2, 3을 흔히 부르는 이름은?",
+          "choices": [
+            "아라비아 숫자",
+            "로마 숫자",
+            "인도 숫자",
+            "그리스 숫자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "실제로는 인도에서 만들어졌지만 아라비아 상인을 통해 유럽에 전해져 이렇게 불려요.",
+        "tip": "인도에서 태어나 아라비아로"
+      }
+    },
+    {
+      "id": "worldhistory-m4018",
+      "difficulty": "easy",
+      "answer": "카스트 제도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인도에서 사람을 태어날 때부터 브라만, 크샤트리아, 바이샤, 수드라로 나눈 신분 제도는?",
+          "choices": [
+            "카스트 제도",
+            "골품 제도",
+            "봉건 제도",
+            "장원 제도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "인도 헌법은 카스트에 따른 차별을 금지하지만, 사회에는 영향이 남아 있어요.",
+        "tip": "브라만이 맨 위"
+      }
+    },
+    {
+      "id": "worldhistory-m4019",
+      "difficulty": "normal",
+      "answer": "제자백가",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중국 춘추 전국 시대에 공자, 맹자, 노자, 한비자 등 여러 사상가가 나온 것을 부르는 말은?",
+          "choices": [
+            "제자백가",
+            "분서갱유",
+            "백가쟁명",
+            "춘추오패"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'여러 스승과 수많은 학파'라는 뜻이에요. 유가, 도가, 법가, 묵가 등이 있어요.",
+        "tip": "백 개의 학파"
+      }
+    },
+    {
+      "id": "worldhistory-m4020",
+      "difficulty": "normal",
+      "answer": "법가",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "진시황이 통일 후 나라를 다스리는 바탕으로 삼은, 엄격한 법으로 다스리자는 사상은?",
+          "choices": [
+            "법가",
+            "유가",
+            "도가",
+            "묵가"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한비자가 정리했어요. 진나라가 빨리 무너진 뒤 한나라는 유가를 국가 사상으로 삼았어요.",
+        "tip": "법으로 다스린다"
+      }
+    },
+    {
+      "id": "worldhistory-m4021",
+      "difficulty": "normal",
+      "answer": "과거제",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "수나라 때 처음 시작되어 시험으로 관리를 뽑은 중국의 제도는?",
+          "choices": [
+            "과거제",
+            "구품중정제",
+            "향거리선제",
+            "음서제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "청나라 말 1905년 폐지될 때까지 1,300년 넘게 이어졌어요. 고려 광종도 이 제도를 받아들였어요.",
+        "tip": "중국 과거 1,300년"
+      }
+    },
+    {
+      "id": "worldhistory-m4022",
+      "difficulty": "normal",
+      "answer": "동방견문록",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마르코 폴로가 원나라에서 지낸 경험을 이야기해 유럽에 동양을 알린 책은?",
+          "choices": [
+            "동방견문록",
+            "왕오천축국전",
+            "대당서역기",
+            "이븐 바투타 여행기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "쿠빌라이 칸 밑에서 17년을 지냈다고 해요. 감옥 동료에게 들려준 이야기를 책으로 냈어요.",
+        "tip": "감옥에서 들려준 여행기"
+      }
+    },
+    {
+      "id": "worldhistory-m4023",
+      "difficulty": "normal",
+      "answer": "나침반",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "송나라 때 발달해 유럽으로 전해지며 대항해 시대를 여는 데 도움을 준 발명품은?",
+          "choices": [
+            "나침반",
+            "망원경",
+            "시계",
+            "증기선"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "화약, 인쇄술과 함께 중국의 3대 발명품이에요. 종이를 넣어 4대 발명품이라고도 해요.",
+        "tip": "방향을 알려 준 바늘"
+      }
+    },
+    {
+      "id": "worldhistory-m4024",
+      "difficulty": "normal",
+      "answer": "봉건 제도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중세 유럽에서 왕이 기사에게 땅을 주고 그 대가로 충성과 군사적 봉사를 받던 제도는?",
+          "choices": [
+            "봉건 제도",
+            "장원 제도",
+            "카스트 제도",
+            "도편 추방제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "땅을 주는 사람은 주군, 받는 사람은 봉신이었어요. 땅을 일구는 농노는 장원에 묶여 살았어요.",
+        "tip": "땅과 충성의 맞교환"
+      }
+    },
+    {
+      "id": "worldhistory-m4025",
+      "difficulty": "normal",
+      "answer": "길드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중세 유럽 도시에서 같은 직업의 상인과 수공업자들이 만든 동업 조합은?",
+          "choices": [
+            "길드",
+            "장원",
+            "코뮌",
+            "한자 동맹"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "품질과 가격을 정하고 경쟁을 막았어요. 도제 → 직인 → 장인 순서로 기술을 익혔어요.",
+        "tip": "중세의 협회"
+      }
+    },
+    {
+      "id": "worldhistory-m4026",
+      "difficulty": "normal",
+      "answer": "카노사의 굴욕",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1077년 신성 로마 제국 황제 하인리히 4세가 교황에게 용서를 빌려고 눈 속에서 사흘을 기다린 사건은?",
+          "choices": [
+            "카노사의 굴욕",
+            "아비뇽 유수",
+            "보름스 협약",
+            "교회의 대분열"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "성직자 임명권을 두고 교황 그레고리우스 7세와 다투다 파문당했어요. 교황권이 황제보다 강했음을 보여 줘요.",
+        "tip": "눈 속의 맨발 황제"
+      }
+    },
+    {
+      "id": "worldhistory-m4027",
+      "difficulty": "hard",
+      "answer": "아비뇽 유수",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "14세기 교황청이 로마에서 프랑스 남부 도시로 옮겨져 70년 가까이 프랑스 왕의 영향을 받은 사건은?",
+          "choices": [
+            "아비뇽 유수",
+            "카노사의 굴욕",
+            "종교 개혁",
+            "교회의 대분열"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "고대 유대인이 바빌론에 끌려간 '바빌론 유수'에 빗댄 말이에요. 교황권이 약해졌음을 보여 줘요.",
+        "tip": "프랑스에 갇힌 교황"
+      }
+    },
+    {
+      "id": "worldhistory-m4028",
+      "difficulty": "hard",
+      "answer": "한자 동맹",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "13~17세기 독일 북부 도시들이 상업적 이익을 지키려고 맺은 도시 연합은?",
+          "choices": [
+            "한자 동맹",
+            "신성 동맹",
+            "롬바르디아 동맹",
+            "길드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뤼베크, 함부르크 등이 중심이었어요. 지금도 함부르크 자동차 번호판에 'HH(한자 도시 함부르크)'라고 쓰여요.",
+        "tip": "독일 상인 도시 연합"
+      }
+    },
+    {
+      "id": "worldhistory-m4029",
+      "difficulty": "hard",
+      "answer": "레콩키스타",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1492년 스페인이 이베리아반도의 마지막 이슬람 왕국 그라나다를 무너뜨리며 끝난 국토 회복 운동은?",
+          "choices": [
+            "레콩키스타",
+            "십자군 원정",
+            "종교 개혁",
+            "대항해 시대"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "같은 해 콜럼버스가 스페인 여왕의 후원으로 항해를 떠났어요.",
+        "tip": "1492년의 두 사건"
+      }
+    },
+    {
+      "id": "worldhistory-m4030",
+      "difficulty": "normal",
+      "answer": "칼리프",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이슬람 세계에서 예언자 무함마드의 후계자로 정치와 종교를 이끈 지도자를 부르는 말은?",
+          "choices": [
+            "칼리프",
+            "술탄",
+            "이맘",
+            "파샤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'후계자'라는 뜻이에요. 나중에 오스만 제국의 왕은 '술탄'이라는 칭호를 썼어요.",
+        "tip": "무함마드의 후계자"
+      }
+    },
+    {
+      "id": "worldhistory-m4031",
+      "difficulty": "hard",
+      "answer": "술레이만 1세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "16세기 오스만 제국의 최전성기를 이끌며 '입법자', '대제'로 불린 술탄은?",
+          "choices": [
+            "술레이만 1세",
+            "메흐메트 2세",
+            "오스만 1세",
+            "셀림 1세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "헝가리를 정복하고 빈을 포위할 만큼 세력을 넓혔어요.",
+        "tip": "오스만의 황금기"
+      }
+    },
+    {
+      "id": "worldhistory-m4032",
+      "difficulty": "normal",
+      "answer": "최초의 세계 일주",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마젤란 함대가 이룬 세계사적 사건은?",
+          "choices": [
+            "최초의 세계 일주",
+            "아메리카 대륙 도착",
+            "인도 항로 개척",
+            "남극 대륙 발견"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1519년 출발해 1522년 돌아왔어요. 마젤란은 필리핀에서 죽어, 남은 선원들이 일주를 마쳤어요.",
+        "tip": "지구가 둥글다는 증명"
+      }
+    },
+    {
+      "id": "worldhistory-m4033",
+      "difficulty": "hard",
+      "answer": "콜럼버스의 교환",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "콜럼버스 이후 아메리카와 유럽 사이에 감자, 옥수수, 말, 질병 등이 오간 것을 부르는 말은?",
+          "choices": [
+            "콜럼버스의 교환",
+            "삼각 무역",
+            "중상주의",
+            "상업 혁명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "감자와 옥수수는 유럽의 인구를 늘렸지만, 유럽에서 건너간 천연두는 원주민 인구를 크게 줄였어요.",
+        "tip": "감자 ↔ 천연두"
+      }
+    },
+    {
+      "id": "worldhistory-m4034",
+      "difficulty": "normal",
+      "answer": "삼각 무역",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "17~18세기 유럽, 아프리카, 아메리카를 잇는 노예 무역 경로를 부르는 말은?",
+          "choices": [
+            "삼각 무역",
+            "중계 무역",
+            "실크로드",
+            "향신료 무역"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "유럽의 공산품이 아프리카로, 아프리카 노예가 아메리카로, 아메리카의 설탕과 면화가 유럽으로 갔어요.",
+        "tip": "세 대륙의 비극"
+      }
+    },
+    {
+      "id": "worldhistory-m4035",
+      "difficulty": "easy",
+      "answer": "구텐베르크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "15세기 금속 활자로 성경을 인쇄해 유럽에 인쇄 혁명을 일으킨 사람은?",
+          "choices": [
+            "구텐베르크",
+            "루터",
+            "에라스뮈스",
+            "칼뱅"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "책값이 싸지며 지식이 빠르게 퍼졌고, 종교 개혁에도 큰 영향을 줬어요.",
+        "tip": "「42행 성서」"
+      }
+    },
+    {
+      "id": "worldhistory-m4036",
+      "difficulty": "normal",
+      "answer": "짐이 곧 국가다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "프랑스 루이 14세가 했다는 말로 절대 왕정을 상징하는 표현은?",
+          "choices": [
+            "짐이 곧 국가다",
+            "왕은 군림하나 통치하지 않는다",
+            "빵이 없으면 케이크를 먹어라",
+            "나는 생각한다, 고로 존재한다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "루이 14세는 '태양왕'으로 불리며 베르사유 궁전에서 강력한 권력을 휘둘렀어요.",
+        "tip": "태양왕의 말"
+      }
+    },
+    {
+      "id": "worldhistory-m4037",
+      "difficulty": "normal",
+      "answer": "왕권신수설",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "왕의 권력은 신에게서 받은 것이라 누구도 거스를 수 없다는 절대 왕정의 사상은?",
+          "choices": [
+            "왕권신수설",
+            "사회 계약설",
+            "천부 인권설",
+            "삼권 분립"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "계몽사상가들은 이에 맞서 국가는 국민의 계약으로 생긴다는 사회 계약설을 주장했어요.",
+        "tip": "신이 준 왕권"
+      }
+    },
+    {
+      "id": "worldhistory-m4038",
+      "difficulty": "normal",
+      "answer": "루소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「사회 계약론」에서 '주권은 국민에게 있다'며 프랑스 혁명에 영향을 준 사상가는?",
+          "choices": [
+            "루소",
+            "몽테스키외",
+            "홉스",
+            "볼테르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「에밀」이라는 교육서도 썼어요.",
+        "tip": "국민 주권"
+      }
+    },
+    {
+      "id": "worldhistory-m4039",
+      "difficulty": "hard",
+      "answer": "백과전서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "18세기 프랑스에서 디드로 등이 당시의 지식을 모두 모아 펴내 계몽사상을 퍼뜨린 책은?",
+          "choices": [
+            "백과전서",
+            "법의 정신",
+            "국부론",
+            "종의 기원"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "20년 넘게 걸려 수십 권으로 펴냈어요. 교회와 왕실의 탄압을 받기도 했어요.",
+        "tip": "세상 모든 지식"
+      }
+    },
+    {
+      "id": "worldhistory-m4040",
+      "difficulty": "normal",
+      "answer": "국부론",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "애덤 스미스가 1776년 펴낸, 자유로운 시장 경제의 원리를 설명한 책은?",
+          "choices": [
+            "국부론",
+            "자본론",
+            "고용, 이자 및 화폐의 일반 이론",
+            "인구론"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'보이지 않는 손'이 시장을 조절한다는 표현이 유명해요. 경제학의 출발점으로 꼽혀요.",
+        "tip": "보이지 않는 손"
+      }
+    },
+    {
+      "id": "worldhistory-m4041",
+      "difficulty": "normal",
+      "answer": "미국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1787년 만들어져 지금도 쓰이는, 세계에서 가장 오래된 성문 헌법을 가진 나라는?",
+          "choices": [
+            "미국",
+            "영국",
+            "프랑스",
+            "스위스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "삼권 분립과 연방제를 담았어요. 영국은 하나로 정리된 성문 헌법이 없는 나라예요.",
+        "tip": "1787년 헌법"
+      }
+    },
+    {
+      "id": "worldhistory-m4042",
+      "difficulty": "normal",
+      "answer": "나폴레옹 법전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "나폴레옹이 1804년 펴낸, 법 앞의 평등과 사유 재산 보호를 담은 민법전은?",
+          "choices": [
+            "나폴레옹 법전",
+            "함무라비 법전",
+            "12표법",
+            "권리 장전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나폴레옹은 \"나의 진정한 영광은 전쟁의 승리가 아니라 법전\"이라고 말했다고 해요. 근대 민법의 본보기가 됐어요.",
+        "tip": "나폴레옹의 진짜 영광"
+      }
+    },
+    {
+      "id": "worldhistory-m4043",
+      "difficulty": "hard",
+      "answer": "아이티",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1804년 노예들의 혁명으로 프랑스에서 독립해 세계 최초의 흑인 공화국이 된 나라는?",
+          "choices": [
+            "아이티",
+            "자메이카",
+            "쿠바",
+            "라이베리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "투생 루베르튀르 등이 이끈 혁명이었어요. 라틴 아메리카 최초의 독립국이기도 해요.",
+        "tip": "노예가 세운 공화국"
+      }
+    },
+    {
+      "id": "worldhistory-m4044",
+      "difficulty": "normal",
+      "answer": "시몬 볼리바르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "남아메리카 여러 나라를 스페인에서 독립시켜 '해방자'로 불리고, 한 나라의 이름이 된 인물은?",
+          "choices": [
+            "시몬 볼리바르",
+            "산 마르틴",
+            "미란다",
+            "체 게바라"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "볼리비아라는 나라 이름이 그의 이름에서 왔어요. 베네수엘라의 화폐 단위도 '볼리바르'예요.",
+        "tip": "볼리비아의 이름"
+      }
+    },
+    {
+      "id": "worldhistory-m4045",
+      "difficulty": "normal",
+      "answer": "노예 해방 선언",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1863년 링컨 대통령이 남부 반란 지역의 노예를 해방한다고 선언한 문서는?",
+          "choices": [
+            "노예 해방 선언",
+            "독립 선언문",
+            "게티즈버그 연설",
+            "권리 장전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1865년 헌법 수정 제13조로 미국 전역에서 노예제가 폐지됐어요.",
+        "tip": "1863년"
+      }
+    },
+    {
+      "id": "worldhistory-m4046",
+      "difficulty": "normal",
+      "answer": "게티즈버그 연설",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "링컨이 남북 전쟁 중 \"국민의, 국민에 의한, 국민을 위한 정부\"라는 말을 남긴 연설은?",
+          "choices": [
+            "게티즈버그 연설",
+            "노예 해방 선언",
+            "취임 연설",
+            "먼로 선언"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2분 남짓한 짧은 연설이었지만 민주주의를 가장 잘 표현한 말로 꼽혀요.",
+        "tip": "2분짜리 명연설"
+      }
+    }
+  ]
+}
