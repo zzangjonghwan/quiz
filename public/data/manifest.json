@@ -1,5 +1,5 @@
 {
-  "version": 127,
+  "version": 130,
   "files": [
     {
       "category": "idiom",
@@ -454,6 +454,21 @@
     {
       "category": "book",
       "file": "book.m2.json",
+      "version": 1
+    },
+    {
+      "category": "book",
+      "file": "book.m3.json",
+      "version": 1
+    },
+    {
+      "category": "book",
+      "file": "book.m4.json",
+      "version": 1
+    },
+    {
+      "category": "book",
+      "file": "book.t.json",
       "version": 1
     },
     {
