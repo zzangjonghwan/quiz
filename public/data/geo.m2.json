@@ -1,0 +1,891 @@
+{
+  "category": "geo",
+  "version": 1,
+  "cards": [
+    {
+      "id": "geo-m2001",
+      "difficulty": "easy",
+      "answer": "도쿄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "일본의 수도는?",
+          "choices": [
+            "도쿄",
+            "오사카",
+            "교토",
+            "요코하마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도쿄는 1868년 메이지 유신 이후 일본의 수도가 되었어요. 그 전 천 년 넘게 수도였던 곳이 교토예요.",
+        "tip": "교토(京都)와 도쿄(東京)는 글자 순서가 반대"
+      }
+    },
+    {
+      "id": "geo-m2002",
+      "difficulty": "easy",
+      "answer": "베이징",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중국의 수도는?",
+          "choices": [
+            "베이징",
+            "상하이",
+            "난징",
+            "광저우"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "베이징(北京)은 '북쪽의 수도'라는 뜻이에요. 명나라 초기 수도였던 난징(南京)은 '남쪽의 수도'예요.",
+        "tip": "북경(北京) ↔ 남경(南京)"
+      }
+    },
+    {
+      "id": "geo-m2003",
+      "difficulty": "easy",
+      "answer": "베를린",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "독일의 수도는?",
+          "choices": [
+            "베를린",
+            "본",
+            "뮌헨",
+            "프랑크푸르트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "통일 전 서독의 수도는 본이었어요. 1990년 통일 후 베를린이 다시 수도가 되었어요.",
+        "tip": "서독 = 본, 통일 독일 = 베를린"
+      }
+    },
+    {
+      "id": "geo-m2004",
+      "difficulty": "easy",
+      "answer": "로마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이탈리아의 수도는?",
+          "choices": [
+            "로마",
+            "밀라노",
+            "나폴리",
+            "피렌체"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "로마 안에는 세계에서 가장 작은 나라 바티칸 시국이 있어요.",
+        "tip": "모든 길은 로마로 통한다"
+      }
+    },
+    {
+      "id": "geo-m2005",
+      "difficulty": "easy",
+      "answer": "모스크바",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "러시아의 수도는?",
+          "choices": [
+            "모스크바",
+            "상트페테르부르크",
+            "블라디보스토크",
+            "노보시비르스크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1712년부터 1918년까지는 상트페테르부르크가 러시아 제국의 수도였어요.",
+        "tip": "크렘린과 붉은 광장"
+      }
+    },
+    {
+      "id": "geo-m2006",
+      "difficulty": "easy",
+      "answer": "런던",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국의 수도는?",
+          "choices": [
+            "런던",
+            "맨체스터",
+            "에든버러",
+            "리버풀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "런던은 템스강 가에 있는 도시로, 경도 0도가 지나는 그리니치 천문대가 있어요. 에든버러는 스코틀랜드의 수도예요.",
+        "tip": "템스강 + 빅 벤"
+      }
+    },
+    {
+      "id": "geo-m2007",
+      "difficulty": "easy",
+      "answer": "멕시코시티",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "멕시코의 수도는?",
+          "choices": [
+            "멕시코시티",
+            "칸쿤",
+            "과달라하라",
+            "몬테레이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아즈텍 제국의 수도 테노치티틀란 위에 세워진 도시로, 해발 약 2,240m 고원에 있어요.",
+        "tip": "나라 이름 + 시티"
+      }
+    },
+    {
+      "id": "geo-m2008",
+      "difficulty": "easy",
+      "answer": "키이우",
+      "aliases": [
+        "키예프"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우크라이나의 수도는?",
+          "choices": [
+            "키이우",
+            "하르키우",
+            "오데사",
+            "리비우"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "드니프로강 가에 있는 오래된 도시예요. 러시아어식 '키예프' 대신 우크라이나어식 '키이우'로 부르고 있어요.",
+        "tip": "키예프 → 키이우"
+      }
+    },
+    {
+      "id": "geo-m2009",
+      "difficulty": "easy",
+      "answer": "타이베이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대만의 수도는?",
+          "choices": [
+            "타이베이",
+            "가오슝",
+            "타이중",
+            "타이난"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "타이베이는 대만 북부에 있고, 높이 508m의 '타이베이 101' 빌딩으로 유명해요.",
+        "tip": "타이베이 101"
+      }
+    },
+    {
+      "id": "geo-m2010",
+      "difficulty": "easy",
+      "answer": "바그다드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이라크의 수도는?",
+          "choices": [
+            "바그다드",
+            "바스라",
+            "모술",
+            "다마스쿠스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "티그리스강 가의 바그다드는 『천일야화』의 배경이 된 아바스 왕조의 수도였어요.",
+        "tip": "아라비안나이트의 도시"
+      }
+    },
+    {
+      "id": "geo-m2011",
+      "difficulty": "normal",
+      "answer": "암스테르담",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "네덜란드의 수도는?",
+          "choices": [
+            "암스테르담",
+            "헤이그",
+            "로테르담",
+            "브뤼셀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "헌법상 수도는 암스테르담이지만 국회, 정부, 왕궁은 헤이그에 있어요. 브뤼셀은 벨기에의 수도예요.",
+        "tip": "수도 = 암스테르담, 정부 = 헤이그"
+      }
+    },
+    {
+      "id": "geo-m2012",
+      "difficulty": "normal",
+      "answer": "브뤼셀",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "벨기에의 수도는?",
+          "choices": [
+            "브뤼셀",
+            "앤트워프",
+            "브뤼허",
+            "리에주"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "브뤼셀에는 유럽 연합(EU) 본부와 NATO 본부가 있어 '유럽의 수도'라고도 불려요.",
+        "tip": "EU 본부 = 브뤼셀"
+      }
+    },
+    {
+      "id": "geo-m2013",
+      "difficulty": "normal",
+      "answer": "쿠알라룸푸르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "말레이시아의 수도는?",
+          "choices": [
+            "쿠알라룸푸르",
+            "푸트라자야",
+            "조호르바루",
+            "페낭"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공식 수도는 쿠알라룸푸르이고, 정부 기관 대부분은 근처의 행정 도시 푸트라자야로 옮겨 갔어요.",
+        "tip": "페트로나스 트윈 타워"
+      }
+    },
+    {
+      "id": "geo-m2014",
+      "difficulty": "normal",
+      "answer": "프놈펜",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "캄보디아의 수도는?",
+          "choices": [
+            "프놈펜",
+            "시엠레아프",
+            "비엔티안",
+            "양곤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "앙코르와트가 있는 도시는 시엠레아프예요. 비엔티안은 라오스, 양곤은 미얀마의 옛 수도예요.",
+        "tip": "앙코르와트 ≠ 수도"
+      }
+    },
+    {
+      "id": "geo-m2015",
+      "difficulty": "normal",
+      "answer": "이슬라마바드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "파키스탄의 수도는?",
+          "choices": [
+            "이슬라마바드",
+            "카라치",
+            "라호르",
+            "페샤와르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1960년대에 새로 계획해 지은 수도예요. 가장 큰 도시는 남쪽 항구 도시 카라치예요.",
+        "tip": "'이슬람의 도시'"
+      }
+    },
+    {
+      "id": "geo-m2016",
+      "difficulty": "normal",
+      "answer": "카트만두",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "네팔의 수도는?",
+          "choices": [
+            "카트만두",
+            "포카라",
+            "팀부",
+            "다카"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "히말라야 산기슭 분지에 있어요. 팀부는 부탄, 다카는 방글라데시의 수도예요.",
+        "tip": "에베레스트 등반의 관문"
+      }
+    },
+    {
+      "id": "geo-m2017",
+      "difficulty": "normal",
+      "answer": "다마스쿠스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "시리아의 수도는?",
+          "choices": [
+            "다마스쿠스",
+            "알레포",
+            "바그다드",
+            "베이루트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사람이 계속 살아온 가장 오래된 도시 가운데 하나로 꼽혀요.",
+        "tip": "세계에서 가장 오래된 수도 후보"
+      }
+    },
+    {
+      "id": "geo-m2018",
+      "difficulty": "normal",
+      "answer": "베이루트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "레바논의 수도는?",
+          "choices": [
+            "베이루트",
+            "다마스쿠스",
+            "암만",
+            "트리폴리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지중해에 닿은 항구 도시로, 한때 '중동의 파리'로 불렸어요.",
+        "tip": "중동의 파리"
+      }
+    },
+    {
+      "id": "geo-m2019",
+      "difficulty": "normal",
+      "answer": "카불",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아프가니스탄의 수도는?",
+          "choices": [
+            "카불",
+            "칸다하르",
+            "헤라트",
+            "이슬라마바드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "해발 약 1,800m 산악 지대에 있는 도시예요.",
+        "tip": "카불강 가의 도시"
+      }
+    },
+    {
+      "id": "geo-m2020",
+      "difficulty": "normal",
+      "answer": "아바나",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "쿠바의 수도는?",
+          "choices": [
+            "아바나",
+            "산티아고데쿠바",
+            "킹스턴",
+            "산후안"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "알록달록한 건물과 1950년대 올드카로 유명해요. 킹스턴은 자메이카, 산후안은 푸에르토리코의 중심 도시예요.",
+        "tip": "올드카와 시가의 도시"
+      }
+    },
+    {
+      "id": "geo-m2021",
+      "difficulty": "normal",
+      "answer": "카라카스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "베네수엘라의 수도는?",
+          "choices": [
+            "카라카스",
+            "마라카이보",
+            "보고타",
+            "키토"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "독립 영웅 시몬 볼리바르가 태어난 도시예요.",
+        "tip": "볼리바르의 고향"
+      }
+    },
+    {
+      "id": "geo-m2022",
+      "difficulty": "normal",
+      "answer": "레이캬비크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아이슬란드의 수도는?",
+          "choices": [
+            "레이캬비크",
+            "오슬로",
+            "헬싱키",
+            "누크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세계에서 가장 북쪽에 있는 나라의 수도예요. '연기 나는 만'이라는 뜻으로, 온천 수증기에서 이름이 왔어요.",
+        "tip": "최북단 수도"
+      }
+    },
+    {
+      "id": "geo-m2023",
+      "difficulty": "normal",
+      "answer": "도하",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "카타르의 수도는?",
+          "choices": [
+            "도하",
+            "두바이",
+            "마나마",
+            "무스카트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2022년 FIFA 월드컵이 열린 도시예요. 두바이는 아랍에미리트의 도시, 마나마는 바레인의 수도예요.",
+        "tip": "2022 월드컵"
+      }
+    },
+    {
+      "id": "geo-m2024",
+      "difficulty": "hard",
+      "answer": "비엔티안",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "라오스의 수도는?",
+          "choices": [
+            "비엔티안",
+            "루앙프라방",
+            "프놈펜",
+            "방콕"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "메콩강 건너편이 바로 태국이에요. 루앙프라방은 옛 왕국의 수도로 세계 유산 도시예요.",
+        "tip": "메콩강 가의 조용한 수도"
+      }
+    },
+    {
+      "id": "geo-m2025",
+      "difficulty": "hard",
+      "answer": "다카",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "방글라데시의 수도는?",
+          "choices": [
+            "다카",
+            "치타공",
+            "콜카타",
+            "카트만두"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세계에서 인구 밀도가 가장 높은 도시 가운데 하나예요. 세네갈의 수도 다카르와 헷갈리기 쉬워요.",
+        "tip": "다카(방글라데시) ≠ 다카르(세네갈)"
+      }
+    },
+    {
+      "id": "geo-m2026",
+      "difficulty": "hard",
+      "answer": "다카르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세네갈의 수도는?",
+          "choices": [
+            "다카르",
+            "다카",
+            "바마코",
+            "아크라"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아프리카 대륙 가장 서쪽 끝에 있는 항구 도시예요. '다카르 랠리'의 결승점으로 유명했어요.",
+        "tip": "아프리카 최서단"
+      }
+    },
+    {
+      "id": "geo-m2027",
+      "difficulty": "hard",
+      "answer": "암만",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "요르단의 수도는?",
+          "choices": [
+            "암만",
+            "아카바",
+            "페트라",
+            "예루살렘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "페트라는 요르단의 고대 유적 도시이고, 아카바는 홍해에 닿은 항구 도시예요.",
+        "tip": "페트라 ≠ 수도"
+      }
+    },
+    {
+      "id": "geo-m2028",
+      "difficulty": "hard",
+      "answer": "타슈켄트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우즈베키스탄의 수도는?",
+          "choices": [
+            "타슈켄트",
+            "사마르칸트",
+            "부하라",
+            "알마티"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "중앙아시아에서 가장 큰 도시 가운데 하나예요. 실크로드의 보석 사마르칸트와 부하라도 우즈베키스탄에 있어요.",
+        "tip": "'돌의 도시'"
+      }
+    },
+    {
+      "id": "geo-m2029",
+      "difficulty": "hard",
+      "answer": "도도마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "탄자니아의 수도는?",
+          "choices": [
+            "도도마",
+            "다르에스살람",
+            "잔지바르",
+            "나이로비"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공식 수도는 내륙의 도도마이고, 가장 큰 도시이자 옛 수도는 항구 도시 다르에스살람이에요.",
+        "tip": "최대 도시 ≠ 수도"
+      }
+    },
+    {
+      "id": "geo-m2030",
+      "difficulty": "hard",
+      "answer": "아크라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "가나의 수도는?",
+          "choices": [
+            "아크라",
+            "쿠마시",
+            "라고스",
+            "아비장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대서양 기니만에 닿은 항구 도시예요. 라고스는 나이지리아, 아비장은 코트디부아르의 최대 도시예요.",
+        "tip": "초콜릿 카카오의 나라"
+      }
+    },
+    {
+      "id": "geo-m2031",
+      "difficulty": "hard",
+      "answer": "알제",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "알제리의 수도는?",
+          "choices": [
+            "알제",
+            "오랑",
+            "튀니스",
+            "카사블랑카"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나라 이름이 수도 이름에서 왔어요. 아프리카에서 면적이 가장 넓은 나라의 수도예요.",
+        "tip": "알제 → 알제리"
+      }
+    },
+    {
+      "id": "geo-m2032",
+      "difficulty": "hard",
+      "answer": "튀니스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "튀니지의 수도는?",
+          "choices": [
+            "튀니스",
+            "카르타고",
+            "알제",
+            "트리폴리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "근처에 고대 카르타고 유적이 있어요. 나라 이름도 수도에서 왔어요.",
+        "tip": "튀니스 → 튀니지"
+      }
+    },
+    {
+      "id": "geo-m2033",
+      "difficulty": "hard",
+      "answer": "키토",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "에콰도르의 수도는?",
+          "choices": [
+            "키토",
+            "과야킬",
+            "리마",
+            "보고타"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "해발 약 2,850m로, 적도 바로 근처에 있는 고산 수도예요. 에콰도르는 스페인어로 '적도'라는 뜻이에요.",
+        "tip": "적도의 고산 도시"
+      }
+    },
+    {
+      "id": "geo-m2034",
+      "difficulty": "hard",
+      "answer": "몬테비데오",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우루과이의 수도는?",
+          "choices": [
+            "몬테비데오",
+            "부에노스아이레스",
+            "아순시온",
+            "푼타델에스테"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "라플라타강을 사이에 두고 아르헨티나 수도 부에노스아이레스와 마주 보고 있어요.",
+        "tip": "1930년 첫 월드컵 개최 도시"
+      }
+    },
+    {
+      "id": "geo-m2035",
+      "difficulty": "hard",
+      "answer": "아순시온",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "파라과이의 수도는?",
+          "choices": [
+            "아순시온",
+            "몬테비데오",
+            "라파스",
+            "시우다드델에스테"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남아메리카에서 가장 오래된 도시 가운데 하나로 '도시들의 어머니'라고 불려요.",
+        "tip": "도시들의 어머니"
+      }
+    },
+    {
+      "id": "geo-m2036",
+      "difficulty": "hard",
+      "answer": "킹스턴",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자메이카의 수도는?",
+          "choices": [
+            "킹스턴",
+            "몬테고베이",
+            "아바나",
+            "나소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "레게 음악의 전설 밥 말리의 박물관이 있는 도시예요. 나소는 바하마의 수도예요.",
+        "tip": "레게의 고향"
+      }
+    },
+    {
+      "id": "geo-m2037",
+      "difficulty": "hard",
+      "answer": "부쿠레슈티",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "루마니아의 수도는?",
+          "choices": [
+            "부쿠레슈티",
+            "클루지나포카",
+            "소피아",
+            "부다페스트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한때 '작은 파리'로 불렸어요. 소피아는 불가리아, 부다페스트는 헝가리의 수도예요.",
+        "tip": "부다페스트와 헷갈리지 않기"
+      }
+    },
+    {
+      "id": "geo-m2038",
+      "difficulty": "hard",
+      "answer": "소피아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "불가리아의 수도는?",
+          "choices": [
+            "소피아",
+            "바르나",
+            "부쿠레슈티",
+            "베오그라드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도시 이름은 '지혜'라는 뜻의 성 소피아 성당에서 왔어요.",
+        "tip": "소피아 = 지혜"
+      }
+    },
+    {
+      "id": "geo-m2039",
+      "difficulty": "hard",
+      "answer": "자그레브",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "크로아티아의 수도는?",
+          "choices": [
+            "자그레브",
+            "두브로브니크",
+            "스플리트",
+            "류블랴나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "두브로브니크는 '아드리아해의 진주'로 불리는 관광 도시예요. 류블랴나는 슬로베니아의 수도예요.",
+        "tip": "두브로브니크 ≠ 수도"
+      }
+    },
+    {
+      "id": "geo-m2040",
+      "difficulty": "hard",
+      "answer": "베오그라드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세르비아의 수도는?",
+          "choices": [
+            "베오그라드",
+            "노비사드",
+            "자그레브",
+            "사라예보"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도나우강과 사바강이 만나는 곳에 있어요. '하얀 도시'라는 뜻이에요.",
+        "tip": "베오(하얀) + 그라드(도시)"
+      }
+    },
+    {
+      "id": "geo-m2041",
+      "difficulty": "hard",
+      "answer": "트빌리시",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조지아의 수도는?",
+          "choices": [
+            "트빌리시",
+            "바투미",
+            "예레반",
+            "바쿠"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'따뜻한 곳'이라는 뜻으로, 온천이 많아 붙은 이름이에요. 예레반은 아르메니아, 바쿠는 아제르바이잔의 수도예요.",
+        "tip": "코카서스 3국: 트빌리시·예레반·바쿠"
+      }
+    },
+    {
+      "id": "geo-m2042",
+      "difficulty": "hard",
+      "answer": "남아프리카 공화국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "행정 수도(프리토리아), 입법 수도(케이프타운), 사법 수도(블룸폰테인)가 따로 있는 나라는?",
+          "choices": [
+            "남아프리카 공화국",
+            "나이지리아",
+            "케냐",
+            "이집트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남아공은 세 도시에 정부 기능을 나눠 두었어요. 가장 큰 도시는 요하네스버그예요.",
+        "tip": "수도가 셋인 나라"
+      }
+    }
+  ]
+}
