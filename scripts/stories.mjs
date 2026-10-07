@@ -301,11 +301,11 @@ async function align(story, pcm) {
 const cachePath = (voice) => join(OUT, voice === 'arin' ? 'cache.json' : `cache-${voice}.json`)
 const readCache = (voice) => (existsSync(cachePath(voice)) ? JSON.parse(readFileSync(cachePath(voice), 'utf8')) : {})
 
-/** Writes public/data/stories.json from every voice's cache. A story is listed once arin has it. */
+/** Writes public/data/stories.json from every voice's cache. A story is listed once any voice has it. */
 function writeList(stories) {
   const caches = Object.fromEntries(Object.keys(VOICES).map((v) => [v, readCache(v)]))
   const list = stories
-    .filter((s) => caches.arin[s.id]?.file === fileFor(s, 'arin'))
+    .filter((s) => Object.keys(VOICES).some((v) => caches[v][s.id]?.file === fileFor(s, v)))
     .map((s) => ({
       ...s,
       voices: Object.fromEntries(

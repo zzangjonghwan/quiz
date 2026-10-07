@@ -54,7 +54,7 @@ const AUDIO_BASE = import.meta.env.DEV
 
 let cache: Promise<StoryData[]> | null = null
 
-/** The stories in the chosen voice (arin wherever that voice isn't recorded yet). */
+/** The stories in the chosen voice (arin, or any recorded voice, wherever that one isn't recorded yet). */
 export function loadStories(voice: VoiceId) {
   cache ??= fetch(`${import.meta.env.BASE_URL}data/stories.json`)
     .then((r) => r.json() as Promise<{ stories: StoryData[] }>)
@@ -63,7 +63,7 @@ export function loadStories(voice: VoiceId) {
 }
 
 export function inVoice(story: StoryData, voice: VoiceId): Story {
-  const v = story.voices[voice] ? voice : 'arin'
+  const v = story.voices[voice] ? voice : story.voices.arin ? 'arin' : (Object.keys(story.voices)[0] as VoiceId)
   return { ...story, ...story.voices[v]!, voice: v }
 }
 
