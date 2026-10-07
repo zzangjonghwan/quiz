@@ -1,5 +1,5 @@
 {
-  "version": 188,
+  "version": 189,
   "files": [
     {
       "category": "idiom",
@@ -899,6 +899,11 @@
     {
       "category": "news",
       "file": "news.m2.json",
+      "version": 1
+    },
+    {
+      "category": "news",
+      "file": "news.m3.json",
       "version": 1
     },
     {
