@@ -1,5 +1,5 @@
 {
-  "version": 40,
+  "version": 42,
   "files": [
     {
       "category": "idiom",
@@ -118,6 +118,11 @@
     },
     {
       "category": "science",
+      "file": "science.m.json",
+      "version": 1
+    },
+    {
+      "category": "science",
       "file": "science.stars.json",
       "version": 1
     },
@@ -129,6 +134,11 @@
     {
       "category": "geo",
       "file": "geo.json",
+      "version": 1
+    },
+    {
+      "category": "geo",
+      "file": "geo.m.json",
       "version": 1
     },
     {

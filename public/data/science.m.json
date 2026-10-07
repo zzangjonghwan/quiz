@@ -1,0 +1,1311 @@
+{
+  "category": "science",
+  "version": 1,
+  "cards": [
+    {
+      "id": "science-m001",
+      "difficulty": "easy",
+      "answer": "H₂O",
+      "aliases": [
+        "H2O"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "물의 화학식은?",
+          "choices": [
+            "H₂O",
+            "CO₂",
+            "O₂",
+            "H₂O₂"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물은 수소 원자 2개와 산소 원자 1개가 결합한 분자예요. H₂O₂는 소독약으로 쓰는 과산화 수소예요.",
+        "tip": "수소(H) 둘 + 산소(O) 하나"
+      }
+    },
+    {
+      "id": "science-m002",
+      "difficulty": "easy",
+      "answer": "8개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "현재 태양계 행성은 몇 개일까?",
+          "choices": [
+            "8개",
+            "9개",
+            "7개",
+            "10개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "수성, 금성, 지구, 화성, 목성, 토성, 천왕성, 해왕성 8개예요. 명왕성은 2006년 왜행성으로 분류가 바뀌었어요.",
+        "tip": "수금지화목토천해"
+      }
+    },
+    {
+      "id": "science-m003",
+      "difficulty": "easy",
+      "answer": "금성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양계에서 표면 온도가 가장 높은 행성은?",
+          "choices": [
+            "금성",
+            "수성",
+            "화성",
+            "목성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "금성은 두꺼운 이산화 탄소 대기가 온실 효과를 일으켜 표면 온도가 약 460°C나 돼요. 태양에 가장 가까운 수성보다도 뜨거워요.",
+        "tip": "온실 효과의 끝판왕 = 금성"
+      }
+    },
+    {
+      "id": "science-m004",
+      "difficulty": "easy",
+      "answer": "토성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아름다운 고리로 가장 유명한 행성은?",
+          "choices": [
+            "토성",
+            "목성",
+            "천왕성",
+            "해왕성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "토성의 고리는 얼음과 암석 조각으로 이루어져 있어요. 사실 목성, 천왕성, 해왕성에도 희미한 고리가 있어요.",
+        "tip": "고리 하면 토성"
+      }
+    },
+    {
+      "id": "science-m005",
+      "difficulty": "easy",
+      "answer": "화성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "산화철 때문에 붉게 보여 '붉은 행성'이라 불리는 행성은?",
+          "choices": [
+            "화성",
+            "금성",
+            "목성",
+            "수성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "화성 표면의 흙에는 녹슨 철 성분이 많아 붉게 보여요.",
+        "tip": "화성 = 녹슨 행성"
+      }
+    },
+    {
+      "id": "science-m006",
+      "difficulty": "easy",
+      "answer": "지구 자전축이 기울어져 있어서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지구에 계절이 생기는 주된 이유는?",
+          "choices": [
+            "지구 자전축이 기울어져 있어서",
+            "태양과의 거리가 달라져서",
+            "달이 지구를 돌아서",
+            "태양의 밝기가 변해서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자전축이 약 23.5도 기울어진 채 공전하기 때문에, 계절마다 햇빛을 받는 각도와 낮의 길이가 달라져요.",
+        "tip": "거리 때문이 아니라 기울기 때문"
+      }
+    },
+    {
+      "id": "science-m007",
+      "difficulty": "easy",
+      "answer": "지구의 자전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "낮과 밤이 생기는 이유는?",
+          "choices": [
+            "지구의 자전",
+            "지구의 공전",
+            "달의 공전",
+            "태양의 자전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지구가 하루에 한 바퀴 스스로 돌면서(자전) 태양을 향한 쪽은 낮, 반대쪽은 밤이 돼요.",
+        "tip": "자전 = 하루, 공전 = 1년"
+      }
+    },
+    {
+      "id": "science-m008",
+      "difficulty": "easy",
+      "answer": "빛이 소리보다 훨씬 빨라서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "번개가 친 뒤 천둥소리가 늦게 들리는 이유는?",
+          "choices": [
+            "빛이 소리보다 훨씬 빨라서",
+            "천둥이 나중에 생겨서",
+            "소리가 구름에 막혀서",
+            "귀가 늦게 반응해서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빛은 초속 약 30만 km, 소리는 초속 약 340m라서 번개 빛이 먼저 보여요.",
+        "tip": "번개 후 3초 뒤 천둥 → 약 1km 거리"
+      }
+    },
+    {
+      "id": "science-m009",
+      "difficulty": "easy",
+      "answer": "서로 밀어낸다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자석의 같은 극(N극과 N극)을 가까이 하면 어떻게 될까?",
+          "choices": [
+            "서로 밀어낸다",
+            "서로 끌어당긴다",
+            "아무 일도 없다",
+            "자력이 사라진다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자석은 같은 극끼리는 밀어내고, 다른 극끼리는 끌어당겨요.",
+        "tip": "같으면 밀고, 다르면 당긴다"
+      }
+    },
+    {
+      "id": "science-m010",
+      "difficulty": "easy",
+      "answer": "얼음이 물보다 밀도가 작아서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "얼음이 물에 뜨는 이유는?",
+          "choices": [
+            "얼음이 물보다 밀도가 작아서",
+            "얼음 속에 공기만 있어서",
+            "얼음이 물보다 무거워서",
+            "물이 얼음을 밀어 올려서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물은 얼 때 부피가 커지는 특이한 물질이라, 얼음의 밀도가 물보다 작아져 떠요. 덕분에 겨울에도 호수 아래 물고기가 살 수 있어요.",
+        "tip": "얼면 부피가 커지는 물"
+      }
+    },
+    {
+      "id": "science-m011",
+      "difficulty": "easy",
+      "answer": "4개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람의 심장은 몇 개의 방으로 이루어져 있을까?",
+          "choices": [
+            "4개",
+            "2개",
+            "3개",
+            "6개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "심장은 좌심방, 좌심실, 우심방, 우심실 네 개의 방으로 나뉘어 있어요.",
+        "tip": "심방 둘 + 심실 둘"
+      }
+    },
+    {
+      "id": "science-m012",
+      "difficulty": "easy",
+      "answer": "엽록소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "식물의 잎이 초록색으로 보이게 하는 색소는?",
+          "choices": [
+            "엽록소",
+            "카로틴",
+            "멜라닌",
+            "안토시아닌"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "엽록소는 빛 에너지를 흡수해 광합성을 해요. 초록빛은 흡수하지 않고 반사해서 잎이 초록색으로 보여요.",
+        "tip": "엽(잎) + 록(초록) + 소"
+      }
+    },
+    {
+      "id": "science-m013",
+      "difficulty": "easy",
+      "answer": "이산화 탄소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지구 온난화의 주요 원인이 되는 온실가스로 가장 대표적인 것은?",
+          "choices": [
+            "이산화 탄소",
+            "산소",
+            "질소",
+            "아르곤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "석탄, 석유 같은 화석 연료를 태울 때 나오는 이산화 탄소가 열을 가두어 지구 온도를 높여요.",
+        "tip": "CO₂ = 지구의 이불"
+      }
+    },
+    {
+      "id": "science-m014",
+      "difficulty": "easy",
+      "answer": "오존층",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양의 해로운 자외선을 막아 주는 대기의 층은?",
+          "choices": [
+            "오존층",
+            "전리층",
+            "대류권",
+            "열권"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "성층권에 있는 오존층이 자외선을 흡수해요. 프레온 가스 사용을 줄이며 오존층이 회복되고 있어요.",
+        "tip": "지구의 선크림 = 오존층"
+      }
+    },
+    {
+      "id": "science-m015",
+      "difficulty": "easy",
+      "answer": "무지개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "빛이 물방울에서 굴절·분산되어 생기는 자연 현상은?",
+          "choices": [
+            "무지개",
+            "오로라",
+            "신기루",
+            "노을"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "햇빛이 물방울을 지나며 꺾이고 색깔별로 나뉘어 무지개가 생겨요. 그래서 무지개는 해를 등지고 서야 보여요.",
+        "tip": "무지개는 해의 반대편에"
+      }
+    },
+    {
+      "id": "science-m016",
+      "difficulty": "normal",
+      "answer": "광자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "원자를 구성하는 입자가 아닌 것은?",
+          "choices": [
+            "광자",
+            "양성자",
+            "중성자",
+            "전자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원자는 양성자와 중성자로 된 원자핵, 그 주위의 전자로 이루어져요. 광자는 빛의 알갱이예요.",
+        "tip": "원자 = 양성자 + 중성자 + 전자"
+      }
+    },
+    {
+      "id": "science-m017",
+      "difficulty": "normal",
+      "answer": "양성자의 수",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "원소의 '원자 번호'가 나타내는 것은?",
+          "choices": [
+            "양성자의 수",
+            "중성자의 수",
+            "원자의 무게",
+            "전자껍질의 수"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원자 번호는 원자핵 속 양성자 수예요. 수소는 1번, 헬륨은 2번, 탄소는 6번이에요.",
+        "tip": "원자 번호 = 양성자 개수"
+      }
+    },
+    {
+      "id": "science-m018",
+      "difficulty": "normal",
+      "answer": "수소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우주에서 가장 많고 가장 가벼운 원소는?",
+          "choices": [
+            "수소",
+            "헬륨",
+            "산소",
+            "탄소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "수소는 원자 번호 1번으로, 우주 질량의 약 4분의 3을 차지해요. 별은 수소를 태워(핵융합) 빛을 내요.",
+        "tip": "원자 번호 1 = 수소"
+      }
+    },
+    {
+      "id": "science-m019",
+      "difficulty": "normal",
+      "answer": "탄소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "다이아몬드와 연필심(흑연)을 이루는 공통 원소는?",
+          "choices": [
+            "탄소",
+            "규소",
+            "철",
+            "납"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다이아몬드와 흑연은 같은 탄소로 되어 있지만, 원자 배열이 달라 성질이 완전히 달라요.",
+        "tip": "같은 탄소, 다른 배열"
+      }
+    },
+    {
+      "id": "science-m020",
+      "difficulty": "normal",
+      "answer": "수은",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "상온(실온)에서 액체 상태인 유일한 금속은?",
+          "choices": [
+            "수은",
+            "납",
+            "나트륨",
+            "알루미늄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "수은은 영하 39°C에서 얼고 상온에서는 액체예요. 옛날 체온계에 쓰였지만 독성 때문에 지금은 잘 쓰지 않아요.",
+        "tip": "수은 = 물(水) 같은 은(銀)"
+      }
+    },
+    {
+      "id": "science-m021",
+      "difficulty": "normal",
+      "answer": "산화",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "철이 녹스는 것은 어떤 화학 반응일까?",
+          "choices": [
+            "산화",
+            "환원",
+            "중화",
+            "연소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "철이 공기 중 산소, 물과 만나 산화철(녹)이 되는 반응이에요. 사과 단면이 갈색으로 변하는 것도 산화예요.",
+        "tip": "산소와 만나면 산화"
+      }
+    },
+    {
+      "id": "science-m022",
+      "difficulty": "normal",
+      "answer": "중성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "pH 7은 어떤 성질을 뜻할까?",
+          "choices": [
+            "중성",
+            "강한 산성",
+            "강한 염기성",
+            "약한 산성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "pH는 0~14로 나타내며, 7보다 작으면 산성, 크면 염기성이에요. 순수한 물이 pH 7이에요.",
+        "tip": "7 = 중간 = 중성"
+      }
+    },
+    {
+      "id": "science-m023",
+      "difficulty": "normal",
+      "answer": "작용 반작용의 법칙",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "로켓이 가스를 뒤로 내뿜으며 앞으로 나아가는 원리와 관련된 뉴턴의 법칙은?",
+          "choices": [
+            "작용 반작용의 법칙",
+            "관성의 법칙",
+            "가속도의 법칙",
+            "만유인력의 법칙"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뉴턴 운동 제3법칙으로, 힘을 가하면 같은 크기의 반대 방향 힘을 받아요.",
+        "tip": "밀면 밀려난다"
+      }
+    },
+    {
+      "id": "science-m024",
+      "difficulty": "normal",
+      "answer": "관성의 법칙",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "달리던 버스가 갑자기 멈추면 몸이 앞으로 쏠리는 현상과 관련된 법칙은?",
+          "choices": [
+            "관성의 법칙",
+            "작용 반작용의 법칙",
+            "가속도의 법칙",
+            "보일의 법칙"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물체는 원래의 운동 상태를 계속 유지하려는 성질(관성)이 있어요. 뉴턴 운동 제1법칙이에요.",
+        "tip": "하던 대로 하려는 성질 = 관성"
+      }
+    },
+    {
+      "id": "science-m025",
+      "difficulty": "normal",
+      "answer": "빛이 1년 동안 가는 거리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'1광년'은 무엇을 나타내는 단위일까?",
+          "choices": [
+            "빛이 1년 동안 가는 거리",
+            "빛이 1년 동안 내는 에너지",
+            "별이 1년 동안 움직이는 시간",
+            "지구가 1년 동안 도는 거리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1광년은 약 9조 4,600억 km예요. 시간이 아니라 거리의 단위예요.",
+        "tip": "광년 = 거리 단위"
+      }
+    },
+    {
+      "id": "science-m026",
+      "difficulty": "normal",
+      "answer": "핵융합",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양이 빛과 열을 내는 원리는?",
+          "choices": [
+            "핵융합",
+            "핵분열",
+            "연소",
+            "마찰"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태양 중심에서 수소 원자핵들이 합쳐져 헬륨이 되면서 엄청난 에너지가 나와요.",
+        "tip": "태양 = 핵융합, 원자력 발전소 = 핵분열"
+      }
+    },
+    {
+      "id": "science-m027",
+      "difficulty": "normal",
+      "answer": "약 46억 년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지구의 나이는 약 몇 년으로 추정될까?",
+          "choices": [
+            "약 46억 년",
+            "약 4억 6천만 년",
+            "약 138억 년",
+            "약 6천 년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "운석과 지구에서 가장 오래된 암석을 분석해 지구의 나이를 약 46억 년으로 추정해요. 우주의 나이는 약 138억 년이에요.",
+        "tip": "지구 46억, 우주 138억"
+      }
+    },
+    {
+      "id": "science-m028",
+      "difficulty": "normal",
+      "answer": "빅뱅 이론",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우주가 아주 작고 뜨거운 한 점에서 폭발적으로 팽창해 생겨났다는 이론은?",
+          "choices": [
+            "빅뱅 이론",
+            "정상 우주론",
+            "판 구조론",
+            "끈 이론"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빅뱅 이론은 우주 배경 복사, 은하들이 멀어지는 현상 등으로 뒷받침되고 있어요.",
+        "tip": "Big Bang = 큰 폭발"
+      }
+    },
+    {
+      "id": "science-m029",
+      "difficulty": "normal",
+      "answer": "거대한 소행성 충돌",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "공룡을 멸종시킨 것으로 가장 유력하게 꼽히는 원인은?",
+          "choices": [
+            "거대한 소행성 충돌",
+            "빙하기",
+            "전염병",
+            "포유류의 사냥"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약 6,600만 년 전 지금의 멕시코 유카탄반도에 지름 약 10km의 소행성이 떨어져 기후가 급변한 것으로 봐요.",
+        "tip": "6,600만 년 전 소행성"
+      }
+    },
+    {
+      "id": "science-m030",
+      "difficulty": "normal",
+      "answer": "왓슨과 크릭",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "DNA가 이중 나선 구조라는 것을 1953년 밝혀낸 과학자는?",
+          "choices": [
+            "왓슨과 크릭",
+            "멘델과 다윈",
+            "퀴리 부부",
+            "라이트 형제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "제임스 왓슨과 프랜시스 크릭은 로절린드 프랭클린의 X선 사진을 바탕으로 DNA 구조를 밝혔어요.",
+        "tip": "꼬인 사다리 = 이중 나선"
+      }
+    },
+    {
+      "id": "science-m031",
+      "difficulty": "normal",
+      "answer": "로버트 훅",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "현미경으로 코르크를 관찰해 '세포'라는 이름을 처음 붙인 과학자는?",
+          "choices": [
+            "로버트 훅",
+            "아이작 뉴턴",
+            "안톤 판 레이우엔훅",
+            "루이 파스퇴르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1665년 훅은 코르크 조각에서 작은 방들을 보고 수도사의 작은 방(cell)을 떠올려 이름을 붙였어요.",
+        "tip": "cell = 작은 방"
+      }
+    },
+    {
+      "id": "science-m032",
+      "difficulty": "normal",
+      "answer": "에드워드 제너",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "소의 천연두인 우두를 이용해 최초의 백신을 만든 사람은?",
+          "choices": [
+            "에드워드 제너",
+            "루이 파스퇴르",
+            "알렉산더 플레밍",
+            "로베르트 코흐"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "제너는 우두에 걸린 사람은 천연두에 걸리지 않는다는 것에 착안해 1796년 종두법을 개발했어요. vaccine은 라틴어 vacca(소)에서 왔어요.",
+        "tip": "백신(vaccine) = 소(vacca)"
+      }
+    },
+    {
+      "id": "science-m033",
+      "difficulty": "normal",
+      "answer": "적혈구",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "혈액에서 산소를 운반하는 세포는?",
+          "choices": [
+            "적혈구",
+            "백혈구",
+            "혈소판",
+            "혈장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "적혈구는 산소, 백혈구는 세균과 싸우는 면역, 혈소판은 피를 굳히는 역할을 해요.",
+        "tip": "적(빨강)혈구 = 산소 배달부"
+      }
+    },
+    {
+      "id": "science-m034",
+      "difficulty": "normal",
+      "answer": "혈소판",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "상처가 났을 때 피를 굳게 해 출혈을 멈추게 하는 혈액 성분은?",
+          "choices": [
+            "혈소판",
+            "적혈구",
+            "백혈구",
+            "혈장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "혈소판이 상처 부위에 모여 딱지를 만드는 데 도움을 줘요.",
+        "tip": "혈소판 = 응급 반창고"
+      }
+    },
+    {
+      "id": "science-m035",
+      "difficulty": "normal",
+      "answer": "아밀레이스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "침 속에 들어 있어 녹말을 분해하는 소화 효소는?",
+          "choices": [
+            "아밀레이스",
+            "펩신",
+            "라이페이스",
+            "트립신"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "밥을 오래 씹으면 단맛이 나는 이유가 침 속 아밀레이스가 녹말을 당으로 바꾸기 때문이에요.",
+        "tip": "밥을 오래 씹으면 달다"
+      }
+    },
+    {
+      "id": "science-m036",
+      "difficulty": "normal",
+      "answer": "콩팥(신장)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "혈액 속 노폐물을 걸러 오줌을 만드는 기관은?",
+          "choices": [
+            "콩팥(신장)",
+            "간",
+            "쓸개",
+            "이자(췌장)"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "콩팥은 강낭콩 모양으로 허리 양쪽에 하나씩 있으며, 하루에 약 180L의 혈액을 걸러요.",
+        "tip": "콩 모양 = 콩팥"
+      }
+    },
+    {
+      "id": "science-m037",
+      "difficulty": "normal",
+      "answer": "전도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "뜨거운 국에 담근 숟가락 손잡이까지 뜨거워지는 열의 이동 방식은?",
+          "choices": [
+            "전도",
+            "대류",
+            "복사",
+            "증발"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "열이 물체를 따라 직접 전해지는 것이 전도, 액체나 기체가 움직이며 전하는 것이 대류, 공간을 건너 바로 전해지는 것이 복사예요.",
+        "tip": "전도(접촉)·대류(흐름)·복사(빛처럼)"
+      }
+    },
+    {
+      "id": "science-m038",
+      "difficulty": "normal",
+      "answer": "암페어(A)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "전류의 세기를 나타내는 단위는?",
+          "choices": [
+            "암페어(A)",
+            "볼트(V)",
+            "옴(Ω)",
+            "와트(W)"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "전류는 암페어, 전압은 볼트, 저항은 옴, 전력은 와트로 나타내요.",
+        "tip": "A(흐름)·V(압력)·Ω(방해)·W(일)"
+      }
+    },
+    {
+      "id": "science-m039",
+      "difficulty": "normal",
+      "answer": "도플러 효과",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "구급차가 다가올 때는 소리가 높게, 멀어질 때는 낮게 들리는 현상은?",
+          "choices": [
+            "도플러 효과",
+            "메아리",
+            "공명",
+            "맥놀이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "소리를 내는 물체가 가까워지면 음파가 압축되어 높게, 멀어지면 늘어나 낮게 들려요. 우주 팽창을 밝히는 데도 쓰였어요.",
+        "tip": "삐이이↑ 뽀오오↓"
+      }
+    },
+    {
+      "id": "science-m040",
+      "difficulty": "normal",
+      "answer": "노랑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "빛의 삼원색이 아닌 것은?",
+          "choices": [
+            "노랑",
+            "빨강",
+            "초록",
+            "파랑"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빛의 삼원색은 빨강(R)·초록(G)·파랑(B)이고, 모두 섞으면 흰색이 돼요. 물감(색)의 삼원색은 청록·자홍·노랑이에요.",
+        "tip": "RGB = 화면, CMY = 인쇄"
+      }
+    },
+    {
+      "id": "science-m041",
+      "difficulty": "normal",
+      "answer": "알프레트 베게너",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대륙들이 원래 하나로 붙어 있다가 갈라졌다는 '대륙 이동설'을 주장한 사람은?",
+          "choices": [
+            "알프레트 베게너",
+            "찰스 다윈",
+            "제임스 허턴",
+            "아이작 뉴턴"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "베게너는 하나였던 초대륙을 '판게아'라고 불렀어요. 남아메리카 동쪽과 아프리카 서쪽 해안선이 퍼즐처럼 맞는 것이 근거였어요.",
+        "tip": "판게아 = 모든 땅"
+      }
+    },
+    {
+      "id": "science-m042",
+      "difficulty": "normal",
+      "answer": "현무암",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "제주도에 많은 구멍이 숭숭 뚫린 검은 돌은?",
+          "choices": [
+            "현무암",
+            "화강암",
+            "대리암",
+            "석회암"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "용암이 빠르게 식으면서 안의 가스가 빠져나가 구멍이 생겼어요. 돌하르방도 현무암으로 만들어요.",
+        "tip": "구멍 송송 검은 돌 = 현무암"
+      }
+    },
+    {
+      "id": "science-m043",
+      "difficulty": "normal",
+      "answer": "시계 반대 방향",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "북반구에서 태풍은 어느 방향으로 회전할까?",
+          "choices": [
+            "시계 반대 방향",
+            "시계 방향",
+            "회전하지 않는다",
+            "계절마다 바뀐다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지구 자전에 의한 코리올리 힘 때문에 북반구 태풍은 시계 반대 방향, 남반구는 시계 방향으로 돌아요.",
+        "tip": "북반구 ↺, 남반구 ↻"
+      }
+    },
+    {
+      "id": "science-m044",
+      "difficulty": "normal",
+      "answer": "오로라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양에서 날아온 입자가 지구 대기와 부딪혀 극지방 하늘에 빛의 커튼을 만드는 현상은?",
+          "choices": [
+            "오로라",
+            "무지개",
+            "신기루",
+            "혜성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태양풍의 전기를 띤 입자가 지구 자기장을 따라 극지방으로 몰려와 대기와 충돌하며 빛을 내요.",
+        "tip": "태양풍 + 지구 자기장 = 오로라"
+      }
+    },
+    {
+      "id": "science-m045",
+      "difficulty": "normal",
+      "answer": "운석",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우주의 암석이 지구 대기에서 다 타지 않고 땅에 떨어진 것은?",
+          "choices": [
+            "운석",
+            "유성",
+            "혜성",
+            "소행성대"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대기에서 타면서 빛나는 것이 유성(별똥별), 다 타지 않고 땅에 떨어진 것이 운석이에요.",
+        "tip": "하늘에서 빛나면 유성, 땅에 떨어지면 운석"
+      }
+    },
+    {
+      "id": "science-m046",
+      "difficulty": "normal",
+      "answer": "수성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양계에서 가장 작은 행성은?",
+          "choices": [
+            "수성",
+            "화성",
+            "금성",
+            "명왕성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "수성은 지름이 지구의 약 38%로 가장 작고, 태양에 가장 가까워요. 명왕성은 이제 행성이 아니에요.",
+        "tip": "가장 작고 가장 가까운 수성"
+      }
+    },
+    {
+      "id": "science-m047",
+      "difficulty": "normal",
+      "answer": "해왕성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양계에서 태양으로부터 가장 먼 행성은?",
+          "choices": [
+            "해왕성",
+            "천왕성",
+            "명왕성",
+            "토성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "해왕성은 태양에서 약 45억 km 떨어져 있어 태양을 한 바퀴 도는 데 약 165년이 걸려요.",
+        "tip": "수금지화목토천해의 마지막"
+      }
+    },
+    {
+      "id": "science-m048",
+      "difficulty": "hard",
+      "answer": "초전도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "물질이 저항 없이 전기를 흘리는 현상으로, 아주 낮은 온도에서 나타나는 것은?",
+          "choices": [
+            "초전도",
+            "반도체",
+            "전기 분해",
+            "정전기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초전도체는 전기 저항이 0이 되고 자석을 밀어내 공중에 띄울 수 있어요. 자기 공명 영상(MRI) 장치에 쓰여요.",
+        "tip": "저항 0 = 초전도"
+      }
+    },
+    {
+      "id": "science-m049",
+      "difficulty": "hard",
+      "answer": "반감기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "방사성 물질의 양이 처음의 절반으로 줄어드는 데 걸리는 시간은?",
+          "choices": [
+            "반감기",
+            "반응 속도",
+            "임계점",
+            "평형 시간"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "반감기는 물질마다 정해져 있어 화석이나 유물의 나이를 재는 데 쓰여요.",
+        "tip": "반(半)으로 줄어드는 기간"
+      }
+    },
+    {
+      "id": "science-m050",
+      "difficulty": "hard",
+      "answer": "탄소-14",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "유물이나 화석의 나이를 측정할 때 흔히 쓰는 방사성 원소는?",
+          "choices": [
+            "탄소-14",
+            "우라늄-235",
+            "산소-16",
+            "수소-1"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "살아 있는 생물은 탄소-14를 일정하게 갖고 있다가 죽으면 그 양이 줄어들어요. 반감기는 약 5,730년이에요.",
+        "tip": "탄소 연대 측정"
+      }
+    },
+    {
+      "id": "science-m051",
+      "difficulty": "hard",
+      "answer": "이중벽 사이를 진공으로 만들어서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "보온병이 온도를 오래 유지하는 핵심 원리는?",
+          "choices": [
+            "이중벽 사이를 진공으로 만들어서",
+            "특수 금속으로 열을 저장해서",
+            "안쪽에 열을 내는 장치가 있어서",
+            "뚜껑이 두꺼워서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "진공은 열을 전달할 물질이 없어 전도와 대류를 막고, 은빛 벽면이 복사열을 반사해요.",
+        "tip": "진공 = 열이 건너갈 다리가 없음"
+      }
+    },
+    {
+      "id": "science-m052",
+      "difficulty": "hard",
+      "answer": "약 1013hPa",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해수면에서의 1기압은 약 몇 헥토파스칼(hPa)일까?",
+          "choices": [
+            "약 1013hPa",
+            "약 100hPa",
+            "약 760hPa",
+            "약 10,000hPa"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1기압은 약 1013hPa이고, 수은 기둥으로는 760mm예요. 일기 예보에서 태풍의 중심 기압이 낮을수록 강해요.",
+        "tip": "1013hPa = 760mmHg"
+      }
+    },
+    {
+      "id": "science-m053",
+      "difficulty": "hard",
+      "answer": "태양의 반대 방향",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "혜성의 꼬리는 어느 방향으로 뻗을까?",
+          "choices": [
+            "태양의 반대 방향",
+            "혜성이 움직이는 방향",
+            "태양 쪽",
+            "항상 지구 쪽"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태양에서 나오는 빛의 압력과 태양풍이 혜성의 가스와 먼지를 밀어내서, 꼬리는 늘 태양 반대쪽을 향해요.",
+        "tip": "혜성 꼬리 = 태양풍에 날리는 머리카락"
+      }
+    },
+    {
+      "id": "science-m054",
+      "difficulty": "hard",
+      "answer": "금성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양계에서 자전 방향이 다른 행성들과 반대인 행성은?",
+          "choices": [
+            "금성",
+            "화성",
+            "목성",
+            "수성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "금성은 거꾸로 자전해서 해가 서쪽에서 떠요. 하루(자전 주기)가 1년(공전 주기)보다 길기도 해요.",
+        "tip": "해가 서쪽에서 뜨는 금성"
+      }
+    },
+    {
+      "id": "science-m055",
+      "difficulty": "hard",
+      "answer": "약 99.8%",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양계 전체 질량에서 태양이 차지하는 비율은?",
+          "choices": [
+            "약 99.8%",
+            "약 50%",
+            "약 75%",
+            "약 90%"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태양은 태양계 질량의 거의 전부를 차지해요. 나머지 행성들을 다 합쳐도 대부분은 목성의 몫이에요.",
+        "tip": "태양계 = 사실상 태양"
+      }
+    },
+    {
+      "id": "science-m056",
+      "difficulty": "hard",
+      "answer": "약 20%",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람의 뇌는 몸무게의 약 2%지만 몸 전체 에너지의 약 몇 %를 쓸까?",
+          "choices": [
+            "약 20%",
+            "약 2%",
+            "약 5%",
+            "약 50%"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뇌는 쉬고 있을 때도 엄청난 에너지를 써요. 그래서 공부를 오래 하면 배가 고파지기도 해요.",
+        "tip": "작은 몸집, 큰 식욕 = 뇌"
+      }
+    },
+    {
+      "id": "science-m057",
+      "difficulty": "hard",
+      "answer": "쓸개즙",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "간에서 만들어져 지방의 소화를 돕는 소화액은?",
+          "choices": [
+            "쓸개즙",
+            "위액",
+            "침",
+            "이자액"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "쓸개즙은 간에서 만들어져 쓸개에 저장되었다가 십이지장으로 나와 지방을 잘게 쪼개요.",
+        "tip": "쓸개즙 = 지방 분해 도우미"
+      }
+    },
+    {
+      "id": "science-m058",
+      "difficulty": "hard",
+      "answer": "뉴런",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "신경계를 이루는 기본 단위 세포는?",
+          "choices": [
+            "뉴런",
+            "미토콘드리아",
+            "리보솜",
+            "시냅스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뉴런은 전기 신호로 정보를 전달하고, 뉴런과 뉴런이 연결되는 부분을 시냅스라고 해요.",
+        "tip": "뇌의 전선 = 뉴런"
+      }
+    },
+    {
+      "id": "science-m059",
+      "difficulty": "hard",
+      "answer": "엘니뇨",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태평양 적도 부근의 바닷물 온도가 평소보다 높아지는 현상은?",
+          "choices": [
+            "엘니뇨",
+            "라니냐",
+            "푄 현상",
+            "열섬 현상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "엘니뇨는 스페인어로 '남자아이(아기 예수)'라는 뜻이에요. 반대로 수온이 낮아지는 현상은 라니냐(여자아이)예요.",
+        "tip": "따뜻하면 엘니뇨, 차가우면 라니냐"
+      }
+    },
+    {
+      "id": "science-m060",
+      "difficulty": "hard",
+      "answer": "푄 현상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "산을 넘은 바람이 고온 건조해지는 현상은?",
+          "choices": [
+            "푄 현상",
+            "엘니뇨",
+            "열섬 현상",
+            "역전층"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공기가 산을 오르며 비를 뿌리고, 내려오면서 온도가 올라 뜨겁고 건조한 바람이 돼요. 높새바람이 대표적이에요.",
+        "tip": "산 넘으면 뜨겁고 마른 바람"
+      }
+    },
+    {
+      "id": "science-m061",
+      "difficulty": "hard",
+      "answer": "열섬 현상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "도시 중심부의 기온이 주변 지역보다 높게 나타나는 현상은?",
+          "choices": [
+            "열섬 현상",
+            "온실 효과",
+            "푄 현상",
+            "라니냐"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아스팔트와 건물이 열을 저장하고, 자동차와 냉방기가 열을 내뿜어 도시가 섬처럼 뜨거워져요.",
+        "tip": "도시 = 뜨거운 섬"
+      }
+    },
+    {
+      "id": "science-m062",
+      "difficulty": "hard",
+      "answer": "갈릴레오 갈릴레이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "시계추가 한 번 왕복하는 데 걸리는 시간이 추의 무게와 상관없다는 것을 발견한 과학자는?",
+          "choices": [
+            "갈릴레오 갈릴레이",
+            "아이작 뉴턴",
+            "크리스티안 하위헌스",
+            "블레즈 파스칼"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "갈릴레이는 성당의 흔들리는 샹들리에를 보고 진자의 주기가 줄의 길이에만 관계있다는 '진자의 등시성'을 발견했다고 해요.",
+        "tip": "진자 시계의 원리"
+      }
+    }
+  ]
+}

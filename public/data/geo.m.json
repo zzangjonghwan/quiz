@@ -1,0 +1,1287 @@
+{
+  "category": "geo",
+  "version": 1,
+  "cards": [
+    {
+      "id": "geo-m001",
+      "difficulty": "easy",
+      "answer": "하노이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "베트남의 수도는?",
+          "choices": [
+            "하노이",
+            "호찌민",
+            "다낭",
+            "하이퐁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "베트남의 수도는 북부의 하노이예요. 가장 큰 도시는 남부의 호찌민(옛 사이공)이에요.",
+        "tip": "수도 하노이(북), 최대 도시 호찌민(남)"
+      }
+    },
+    {
+      "id": "geo-m002",
+      "difficulty": "easy",
+      "answer": "방콕",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태국의 수도는?",
+          "choices": [
+            "방콕",
+            "치앙마이",
+            "푸껫",
+            "파타야"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "방콕의 정식 태국어 이름은 세계에서 가장 긴 도시 이름으로 유명해요. 태국 사람들은 줄여서 '끄룽텝'이라고 불러요.",
+        "tip": "세계에서 가장 긴 이름의 수도"
+      }
+    },
+    {
+      "id": "geo-m003",
+      "difficulty": "easy",
+      "answer": "카이로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이집트의 수도는?",
+          "choices": [
+            "카이로",
+            "알렉산드리아",
+            "룩소르",
+            "기자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "카이로는 나일강 하류에 있는 아프리카·중동 최대 도시 중 하나예요. 피라미드가 있는 기자가 바로 옆이에요.",
+        "tip": "카이로 옆 기자 = 피라미드"
+      }
+    },
+    {
+      "id": "geo-m004",
+      "difficulty": "easy",
+      "answer": "뉴델리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인도의 수도는?",
+          "choices": [
+            "뉴델리",
+            "뭄바이",
+            "콜카타",
+            "벵갈루루"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뉴델리는 영국 식민지 시절 계획도시로 만들어졌어요. 가장 큰 경제 도시는 뭄바이예요.",
+        "tip": "수도 뉴델리, 경제 뭄바이, 영화 발리우드(뭄바이)"
+      }
+    },
+    {
+      "id": "geo-m005",
+      "difficulty": "easy",
+      "answer": "마닐라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "필리핀의 수도는?",
+          "choices": [
+            "마닐라",
+            "세부",
+            "다바오",
+            "보라카이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "마닐라는 필리핀 루손섬에 있어요. 세부와 보라카이는 유명한 휴양지예요.",
+        "tip": "마닐라 = 루손섬"
+      }
+    },
+    {
+      "id": "geo-m006",
+      "difficulty": "easy",
+      "answer": "아테네",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "그리스의 수도는?",
+          "choices": [
+            "아테네",
+            "스파르타",
+            "테살로니키",
+            "올림피아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아테네는 지혜의 여신 아테나의 이름을 딴 도시로, 파르테논 신전이 있어요.",
+        "tip": "아테나 여신의 도시"
+      }
+    },
+    {
+      "id": "geo-m007",
+      "difficulty": "easy",
+      "answer": "마드리드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "스페인의 수도는?",
+          "choices": [
+            "마드리드",
+            "바르셀로나",
+            "세비야",
+            "발렌시아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "마드리드는 스페인 한가운데 있는 수도예요. 바르셀로나는 카탈루냐 지방의 중심 도시예요.",
+        "tip": "레알 마드리드 vs FC 바르셀로나"
+      }
+    },
+    {
+      "id": "geo-m008",
+      "difficulty": "normal",
+      "answer": "브라질리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "브라질의 수도는?",
+          "choices": [
+            "브라질리아",
+            "리우데자네이루",
+            "상파울루",
+            "살바도르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1960년 리우데자네이루에서 내륙의 계획도시 브라질리아로 수도를 옮겼어요. 하늘에서 보면 비행기 모양이에요.",
+        "tip": "계획도시 수도: 브라질리아, 캔버라, 워싱턴 D.C."
+      }
+    },
+    {
+      "id": "geo-m009",
+      "difficulty": "normal",
+      "answer": "웰링턴",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "뉴질랜드의 수도는?",
+          "choices": [
+            "웰링턴",
+            "오클랜드",
+            "크라이스트처치",
+            "퀸스타운"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가장 큰 도시는 오클랜드지만 수도는 북섬 남쪽 끝의 웰링턴이에요. '바람의 도시'로 불려요.",
+        "tip": "최대 도시 ≠ 수도 (호주, 캐나다, 뉴질랜드)"
+      }
+    },
+    {
+      "id": "geo-m010",
+      "difficulty": "normal",
+      "answer": "리야드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사우디아라비아의 수도는?",
+          "choices": [
+            "리야드",
+            "메카",
+            "제다",
+            "두바이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "리야드는 사막 한가운데 있는 수도예요. 메카는 이슬람교의 성지, 두바이는 아랍에미리트의 도시예요.",
+        "tip": "수도 리야드, 성지 메카"
+      }
+    },
+    {
+      "id": "geo-m011",
+      "difficulty": "normal",
+      "answer": "아부다비",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아랍에미리트의 수도는?",
+          "choices": [
+            "아부다비",
+            "두바이",
+            "도하",
+            "무스카트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "부르즈 할리파로 유명한 두바이가 더 잘 알려졌지만 수도는 아부다비예요. 도하는 카타르의 수도예요.",
+        "tip": "두바이는 수도가 아니다"
+      }
+    },
+    {
+      "id": "geo-m012",
+      "difficulty": "normal",
+      "answer": "테헤란",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이란의 수도는?",
+          "choices": [
+            "테헤란",
+            "바그다드",
+            "이스파한",
+            "카불"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서울의 테헤란로는 1977년 서울과 테헤란이 자매결연하며 붙은 이름이에요. 바그다드는 이라크, 카불은 아프가니스탄의 수도예요.",
+        "tip": "강남 테헤란로 = 이란 수도"
+      }
+    },
+    {
+      "id": "geo-m013",
+      "difficulty": "normal",
+      "answer": "부에노스아이레스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아르헨티나의 수도는?",
+          "choices": [
+            "부에노스아이레스",
+            "산티아고",
+            "몬테비데오",
+            "리마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스페인어로 '좋은 공기'라는 뜻이에요. 탱고의 고향이기도 해요.",
+        "tip": "부에노스(좋은) + 아이레스(공기)"
+      }
+    },
+    {
+      "id": "geo-m014",
+      "difficulty": "normal",
+      "answer": "산티아고",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "칠레의 수도는?",
+          "choices": [
+            "산티아고",
+            "부에노스아이레스",
+            "리마",
+            "라파스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "산티아고는 안데스산맥 기슭에 있는 칠레의 수도예요.",
+        "tip": "칠레 = 산티아고"
+      }
+    },
+    {
+      "id": "geo-m015",
+      "difficulty": "normal",
+      "answer": "리마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "페루의 수도는?",
+          "choices": [
+            "리마",
+            "쿠스코",
+            "키토",
+            "보고타"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "리마는 태평양 해안의 수도예요. 쿠스코는 옛 잉카 제국의 수도로 마추픽추로 가는 관문이에요.",
+        "tip": "수도 리마, 잉카의 수도 쿠스코"
+      }
+    },
+    {
+      "id": "geo-m016",
+      "difficulty": "normal",
+      "answer": "나이로비",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "케냐의 수도는?",
+          "choices": [
+            "나이로비",
+            "몸바사",
+            "다르에스살람",
+            "아디스아바바"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나이로비는 마사이어로 '시원한 물'이라는 뜻이에요. 다르에스살람은 탄자니아의 최대 도시예요.",
+        "tip": "사파리의 관문 = 나이로비"
+      }
+    },
+    {
+      "id": "geo-m017",
+      "difficulty": "normal",
+      "answer": "울란바토르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "몽골의 수도는?",
+          "choices": [
+            "울란바토르",
+            "아스타나",
+            "타슈켄트",
+            "비슈케크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "울란바토르는 '붉은 영웅'이라는 뜻으로, 세계에서 가장 추운 수도로 꼽혀요.",
+        "tip": "세계에서 가장 추운 수도"
+      }
+    },
+    {
+      "id": "geo-m018",
+      "difficulty": "normal",
+      "answer": "빈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "오스트리아의 수도는?",
+          "choices": [
+            "빈",
+            "잘츠부르크",
+            "부다페스트",
+            "프라하"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빈(비엔나)은 모차르트, 베토벤 등이 활동한 '음악의 도시'예요. 잘츠부르크는 모차르트의 고향이에요.",
+        "tip": "빈 = 비엔나 = 음악의 도시"
+      }
+    },
+    {
+      "id": "geo-m019",
+      "difficulty": "normal",
+      "answer": "부다페스트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "헝가리의 수도는?",
+          "choices": [
+            "부다페스트",
+            "빈",
+            "프라하",
+            "부쿠레슈티"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도나우강을 사이에 둔 부다와 페스트 두 도시가 합쳐진 이름이에요. 국회의사당 야경이 유명해요.",
+        "tip": "부다 + 페스트"
+      }
+    },
+    {
+      "id": "geo-m020",
+      "difficulty": "normal",
+      "answer": "프라하",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "체코의 수도는?",
+          "choices": [
+            "프라하",
+            "브르노",
+            "빈",
+            "바르샤바"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "프라하는 중세 건물이 잘 보존되어 '백 개의 탑의 도시'로 불려요.",
+        "tip": "카를교와 천문 시계"
+      }
+    },
+    {
+      "id": "geo-m021",
+      "difficulty": "normal",
+      "answer": "바르샤바",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "폴란드의 수도는?",
+          "choices": [
+            "바르샤바",
+            "크라쿠프",
+            "프라하",
+            "부다페스트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "바르샤바는 2차 대전 때 대부분 파괴되었다가 옛 모습대로 복원되었어요. 쇼팽의 도시이기도 해요.",
+        "tip": "쇼팽 = 바르샤바"
+      }
+    },
+    {
+      "id": "geo-m022",
+      "difficulty": "normal",
+      "answer": "리스본",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "포르투갈의 수도는?",
+          "choices": [
+            "리스본",
+            "포르투",
+            "마드리드",
+            "세비야"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "리스본은 대항해 시대 탐험의 출발지였어요. 노란 트램과 에그타르트로 유명해요.",
+        "tip": "리스본 = 에그타르트"
+      }
+    },
+    {
+      "id": "geo-m023",
+      "difficulty": "normal",
+      "answer": "스톡홀름",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "스웨덴의 수도는?",
+          "choices": [
+            "스톡홀름",
+            "오슬로",
+            "헬싱키",
+            "코펜하겐"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노벨상 시상식(평화상 제외)이 매년 스톡홀름에서 열려요. 평화상은 노르웨이 오슬로에서 시상해요.",
+        "tip": "노벨상 = 스톡홀름, 평화상 = 오슬로"
+      }
+    },
+    {
+      "id": "geo-m024",
+      "difficulty": "normal",
+      "answer": "오슬로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "노르웨이의 수도는?",
+          "choices": [
+            "오슬로",
+            "스톡홀름",
+            "베르겐",
+            "헬싱키"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "오슬로에서는 매년 노벨 평화상 시상식이 열려요.",
+        "tip": "평화상의 도시"
+      }
+    },
+    {
+      "id": "geo-m025",
+      "difficulty": "normal",
+      "answer": "헬싱키",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "핀란드의 수도는?",
+          "choices": [
+            "헬싱키",
+            "오슬로",
+            "탈린",
+            "스톡홀름"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "헬싱키는 발트해에 접한 핀란드의 수도예요. 산타 마을은 북쪽 로바니에미에 있어요.",
+        "tip": "핀란드 = 헬싱키, 산타 = 로바니에미"
+      }
+    },
+    {
+      "id": "geo-m026",
+      "difficulty": "normal",
+      "answer": "코펜하겐",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "덴마크의 수도는?",
+          "choices": [
+            "코펜하겐",
+            "오슬로",
+            "스톡홀름",
+            "암스테르담"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "코펜하겐에는 안데르센 동화 속 인어공주 동상이 있어요.",
+        "tip": "인어공주 동상의 도시"
+      }
+    },
+    {
+      "id": "geo-m027",
+      "difficulty": "normal",
+      "answer": "더블린",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아일랜드의 수도는?",
+          "choices": [
+            "더블린",
+            "벨파스트",
+            "에든버러",
+            "카디프"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "더블린은 기네스 맥주와 작가 제임스 조이스로 유명해요. 벨파스트는 영국령 북아일랜드의 중심 도시예요.",
+        "tip": "아일랜드 = 더블린"
+      }
+    },
+    {
+      "id": "geo-m028",
+      "difficulty": "hard",
+      "answer": "베른",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "스위스의 수도는?",
+          "choices": [
+            "베른",
+            "취리히",
+            "제네바",
+            "바젤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스위스는 헌법에 수도를 정해 두지 않았지만 연방 정부가 있는 베른을 사실상 수도로 봐요. 가장 큰 도시는 취리히예요.",
+        "tip": "취리히(금융), 제네바(국제기구), 베른(정부)"
+      }
+    },
+    {
+      "id": "geo-m029",
+      "difficulty": "hard",
+      "answer": "아부자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "나이지리아의 수도는?",
+          "choices": [
+            "아부자",
+            "라고스",
+            "아크라",
+            "나이로비"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1991년 해안의 최대 도시 라고스에서 내륙의 계획도시 아부자로 수도를 옮겼어요.",
+        "tip": "최대 도시 라고스 ≠ 수도"
+      }
+    },
+    {
+      "id": "geo-m030",
+      "difficulty": "hard",
+      "answer": "네피도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미얀마의 수도는?",
+          "choices": [
+            "네피도",
+            "양곤",
+            "만달레이",
+            "방콕"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2005년 양곤에서 내륙의 새 계획도시 네피도로 수도를 옮겼어요.",
+        "tip": "옛 수도 양곤 → 네피도"
+      }
+    },
+    {
+      "id": "geo-m031",
+      "difficulty": "hard",
+      "answer": "아스타나",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "카자흐스탄의 수도는?",
+          "choices": [
+            "아스타나",
+            "알마티",
+            "타슈켄트",
+            "비슈케크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1997년 알마티에서 아스타나로 수도를 옮겼어요. 한때 '누르술탄'으로 이름이 바뀌었다가 2022년 다시 아스타나가 되었어요.",
+        "tip": "알마티 → 아스타나 (잠시 누르술탄)"
+      }
+    },
+    {
+      "id": "geo-m032",
+      "difficulty": "hard",
+      "answer": "보고타",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "콜롬비아의 수도는?",
+          "choices": [
+            "보고타",
+            "메데인",
+            "키토",
+            "카라카스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "보고타는 해발 약 2,600m 고원에 있는 수도예요. 키토는 에콰도르, 카라카스는 베네수엘라의 수도예요.",
+        "tip": "고원 위의 수도"
+      }
+    },
+    {
+      "id": "geo-m033",
+      "difficulty": "hard",
+      "answer": "아디스아바바",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "에티오피아의 수도는?",
+          "choices": [
+            "아디스아바바",
+            "나이로비",
+            "카이로",
+            "하르툼"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "암하라어로 '새로운 꽃'이라는 뜻이에요. 아프리카 연합(AU) 본부가 있어요.",
+        "tip": "아프리카 연합 본부의 도시"
+      }
+    },
+    {
+      "id": "geo-m034",
+      "difficulty": "hard",
+      "answer": "라바트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "모로코의 수도는?",
+          "choices": [
+            "라바트",
+            "카사블랑카",
+            "마라케시",
+            "튀니스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영화로 유명한 카사블랑카가 가장 큰 도시지만 수도는 라바트예요.",
+        "tip": "카사블랑카는 수도가 아니다"
+      }
+    },
+    {
+      "id": "geo-m035",
+      "difficulty": "hard",
+      "answer": "프리토리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "남아프리카 공화국의 행정 수도는?",
+          "choices": [
+            "프리토리아",
+            "케이프타운",
+            "요하네스버그",
+            "더반"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남아공은 수도가 셋이에요. 행정 수도 프리토리아, 입법 수도 케이프타운, 사법 수도 블룸폰테인이에요.",
+        "tip": "수도가 3개인 나라"
+      }
+    },
+    {
+      "id": "geo-m036",
+      "difficulty": "easy",
+      "answer": "그린란드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 큰 섬은?",
+          "choices": [
+            "그린란드",
+            "보르네오섬",
+            "마다가스카르",
+            "뉴기니섬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그린란드는 덴마크령 자치 지역으로, 대부분이 두꺼운 얼음으로 덮여 있어요. 호주는 섬이 아니라 대륙으로 분류해요.",
+        "tip": "초록(green) 땅이지만 얼음 땅"
+      }
+    },
+    {
+      "id": "geo-m037",
+      "difficulty": "easy",
+      "answer": "아시아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "면적이 가장 넓은 대륙은?",
+          "choices": [
+            "아시아",
+            "아프리카",
+            "북아메리카",
+            "남극"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아시아는 지구 육지의 약 30%를 차지하고, 세계 인구의 절반 이상이 살아요.",
+        "tip": "가장 크고 사람도 가장 많은 대륙"
+      }
+    },
+    {
+      "id": "geo-m038",
+      "difficulty": "normal",
+      "answer": "바이칼호",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 깊은 호수는?",
+          "choices": [
+            "바이칼호",
+            "카스피해",
+            "탕가니카호",
+            "슈피리어호"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "러시아 시베리아의 바이칼호는 깊이가 약 1,640m로 가장 깊고, 세계 담수의 약 20%를 담고 있어요.",
+        "tip": "가장 넓은 호수 카스피해, 가장 깊은 호수 바이칼"
+      }
+    },
+    {
+      "id": "geo-m039",
+      "difficulty": "hard",
+      "answer": "베네수엘라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 높은 폭포인 앙헬 폭포가 있는 나라는?",
+          "choices": [
+            "베네수엘라",
+            "브라질",
+            "캐나다",
+            "짐바브웨"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "앙헬 폭포는 높이가 약 979m로, 물이 떨어지다 땅에 닿기 전에 안개처럼 흩어질 정도예요.",
+        "tip": "세계 최고 낙차 = 앙헬"
+      }
+    },
+    {
+      "id": "geo-m040",
+      "difficulty": "easy",
+      "answer": "나이아가라 폭포",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국과 캐나다 국경에 있는 유명한 폭포는?",
+          "choices": [
+            "나이아가라 폭포",
+            "빅토리아 폭포",
+            "이구아수 폭포",
+            "앙헬 폭포"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나이아가라 폭포는 미국과 캐나다 양쪽에서 볼 수 있어요. 빅토리아는 아프리카, 이구아수는 남미의 폭포예요.",
+        "tip": "세계 3대 폭포: 나이아가라·빅토리아·이구아수"
+      }
+    },
+    {
+      "id": "geo-m041",
+      "difficulty": "normal",
+      "answer": "사해",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 낮은 곳(해수면보다 약 430m 아래)에 있는 호수는?",
+          "choices": [
+            "사해",
+            "카스피해",
+            "아랄해",
+            "빅토리아호"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사해는 염분이 바닷물의 약 10배나 돼서 사람이 가만히 있어도 둥둥 떠요. 생물이 거의 살 수 없어 '죽은 바다'라는 이름이 붙었어요.",
+        "tip": "둥둥 뜨는 바다"
+      }
+    },
+    {
+      "id": "geo-m042",
+      "difficulty": "normal",
+      "answer": "킬리만자로산",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아프리카 대륙에서 가장 높은 산은?",
+          "choices": [
+            "킬리만자로산",
+            "케냐산",
+            "아틀라스산",
+            "르웬조리산"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "탄자니아의 킬리만자로산은 약 5,895m로, 적도 근처인데도 정상에 만년설이 있어요.",
+        "tip": "아프리카 지붕 = 킬리만자로"
+      }
+    },
+    {
+      "id": "geo-m043",
+      "difficulty": "normal",
+      "answer": "몽블랑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "알프스산맥의 최고봉은?",
+          "choices": [
+            "몽블랑",
+            "마터호른",
+            "융프라우",
+            "아이거"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몽블랑은 프랑스어로 '하얀 산'이라는 뜻이에요. 높이는 약 4,800m예요.",
+        "tip": "몽(산) + 블랑(하얀)"
+      }
+    },
+    {
+      "id": "geo-m044",
+      "difficulty": "easy",
+      "answer": "아마존",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "많은 산소를 만들어 '지구의 허파'라고 불리는 열대 우림이 있는 곳은?",
+          "choices": [
+            "아마존",
+            "사하라",
+            "시베리아",
+            "보르네오"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남아메리카 아마존강 유역의 열대 우림은 세계 최대 규모로, 수많은 생물이 살아요.",
+        "tip": "지구의 허파 = 아마존"
+      }
+    },
+    {
+      "id": "geo-m045",
+      "difficulty": "normal",
+      "answer": "그리니치 천문대",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "경도 0도(본초 자오선)가 지나는 곳으로 유명한 영국의 천문대는?",
+          "choices": [
+            "그리니치 천문대",
+            "케임브리지 천문대",
+            "에든버러 천문대",
+            "옥스퍼드 천문대"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1884년 국제 회의에서 그리니치를 지나는 경선을 경도 0도로 정했어요. 세계 표준시(GMT)의 기준이에요.",
+        "tip": "GMT = 그리니치 평균시"
+      }
+    },
+    {
+      "id": "geo-m046",
+      "difficulty": "normal",
+      "answer": "9시간",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국 표준시는 협정 세계시(UTC)보다 몇 시간 빠를까?",
+          "choices": [
+            "9시간",
+            "8시간",
+            "7시간",
+            "10시간"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한국은 UTC+9로, 영국 런던이 정오일 때 서울은 오후 9시예요(서머타임 제외). 일본과 같은 시간대를 써요.",
+        "tip": "런던 낮 12시 = 서울 밤 9시"
+      }
+    },
+    {
+      "id": "geo-m047",
+      "difficulty": "normal",
+      "answer": "이스탄불",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아시아와 유럽 두 대륙에 걸쳐 있는 튀르키예의 도시는?",
+          "choices": [
+            "이스탄불",
+            "앙카라",
+            "이즈미르",
+            "안탈리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이스탄불은 보스포루스 해협을 사이에 두고 유럽 쪽과 아시아 쪽으로 나뉘어 있어요.",
+        "tip": "두 대륙 도시 = 이스탄불"
+      }
+    },
+    {
+      "id": "geo-m048",
+      "difficulty": "normal",
+      "answer": "베링 해협",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "러시아와 미국(알래스카) 사이에 있는 해협은?",
+          "choices": [
+            "베링 해협",
+            "지브롤터 해협",
+            "말라카 해협",
+            "도버 해협"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "베링 해협은 가장 좁은 곳이 약 80km예요. 빙하기에는 육지로 이어져 사람들이 아시아에서 아메리카로 건너갔다고 봐요.",
+        "tip": "아시아↔아메리카 = 베링"
+      }
+    },
+    {
+      "id": "geo-m049",
+      "difficulty": "normal",
+      "answer": "지브롤터 해협",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지중해와 대서양을 잇는 좁은 해협은?",
+          "choices": [
+            "지브롤터 해협",
+            "보스포루스 해협",
+            "베링 해협",
+            "호르무즈 해협"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스페인과 모로코 사이의 지브롤터 해협은 가장 좁은 곳이 약 14km예요.",
+        "tip": "유럽과 아프리카가 가장 가까운 곳"
+      }
+    },
+    {
+      "id": "geo-m050",
+      "difficulty": "normal",
+      "answer": "호주",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "거대한 바위 '울루루'가 있는 나라는?",
+          "choices": [
+            "호주",
+            "미국",
+            "남아프리카 공화국",
+            "뉴질랜드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "울루루는 원주민 애버리지니의 성지로, 해 질 녘 붉게 빛나요. 2019년부터 관광객의 등반이 금지되었어요.",
+        "tip": "호주 한가운데 붉은 바위"
+      }
+    },
+    {
+      "id": "geo-m051",
+      "difficulty": "normal",
+      "answer": "에콰도르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "찰스 다윈이 진화론의 영감을 얻은 갈라파고스 제도는 어느 나라에 속할까?",
+          "choices": [
+            "에콰도르",
+            "페루",
+            "칠레",
+            "콜롬비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "에콰도르는 스페인어로 '적도'라는 뜻이에요. 적도가 지나가는 나라라서 붙은 이름이에요.",
+        "tip": "에콰도르 = 적도"
+      }
+    },
+    {
+      "id": "geo-m052",
+      "difficulty": "easy",
+      "answer": "페루",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "잉카 제국의 유적 마추픽추가 있는 나라는?",
+          "choices": [
+            "페루",
+            "볼리비아",
+            "멕시코",
+            "칠레"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "안데스산맥 해발 약 2,400m에 있는 '공중 도시'로, 1911년 세상에 널리 알려졌어요.",
+        "tip": "잉카 = 페루"
+      }
+    },
+    {
+      "id": "geo-m053",
+      "difficulty": "normal",
+      "answer": "캄보디아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "국기에 사원이 그려져 있으며, 앙코르와트가 있는 나라는?",
+          "choices": [
+            "캄보디아",
+            "태국",
+            "라오스",
+            "미얀마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "앙코르와트는 12세기 크메르 제국이 세운 거대한 사원으로, 캄보디아의 상징이에요.",
+        "tip": "국기에 건물이 있는 나라"
+      }
+    },
+    {
+      "id": "geo-m054",
+      "difficulty": "hard",
+      "answer": "칠레",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이스터섬의 거대한 석상 '모아이'는 어느 나라 땅일까?",
+          "choices": [
+            "칠레",
+            "뉴질랜드",
+            "페루",
+            "피지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태평양 한가운데 있는 이스터섬은 칠레 본토에서 약 3,700km 떨어져 있어요.",
+        "tip": "모아이 = 칠레"
+      }
+    },
+    {
+      "id": "geo-m055",
+      "difficulty": "hard",
+      "answer": "요르단",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "바위를 깎아 만든 고대 도시 '페트라'가 있는 나라는?",
+          "choices": [
+            "요르단",
+            "이집트",
+            "이스라엘",
+            "시리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "페트라는 나바테아 왕국의 수도로, 붉은 사암 절벽을 깎아 만든 건물로 유명해요. 영화 「인디아나 존스」에도 나왔어요.",
+        "tip": "장밋빛 도시 페트라"
+      }
+    },
+    {
+      "id": "geo-m056",
+      "difficulty": "normal",
+      "answer": "마라도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 영토의 가장 남쪽 끝에 있는 섬은?",
+          "choices": [
+            "마라도",
+            "가파도",
+            "우도",
+            "이어도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "마라도는 제주도 남쪽의 작은 섬이에요. 이어도는 섬이 아니라 바닷속 암초예요.",
+        "tip": "최남단 마라도, 최동단 독도"
+      }
+    },
+    {
+      "id": "geo-m057",
+      "difficulty": "normal",
+      "answer": "동도와 서도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "독도를 이루는 두 개의 큰 섬은?",
+          "choices": [
+            "동도와 서도",
+            "남도와 북도",
+            "큰섬과 작은섬",
+            "울릉도와 죽도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "독도는 동도와 서도, 그리고 주변의 작은 바위섬 89개로 이루어져 있어요.",
+        "tip": "독도 = 동도 + 서도"
+      }
+    },
+    {
+      "id": "geo-m058",
+      "difficulty": "normal",
+      "answer": "낙동강",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "남한에서 가장 긴 강은?",
+          "choices": [
+            "낙동강",
+            "한강",
+            "금강",
+            "영산강"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "낙동강은 약 510km로 남한에서 가장 길어요. 한반도 전체로는 압록강이 가장 길어요.",
+        "tip": "남한 1위 낙동강, 한반도 1위 압록강"
+      }
+    },
+    {
+      "id": "geo-m059",
+      "difficulty": "hard",
+      "answer": "호남평야",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라에서 가장 넓은 평야는?",
+          "choices": [
+            "호남평야",
+            "김포평야",
+            "나주평야",
+            "논산평야"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "호남평야의 중심인 김제·만경 평야는 '지평선을 볼 수 있는' 거의 유일한 곳으로, 김제에서 지평선 축제가 열려요.",
+        "tip": "한국에서 지평선이 보이는 곳"
+      }
+    },
+    {
+      "id": "geo-m060",
+      "difficulty": "hard",
+      "answer": "모나코",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인구 밀도가 세계에서 가장 높은 나라는?",
+          "choices": [
+            "모나코",
+            "싱가포르",
+            "방글라데시",
+            "홍콩"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "면적이 약 2km²인 모나코에 약 3만 9천 명이 살아요. 홍콩은 나라가 아니라 중국의 특별 행정구예요.",
+        "tip": "작은 땅에 빽빽하게 = 모나코"
+      }
+    },
+    {
+      "id": "geo-m061",
+      "difficulty": "normal",
+      "answer": "내륙국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "바다와 전혀 접하지 않은 나라를 부르는 말은?",
+          "choices": [
+            "내륙국",
+            "도서국",
+            "반도국",
+            "해양국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스위스, 몽골, 볼리비아 등이 내륙국이에요. 세계에서 가장 큰 내륙국은 카자흐스탄이에요.",
+        "tip": "바다 없는 나라 = 내륙국"
+      }
+    }
+  ]
+}
