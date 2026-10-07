@@ -340,27 +340,6 @@
     },
     {
       "id": "trivia-m7017",
-      "difficulty": "normal",
-      "answer": "남극 대륙",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "세계에서 가장 넓은 사막은?",
-          "choices": [
-            "남극 대륙",
-            "사하라 사막",
-            "고비 사막",
-            "아라비아 사막"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "사막은 비나 눈이 아주 적게 내리는 곳을 말해요. 덥지 않아도 사막이에요. 더운 사막 중에서는 사하라가 가장 넓어요.",
-        "tip": "추운 사막"
-      }
-    },
-    {
-      "id": "trivia-m7018",
       "difficulty": "hard",
       "answer": "프랑스",
       "questions": [
@@ -381,7 +360,7 @@
       }
     },
     {
-      "id": "trivia-m7019",
+      "id": "trivia-m7018",
       "difficulty": "normal",
       "answer": "1만분의 1",
       "questions": [
@@ -402,7 +381,7 @@
       }
     },
     {
-      "id": "trivia-m7020",
+      "id": "trivia-m7019",
       "difficulty": "normal",
       "answer": "God be with you",
       "questions": [
@@ -423,7 +402,7 @@
       }
     },
     {
-      "id": "trivia-m7021",
+      "id": "trivia-m7020",
       "difficulty": "normal",
       "answer": "프랑스어 '도와줘요'",
       "questions": [
@@ -444,7 +423,7 @@
       }
     },
     {
-      "id": "trivia-m7022",
+      "id": "trivia-m7021",
       "difficulty": "hard",
       "answer": "'받았다(Received)'의 R을 부르던 말",
       "questions": [
@@ -465,7 +444,7 @@
       }
     },
     {
-      "id": "trivia-m7023",
+      "id": "trivia-m7022",
       "difficulty": "normal",
       "answer": "그리스어 '그리스도'의 첫 글자",
       "questions": [
@@ -486,7 +465,7 @@
       }
     },
     {
-      "id": "trivia-m7024",
+      "id": "trivia-m7023",
       "difficulty": "hard",
       "answer": "et(그리고)",
       "questions": [
@@ -507,7 +486,7 @@
       }
     },
     {
-      "id": "trivia-m7025",
+      "id": "trivia-m7024",
       "difficulty": "hard",
       "answer": "라틴어 '리브라(저울)'의 줄임이라서",
       "questions": [
@@ -528,7 +507,7 @@
       }
     },
     {
-      "id": "trivia-m7026",
+      "id": "trivia-m7025",
       "difficulty": "normal",
       "answer": "정오 전",
       "questions": [
@@ -549,7 +528,7 @@
       }
     },
     {
-      "id": "trivia-m7027",
+      "id": "trivia-m7026",
       "difficulty": "normal",
       "answer": "본문 뒤에 쓴 글",
       "questions": [
@@ -570,7 +549,7 @@
       }
     },
     {
-      "id": "trivia-m7028",
+      "id": "trivia-m7027",
       "difficulty": "hard",
       "answer": "네덜란드어",
       "questions": [
@@ -591,7 +570,7 @@
       }
     },
     {
-      "id": "trivia-m7029",
+      "id": "trivia-m7028",
       "difficulty": "hard",
       "answer": "사윈",
       "questions": [
@@ -612,7 +591,7 @@
       }
     },
     {
-      "id": "trivia-m7030",
+      "id": "trivia-m7029",
       "difficulty": "easy",
       "answer": "4월 1일",
       "questions": [
@@ -633,7 +612,7 @@
       }
     },
     {
-      "id": "trivia-m7031",
+      "id": "trivia-m7030",
       "difficulty": "normal",
       "answer": "독일",
       "questions": [
