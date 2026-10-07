@@ -739,27 +739,6 @@
     },
     {
       "id": "music-m2036",
-      "difficulty": "normal",
-      "answer": "여리게도 세게도 칠 수 있다",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "피아노의 원래 이름 '피아노포르테'가 뜻하는 것은?",
-          "choices": [
-            "여리게도 세게도 칠 수 있다",
-            "손가락으로 노래한다",
-            "나무로 만든 하프",
-            "건반이 많은 악기"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "이전의 하프시코드는 셈여림을 조절하기 어려웠어요. 피아노(여리게)와 포르테(세게)를 모두 낼 수 있어 이런 이름이 붙었어요.",
-        "tip": "piano + forte"
-      }
-    },
-    {
-      "id": "music-m2037",
       "difficulty": "hard",
       "answer": "하프시코드",
       "questions": [
@@ -780,7 +759,7 @@
       }
     },
     {
-      "id": "music-m2038",
+      "id": "music-m2037",
       "difficulty": "normal",
       "answer": "스트라디바리",
       "questions": [
@@ -801,7 +780,7 @@
       }
     },
     {
-      "id": "music-m2039",
+      "id": "music-m2038",
       "difficulty": "hard",
       "answer": "팀파니",
       "questions": [
@@ -822,7 +801,7 @@
       }
     },
     {
-      "id": "music-m2040",
+      "id": "music-m2039",
       "difficulty": "normal",
       "answer": "제1 바이올린",
       "questions": [
@@ -843,7 +822,7 @@
       }
     },
     {
-      "id": "music-m2041",
+      "id": "music-m2040",
       "difficulty": "normal",
       "answer": "해금",
       "questions": [
@@ -864,7 +843,7 @@
       }
     },
     {
-      "id": "music-m2042",
+      "id": "music-m2041",
       "difficulty": "normal",
       "answer": "거문고",
       "questions": [
@@ -885,7 +864,7 @@
       }
     },
     {
-      "id": "music-m2043",
+      "id": "music-m2042",
       "difficulty": "normal",
       "answer": "가야금",
       "questions": [
@@ -906,7 +885,7 @@
       }
     },
     {
-      "id": "music-m2044",
+      "id": "music-m2043",
       "difficulty": "normal",
       "answer": "대금",
       "questions": [
@@ -927,7 +906,7 @@
       }
     },
     {
-      "id": "music-m2045",
+      "id": "music-m2044",
       "difficulty": "easy",
       "answer": "단소",
       "questions": [
@@ -948,7 +927,7 @@
       }
     },
     {
-      "id": "music-m2046",
+      "id": "music-m2045",
       "difficulty": "hard",
       "answer": "태평소",
       "questions": [
@@ -969,7 +948,7 @@
       }
     },
     {
-      "id": "music-m2047",
+      "id": "music-m2046",
       "difficulty": "normal",
       "answer": "꽹과리",
       "questions": [
@@ -990,7 +969,7 @@
       }
     },
     {
-      "id": "music-m2048",
+      "id": "music-m2047",
       "difficulty": "normal",
       "answer": "피아니시모(pp)",
       "questions": [
@@ -1011,7 +990,7 @@
       }
     },
     {
-      "id": "music-m2049",
+      "id": "music-m2048",
       "difficulty": "normal",
       "answer": "데크레셴도",
       "questions": [
@@ -1032,7 +1011,7 @@
       }
     },
     {
-      "id": "music-m2050",
+      "id": "music-m2049",
       "difficulty": "hard",
       "answer": "리타르단도",
       "questions": [
@@ -1053,7 +1032,7 @@
       }
     },
     {
-      "id": "music-m2051",
+      "id": "music-m2050",
       "difficulty": "normal",
       "answer": "페르마타",
       "questions": [
@@ -1074,7 +1053,7 @@
       }
     },
     {
-      "id": "music-m2052",
+      "id": "music-m2051",
       "difficulty": "normal",
       "answer": "스타카토",
       "questions": [
@@ -1095,7 +1074,7 @@
       }
     },
     {
-      "id": "music-m2053",
+      "id": "music-m2052",
       "difficulty": "easy",
       "answer": "샤프(♯)",
       "questions": [
@@ -1116,7 +1095,7 @@
       }
     },
     {
-      "id": "music-m2054",
+      "id": "music-m2053",
       "difficulty": "normal",
       "answer": "다장조",
       "questions": [
@@ -1137,7 +1116,7 @@
       }
     },
     {
-      "id": "music-m2055",
+      "id": "music-m2054",
       "difficulty": "easy",
       "answer": "단조",
       "questions": [
@@ -1158,7 +1137,7 @@
       }
     },
     {
-      "id": "music-m2056",
+      "id": "music-m2055",
       "difficulty": "easy",
       "answer": "왈츠",
       "questions": [
@@ -1179,7 +1158,7 @@
       }
     },
     {
-      "id": "music-m2057",
+      "id": "music-m2056",
       "difficulty": "easy",
       "answer": "탱고",
       "questions": [
@@ -1200,7 +1179,7 @@
       }
     },
     {
-      "id": "music-m2058",
+      "id": "music-m2057",
       "difficulty": "easy",
       "answer": "삼바",
       "questions": [
@@ -1221,7 +1200,7 @@
       }
     },
     {
-      "id": "music-m2059",
+      "id": "music-m2058",
       "difficulty": "normal",
       "answer": "플라멩코",
       "questions": [
@@ -1242,7 +1221,7 @@
       }
     },
     {
-      "id": "music-m2060",
+      "id": "music-m2059",
       "difficulty": "normal",
       "answer": "12개",
       "questions": [
@@ -1263,7 +1242,7 @@
       }
     },
     {
-      "id": "music-m2061",
+      "id": "music-m2060",
       "difficulty": "normal",
       "answer": "테너",
       "questions": [
@@ -1284,7 +1263,7 @@
       }
     },
     {
-      "id": "music-m2062",
+      "id": "music-m2061",
       "difficulty": "hard",
       "answer": "안드레아 보첼리",
       "questions": [
@@ -1305,7 +1284,7 @@
       }
     },
     {
-      "id": "music-m2063",
+      "id": "music-m2062",
       "difficulty": "hard",
       "answer": "차이콥스키",
       "questions": [

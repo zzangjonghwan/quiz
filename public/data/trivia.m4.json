@@ -4,27 +4,6 @@
   "cards": [
     {
       "id": "trivia-m4001",
-      "difficulty": "normal",
-      "answer": "강제 노동",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "'로봇(robot)'이라는 말을 처음 쓴 1920년 체코 작가의 희곡에서, 이 말의 원래 뜻은?",
-          "choices": [
-            "강제 노동",
-            "쇠 인형",
-            "생각하는 기계",
-            "주인을 돕는 하인"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "카렐 차페크의 희곡 「R.U.R.」에서 처음 나왔어요. 체코어 '로보타(힘든 노동)'에서 왔어요.",
-        "tip": "robota = 노동"
-      }
-    },
-    {
-      "id": "trivia-m4002",
       "difficulty": "hard",
       "answer": "아일랜드 농민들이 따돌린 영국인 관리인의 이름",
       "questions": [
@@ -45,7 +24,7 @@
       }
     },
     {
-      "id": "trivia-m4003",
+      "id": "trivia-m4002",
       "difficulty": "hard",
       "answer": "프랑스 님",
       "questions": [
@@ -66,7 +45,7 @@
       }
     },
     {
-      "id": "trivia-m4004",
+      "id": "trivia-m4003",
       "difficulty": "hard",
       "answer": "미국 뉴욕의 한 마을 이름",
       "questions": [
@@ -87,7 +66,7 @@
       }
     },
     {
-      "id": "trivia-m4005",
+      "id": "trivia-m4004",
       "difficulty": "hard",
       "answer": "별",
       "questions": [
@@ -108,7 +87,7 @@
       }
     },
     {
-      "id": "trivia-m4006",
+      "id": "trivia-m4005",
       "difficulty": "hard",
       "answer": "작은 쥐",
       "questions": [
@@ -129,7 +108,7 @@
       }
     },
     {
-      "id": "trivia-m4007",
+      "id": "trivia-m4006",
       "difficulty": "normal",
       "answer": "달",
       "questions": [
@@ -150,7 +129,7 @@
       }
     },
     {
-      "id": "trivia-m4008",
+      "id": "trivia-m4007",
       "difficulty": "hard",
       "answer": "대마도 사람들이 부르던 말",
       "questions": [
@@ -171,7 +150,7 @@
       }
     },
     {
-      "id": "trivia-m4009",
+      "id": "trivia-m4008",
       "difficulty": "hard",
       "answer": "타이쿤(tycoon)",
       "questions": [
@@ -192,7 +171,7 @@
       }
     },
     {
-      "id": "trivia-m4010",
+      "id": "trivia-m4009",
       "difficulty": "normal",
       "answer": "창업자의 별명과 성",
       "questions": [
@@ -213,7 +192,7 @@
       }
     },
     {
-      "id": "trivia-m4011",
+      "id": "trivia-m4010",
       "difficulty": "normal",
       "answer": "형제",
       "questions": [
@@ -234,7 +213,7 @@
       }
     },
     {
-      "id": "trivia-m4012",
+      "id": "trivia-m4011",
       "difficulty": "hard",
       "answer": "창업자 이름과 고향 마을의 첫 글자",
       "questions": [
@@ -255,7 +234,7 @@
       }
     },
     {
-      "id": "trivia-m4013",
+      "id": "trivia-m4012",
       "difficulty": "easy",
       "answer": "국민의 차",
       "questions": [
@@ -276,7 +255,7 @@
       }
     },
     {
-      "id": "trivia-m4014",
+      "id": "trivia-m4013",
       "difficulty": "hard",
       "answer": "관음보살",
       "questions": [
@@ -297,7 +276,7 @@
       }
     },
     {
-      "id": "trivia-m4015",
+      "id": "trivia-m4014",
       "difficulty": "normal",
       "answer": "핀란드의 강과 마을 이름",
       "questions": [
@@ -318,7 +297,7 @@
       }
     },
     {
-      "id": "trivia-m4016",
+      "id": "trivia-m4015",
       "difficulty": "easy",
       "answer": "세 개의 별",
       "questions": [
@@ -339,7 +318,7 @@
       }
     },
     {
-      "id": "trivia-m4017",
+      "id": "trivia-m4016",
       "difficulty": "normal",
       "answer": "레이 크록",
       "questions": [
@@ -360,7 +339,7 @@
       }
     },
     {
-      "id": "trivia-m4018",
+      "id": "trivia-m4017",
       "difficulty": "normal",
       "answer": "60대",
       "questions": [
@@ -381,7 +360,7 @@
       }
     },
     {
-      "id": "trivia-m4019",
+      "id": "trivia-m4018",
       "difficulty": "normal",
       "answer": "세계에서 가장 큰 강",
       "questions": [
@@ -402,7 +381,7 @@
       }
     },
     {
-      "id": "trivia-m4020",
+      "id": "trivia-m4019",
       "difficulty": "normal",
       "answer": "천둥의 신 토르",
       "questions": [
@@ -423,7 +402,7 @@
       }
     },
     {
-      "id": "trivia-m4021",
+      "id": "trivia-m4020",
       "difficulty": "hard",
       "answer": "1582년",
       "questions": [
@@ -444,7 +423,7 @@
       }
     },
     {
-      "id": "trivia-m4022",
+      "id": "trivia-m4021",
       "difficulty": "hard",
       "answer": "메소포타미아(바빌로니아)",
       "questions": [
@@ -465,7 +444,7 @@
       }
     },
     {
-      "id": "trivia-m4023",
+      "id": "trivia-m4022",
       "difficulty": "hard",
       "answer": "1896년",
       "questions": [
@@ -486,7 +465,7 @@
       }
     },
     {
-      "id": "trivia-m4024",
+      "id": "trivia-m4023",
       "difficulty": "normal",
       "answer": "음력과 계절의 차이를 맞추려고 몇 년마다 한 달을 더 넣는다",
       "questions": [
@@ -507,7 +486,7 @@
       }
     },
     {
-      "id": "trivia-m4025",
+      "id": "trivia-m4024",
       "difficulty": "hard",
       "answer": "지구 자전 속도와 원자시계의 차이를 맞추려고 1초를 더하거나 뺀다",
       "questions": [

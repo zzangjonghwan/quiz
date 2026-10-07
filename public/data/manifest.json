@@ -1,5 +1,5 @@
 {
-  "version": 147,
+  "version": 148,
   "files": [
     {
       "category": "idiom",
@@ -114,6 +114,11 @@
     {
       "category": "loanword",
       "file": "loanword.m3.json",
+      "version": 1
+    },
+    {
+      "category": "loanword",
+      "file": "loanword.m4.json",
       "version": 1
     },
     {

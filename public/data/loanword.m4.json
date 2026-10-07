@@ -1,0 +1,1625 @@
+{
+  "category": "loanword",
+  "version": 1,
+  "cards": [
+    {
+      "id": "loanword-m4001",
+      "difficulty": "normal",
+      "answer": "nail polish",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '매니큐어(손톱에 바르는 칠)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "nail polish",
+            "manicure",
+            "nail paint cream",
+            "finger color"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어 manicure는 손톱을 손질하는 일 전체를 뜻해요.",
+        "tip": "칠하는 건 polish"
+      }
+    },
+    {
+      "id": "loanword-m4002",
+      "difficulty": "easy",
+      "answer": "ballpoint pen",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '볼펜'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "ballpoint pen",
+            "ball pen stick",
+            "oil pen",
+            "round pen"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "줄여서 그냥 pen이라고도 해요.",
+        "tip": "ballpoint"
+      }
+    },
+    {
+      "id": "loanword-m4003",
+      "difficulty": "easy",
+      "answer": "selfie stick",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '셀카봉'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "selfie stick",
+            "self camera bar",
+            "selca rod",
+            "photo pole"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "셀카는 영어로 selfie예요.",
+        "tip": "selfie + stick"
+      }
+    },
+    {
+      "id": "loanword-m4004",
+      "difficulty": "normal",
+      "answer": "dress",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '원피스(위아래가 붙은 옷)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "dress",
+            "one-piece",
+            "one suit",
+            "full skirt"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어 one-piece는 주로 위아래가 붙은 수영복을 떠올려요.",
+        "tip": "원피스 = dress"
+      }
+    },
+    {
+      "id": "loanword-m4005",
+      "difficulty": "normal",
+      "answer": "stove",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '가스레인지'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "stove",
+            "gas range set",
+            "gas fire",
+            "cooking range gas"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국에서는 stove, 영국에서는 cooker나 hob이라고도 해요.",
+        "tip": "불 쓰는 조리대"
+      }
+    },
+    {
+      "id": "loanword-m4006",
+      "difficulty": "normal",
+      "answer": "horn",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '클랙슨(자동차 경적)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "horn",
+            "klaxon bell",
+            "car bell",
+            "beeper"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "klaxon은 옛 경적 회사 이름에서 왔어요. \"경적을 울리다\"는 honk the horn이에요.",
+        "tip": "빵빵 = horn"
+      }
+    },
+    {
+      "id": "loanword-m4007",
+      "difficulty": "normal",
+      "answer": "gas pedal",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '엑셀(자동차 가속 페달)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "gas pedal",
+            "excel",
+            "speed foot",
+            "go button"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정식 이름은 accelerator예요. 엑셀은 이것을 줄인 말이에요.",
+        "tip": "accelerator"
+      }
+    },
+    {
+      "id": "loanword-m4008",
+      "difficulty": "hard",
+      "answer": "hood",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '본네트(자동차 앞쪽 덮개)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "hood",
+            "bonnet car",
+            "front cap",
+            "engine roof"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국은 hood, 영국은 bonnet이라고 해요. 본네트는 영국식에서 왔어요.",
+        "tip": "미국 hood, 영국 bonnet"
+      }
+    },
+    {
+      "id": "loanword-m4009",
+      "difficulty": "normal",
+      "answer": "auto repair shop",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '카센터'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "auto repair shop",
+            "car center",
+            "car hospital",
+            "motor service center room"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "car center라고 하면 자동차 판매장처럼 들릴 수 있어요.",
+        "tip": "정비소"
+      }
+    },
+    {
+      "id": "loanword-m4010",
+      "difficulty": "hard",
+      "answer": "guesthouse",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '펜션(숙박 시설)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "guesthouse",
+            "pension",
+            "rest hotel",
+            "villa house"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어 pension은 주로 '연금'이라는 뜻이에요.",
+        "tip": "pension = 연금"
+      }
+    },
+    {
+      "id": "loanword-m4011",
+      "difficulty": "hard",
+      "answer": "banner",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '플래카드(현수막)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "banner",
+            "placard",
+            "hanging paper",
+            "cloth sign board"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "placard는 손에 들고 다니는 피켓 같은 판을 말해요.",
+        "tip": "현수막 = banner"
+      }
+    },
+    {
+      "id": "loanword-m4012",
+      "difficulty": "normal",
+      "answer": "sticky note",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '포스트잇'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "sticky note",
+            "post paper",
+            "memo glue",
+            "stick memo"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "Post-it은 3M의 상표 이름이라 일반적으로는 sticky note라고 해요.",
+        "tip": "붙이는 메모지"
+      }
+    },
+    {
+      "id": "loanword-m4013",
+      "difficulty": "normal",
+      "answer": "correction fluid",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '화이트(수정액)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "correction fluid",
+            "white",
+            "erase water",
+            "clean ink"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국에서는 상표 이름을 딴 White-Out이라는 말도 많이 써요.",
+        "tip": "고치는 액체"
+      }
+    },
+    {
+      "id": "loanword-m4014",
+      "difficulty": "normal",
+      "answer": "cutoff score",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '커트라인(합격선)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "cutoff score",
+            "cut line",
+            "pass line point",
+            "border cut"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "\"cutoff\"는 '기준선'이라는 뜻이에요.",
+        "tip": "cutoff"
+      }
+    },
+    {
+      "id": "loanword-m4015",
+      "difficulty": "normal",
+      "answer": "undershirt",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '런닝셔츠(민소매 속옷)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "undershirt",
+            "running shirt",
+            "sleeveless run",
+            "sports top"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어 running shirt는 달리기할 때 입는 운동복을 말해요. 민소매 겉옷은 tank top이에요.",
+        "tip": "속옷 = undershirt"
+      }
+    },
+    {
+      "id": "loanword-m4016",
+      "difficulty": "easy",
+      "answer": "backup dancer",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '백댄서'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "backup dancer",
+            "back dancer",
+            "behind dancer",
+            "sub dancer"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "backup은 '뒤에서 받쳐 주는'이라는 뜻이에요. 백 코러스도 backup singer예요.",
+        "tip": "backup"
+      }
+    },
+    {
+      "id": "loanword-m4017",
+      "difficulty": "easy",
+      "answer": "karaoke room",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '노래방'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "karaoke room",
+            "song room",
+            "singing bang",
+            "music cafe"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "karaoke는 일본어 '가라(빈) + 오케(오케스트라)'에서 온 말이에요.",
+        "tip": "빈 오케스트라"
+      }
+    },
+    {
+      "id": "loanword-m4018",
+      "difficulty": "normal",
+      "answer": "internet cafe",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '피시방'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "internet cafe",
+            "PC room",
+            "computer bang",
+            "game house"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "요즘은 gaming cafe라고도 해요. PC bang이라는 말이 외국에 알려지기도 했어요.",
+        "tip": "인터넷 카페"
+      }
+    },
+    {
+      "id": "loanword-m4019",
+      "difficulty": "hard",
+      "answer": "appearance fee",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '개런티(출연료)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "appearance fee",
+            "guarantee",
+            "show money",
+            "pay guarantee"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어 guarantee는 '보증'이라는 뜻이에요.",
+        "tip": "guarantee = 보증"
+      }
+    },
+    {
+      "id": "loanword-m4020",
+      "difficulty": "hard",
+      "answer": "concrete mixer truck",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '레미콘'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "concrete mixer truck",
+            "remicon",
+            "cement car",
+            "mix truck stone"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "레미콘은 ready-mixed concrete(미리 섞은 콘크리트)를 줄인 일본식 말이에요.",
+        "tip": "ready-mixed concrete"
+      }
+    },
+    {
+      "id": "loanword-m4021",
+      "difficulty": "normal",
+      "answer": "프랑스어",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'앙케트'는 어느 나라 말에서 왔을까?",
+          "choices": [
+            "프랑스어",
+            "독일어",
+            "러시아어",
+            "영어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "프랑스어 enquête(조사)에서 왔어요. 영어로는 survey예요.",
+        "tip": "설문 조사"
+      }
+    },
+    {
+      "id": "loanword-m4022",
+      "difficulty": "normal",
+      "answer": "독일어",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'깁스'는 어느 나라 말에서 왔을까?",
+          "choices": [
+            "독일어",
+            "영어",
+            "라틴어",
+            "네덜란드어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "독일어 Gips(석고)에서 왔어요. 영어로는 cast라고 해요.",
+        "tip": "Gips = 석고"
+      }
+    },
+    {
+      "id": "loanword-m4023",
+      "difficulty": "easy",
+      "answer": "영어",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'랜드마크'는 어느 나라 말에서 왔을까?",
+          "choices": [
+            "영어",
+            "독일어",
+            "프랑스어",
+            "네덜란드어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원래 탐험가가 길을 찾으려고 표시해 둔 '땅(land)의 표시(mark)'라는 뜻이에요.",
+        "tip": "land + mark"
+      }
+    },
+    {
+      "id": "loanword-m4024",
+      "difficulty": "normal",
+      "answer": "프랑스어",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'부케'는 어느 나라 말에서 왔을까?",
+          "choices": [
+            "프랑스어",
+            "영어",
+            "이탈리아어",
+            "스페인어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'꽃다발'이라는 뜻이에요. 결혼식에서 신부가 들어요.",
+        "tip": "bouquet"
+      }
+    },
+    {
+      "id": "loanword-m4025",
+      "difficulty": "hard",
+      "answer": "이탈리아어",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'비엔날레'는 어느 나라 말에서 왔을까?",
+          "choices": [
+            "이탈리아어",
+            "프랑스어",
+            "라틴어",
+            "스페인어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'2년마다'라는 뜻이에요. 3년마다 열리면 트리엔날레예요.",
+        "tip": "2년마다"
+      }
+    },
+    {
+      "id": "loanword-m4026",
+      "difficulty": "easy",
+      "answer": "레전드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'레전드'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "한 분야에서 오래도록 기억될 만큼 뛰어난 사람이나 일",
+            "말을 하면서 뜻을 더 잘 전하려고 쓰는 손짓이나 몸짓",
+            "앞으로 할 일의 목표와 단계를 시간 순서대로 정리한 계획",
+            "전하려는 내용을 재미있는 이야기로 풀어 전달하는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“한 분야에서 오래도록 기억될 만큼 뛰어난 사람이나 일”라는 뜻의 외래어는?",
+          "choices": [
+            "레전드",
+            "엘리트",
+            "챌린지",
+            "콘텐츠"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "legend",
+            "meaning": "전설"
+          }
+        ],
+        "meaning": "한 분야에서 오래도록 기억될 만큼 뛰어난 사람이나 일",
+        "tip": "\"그 경기는 레전드다\""
+      }
+    },
+    {
+      "id": "loanword-m4027",
+      "difficulty": "normal",
+      "answer": "로드맵",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'로드맵'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "앞으로 할 일의 목표와 단계를 시간 순서대로 정리한 계획",
+            "전하려는 내용을 재미있는 이야기로 풀어 전달하는 것",
+            "오래되었지만 멋과 가치가 있는 물건이나 그런 스타일",
+            "말을 하면서 뜻을 더 잘 전하려고 쓰는 손짓이나 몸짓"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“앞으로 할 일의 목표와 단계를 시간 순서대로 정리한 계획”라는 뜻의 외래어는?",
+          "choices": [
+            "로드맵",
+            "빈티지",
+            "포비아",
+            "템플릿"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "road",
+            "meaning": "길"
+          },
+          {
+            "part": "map",
+            "meaning": "지도"
+          }
+        ],
+        "meaning": "앞으로 할 일의 목표와 단계를 시간 순서대로 정리한 계획",
+        "tip": "계획표"
+      }
+    },
+    {
+      "id": "loanword-m4028",
+      "difficulty": "easy",
+      "answer": "루머",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'루머'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "근거 없이 퍼진 소문",
+            "정해진 몫이나 할당된 양",
+            "기본에 더해 따로 고를 수 있는 사항",
+            "실제로 있었던 일이나 확인된 사실"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“근거 없이 퍼진 소문”라는 뜻의 외래어는?",
+          "choices": [
+            "루머",
+            "팩트",
+            "옵션",
+            "텐션"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "rumor",
+            "meaning": "소문"
+          }
+        ],
+        "meaning": "근거 없이 퍼진 소문",
+        "tip": "뜬소문"
+      }
+    },
+    {
+      "id": "loanword-m4029",
+      "difficulty": "easy",
+      "answer": "리더십",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'리더십'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "무리를 이끌어 가는 지도자의 능력",
+            "기본에 더해 따로 고를 수 있는 사항",
+            "실제로 있었던 일이나 확인된 사실",
+            "어떤 일이나 반응을 일으키는 계기"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“무리를 이끌어 가는 지도자의 능력”라는 뜻의 외래어는?",
+          "choices": [
+            "리더십",
+            "제스처",
+            "챌린지",
+            "엘리트"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "leader",
+            "meaning": "이끄는 사람"
+          },
+          {
+            "part": "ship",
+            "meaning": "자질"
+          }
+        ],
+        "meaning": "무리를 이끌어 가는 지도자의 능력",
+        "tip": "지도력"
+      }
+    },
+    {
+      "id": "loanword-m4030",
+      "difficulty": "normal",
+      "answer": "메커니즘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'메커니즘'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어떤 일이 이뤄지는 원리나 짜임새",
+            "낡은 방식을 바꿔 새롭게 하는 것",
+            "분위기나 기분이 들뜨고 활기찬 정도",
+            "문제를 해결하는 방법이나 그 수단"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어떤 일이 이뤄지는 원리나 짜임새”라는 뜻의 외래어는?",
+          "choices": [
+            "메커니즘",
+            "알리바이",
+            "애드리브",
+            "아날로그"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "어떤 일이 이뤄지는 원리나 짜임새",
+        "tip": "작동 원리"
+      }
+    },
+    {
+      "id": "loanword-m4031",
+      "difficulty": "hard",
+      "answer": "모멘텀",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'모멘텀'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어떤 흐름이 계속 이어지게 하는 추진력이나 계기",
+            "한 분야에서 오래도록 기억될 만큼 뛰어난 사람이나 일",
+            "사회나 집단에서 뛰어난 능력을 인정받은 사람",
+            "문서나 디자인을 쉽게 만들도록 미리 짜 놓은 틀"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어떤 흐름이 계속 이어지게 하는 추진력이나 계기”라는 뜻의 외래어는?",
+          "choices": [
+            "모멘텀",
+            "트리거",
+            "리더십",
+            "콘텐츠"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "momentum",
+            "meaning": "움직이는 힘"
+          }
+        ],
+        "meaning": "어떤 흐름이 계속 이어지게 하는 추진력이나 계기",
+        "tip": "상승세의 탄력"
+      }
+    },
+    {
+      "id": "loanword-m4032",
+      "difficulty": "normal",
+      "answer": "빈티지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'빈티지'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "오래되었지만 멋과 가치가 있는 물건이나 그런 스타일",
+            "전하려는 내용을 재미있는 이야기로 풀어 전달하는 것",
+            "문서나 디자인을 쉽게 만들도록 미리 짜 놓은 틀",
+            "앞으로 할 일의 목표와 단계를 시간 순서대로 정리한 계획"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“오래되었지만 멋과 가치가 있는 물건이나 그런 스타일”라는 뜻의 외래어는?",
+          "choices": [
+            "빈티지",
+            "솔루션",
+            "로드맵",
+            "템플릿"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "오래되었지만 멋과 가치가 있는 물건이나 그런 스타일",
+        "tip": "중고 옷 가게의 멋"
+      }
+    },
+    {
+      "id": "loanword-m4033",
+      "difficulty": "normal",
+      "answer": "솔루션",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'솔루션'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "문제를 해결하는 방법이나 그 수단",
+            "다른 쪽보다 앞서거나 유리한 조건",
+            "어떤 일이 이뤄지는 원리나 짜임새",
+            "분위기나 기분이 들뜨고 활기찬 정도"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“문제를 해결하는 방법이나 그 수단”라는 뜻의 외래어는?",
+          "choices": [
+            "솔루션",
+            "템플릿",
+            "포비아",
+            "로드맵"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "solution",
+            "meaning": "해결"
+          }
+        ],
+        "meaning": "문제를 해결하는 방법이나 그 수단",
+        "tip": "해결책"
+      }
+    },
+    {
+      "id": "loanword-m4034",
+      "difficulty": "normal",
+      "answer": "스토리텔링",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'스토리텔링'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "전하려는 내용을 재미있는 이야기로 풀어 전달하는 것",
+            "오래되었지만 멋과 가치가 있는 물건이나 그런 스타일",
+            "문서나 디자인을 쉽게 만들도록 미리 짜 놓은 틀",
+            "앞으로 할 일의 목표와 단계를 시간 순서대로 정리한 계획"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“전하려는 내용을 재미있는 이야기로 풀어 전달하는 것”라는 뜻의 외래어는?",
+          "choices": [
+            "스토리텔링",
+            "이노베이션",
+            "어드밴티지",
+            "하이라이트"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "story",
+            "meaning": "이야기"
+          },
+          {
+            "part": "telling",
+            "meaning": "들려주기"
+          }
+        ],
+        "meaning": "전하려는 내용을 재미있는 이야기로 풀어 전달하는 것",
+        "tip": "이야기로 전달하기"
+      }
+    },
+    {
+      "id": "loanword-m4035",
+      "difficulty": "normal",
+      "answer": "아날로그",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'아날로그'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "숫자 대신 연속된 양으로 나타내는 방식, 또는 손맛과 옛 감성이 느껴지는 것",
+            "오래되었지만 멋과 가치가 있는 물건이나 그런 스타일",
+            "전하려는 내용을 재미있는 이야기로 풀어 전달하는 것",
+            "앞으로 할 일의 목표와 단계를 시간 순서대로 정리한 계획"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“숫자 대신 연속된 양으로 나타내는 방식, 또는 손맛과 옛 감성이 느껴지는 것”라는 뜻의 외래어는?",
+          "choices": [
+            "아날로그",
+            "애드리브",
+            "메커니즘",
+            "알리바이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "숫자 대신 연속된 양으로 나타내는 방식, 또는 손맛과 옛 감성이 느껴지는 것",
+        "tip": "LP판, 필름 카메라"
+      }
+    },
+    {
+      "id": "loanword-m4036",
+      "difficulty": "normal",
+      "answer": "알리바이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'알리바이'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "범죄가 일어난 때 다른 곳에 있었다는 증명",
+            "특정한 대상이나 상황에 대한 지나친 공포",
+            "상황이나 흐름이 크게 바뀌는 계기나 시점",
+            "대본에 없는 말이나 연기를 즉흥적으로 하는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“범죄가 일어난 때 다른 곳에 있었다는 증명”라는 뜻의 외래어는?",
+          "choices": [
+            "알리바이",
+            "아날로그",
+            "애드리브",
+            "메커니즘"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "alibi",
+            "meaning": "라틴어로 '다른 곳에'"
+          }
+        ],
+        "meaning": "범죄가 일어난 때 다른 곳에 있었다는 증명",
+        "tip": "현장 부재 증명"
+      }
+    },
+    {
+      "id": "loanword-m4037",
+      "difficulty": "normal",
+      "answer": "애드리브",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'애드리브'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "대본에 없는 말이나 연기를 즉흥적으로 하는 것",
+            "범죄가 일어난 때 다른 곳에 있었다는 증명",
+            "전하려는 내용을 재미있는 이야기로 풀어 전달하는 것",
+            "상황이나 흐름이 크게 바뀌는 계기나 시점"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“대본에 없는 말이나 연기를 즉흥적으로 하는 것”라는 뜻의 외래어는?",
+          "choices": [
+            "애드리브",
+            "메커니즘",
+            "알리바이",
+            "아날로그"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "ad libitum",
+            "meaning": "라틴어로 '마음대로'"
+          }
+        ],
+        "meaning": "대본에 없는 말이나 연기를 즉흥적으로 하는 것",
+        "tip": "즉흥 대사"
+      }
+    },
+    {
+      "id": "loanword-m4038",
+      "difficulty": "normal",
+      "answer": "어드밴티지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'어드밴티지'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "다른 쪽보다 앞서거나 유리한 조건",
+            "낡은 방식을 바꿔 새롭게 하는 것",
+            "어떤 일이 이뤄지는 원리나 짜임새",
+            "문제를 해결하는 방법이나 그 수단"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“다른 쪽보다 앞서거나 유리한 조건”라는 뜻의 외래어는?",
+          "choices": [
+            "어드밴티지",
+            "이노베이션",
+            "스토리텔링",
+            "하이라이트"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "advantage",
+            "meaning": "유리함"
+          }
+        ],
+        "meaning": "다른 쪽보다 앞서거나 유리한 조건",
+        "tip": "홈 어드밴티지"
+      }
+    },
+    {
+      "id": "loanword-m4039",
+      "difficulty": "easy",
+      "answer": "엘리트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'엘리트'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "사회나 집단에서 뛰어난 능력을 인정받은 사람",
+            "상황이나 흐름이 크게 바뀌는 계기나 시점",
+            "특정한 대상이나 상황에 대한 지나친 공포",
+            "서로 다른 문화나 장르를 섞어 새롭게 만든 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“사회나 집단에서 뛰어난 능력을 인정받은 사람”라는 뜻의 외래어는?",
+          "choices": [
+            "엘리트",
+            "레전드",
+            "챌린지",
+            "콘텐츠"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사회나 집단에서 뛰어난 능력을 인정받은 사람",
+        "tip": "최고 인재"
+      }
+    },
+    {
+      "id": "loanword-m4040",
+      "difficulty": "easy",
+      "answer": "옵션",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'옵션'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "기본에 더해 따로 고를 수 있는 사항",
+            "실제로 있었던 일이나 확인된 사실",
+            "가장 중요하거나 흥미로운 장면이나 부분",
+            "무리를 이끌어 가는 지도자의 능력"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“기본에 더해 따로 고를 수 있는 사항”라는 뜻의 외래어는?",
+          "choices": [
+            "옵션",
+            "루머",
+            "팩트",
+            "퓨전"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "option",
+            "meaning": "선택"
+          }
+        ],
+        "meaning": "기본에 더해 따로 고를 수 있는 사항",
+        "tip": "\"풀옵션 원룸\""
+      }
+    },
+    {
+      "id": "loanword-m4041",
+      "difficulty": "normal",
+      "answer": "이노베이션",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'이노베이션'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "낡은 방식을 바꿔 새롭게 하는 것",
+            "다른 쪽보다 앞서거나 유리한 조건",
+            "분위기나 기분이 들뜨고 활기찬 정도",
+            "문제를 해결하는 방법이나 그 수단"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“낡은 방식을 바꿔 새롭게 하는 것”라는 뜻의 외래어는?",
+          "choices": [
+            "이노베이션",
+            "스토리텔링",
+            "어드밴티지",
+            "하이라이트"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "innovation",
+            "meaning": "혁신"
+          }
+        ],
+        "meaning": "낡은 방식을 바꿔 새롭게 하는 것",
+        "tip": "혁신"
+      }
+    },
+    {
+      "id": "loanword-m4042",
+      "difficulty": "hard",
+      "answer": "이데올로기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'이데올로기'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "사회나 집단이 가진 생각과 가치의 체계",
+            "가장 중요하거나 흥미로운 장면이나 부분",
+            "기본에 더해 따로 고를 수 있는 사항",
+            "특정한 대상이나 상황에 대한 지나친 공포"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“사회나 집단이 가진 생각과 가치의 체계”라는 뜻의 외래어는?",
+          "choices": [
+            "이데올로기",
+            "어드밴티지",
+            "스토리텔링",
+            "하이라이트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사회나 집단이 가진 생각과 가치의 체계",
+        "tip": "이념"
+      }
+    },
+    {
+      "id": "loanword-m4043",
+      "difficulty": "easy",
+      "answer": "제스처",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'제스처'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "말을 하면서 뜻을 더 잘 전하려고 쓰는 손짓이나 몸짓",
+            "한 분야에서 오래도록 기억될 만큼 뛰어난 사람이나 일",
+            "앞으로 할 일의 목표와 단계를 시간 순서대로 정리한 계획",
+            "어떤 흐름이 계속 이어지게 하는 추진력이나 계기"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“말을 하면서 뜻을 더 잘 전하려고 쓰는 손짓이나 몸짓”라는 뜻의 외래어는?",
+          "choices": [
+            "제스처",
+            "리더십",
+            "레전드",
+            "엘리트"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "gesture",
+            "meaning": "몸짓"
+          }
+        ],
+        "meaning": "말을 하면서 뜻을 더 잘 전하려고 쓰는 손짓이나 몸짓",
+        "tip": "손짓 몸짓"
+      }
+    },
+    {
+      "id": "loanword-m4044",
+      "difficulty": "easy",
+      "answer": "챌린지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'챌린지'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "여러 사람이 같은 행동을 따라 하며 영상 등을 올리는 놀이식 도전",
+            "인터넷이나 방송으로 제공되는 글, 영상, 음악 같은 정보와 창작물",
+            "오래 이어져 온 전통이나 유산, 또는 브랜드가 쌓아 온 역사",
+            "사회나 집단에서 뛰어난 능력을 인정받은 사람"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“여러 사람이 같은 행동을 따라 하며 영상 등을 올리는 놀이식 도전”라는 뜻의 외래어는?",
+          "choices": [
+            "챌린지",
+            "제스처",
+            "레전드",
+            "콘텐츠"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "challenge",
+            "meaning": "도전"
+          }
+        ],
+        "meaning": "여러 사람이 같은 행동을 따라 하며 영상 등을 올리는 놀이식 도전",
+        "tip": "춤 챌린지"
+      }
+    },
+    {
+      "id": "loanword-m4045",
+      "difficulty": "easy",
+      "answer": "콘텐츠",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'콘텐츠'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "인터넷이나 방송으로 제공되는 글, 영상, 음악 같은 정보와 창작물",
+            "여러 사람이 같은 행동을 따라 하며 영상 등을 올리는 놀이식 도전",
+            "오래 이어져 온 전통이나 유산, 또는 브랜드가 쌓아 온 역사",
+            "말을 하면서 뜻을 더 잘 전하려고 쓰는 손짓이나 몸짓"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“인터넷이나 방송으로 제공되는 글, 영상, 음악 같은 정보와 창작물”라는 뜻의 외래어는?",
+          "choices": [
+            "콘텐츠",
+            "챌린지",
+            "엘리트",
+            "레전드"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "contents",
+            "meaning": "내용물"
+          }
+        ],
+        "meaning": "인터넷이나 방송으로 제공되는 글, 영상, 음악 같은 정보와 창작물",
+        "tip": "유튜브 영상"
+      }
+    },
+    {
+      "id": "loanword-m4046",
+      "difficulty": "hard",
+      "answer": "쿼터",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'쿼터'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "정해진 몫이나 할당된 양",
+            "근거 없이 퍼진 소문",
+            "어떤 일이나 반응을 일으키는 계기",
+            "사회나 집단이 가진 생각과 가치의 체계"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“정해진 몫이나 할당된 양”라는 뜻의 외래어는?",
+          "choices": [
+            "쿼터",
+            "텐션",
+            "루머",
+            "옵션"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "quota",
+            "meaning": "할당량"
+          }
+        ],
+        "meaning": "정해진 몫이나 할당된 양",
+        "tip": "스크린 쿼터"
+      }
+    },
+    {
+      "id": "loanword-m4047",
+      "difficulty": "normal",
+      "answer": "터닝 포인트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'터닝 포인트'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "상황이나 흐름이 크게 바뀌는 계기나 시점",
+            "특정한 대상이나 상황에 대한 지나친 공포",
+            "범죄가 일어난 때 다른 곳에 있었다는 증명",
+            "기본에 더해 따로 고를 수 있는 사항"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“상황이나 흐름이 크게 바뀌는 계기나 시점”라는 뜻의 외래어는?",
+          "choices": [
+            "터닝 포인트",
+            "이노베이션",
+            "어드밴티지",
+            "알리바이"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "turning",
+            "meaning": "돌아서는"
+          },
+          {
+            "part": "point",
+            "meaning": "지점"
+          }
+        ],
+        "meaning": "상황이나 흐름이 크게 바뀌는 계기나 시점",
+        "tip": "전환점"
+      }
+    },
+    {
+      "id": "loanword-m4048",
+      "difficulty": "normal",
+      "answer": "텐션",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'텐션'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "분위기나 기분이 들뜨고 활기찬 정도",
+            "낡은 방식을 바꿔 새롭게 하는 것",
+            "어떤 일이 이뤄지는 원리나 짜임새",
+            "다른 쪽보다 앞서거나 유리한 조건"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“분위기나 기분이 들뜨고 활기찬 정도”라는 뜻의 외래어는?",
+          "choices": [
+            "텐션",
+            "퓨전",
+            "쿼터",
+            "팩트"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "tension",
+            "meaning": "팽팽함"
+          }
+        ],
+        "meaning": "분위기나 기분이 들뜨고 활기찬 정도",
+        "tip": "\"텐션 높다\""
+      }
+    },
+    {
+      "id": "loanword-m4049",
+      "difficulty": "normal",
+      "answer": "템플릿",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'템플릿'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "문서나 디자인을 쉽게 만들도록 미리 짜 놓은 틀",
+            "서로 다른 문화나 장르를 섞어 새롭게 만든 것",
+            "오래되었지만 멋과 가치가 있는 물건이나 그런 스타일",
+            "대본에 없는 말이나 연기를 즉흥적으로 하는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“문서나 디자인을 쉽게 만들도록 미리 짜 놓은 틀”라는 뜻의 외래어는?",
+          "choices": [
+            "템플릿",
+            "솔루션",
+            "포비아",
+            "로드맵"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "문서나 디자인을 쉽게 만들도록 미리 짜 놓은 틀",
+        "tip": "PPT 서식"
+      }
+    },
+    {
+      "id": "loanword-m4050",
+      "difficulty": "hard",
+      "answer": "트리거",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'트리거'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어떤 일이나 반응을 일으키는 계기",
+            "무리를 이끌어 가는 지도자의 능력",
+            "다른 쪽보다 앞서거나 유리한 조건",
+            "문제를 해결하는 방법이나 그 수단"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어떤 일이나 반응을 일으키는 계기”라는 뜻의 외래어는?",
+          "choices": [
+            "트리거",
+            "모멘텀",
+            "리더십",
+            "솔루션"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "trigger",
+            "meaning": "방아쇠"
+          }
+        ],
+        "meaning": "어떤 일이나 반응을 일으키는 계기",
+        "tip": "방아쇠 역할"
+      }
+    },
+    {
+      "id": "loanword-m4051",
+      "difficulty": "easy",
+      "answer": "팩트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'팩트'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "실제로 있었던 일이나 확인된 사실",
+            "무리를 이끌어 가는 지도자의 능력",
+            "기본에 더해 따로 고를 수 있는 사항",
+            "낡은 방식을 바꿔 새롭게 하는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“실제로 있었던 일이나 확인된 사실”라는 뜻의 외래어는?",
+          "choices": [
+            "팩트",
+            "옵션",
+            "루머",
+            "퓨전"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "fact",
+            "meaning": "사실"
+          }
+        ],
+        "meaning": "실제로 있었던 일이나 확인된 사실",
+        "tip": "\"팩트 체크\""
+      }
+    },
+    {
+      "id": "loanword-m4052",
+      "difficulty": "normal",
+      "answer": "포비아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'포비아'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "특정한 대상이나 상황에 대한 지나친 공포",
+            "범죄가 일어난 때 다른 곳에 있었다는 증명",
+            "상황이나 흐름이 크게 바뀌는 계기나 시점",
+            "가장 중요하거나 흥미로운 장면이나 부분"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“특정한 대상이나 상황에 대한 지나친 공포”라는 뜻의 외래어는?",
+          "choices": [
+            "포비아",
+            "템플릿",
+            "빈티지",
+            "로드맵"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "phobia",
+            "meaning": "그리스어로 '두려움'"
+          }
+        ],
+        "meaning": "특정한 대상이나 상황에 대한 지나친 공포",
+        "tip": "공포증"
+      }
+    },
+    {
+      "id": "loanword-m4053",
+      "difficulty": "normal",
+      "answer": "퓨전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'퓨전'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "서로 다른 문화나 장르를 섞어 새롭게 만든 것",
+            "범죄가 일어난 때 다른 곳에 있었다는 증명",
+            "오래되었지만 멋과 가치가 있는 물건이나 그런 스타일",
+            "상황이나 흐름이 크게 바뀌는 계기나 시점"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“서로 다른 문화나 장르를 섞어 새롭게 만든 것”라는 뜻의 외래어는?",
+          "choices": [
+            "퓨전",
+            "텐션",
+            "루머",
+            "팩트"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "fusion",
+            "meaning": "융합"
+          }
+        ],
+        "meaning": "서로 다른 문화나 장르를 섞어 새롭게 만든 것",
+        "tip": "퓨전 한식"
+      }
+    },
+    {
+      "id": "loanword-m4054",
+      "difficulty": "easy",
+      "answer": "하이라이트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'하이라이트'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "가장 중요하거나 흥미로운 장면이나 부분",
+            "기본에 더해 따로 고를 수 있는 사항",
+            "특정한 대상이나 상황에 대한 지나친 공포",
+            "범죄가 일어난 때 다른 곳에 있었다는 증명"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“가장 중요하거나 흥미로운 장면이나 부분”라는 뜻의 외래어는?",
+          "choices": [
+            "하이라이트",
+            "이데올로기",
+            "어드밴티지",
+            "스토리텔링"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "high",
+            "meaning": "높은"
+          },
+          {
+            "part": "light",
+            "meaning": "빛"
+          }
+        ],
+        "meaning": "가장 중요하거나 흥미로운 장면이나 부분",
+        "tip": "경기 요약 영상"
+      }
+    },
+    {
+      "id": "loanword-m4055",
+      "difficulty": "hard",
+      "answer": "헤리티지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'헤리티지'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "오래 이어져 온 전통이나 유산, 또는 브랜드가 쌓아 온 역사",
+            "한 분야에서 오래도록 기억될 만큼 뛰어난 사람이나 일",
+            "여러 사람이 같은 행동을 따라 하며 영상 등을 올리는 놀이식 도전",
+            "말을 하면서 뜻을 더 잘 전하려고 쓰는 손짓이나 몸짓"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“오래 이어져 온 전통이나 유산, 또는 브랜드가 쌓아 온 역사”라는 뜻의 외래어는?",
+          "choices": [
+            "헤리티지",
+            "알리바이",
+            "애드리브",
+            "메커니즘"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "heritage",
+            "meaning": "유산"
+          }
+        ],
+        "meaning": "오래 이어져 온 전통이나 유산, 또는 브랜드가 쌓아 온 역사",
+        "tip": "물려받은 전통"
+      }
+    }
+  ]
+}
