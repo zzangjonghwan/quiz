@@ -1,7 +1,7 @@
 // 게임 모드 visual effects on a single full-screen canvas: fireworks, burning flames,
-// falling debris, smoke and floating score text. Runs only while something is visible.
+// smoke and floating score text. Runs only while something is visible.
 
-type Kind = 'spark' | 'flame' | 'debris' | 'smoke' | 'text'
+type Kind = 'spark' | 'flame' | 'smoke' | 'text'
 
 interface Particle {
   kind: Kind
@@ -16,14 +16,11 @@ interface Particle {
   color: string
   gravity: number
   drag: number
-  rot?: number
-  vr?: number
   text?: string
 }
 
 const MAX_PARTICLES = 700
 const FIREWORK_COLORS = ['#c6f432', '#ffd84a', '#ffffff', '#ff7ab6', '#5ce1ff', '#ff9f43']
-const DEBRIS_COLORS = ['#4a4a52', '#6b6b74', '#2e2e33', '#e5484d', '#8a8a93']
 
 let canvas: HTMLCanvasElement | null = null
 let ctx: CanvasRenderingContext2D | null = null
@@ -155,24 +152,6 @@ function frame(now: number) {
         c.drawImage(glow(p.color), p.x - size / 2, p.y - size / 2, size, size)
         break
       }
-      case 'debris': {
-        c.globalCompositeOperation = 'source-over'
-        c.globalAlpha = Math.min(1, fade * 2)
-        p.rot! += p.vr! * dt
-        c.save()
-        c.translate(p.x, p.y)
-        c.rotate(p.rot!)
-        c.fillStyle = p.color
-        c.beginPath()
-        c.moveTo(-p.size / 2, -p.size / 3)
-        c.lineTo(p.size / 2, -p.size / 2)
-        c.lineTo(p.size / 3, p.size / 2)
-        c.lineTo(-p.size / 2, p.size / 3)
-        c.closePath()
-        c.fill()
-        c.restore()
-        break
-      }
       case 'text': {
         c.globalCompositeOperation = 'source-over'
         c.globalAlpha = Math.min(1, fade * 2)
@@ -230,42 +209,6 @@ export function celebrate(bursts = 4) {
   }
 }
 
-/** Broken pieces falling from an element's crack line. */
-export function crumble(rect: DOMRect) {
-  start()
-  const cx = rect.left + rect.width / 2
-  for (let i = 0; i < 26; i++) {
-    add({
-      kind: 'debris',
-      x: cx + rand(-rect.width * 0.12, rect.width * 0.12),
-      y: rand(rect.top, rect.bottom),
-      vx: rand(-120, 160),
-      vy: rand(-180, 20),
-      life: rand(0.8, 1.4),
-      size: rand(4, 11),
-      color: pick(DEBRIS_COLORS),
-      gravity: 1300,
-      drag: 0.99,
-      rot: rand(0, Math.PI),
-      vr: rand(-10, 10),
-    })
-  }
-  for (let i = 0; i < 8; i++) {
-    add({
-      kind: 'smoke',
-      x: cx + rand(-30, 30),
-      y: rect.top + rect.height / 2,
-      vx: rand(-40, 40),
-      vy: rand(-50, -10),
-      life: rand(0.6, 1),
-      size: rand(30, 50),
-      color: '#77777f',
-      gravity: 0,
-      drag: 0.98,
-    })
-  }
-}
-
 /** Rising puffs along the bottom when the burning streak is broken. */
 export function extinguish() {
   start()
@@ -304,11 +247,11 @@ export function clearFx() {
   particles = []
 }
 
-/** Shakes an element once ("쿠구궁"). */
-export function shake(el: HTMLElement | null) {
-  if (!el) return
-  el.classList.remove('fx-shake')
-  void el.offsetWidth
-  el.classList.add('fx-shake')
-  setTimeout(() => el.classList.remove('fx-shake'), 600)
+/** A quick red blink over the whole screen for a wrong answer ("뿌뿌-"). */
+export function flashWrong() {
+  const el = document.createElement("div")
+  el.className = "fx-flash-wrong pointer-events-none fixed inset-0 z-[65]"
+  el.addEventListener("animationend", () => el.remove())
+  document.body.appendChild(el)
+  setTimeout(() => el.remove(), 1200)
 }

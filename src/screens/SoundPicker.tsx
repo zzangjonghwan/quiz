@@ -1,6 +1,6 @@
 import { Check, Play } from 'lucide-react'
 import { Header, Screen } from '../components/ui'
-import { celebrate, crumble, fireworks } from '../fx'
+import { celebrate, fireworks, flashWrong } from '../fx'
 import { useBackHandler } from '../native'
 import { DEFAULT_PICKS, playVariant, SOUND_LABEL, VARIANTS, type SoundName } from '../sound'
 import { updateSettings, useStore } from '../store'
@@ -9,7 +9,7 @@ import { updateSettings, useStore } from '../store'
 function previewFx(name: SoundName, el: HTMLElement) {
   const r = el.getBoundingClientRect()
   if (name === 'correct') fireworks(r.left + r.width / 2, r.top + r.height / 2, 1)
-  if (name === 'wrong') crumble(r)
+  if (name === 'wrong') flashWrong()
   if (name === 'fanfare' || name === 'combo') celebrate(2)
 }
 

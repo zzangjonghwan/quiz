@@ -1,5 +1,5 @@
-// Sound effects synthesized with the Web Audio API: no audio files to ship or license.
-// Each effect has a few variants; the player picks one in 설정 > 효과음 고르기.
+// Sound effects: mostly synthesized with the Web Audio API, plus a couple of recorded clips in
+// public/sfx. Each effect has a few variants; the player picks one in 설정 > 효과음 고르기.
 import { getState } from './store'
 
 export type SoundName = 'correct' | 'wrong' | 'combo' | 'fanfare' | 'tap'
@@ -79,6 +79,44 @@ function burst({ at = 0, dur, gain = 0.3, filter = 'lowpass', freq, to, q = 1 }:
   src.stop(t + dur + 0.05)
 }
 
+const clips = new Map<string, Promise<AudioBuffer | null>>()
+
+function loadClip(name: string) {
+  let clip = clips.get(name)
+  if (!clip) {
+    clip = fetch(`${import.meta.env.BASE_URL}sfx/${name}.mp3`)
+      .then((r) => r.arrayBuffer())
+      .then((b) => audio().decodeAudioData(b))
+      .catch(() => null)
+    clips.set(name, clip)
+  }
+  return clip
+}
+
+/** Plays a recorded clip from public/sfx (decoded once, then reused). */
+function clip(name: string, gain = 0.9) {
+  const c = audio()
+  void loadClip(name).then((buffer) => {
+    if (!buffer) return
+    const src = c.createBufferSource()
+    src.buffer = buffer
+    const g = c.createGain()
+    g.gain.value = gain
+    src.connect(g).connect(c.destination)
+    src.start()
+  })
+}
+
+/** Decodes the recorded clips ahead of time so the first 정답 isn't late. */
+export function preloadSounds() {
+  try {
+    void loadClip('correct')
+    void loadClip('fanfare')
+  } catch {
+    // No audio support; effects are optional.
+  }
+}
+
 export interface Variant {
   id: string
   label: string
@@ -87,7 +125,7 @@ export interface Variant {
 
 export const SOUND_LABEL: Record<SoundName, string> = {
   correct: '정답',
-  wrong: '오답 (와르르)',
+  wrong: '오답',
   combo: '연속 정답 불꽃',
   fanfare: '결과 발표',
   tap: '버튼 터치',
@@ -95,6 +133,7 @@ export const SOUND_LABEL: Record<SoundName, string> = {
 
 export const VARIANTS: Record<SoundName, Variant[]> = {
   correct: [
+    { id: 'pop', label: '뽁', play: () => clip('correct') },
     {
       id: 'chime',
       label: '맑은 딩동',
@@ -122,23 +161,22 @@ export const VARIANTS: Record<SoundName, Variant[]> = {
   ],
   wrong: [
     {
-      id: 'rumble',
-      label: '쿠구궁 무너짐',
+      id: 'boo',
+      label: '뿌뿌-',
       play: () => {
-        // Low rumble, a crack, then the heavy thud of the falling half.
-        burst({ dur: 0.9, freq: 400, to: 60, gain: 0.5 })
-        burst({ at: 0.02, dur: 0.12, filter: 'bandpass', freq: 2500, q: 0.7, gain: 0.25 })
-        tone({ freq: 90, to: 35, at: 0.25, dur: 0.6, gain: 0.5 })
-        burst({ at: 0.3, dur: 0.25, filter: 'bandpass', freq: 900, q: 1.5, gain: 0.15 })
+        // Two flat, slightly sagging honks: a short "뿌" then a longer "뿌-".
+        ;[[0, 0.13, 311, 294], [0.19, 0.34, 247, 220]].forEach(([at, dur, freq, to]) => {
+          tone({ type: 'square', at, dur, freq, to, gain: 0.09, attack: 0.01 })
+          tone({ type: 'sawtooth', at, dur, freq: freq / 2, to: to / 2, gain: 0.06, attack: 0.01 })
+        })
       },
     },
     {
-      id: 'crash',
-      label: '와장창 깨짐',
+      id: 'beep',
+      label: '삐-삐',
       play: () => {
-        burst({ dur: 0.5, filter: 'highpass', freq: 3000, to: 1200, gain: 0.3 })
-        ;[0.05, 0.11, 0.19, 0.26].forEach((at) => burst({ at, dur: 0.08, filter: 'bandpass', freq: 3000 + Math.random() * 3000, q: 4, gain: 0.12 }))
-        tone({ freq: 120, to: 40, at: 0.05, dur: 0.4, gain: 0.35 })
+        tone({ type: 'square', freq: 880, dur: 0.1, gain: 0.07 })
+        tone({ type: 'square', freq: 660, at: 0.16, dur: 0.22, gain: 0.07 })
       },
     },
     {
@@ -178,6 +216,7 @@ export const VARIANTS: Record<SoundName, Variant[]> = {
     },
   ],
   fanfare: [
+    { id: 'trumpet', label: '트럼펫', play: () => clip('fanfare') },
     {
       id: 'brass',
       label: '빰빠밤',
@@ -214,16 +253,17 @@ export const VARIANTS: Record<SoundName, Variant[]> = {
 }
 
 export const DEFAULT_PICKS: Record<SoundName, string> = {
-  correct: 'chime',
-  wrong: 'rumble',
+  correct: 'pop',
+  wrong: 'boo',
   combo: 'whoosh',
-  fanfare: 'brass',
+  fanfare: 'trumpet',
   tap: 'tick',
 }
 
 export function playVariant(name: SoundName, id: string) {
   try {
-    VARIANTS[name].find((v) => v.id === id)?.play()
+    const variants = VARIANTS[name]
+    ;(variants.find((v) => v.id === id) ?? variants.find((v) => v.id === DEFAULT_PICKS[name]))?.play()
   } catch {
     // Audio can be unavailable (e.g. no output device); effects are optional.
   }

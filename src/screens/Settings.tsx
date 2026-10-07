@@ -54,8 +54,25 @@ export function SettingsScreen({
           </Row>
         </Group>
 
-        <Group title="게임 모드">
-          <Row label="효과음">
+        <Group title="플레이">
+          <Row label="방식">
+            <div className="w-40">
+              <Segmented
+                value={settings.play}
+                onChange={(play) => updateSettings({ play })}
+                options={[
+                  { value: 'normal', label: '일반' },
+                  { value: 'game', label: '게임' },
+                ]}
+              />
+            </div>
+          </Row>
+          <p className="-mt-2 text-xs text-fg-subtle">
+            {settings.play === 'game'
+              ? '점수, 콤보, 폭죽과 효과음이 함께해요.'
+              : '효과 없이 차분하게 풀어요.'}
+          </p>
+          <Row label="효과음 (게임 모드)">
             <Toggle on={settings.sound} onChange={(sound) => updateSettings({ sound })} />
           </Row>
           <button onClick={onSounds} className="flex w-full items-center justify-between py-1 text-left">
@@ -101,7 +118,7 @@ export function SettingsScreen({
 
         <Group title="정보">
           <button onClick={onCredits} className="flex w-full items-center justify-between py-1 text-left">
-            <span className="text-[15px]">이미지 출처</span>
+            <span className="text-[15px]">이미지·소리 출처</span>
             <ChevronRight size={18} className="text-fg-subtle" />
           </button>
           <Row label="버전">

@@ -9,7 +9,7 @@ export function Credits({ onBack }: { onBack: () => void }) {
   })
   return (
     <Screen>
-      <Header title="이미지 출처" onBack={onBack} />
+      <Header title="이미지·소리 출처" onBack={onBack} />
       <main className="flex flex-col gap-3 px-5 pt-2 pb-10">
         <p className="px-1 text-sm text-fg-muted">상식한입에 쓰인 이미지의 출처와 라이선스예요.</p>
         {Object.entries(CREDITS).map(([key, c]) => (

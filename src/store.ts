@@ -43,6 +43,8 @@ export interface Settings {
   sound: boolean
   /** Chosen variant id per sound effect (see src/sound.ts). */
   soundPicks: Partial<Record<SoundName, string>>
+  /** Bumped when the default sounds change, so old picks give way to the new defaults. */
+  soundVersion: number
 }
 
 export interface StoreState {
@@ -66,6 +68,7 @@ const DEFAULT_SETTINGS: Settings = {
   play: 'game',
   sound: true,
   soundPicks: {},
+  soundVersion: 2,
 }
 
 let state: StoreState = { progress: {}, stats: EMPTY_STATS, settings: DEFAULT_SETTINGS }
@@ -81,6 +84,9 @@ export async function loadStore() {
         progress: saved.progress ?? {},
         stats: { ...EMPTY_STATS, ...saved.stats },
         settings: { ...DEFAULT_SETTINGS, ...saved.settings },
+      }
+      if (state.settings.soundVersion !== DEFAULT_SETTINGS.soundVersion) {
+        state.settings = { ...state.settings, soundPicks: {}, soundVersion: DEFAULT_SETTINGS.soundVersion }
       }
     }
   } catch (e) {

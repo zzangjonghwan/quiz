@@ -20,13 +20,6 @@ export function hapticWrong() {
   if (hapticsOn()) void Haptics.notification({ type: NotificationType.Error })
 }
 
-/** The heavy "쿠구궁" for a wrong answer in 게임 모드. */
-export function hapticCrash() {
-  if (!hapticsOn()) return
-  void Haptics.impact({ style: ImpactStyle.Heavy })
-  setTimeout(() => void Haptics.impact({ style: ImpactStyle.Heavy }), 260)
-}
-
 export function applyTheme(theme: 'dark' | 'light') {
   document.documentElement.dataset.theme = theme
   document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#0b0b0c' : '#f6f6f7')

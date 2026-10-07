@@ -5,11 +5,11 @@ import { CATEGORY_BY_ID, DIFFICULTY_LABEL } from '../categories'
 import { CardImage } from '../components/CardImage'
 import { Explanation } from '../components/Explanation'
 import { PrimaryButton, Screen, SecondaryButton } from '../components/ui'
-import { celebrate, clearFx, crumble, extinguish, fireworks, floatText, setFlame, shake } from '../fx'
+import { celebrate, clearFx, extinguish, fireworks, flashWrong, floatText, setFlame } from '../fx'
 import { comboLevel, isMilestone, pointsFor, type GameResult } from '../game'
-import { hapticCorrect, hapticCrash, hapticWrong, useBackHandler } from '../native'
+import { hapticCorrect, hapticWrong, useBackHandler } from '../native'
 import type { AnswerRecord, McqItem, SessionConfig, SessionItem, SubjectiveItem } from '../session'
-import { playSound, setGameAudio } from '../sound'
+import { playSound, preloadSounds, setGameAudio } from '../sound'
 import { recordAnswer, replaceAnswer, type AnswerSnapshot } from '../store'
 
 type Answer = Omit<AnswerRecord, 'item' | 'points'>
@@ -36,7 +36,6 @@ export function Quiz({
   /** Combo before the last wrong answer, so "맞은 걸로 할게요" can restore it. */
   const comboBeforeMiss = useRef(0)
   const explanationRef = useRef<HTMLDivElement>(null)
-  const mainRef = useRef<HTMLElement>(null)
 
   const game = config.play === 'game'
   const item = items[index]
@@ -53,6 +52,7 @@ export function Quiz({
 
   useEffect(() => {
     setGameAudio(game)
+    if (game) preloadSounds()
     return () => {
       setGameAudio(false)
       clearFx()
@@ -85,7 +85,7 @@ export function Quiz({
     floatText(x, y - 24, `+${points}`)
     playSound('correct')
     if (isMilestone(nextCombo)) {
-      setBanner({ text: `${nextCombo} COMBO!`, key: Date.now() })
+      setBanner({ text: `${nextCombo}연속 정답!`, key: Date.now() })
       setTimeout(() => {
         playSound('combo')
         celebrate(nextCombo >= 10 ? 5 : 3)
@@ -103,18 +103,17 @@ export function Quiz({
     if (record.correct) {
       hapticCorrect()
       if (game) points = celebrateCorrect(combo + 1, record.hinted, origin)
-    } else if (game) {
-      // "쿠구궁": the answer cracks and falls, the screen shakes, the fire goes out.
-      hapticCrash()
-      playSound('wrong')
-      shake(mainRef.current)
-      const rect = origin?.getBoundingClientRect()
-      if (rect) setTimeout(() => crumble(rect), 140)
-      if (combo >= 3) extinguish()
-      comboBeforeMiss.current = combo
-      setCombo(0)
+      else setCombo(combo + 1)
     } else {
       hapticWrong()
+      if (game) {
+        // "뿌뿌-": a short honk, the screen edges blink red and the fire goes out.
+        playSound('wrong')
+        flashWrong()
+        if (combo >= 3) extinguish()
+      }
+      comboBeforeMiss.current = combo
+      setCombo(0)
     }
     setAnswers([...answers, { item, ...record, points }])
   }
@@ -125,6 +124,7 @@ export function Quiz({
     hapticCorrect()
     snapshot.current = replaceAnswer(snapshot.current, true, current.hinted)
     const points = game ? celebrateCorrect(comboBeforeMiss.current + 1, current.hinted, origin) : undefined
+    if (!game) setCombo(comboBeforeMiss.current + 1)
     setAnswers(answers.map((a, i) => (i === index ? { ...a, correct: true, points } : a)))
   }
 
@@ -150,21 +150,9 @@ export function Quiz({
             {infinite ? `${index + 1}번째` : `${index + 1} / ${items.length}`}
           </span>
           {game ? (
-            <>
-              {combo >= 2 && (
-                <span
-                  className={`flex items-center gap-0.5 rounded-full px-2 py-0.5 text-sm font-extrabold tabular-nums ${
-                    level > 0 ? 'fx-pulse bg-orange-500/20 text-orange-400' : 'text-fg-muted'
-                  }`}
-                >
-                  <Flame size={15} strokeWidth={2.5} className={level > 0 ? 'fill-orange-400/60' : ''} />
-                  {combo}
-                </span>
-              )}
-              <span key={score} className="fx-pop pr-3 text-base font-extrabold text-accent tabular-nums">
-                {score.toLocaleString()}
-              </span>
-            </>
+            <span key={score} className="fx-pop pr-3 text-base font-extrabold text-accent tabular-nums">
+              {score.toLocaleString()}
+            </span>
           ) : (
             <span className="pr-3 text-sm text-fg-muted tabular-nums">
               <span className="text-accent">{correctCount}</span> 정답
@@ -179,9 +167,10 @@ export function Quiz({
             />
           </div>
         )}
+        {combo >= 2 && <StreakLine combo={combo} hot={level > 0} />}
       </header>
 
-      <main ref={mainRef} className="flex flex-1 flex-col gap-6 overflow-x-clip px-5 pt-4 pb-32">
+      <main className="flex flex-1 flex-col gap-6 overflow-x-clip px-5 pt-4 pb-32">
         <div className="flex flex-col gap-3">
           <span className="flex items-center gap-1.5 text-xs font-medium text-fg-muted">
             <cat.icon size={14} strokeWidth={2} />
@@ -198,7 +187,7 @@ export function Quiz({
             key={index}
             item={item}
             current={current}
-            shatter={game}
+            blink={game}
             onAnswer={(pickedIndex, el) => answer({ correct: pickedIndex === item.correctIndex, pickedIndex }, el)}
           />
         ) : (
@@ -247,12 +236,12 @@ export function Quiz({
 function McqChoices({
   item,
   current,
-  shatter,
+  blink,
   onAnswer,
 }: {
   item: McqItem
   current: AnswerRecord | undefined
-  shatter: boolean
+  blink: boolean
   onAnswer: (pickedIndex: number, el: HTMLElement) => void
 }) {
   return (
@@ -262,7 +251,7 @@ function McqChoices({
           key={i}
           label={choice}
           number={i + 1}
-          shatter={shatter}
+          blink={blink}
           state={
             !current
               ? 'idle'
@@ -431,64 +420,52 @@ function ChoiceButton({
   label,
   number,
   state,
-  shatter,
+  blink,
   onClick,
 }: {
   label: string
   number: number
   state: ChoiceState
-  /** 게임 모드: a wrong pick cracks in two and falls away. */
-  shatter: boolean
+  /** 게임 모드: a wrong pick blinks twice. */
+  blink: boolean
   onClick: (el: HTMLElement) => void
 }) {
-  const breaking = shatter && state === 'wrong'
-  const [fallen, setFallen] = useState(false)
-
-  const content = (s: ChoiceState) => (
-    <>
+  return (
+    <button
+      onClick={(e) => onClick(e.currentTarget)}
+      disabled={state !== 'idle'}
+      data-haptic="off"
+      className={`flex min-h-14 w-full items-center gap-3 rounded-2xl px-4 py-3.5 text-left text-base font-medium transition-colors ${
+        CHOICE_STYLES[state]
+      } ${blink && state === 'wrong' ? 'fx-blink' : ''}`}
+    >
       <span
         className={`flex size-6 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-          s === 'idle' || s === 'dim' ? 'bg-surface-2 text-fg-muted' : ''
+          state === 'idle' || state === 'dim' ? 'bg-surface-2 text-fg-muted' : ''
         }`}
       >
-        {s === 'correct' ? <Check size={18} strokeWidth={3} /> : s === 'wrong' ? <X size={18} strokeWidth={3} /> : number}
+        {state === 'correct' ? <Check size={18} strokeWidth={3} /> : state === 'wrong' ? <X size={18} strokeWidth={3} /> : number}
       </span>
       <span className="flex-1">{label}</span>
-    </>
+    </button>
   )
-  const base = 'flex min-h-14 w-full items-center gap-3 rounded-2xl px-4 py-3.5 text-left text-base font-medium'
+}
 
+/** "🔥 5문제 연속 정답 중!" under the progress bar while a streak is going. */
+function StreakLine({ combo, hot }: { combo: number; hot: boolean }) {
   return (
-    <div className="relative">
-      <button
-        onClick={(e) => onClick(e.currentTarget)}
-        disabled={state !== 'idle'}
-        data-haptic="off"
-        className={`${base} transition-colors ${
-          breaking
-            ? 'text-wrong/50 line-through decoration-wrong/40 outline-2 outline-wrong/30 outline-dashed'
-            : CHOICE_STYLES[state]
+    <div className="flex justify-center">
+      <span
+        key={combo}
+        className={`fx-pop flex items-center gap-1 rounded-full px-3 py-1 text-sm font-extrabold ${
+          hot ? 'bg-orange-500/15 text-orange-400' : 'bg-accent/10 text-accent'
         }`}
       >
-        {content(state)}
-      </button>
-      {breaking && !fallen && (
-        <>
-          <div aria-hidden className={`${base} pointer-events-none absolute inset-0 fx-half-left fx-fall-left ${CHOICE_STYLES.wrong}`}>
-            {content('wrong')}
-          </div>
-          <div
-            aria-hidden
-            className={`${base} pointer-events-none absolute inset-0 fx-half-right fx-fall-right ${CHOICE_STYLES.wrong}`}
-            onAnimationEnd={() => setFallen(true)}
-          >
-            {content('wrong')}
-          </div>
-          <svg aria-hidden className="fx-crack pointer-events-none absolute inset-0 h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <polyline points="49,0 55,28 45,52 56,76 50,100" fill="none" stroke="#fff" strokeWidth="1.2" vectorEffect="non-scaling-stroke" />
-          </svg>
-        </>
-      )}
+        <Flame size={15} strokeWidth={2.5} className={hot ? 'fill-orange-400/60' : ''} />
+        <span>
+          <span className="tabular-nums">{combo}</span>문제 연속 정답 중!
+        </span>
+      </span>
     </div>
   )
 }

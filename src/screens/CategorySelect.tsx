@@ -164,18 +164,6 @@ function SetupSheet({
         </div>
 
         <div className="flex flex-col gap-2">
-          <span className="text-sm text-fg-muted">방식</span>
-          <Segmented
-            value={play}
-            onChange={(v) => updateSettings({ play: v })}
-            options={[
-              { value: 'game', label: '🔥 게임', sub: '점수·콤보·효과' },
-              { value: 'normal', label: '📖 일반', sub: '차분하게 공부' },
-            ]}
-          />
-        </div>
-
-        <div className="flex flex-col gap-2">
           <span className="text-sm text-fg-muted">난이도</span>
           <Segmented
             value={difficulty}
