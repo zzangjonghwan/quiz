@@ -1,0 +1,594 @@
+{
+  "category": "koreanhistory",
+  "version": 1,
+  "cards": [
+    {
+      "id": "koreanhistory-m7001",
+      "difficulty": "hard",
+      "answer": "영고",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "부여에서 해마다 12월에 열던 하늘 제사 행사는?",
+          "choices": [
+            "영고",
+            "동맹",
+            "무천",
+            "계절제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "고구려는 10월의 동맹, 동예는 10월의 무천이에요.",
+        "tip": "부여의 12월"
+      }
+    },
+    {
+      "id": "koreanhistory-m7002",
+      "difficulty": "hard",
+      "answer": "무천",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "동예에서 해마다 10월에 열던 하늘 제사 행사는?",
+          "choices": [
+            "무천",
+            "영고",
+            "동맹",
+            "소도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'춤추며 하늘에 제사 지낸다'는 뜻이에요.",
+        "tip": "춤추는 하늘 제사"
+      }
+    },
+    {
+      "id": "koreanhistory-m7003",
+      "difficulty": "normal",
+      "answer": "태학",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "372년 고구려 소수림왕이 세운 우리나라 최초의 국립 교육 기관은?",
+          "choices": [
+            "태학",
+            "국학",
+            "경당",
+            "성균관"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "같은 해 불교도 받아들였어요. 경당은 지방의 사립 교육 기관이에요.",
+        "tip": "최초의 국립 학교"
+      }
+    },
+    {
+      "id": "koreanhistory-m7004",
+      "difficulty": "normal",
+      "answer": "우산국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "512년 신라 장군 이사부가 정복해 신라 땅으로 만든, 지금의 울릉도에 있던 나라는?",
+          "choices": [
+            "우산국",
+            "탐라국",
+            "대가야",
+            "금관가야"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나무로 만든 사자를 배에 싣고 가서 겁을 주어 항복을 받았다고 해요.",
+        "tip": "나무 사자"
+      }
+    },
+    {
+      "id": "koreanhistory-m7005",
+      "difficulty": "hard",
+      "answer": "926년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "발해가 거란에게 멸망한 해는?",
+          "choices": [
+            "926년",
+            "698년",
+            "918년",
+            "936년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "698년 대조영이 세워 약 230년 동안 이어졌어요.",
+        "tip": "230년의 해동성국"
+      }
+    },
+    {
+      "id": "koreanhistory-m7006",
+      "difficulty": "normal",
+      "answer": "936년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고려 왕건이 후백제를 무너뜨리고 후삼국을 통일한 해는?",
+          "choices": [
+            "936년",
+            "918년",
+            "926년",
+            "1010년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "918년 고려를 세우고, 935년 신라의 항복을 받은 뒤 이듬해 통일했어요.",
+        "tip": "통일 완성"
+      }
+    },
+    {
+      "id": "koreanhistory-m7007",
+      "difficulty": "hard",
+      "answer": "돈의문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한양 도성의 사대문 가운데 서쪽 문으로, 일제 강점기에 헐려 지금은 남아 있지 않은 문은?",
+          "choices": [
+            "돈의문",
+            "숭례문",
+            "흥인지문",
+            "숙정문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'서대문'이라고도 불렀어요. 지금 서대문구라는 이름에 흔적이 남아 있어요.",
+        "tip": "서대문"
+      }
+    },
+    {
+      "id": "koreanhistory-m7008",
+      "difficulty": "normal",
+      "answer": "경연",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 왕이 신하들과 유교 경전과 역사를 공부하며 정치를 토론하던 자리는?",
+          "choices": [
+            "경연",
+            "조회",
+            "어전 회의",
+            "상참"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "왕의 권력이 지나치지 않게 신하들이 견제하는 역할도 했어요.",
+        "tip": "왕의 공부 시간"
+      }
+    },
+    {
+      "id": "koreanhistory-m7009",
+      "difficulty": "normal",
+      "answer": "승정원일기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 왕의 비서 기관이 날마다 왕의 업무를 기록한 일기로, 유네스코 세계 기록 유산이 된 것은?",
+          "choices": [
+            "승정원일기",
+            "조선왕조실록",
+            "일성록",
+            "비변사등록"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세계에서 가장 방대한 단일 역사 기록물 가운데 하나예요.",
+        "tip": "왕의 비서실 일기"
+      }
+    },
+    {
+      "id": "koreanhistory-m7010",
+      "difficulty": "hard",
+      "answer": "비변사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 중기 국방 문제를 의논하려고 만들었다가 임진왜란 뒤 나라의 최고 기구가 된 곳은?",
+          "choices": [
+            "비변사",
+            "의정부",
+            "도평의사사",
+            "승정원"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흥선 대원군이 의정부의 기능을 되살리며 사실상 없앴어요.",
+        "tip": "국방 회의 기구"
+      }
+    },
+    {
+      "id": "koreanhistory-m7011",
+      "difficulty": "hard",
+      "answer": "택리지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이중환이 전국 팔도의 지리, 풍속, 살기 좋은 곳을 정리한 조선 후기의 책은?",
+          "choices": [
+            "택리지",
+            "동국여지승람",
+            "대동지지",
+            "동국지리지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'살 만한 곳을 고른다'는 뜻이에요.",
+        "tip": "살기 좋은 곳 안내서"
+      }
+    },
+    {
+      "id": "koreanhistory-m7012",
+      "difficulty": "hard",
+      "answer": "반계수록",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "실학자 유형원이 토지 제도 개혁 등을 주장하며 쓴 책은?",
+          "choices": [
+            "반계수록",
+            "성호사설",
+            "목민심서",
+            "북학의"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'반계'는 유형원의 호예요. 농민에게 땅을 고르게 나누자는 '균전론'을 주장했어요.",
+        "tip": "균전론"
+      }
+    },
+    {
+      "id": "koreanhistory-m7013",
+      "difficulty": "hard",
+      "answer": "오페르트 도굴 사건",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1868년 독일 상인 오페르트가 흥선 대원군의 아버지 남연군의 무덤을 파헤치려다 실패한 사건은?",
+          "choices": [
+            "오페르트 도굴 사건",
+            "제너럴셔먼호 사건",
+            "운요호 사건",
+            "거문도 사건"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 사건으로 대원군의 통상 거부 정책이 더 강해졌어요.",
+        "tip": "남연군 묘"
+      }
+    },
+    {
+      "id": "koreanhistory-m7014",
+      "difficulty": "normal",
+      "answer": "조미 수호 통상 조약",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1882년 조선이 서양 나라와 처음으로 맺은 조약은?",
+          "choices": [
+            "조미 수호 통상 조약",
+            "강화도 조약",
+            "조영 수호 통상 조약",
+            "제물포 조약"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "청나라의 권유로 미국과 맺었어요. 불평등 조약이었어요.",
+        "tip": "미국과의 첫 조약"
+      }
+    },
+    {
+      "id": "koreanhistory-m7015",
+      "difficulty": "hard",
+      "answer": "거문도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1885년 러시아를 견제한다며 영국군이 2년 가까이 불법으로 점령한 섬은?",
+          "choices": [
+            "거문도",
+            "강화도",
+            "울릉도",
+            "제주도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국은 이 섬을 '해밀턴항'이라고 불렀어요.",
+        "tip": "해밀턴항"
+      }
+    },
+    {
+      "id": "koreanhistory-m7016",
+      "difficulty": "hard",
+      "answer": "방곡령",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1889년 함경도 관찰사가 흉년을 이유로 일본으로 곡식이 나가지 못하게 한 명령은?",
+          "choices": [
+            "방곡령",
+            "금난전권",
+            "단발령",
+            "척화령"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "일본이 손해 배상을 요구해 결국 배상금을 물어 줬어요.",
+        "tip": "곡식 수출 금지"
+      }
+    },
+    {
+      "id": "koreanhistory-m7017",
+      "difficulty": "hard",
+      "answer": "광무개혁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대한 제국이 '옛것을 바탕으로 새것을 더한다'는 원칙으로 추진한 개혁은?",
+          "choices": [
+            "광무개혁",
+            "갑오개혁",
+            "을미개혁",
+            "갑신정변"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'광무'는 대한 제국의 연호예요. 근대 공장과 학교를 세우고 토지를 측량했어요.",
+        "tip": "구본신참"
+      }
+    },
+    {
+      "id": "koreanhistory-m7018",
+      "difficulty": "hard",
+      "answer": "민영환",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1905년 을사늑약에 항의하며 국민에게 보내는 유서를 남기고 스스로 목숨을 끊은 대신은?",
+          "choices": [
+            "민영환",
+            "최익현",
+            "이준",
+            "이상설"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그가 숨진 방에서 대나무가 자라났다는 '혈죽' 이야기가 전해요.",
+        "tip": "혈죽"
+      }
+    },
+    {
+      "id": "koreanhistory-m7019",
+      "difficulty": "hard",
+      "answer": "105인 사건",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1911년 일제가 신민회 회원 등 수많은 애국지사를 체포하려고 데라우치 총독 암살 음모를 꾸며 낸 사건은?",
+          "choices": [
+            "105인 사건",
+            "조선어 학회 사건",
+            "안악 사건",
+            "치안 유지법 사건"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "최종 유죄 판결을 받은 사람이 105명이라 붙은 이름이에요. 이 사건으로 신민회가 해체됐어요.",
+        "tip": "105명"
+      }
+    },
+    {
+      "id": "koreanhistory-m7020",
+      "difficulty": "hard",
+      "answer": "회사령",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1910년 일제가 회사를 세울 때 총독의 허가를 받게 해 우리 민족 기업의 성장을 막은 법은?",
+          "choices": [
+            "회사령",
+            "토지 조사령",
+            "치안 유지법",
+            "조선 교육령"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1920년에 허가제에서 신고제로 바뀌었어요.",
+        "tip": "허가제"
+      }
+    },
+    {
+      "id": "koreanhistory-m7021",
+      "difficulty": "hard",
+      "answer": "근우회",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1927년 신간회의 자매단체로 만들어진 여성 운동 단체는?",
+          "choices": [
+            "근우회",
+            "찬양회",
+            "조선 여자 교육회",
+            "여우회"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "여성의 지위 향상과 민족 운동을 함께 펼쳤어요.",
+        "tip": "여성 단체"
+      }
+    },
+    {
+      "id": "koreanhistory-m7022",
+      "difficulty": "normal",
+      "answer": "민립 대학 설립 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1920년대 '한민족 1천만이 한 사람 1원씩'을 내세워 우리 손으로 대학을 세우려 한 운동은?",
+          "choices": [
+            "민립 대학 설립 운동",
+            "물산 장려 운동",
+            "국채 보상 운동",
+            "브나로드 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "일제는 이를 막으려고 1924년 경성 제국 대학을 세웠어요.",
+        "tip": "1인 1원"
+      }
+    },
+    {
+      "id": "koreanhistory-m7023",
+      "difficulty": "normal",
+      "answer": "카이로 회담",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1943년 미국, 영국, 중국 정상이 '적절한 절차를 거쳐 한국을 독립시킨다'고 처음 약속한 회담은?",
+          "choices": [
+            "카이로 회담",
+            "얄타 회담",
+            "포츠담 회담",
+            "모스크바 3국 외상 회의"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1945년 포츠담 선언에서 이 약속을 다시 확인했어요.",
+        "tip": "처음 약속된 독립"
+      }
+    },
+    {
+      "id": "koreanhistory-m7024",
+      "difficulty": "normal",
+      "answer": "한미 상호 방위 조약",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1953년 정전 협정 직후 우리나라와 미국이 맺어 주한 미군 주둔의 근거가 된 조약은?",
+          "choices": [
+            "한미 상호 방위 조약",
+            "한미 FTA",
+            "한일 기본 조약",
+            "샌프란시스코 조약"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지금까지 한미 동맹의 바탕이 되고 있어요.",
+        "tip": "동맹의 시작"
+      }
+    },
+    {
+      "id": "koreanhistory-m7025",
+      "difficulty": "hard",
+      "answer": "장면 내각",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "4·19 혁명 뒤 의원 내각제로 출범했지만 1년도 안 돼 5·16 군사 정변으로 무너진 정부는?",
+          "choices": [
+            "장면 내각",
+            "이승만 정부",
+            "허정 과도 정부",
+            "박정희 정부"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대통령은 윤보선, 실권은 국무총리 장면이 가졌어요.",
+        "tip": "제2공화국"
+      }
+    },
+    {
+      "id": "koreanhistory-m7026",
+      "difficulty": "normal",
+      "answer": "광부와 간호사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1960~70년대 외화를 벌려고 서독에 일하러 간 한국인들의 직업은?",
+          "choices": [
+            "광부와 간호사",
+            "요리사와 운전사",
+            "교사와 의사",
+            "군인과 경찰"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이들이 보낸 돈이 경제 개발의 밑거름이 됐어요. 영화 「국제시장」에도 나와요.",
+        "tip": "서독 파견"
+      }
+    },
+    {
+      "id": "koreanhistory-m7027",
+      "difficulty": "normal",
+      "answer": "북방 외교",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1990년 소련, 1992년 중국과 수교하는 등 공산권 나라와 관계를 넓힌 노태우 정부의 외교 정책은?",
+          "choices": [
+            "북방 외교",
+            "햇볕 정책",
+            "셔틀 외교",
+            "실리 외교"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1991년에는 남북한이 유엔에 동시 가입했어요.",
+        "tip": "북쪽으로 넓힌 외교"
+      }
+    },
+    {
+      "id": "koreanhistory-m7028",
+      "difficulty": "normal",
+      "answer": "전국 동시 지방 선거",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1995년 처음으로 시·도지사와 시장, 군수, 구청장까지 주민이 직접 뽑은 선거는?",
+          "choices": [
+            "전국 동시 지방 선거",
+            "총선거",
+            "대통령 선거",
+            "보궐 선거"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이때부터 지방 자치제가 전면 실시됐어요.",
+        "tip": "지방 자치의 시작"
+      }
+    }
+  ]
+}
