@@ -1,0 +1,299 @@
+{
+  "category": "slang",
+  "version": 1,
+  "cards": [
+    {
+      "id": "slang-0001", "difficulty": "easy", "answer": "갓생", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "신조어 '갓생'의 뜻은?", "choices": ["부지런하고 생산적으로 사는 삶", "갓 태어난 아기의 삶", "게임 속 캐릭터의 인생", "갓난아기처럼 자는 생활"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "갓", "origin": "God", "meaning": "신, 최고" },
+          { "part": "생", "origin": "生", "meaning": "인생" }
+        ],
+        "meaning": "계획을 세워 부지런하고 생산적으로 사는 모범적인 삶을 말해요.",
+        "tip": "미라클 모닝 + 운동 + 공부 = 갓생 살기"
+      }
+    },
+    {
+      "id": "slang-0002", "difficulty": "easy", "answer": "스불재", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "신조어 '스불재'의 뜻은?", "choices": ["스스로 불러온 재앙", "스타일이 불량한 재벌", "스트레스 불러오는 재택근무", "스펙이 부족한 재수생"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "스", "meaning": "스스로" },
+          { "part": "불", "meaning": "불러온" },
+          { "part": "재", "meaning": "재앙" }
+        ],
+        "meaning": "자기가 자초한 힘든 상황을 말해요.",
+        "tip": "새벽 3시까지 유튜브 보고 아침에 지각 = 스불재",
+        "bonus": "같은 뜻의 사자성어는 자업자득(自業自得)이에요."
+      }
+    },
+    {
+      "id": "slang-0003", "difficulty": "easy", "answer": "킹받네", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "신조어 '킹받네'의 뜻은?", "choices": ["엄청 열받는다", "왕처럼 대접받는다", "킹크랩을 선물받았다", "최고의 칭찬을 받았다"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "킹", "origin": "King", "meaning": "엄청, 최고로 (강조)" },
+          { "part": "받네", "meaning": "'열받네'에서 따옴" }
+        ],
+        "meaning": "'열받네'의 '열'을 강조의 뜻인 '킹'으로 바꿔 '엄청 열받는다'는 뜻이에요.",
+        "tip": "킹 = 매우, 킹받네 = 매우 열받네"
+      }
+    },
+    {
+      "id": "slang-0004", "difficulty": "easy", "answer": "점메추", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "신조어 '점메추'의 뜻은?", "choices": ["점심 메뉴 추천", "점수 메기는 추첨", "점점 메마르는 추억", "점장 메일 추신"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "점", "meaning": "점심" },
+          { "part": "메", "meaning": "메뉴" },
+          { "part": "추", "meaning": "추천" }
+        ],
+        "meaning": "점심 메뉴를 추천해 달라는 말이에요.",
+        "tip": "저녁이면 저메추, 야식이면 야메추"
+      }
+    },
+    {
+      "id": "slang-0005", "difficulty": "easy", "answer": "알잘딱깔센", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "신조어 '알잘딱깔센'의 뜻은?", "choices": ["알아서 잘 딱 깔끔하고 센스 있게", "알람 잘 맞추고 딱 깔끔히 세수", "알바 잘하면 딱 깔끔한 센터", "알고 보면 잘생긴 딱한 깔끔쟁이 센스쟁이"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "알", "meaning": "알아서" },
+          { "part": "잘", "meaning": "잘" },
+          { "part": "딱", "meaning": "딱" },
+          { "part": "깔", "meaning": "깔끔하고" },
+          { "part": "센", "meaning": "센스 있게" }
+        ],
+        "meaning": "누가 시키지 않아도 알아서 깔끔하고 센스 있게 일을 처리한다는 말이에요.",
+        "tip": "팀플에서 가장 듣고 싶은 칭찬"
+      }
+    },
+    {
+      "id": "slang-0006", "difficulty": "easy", "answer": "TMI", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "'TMI'는 무엇의 줄임말일까?", "choices": ["Too Much Information", "Time Management Issue", "Text Me Immediately", "Tell Me It"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "Too Much", "meaning": "너무 많은" },
+          { "part": "Information", "meaning": "정보" }
+        ],
+        "meaning": "굳이 알고 싶지 않은 너무 많은 정보, 또는 묻지도 않은 사적인 이야기를 말해요.",
+        "tip": "\"TMI인데, 나 오늘 양말 짝짝이야\""
+      }
+    },
+    {
+      "id": "slang-0007", "difficulty": "easy", "answer": "별다줄", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "신조어 '별다줄'의 뜻은?", "choices": ["별걸 다 줄인다", "별이 다 줄어든다", "별로 다른 줄 없다", "별명 다 줄게"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "별", "meaning": "별걸" },
+          { "part": "다", "meaning": "다" },
+          { "part": "줄", "meaning": "줄인다" }
+        ],
+        "meaning": "무엇이든 줄여 말하는 요즘 말투를 비꼬는 말이에요. 그런데 이 말 자체도 줄임말이에요.",
+        "tip": "별다줄 = 줄임말을 놀리는 줄임말"
+      }
+    },
+    {
+      "id": "slang-0008", "difficulty": "normal", "answer": "중꺾마", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "'중꺾마'는 무슨 말의 줄임말일까?", "choices": ["중요한 건 꺾이지 않는 마음", "중간에 꺾어진 마라톤", "중학생 때 꺾인 마음", "중국집에서 꺾은 마파두부"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "중", "meaning": "중요한 건" },
+          { "part": "꺾", "meaning": "꺾이지 않는" },
+          { "part": "마", "meaning": "마음" }
+        ],
+        "meaning": "결과보다 포기하지 않는 마음이 중요하다는 말이에요.",
+        "origin": "2022년 리그 오브 레전드 월드 챔피언십에서 우승한 데프트 선수의 인터뷰 영상 제목에서 퍼졌고, 같은 해 카타르 월드컵 때 축구 국가대표팀 응원 문구로 쓰이며 유명해졌어요.",
+        "tip": "졌잘싸(졌지만 잘 싸웠다)와 같이 쓰이는 응원 말"
+      }
+    },
+    {
+      "id": "slang-0009", "difficulty": "normal", "answer": "오운완", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "SNS 해시태그 '#오운완'의 뜻은?", "choices": ["오늘 운동 완료", "오늘의 운세 완벽", "오전 운전 완주", "오래된 운동화 완판"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "오", "meaning": "오늘" },
+          { "part": "운", "meaning": "운동" },
+          { "part": "완", "meaning": "완료" }
+        ],
+        "meaning": "오늘 운동을 마쳤다는 인증 해시태그예요.",
+        "tip": "헬스장 거울 셀카 + #오운완"
+      }
+    },
+    {
+      "id": "slang-0010", "difficulty": "normal", "answer": "어쩔티비", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "신조어 '어쩔티비'의 뜻에 가장 가까운 것은?", "choices": ["어쩌라고", "어쩜 이렇게 예뻐", "어쩌다 TV에 나옴", "어쨌든 TV 보자"] }
+      ],
+      "explanation": {
+        "meaning": "'어쩌라고'를 장난스럽게 말하는 표현이에요. 원래 '어쩌라고, 가서 TV나 봐'라는 식으로 쓰였어요.",
+        "tip": "어쩔티비 → 저쩔티비 → 안물티비(안 물어봤어) 식으로 말장난이 이어져요"
+      }
+    },
+    {
+      "id": "slang-0011", "difficulty": "normal", "answer": "얼죽아", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "한겨울에도 아이스 음료만 마시는 사람을 부르는 신조어는?", "choices": ["얼죽아", "뜨아파", "아이존", "냉커족"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "얼", "meaning": "얼어" },
+          { "part": "죽", "meaning": "죽어도" },
+          { "part": "아", "meaning": "아이스 아메리카노" }
+        ],
+        "meaning": "얼어 죽어도 아이스 아메리카노를 마신다는 뜻이에요.",
+        "tip": "반대파는 '뜨아(뜨거운 아메리카노)'파",
+        "bonus": "비슷하게 '쪄 죽어도 뜨거운 아메리카노'는 '쪄죽따'라고 해요."
+      }
+    },
+    {
+      "id": "slang-0012", "difficulty": "normal", "answer": "갑통알", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "신조어 '갑통알'의 뜻은?", "choices": ["갑자기 통장을 보니 알바해야겠다", "갑자기 통화하다 알람 울림", "갑옷처럼 통통한 알몸", "갑질하는 통장님 알림"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "갑", "meaning": "갑자기" },
+          { "part": "통", "meaning": "통장을 보니" },
+          { "part": "알", "meaning": "알바해야겠다" }
+        ],
+        "meaning": "잔고를 보고 정신이 번쩍 들어 아르바이트라도 해야겠다고 느낄 때 쓰는 말이에요.",
+        "tip": "월말 + 통장 잔고 = 갑통알"
+      }
+    },
+    {
+      "id": "slang-0013", "difficulty": "normal", "answer": "자만추", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "연애 관련 신조어 '자만추'의 뜻은?", "choices": ["자연스러운 만남 추구", "자존감 만렙 추구", "자기 만족 추천", "자주 만나기 추가"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "자", "meaning": "자연스러운" },
+          { "part": "만", "meaning": "만남" },
+          { "part": "추", "meaning": "추구" }
+        ],
+        "meaning": "소개팅 같은 인위적인 자리 대신 자연스럽게 알게 되는 만남을 원한다는 뜻이에요.",
+        "tip": "반대말은 '인만추(인위적인 만남 추구)'"
+      }
+    },
+    {
+      "id": "slang-0014", "difficulty": "normal", "answer": "꾸안꾸", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "패션 신조어 '꾸안꾸'의 뜻은?", "choices": ["꾸민 듯 안 꾸민 듯", "꾸준히 안 꾸밈", "꾸러기처럼 안 꾸밈", "꾸깃꾸깃한 안감"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "꾸", "meaning": "꾸민 듯" },
+          { "part": "안꾸", "meaning": "안 꾸민 듯" }
+        ],
+        "meaning": "힘을 준 티가 나지 않게 자연스러우면서도 멋스러운 스타일을 말해요.",
+        "tip": "1시간 준비해서 5분 준비한 척 = 꾸안꾸"
+      }
+    },
+    {
+      "id": "slang-0015", "difficulty": "hard", "answer": "무물보", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "SNS에서 쓰는 '무물보'의 뜻은?", "choices": ["무엇이든 물어보세요", "무료 물건 보관", "무서운 물고기 보기", "무리한 물타기 보류"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "무", "meaning": "무엇이든" },
+          { "part": "물", "meaning": "물어" },
+          { "part": "보", "meaning": "보세요" }
+        ],
+        "meaning": "질문을 받겠다는 뜻으로, 인스타그램 스토리 질문 기능 등과 함께 써요.",
+        "tip": "AMA(Ask Me Anything)의 한국어 버전"
+      }
+    },
+    {
+      "id": "slang-0016", "difficulty": "hard", "answer": "아보하", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "트렌드 용어 '아보하'의 뜻은?", "choices": ["아주 보통의 하루", "아침 보고 하기", "아무도 보지 않는 하루", "아끼고 보태는 하루"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "아", "meaning": "아주" },
+          { "part": "보", "meaning": "보통의" },
+          { "part": "하", "meaning": "하루" }
+        ],
+        "meaning": "특별한 일 없이 무탈하게 지나가는 평범한 하루에서 행복을 찾는 태도를 말해요.",
+        "origin": "소비 트렌드 전망서 『트렌드 코리아 2025』에서 키워드로 소개되며 알려졌어요.",
+        "tip": "갓생에 지친 사람들의 새 목표 = 아보하"
+      }
+    },
+    {
+      "id": "slang-0017", "difficulty": "hard", "answer": "헬시플레저", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "트렌드 용어 '헬시플레저'의 뜻은?", "choices": ["건강 관리를 즐겁게 하는 것", "헬스장에서 즐기는 파티", "건강을 포기하고 즐거움 추구", "헬멧을 쓰고 즐기는 레저"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "헬시", "origin": "Healthy", "meaning": "건강한" },
+          { "part": "플레저", "origin": "Pleasure", "meaning": "즐거움" }
+        ],
+        "meaning": "참고 견디는 건강 관리 대신, 즐겁게 할 수 있는 방식으로 건강을 챙기는 것을 말해요.",
+        "tip": "제로 음료, 러닝 크루, 저당 디저트 = 헬시플레저",
+        "bonus": "『트렌드 코리아 2022』의 키워드로 소개됐어요."
+      }
+    },
+    {
+      "id": "slang-0018", "difficulty": "hard", "answer": "삼귀다", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "신조어 '삼귀다'의 뜻은?", "choices": ["사귀기 전 서로 알아가는 단계", "세 사람이 함께 사귀는 것", "세 번째로 사귀는 사람", "사귄 지 3일 된 사이"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "삼", "meaning": "'사귀다'의 '사'를 숫자 4로 보고 하나 작은 3으로 바꿈" }],
+        "meaning": "아직 사귀는(4) 단계에는 못 미친, 서로 알아가며 썸 타는 단계를 말해요.",
+        "tip": "사(4)귀다 직전 단계 = 삼(3)귀다"
+      }
+    },
+    {
+      "id": "slang-0019", "difficulty": "hard", "answer": "머선129", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "유행어 '머선129'의 뜻은?", "choices": ["무슨 일이고", "뭐 먹을 129가지", "머리 선이 1자로 곧음", "머쓱한 선물 129개"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "머선", "meaning": "'무슨'의 경상도 사투리" },
+          { "part": "129", "meaning": "'일이고'를 숫자 1·2·9로 바꿈" }
+        ],
+        "meaning": "경상도 사투리 '머선 일이고(무슨 일이야)'를 숫자로 장난스럽게 쓴 말이에요.",
+        "tip": "일(1) 이(2) 고(9) → 일이고",
+        "bonus": "방송인 강호동의 말투에서 유행했어요."
+      }
+    },
+    {
+      "id": "slang-0020", "difficulty": "hard", "answer": "도파민 디톡스", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "'도파민 디톡스'의 뜻으로 알맞은 것은?", "choices": ["자극적인 콘텐츠를 끊고 뇌를 쉬게 하는 것", "도파민이 많은 음식을 먹는 다이어트", "운동으로 도파민을 늘리는 방법", "약물로 도파민을 조절하는 치료"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "도파민", "meaning": "쾌감과 보상에 관여하는 뇌의 신경전달물질" },
+          { "part": "디톡스", "origin": "Detox", "meaning": "해독" }
+        ],
+        "meaning": "숏폼 영상, SNS처럼 즉각적인 쾌감을 주는 자극을 일부러 줄이고 뇌를 쉬게 하는 생활 습관을 말해요.",
+        "tip": "폰을 서랍에 넣고 산책하기 = 도파민 디톡스",
+        "bonus": "과학적으로 도파민을 '해독'한다는 개념은 아니고, 자극을 줄이는 습관을 비유한 말이에요."
+      }
+    }
+  ]
+}

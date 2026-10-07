@@ -1,0 +1,125 @@
+{
+  "version": 24,
+  "categories": [
+    {
+      "id": "idiom",
+      "file": "idiom.json",
+      "version": 1
+    },
+    {
+      "id": "proverb",
+      "file": "proverb.json",
+      "version": 1
+    },
+    {
+      "id": "korean",
+      "file": "korean.json",
+      "version": 1
+    },
+    {
+      "id": "slang",
+      "file": "slang.json",
+      "version": 1
+    },
+    {
+      "id": "loanword",
+      "file": "loanword.json",
+      "version": 1
+    },
+    {
+      "id": "figure",
+      "file": "figure.json",
+      "version": 1
+    },
+    {
+      "id": "celeb",
+      "file": "celeb.json",
+      "version": 1
+    },
+    {
+      "id": "koreanhistory",
+      "file": "koreanhistory.json",
+      "version": 1
+    },
+    {
+      "id": "worldhistory",
+      "file": "worldhistory.json",
+      "version": 1
+    },
+    {
+      "id": "myth",
+      "file": "myth.json",
+      "version": 1
+    },
+    {
+      "id": "animal",
+      "file": "animal.json",
+      "version": 1
+    },
+    {
+      "id": "science",
+      "file": "science.json",
+      "version": 1
+    },
+    {
+      "id": "geo",
+      "file": "geo.json",
+      "version": 1
+    },
+    {
+      "id": "life",
+      "file": "life.json",
+      "version": 1
+    },
+    {
+      "id": "health",
+      "file": "health.json",
+      "version": 1
+    },
+    {
+      "id": "food",
+      "file": "food.json",
+      "version": 1
+    },
+    {
+      "id": "law",
+      "file": "law.json",
+      "version": 1
+    },
+    {
+      "id": "economy",
+      "file": "economy.json",
+      "version": 1
+    },
+    {
+      "id": "book",
+      "file": "book.json",
+      "version": 1
+    },
+    {
+      "id": "media",
+      "file": "media.json",
+      "version": 1
+    },
+    {
+      "id": "sports",
+      "file": "sports.json",
+      "version": 1
+    },
+    {
+      "id": "trivia",
+      "file": "trivia.json",
+      "version": 1
+    },
+    {
+      "id": "news",
+      "file": "news.json",
+      "version": 1
+    },
+    {
+      "id": "tech",
+      "file": "tech.json",
+      "version": 1
+    }
+  ]
+}

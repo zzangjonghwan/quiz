@@ -1,0 +1,252 @@
+{
+  "category": "tech",
+  "version": 1,
+  "cards": [
+    {
+      "id": "tech-0001", "difficulty": "easy", "answer": "Artificial Intelligence",
+      "questions": [
+        { "mode": "mcq", "prompt": "'AI'는 무엇의 약자일까?", "choices": ["Artificial Intelligence", "Automatic Information", "Advanced Internet", "Analog Interface"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "Artificial", "meaning": "인공의, 사람이 만든" },
+          { "part": "Intelligence", "meaning": "지능" }
+        ],
+        "meaning": "사람의 학습, 추론, 판단 능력을 컴퓨터로 구현하는 기술이에요.",
+        "tip": "AI = 인공 지능",
+        "bonus": "'인공 지능'이라는 말은 1956년 미국 다트머스 회의에서 존 매카시가 처음 썼어요."
+      }
+    },
+    {
+      "id": "tech-0002", "difficulty": "easy", "answer": "KB < MB < GB < TB",
+      "questions": [
+        { "mode": "mcq", "prompt": "데이터 용량 단위를 작은 것부터 바르게 나열한 것은?", "choices": ["KB < MB < GB < TB", "MB < KB < GB < TB", "KB < GB < MB < TB", "GB < MB < TB < KB"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "K", "origin": "kilo", "meaning": "천" },
+          { "part": "M", "origin": "mega", "meaning": "백만" },
+          { "part": "G", "origin": "giga", "meaning": "십억" },
+          { "part": "T", "origin": "tera", "meaning": "조" }
+        ],
+        "meaning": "단위가 하나 올라갈 때마다 약 1,000배(정확히는 1,024배)씩 커져요.",
+        "tip": "킬로 → 메가 → 기가 → 테라",
+        "bonus": "테라 다음은 페타(PB), 엑사(EB)예요."
+      }
+    },
+    {
+      "id": "tech-0003", "difficulty": "easy", "answer": "스티브 잡스",
+      "questions": [
+        { "mode": "mcq", "prompt": "1976년 스티브 워즈니악과 함께 애플을 세우고 아이폰 출시를 이끈 인물은?", "choices": ["스티브 잡스", "빌 게이츠", "마크 저커버그", "일론 머스크"] }
+      ],
+      "explanation": {
+        "meaning": "스티브 잡스는 매킨토시, 아이팟, 아이폰, 아이패드 등을 내놓으며 애플을 세계적인 기업으로 키웠어요.",
+        "tip": "검은 터틀넥 + 청바지 = 잡스",
+        "bonus": "빌 게이츠는 마이크로소프트, 저커버그는 페이스북(메타)을 세웠어요."
+      }
+    },
+    {
+      "id": "tech-0004", "difficulty": "easy", "answer": "CPU",
+      "questions": [
+        { "mode": "mcq", "prompt": "컴퓨터의 '두뇌' 역할을 하며 명령을 해석하고 계산하는 핵심 부품은?", "choices": ["CPU", "RAM", "SSD", "모니터"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "CPU", "meaning": "Central Processing Unit (중앙 처리 장치)" }],
+        "meaning": "CPU는 프로그램의 명령을 처리하는 핵심 장치예요. RAM은 작업 중인 데이터를 잠시 두는 책상, SSD는 데이터를 오래 보관하는 서랍에 비유해요.",
+        "tip": "CPU = 두뇌, RAM = 책상, SSD = 서랍",
+        "bonus": "RAM이 크면 여러 프로그램을 동시에 띄워도 덜 버벅여요."
+      }
+    },
+    {
+      "id": "tech-0005", "difficulty": "easy", "answer": "Quick Response",
+      "questions": [
+        { "mode": "mcq", "prompt": "'QR 코드'의 QR은 무엇의 약자일까?", "choices": ["Quick Response", "Quality Record", "Quick Reader", "Quiet Radio"] }
+      ],
+      "explanation": {
+        "meaning": "'빠른 응답'이라는 뜻이에요. 1994년 일본 자동차 부품 회사 덴소 웨이브가 부품 관리를 위해 만들었어요.",
+        "tip": "QR = 빨리(Quick) 읽힌다",
+        "bonus": "바코드는 가로 한 방향으로만 정보를 담지만, QR 코드는 가로세로 두 방향으로 훨씬 많은 정보를 담아요."
+      }
+    },
+    {
+      "id": "tech-0006", "difficulty": "easy", "answer": "골뱅이",
+      "questions": [
+        { "mode": "mcq", "prompt": "이메일 주소에 쓰는 '@' 기호를 한국에서 흔히 부르는 별명은?", "choices": ["골뱅이", "달팽이", "소용돌이", "회오리"] }
+      ],
+      "explanation": {
+        "meaning": "모양이 골뱅이를 닮아서 한국에서는 골뱅이라고 불러요. 영어로는 'at'이라고 읽어요.",
+        "tip": "@ = at = '~에 있는'",
+        "bonus": "나라마다 별명이 달라서 이탈리아에선 달팽이, 네덜란드에선 원숭이 꼬리라고 불러요."
+      }
+    },
+    {
+      "id": "tech-0007", "difficulty": "easy", "answer": "실행 취소",
+      "questions": [
+        { "mode": "mcq", "prompt": "윈도우에서 'Ctrl + Z'를 누르면 일어나는 일은?", "choices": ["방금 한 작업 되돌리기", "복사하기", "붙여넣기", "저장하기"] }
+      ],
+      "explanation": {
+        "meaning": "Ctrl+Z는 실행 취소, Ctrl+C는 복사, Ctrl+V는 붙여넣기, Ctrl+S는 저장이에요.",
+        "tip": "Z, X, C, V가 키보드 왼쪽 아래에 나란히 = 취소, 잘라내기, 복사, 붙여넣기",
+        "bonus": "되돌린 걸 다시 실행하려면 Ctrl+Y나 Ctrl+Shift+Z를 눌러요."
+      }
+    },
+    {
+      "id": "tech-0008", "difficulty": "normal", "answer": "Secure",
+      "questions": [
+        { "mode": "mcq", "prompt": "웹 주소 앞의 'https'에서 마지막 's'가 뜻하는 것은?", "choices": ["Secure (보안)", "Server (서버)", "Speed (속도)", "System (시스템)"] }
+      ],
+      "explanation": {
+        "meaning": "https는 주고받는 데이터를 암호화하는 보안 연결이에요. http는 암호화하지 않아 중간에서 내용을 엿볼 수 있어요.",
+        "tip": "s 붙으면 자물쇠(🔒) 표시",
+        "bonus": "하지만 https라고 무조건 안전한 사이트는 아니에요. 피싱 사이트도 https를 쓸 수 있어요."
+      }
+    },
+    {
+      "id": "tech-0009", "difficulty": "normal", "answer": "스미싱",
+      "questions": [
+        { "mode": "mcq", "prompt": "'택배 주소 확인' 같은 문자 메시지 속 링크로 악성 앱을 설치하게 하는 사기는?", "choices": ["스미싱", "파밍", "스푸핑", "보이스 피싱"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "SMS", "meaning": "문자 메시지" },
+          { "part": "phishing", "meaning": "피싱 (개인 정보 낚시)" }
+        ],
+        "meaning": "문자 메시지(SMS)와 피싱을 합친 말이에요. 링크를 누르면 악성 앱이 깔려 개인 정보나 돈을 빼 가요.",
+        "tip": "모르는 문자 속 링크는 누르지 않기",
+        "bonus": "파밍은 진짜 사이트 주소를 입력해도 가짜 사이트로 연결되게 만드는 수법이에요."
+      }
+    },
+    {
+      "id": "tech-0010", "difficulty": "normal", "answer": "오픈 소스",
+      "questions": [
+        { "mode": "mcq", "prompt": "프로그램의 설계도인 소스 코드를 공개해 누구나 보고 고치고 배포할 수 있게 한 소프트웨어는?", "choices": ["오픈 소스", "프리웨어", "셰어웨어", "펌웨어"] }
+      ],
+      "explanation": {
+        "meaning": "오픈 소스는 소스 코드가 공개되어 전 세계 개발자가 함께 개선할 수 있어요. 리눅스, 안드로이드의 기반, 파이어폭스 등이 대표적이에요.",
+        "tip": "오픈 소스 = 레시피 공개",
+        "bonus": "프리웨어는 무료지만 소스 코드는 공개하지 않을 수 있어요. 펌웨어는 기기 안에 심어진 기본 소프트웨어예요."
+      }
+    },
+    {
+      "id": "tech-0011", "difficulty": "normal", "answer": "블록체인",
+      "questions": [
+        { "mode": "mcq", "prompt": "거래 기록을 여러 컴퓨터에 나눠 저장하고 사슬처럼 이어 위조를 어렵게 만드는 기술은?", "choices": ["블록체인", "클라우드", "빅데이터", "사물 인터넷"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "block", "meaning": "거래 기록 묶음" },
+          { "part": "chain", "meaning": "사슬" }
+        ],
+        "meaning": "기록 묶음(블록)을 사슬(체인)처럼 연결하고 여러 참여자가 똑같이 나눠 가져서, 한 곳만 고쳐서는 조작할 수 없어요.",
+        "tip": "모두가 같은 장부를 나눠 가짐 = 블록체인",
+        "bonus": "비트코인 같은 암호 화폐가 블록체인 기술 위에서 움직여요."
+      }
+    },
+    {
+      "id": "tech-0012", "difficulty": "normal", "answer": "2단계 인증",
+      "questions": [
+        { "mode": "mcq", "prompt": "비밀번호에 더해 휴대폰 인증 번호처럼 한 가지 확인 수단을 더 거치는 보안 방식은?", "choices": ["2단계 인증", "자동 로그인", "비밀번호 힌트", "캡차"] }
+      ],
+      "explanation": {
+        "meaning": "비밀번호가 유출돼도 내 휴대폰 같은 두 번째 수단이 없으면 로그인할 수 없어 훨씬 안전해요.",
+        "tip": "아는 것(비밀번호) + 가진 것(휴대폰)",
+        "bonus": "캡차는 '로봇이 아닙니다'처럼 사람인지 확인하는 테스트예요."
+      }
+    },
+    {
+      "id": "tech-0013", "difficulty": "normal", "answer": "랜섬웨어",
+      "questions": [
+        { "mode": "mcq", "prompt": "컴퓨터 파일을 몰래 암호화해 열지 못하게 한 뒤 풀어 주는 대가로 돈을 요구하는 악성 프로그램은?", "choices": ["랜섬웨어", "스파이웨어", "애드웨어", "웜"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "ransom", "meaning": "몸값" },
+          { "part": "ware", "meaning": "소프트웨어" }
+        ],
+        "meaning": "파일을 인질로 잡고 몸값을 요구하는 악성 코드예요. 돈을 내도 파일을 돌려받는다는 보장이 없어요.",
+        "tip": "랜섬 = 몸값, 예방은 백업",
+        "bonus": "스파이웨어는 몰래 정보를 빼 가고, 애드웨어는 광고를 마구 띄우는 프로그램이에요."
+      }
+    },
+    {
+      "id": "tech-0014", "difficulty": "normal", "answer": "할루시네이션",
+      "questions": [
+        { "mode": "mcq", "prompt": "생성형 AI가 사실이 아닌 내용을 그럴듯하게 지어내 답하는 현상은?", "choices": ["할루시네이션", "오버피팅", "딥페이크", "튜링 테스트"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "hallucination", "meaning": "환각" }],
+        "meaning": "AI가 모르는 것도 아는 척 자연스럽게 지어내는 현상을 '환각'에 빗대 할루시네이션이라고 해요. 그래서 AI 답변은 중요한 사실일수록 확인이 필요해요.",
+        "tip": "AI의 그럴듯한 거짓말 = 할루시네이션",
+        "bonus": "오버피팅은 AI가 학습 데이터에만 너무 딱 맞춰져 새로운 데이터에서 성능이 떨어지는 현상이에요."
+      }
+    },
+    {
+      "id": "tech-0015", "difficulty": "hard", "answer": "리누스 토르발스",
+      "questions": [
+        { "mode": "mcq", "prompt": "1991년 대학생 시절 리눅스 커널을 만들어 공개한 사람은?", "choices": ["리누스 토르발스", "리처드 스톨먼", "데니스 리치", "켄 톰프슨"] }
+      ],
+      "explanation": {
+        "meaning": "핀란드 헬싱키 대학생이던 리누스 토르발스가 취미로 만든 운영 체제 커널이 리눅스예요. 지금은 서버, 안드로이드 등 곳곳에 쓰여요.",
+        "tip": "리누스가 만든 리눅스",
+        "bonus": "개발자들이 쓰는 버전 관리 도구 Git도 리누스가 만들었어요. 데니스 리치와 켄 톰프슨은 C 언어와 유닉스를 만들었어요."
+      }
+    },
+    {
+      "id": "tech-0016", "difficulty": "hard", "answer": "무어의 법칙",
+      "questions": [
+        { "mode": "mcq", "prompt": "반도체 칩에 들어가는 트랜지스터 수가 약 2년마다 두 배로 늘어난다는 법칙은?", "choices": ["무어의 법칙", "메칼프의 법칙", "황의 법칙", "파킨슨의 법칙"] }
+      ],
+      "explanation": {
+        "meaning": "인텔 공동 창업자 고든 무어가 1965년 내놓은 예측(1975년 2년 주기로 수정)이에요. 수십 년간 반도체 발전 속도를 잘 설명했어요.",
+        "tip": "2년마다 2배 = 무어",
+        "bonus": "황의 법칙은 삼성전자 황창규 전 사장이 말한 '메모리 용량 1년마다 2배', 메칼프의 법칙은 '네트워크 가치는 사용자 수의 제곱에 비례'예요."
+      }
+    },
+    {
+      "id": "tech-0017", "difficulty": "hard", "answer": "팀 버너스리",
+      "questions": [
+        { "mode": "mcq", "prompt": "1989년 유럽 입자물리연구소(CERN)에서 월드 와이드 웹(WWW)을 제안한 인물은?", "choices": ["팀 버너스리", "빈트 서프", "마크 앤드리슨", "래리 페이지"] }
+      ],
+      "explanation": {
+        "meaning": "팀 버너스리는 연구자들이 문서를 쉽게 공유하도록 하이퍼링크로 연결된 웹을 만들었고, 특허 없이 누구나 쓰게 공개했어요.",
+        "tip": "인터넷 ≠ 웹, 웹의 아버지 = 버너스리",
+        "bonus": "인터넷은 컴퓨터를 잇는 네트워크이고, 웹은 그 위에서 돌아가는 서비스 중 하나예요. 빈트 서프는 '인터넷의 아버지'로 불려요."
+      }
+    },
+    {
+      "id": "tech-0018", "difficulty": "hard", "answer": "파운드리",
+      "questions": [
+        { "mode": "mcq", "prompt": "다른 회사가 설계한 반도체를 대신 생산해 주는 사업은?", "choices": ["파운드리", "팹리스", "메모리", "패키징"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "foundry", "meaning": "주조 공장" }],
+        "meaning": "파운드리는 반도체 위탁 생산이에요. 대만의 TSMC가 세계 1위예요. 반대로 설계만 하고 공장은 없는 회사는 '팹리스'라고 해요.",
+        "tip": "설계 = 팹리스(엔비디아, 퀄컴), 생산 = 파운드리(TSMC)",
+        "bonus": "팹(fab)은 반도체 공장(fabrication)을 줄인 말이라, 팹리스는 '공장이 없는'이라는 뜻이에요."
+      }
+    },
+    {
+      "id": "tech-0019", "difficulty": "hard", "answer": "큐비트",
+      "questions": [
+        { "mode": "mcq", "prompt": "0과 1을 동시에 가질 수 있는 양자 컴퓨터의 정보 단위는?", "choices": ["큐비트", "비트", "바이트", "니블"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "qubit", "meaning": "quantum(양자) + bit" }],
+        "meaning": "일반 비트는 0 또는 1이지만, 큐비트는 양자 중첩 덕분에 0과 1의 상태를 동시에 가질 수 있어 특정 계산을 훨씬 빠르게 할 수 있어요.",
+        "tip": "비트는 동전 앞 or 뒤, 큐비트는 빙글빙글 도는 동전",
+        "bonus": "8비트가 1바이트, 4비트를 니블이라고 해요."
+      }
+    },
+    {
+      "id": "tech-0020", "difficulty": "hard", "answer": "Hello, World!",
+      "questions": [
+        { "mode": "mcq", "prompt": "프로그래밍 언어를 처음 배울 때 화면에 출력해 보는 전통적인 첫 문장은?", "choices": ["Hello, World!", "Hi, Computer!", "Start Program", "Test 1 2 3"] }
+      ],
+      "explanation": {
+        "meaning": "1978년 브라이언 커니핸과 데니스 리치가 쓴 C 언어 교재의 첫 예제로 널리 퍼져, 지금은 거의 모든 언어 입문서의 첫 예제가 되었어요.",
+        "tip": "개발자의 첫인사 = Hello, World!",
+        "bonus": "새 프로그래밍 언어나 도구가 잘 돌아가는지 확인하는 가장 간단한 테스트로도 쓰여요."
+      }
+    }
+  ]
+}

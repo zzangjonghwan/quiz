@@ -45,6 +45,8 @@ body {
   -webkit-tap-highlight-color: transparent;
   overscroll-behavior: none;
   user-select: none;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
 }
 
 /* Android: Capacitor injects --safe-area-inset-*; browsers fall back to env(). */

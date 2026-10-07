@@ -1,0 +1,238 @@
+{
+  "category": "celeb",
+  "version": 1,
+  "cards": [
+    {
+      "id": "celeb-0001", "difficulty": "easy", "answer": "방탄소년단", "aliases": ["BTS"], "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "'Dynamite'로 한국 가수 최초 미국 빌보드 '핫 100' 1위를 차지한 그룹은?", "choices": ["방탄소년단", "블랙핑크", "엑소", "세븐틴"] }
+      ],
+      "explanation": {
+        "meaning": "2020년 8월 방탄소년단(BTS)의 영어 싱글 'Dynamite'가 빌보드 핫 100 1위에 올랐어요. 한국 가수 최초였어요.",
+        "tip": "BTS = Bangtan Sonyeondan(방탄소년단)",
+        "bonus": "2013년 데뷔했고, 팬덤 이름은 'ARMY(아미)'예요."
+      }
+    },
+    {
+      "id": "celeb-0002", "difficulty": "easy", "answer": "싸이", "aliases": ["PSY"],
+      "questions": [
+        { "mode": "mcq", "prompt": "2012년 '강남스타일'로 유튜브 최초 조회수 10억 회를 돌파한 가수는?", "choices": ["싸이", "빅뱅", "비", "보아"] }
+      ],
+      "explanation": {
+        "meaning": "싸이의 '강남스타일' 뮤직비디오는 2012년 12월 유튜브 역사상 처음으로 조회수 10억 회를 넘었어요.",
+        "tip": "말춤 = 강남스타일",
+        "bonus": "조회수가 너무 많아 유튜브가 조회수 표시 방식을 바꿔야 했다는 일화가 있어요."
+      }
+    },
+    {
+      "id": "celeb-0003", "difficulty": "easy", "answer": "블랙핑크", "aliases": ["BLACKPINK"],
+      "questions": [
+        { "mode": "mcq", "prompt": "지수, 제니, 로제, 리사가 속한 걸그룹은?", "choices": ["블랙핑크", "트와이스", "레드벨벳", "에스파"] }
+      ],
+      "explanation": {
+        "meaning": "2016년 YG엔터테인먼트에서 데뷔한 4인조 걸그룹이에요.",
+        "tip": "지제로리 = 블랙핑크",
+        "bonus": "팬덤 이름은 '블링크(BLINK)'예요. 블랙(Black)과 핑크(Pink)를 합쳤어요."
+      }
+    },
+    {
+      "id": "celeb-0004", "difficulty": "easy", "answer": "이지은",
+      "questions": [
+        { "mode": "mcq", "prompt": "가수 아이유의 본명은?", "choices": ["이지은", "이유진", "김지은", "이지원"] }
+      ],
+      "explanation": {
+        "meaning": "아이유(IU)의 본명은 이지은이에요. 드라마에선 배우 이지은으로도 활동해요.",
+        "tip": "아이유 = I(나)와 You(너)가 음악으로 하나 된다는 뜻",
+        "bonus": "'좋은 날'의 3단 고음으로 '국민 여동생'이 되었어요."
+      }
+    },
+    {
+      "id": "celeb-0005", "difficulty": "easy", "answer": "유재석",
+      "questions": [
+        { "mode": "mcq", "prompt": "'무한도전'을 이끈 국민 MC로 '유느님'이라는 별명을 가진 방송인은?", "choices": ["유재석", "강호동", "신동엽", "이경규"] }
+      ],
+      "explanation": {
+        "meaning": "유재석은 '무한도전', '런닝맨', '유 퀴즈 온 더 블럭' 등을 진행한 대표적인 MC예요.",
+        "tip": "유재석 + 하느님 = 유느님",
+        "bonus": "'무한도전'은 2006년부터 2018년까지 방송된 대한민국 대표 예능이에요."
+      }
+    },
+    {
+      "id": "celeb-0006", "difficulty": "easy", "answer": "뉴진스", "aliases": ["NewJeans"],
+      "questions": [
+        { "mode": "mcq", "prompt": "'Hype Boy', 'Ditto'를 부른 걸그룹은?", "choices": ["뉴진스", "르세라핌", "아이브", "있지"] }
+      ],
+      "explanation": {
+        "meaning": "뉴진스는 2022년 'Attention'으로 데뷔해 'Hype Boy', 'Ditto', 'Super Shy' 등을 히트시켰어요.",
+        "tip": "New Jeans = 언제 입어도 질리지 않는 청바지처럼",
+        "bonus": "팬덤 이름은 토끼를 뜻하는 '버니즈(Bunnies)'예요."
+      }
+    },
+    {
+      "id": "celeb-0007", "difficulty": "easy", "answer": "마동석",
+      "questions": [
+        { "mode": "mcq", "prompt": "영화 '범죄도시' 시리즈에서 괴물 형사 '마석도'를 연기한 배우는?", "choices": ["마동석", "황정민", "조진웅", "손석구"] }
+      ],
+      "explanation": {
+        "meaning": "마동석은 '범죄도시' 시리즈에서 주먹 한 방으로 악당을 제압하는 형사 마석도를 연기했어요.",
+        "tip": "'마블리'라는 별명의 원조 근육 배우",
+        "bonus": "할리우드 마블 영화 「이터널스」에도 '길가메시' 역으로 출연했어요."
+      }
+    },
+    {
+      "id": "celeb-0008", "difficulty": "normal", "answer": "임영웅", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "2020년 TV조선 '내일은 미스터트롯'에서 1위(진)를 차지한 가수는?", "choices": ["임영웅", "영탁", "이찬원", "김호중"] }
+      ],
+      "explanation": {
+        "meaning": "임영웅은 '미스터트롯' 우승 후 '사랑은 늘 도망가', '이제 나만 믿어요' 등으로 큰 인기를 얻었어요.",
+        "tip": "팬덤 '영웅시대'의 주인공",
+        "bonus": "'진·선·미'에서 진(眞)이 1등이에요."
+      }
+    },
+    {
+      "id": "celeb-0009", "difficulty": "normal", "answer": "13명", "asOf": "2026-10",
+      "questions": [
+        { "mode": "mcq", "prompt": "그룹 세븐틴(SEVENTEEN)의 멤버는 몇 명일까?", "choices": ["13명", "17명", "7명", "11명"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "13", "meaning": "멤버 수" },
+          { "part": "3", "meaning": "유닛 수 (힙합·보컬·퍼포먼스)" },
+          { "part": "1", "meaning": "하나의 팀" }
+        ],
+        "literal": "13 + 3 + 1 = 17",
+        "meaning": "세븐틴은 13명의 멤버, 3개의 유닛, 하나의 팀이 합쳐 17(Seventeen)이 된다는 뜻이에요.",
+        "tip": "13 + 3 + 1 = 세븐틴",
+        "bonus": "멤버들이 직접 작사·작곡·안무를 맡아 '자체 제작 아이돌'로 불려요."
+      }
+    },
+    {
+      "id": "celeb-0010", "difficulty": "normal", "answer": "아이브", "aliases": ["IVE"],
+      "questions": [
+        { "mode": "mcq", "prompt": "'LOVE DIVE', 'I AM'을 부른 걸그룹은?", "choices": ["아이브", "케플러", "엔믹스", "아이들"] }
+      ],
+      "explanation": {
+        "meaning": "아이브는 2021년 'ELEVEN'으로 데뷔했고, 'LOVE DIVE', 'After LIKE', 'I AM' 등이 큰 인기를 얻었어요.",
+        "tip": "I HAVE → IVE, '내가 가진 것을 보여 주겠다'는 뜻",
+        "bonus": "멤버 장원영의 긍정적인 사고방식을 따서 '원영적 사고'라는 유행어가 생겼어요."
+      }
+    },
+    {
+      "id": "celeb-0011", "difficulty": "normal", "answer": "이정재",
+      "questions": [
+        { "mode": "mcq", "prompt": "'오징어 게임'으로 2022년 미국 에미상 드라마 부문 남우주연상을 받은 배우는?", "choices": ["이정재", "박해수", "정호연", "오영수"] }
+      ],
+      "explanation": {
+        "meaning": "이정재는 '오징어 게임'의 주인공 성기훈(456번) 역으로 아시아 배우 최초로 에미상 드라마 부문 남우주연상을 받았어요.",
+        "tip": "456번 참가자 = 이정재",
+        "bonus": "같은 시상식에서 황동혁 감독이 감독상을 받았어요."
+      }
+    },
+    {
+      "id": "celeb-0012", "difficulty": "normal", "answer": "윤여정",
+      "questions": [
+        { "mode": "mcq", "prompt": "영화 '미나리'로 2021년 아카데미(오스카) 여우조연상을 받은 배우는?", "choices": ["윤여정", "김혜자", "나문희", "전도연"] }
+      ],
+      "explanation": {
+        "meaning": "윤여정은 '미나리'에서 할머니 순자 역을 맡아 한국 배우 최초로 아카데미 연기상을 받았어요.",
+        "tip": "미나리 = 윤여정 = 오스카",
+        "bonus": "전도연은 2007년 '밀양'으로 칸 영화제 여우주연상을 받았어요."
+      }
+    },
+    {
+      "id": "celeb-0013", "difficulty": "normal", "answer": "에스파", "aliases": ["aespa"],
+      "questions": [
+        { "mode": "mcq", "prompt": "'Next Level', 'Supernova'를 부른 SM엔터테인먼트 걸그룹은?", "choices": ["에스파", "레드벨벳", "소녀시대", "에프엑스"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "ae", "meaning": "Avatar X Experience" },
+          { "part": "aspect", "meaning": "양면, 측면" }
+        ],
+        "meaning": "에스파는 2020년 데뷔했고, 현실 멤버와 가상 세계 아바타가 함께한다는 '광야' 세계관으로 유명해요.",
+        "tip": "광야로 걸어가 = Next Level",
+        "bonus": "멤버는 카리나, 윈터, 지젤, 닝닝 4명이에요."
+      }
+    },
+    {
+      "id": "celeb-0014", "difficulty": "normal", "answer": "APT.",
+      "questions": [
+        { "mode": "mcq", "prompt": "블랙핑크 로제가 브루노 마스와 함께 부른 2024년 히트곡은?", "choices": ["APT.", "Die With A Smile", "Flower", "Seven"] }
+      ],
+      "explanation": {
+        "meaning": "'APT.'는 술자리 게임 '아파트'에서 모티브를 얻은 곡으로, 전 세계 차트에서 크게 히트했어요.",
+        "tip": "\"아파트 아파트~\"",
+        "bonus": "'Die With A Smile'은 브루노 마스가 레이디 가가와 부른 곡이고, 'Flower'는 지수, 'Seven'은 정국의 솔로곡이에요."
+      }
+    },
+    {
+      "id": "celeb-0015", "difficulty": "hard", "answer": "서태지와 아이들",
+      "questions": [
+        { "mode": "mcq", "prompt": "1992년 '난 알아요'로 데뷔해 가요계에 큰 충격을 준 그룹은?", "choices": ["서태지와 아이들", "듀스", "015B", "룰라"] }
+      ],
+      "explanation": {
+        "meaning": "서태지와 아이들은 랩과 댄스를 결합한 '난 알아요'로 데뷔해 한국 대중음악의 흐름을 바꿨다는 평가를 받아요.",
+        "tip": "'문화 대통령' 서태지",
+        "bonus": "멤버 양현석은 이후 YG엔터테인먼트를 세웠어요."
+      }
+    },
+    {
+      "id": "celeb-0016", "difficulty": "hard", "answer": "H.O.T.",
+      "questions": [
+        { "mode": "mcq", "prompt": "1996년 데뷔해 '캔디', '전사의 후예'를 부른 1세대 아이돌은?", "choices": ["H.O.T.", "젝스키스", "god", "신화"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "H.O.T.", "meaning": "High-five Of Teenagers" }],
+        "meaning": "H.O.T.는 SM엔터테인먼트가 내놓은 1세대 아이돌로, 흰 풍선을 든 팬덤 문화를 만들었어요.",
+        "tip": "흰 풍선 = H.O.T., 노란 풍선 = 젝스키스",
+        "bonus": "멤버 문희준, 강타, 토니안, 장우혁, 이재원 5명이에요."
+      }
+    },
+    {
+      "id": "celeb-0017", "difficulty": "hard", "answer": "김남준",
+      "questions": [
+        { "mode": "mcq", "prompt": "방탄소년단의 리더 RM의 본명은?", "choices": ["김남준", "김석진", "민윤기", "정호석"] }
+      ],
+      "explanation": {
+        "meaning": "RM의 본명은 김남준이에요. 김석진은 진, 민윤기는 슈가, 정호석은 제이홉의 본명이에요.",
+        "tip": "RM = Real Me, 데뷔 때는 'Rap Monster'",
+        "bonus": "2017년 활동명을 Rap Monster에서 RM으로 바꿨어요."
+      }
+    },
+    {
+      "id": "celeb-0018", "difficulty": "hard", "answer": "침착맨",
+      "questions": [
+        { "mode": "mcq", "prompt": "웹툰 작가 '이말년'으로 활동하다 인기 스트리머가 된 인물의 활동명은?", "choices": ["침착맨", "주호민", "기안84", "김풍"] }
+      ],
+      "explanation": {
+        "meaning": "『이말년 시리즈』를 그린 웹툰 작가 이말년(본명 이병건)은 스트리머 '침착맨'으로 활동하며 큰 인기를 얻었어요.",
+        "tip": "이말년 → 침착맨",
+        "bonus": "보기의 주호민(『신과 함께』), 기안84(『패션왕』), 김풍(『찌질의 역사』)도 모두 웹툰 작가 출신 방송인이에요."
+      }
+    },
+    {
+      "id": "celeb-0019", "difficulty": "hard", "answer": "송강호",
+      "questions": [
+        { "mode": "mcq", "prompt": "영화 '브로커'로 2022년 칸 영화제 남우주연상을 받은 한국 배우는?", "choices": ["송강호", "최민식", "설경구", "이병헌"] }
+      ],
+      "explanation": {
+        "meaning": "송강호는 일본 고레에다 히로카즈 감독의 '브로커'로 한국 남자 배우 최초 칸 영화제 남우주연상을 받았어요.",
+        "tip": "기생충의 기택 아빠 = 송강호",
+        "bonus": "같은 해 박찬욱 감독은 '헤어질 결심'으로 칸 감독상을 받았어요."
+      }
+    },
+    {
+      "id": "celeb-0020", "difficulty": "hard", "answer": "핑클", "aliases": ["Fin.K.L"],
+      "questions": [
+        { "mode": "mcq", "prompt": "이효리가 솔로 데뷔 전 활동한 1세대 걸그룹은?", "choices": ["핑클", "S.E.S.", "베이비복스", "쥬얼리"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "Fin.K.L", "meaning": "Fine Killing Liberty, '핀클'이 아닌 '핑클'로 읽음" }],
+        "meaning": "핑클은 1998년 데뷔한 4인조 걸그룹으로 '영원한 사랑', '나우' 등을 불렀어요. 이효리, 옥주현, 이진, 성유리가 멤버예요.",
+        "tip": "1세대 걸그룹 라이벌 = S.E.S. vs 핑클",
+        "bonus": "이효리는 2003년 솔로 앨범 '10 Minutes'로 큰 인기를 끌었어요."
+      }
+    }
+  ]
+}

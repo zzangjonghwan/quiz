@@ -1,0 +1,257 @@
+{
+  "category": "loanword",
+  "version": 1,
+  "cards": [
+    {
+      "id": "loanword-0001", "difficulty": "easy", "answer": "cell phone",
+      "questions": [
+        { "mode": "mcq", "prompt": "미국에서 휴대폰을 주로 부르는 말은?", "choices": ["cell phone", "hand phone", "smart hand", "pocket call"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "cell", "meaning": "셀(통신 기지국이 담당하는 구역)" }],
+        "meaning": "미국에서는 cell phone, 영국에서는 mobile phone이라고 주로 불러요. 요즘은 그냥 phone이라고도 해요.",
+        "tip": "기지국 구역(cell)을 옮겨 다니며 쓰는 전화 = cell phone",
+        "bonus": "'핸드폰'은 한국식 표현이에요. 싱가포르, 말레이시아 등 일부 아시아 지역에서는 handphone도 써요."
+      }
+    },
+    {
+      "id": "loanword-0002", "difficulty": "easy", "answer": "window shopping",
+      "questions": [
+        { "mode": "mcq", "prompt": "물건은 사지 않고 구경만 하는 '아이쇼핑'의 바른 영어 표현은?", "choices": ["window shopping", "eye shopping", "look shopping", "see shopping"] }
+      ],
+      "explanation": {
+        "meaning": "가게 진열창(window)만 들여다본다는 뜻으로 window shopping이라고 해요. eye shopping은 콩글리시예요.",
+        "tip": "진열장 유리창(window) 너머로 구경"
+      }
+    },
+    {
+      "id": "loanword-0003", "difficulty": "easy", "answer": "You can do it!",
+      "questions": [
+        { "mode": "mcq", "prompt": "'파이팅!'처럼 응원할 때 영어권에서 자연스러운 말은?", "choices": ["You can do it!", "Fighting!", "Power up hand!", "Win fight!"] }
+      ],
+      "explanation": {
+        "meaning": "영어로 fighting은 '싸움'이라는 뜻이라 응원으로는 어색해요. You can do it!, Go for it!, Good luck! 등을 써요.",
+        "tip": "Fighting = 싸우는 중, 응원은 You can do it!",
+        "bonus": "다만 K-콘텐츠 덕분에 'Fighting'이 한국식 응원 표현으로 영어 사전에 오르기도 했어요."
+      }
+    },
+    {
+      "id": "loanword-0004", "difficulty": "easy", "answer": "laptop",
+      "questions": [
+        { "mode": "mcq", "prompt": "영어권에서 휴대용 컴퓨터 '노트북'을 부르는 일반적인 말은?", "choices": ["laptop", "notebook", "deskbook", "padtop"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "lap", "meaning": "무릎" },
+          { "part": "top", "meaning": "위" }
+        ],
+        "literal": "무릎 위에 올려놓고 쓰는 것",
+        "meaning": "영어로 notebook은 보통 '공책'을 뜻해요. 휴대용 컴퓨터는 laptop이라고 해요.",
+        "tip": "랩(lap, 무릎) + 톱(top, 위) = 무릎 위 컴퓨터",
+        "bonus": "책상 위에 두고 쓰는 컴퓨터는 desktop, 책상(desk) + 위(top)예요."
+      }
+    },
+    {
+      "id": "loanword-0005", "difficulty": "easy", "answer": "selfie",
+      "questions": [
+        { "mode": "mcq", "prompt": "'셀카'를 영어권에서 부르는 말은?", "choices": ["selfie", "self camera", "my shot", "self pic cam"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "셀", "origin": "self", "meaning": "자기 자신" },
+          { "part": "카", "origin": "camera", "meaning": "카메라" }
+        ],
+        "meaning": "셀카는 '셀프 카메라'를 줄인 한국식 표현이고, 영어로는 selfie라고 해요.",
+        "tip": "self + ie = selfie",
+        "bonus": "selfie는 2013년 옥스퍼드 사전이 뽑은 '올해의 단어'였어요."
+      }
+    },
+    {
+      "id": "loanword-0006", "difficulty": "easy", "answer": "Bottoms up",
+      "questions": [
+        { "mode": "mcq", "prompt": "술자리 '원샷!'에 해당하는 영어 표현은?", "choices": ["Bottoms up!", "One shot!", "Glass empty!", "Drink one!"] }
+      ],
+      "explanation": {
+        "meaning": "잔의 바닥(bottom)이 위로 보이게 다 마시자는 뜻으로 Bottoms up!이라고 해요. one shot은 '한 번의 기회'라는 뜻이에요.",
+        "tip": "잔 바닥이 하늘을 볼 때까지 = Bottoms up",
+        "bonus": "건배는 Cheers!라고 해요."
+      }
+    },
+    {
+      "id": "loanword-0007", "difficulty": "easy", "answer": "convertible",
+      "questions": [
+        { "mode": "mcq", "prompt": "지붕을 열 수 있는 자동차 '오픈카'의 영어 표현은?", "choices": ["convertible", "open car", "sky car", "roofless"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "convert", "meaning": "바꾸다, 변환하다" }],
+        "meaning": "지붕을 닫았다 열었다 형태를 바꿀 수 있어서 convertible이라고 해요.",
+        "tip": "모양이 변신(convert)하는 차"
+      }
+    },
+    {
+      "id": "loanword-0008", "difficulty": "normal", "answer": "social media",
+      "questions": [
+        { "mode": "mcq", "prompt": "한국에서 'SNS'라고 부르는 것을 영어권에서 주로 부르는 말은?", "choices": ["social media", "SNS", "net community", "online talk"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "SNS", "meaning": "Social Network Service의 약자" }],
+        "meaning": "SNS는 한국·일본에서 주로 쓰는 말이고, 영어권에서는 social media라고 해요.",
+        "tip": "\"Are you on social media?\" (SNS 해?)"
+      }
+    },
+    {
+      "id": "loanword-0009", "difficulty": "normal", "answer": "physical affection",
+      "questions": [
+        { "mode": "mcq", "prompt": "'스킨십'에 대한 설명으로 알맞은 것은?", "choices": ["영어권에서는 거의 쓰지 않는 말이다", "영어권에서 매우 흔한 말이다", "프랑스어에서 온 말이다", "의학 용어에서 온 말이다"] }
+      ],
+      "explanation": {
+        "meaning": "skinship은 일본에서 만들어진 영어식 표현으로, 영어권에서는 거의 쓰지 않아요. 대신 physical affection, physical touch 등으로 말해요.",
+        "tip": "skin + ship(friendship에서) = 일본산 영어",
+        "bonus": "이렇게 영어처럼 보이지만 일본에서 만든 말을 '재플리시', 한국에서 만든 말을 '콩글리시'라고 해요."
+      }
+    },
+    {
+      "id": "loanword-0010", "difficulty": "normal", "answer": "독일어",
+      "questions": [
+        { "mode": "mcq", "prompt": "'아르바이트'는 어느 나라 말에서 왔을까?", "choices": ["독일어", "프랑스어", "영어", "네덜란드어"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "Arbeit", "meaning": "독일어로 '일, 노동'" }],
+        "meaning": "독일어 Arbeit(일, 노동)에서 왔어요. 일본을 거쳐 들어오며 '부업, 임시 일'이라는 뜻이 됐어요.",
+        "tip": "독일어로는 그냥 '일'. 정규직도 Arbeit",
+        "bonus": "영어로 아르바이트는 part-time job이라고 해요."
+      }
+    },
+    {
+      "id": "loanword-0011", "difficulty": "normal", "answer": "포르투갈어",
+      "questions": [
+        { "mode": "mcq", "prompt": "'빵'은 어느 나라 말에서 왔을까?", "choices": ["포르투갈어", "영어", "중국어", "독일어"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "pão", "meaning": "포르투갈어로 '빵'" }],
+        "meaning": "16세기 일본에 온 포르투갈 상인들의 말 pão가 일본어 '판(パン)'이 되었고, 이것이 우리말 '빵'이 되었어요.",
+        "tip": "포르투갈 pão → 일본 pan → 한국 빵"
+      }
+    },
+    {
+      "id": "loanword-0012", "difficulty": "normal", "answer": "재생, 부활",
+      "questions": [
+        { "mode": "mcq", "prompt": "'르네상스(Renaissance)'의 원래 뜻은?", "choices": ["재생, 부활", "예술, 문화", "혁명, 변화", "황금, 번영"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "re", "meaning": "다시" },
+          { "part": "naissance", "meaning": "탄생 (프랑스어)" }
+        ],
+        "literal": "다시 태어남",
+        "meaning": "14~16세기 유럽에서 고대 그리스·로마 문화를 되살리려 한 문예 부흥 운동을 말해요.",
+        "tip": "르(re, 다시) + 네상스(탄생) = 다시 태어남",
+        "bonus": "요즘은 어떤 분야가 다시 전성기를 맞을 때도 '르네상스'라고 해요."
+      }
+    },
+    {
+      "id": "loanword-0013", "difficulty": "normal", "answer": "다시 한 번",
+      "questions": [
+        { "mode": "mcq", "prompt": "공연이 끝나고 외치는 '앙코르(encore)'의 원래 뜻은?", "choices": ["다시, 한 번 더", "최고다", "감사합니다", "끝났다"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "encore", "meaning": "프랑스어로 '다시, 또'" }],
+        "meaning": "프랑스어로 '다시, 또'라는 뜻이에요. 공연을 한 번 더 해 달라고 청할 때 써요.",
+        "tip": "앙코르 = 한 번 더 (One more!)",
+        "bonus": "정작 프랑스에서는 공연 앙코르를 청할 때 bis(비스)라고 외치는 경우가 많아요."
+      }
+    },
+    {
+      "id": "loanword-0014", "difficulty": "normal", "answer": "프랑스어",
+      "questions": [
+        { "mode": "mcq", "prompt": "여름휴가를 뜻하는 '바캉스'는 어느 나라 말일까?", "choices": ["프랑스어", "이탈리아어", "스페인어", "영어"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "vacances", "meaning": "프랑스어로 '휴가'" }],
+        "meaning": "프랑스어 vacances(휴가)에서 왔어요. 뿌리는 '비우다'라는 뜻의 라틴어 vacare예요.",
+        "tip": "일정을 비우다(vacant) = 바캉스",
+        "bonus": "영어 vacation, vacant(비어 있는)도 같은 뿌리예요."
+      }
+    },
+    {
+      "id": "loanword-0015", "difficulty": "hard", "answer": "이미 본",
+      "questions": [
+        { "mode": "mcq", "prompt": "처음 겪는 일인데 전에 겪은 것처럼 느껴지는 '데자뷔(déjà vu)'의 원래 뜻은?", "choices": ["이미 본", "꿈에서 본", "다시 본", "잘못 본"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "déjà", "meaning": "이미 (프랑스어)" },
+          { "part": "vu", "meaning": "본" }
+        ],
+        "literal": "이미 본 것",
+        "meaning": "처음 보는 장면이나 처음 겪는 일인데 이미 경험한 것처럼 느끼는 현상이에요.",
+        "tip": "데자(이미) + 뷔(봄)",
+        "bonus": "반대로 익숙한 것이 낯설게 느껴지는 현상은 '자메뷔(jamais vu, 한 번도 못 본)'라고 해요."
+      }
+    },
+    {
+      "id": "loanword-0016", "difficulty": "hard", "answer": "독일어",
+      "questions": [
+        { "mode": "mcq", "prompt": "'알레르기'라는 말은 어느 나라 말에서 들어왔을까?", "choices": ["독일어", "영어", "일본어", "라틴어"] }
+      ],
+      "explanation": {
+        "breakdown": [
+          { "part": "allos", "meaning": "다른 (그리스어)" },
+          { "part": "ergon", "meaning": "작용 (그리스어)" }
+        ],
+        "literal": "다르게 작용함",
+        "meaning": "독일어 Allergie에서 들어온 말이에요. 몸이 특정 물질에 보통과 다르게 과민 반응하는 것을 뜻해요.",
+        "tip": "영어식이면 '앨러지', 독일어식이 '알레르기'",
+        "bonus": "Allergie는 그리스어를 조합해 20세기 초 오스트리아 의사가 만든 의학 용어예요."
+      }
+    },
+    {
+      "id": "loanword-0017", "difficulty": "hard", "answer": "꼬리표, 표찰",
+      "questions": [
+        { "mode": "mcq", "prompt": "예의범절을 뜻하는 '에티켓(étiquette)'의 원래 뜻은?", "choices": ["꼬리표, 표찰", "궁전, 왕실", "인사, 절", "식사, 만찬"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "étiquette", "meaning": "프랑스어로 '꼬리표, 표찰, 라벨'" }],
+        "meaning": "프랑스어로 원래 '표찰, 꼬리표'라는 뜻이에요. 궁정에서 지켜야 할 규칙을 적은 표지에서 '예절'이라는 뜻이 생겼다는 설이 있어요.",
+        "tip": "규칙이 적힌 표찰 → 지켜야 할 예절",
+        "bonus": "영어로 상품에 붙은 라벨을 뜻하는 ticket도 같은 뿌리예요."
+      }
+    },
+    {
+      "id": "loanword-0018", "difficulty": "hard", "answer": "소금",
+      "questions": [
+        { "mode": "mcq", "prompt": "월급을 뜻하는 영어 'salary'의 어원과 관련 있는 것은?", "choices": ["소금", "금화", "밀가루", "가죽"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "sal", "meaning": "라틴어로 '소금'" }],
+        "meaning": "라틴어 salarium에서 왔고, 그 뿌리는 소금을 뜻하는 sal이에요. 로마 병사에게 소금을 사라고 주던 돈에서 나왔다는 설이 유명하지만, 정확한 유래는 논란이 있어요.",
+        "tip": "salt(소금) ≈ salary(월급)",
+        "bonus": "'샐러리맨'은 일본에서 만든 영어 표현이고, 영어권에서는 office worker라고 해요."
+      }
+    },
+    {
+      "id": "loanword-0019", "difficulty": "hard", "answer": "상처",
+      "questions": [
+        { "mode": "mcq", "prompt": "'트라우마(trauma)'의 그리스어 원래 뜻은?", "choices": ["상처", "꿈", "기억", "두려움"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "trauma", "meaning": "그리스어로 '상처'" }],
+        "meaning": "원래 몸의 상처를 뜻했고, 지금은 충격적인 경험이 남긴 마음의 상처라는 뜻으로 주로 써요.",
+        "tip": "몸의 상처 → 마음의 상처",
+        "bonus": "병원의 '외상 센터'를 영어로 trauma center라고 해요. 여기선 원래 뜻 그대로예요."
+      }
+    },
+    {
+      "id": "loanword-0020", "difficulty": "hard", "answer": "조사",
+      "questions": [
+        { "mode": "mcq", "prompt": "설문 조사를 뜻하는 '앙케트(enquête)'는 어느 나라 말일까?", "choices": ["프랑스어", "독일어", "영어", "러시아어"] }
+      ],
+      "explanation": {
+        "breakdown": [{ "part": "enquête", "meaning": "프랑스어로 '조사'" }],
+        "meaning": "프랑스어 enquête(조사)에서 왔어요. 여러 사람에게 같은 질문을 해서 의견을 모으는 설문 조사를 말해요.",
+        "tip": "영어 inquiry(문의, 조사)와 같은 뿌리",
+        "bonus": "영어권에서는 설문 조사를 survey나 questionnaire라고 해요."
+      }
+    }
+  ]
+}
