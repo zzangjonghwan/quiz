@@ -26,7 +26,7 @@ const AUDIO = join(OUT, 'audio')
  */
 const VOICES = {
   arin: { name: 'Aoede', model: 'gemini-3.8-flash-tts' },
-  moa: { name: 'Leda', model: 'gemini-3.8-flash-tts' },
+  moa: { name: 'Leda', model: 'gemini-3.8-flash-lite-tts' },
 }
 /** Listens to a finished take and reports where each paragraph starts (see align()). */
 const ALIGN_MODEL = 'gemini-3.6-flash'
