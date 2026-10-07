@@ -1,0 +1,1084 @@
+{
+  "category": "celeb",
+  "version": 1,
+  "cards": [
+    {
+      "id": "celeb-m001",
+      "difficulty": "easy",
+      "answer": "7명",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "방탄소년단(BTS)의 멤버는 몇 명일까?",
+          "choices": [
+            "7명",
+            "5명",
+            "6명",
+            "9명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "RM, 진, 슈가, 제이홉, 지민, 뷔, 정국 7명이에요.",
+        "tip": "7명이라 앨범 이름에도 7이 자주 등장"
+      }
+    },
+    {
+      "id": "celeb-m002",
+      "difficulty": "easy",
+      "answer": "Like OOH-AHH",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "트와이스(TWICE)의 데뷔곡은?",
+          "choices": [
+            "Like OOH-AHH",
+            "CHEER UP",
+            "TT",
+            "FANCY"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "트와이스는 JYP 오디션 프로그램 「식스틴」을 거쳐 2015년 「Like OOH-AHH(우아하게)」로 데뷔했어요.",
+        "tip": "\"OOH-AHH하게\""
+      }
+    },
+    {
+      "id": "celeb-m003",
+      "difficulty": "easy",
+      "answer": "다시 만난 세계",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "소녀시대의 데뷔곡으로, 지금도 응원가로 불리는 노래는?",
+          "choices": [
+            "다시 만난 세계",
+            "Gee",
+            "소원을 말해봐",
+            "Into the New World 2"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2007년 데뷔곡 「다시 만난 세계」는 지금도 집회나 응원에서 함께 부르는 노래가 되었어요.",
+        "tip": "다만세"
+      }
+    },
+    {
+      "id": "celeb-m004",
+      "difficulty": "easy",
+      "answer": "지드래곤",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "빅뱅의 리더로 '패션 아이콘'으로도 유명한 가수는?",
+          "choices": [
+            "지드래곤",
+            "태양",
+            "탑",
+            "대성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지드래곤(권지용)은 빅뱅의 리더이자 프로듀서로 「거짓말」, 「하루하루」 등을 작곡했어요.",
+        "tip": "GD = 권지용"
+      }
+    },
+    {
+      "id": "celeb-m005",
+      "difficulty": "easy",
+      "answer": "태연",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "소녀시대의 리더이자 메인 보컬로, 솔로곡 「I」로도 인기를 얻은 가수는?",
+          "choices": [
+            "태연",
+            "윤아",
+            "티파니",
+            "써니"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태연은 소녀시대 리더이자 솔로 가수로 많은 히트곡을 냈어요.",
+        "tip": "탱구 = 태연"
+      }
+    },
+    {
+      "id": "celeb-m006",
+      "difficulty": "easy",
+      "answer": "정지훈",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "가수 비의 본명은?",
+          "choices": [
+            "정지훈",
+            "김지훈",
+            "정지환",
+            "박지훈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "비(Rain)는 2000년대 「나쁜 남자」, 「태양을 피하는 방법」 등으로 인기를 끌었고, 할리우드 영화에도 출연했어요.",
+        "tip": "Rain = 비 = 정지훈"
+      }
+    },
+    {
+      "id": "celeb-m007",
+      "difficulty": "easy",
+      "answer": "공유",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「도깨비」에서 939살 도깨비 김신을 연기한 배우는?",
+          "choices": [
+            "공유",
+            "이동욱",
+            "현빈",
+            "송중기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공유는 2016년 「쓸쓸하고 찬란하神 - 도깨비」에서 김신 역을 맡았어요. 영화 「부산행」의 주인공이기도 해요.",
+        "tip": "도깨비 + 부산행 = 공유"
+      }
+    },
+    {
+      "id": "celeb-m008",
+      "difficulty": "easy",
+      "answer": "현빈",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「사랑의 불시착」에서 북한 장교 리정혁을 연기한 배우는?",
+          "choices": [
+            "현빈",
+            "공유",
+            "박서준",
+            "이민호"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "현빈은 이 드라마에서 함께 출연한 손예진과 2022년 결혼했어요.",
+        "tip": "리정혁 = 현빈"
+      }
+    },
+    {
+      "id": "celeb-m009",
+      "difficulty": "easy",
+      "answer": "송중기",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「태양의 후예」에서 특전사 대위 유시진을 연기한 배우는?",
+          "choices": [
+            "송중기",
+            "송강",
+            "박보검",
+            "김수현"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2016년 방영된 「태양의 후예」는 아시아 전역에서 큰 인기를 끌었어요.",
+        "tip": "\"그 어려운 걸 자꾸 해냅니다\""
+      }
+    },
+    {
+      "id": "celeb-m010",
+      "difficulty": "easy",
+      "answer": "김수현",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「별에서 온 그대」에서 외계인 도민준을 연기한 배우는?",
+          "choices": [
+            "김수현",
+            "이민호",
+            "이종석",
+            "박서준"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2013~2014년 방영된 이 드라마는 중국에서 '치맥' 열풍을 일으켰어요.",
+        "tip": "별그대 = 도민준 = 김수현"
+      }
+    },
+    {
+      "id": "celeb-m011",
+      "difficulty": "easy",
+      "answer": "배용준",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「겨울연가」로 일본에서 '욘사마' 열풍을 일으킨 배우는?",
+          "choices": [
+            "배용준",
+            "권상우",
+            "원빈",
+            "장동건"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2002년 「겨울연가」가 일본에서 방영되며 한류 붐의 시작이 되었어요.",
+        "tip": "욘사마 = 배용준"
+      }
+    },
+    {
+      "id": "celeb-m012",
+      "difficulty": "easy",
+      "answer": "이영애",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「대장금」에서 서장금 역을 맡은 배우는?",
+          "choices": [
+            "이영애",
+            "김희선",
+            "송혜교",
+            "전지현"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2003년 「대장금」은 세계 여러 나라에 수출되며 한류를 이끈 대표작이 되었어요.",
+        "tip": "\"홍시 맛이 나서 홍시라 생각한 것이온데\""
+      }
+    },
+    {
+      "id": "celeb-m013",
+      "difficulty": "easy",
+      "answer": "박진영",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "JYP엔터테인먼트를 세운 가수 겸 프로듀서는?",
+          "choices": [
+            "박진영",
+            "양현석",
+            "이수만",
+            "방시혁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "JYP는 박진영의 영문 이름 이니셜(Jin Young Park)이에요. 원더걸스, 트와이스 등을 키웠어요.",
+        "tip": "JYP = 박진영"
+      }
+    },
+    {
+      "id": "celeb-m014",
+      "difficulty": "easy",
+      "answer": "내일은 미스트롯",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "송가인이 1위(진)를 차지해 트로트 열풍을 일으킨 2019년 오디션 프로그램은?",
+          "choices": [
+            "내일은 미스트롯",
+            "내일은 미스터트롯",
+            "보이스 코리아",
+            "불후의 명곡"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2019년 TV조선 「미스트롯」 우승 이후 송가인은 트로트 붐을 일으켰어요. 이듬해 「미스터트롯」에서는 임영웅이 우승했어요.",
+        "tip": "미스트롯 = 송가인, 미스터트롯 = 임영웅"
+      }
+    },
+    {
+      "id": "celeb-m015",
+      "difficulty": "easy",
+      "answer": "조용필",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'가왕'으로 불리며 「돌아와요 부산항에」, 「Bounce」 등을 부른 가수는?",
+          "choices": [
+            "조용필",
+            "나훈아",
+            "이문세",
+            "신승훈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "조용필은 1970년대부터 지금까지 활동하며 '가왕(노래의 왕)'이라 불려요.",
+        "tip": "가왕 = 조용필"
+      }
+    },
+    {
+      "id": "celeb-m016",
+      "difficulty": "easy",
+      "answer": "박보검",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「응답하라 1988」에서 천재 바둑 기사 최택을 연기한 배우는?",
+          "choices": [
+            "박보검",
+            "류준열",
+            "안재홍",
+            "이동휘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "극 중 최택은 쌍문동 골목의 바둑 천재로, 덕선이의 남편이 되었어요.",
+        "tip": "택이 = 박보검"
+      }
+    },
+    {
+      "id": "celeb-m017",
+      "difficulty": "normal",
+      "answer": "지민",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2023년 「Like Crazy」로 한국 솔로 가수 최초 빌보드 핫 100 1위에 오른 BTS 멤버는?",
+          "choices": [
+            "지민",
+            "정국",
+            "뷔",
+            "RM"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지민의 솔로곡 「Like Crazy」가 2023년 4월 빌보드 핫 100 1위에 올랐어요. 같은 해 정국의 「Seven」도 1위를 했어요.",
+        "tip": "솔로 핫 100 1위: 지민(Like Crazy) → 정국(Seven)"
+      }
+    },
+    {
+      "id": "celeb-m018",
+      "difficulty": "normal",
+      "answer": "리사",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "블랙핑크 멤버 중 태국 출신은?",
+          "choices": [
+            "리사",
+            "로제",
+            "지수",
+            "제니"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "리사는 태국 출신으로 메인 댄서이자 래퍼예요. 로제는 뉴질랜드에서 태어나 호주에서 자랐어요.",
+        "tip": "리사 = 태국, 로제 = 호주"
+      }
+    },
+    {
+      "id": "celeb-m019",
+      "difficulty": "normal",
+      "answer": "쯔위",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "트와이스 멤버 중 대만 출신은?",
+          "choices": [
+            "쯔위",
+            "사나",
+            "모모",
+            "미나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "트와이스는 한국인 5명, 일본인 3명(모모·사나·미나), 대만인 1명(쯔위)으로 이루어져 있어요.",
+        "tip": "일본 3인방 = 모사미"
+      }
+    },
+    {
+      "id": "celeb-m020",
+      "difficulty": "normal",
+      "answer": "원더걸스",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2009년 「Nobody」로 한국 가수 최초로 미국 빌보드 핫 100 차트에 이름을 올린 그룹은?",
+          "choices": [
+            "원더걸스",
+            "소녀시대",
+            "카라",
+            "2NE1"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원더걸스의 「Nobody」 영어 버전이 빌보드 핫 100 76위에 올랐어요. 데뷔 히트곡은 「Tell Me」예요.",
+        "tip": "Tell me, Nobody = 원더걸스"
+      }
+    },
+    {
+      "id": "celeb-m021",
+      "difficulty": "normal",
+      "answer": "보아",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2002년 일본 오리콘 앨범 차트 1위에 오른 첫 한국 가수는?",
+          "choices": [
+            "보아",
+            "비",
+            "동방신기",
+            "세븐"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "보아는 일본 첫 정규 앨범 『LISTEN TO MY HEART』로 오리콘 1위를 차지하며 '아시아의 별'로 불렸어요.",
+        "tip": "BoA = 아시아의 별"
+      }
+    },
+    {
+      "id": "celeb-m022",
+      "difficulty": "normal",
+      "answer": "동방신기",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「주문(MIROTIC)」, 「풍선」으로 유명한 SM엔터테인먼트의 2세대 아이돌 그룹은?",
+          "choices": [
+            "동방신기",
+            "슈퍼주니어",
+            "샤이니",
+            "빅뱅"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "동방신기는 2004년 데뷔해 한국과 일본에서 큰 인기를 끌었어요.",
+        "tip": "TVXQ = 동방신기"
+      }
+    },
+    {
+      "id": "celeb-m023",
+      "difficulty": "normal",
+      "answer": "레드벨벳",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「빨간 맛」, 「Psycho」를 부른 SM엔터테인먼트 걸그룹은?",
+          "choices": [
+            "레드벨벳",
+            "에스파",
+            "에프엑스",
+            "소녀시대"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "레드벨벳은 밝은 '레드'와 부드러운 '벨벳' 두 가지 콘셉트를 오가는 그룹이에요.",
+        "tip": "빨간 맛 = 레드벨벳"
+      }
+    },
+    {
+      "id": "celeb-m024",
+      "difficulty": "normal",
+      "answer": "르세라핌",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "그룹 이름이 'I'm fearless'의 철자를 바꿔 만든 걸그룹은?",
+          "choices": [
+            "르세라핌",
+            "아이브",
+            "에스파",
+            "케플러"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "르세라핌(LE SSERAFIM)은 I'M FEARLESS의 알파벳을 재배열한 이름으로, 2022년 「FEARLESS」로 데뷔했어요.",
+        "tip": "애너그램 그룹명"
+      }
+    },
+    {
+      "id": "celeb-m025",
+      "difficulty": "normal",
+      "answer": "악뮤",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이찬혁·이수현 남매로 이루어진 듀오는?",
+          "choices": [
+            "악뮤",
+            "볼빨간사춘기",
+            "10cm",
+            "멜로망스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "악뮤(AKMU, 악동뮤지션)는 「K팝스타 2」 우승 후 「200%」, 「어떻게 이별까지 사랑하겠어, 널 사랑하는 거지」 등을 냈어요.",
+        "tip": "남매 듀오 = 악뮤"
+      }
+    },
+    {
+      "id": "celeb-m026",
+      "difficulty": "normal",
+      "answer": "이선희",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1984년 강변가요제 대상곡 「J에게」를 부른 가수는?",
+          "choices": [
+            "이선희",
+            "이은미",
+            "인순이",
+            "양희은"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이선희는 「J에게」로 데뷔해 「인연」, 「아름다운 강산」 등 많은 명곡을 남겼어요.",
+        "tip": "\"J 스치는 바람에\""
+      }
+    },
+    {
+      "id": "celeb-m027",
+      "difficulty": "normal",
+      "answer": "김광석",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「서른 즈음에」, 「이등병의 편지」를 부른 가수는?",
+          "choices": [
+            "김광석",
+            "유재하",
+            "신해철",
+            "김현식"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김광석은 통기타와 진솔한 가사로 사랑받았고, 지금도 '김광석 거리'(대구)에서 기억되고 있어요.",
+        "tip": "서른 즈음에 = 김광석"
+      }
+    },
+    {
+      "id": "celeb-m028",
+      "difficulty": "normal",
+      "answer": "이수만",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "SM엔터테인먼트를 세운 인물은?",
+          "choices": [
+            "이수만",
+            "박진영",
+            "양현석",
+            "방시혁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가수 출신 이수만은 1995년 SM기획을 세워 H.O.T., S.E.S., 동방신기 등을 키웠어요.",
+        "tip": "SM = 이수만"
+      }
+    },
+    {
+      "id": "celeb-m029",
+      "difficulty": "normal",
+      "answer": "방시혁",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "방탄소년단이 속한 하이브(옛 빅히트)를 세운 프로듀서는?",
+          "choices": [
+            "방시혁",
+            "박진영",
+            "이수만",
+            "민희진"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "방시혁은 JYP에서 작곡가로 활동하다 2005년 빅히트엔터테인먼트를 세웠어요.",
+        "tip": "하이브 = 방시혁"
+      }
+    },
+    {
+      "id": "celeb-m030",
+      "difficulty": "normal",
+      "answer": "나영석",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「1박 2일」, 「꽃보다 할배」, 「삼시세끼」를 만든 예능 PD는?",
+          "choices": [
+            "나영석",
+            "김태호",
+            "신원호",
+            "유호진"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나영석 PD는 여행·먹방 리얼리티 예능의 흐름을 만들었다는 평가를 받아요.",
+        "tip": "나PD = 여행 예능"
+      }
+    },
+    {
+      "id": "celeb-m031",
+      "difficulty": "normal",
+      "answer": "강호동",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "씨름 천하장사 출신으로 「1박 2일」, 「아는 형님」을 진행한 방송인은?",
+          "choices": [
+            "강호동",
+            "이만기",
+            "김종국",
+            "서장훈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "강호동은 고등학생 때 씨름 선수로 천하장사에 오른 뒤 방송인이 되었어요.",
+        "tip": "씨름 천하장사 → 국민 MC"
+      }
+    },
+    {
+      "id": "celeb-m032",
+      "difficulty": "normal",
+      "answer": "류승룡",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「극한직업」에서 \"지금까지 이런 맛은 없었다\"라는 대사를 한 배우는?",
+          "choices": [
+            "류승룡",
+            "진선규",
+            "이하늬",
+            "이동휘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2019년 「극한직업」은 1,600만 명이 넘는 관객을 모았어요. 류승룡은 고 반장 역을 맡았어요.",
+        "tip": "\"이것은 갈비인가 통닭인가\""
+      }
+    },
+    {
+      "id": "celeb-m033",
+      "difficulty": "normal",
+      "answer": "최민식",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「올드보이」에서 15년간 갇혀 있던 오대수를 연기한 배우는?",
+          "choices": [
+            "최민식",
+            "송강호",
+            "설경구",
+            "유지태"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "박찬욱 감독의 「올드보이」(2003)는 칸 영화제 심사위원 대상을 받았어요.",
+        "tip": "군만두 15년 = 오대수"
+      }
+    },
+    {
+      "id": "celeb-m034",
+      "difficulty": "normal",
+      "answer": "박서준",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「이태원 클라쓰」에서 박새로이를 연기한 배우는?",
+          "choices": [
+            "박서준",
+            "박보검",
+            "안보현",
+            "남주혁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "웹툰 원작 드라마로, 박새로이는 밤톨머리로 화제가 되었어요.",
+        "tip": "밤톨머리 = 박새로이"
+      }
+    },
+    {
+      "id": "celeb-m035",
+      "difficulty": "normal",
+      "answer": "아이유",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「폭싹 속았수다」에서 제주 소녀 애순을 연기한 가수 겸 배우는?",
+          "choices": [
+            "아이유",
+            "수지",
+            "김태리",
+            "김유정"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2025년 공개된 넷플릭스 드라마로, 아이유와 박보검이 주연을 맡았어요. 제목은 제주말로 '수고 많으셨습니다'라는 뜻이에요.",
+        "tip": "폭싹 속았수다 = 수고 많으셨습니다"
+      }
+    },
+    {
+      "id": "celeb-m036",
+      "difficulty": "normal",
+      "answer": "이병헌",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「오징어 게임」에서 정체를 숨긴 '프론트맨'을 연기한 배우는?",
+          "choices": [
+            "이병헌",
+            "이정재",
+            "공유",
+            "위하준"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이병헌은 가면을 쓴 운영자 프론트맨 역을 맡았어요.",
+        "tip": "가면 속 얼굴 = 이병헌"
+      }
+    },
+    {
+      "id": "celeb-m037",
+      "difficulty": "normal",
+      "answer": "정호연",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「오징어 게임」에서 탈북민 새벽(67번)을 연기한 모델 출신 배우는?",
+          "choices": [
+            "정호연",
+            "김주령",
+            "이유미",
+            "정은채"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정호연은 이 역할로 연기 데뷔와 동시에 세계적인 주목을 받았어요.",
+        "tip": "67번 = 정호연"
+      }
+    },
+    {
+      "id": "celeb-m038",
+      "difficulty": "normal",
+      "answer": "소연",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "걸그룹 아이들((G)I-DLE)의 리더로 그룹의 곡을 직접 프로듀싱하는 멤버는?",
+          "choices": [
+            "소연",
+            "미연",
+            "민니",
+            "우기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "소연(전소연)은 「TOMBOY」, 「퀸카」 등 그룹의 히트곡을 작사·작곡했어요.",
+        "tip": "셀프 프로듀싱 리더"
+      }
+    },
+    {
+      "id": "celeb-m039",
+      "difficulty": "hard",
+      "answer": "으르렁",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "엑소(EXO)의 2013년 히트곡으로, 늑대 콘셉트 안무가 유명한 노래는?",
+          "choices": [
+            "으르렁",
+            "중독",
+            "Call Me Baby",
+            "Love Shot"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「으르렁」으로 엑소는 그해 각종 시상식 대상을 휩쓸었어요.",
+        "tip": "\"으르렁 으르렁 으르렁 대\""
+      }
+    },
+    {
+      "id": "celeb-m040",
+      "difficulty": "hard",
+      "answer": "거짓말",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "빅뱅의 2007년 히트곡으로, 그룹을 정상에 올려놓은 노래는?",
+          "choices": [
+            "거짓말",
+            "뱅뱅뱅",
+            "하루하루",
+            "판타스틱 베이비"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지드래곤이 작곡한 「거짓말」로 빅뱅은 2세대 아이돌의 대표 주자가 되었어요.",
+        "tip": "\"I'm so sorry but I love you\""
+      }
+    },
+    {
+      "id": "celeb-m041",
+      "difficulty": "hard",
+      "answer": "신해철",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1988년 대학가요제에서 그룹 '무한궤도'로 대상을 받은 가수는?",
+          "choices": [
+            "신해철",
+            "김광석",
+            "이승환",
+            "윤상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "신해철은 「그대에게」로 대상을 받았고, 이 곡은 지금도 응원가로 쓰여요. 이후 그룹 N.EX.T를 이끌었어요.",
+        "tip": "「그대에게」 = 신해철"
+      }
+    },
+    {
+      "id": "celeb-m042",
+      "difficulty": "hard",
+      "answer": "장윤정",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2004년 「어머나」로 신세대 트로트 열풍을 일으킨 가수는?",
+          "choices": [
+            "장윤정",
+            "송가인",
+            "홍진영",
+            "김연자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「어머나」는 원래 여러 가수가 거절한 곡이었지만 장윤정이 불러 국민 애창곡이 되었어요.",
+        "tip": "\"어머나 어머나 이러지 마세요\""
+      }
+    },
+    {
+      "id": "celeb-m043",
+      "difficulty": "hard",
+      "answer": "김태호",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'무한도전'을 연출해 예능 PD계의 스타가 된 인물은?",
+          "choices": [
+            "김태호",
+            "나영석",
+            "여운혁",
+            "신원호"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김태호 PD는 「무한도전」을 13년 동안 연출했어요.",
+        "tip": "무도 = 김태호 PD"
+      }
+    },
+    {
+      "id": "celeb-m044",
+      "difficulty": "hard",
+      "answer": "신원호",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「응답하라」 시리즈와 「슬기로운 의사생활」을 연출한 PD는?",
+          "choices": [
+            "신원호",
+            "나영석",
+            "김원석",
+            "이응복"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "신원호 PD는 이우정 작가와 함께 「응답하라 1997·1994·1988」과 「슬기로운 의사생활」을 만들었어요.",
+        "tip": "응답하라 + 슬의생 = 신원호"
+      }
+    },
+    {
+      "id": "celeb-m045",
+      "difficulty": "hard",
+      "answer": "최민식",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2024년 천만 관객을 넘긴 오컬트 영화 「파묘」에서 풍수사 김상덕을 연기한 배우는?",
+          "choices": [
+            "최민식",
+            "유해진",
+            "송강호",
+            "황정민"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「파묘」는 최민식, 김고은, 유해진, 이도현이 출연했고 천만 관객을 돌파했어요.",
+        "tip": "파묘 = 최민식·김고은·유해진·이도현"
+      }
+    },
+    {
+      "id": "celeb-m046",
+      "difficulty": "hard",
+      "answer": "베테랑",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "배우 황정민의 대표작으로, '아트박스 사장' 대사가 유명한 범죄 액션 영화는?",
+          "choices": [
+            "베테랑",
+            "신세계",
+            "국제시장",
+            "공작"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2015년 「베테랑」에서 황정민은 형사 서도철 역을 맡았어요.",
+        "tip": "\"어이가 없네\" = 베테랑 (유아인)"
+      }
+    },
+    {
+      "id": "celeb-m047",
+      "difficulty": "hard",
+      "answer": "전지현",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「엽기적인 그녀」(2001)의 여주인공을 맡은 배우는?",
+          "choices": [
+            "전지현",
+            "손예진",
+            "김태희",
+            "송혜교"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「엽기적인 그녀」는 아시아 전역에서 히트해 할리우드에서 리메이크되기도 했어요.",
+        "tip": "\"견우야, 미안해\""
+      }
+    },
+    {
+      "id": "celeb-m048",
+      "difficulty": "hard",
+      "answer": "2015년",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마마무의 히트곡 「음오아예」는 몇 년에 나왔을까?",
+          "choices": [
+            "2015년",
+            "2012년",
+            "2018년",
+            "2020년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「음오아예(Um Oh Ah Yeh)」는 마마무를 대중적으로 알린 곡이에요.",
+        "tip": "\"음 오 아 예\""
+      }
+    },
+    {
+      "id": "celeb-m049",
+      "difficulty": "hard",
+      "answer": "미아",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아이유가 15세에 데뷔한 곡은?",
+          "choices": [
+            "미아",
+            "좋은 날",
+            "잔소리",
+            "Boo"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아이유는 2008년 「미아」로 데뷔했고, 2010년 「좋은 날」로 큰 인기를 얻었어요.",
+        "tip": "데뷔곡 미아 → 대표곡 좋은 날"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1665 @@
+{
+  "category": "worldhistory",
+  "version": 1,
+  "cards": [
+    {
+      "id": "worldhistory-m001",
+      "difficulty": "easy",
+      "answer": "메소포타미아 문명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계 4대 문명 중 티그리스강과 유프라테스강 사이에서 일어난 문명은?",
+          "choices": [
+            "메소포타미아 문명",
+            "이집트 문명",
+            "인더스 문명",
+            "황허 문명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "메소포타미아는 그리스어로 '두 강 사이의 땅'이라는 뜻이에요. 지금의 이라크 지역이에요.",
+        "tip": "메소(사이) + 포타미아(강)"
+      }
+    },
+    {
+      "id": "worldhistory-m002",
+      "difficulty": "easy",
+      "answer": "함무라비 법전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "\"눈에는 눈, 이에는 이\"라는 원칙으로 유명한 고대 바빌로니아의 법전은?",
+          "choices": [
+            "함무라비 법전",
+            "12표법",
+            "마누 법전",
+            "유스티니아누스 법전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "기원전 18세기 바빌로니아 왕 함무라비가 만든 법전으로, 받은 피해만큼 되갚는 보복의 원칙이 담겨 있어요.",
+        "tip": "눈에는 눈 = 함무라비"
+      }
+    },
+    {
+      "id": "worldhistory-m003",
+      "difficulty": "easy",
+      "answer": "제우스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 그리스에서 처음 열린 올림픽은 누구를 기리는 제전이었을까?",
+          "choices": [
+            "제우스",
+            "아폴론",
+            "아테나",
+            "헤라클레스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "기원전 776년 올림피아에서 제우스를 기리는 제전으로 시작되었다고 해요.",
+        "tip": "올림피아 = 제우스 신전이 있던 곳"
+      }
+    },
+    {
+      "id": "worldhistory-m004",
+      "difficulty": "easy",
+      "answer": "콜로세움",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "로마의 원형 경기장으로, 검투사 경기가 열린 곳은?",
+          "choices": [
+            "콜로세움",
+            "판테온",
+            "파르테논",
+            "포룸"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서기 80년 무렵 완공된 콜로세움은 약 5만 명이 들어갈 수 있었어요.",
+        "tip": "파르테논은 그리스 아테네의 신전"
+      }
+    },
+    {
+      "id": "worldhistory-m005",
+      "difficulty": "easy",
+      "answer": "폼페이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "서기 79년 베수비오 화산 폭발로 화산재에 묻힌 고대 로마 도시는?",
+          "choices": [
+            "폼페이",
+            "카르타고",
+            "트로이",
+            "아테네"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "폼페이는 화산재에 덮여 당시 모습이 그대로 보존되었고, 18세기부터 발굴되었어요.",
+        "tip": "시간이 멈춘 도시"
+      }
+    },
+    {
+      "id": "worldhistory-m006",
+      "difficulty": "easy",
+      "answer": "실크로드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중국 한나라와 서역을 잇던 무역로로, 비단이 오가서 붙은 이름은?",
+          "choices": [
+            "실크로드",
+            "향신료 길",
+            "차마고도",
+            "호박의 길"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "비단, 종이, 향신료뿐 아니라 불교 같은 종교와 문화도 이 길을 따라 퍼졌어요.",
+        "tip": "silk = 비단"
+      }
+    },
+    {
+      "id": "worldhistory-m007",
+      "difficulty": "easy",
+      "answer": "로제타석",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이집트 상형 문자 해독의 열쇠가 된 비석은?",
+          "choices": [
+            "로제타석",
+            "함무라비 비석",
+            "광개토대왕릉비",
+            "메샤 비석"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "같은 내용이 상형 문자, 민중 문자, 그리스 문자로 새겨져 있어 1822년 샹폴리옹이 해독에 성공했어요.",
+        "tip": "\"로제타석 같은 존재\" = 해결의 실마리"
+      }
+    },
+    {
+      "id": "worldhistory-m008",
+      "difficulty": "normal",
+      "answer": "쐐기 문자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "수메르인이 갈대 펜으로 점토판에 새긴 문자는?",
+          "choices": [
+            "쐐기 문자",
+            "상형 문자",
+            "갑골 문자",
+            "알파벳"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "쐐기 모양으로 찍어 쓴 쐐기 문자는 인류 최초의 문자 중 하나로 꼽혀요.",
+        "tip": "쐐기 모양 = 메소포타미아"
+      }
+    },
+    {
+      "id": "worldhistory-m009",
+      "difficulty": "normal",
+      "answer": "갑골 문자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중국 상(은)나라에서 거북 등딱지와 짐승 뼈에 새긴 문자는?",
+          "choices": [
+            "갑골 문자",
+            "쐐기 문자",
+            "금문",
+            "전서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "갑골 문자는 점을 친 내용을 기록한 것으로, 한자의 기원이 되었어요.",
+        "tip": "갑(거북 등딱지) + 골(뼈)"
+      }
+    },
+    {
+      "id": "worldhistory-m010",
+      "difficulty": "normal",
+      "answer": "도편 추방제",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 아테네에서 독재자가 될 위험이 있는 사람의 이름을 도자기 조각에 써서 추방한 제도는?",
+          "choices": [
+            "도편 추방제",
+            "추첨제",
+            "원로원",
+            "민회 제도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "6,000표 이상 나온 사람을 10년간 추방했어요. 아테네 민주 정치의 특징이에요.",
+        "tip": "도편(陶片) = 도자기 조각"
+      }
+    },
+    {
+      "id": "worldhistory-m011",
+      "difficulty": "normal",
+      "answer": "스파르타",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 그리스의 도시 국가로, 엄격한 군사 훈련으로 유명했던 곳은?",
+          "choices": [
+            "스파르타",
+            "아테네",
+            "코린토스",
+            "테베"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스파르타의 남자아이들은 7세부터 집단생활을 하며 혹독한 군사 교육을 받았어요.",
+        "tip": "스파르타식 교육 = 엄격한 교육"
+      }
+    },
+    {
+      "id": "worldhistory-m012",
+      "difficulty": "normal",
+      "answer": "펠로폰네소스 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기원전 431년 아테네와 스파르타가 그리스의 패권을 두고 벌인 전쟁은?",
+          "choices": [
+            "펠로폰네소스 전쟁",
+            "페르시아 전쟁",
+            "포에니 전쟁",
+            "트로이 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약 27년간 이어진 이 전쟁에서 스파르타가 이겼지만, 그리스 전체가 약해졌어요.",
+        "tip": "그리스 내전 = 펠로폰네소스"
+      }
+    },
+    {
+      "id": "worldhistory-m013",
+      "difficulty": "normal",
+      "answer": "포에니 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "카르타고의 장군 한니발이 코끼리를 이끌고 알프스를 넘어 로마를 공격한 전쟁은?",
+          "choices": [
+            "포에니 전쟁",
+            "펠로폰네소스 전쟁",
+            "갈리아 전쟁",
+            "페르시아 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "로마와 카르타고는 지중해 패권을 두고 세 차례 싸웠고, 결국 로마가 카르타고를 멸망시켰어요.",
+        "tip": "한니발 = 코끼리 + 알프스"
+      }
+    },
+    {
+      "id": "worldhistory-m014",
+      "difficulty": "normal",
+      "answer": "밀라노 칙령",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "313년 로마 황제 콘스탄티누스가 크리스트교를 공인한 칙령은?",
+          "choices": [
+            "밀라노 칙령",
+            "낭트 칙령",
+            "보름스 칙령",
+            "테살로니카 칙령"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "밀라노 칙령으로 박해받던 크리스트교가 인정받았고, 이후 로마의 국교가 되었어요.",
+        "tip": "313 밀라노 = 크리스트교 공인"
+      }
+    },
+    {
+      "id": "worldhistory-m015",
+      "difficulty": "normal",
+      "answer": "476년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "서로마 제국이 멸망한 해는?",
+          "choices": [
+            "476년",
+            "313년",
+            "1453년",
+            "800년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "게르만족 용병 대장 오도아케르가 서로마 황제를 몰아내 서로마가 멸망했어요. 동로마는 1453년까지 이어졌어요.",
+        "tip": "476 서로마 → 1453 동로마"
+      }
+    },
+    {
+      "id": "worldhistory-m016",
+      "difficulty": "normal",
+      "answer": "채륜",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "종이 만드는 법을 개량해 널리 퍼뜨린 중국 후한의 인물은?",
+          "choices": [
+            "채륜",
+            "장건",
+            "사마천",
+            "반고"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "105년 무렵 채륜이 나무껍질, 헝겊 등으로 쓰기 좋은 종이를 만들어 황제에게 바쳤어요.",
+        "tip": "종이 = 채륜"
+      }
+    },
+    {
+      "id": "worldhistory-m017",
+      "difficulty": "normal",
+      "answer": "장건",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한 무제 때 서역에 파견되어 실크로드를 여는 계기를 만든 인물은?",
+          "choices": [
+            "장건",
+            "반초",
+            "채륜",
+            "정화"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "장건은 흉노를 협공할 동맹을 찾으러 서역에 갔다가 13년 만에 돌아와 서역 사정을 알렸어요.",
+        "tip": "실크로드의 개척자"
+      }
+    },
+    {
+      "id": "worldhistory-m018",
+      "difficulty": "normal",
+      "answer": "사마천",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "『사기』를 써서 '역사의 아버지'로 불리는 중국 한나라의 역사가는?",
+          "choices": [
+            "사마천",
+            "사마광",
+            "반고",
+            "공자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사마천은 궁형을 당하는 치욕 속에서도 130권의 『사기』를 완성했어요.",
+        "tip": "동양의 헤로도토스"
+      }
+    },
+    {
+      "id": "worldhistory-m019",
+      "difficulty": "easy",
+      "answer": "무함마드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이슬람교를 창시한 인물은?",
+          "choices": [
+            "무함마드",
+            "알리",
+            "살라딘",
+            "술레이만"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "무함마드는 610년 무렵 알라의 계시를 받았다고 하며 이슬람교를 열었어요.",
+        "tip": "이슬람 = 알라 + 무함마드"
+      }
+    },
+    {
+      "id": "worldhistory-m020",
+      "difficulty": "easy",
+      "answer": "십자군 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1096년부터 약 200년간 크리스트교 세력이 성지 예루살렘을 되찾겠다며 벌인 원정은?",
+          "choices": [
+            "십자군 전쟁",
+            "백년 전쟁",
+            "30년 전쟁",
+            "장미 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "십자군 전쟁은 결국 실패했지만, 동방 무역이 활발해지고 교황의 권위가 약해지는 결과를 낳았어요.",
+        "tip": "십자가를 단 군대"
+      }
+    },
+    {
+      "id": "worldhistory-m021",
+      "difficulty": "easy",
+      "answer": "백년 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "14~15세기 영국과 프랑스가 왕위 계승 문제 등으로 벌인 긴 전쟁은?",
+          "choices": [
+            "백년 전쟁",
+            "30년 전쟁",
+            "십자군 전쟁",
+            "7년 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1337년부터 1453년까지 이어졌고, 잔 다르크의 활약 등으로 프랑스가 이겼어요.",
+        "tip": "실제로는 116년"
+      }
+    },
+    {
+      "id": "worldhistory-m022",
+      "difficulty": "normal",
+      "answer": "카롤루스 대제",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "800년 교황에게 서로마 황제의 관을 받은 프랑크 왕국의 왕은?",
+          "choices": [
+            "카롤루스 대제",
+            "클로비스",
+            "오토 1세",
+            "루이 9세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "샤를마뉴라고도 불리는 카롤루스 대제는 서유럽 대부분을 통일하고 교회와 손잡았어요.",
+        "tip": "유럽의 아버지 = 샤를마뉴"
+      }
+    },
+    {
+      "id": "worldhistory-m023",
+      "difficulty": "normal",
+      "answer": "노르만 정복",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1066년 노르망디 공 윌리엄이 잉글랜드를 정복한 사건은?",
+          "choices": [
+            "노르만 정복",
+            "명예혁명",
+            "장미 전쟁",
+            "마그나 카르타"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "헤이스팅스 전투에서 이긴 윌리엄 1세가 잉글랜드 왕이 되었고, 영어에 프랑스어 단어가 많이 들어왔어요.",
+        "tip": "영어 속 프랑스어 단어의 시작"
+      }
+    },
+    {
+      "id": "worldhistory-m024",
+      "difficulty": "normal",
+      "answer": "대운하",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "수나라 양제가 남북을 잇기 위해 만든 거대한 물길은?",
+          "choices": [
+            "대운하",
+            "만리장성",
+            "도강언",
+            "영거"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대운하는 경제적으로 큰 도움이 되었지만, 무리한 공사와 고구려 원정 실패로 수나라는 곧 멸망했어요.",
+        "tip": "수 양제 = 대운하 + 고구려 원정 실패"
+      }
+    },
+    {
+      "id": "worldhistory-m025",
+      "difficulty": "normal",
+      "answer": "안사의 난",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "당 현종 때 양귀비와 관련해 일어나 당나라를 크게 흔든 반란은?",
+          "choices": [
+            "안사의 난",
+            "황건적의 난",
+            "태평천국 운동",
+            "홍건적의 난"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "안녹산과 사사명이 일으킨 반란으로, 이후 당나라는 급격히 쇠퇴했어요.",
+        "tip": "안(녹산) + 사(사명) = 안사"
+      }
+    },
+    {
+      "id": "worldhistory-m026",
+      "difficulty": "normal",
+      "answer": "증기 기관",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "송나라 때 발달해 훗날 유럽에 전해진 '중국 3대 발명품'이 아닌 것은?",
+          "choices": [
+            "증기 기관",
+            "나침반",
+            "화약",
+            "활판 인쇄술"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나침반, 화약, 인쇄술은 송나라 때 크게 발달해 유럽의 대항해 시대와 근대 사회에 영향을 주었어요. 종이를 넣어 4대 발명품이라고도 해요.",
+        "tip": "나침반·화약·인쇄술 (+종이)"
+      }
+    },
+    {
+      "id": "worldhistory-m027",
+      "difficulty": "normal",
+      "answer": "정화",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "명나라 영락제 때 대함대를 이끌고 아프리카 동쪽까지 항해한 인물은?",
+          "choices": [
+            "정화",
+            "장건",
+            "마르코 폴로",
+            "현장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정화는 15세기 초 일곱 차례 원정에 나섰는데, 콜럼버스보다 수십 년 앞서 훨씬 큰 배를 이끌었어요.",
+        "tip": "콜럼버스보다 먼저, 더 크게"
+      }
+    },
+    {
+      "id": "worldhistory-m028",
+      "difficulty": "normal",
+      "answer": "자금성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "명나라 영락제 때 지어진 베이징의 황궁은?",
+          "choices": [
+            "자금성",
+            "아방궁",
+            "이화원",
+            "원명원"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자금성은 명·청 두 왕조의 황궁으로 쓰였고, 지금은 '고궁 박물원'이에요.",
+        "tip": "자금성 = 금지된(禁) 성"
+      }
+    },
+    {
+      "id": "worldhistory-m029",
+      "difficulty": "easy",
+      "answer": "종교 개혁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1517년 마르틴 루터가 '95개조 반박문'을 붙이며 시작된 운동은?",
+          "choices": [
+            "종교 개혁",
+            "르네상스",
+            "계몽 운동",
+            "반종교 개혁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "루터는 교황청의 면벌부 판매를 비판했고, 이를 계기로 개신교(프로테스탄트)가 생겨났어요.",
+        "tip": "1517 루터 = 종교 개혁"
+      }
+    },
+    {
+      "id": "worldhistory-m030",
+      "difficulty": "normal",
+      "answer": "아즈텍 제국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1521년 스페인의 코르테스가 무너뜨린 아메리카의 제국은?",
+          "choices": [
+            "아즈텍 제국",
+            "잉카 제국",
+            "마야 문명",
+            "올멕 문명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "코르테스는 소수의 병력과 원주민 동맹, 전염병 덕분에 아즈텍을 정복했어요. 잉카는 피사로가 정복했어요.",
+        "tip": "아즈텍 = 코르테스, 잉카 = 피사로"
+      }
+    },
+    {
+      "id": "worldhistory-m031",
+      "difficulty": "normal",
+      "answer": "프란시스코 피사로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "잉카 제국을 정복한 스페인 사람은?",
+          "choices": [
+            "프란시스코 피사로",
+            "에르난 코르테스",
+            "바스쿠 다 가마",
+            "아메리고 베스푸치"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "피사로는 1532년 잉카의 황제 아타우알파를 사로잡고 제국을 무너뜨렸어요.",
+        "tip": "잉카 + 피사로 = 마추픽추의 비극"
+      }
+    },
+    {
+      "id": "worldhistory-m032",
+      "difficulty": "normal",
+      "answer": "청교도 혁명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "17세기 영국에서 크롬웰이 이끈 의회파가 국왕 찰스 1세를 처형한 혁명은?",
+          "choices": [
+            "청교도 혁명",
+            "명예혁명",
+            "프랑스 혁명",
+            "산업 혁명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "청교도가 중심이 된 의회파가 왕당파를 이기고 1649년 국왕을 처형한 뒤 공화정을 세웠어요.",
+        "tip": "1649 국왕 처형 = 청교도 혁명"
+      }
+    },
+    {
+      "id": "worldhistory-m033",
+      "difficulty": "normal",
+      "answer": "보스턴 차 사건",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1773년 미국 독립 전쟁의 도화선이 된, 영국 차를 바다에 던져 버린 사건은?",
+          "choices": [
+            "보스턴 차 사건",
+            "렉싱턴 전투",
+            "보스턴 학살",
+            "인지세법 반대 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국의 차 판매 독점에 반발한 식민지 주민들이 원주민으로 변장해 배의 차 상자를 바다에 던졌어요.",
+        "tip": "\"대표 없이 과세 없다\""
+      }
+    },
+    {
+      "id": "worldhistory-m034",
+      "difficulty": "normal",
+      "answer": "인권 선언",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1789년 프랑스 혁명 때 발표된, 인간의 자유와 평등을 선언한 문서는?",
+          "choices": [
+            "인권 선언",
+            "권리 장전",
+            "독립 선언문",
+            "마그나 카르타"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "\"인간은 자유롭고 평등한 권리를 가지고 태어난다\"로 시작하는 인권 선언은 근대 민주주의의 기초가 되었어요.",
+        "tip": "프랑스 = 인권 선언, 미국 = 독립 선언"
+      }
+    },
+    {
+      "id": "worldhistory-m035",
+      "difficulty": "normal",
+      "answer": "루이 16세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "프랑스 혁명 중 1793년 단두대에서 처형된 프랑스 국왕은?",
+          "choices": [
+            "루이 16세",
+            "루이 14세",
+            "루이 15세",
+            "샤를 10세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "루이 16세와 왕비 마리 앙투아네트 모두 혁명 정부에 의해 단두대에서 처형되었어요.",
+        "tip": "\"빵이 없으면 케이크를\"은 마리 앙투아네트가 한 말이 아니라는 게 정설이에요"
+      }
+    },
+    {
+      "id": "worldhistory-m036",
+      "difficulty": "normal",
+      "answer": "워털루 전투",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1815년 나폴레옹이 영국·프로이센 연합군에 결정적으로 패한 전투는?",
+          "choices": [
+            "워털루 전투",
+            "트라팔가르 해전",
+            "아우스터리츠 전투",
+            "라이프치히 전투"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지금의 벨기에 워털루에서 패한 나폴레옹은 세인트헬레나섬으로 유배되었어요.",
+        "tip": "\"워털루를 맞다\" = 결정적 패배"
+      }
+    },
+    {
+      "id": "worldhistory-m037",
+      "difficulty": "normal",
+      "answer": "빈 회의",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1815년 나폴레옹 전쟁 이후 유럽 질서를 다시 세우려고 열린 회의는?",
+          "choices": [
+            "빈 회의",
+            "베르사유 회의",
+            "파리 강화 회의",
+            "얄타 회담"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "오스트리아 재상 메테르니히가 주도해 혁명 이전의 질서로 되돌리려 했어요. \"회의는 춤춘다\"는 말이 유명해요.",
+        "tip": "빈 회의 = 메테르니히"
+      }
+    },
+    {
+      "id": "worldhistory-m038",
+      "difficulty": "easy",
+      "answer": "남북 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1861년부터 1865년까지 미국 북부와 남부가 노예제 등을 두고 싸운 전쟁은?",
+          "choices": [
+            "남북 전쟁",
+            "독립 전쟁",
+            "미영 전쟁",
+            "미국-멕시코 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "링컨이 이끈 북부가 이겼고, 노예제가 폐지되었어요.",
+        "tip": "1861~1865 링컨 = 남북 전쟁"
+      }
+    },
+    {
+      "id": "worldhistory-m039",
+      "difficulty": "normal",
+      "answer": "비스마르크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'철혈 정책'으로 1871년 독일 통일을 이끈 프로이센의 재상은?",
+          "choices": [
+            "비스마르크",
+            "메테르니히",
+            "빌헬름 2세",
+            "가리발디"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "비스마르크는 \"문제는 연설이 아니라 철과 피로 해결된다\"며 전쟁을 통해 통일을 이뤘어요.",
+        "tip": "철(무기) + 피(전쟁) = 철혈 재상"
+      }
+    },
+    {
+      "id": "worldhistory-m040",
+      "difficulty": "hard",
+      "answer": "가리발디",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "붉은 셔츠단을 이끌고 이탈리아 통일에 공을 세운 인물은?",
+          "choices": [
+            "가리발디",
+            "마치니",
+            "카보우르",
+            "무솔리니"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가리발디는 시칠리아와 남이탈리아를 정복해 사르데냐 왕에게 바쳐 통일을 도왔어요.",
+        "tip": "붉은 셔츠 = 가리발디"
+      }
+    },
+    {
+      "id": "worldhistory-m041",
+      "difficulty": "normal",
+      "answer": "캘리포니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1849년 금이 발견되어 수많은 사람이 몰려든 미국의 지역은?",
+          "choices": [
+            "캘리포니아",
+            "알래스카",
+            "텍사스",
+            "네바다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'골드러시'로 캘리포니아 인구가 크게 늘었어요. 미식축구팀 이름 '포티나이너스(49ers)'도 여기서 왔어요.",
+        "tip": "1849 골드러시 = 49ers"
+      }
+    },
+    {
+      "id": "worldhistory-m042",
+      "difficulty": "normal",
+      "answer": "수에즈 운하",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1869년 개통되어 유럽과 아시아 사이 뱃길을 크게 줄인 운하는?",
+          "choices": [
+            "수에즈 운하",
+            "파나마 운하",
+            "킬 운하",
+            "코린트 운하"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지중해와 홍해를 잇는 수에즈 운하로 아프리카를 돌아갈 필요가 없어졌어요.",
+        "tip": "수에즈 = 지중해↔홍해, 파나마 = 대서양↔태평양"
+      }
+    },
+    {
+      "id": "worldhistory-m043",
+      "difficulty": "normal",
+      "answer": "파나마 운하",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1914년 개통되어 대서양과 태평양을 이은 운하는?",
+          "choices": [
+            "파나마 운하",
+            "수에즈 운하",
+            "킬 운하",
+            "니카라과 운하"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국이 건설한 파나마 운하로 남아메리카를 돌아가는 긴 항로가 크게 줄었어요.",
+        "tip": "두 대양을 잇는 지름길"
+      }
+    },
+    {
+      "id": "worldhistory-m044",
+      "difficulty": "hard",
+      "answer": "러다이트 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "산업 혁명 시기 일자리를 빼앗긴 노동자들이 기계를 부순 운동은?",
+          "choices": [
+            "러다이트 운동",
+            "차티스트 운동",
+            "인클로저 운동",
+            "협동조합 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "전설적인 인물 '네드 러드'의 이름을 딴 운동으로, 지금도 신기술을 거부하는 사람을 '러다이트'라고 불러요.",
+        "tip": "기계 파괴 = 러다이트"
+      }
+    },
+    {
+      "id": "worldhistory-m045",
+      "difficulty": "normal",
+      "answer": "동인도 회사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국이 인도 등 아시아 무역을 위해 1600년 세운 회사는?",
+          "choices": [
+            "동인도 회사",
+            "서인도 회사",
+            "허드슨만 회사",
+            "남해 회사"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국 동인도 회사는 무역 회사였지만 군대를 갖고 인도를 사실상 지배했어요.",
+        "tip": "회사가 나라를 지배한 사례"
+      }
+    },
+    {
+      "id": "worldhistory-m046",
+      "difficulty": "easy",
+      "answer": "러시아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1917년 레닌이 이끈 혁명으로 세계 최초의 사회주의 국가를 세운 나라는?",
+          "choices": [
+            "러시아",
+            "중국",
+            "독일",
+            "쿠바"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "러시아 혁명으로 차르(황제) 체제가 무너지고, 1922년 소련이 세워졌어요.",
+        "tip": "1917 러시아 혁명 = 레닌"
+      }
+    },
+    {
+      "id": "worldhistory-m047",
+      "difficulty": "easy",
+      "answer": "대공황",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1929년 미국 뉴욕 주식 시장 폭락으로 시작된 세계적인 경제 위기는?",
+          "choices": [
+            "대공황",
+            "석유 파동",
+            "글로벌 금융 위기",
+            "닷컴 버블"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대공황으로 수많은 기업이 문을 닫고 실업자가 넘쳐났어요. 미국은 뉴딜 정책으로 극복하려 했어요.",
+        "tip": "1929 대공황 → 뉴딜"
+      }
+    },
+    {
+      "id": "worldhistory-m048",
+      "difficulty": "easy",
+      "answer": "제2차 세계 대전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1939년 독일이 폴란드를 침공하며 시작된 전쟁은?",
+          "choices": [
+            "제2차 세계 대전",
+            "제1차 세계 대전",
+            "스페인 내전",
+            "한국 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "독일의 폴란드 침공에 영국과 프랑스가 선전 포고하며 2차 대전이 시작되었어요.",
+        "tip": "1939 폴란드 침공 → 1945 종전"
+      }
+    },
+    {
+      "id": "worldhistory-m049",
+      "difficulty": "easy",
+      "answer": "진주만 공습",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1941년 일본이 미국 하와이의 해군 기지를 기습 공격한 사건은?",
+          "choices": [
+            "진주만 공습",
+            "미드웨이 해전",
+            "노르망디 상륙",
+            "히로시마 원폭"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "진주만 공습으로 미국이 2차 대전에 참전하게 되었어요.",
+        "tip": "진주만(Pearl Harbor) = 미국 참전"
+      }
+    },
+    {
+      "id": "worldhistory-m050",
+      "difficulty": "easy",
+      "answer": "노르망디 상륙 작전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1944년 6월 6일 연합군이 프랑스 북부에 대규모로 상륙한 작전은?",
+          "choices": [
+            "노르망디 상륙 작전",
+            "인천 상륙 작전",
+            "덩케르크 철수",
+            "진주만 공습"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'D-데이'라고 불리는 이 작전으로 연합군은 서유럽에서 독일군을 몰아내기 시작했어요.",
+        "tip": "D-Day = 노르망디"
+      }
+    },
+    {
+      "id": "worldhistory-m051",
+      "difficulty": "easy",
+      "answer": "홀로코스트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2차 대전 중 나치 독일이 유대인 약 600만 명을 학살한 사건은?",
+          "choices": [
+            "홀로코스트",
+            "킬링필드",
+            "난징 대학살",
+            "아르메니아 학살"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아우슈비츠 등 강제 수용소에서 조직적인 학살이 이루어졌어요.",
+        "tip": "아우슈비츠 = 홀로코스트의 상징"
+      }
+    },
+    {
+      "id": "worldhistory-m052",
+      "difficulty": "easy",
+      "answer": "국제 연합(UN)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2차 대전 이후 1945년 평화와 안전을 위해 만든 국제기구는?",
+          "choices": [
+            "국제 연합(UN)",
+            "국제 연맹",
+            "NATO",
+            "유럽 연합"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1차 대전 후 만든 국제 연맹이 전쟁을 막지 못하자, 1945년 더 강력한 국제 연합을 만들었어요. 본부는 뉴욕에 있어요.",
+        "tip": "1차 후 국제 연맹, 2차 후 국제 연합"
+      }
+    },
+    {
+      "id": "worldhistory-m053",
+      "difficulty": "easy",
+      "answer": "타이타닉호",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1912년 첫 항해에서 빙산과 충돌해 침몰한 영국의 여객선은?",
+          "choices": [
+            "타이타닉호",
+            "루시타니아호",
+            "퀸 메리호",
+            "브리태닉호"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'가라앉지 않는 배'라던 타이타닉호는 첫 항해에서 침몰해 1,500명 넘게 숨졌어요.",
+        "tip": "1912 빙산 = 타이타닉"
+      }
+    },
+    {
+      "id": "worldhistory-m054",
+      "difficulty": "easy",
+      "answer": "9·11 테러",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2001년 9월 11일 미국 뉴욕 세계 무역 센터가 무너진 사건은?",
+          "choices": [
+            "9·11 테러",
+            "오클라호마 폭탄 테러",
+            "보스턴 마라톤 테러",
+            "런던 지하철 테러"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "알카에다 조직원들이 납치한 여객기로 세계 무역 센터와 국방부 건물 등을 공격했어요.",
+        "tip": "9·11 → 아프가니스탄 전쟁"
+      }
+    },
+    {
+      "id": "worldhistory-m055",
+      "difficulty": "normal",
+      "answer": "베르사유 조약",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1차 세계 대전을 마무리하며 독일에 막대한 배상금을 물린 1919년 조약은?",
+          "choices": [
+            "베르사유 조약",
+            "베스트팔렌 조약",
+            "파리 조약",
+            "로카르노 조약"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가혹한 조건에 불만을 품은 독일에서 나치가 힘을 얻는 계기가 되었어요.",
+        "tip": "베르사유 → 독일의 불만 → 2차 대전"
+      }
+    },
+    {
+      "id": "worldhistory-m056",
+      "difficulty": "normal",
+      "answer": "중화민국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1911년 쑨원이 이끈 혁명으로 청나라가 무너지고 세워진 나라는?",
+          "choices": [
+            "중화민국",
+            "중화인민공화국",
+            "대만",
+            "만주국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "신해혁명으로 2,000년 넘게 이어진 중국의 황제 체제가 끝나고 아시아 최초의 공화국이 세워졌어요.",
+        "tip": "1911 신해혁명 = 중화민국"
+      }
+    },
+    {
+      "id": "worldhistory-m057",
+      "difficulty": "normal",
+      "answer": "중화인민공화국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1949년 마오쩌둥이 세운 나라는?",
+          "choices": [
+            "중화인민공화국",
+            "중화민국",
+            "대만",
+            "몽골 인민 공화국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "국공 내전에서 공산당이 이기며 중화인민공화국이 세워졌고, 국민당은 대만으로 옮겨 갔어요.",
+        "tip": "1949 = 지금의 중국"
+      }
+    },
+    {
+      "id": "worldhistory-m058",
+      "difficulty": "normal",
+      "answer": "문화 대혁명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1966년 마오쩌둥이 일으켜 지식인과 전통문화를 탄압한 운동은?",
+          "choices": [
+            "문화 대혁명",
+            "대약진 운동",
+            "양무운동",
+            "5·4 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "홍위병을 앞세운 문화 대혁명은 약 10년간 중국 사회에 큰 혼란을 가져왔어요.",
+        "tip": "홍위병 = 문화 대혁명"
+      }
+    },
+    {
+      "id": "worldhistory-m059",
+      "difficulty": "normal",
+      "answer": "파키스탄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1947년 영국에서 독립하면서 인도와 함께 갈라져 나온 나라는?",
+          "choices": [
+            "파키스탄",
+            "방글라데시",
+            "스리랑카",
+            "네팔"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "종교에 따라 힌두교 중심의 인도와 이슬람교 중심의 파키스탄으로 나뉘어 독립했어요. 방글라데시는 1971년 파키스탄에서 독립했어요.",
+        "tip": "1947 인도·파키스탄 분리 독립"
+      }
+    },
+    {
+      "id": "worldhistory-m060",
+      "difficulty": "normal",
+      "answer": "이스라엘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1948년 팔레스타인 지역에 세워져 중동 분쟁의 중심이 된 나라는?",
+          "choices": [
+            "이스라엘",
+            "요르단",
+            "레바논",
+            "시리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이스라엘 건국 이후 팔레스타인 주민과 주변 아랍 국가들과의 분쟁이 계속되고 있어요.",
+        "tip": "1948 이스라엘 건국"
+      }
+    },
+    {
+      "id": "worldhistory-m061",
+      "difficulty": "normal",
+      "answer": "마셜 플랜",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2차 대전 후 미국이 유럽 부흥을 위해 막대한 원조를 한 계획은?",
+          "choices": [
+            "마셜 플랜",
+            "뉴딜 정책",
+            "트루먼 독트린",
+            "먼로주의"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국 국무장관 마셜이 제안한 이 계획으로 서유럽 경제가 빠르게 회복되었어요.",
+        "tip": "유럽 재건 = 마셜 플랜"
+      }
+    },
+    {
+      "id": "worldhistory-m062",
+      "difficulty": "normal",
+      "answer": "스푸트니크 1호",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1957년 소련이 쏘아 올린 세계 최초의 인공위성은?",
+          "choices": [
+            "스푸트니크 1호",
+            "보스토크 1호",
+            "익스플로러 1호",
+            "아폴로 11호"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스푸트니크 발사에 충격받은 미국은 NASA를 세우고 우주 경쟁에 뛰어들었어요.",
+        "tip": "스푸트니크 쇼크"
+      }
+    },
+    {
+      "id": "worldhistory-m063",
+      "difficulty": "normal",
+      "answer": "쿠바",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1959년 카스트로와 체 게바라가 혁명을 일으킨 나라는?",
+          "choices": [
+            "쿠바",
+            "멕시코",
+            "볼리비아",
+            "니카라과"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "쿠바 혁명으로 친미 정권이 무너지고 사회주의 국가가 세워졌어요.",
+        "tip": "1959 쿠바 혁명 → 1962 미사일 위기"
+      }
+    },
+    {
+      "id": "worldhistory-m064",
+      "difficulty": "normal",
+      "answer": "체르노빌 원전 사고",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1986년 소련(지금의 우크라이나)에서 일어난 최악의 원자력 발전소 사고는?",
+          "choices": [
+            "체르노빌 원전 사고",
+            "후쿠시마 원전 사고",
+            "스리마일섬 사고",
+            "키시팀 사고"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원자로 폭발로 방사성 물질이 유럽 전역으로 퍼졌고, 주변 지역은 지금도 출입이 제한되어 있어요.",
+        "tip": "1986 체르노빌, 2011 후쿠시마"
+      }
+    },
+    {
+      "id": "worldhistory-m065",
+      "difficulty": "normal",
+      "answer": "소련",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1991년 해체되어 15개 나라로 나뉜 국가는?",
+          "choices": [
+            "소련",
+            "유고슬라비아",
+            "체코슬로바키아",
+            "동독"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "고르바초프의 개혁 이후 소련이 해체되며 러시아, 우크라이나 등 15개 공화국이 독립했어요.",
+        "tip": "1991 소련 해체 = 냉전 종식"
+      }
+    },
+    {
+      "id": "worldhistory-m066",
+      "difficulty": "hard",
+      "answer": "페레스트로이카",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "소련의 고르바초프가 추진한 '개혁(재건)' 정책의 이름은?",
+          "choices": [
+            "페레스트로이카",
+            "글라스노스트",
+            "데탕트",
+            "신경제 정책"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "페레스트로이카는 '재건, 개혁'이라는 뜻이에요. 개방 정책 '글라스노스트'와 함께 추진했어요.",
+        "tip": "페레스트로이카(개혁) + 글라스노스트(개방)"
+      }
+    },
+    {
+      "id": "worldhistory-m067",
+      "difficulty": "normal",
+      "answer": "유럽 연합(EU)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1993년 마스트리흐트 조약으로 출범한 유럽의 정치·경제 공동체는?",
+          "choices": [
+            "유럽 연합(EU)",
+            "NATO",
+            "유럽 자유 무역 연합",
+            "유럽 석탄 철강 공동체"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "EU는 1999년 단일 화폐 유로를 도입했고, 2002년부터 실제 지폐와 동전을 쓰기 시작했어요. 영국은 2020년 탈퇴했어요.",
+        "tip": "1993 EU → 2002 유로화 → 2020 브렉시트"
+      }
+    },
+    {
+      "id": "worldhistory-m068",
+      "difficulty": "normal",
+      "answer": "NATO",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1949년 미국과 서유럽 국가들이 소련에 맞서 만든 군사 동맹은?",
+          "choices": [
+            "NATO",
+            "바르샤바 조약 기구",
+            "UN",
+            "OECD"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "북대서양 조약 기구(NATO)는 집단 방위를 위한 동맹이에요. 소련은 1955년 바르샤바 조약 기구로 맞섰어요.",
+        "tip": "NATO vs 바르샤바 조약 기구 = 냉전의 양 진영"
+      }
+    },
+    {
+      "id": "worldhistory-m069",
+      "difficulty": "easy",
+      "answer": "해가 지지 않는 나라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국이 전 세계에 식민지를 두어 불린 별명은?",
+          "choices": [
+            "해가 지지 않는 나라",
+            "태양의 제국",
+            "바다의 여왕",
+            "세계의 공장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "19세기 영국은 지구 곳곳에 식민지가 있어, 언제나 어딘가에는 해가 떠 있다는 뜻으로 이렇게 불렸어요.",
+        "tip": "'세계의 공장'도 산업 혁명기 영국의 별명이에요"
+      }
+    },
+    {
+      "id": "worldhistory-m070",
+      "difficulty": "hard",
+      "answer": "살라미스 해전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "페르시아 전쟁 중 기원전 480년 그리스 해군이 페르시아 함대를 크게 무찌른 해전은?",
+          "choices": [
+            "살라미스 해전",
+            "악티움 해전",
+            "레판토 해전",
+            "트라팔가르 해전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아테네의 테미스토클레스가 좁은 해협으로 페르시아 대함대를 끌어들여 이겼어요.",
+        "tip": "페르시아 전쟁: 마라톤 → 테르모필레 → 살라미스"
+      }
+    },
+    {
+      "id": "worldhistory-m071",
+      "difficulty": "hard",
+      "answer": "장미 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국에서 랭커스터 가문과 요크 가문이 왕위를 두고 싸운 15세기 전쟁은?",
+          "choices": [
+            "장미 전쟁",
+            "백년 전쟁",
+            "청교도 혁명",
+            "30년 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "두 가문의 상징이 각각 붉은 장미와 흰 장미여서 붙은 이름이에요. 전쟁 뒤 튜더 왕조가 열렸어요.",
+        "tip": "붉은 장미 vs 흰 장미"
+      }
+    },
+    {
+      "id": "worldhistory-m072",
+      "difficulty": "hard",
+      "answer": "인클로저 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "16세기 영국에서 양을 키우려고 농지에 울타리를 쳐 농민들이 쫓겨난 일은?",
+          "choices": [
+            "인클로저 운동",
+            "러다이트 운동",
+            "차티스트 운동",
+            "청교도 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "토머스 모어는 『유토피아』에서 이를 \"양이 사람을 잡아먹는다\"고 비판했어요.",
+        "tip": "양이 사람을 잡아먹는다"
+      }
+    },
+    {
+      "id": "worldhistory-m073",
+      "difficulty": "hard",
+      "answer": "지구라트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "메소포타미아에서 신을 모시기 위해 벽돌로 높이 쌓은 계단식 신전은?",
+          "choices": [
+            "지구라트",
+            "피라미드",
+            "파르테논",
+            "스투파"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지구라트는 하늘과 땅을 잇는 신성한 장소로 여겨졌어요. 바벨탑 이야기의 모델이라는 설도 있어요.",
+        "tip": "계단식 신전 = 지구라트"
+      }
+    },
+    {
+      "id": "worldhistory-m074",
+      "difficulty": "hard",
+      "answer": "1848년 혁명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1848년 유럽 여러 나라에서 동시에 일어난 자유주의·민족주의 혁명을 부르는 말은?",
+          "choices": [
+            "1848년 혁명",
+            "7월 혁명",
+            "명예혁명",
+            "10월 혁명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "프랑스의 2월 혁명을 시작으로 독일, 오스트리아, 이탈리아 등으로 혁명이 번져 '민중의 봄'이라고도 해요.",
+        "tip": "민중의 봄 = 1848"
+      }
+    },
+    {
+      "id": "worldhistory-m075",
+      "difficulty": "hard",
+      "answer": "반둥 회의",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1955년 인도네시아에서 열려 '비동맹 운동'의 출발점이 된 아시아·아프리카 회의는?",
+          "choices": [
+            "반둥 회의",
+            "얄타 회담",
+            "포츠담 회담",
+            "카이로 회담"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "냉전 속에서 미국과 소련 어느 쪽에도 속하지 않겠다는 제3세계 국가들이 모인 회의였어요.",
+        "tip": "제3세계의 목소리 = 반둥"
+      }
+    },
+    {
+      "id": "worldhistory-m076",
+      "difficulty": "hard",
+      "answer": "얄타 회담",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1945년 2월 루스벨트, 처칠, 스탈린이 전후 처리를 논의한 회담은?",
+          "choices": [
+            "얄타 회담",
+            "포츠담 회담",
+            "카이로 회담",
+            "테헤란 회담"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "크림반도 얄타에서 열린 회담에서 독일 분할 점령과 소련의 대일전 참전 등이 합의되었어요.",
+        "tip": "얄타 = 전후 세계 지도를 그린 회담"
+      }
+    },
+    {
+      "id": "worldhistory-m077",
+      "difficulty": "hard",
+      "answer": "킬링필드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "캄보디아 크메르 루주 정권 시절 대량 학살이 벌어진 장소들을 부르는 말은?",
+          "choices": [
+            "킬링필드",
+            "홀로코스트",
+            "굴라크",
+            "게토"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1975~1979년 폴 포트 정권 아래 약 170만~200만 명이 학살되거나 굶주림으로 숨졌어요.",
+        "tip": "폴 포트 = 킬링필드"
+      }
+    },
+    {
+      "id": "worldhistory-m078",
+      "difficulty": "hard",
+      "answer": "톈안먼 사건",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1989년 중국 베이징에서 민주화를 요구하던 시위가 무력 진압된 사건은?",
+          "choices": [
+            "톈안먼 사건",
+            "문화 대혁명",
+            "5·4 운동",
+            "우산 혁명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "톈안먼 광장의 민주화 시위를 군대가 무력으로 진압했어요. 탱크 앞을 막아선 남자의 사진이 유명해요.",
+        "tip": "1989 = 베를린 장벽 붕괴, 톈안먼 사건"
+      }
+    },
+    {
+      "id": "worldhistory-m079",
+      "difficulty": "hard",
+      "answer": "르완다 대학살",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1994년 아프리카 르완다에서 후투족이 투치족을 대량 학살한 사건은?",
+          "choices": [
+            "르완다 대학살",
+            "다르푸르 분쟁",
+            "비아프라 전쟁",
+            "킬링필드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약 100일 동안 약 80만 명이 학살되었어요. 식민지 시대에 만들어진 종족 구분이 비극의 배경이 되었어요.",
+        "tip": "100일간의 비극"
+      }
+    }
+  ]
+}

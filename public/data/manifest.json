@@ -1,5 +1,5 @@
 {
-  "version": 34,
+  "version": 39,
   "files": [
     {
       "category": "idiom",
@@ -57,8 +57,18 @@
       "version": 1
     },
     {
+      "category": "figure",
+      "file": "figure.m.json",
+      "version": 1
+    },
+    {
       "category": "celeb",
       "file": "celeb.json",
+      "version": 1
+    },
+    {
+      "category": "celeb",
+      "file": "celeb.m.json",
       "version": 1
     },
     {
@@ -67,13 +77,28 @@
       "version": 1
     },
     {
+      "category": "koreanhistory",
+      "file": "koreanhistory.m.json",
+      "version": 1
+    },
+    {
       "category": "worldhistory",
       "file": "worldhistory.json",
       "version": 1
     },
     {
+      "category": "worldhistory",
+      "file": "worldhistory.m.json",
+      "version": 1
+    },
+    {
       "category": "myth",
       "file": "myth.json",
+      "version": 1
+    },
+    {
+      "category": "myth",
+      "file": "myth.m.json",
       "version": 1
     },
     {
