@@ -1,5 +1,5 @@
 {
-  "version": 181,
+  "version": 182,
   "files": [
     {
       "category": "idiom",
@@ -714,6 +714,11 @@
     {
       "category": "music",
       "file": "music.m3.json",
+      "version": 1
+    },
+    {
+      "category": "music",
+      "file": "music.m4.json",
       "version": 1
     },
     {
