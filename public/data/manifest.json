@@ -1,5 +1,5 @@
 {
-  "version": 183,
+  "version": 184,
   "files": [
     {
       "category": "idiom",
@@ -759,6 +759,11 @@
     {
       "category": "art",
       "file": "art.t.json",
+      "version": 1
+    },
+    {
+      "category": "art",
+      "file": "art.t2.json",
       "version": 1
     },
     {
