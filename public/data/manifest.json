@@ -1,5 +1,5 @@
 {
-  "version": 73,
+  "version": 75,
   "files": [
     {
       "category": "idiom",
@@ -17,6 +17,11 @@
       "version": 1
     },
     {
+      "category": "idiom",
+      "file": "idiom.m3.json",
+      "version": 1
+    },
+    {
       "category": "proverb",
       "file": "proverb.json",
       "version": 1
@@ -29,6 +34,11 @@
     {
       "category": "proverb",
       "file": "proverb.m2.json",
+      "version": 1
+    },
+    {
+      "category": "proverb",
+      "file": "proverb.m3.json",
       "version": 1
     },
     {
