@@ -1,5 +1,5 @@
 {
-  "version": 42,
+  "version": 45,
   "files": [
     {
       "category": "idiom",
@@ -157,8 +157,18 @@
       "version": 1
     },
     {
+      "category": "life",
+      "file": "life.m.json",
+      "version": 1
+    },
+    {
       "category": "health",
       "file": "health.json",
+      "version": 1
+    },
+    {
+      "category": "health",
+      "file": "health.m.json",
       "version": 1
     },
     {
@@ -179,6 +189,11 @@
     {
       "category": "economy",
       "file": "economy.json",
+      "version": 1
+    },
+    {
+      "category": "economy",
+      "file": "economy.m.json",
       "version": 1
     },
     {
