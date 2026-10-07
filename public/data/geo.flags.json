@@ -1695,6 +1695,2376 @@
         "credit": "flag-icons",
         "background": "light"
       }
+    },
+    {
+      "id": "geo-f061",
+      "difficulty": "normal",
+      "answer": "헝가리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "헝가리",
+            "이탈리아",
+            "불가리아",
+            "이란"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·흰색·초록 가로 삼색기예요.",
+        "tip": "세로 초흰빨 = 이탈리아, 가로 빨흰초 = 헝가리"
+      },
+      "image": {
+        "src": "images/flags/hu.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f062",
+      "difficulty": "hard",
+      "answer": "불가리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "불가리아",
+            "헝가리",
+            "리투아니아",
+            "타지키스탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰색·초록·빨강 가로 삼색기예요.",
+        "tip": "헝가리 국기의 빨강을 아래로 내리면 불가리아"
+      },
+      "image": {
+        "src": "images/flags/bg.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f063",
+      "difficulty": "hard",
+      "answer": "루마니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "루마니아",
+            "차드",
+            "몰도바",
+            "콜롬비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·노랑·빨강 세로 삼색기예요.",
+        "tip": "세로 파노빨 = 루마니아",
+        "bonus": "아프리카 차드의 국기와 파란색 색조만 살짝 다를 뿐 거의 똑같아요."
+      },
+      "image": {
+        "src": "images/flags/ro.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f064",
+      "difficulty": "normal",
+      "answer": "체코",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "체코",
+            "필리핀",
+            "슬로바키아",
+            "폴란드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "위는 흰색, 아래는 빨강이고 깃대 쪽에 파란 삼각형이 있어요.",
+        "tip": "흰빨 + 파란 삼각형 = 체코",
+        "bonus": "필리핀 국기는 위가 파랑, 아래가 빨강이고 삼각형이 흰색이에요."
+      },
+      "image": {
+        "src": "images/flags/cz.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f065",
+      "difficulty": "hard",
+      "answer": "슬로바키아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "슬로바키아",
+            "러시아",
+            "슬로베니아",
+            "세르비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰색·파랑·빨강 가로 줄 왼쪽에 세 언덕 위 흰 이중 십자가가 그려진 방패가 있어요.",
+        "tip": "러시아 국기 + 이중 십자 방패 = 슬로바키아"
+      },
+      "image": {
+        "src": "images/flags/sk.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f066",
+      "difficulty": "hard",
+      "answer": "슬로베니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "슬로베니아",
+            "슬로바키아",
+            "러시아",
+            "크로아티아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰색·파랑·빨강 가로 줄 왼쪽 위에 트리글라우산의 세 봉우리와 별 세 개를 담은 방패가 있어요.",
+        "tip": "방패 속 산봉우리 = 슬로베니아"
+      },
+      "image": {
+        "src": "images/flags/si.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f067",
+      "difficulty": "normal",
+      "answer": "크로아티아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "크로아티아",
+            "세르비아",
+            "슬로베니아",
+            "파라과이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·흰색·파랑 가로 줄 가운데 빨강·흰색 체크무늬 방패가 있어요.",
+        "tip": "체크무늬 = 크로아티아 (축구 유니폼도 체크!)"
+      },
+      "image": {
+        "src": "images/flags/hr.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f068",
+      "difficulty": "hard",
+      "answer": "세르비아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "세르비아",
+            "러시아",
+            "크로아티아",
+            "몬테네그로"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·파랑·흰색 가로 줄 왼쪽에 흰 쌍두 독수리 문장이 있어요.",
+        "tip": "빨파흰 + 쌍두 독수리 = 세르비아"
+      },
+      "image": {
+        "src": "images/flags/rs.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f069",
+      "difficulty": "hard",
+      "answer": "에스토니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "에스토니아",
+            "라트비아",
+            "리투아니아",
+            "핀란드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·검정·흰색 가로 삼색기예요. 하늘, 땅, 눈을 뜻한다고 해요.",
+        "tip": "파검흰 = 에스토니아"
+      },
+      "image": {
+        "src": "images/flags/ee.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f070",
+      "difficulty": "hard",
+      "answer": "라트비아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "라트비아",
+            "오스트리아",
+            "에스토니아",
+            "리투아니아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "진한 적갈색 줄 사이에 가는 흰 줄이 있는 국기예요.",
+        "tip": "오스트리아보다 어둡고 흰 줄이 가늘면 라트비아"
+      },
+      "image": {
+        "src": "images/flags/lv.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f071",
+      "difficulty": "hard",
+      "answer": "리투아니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "리투아니아",
+            "볼리비아",
+            "가나",
+            "에스토니아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노랑·초록·빨강 가로 삼색기예요. 노랑은 햇빛과 밀, 초록은 숲, 빨강은 용기를 뜻해요.",
+        "tip": "위에서부터 노초빨 = 리투아니아"
+      },
+      "image": {
+        "src": "images/flags/lt.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f072",
+      "difficulty": "hard",
+      "answer": "조지아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "조지아",
+            "스위스",
+            "몰타",
+            "덴마크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰 바탕에 큰 빨간 십자, 그리고 네 칸마다 작은 빨간 십자가 하나씩 있어 '다섯 십자 깃발'이라고 불러요.",
+        "tip": "십자 다섯 개 = 조지아"
+      },
+      "image": {
+        "src": "images/flags/ge.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f073",
+      "difficulty": "hard",
+      "answer": "알바니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "알바니아",
+            "몬테네그로",
+            "세르비아",
+            "몰도바"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕에 검은 쌍두 독수리가 그려져 있어요.",
+        "tip": "빨강 + 검은 쌍두 독수리 = 알바니아",
+        "bonus": "알바니아 사람들은 자기 나라를 '독수리의 나라(슈치페리아)'라고 불러요."
+      },
+      "image": {
+        "src": "images/flags/al.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f074",
+      "difficulty": "hard",
+      "answer": "몰타",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "몰타",
+            "폴란드",
+            "모나코",
+            "조지아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰색·빨강 세로 두 줄로, 왼쪽 위에 조지 십자 훈장이 그려져 있어요.",
+        "tip": "흰빨 세로 + 훈장 = 몰타",
+        "bonus": "2차 세계 대전 때 섬 전체가 영국의 조지 십자 훈장을 받은 것을 기념해요."
+      },
+      "image": {
+        "src": "images/flags/mt.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f075",
+      "difficulty": "hard",
+      "answer": "바티칸",
+      "aliases": [
+        "바티칸 시국"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "바티칸",
+            "스위스",
+            "몰타",
+            "산마리노"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노랑·흰색 세로 두 줄의 정사각형 국기로, 흰 쪽에 교황의 열쇠 두 개와 삼중관이 있어요.",
+        "tip": "열쇠 두 개 = 베드로의 천국 열쇠 = 바티칸"
+      },
+      "image": {
+        "src": "images/flags/va.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f076",
+      "difficulty": "hard",
+      "answer": "몬테네그로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "몬테네그로",
+            "알바니아",
+            "세르비아",
+            "북마케도니아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "금색 테두리를 두른 빨간 바탕 가운데 금색 쌍두 독수리 문장이 있어요.",
+        "tip": "금 테두리 + 금 독수리 = 몬테네그로"
+      },
+      "image": {
+        "src": "images/flags/me.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f077",
+      "difficulty": "hard",
+      "answer": "북마케도니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "북마케도니아",
+            "키르기스스탄",
+            "몬테네그로",
+            "알바니아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕 가운데 노란 태양에서 여덟 줄기 빛이 뻗어 나가요.",
+        "tip": "빛줄기 8개 태양 = 북마케도니아"
+      },
+      "image": {
+        "src": "images/flags/mk.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f078",
+      "difficulty": "hard",
+      "answer": "벨라루스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "벨라루스",
+            "리투아니아",
+            "우크라이나",
+            "몰도바"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강(넓게)·초록 가로 줄 깃대 쪽에 흰·빨간 전통 자수 무늬 띠가 있어요.",
+        "tip": "자수 무늬 띠 = 벨라루스"
+      },
+      "image": {
+        "src": "images/flags/by.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f079",
+      "difficulty": "hard",
+      "answer": "룩셈부르크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "룩셈부르크",
+            "네덜란드",
+            "러시아",
+            "파라과이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·흰색·하늘색 가로 삼색기예요.",
+        "tip": "네덜란드보다 파랑이 밝으면 룩셈부르크"
+      },
+      "image": {
+        "src": "images/flags/lu.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f080",
+      "difficulty": "hard",
+      "answer": "리히텐슈타인",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "리히텐슈타인",
+            "아이티",
+            "모나코",
+            "안도라"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·빨강 가로 두 줄 왼쪽 위에 금색 왕관이 있어요.",
+        "tip": "파빨 + 왕관 = 리히텐슈타인",
+        "bonus": "1936년 올림픽에서 아이티 국기와 똑같다는 걸 알고 나서 왕관을 넣었어요."
+      },
+      "image": {
+        "src": "images/flags/li.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f081",
+      "difficulty": "hard",
+      "answer": "산마리노",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "산마리노",
+            "그리스",
+            "핀란드",
+            "우루과이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰색·하늘색 가로 두 줄 가운데, 세 봉우리 위 탑 세 개가 그려진 문장이 있어요.",
+        "tip": "탑 세 개 = 산마리노",
+        "bonus": "이탈리아 안에 있는 작은 나라로, 현존하는 가장 오래된 공화국으로 꼽혀요."
+      },
+      "image": {
+        "src": "images/flags/sm.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f082",
+      "difficulty": "hard",
+      "answer": "안도라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "안도라",
+            "루마니아",
+            "몰도바",
+            "차드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·노랑·빨강 세로 삼색기 가운데 문장이 있어요.",
+        "tip": "루마니아 국기 + 문장 = 안도라",
+        "bonus": "프랑스와 스페인 사이 피레네산맥에 있는 나라예요."
+      },
+      "image": {
+        "src": "images/flags/ad.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f083",
+      "difficulty": "hard",
+      "answer": "아르메니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "아르메니아",
+            "콜롬비아",
+            "루마니아",
+            "리투아니아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·파랑·주황 가로 삼색기예요.",
+        "tip": "빨파주 = 아르메니아"
+      },
+      "image": {
+        "src": "images/flags/am.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f084",
+      "difficulty": "normal",
+      "answer": "북한",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "북한",
+            "쿠바",
+            "라오스",
+            "대한민국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·빨강·파랑 가로 줄 사이에 가는 흰 줄이 있고, 빨간 줄 왼쪽 흰 원 안에 빨간 별이 있어요.",
+        "tip": "흰 원 속 빨간 별 = 북한의 인공기"
+      },
+      "image": {
+        "src": "images/flags/kp.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f085",
+      "difficulty": "normal",
+      "answer": "대만",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "대만",
+            "중국",
+            "미얀마",
+            "사모아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕 왼쪽 위 파란 칸 안에 열두 줄기 빛을 내는 흰 태양이 있어요.",
+        "tip": "파란 하늘 + 흰 태양 + 붉은 땅 = 대만"
+      },
+      "image": {
+        "src": "images/flags/tw.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f086",
+      "difficulty": "hard",
+      "answer": "라오스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "라오스",
+            "캄보디아",
+            "태국",
+            "북한"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·파랑·빨강 가로 줄 가운데 흰 원이 있어요. 흰 원은 메콩강 위에 뜬 보름달을 뜻해요.",
+        "tip": "파란 강 위 보름달 = 라오스"
+      },
+      "image": {
+        "src": "images/flags/la.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f087",
+      "difficulty": "hard",
+      "answer": "미얀마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "미얀마",
+            "리투아니아",
+            "가나",
+            "볼리비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노랑·초록·빨강 가로 줄 가운데 커다란 흰 별이 있어요.",
+        "tip": "노초빨 + 큰 흰 별 = 미얀마"
+      },
+      "image": {
+        "src": "images/flags/mm.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f088",
+      "difficulty": "normal",
+      "answer": "방글라데시",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "방글라데시",
+            "일본",
+            "팔라우",
+            "라오스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "진한 초록 바탕에 붉은 원이 있어요. 원은 깃대 쪽으로 살짝 치우쳐 있어 펄럭일 때 가운데로 보여요.",
+        "tip": "초록 바탕 붉은 해 = 방글라데시",
+        "bonus": "초록은 땅, 붉은 원은 독립 전쟁에서 흘린 피와 떠오르는 해를 뜻해요."
+      },
+      "image": {
+        "src": "images/flags/bd.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f089",
+      "difficulty": "hard",
+      "answer": "스리랑카",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "스리랑카",
+            "부탄",
+            "인도",
+            "네팔"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노란 테두리 안에 초록·주황 세로 띠와, 칼을 든 황금 사자가 그려진 적갈색 칸이 있어요.",
+        "tip": "칼 든 사자 = 스리랑카"
+      },
+      "image": {
+        "src": "images/flags/lk.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f090",
+      "difficulty": "hard",
+      "answer": "이라크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "이라크",
+            "이집트",
+            "예멘",
+            "수단"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·흰색·검정 가로 줄 가운데 초록색 아랍어로 '알라는 위대하다'가 적혀 있어요.",
+        "tip": "빨흰검 + 초록 글씨 = 이라크"
+      },
+      "image": {
+        "src": "images/flags/iq.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f091",
+      "difficulty": "hard",
+      "answer": "예멘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "예멘",
+            "이라크",
+            "시리아",
+            "독일"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아무 무늬 없는 빨강·흰색·검정 가로 삼색기예요.",
+        "tip": "무늬 없는 빨흰검 = 예멘"
+      },
+      "image": {
+        "src": "images/flags/ye.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f092",
+      "difficulty": "hard",
+      "answer": "요르단",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "요르단",
+            "팔레스타인",
+            "수단",
+            "쿠웨이트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "검정·흰색·초록 가로 줄과 깃대 쪽 빨간 삼각형이 있고, 삼각형 안에 흰 칠각별이 있어요.",
+        "tip": "삼각형 안 별이 있으면 요르단, 없으면 팔레스타인"
+      },
+      "image": {
+        "src": "images/flags/jo.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f093",
+      "difficulty": "hard",
+      "answer": "쿠웨이트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "쿠웨이트",
+            "아랍에미리트",
+            "요르단",
+            "이란"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·흰색·빨강 가로 줄과 깃대 쪽 검은 사다리꼴이 있어요.",
+        "tip": "검은 사다리꼴 = 쿠웨이트"
+      },
+      "image": {
+        "src": "images/flags/kw.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f094",
+      "difficulty": "hard",
+      "answer": "카타르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "카타르",
+            "바레인",
+            "오만",
+            "레바논"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "진한 적갈색 바탕에 깃대 쪽 흰 띠가 아홉 개의 톱니 모양으로 맞물려 있어요.",
+        "tip": "적갈색 + 톱니 9개 = 카타르, 빨강 + 톱니 5개 = 바레인"
+      },
+      "image": {
+        "src": "images/flags/qa.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f095",
+      "difficulty": "hard",
+      "answer": "우즈베키스탄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "우즈베키스탄",
+            "카자흐스탄",
+            "투르크메니스탄",
+            "아제르바이잔"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색·흰색·초록 가로 줄 사이에 가는 빨간 줄이 있고, 왼쪽 위에 흰 초승달과 별 12개가 있어요.",
+        "tip": "하흰초 + 초승달과 별 12개 = 우즈베키스탄"
+      },
+      "image": {
+        "src": "images/flags/uz.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f096",
+      "difficulty": "hard",
+      "answer": "키르기스스탄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "키르기스스탄",
+            "북마케도니아",
+            "몽골",
+            "카자흐스탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕에 빛줄기 40개의 노란 태양이 있고, 태양 가운데 유목민 천막(유르트)의 천장 모양이 있어요.",
+        "tip": "태양 속 천막 지붕 = 키르기스스탄",
+        "bonus": "빛줄기 40개는 영웅 마나스가 이끈 40개 부족을 뜻해요."
+      },
+      "image": {
+        "src": "images/flags/kg.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f097",
+      "difficulty": "hard",
+      "answer": "아제르바이잔",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "아제르바이잔",
+            "우즈베키스탄",
+            "튀르키예",
+            "투르크메니스탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·빨강·초록 가로 줄 가운데 흰 초승달과 팔각별이 있어요.",
+        "tip": "파빨초 + 초승달 = 아제르바이잔"
+      },
+      "image": {
+        "src": "images/flags/az.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f098",
+      "difficulty": "hard",
+      "answer": "투르크메니스탄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "투르크메니스탄",
+            "파키스탄",
+            "사우디아라비아",
+            "우즈베키스탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록 바탕 깃대 쪽 빨간 세로 띠에 전통 카펫 무늬 다섯 개가 있고, 옆에 흰 초승달과 별 다섯 개가 있어요.",
+        "tip": "카펫 무늬 = 투르크메니스탄"
+      },
+      "image": {
+        "src": "images/flags/tm.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f099",
+      "difficulty": "hard",
+      "answer": "브루나이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "브루나이",
+            "말레이시아",
+            "부탄",
+            "스리랑카"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노란 바탕을 흰색·검정 대각선 띠가 가로지르고, 가운데 빨간 국가 문장이 있어요.",
+        "tip": "노랑 + 흰검 대각선 = 브루나이"
+      },
+      "image": {
+        "src": "images/flags/bn.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f100",
+      "difficulty": "hard",
+      "answer": "몰디브",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "몰디브",
+            "파키스탄",
+            "모리타니",
+            "방글라데시"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 테두리 안 초록 직사각형에 흰 초승달이 있어요.",
+        "tip": "빨강 액자 속 초록 = 몰디브"
+      },
+      "image": {
+        "src": "images/flags/mv.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f101",
+      "difficulty": "normal",
+      "answer": "가나",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "가나",
+            "볼리비아",
+            "리투아니아",
+            "세네갈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·노랑·초록 가로 줄 가운데 검은 별이 있어요. 검은 별은 아프리카의 자유를 뜻해요.",
+        "tip": "빨노초 + 검은 별 = 가나",
+        "bonus": "1957년 사하라 이남 아프리카에서 처음 독립한 식민지예요."
+      },
+      "image": {
+        "src": "images/flags/gh.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f102",
+      "difficulty": "normal",
+      "answer": "에티오피아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "에티오피아",
+            "가나",
+            "볼리비아",
+            "리투아니아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·노랑·빨강 가로 줄 가운데 파란 원 안에 노란 별이 빛나요.",
+        "tip": "초노빨 + 파란 원 = 에티오피아",
+        "bonus": "식민 지배를 거의 받지 않은 에티오피아의 세 색이 '범아프리카 색'이 되어 여러 아프리카 국기에 쓰였어요."
+      },
+      "image": {
+        "src": "images/flags/et.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f103",
+      "difficulty": "hard",
+      "answer": "세네갈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "세네갈",
+            "말리",
+            "기니",
+            "카메룬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·노랑·빨강 세로 줄 가운데 초록 별이 있어요.",
+        "tip": "세로 초노빨 + 초록 별 = 세네갈"
+      },
+      "image": {
+        "src": "images/flags/sn.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f104",
+      "difficulty": "hard",
+      "answer": "말리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "말리",
+            "세네갈",
+            "기니",
+            "에티오피아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아무 무늬 없는 초록·노랑·빨강 세로 삼색기예요.",
+        "tip": "세로 초노빨, 별 없음 = 말리"
+      },
+      "image": {
+        "src": "images/flags/ml.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f105",
+      "difficulty": "hard",
+      "answer": "기니",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "기니",
+            "말리",
+            "가나",
+            "볼리비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·노랑·초록 세로 삼색기예요. 말리 국기와 순서가 반대예요.",
+        "tip": "세로 빨노초 = 기니, 초노빨 = 말리"
+      },
+      "image": {
+        "src": "images/flags/gn.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f106",
+      "difficulty": "hard",
+      "answer": "카메룬",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "카메룬",
+            "세네갈",
+            "말리",
+            "가나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·빨강·노랑 세로 줄 가운데 노란 별이 있어요.",
+        "tip": "가운데가 빨강 + 노란 별 = 카메룬"
+      },
+      "image": {
+        "src": "images/flags/cm.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f107",
+      "difficulty": "normal",
+      "answer": "모로코",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "모로코",
+            "베트남",
+            "튀니지",
+            "알제리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕 가운데 초록 선으로 그린 오각별이 있어요.",
+        "tip": "빨강 + 초록 선 별 = 모로코"
+      },
+      "image": {
+        "src": "images/flags/ma.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f108",
+      "difficulty": "hard",
+      "answer": "알제리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "알제리",
+            "파키스탄",
+            "튀니지",
+            "모리타니"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·흰색 세로 두 칸 가운데 빨간 초승달과 별이 있어요.",
+        "tip": "초흰 반반 + 빨간 초승달 = 알제리"
+      },
+      "image": {
+        "src": "images/flags/dz.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f109",
+      "difficulty": "hard",
+      "answer": "튀니지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "튀니지",
+            "튀르키예",
+            "알제리",
+            "모로코"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕 가운데 흰 원이 있고, 그 안에 빨간 초승달과 별이 있어요.",
+        "tip": "흰 원 안 초승달 = 튀니지, 원 없으면 튀르키예"
+      },
+      "image": {
+        "src": "images/flags/tn.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f110",
+      "difficulty": "hard",
+      "answer": "리비아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "리비아",
+            "요르단",
+            "이집트",
+            "수단"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·검정·초록 가로 줄 가운데 넓은 검정 줄에 흰 초승달과 별이 있어요.",
+        "tip": "빨검초 + 초승달 = 리비아"
+      },
+      "image": {
+        "src": "images/flags/ly.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f111",
+      "difficulty": "hard",
+      "answer": "탄자니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "탄자니아",
+            "자메이카",
+            "콩고 공화국",
+            "나미비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노란 테두리를 두른 검은 대각선 띠가 위쪽 초록과 아래쪽 파랑을 나눠요.",
+        "tip": "초록·파랑 + 검은 대각선 = 탄자니아"
+      },
+      "image": {
+        "src": "images/flags/tz.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f112",
+      "difficulty": "hard",
+      "answer": "르완다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "르완다",
+            "카자흐스탄",
+            "우간다",
+            "가봉"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색(넓게)·노랑·초록 가로 줄로, 오른쪽 위에 노란 태양이 있어요.",
+        "tip": "하늘색 + 오른쪽 위 태양 = 르완다"
+      },
+      "image": {
+        "src": "images/flags/rw.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f113",
+      "difficulty": "hard",
+      "answer": "우간다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "우간다",
+            "케냐",
+            "짐바브웨",
+            "잠비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "검정·노랑·빨강 줄이 두 번 반복되고, 가운데 흰 원 안에 우간다의 상징인 회색관두루미가 있어요.",
+        "tip": "검노빨 × 2 + 두루미 = 우간다"
+      },
+      "image": {
+        "src": "images/flags/ug.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f114",
+      "difficulty": "hard",
+      "answer": "짐바브웨",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "짐바브웨",
+            "잠비아",
+            "우간다",
+            "모잠비크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·노랑·빨강·검정 일곱 줄과 깃대 쪽 흰 삼각형 안에 빨간 별과 노란 '짐바브웨 새'가 있어요.",
+        "tip": "흰 삼각형 속 새 = 짐바브웨"
+      },
+      "image": {
+        "src": "images/flags/zw.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f115",
+      "difficulty": "hard",
+      "answer": "콩고민주공화국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "콩고민주공화국",
+            "콩고 공화국",
+            "탄자니아",
+            "가봉"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색 바탕에 노란 테두리의 빨간 대각선이 있고, 왼쪽 위에 노란 별이 있어요.",
+        "tip": "하늘색 + 빨간 대각선 + 별 = 콩고민주공화국"
+      },
+      "image": {
+        "src": "images/flags/cd.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f116",
+      "difficulty": "hard",
+      "answer": "콩고 공화국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "콩고 공화국",
+            "탄자니아",
+            "콩고민주공화국",
+            "세네갈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노란 대각선이 왼쪽 위 초록과 오른쪽 아래 빨강을 나눠요.",
+        "tip": "초노빨 대각선 = 콩고 공화국"
+      },
+      "image": {
+        "src": "images/flags/cg.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f117",
+      "difficulty": "normal",
+      "answer": "코트디부아르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "코트디부아르",
+            "아일랜드",
+            "이탈리아",
+            "니제르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "주황·흰색·초록 세로 삼색기예요. 아일랜드 국기와 순서가 반대예요.",
+        "tip": "주황이 깃대 쪽 = 코트디부아르"
+      },
+      "image": {
+        "src": "images/flags/ci.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f118",
+      "difficulty": "hard",
+      "answer": "니제르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "니제르",
+            "인도",
+            "코트디부아르",
+            "헝가리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "주황·흰색·초록 가로 줄 가운데 주황색 원이 있어요.",
+        "tip": "가운데 주황 원 = 니제르, 바퀴 = 인도"
+      },
+      "image": {
+        "src": "images/flags/ne.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f119",
+      "difficulty": "hard",
+      "answer": "소말리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "소말리아",
+            "베트남",
+            "미크로네시아",
+            "온두라스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색 바탕 가운데 흰 별 하나가 있어요.",
+        "tip": "하늘색 + 흰 별 하나 = 소말리아",
+        "bonus": "하늘색은 유엔 깃발에서, 별의 다섯 꼭짓점은 소말리족이 사는 다섯 지역에서 왔어요."
+      },
+      "image": {
+        "src": "images/flags/so.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f120",
+      "difficulty": "hard",
+      "answer": "앙골라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "앙골라",
+            "모잠비크",
+            "짐바브웨",
+            "우간다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·검정 가로 두 줄 가운데 노란 톱니바퀴 반쪽, 칼(마체테), 별이 있어요.",
+        "tip": "톱니바퀴 + 칼 = 앙골라"
+      },
+      "image": {
+        "src": "images/flags/ao.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f121",
+      "difficulty": "hard",
+      "answer": "마다가스카르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "마다가스카르",
+            "벨라루스",
+            "헝가리",
+            "오만"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "깃대 쪽 흰 세로 띠와 빨강·초록 가로 줄로 된 국기예요.",
+        "tip": "흰 세로 + 빨초 가로 = 마다가스카르"
+      },
+      "image": {
+        "src": "images/flags/mg.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f122",
+      "difficulty": "normal",
+      "answer": "라이베리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "라이베리아",
+            "미국",
+            "말레이시아",
+            "칠레"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·흰색 줄 11개와 왼쪽 위 파란 칸에 흰 별 하나가 있어요.",
+        "tip": "별 하나짜리 성조기 = 라이베리아",
+        "bonus": "미국에서 해방된 흑인들이 세운 나라라 성조기를 닮았어요."
+      },
+      "image": {
+        "src": "images/flags/lr.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f123",
+      "difficulty": "hard",
+      "answer": "부르키나파소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "부르키나파소",
+            "베트남",
+            "카메룬",
+            "가나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·초록 가로 두 줄 가운데 노란 별이 있어요.",
+        "tip": "빨초 + 노란 별 = 부르키나파소"
+      },
+      "image": {
+        "src": "images/flags/bf.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f124",
+      "difficulty": "hard",
+      "answer": "가봉",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "가봉",
+            "르완다",
+            "시에라리온",
+            "우즈베키스탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·노랑·파랑 가로 삼색기예요. 숲, 적도의 햇빛, 바다를 뜻해요.",
+        "tip": "초노파 = 가봉"
+      },
+      "image": {
+        "src": "images/flags/ga.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f125",
+      "difficulty": "hard",
+      "answer": "시에라리온",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "시에라리온",
+            "가봉",
+            "에스토니아",
+            "우즈베키스탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·흰색·파랑 가로 삼색기예요.",
+        "tip": "초흰파 = 시에라리온"
+      },
+      "image": {
+        "src": "images/flags/sl.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f126",
+      "difficulty": "hard",
+      "answer": "보츠와나",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "보츠와나",
+            "에스토니아",
+            "소말리아",
+            "르완다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색 바탕 가운데 흰 테두리를 두른 검은 가로 띠가 있어요.",
+        "tip": "하늘색 + 검은 띠 = 보츠와나",
+        "bonus": "하늘색은 귀한 비를, 흑백은 인종의 화합을 뜻해요."
+      },
+      "image": {
+        "src": "images/flags/bw.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f127",
+      "difficulty": "hard",
+      "answer": "모리셔스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "모리셔스",
+            "가봉",
+            "콜롬비아",
+            "감비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·파랑·노랑·초록 네 줄 가로 국기예요.",
+        "tip": "네 줄 빨파노초 = 모리셔스"
+      },
+      "image": {
+        "src": "images/flags/mu.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f128",
+      "difficulty": "normal",
+      "answer": "우루과이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "우루과이",
+            "아르헨티나",
+            "그리스",
+            "엘살바도르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰색·파랑 줄 9개와 왼쪽 위에 얼굴이 있는 '5월의 태양'이 있어요.",
+        "tip": "줄무늬 + 5월의 태양 = 우루과이"
+      },
+      "image": {
+        "src": "images/flags/uy.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f129",
+      "difficulty": "hard",
+      "answer": "파라과이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "파라과이",
+            "네덜란드",
+            "룩셈부르크",
+            "크로아티아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·흰색·파랑 가로 줄 가운데 문장이 있어요. 앞면과 뒷면의 문장이 다른 드문 국기예요.",
+        "tip": "앞뒤가 다른 국기 = 파라과이"
+      },
+      "image": {
+        "src": "images/flags/py.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f130",
+      "difficulty": "hard",
+      "answer": "볼리비아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "볼리비아",
+            "가나",
+            "헝가리",
+            "미얀마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·노랑·초록 가로 삼색기예요. 공식 국기에는 가운데 국가 문장이 들어가요.",
+        "tip": "빨노초 가로 = 볼리비아"
+      },
+      "image": {
+        "src": "images/flags/bo.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f131",
+      "difficulty": "normal",
+      "answer": "베네수엘라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "베네수엘라",
+            "콜롬비아",
+            "에콰도르",
+            "아르메니아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노랑·파랑·빨강 가로 줄로, 가운데 파란 줄에 흰 별 8개가 아치 모양으로 있어요.",
+        "tip": "노파빨 + 별 8개 아치 = 베네수엘라"
+      },
+      "image": {
+        "src": "images/flags/ve.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f132",
+      "difficulty": "hard",
+      "answer": "에콰도르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "에콰도르",
+            "콜롬비아",
+            "베네수엘라",
+            "볼리비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노랑(절반)·파랑·빨강 가로 줄 가운데 콘도르가 앉은 국가 문장이 있어요.",
+        "tip": "콜롬비아 국기 + 콘도르 문장 = 에콰도르"
+      },
+      "image": {
+        "src": "images/flags/ec.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f133",
+      "difficulty": "hard",
+      "answer": "파나마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "파나마",
+            "칠레",
+            "도미니카 공화국",
+            "쿠바"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "네 칸으로 나뉘어 흰 칸에 파란 별과 빨간 별이 하나씩, 나머지 두 칸은 빨강과 파랑이에요.",
+        "tip": "네 칸 + 별 두 개 = 파나마"
+      },
+      "image": {
+        "src": "images/flags/pa.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f134",
+      "difficulty": "hard",
+      "answer": "코스타리카",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "코스타리카",
+            "태국",
+            "북한",
+            "라오스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·흰색·빨강·흰색·파랑 가로 줄로, 가운데 빨간 줄이 두 배 넓어요.",
+        "tip": "가운데 넓은 빨강 = 코스타리카, 넓은 파랑 = 태국"
+      },
+      "image": {
+        "src": "images/flags/cr.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f135",
+      "difficulty": "hard",
+      "answer": "과테말라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "과테말라",
+            "니카라과",
+            "엘살바도르",
+            "온두라스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색·흰색·하늘색 세로 줄 가운데 국조 '케찰' 새가 앉은 문장이 있어요.",
+        "tip": "세로 하늘색 + 케찰 새 = 과테말라"
+      },
+      "image": {
+        "src": "images/flags/gt.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f136",
+      "difficulty": "hard",
+      "answer": "엘살바도르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "엘살바도르",
+            "니카라과",
+            "과테말라",
+            "아르헨티나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·흰색·파랑 가로 줄 가운데 국가 문장이 있어요.",
+        "tip": "가로 파흰파 + 문장 = 엘살바도르"
+      },
+      "image": {
+        "src": "images/flags/sv.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f137",
+      "difficulty": "hard",
+      "answer": "온두라스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "온두라스",
+            "엘살바도르",
+            "니카라과",
+            "소말리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·흰색·파랑 가로 줄 가운데 파란 별 다섯 개가 있어요.",
+        "tip": "파란 별 5개 = 온두라스",
+        "bonus": "별 다섯 개는 옛 중앙아메리카 연방의 다섯 나라를 뜻해요."
+      },
+      "image": {
+        "src": "images/flags/hn.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f138",
+      "difficulty": "hard",
+      "answer": "도미니카 공화국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "도미니카 공화국",
+            "파나마",
+            "아이티",
+            "쿠바"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰 십자가 파랑·빨강 네 칸을 나누고, 가운데 성경이 들어간 문장이 있어요.",
+        "tip": "흰 십자 + 성경 문장 = 도미니카 공화국",
+        "bonus": "국기에 성경 그림이 들어간 유일한 나라로 알려져 있어요."
+      },
+      "image": {
+        "src": "images/flags/do.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f139",
+      "difficulty": "hard",
+      "answer": "아이티",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "아이티",
+            "리히텐슈타인",
+            "도미니카 공화국",
+            "파나마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·빨강 가로 두 줄 가운데 흰 사각형 안에 야자나무와 대포가 그려진 문장이 있어요.",
+        "tip": "파빨 + 야자나무 문장 = 아이티"
+      },
+      "image": {
+        "src": "images/flags/ht.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f140",
+      "difficulty": "hard",
+      "answer": "트리니다드 토바고",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "트리니다드 토바고",
+            "나미비아",
+            "탄자니아",
+            "콩고 공화국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕을 흰 테두리의 검은 대각선 띠가 가로질러요.",
+        "tip": "빨강 + 검은 대각선 = 트리니다드 토바고"
+      },
+      "image": {
+        "src": "images/flags/tt.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f141",
+      "difficulty": "hard",
+      "answer": "바하마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "바하마",
+            "자메이카",
+            "바베이도스",
+            "벨리즈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "청록·금색·청록 가로 줄과 깃대 쪽 검은 삼각형이 있어요. 바다와 모래사장을 뜻해요.",
+        "tip": "청록 + 금색 + 검은 삼각형 = 바하마"
+      },
+      "image": {
+        "src": "images/flags/bs.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f142",
+      "difficulty": "hard",
+      "answer": "바베이도스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "바베이도스",
+            "바하마",
+            "우크라이나",
+            "세인트루시아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·금색·파랑 세로 줄 가운데 검은 삼지창 머리가 있어요.",
+        "tip": "삼지창 = 바베이도스",
+        "bonus": "부러진 삼지창은 영국 식민지에서 벗어났다는 뜻이에요."
+      },
+      "image": {
+        "src": "images/flags/bb.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f143",
+      "difficulty": "hard",
+      "answer": "피지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "피지",
+            "투발루",
+            "뉴질랜드",
+            "호주"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색 바탕 왼쪽 위에 유니언 잭, 오른쪽에 사자와 사탕수수, 코코넛 등이 그려진 방패가 있어요.",
+        "tip": "하늘색 + 유니언 잭 + 방패 = 피지"
+      },
+      "image": {
+        "src": "images/flags/fj.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f144",
+      "difficulty": "hard",
+      "answer": "파푸아뉴기니",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "파푸아뉴기니",
+            "트리니다드 토바고",
+            "사모아",
+            "바누아투"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대각선으로 나뉘어 위쪽 빨강에 노란 극락조, 아래쪽 검정에 남십자성 흰 별 다섯 개가 있어요.",
+        "tip": "극락조 = 파푸아뉴기니"
+      },
+      "image": {
+        "src": "images/flags/pg.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f145",
+      "difficulty": "hard",
+      "answer": "팔라우",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "팔라우",
+            "일본",
+            "방글라데시",
+            "카자흐스탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색 바탕에 노란 원이 깃대 쪽으로 살짝 치우쳐 있어요. 바다 위 보름달을 뜻해요.",
+        "tip": "바다 위 보름달 = 팔라우"
+      },
+      "image": {
+        "src": "images/flags/pw.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f146",
+      "difficulty": "hard",
+      "answer": "키리바시",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "키리바시",
+            "투발루",
+            "솔로몬 제도",
+            "나우루"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "위쪽 빨간 하늘에 떠오르는 해와 군함새가 날고, 아래쪽에 파랑·흰색 물결이 있어요.",
+        "tip": "바다 위 해와 새 = 키리바시",
+        "bonus": "날짜 변경선 바로 옆이라 세계에서 가장 먼저 새해를 맞는 나라예요."
+      },
+      "image": {
+        "src": "images/flags/ki.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f147",
+      "difficulty": "hard",
+      "answer": "통가",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "통가",
+            "조지아",
+            "스위스",
+            "덴마크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕 왼쪽 위 흰 칸에 빨간 십자가 있어요.",
+        "tip": "흰 칸 속 빨간 십자 = 통가"
+      },
+      "image": {
+        "src": "images/flags/to.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
     }
   ]
 }
