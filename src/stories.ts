@@ -62,6 +62,13 @@ export function loadStories(voice: VoiceId) {
   return cache.then((list) => list.map((s) => inVoice(s, voice)))
 }
 
+/** Voices with at least one recorded story; the others stay hidden in 설정. */
+export async function recordedVoices() {
+  await loadStories('arin')
+  const list = await cache!
+  return new Set(list.flatMap((s) => Object.keys(s.voices) as VoiceId[]))
+}
+
 export function inVoice(story: StoryData, voice: VoiceId): Story {
   const v = story.voices[voice] ? voice : story.voices.arin ? 'arin' : (Object.keys(story.voices)[0] as VoiceId)
   return { ...story, ...story.voices[v]!, voice: v }

@@ -5,7 +5,7 @@ import { Header, PrimaryButton, Screen, SecondaryButton, Segmented } from '../co
 import { useBackHandler } from '../native'
 import { pause, switchVoice, usePlayer } from '../player'
 import { resetProgress, updateSettings, useStore } from '../store'
-import { VOICES, type VoiceId } from '../stories'
+import { recordedVoices, VOICES, type VoiceId } from '../stories'
 import type { CategoryId } from '../types'
 
 export function SettingsScreen({
@@ -159,8 +159,16 @@ function VoicePicker() {
   const { settings } = useStore()
   const { playing } = usePlayer()
   const [previewing, setPreviewing] = useState<VoiceId | null>(null)
+  const [recorded, setRecorded] = useState<Set<VoiceId> | null>(null)
 
   useEffect(() => () => previewAudio?.pause(), [])
+  useEffect(() => {
+    void recordedVoices().then(setRecorded, () => setRecorded(new Set(['arin'])))
+  }, [])
+
+  const shown = VOICES.filter((v) => recorded?.has(v.id))
+  // A voice picked earlier but not recorded (yet) plays as 아린, so show 아린 as the choice.
+  const chosen = recorded?.has(settings.storyVoice) ? settings.storyVoice : 'arin'
 
   const preview = (id: VoiceId) => {
     previewAudio?.pause()
@@ -183,8 +191,8 @@ function VoicePicker() {
   return (
     <div className="flex flex-col gap-2">
       <span className="text-[15px]">목소리</span>
-      {VOICES.map((v) => {
-        const on = settings.storyVoice === v.id
+      {shown.map((v) => {
+        const on = chosen === v.id
         return (
           <div key={v.id} className="flex items-center gap-2">
             <button

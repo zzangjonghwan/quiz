@@ -3,15 +3,20 @@
 //
 //   node scripts/draft-stories.mjs            draft every topic that has no draft yet
 //   node scripts/draft-stories.mjs <id> ...   (re)draft the given topics
+//   node scripts/draft-stories.mjs --revise <id> ...
+//                                              edit the current script in content/stories for
+//                                              clarity, keeping its facts and length
 //
 // The key is read from OPENAI_API_KEY, .env.local or ../agent/.env and never written anywhere.
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const OUT = join(ROOT, '.stories', 'drafts')
-const MODEL = 'gpt-5.5'
+// gpt-5.5 wrote the first 18 stories; its 2판 drafts had too many vague or forced sentences.
+const MODEL = 'gpt-6-astra'
+const REASONING = 'high'
 
 export const TOPICS = [
   { id: 'samguk-1', cat: 'samguk', topic: '삼국지 – 도원결의 (그리고 관우가 신이 되어 서울 동묘까지 오게 된 사연)' },
@@ -96,11 +101,12 @@ const STYLE_V2 = `너는 오디오 채널 '상식플러스'의 진행자 겸 작
 흐름
 - 새 내용을 갑자기 꺼내지 마. 앞 이야기에서 다음 이야기로 넘어가는 다리를 꼭 놓아 줘. 예: "그럼 이렇게 길을 나선 바보가 처음 만나는 사람은 누굴까요?"
 - 기승전결. 처음엔 가볍게 말을 걸며 궁금증을 만들고, 중간엔 장면을 그려 주듯 하나씩 보여 주고, 끝에선 정리하고 일상에서 써먹을 한마디를 건네.
-- 설명마다 시험, 연애, 이직, 친구 관계 같은 일상 예시를 곁들여.
+- 일상 예시는 설명이 정말 쉬워질 때만, 꼭 맞는 것 하나만 들어. 시험·연애·이직을 아무 데나 끼운 억지 비유는 금지.
+- 추상적인 말 대신 눈에 그려지는 구체적인 말로 써. 모든 문장은 처음 듣는 사람이 한 번 듣고 바로 알아들어야 해.
 
 말투
 - 라디오 진행자처럼 편하고 다정하게, 해요체. "자,", "그쵸?", "한번 상상해 보세요", "재밌죠?"처럼 청취자에게 말을 거는 말을 자연스럽게 섞어.
-- 교과서나 설명문 말투 금지. 같은 감탄사를 반복하지 마. 문장은 짧게.
+- 교과서나 설명문 말투 금지. 같은 감탄사나 맞장구("그쵸", "재밌죠")를 반복하지 마. 문장은 짧게, 주어와 서술어가 맞게.
 
 시리즈
 - 여러 편으로 이어지는 시리즈의 한 편이면, 첫 문단에서 지난 편을 한두 문장으로 짚어 주고(1편이면 시리즈 소개), 마지막 문단에서 다음 편을 살짝 예고해. 마지막 편이면 시리즈 전체를 한 번 정리해.
@@ -115,6 +121,23 @@ const STYLE_V2 = `너는 오디오 채널 '상식플러스'의 진행자 겸 작
 
 출력은 JSON 하나만: {"sub": "호기심을 끄는 한 줄 부제", "paragraphs": ["…", 7개]}`
 
+/** Editing pass for an existing script: same facts and shape, clearer sentences. */
+const REVISE = `너는 오디오 채널 '상식플러스'의 원고 편집자야. 라디오 진행자가 읽을 원고를 받아서, 처음 듣는 청취자가 한 번 듣고 바로 알아듣도록 고쳐.
+
+고칠 것
+- 뜻이 모호하거나 추상적인 문장. 예: "3에서 나타난 결과를 흩어지지 않게 붙잡으면 4가 돼요" 같은 말은 무엇이 어떻게 된다는 건지 구체적으로 바꿔.
+- 억지 비유와 앞뒤가 안 맞는 예시. 시험·연애·이직·친구 예시를 아무 데나 끼운 곳은 빼거나, 설명이 정말 쉬워지는 꼭 맞는 예 하나로 바꿔.
+- 문법이 어색한 문장, 주어와 서술어가 안 맞는 문장, 뜻 없는 군말("괜히요, 말이에요" 같은 것), 반복되는 맞장구.
+- 문단과 문단 사이가 갑자기 넘어가는 곳에는 자연스러운 연결 문장.
+
+지킬 것
+- 사실, 고유명사, 숫자, 카드 그림 묘사는 바꾸지 마. 새로운 사실을 더하지 마.
+- 정확히 7문단. 공백을 뺀 글자 수 합계 1,000~1,100자. 각 문단의 중심 내용과 순서는 그대로.
+- 편한 해요체, 라디오 진행자 말투. 시리즈의 지난 편 요약과 다음 편 예고는 유지.
+- TTS가 읽을 원고야. 이모지, 괄호, 영어 약어 금지. 숫자는 아라비아 숫자. 따옴표는 ‘ ’ “ ”만.
+
+출력은 JSON 하나만: {"sub": "부제(괜찮으면 그대로)", "paragraphs": ["…", 7개]}`
+
 function apiKey() {
   if (process.env.OPENAI_API_KEY) return process.env.OPENAI_API_KEY
   for (const file of [join(ROOT, '.env.local'), join(ROOT, '..', 'agent', '.env')]) {
@@ -125,35 +148,60 @@ function apiKey() {
   throw new Error('OPENAI_API_KEY를 찾지 못했어요')
 }
 
-async function draft(t, key) {
+async function ask(id, key, system, user) {
   const res = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
     headers: { 'content-type': 'application/json', authorization: `Bearer ${key}` },
     body: JSON.stringify({
       model: MODEL,
+      reasoning_effort: REASONING,
       response_format: { type: 'json_object' },
       messages: [
-        { role: 'system', content: t.style === 2 ? STYLE_V2 : STYLE },
-        { role: 'user', content: `주제: ${t.topic}` },
+        { role: 'system', content: system },
+        { role: 'user', content: user },
       ],
     }),
-    signal: AbortSignal.timeout(300_000),
+    signal: AbortSignal.timeout(600_000),
   })
   const data = await res.json()
-  if (!res.ok) throw new Error(`${t.id}: ${data.error?.message ?? res.status}`)
-  const story = JSON.parse(data.choices[0].message.content)
+  if (!res.ok) throw new Error(`${id}: ${data.error?.message ?? res.status}`)
+  return JSON.parse(data.choices[0].message.content)
+}
+
+async function draft(t, key) {
+  const story = await ask(t.id, key, t.style === 2 ? STYLE_V2 : STYLE, `주제: ${t.topic}`)
   const chars = story.paragraphs.join('').replace(/\s/g, '').length
   writeFileSync(join(OUT, `${t.id}.json`), JSON.stringify({ id: t.id, cat: t.cat, ...story, ...(t.title && { title: t.title }) }, null, 2))
   console.log(`${t.id}: ${t.title ?? story.title} (${story.paragraphs.length}문단, ${chars}자)`)
 }
 
+async function currentStories() {
+  const dir = join(ROOT, 'content', 'stories')
+  const all = []
+  for (const file of readdirSync(dir).filter((f) => f.endsWith('.mjs'))) {
+    all.push(...(await import(pathToFileURL(join(dir, file)).href)).default)
+  }
+  return all
+}
+
+async function revise(story, key) {
+  const user = `제목: ${story.title}\n부제: ${story.sub}\n\n` + story.paragraphs.map((p, i) => `[${i + 1}] ${p}`).join('\n\n')
+  const out = await ask(story.id, key, REVISE, user)
+  const chars = out.paragraphs.join('').replace(/\s/g, '').length
+  writeFileSync(join(OUT, `${story.id}.json`), JSON.stringify({ id: story.id, cat: story.cat, title: story.title, ...out }, null, 2))
+  console.log(`${story.id}: 고침 (${out.paragraphs.length}문단, ${chars}자)`)
+}
+
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   mkdirSync(OUT, { recursive: true })
   const key = apiKey()
-  const ids = process.argv.slice(2)
-  const todo = TOPICS.filter((t) => (ids.length ? ids.includes(t.id) : !existsSync(join(OUT, `${t.id}.json`))))
+  const revising = process.argv[2] === '--revise'
+  const ids = process.argv.slice(revising ? 3 : 2)
+  const todo = revising
+    ? (await currentStories()).filter((s) => ids.includes(s.id))
+    : TOPICS.filter((t) => (ids.length ? ids.includes(t.id) : !existsSync(join(OUT, `${t.id}.json`))))
   for (let i = 0; i < todo.length; i += 6) {
-    const results = await Promise.allSettled(todo.slice(i, i + 6).map((t) => draft(t, key)))
+    const results = await Promise.allSettled(todo.slice(i, i + 6).map((t) => (revising ? revise(t, key) : draft(t, key))))
     for (const r of results) if (r.status === 'rejected') console.error('✗', r.reason.message)
   }
 }
