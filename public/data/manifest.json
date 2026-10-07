@@ -1,5 +1,5 @@
 {
-  "version": 184,
+  "version": 185,
   "files": [
     {
       "category": "idiom",
@@ -779,6 +779,11 @@
     {
       "category": "architecture",
       "file": "architecture.m3.json",
+      "version": 1
+    },
+    {
+      "category": "architecture",
+      "file": "architecture.m4.json",
       "version": 1
     },
     {

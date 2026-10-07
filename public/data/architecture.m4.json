@@ -1,0 +1,510 @@
+{
+  "category": "architecture",
+  "version": 1,
+  "cards": [
+    {
+      "id": "architecture-m4001",
+      "difficulty": "easy",
+      "answer": "사그라다 파밀리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "안토니 가우디가 설계해 1882년 공사를 시작했고 지금도 짓고 있는 바르셀로나의 성당은?",
+          "choices": [
+            "사그라다 파밀리아",
+            "카사 밀라",
+            "몬세라트 수도원",
+            "바르셀로나 대성당"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'성가족 성당'이라는 뜻이에요. 가우디는 공사 도중 전차에 치여 세상을 떠났어요.",
+        "tip": "끝나지 않는 성당"
+      }
+    },
+    {
+      "id": "architecture-m4002",
+      "difficulty": "normal",
+      "answer": "낙수장",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "폭포 바로 위에 지은 집으로 자연과 건축을 하나로 만든 프랭크 로이드 라이트의 주택은?",
+          "choices": [
+            "낙수장",
+            "빌라 사보아",
+            "판스워스 하우스",
+            "글라스 하우스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어 이름은 'Fallingwater'예요. 미국 펜실베이니아주에 있어요.",
+        "tip": "폭포 위의 집"
+      }
+    },
+    {
+      "id": "architecture-m4003",
+      "difficulty": "hard",
+      "answer": "빌라 사보아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "필로티, 옥상 정원, 긴 가로 창 등 '근대 건축의 5원칙'을 담은 르 코르뷔지에의 주택은?",
+          "choices": [
+            "빌라 사보아",
+            "낙수장",
+            "바르셀로나 파빌리온",
+            "유니테 다비타시옹"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파리 근교 푸아시에 있어요. 흰 상자가 기둥 위에 떠 있는 듯한 모습이에요.",
+        "tip": "기둥 위 흰 상자"
+      }
+    },
+    {
+      "id": "architecture-m4004",
+      "difficulty": "normal",
+      "answer": "솔로몬 R. 구겐하임 미술관",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "프랭크 로이드 라이트가 설계해 달팽이처럼 나선형 경사로를 따라 작품을 감상하는 뉴욕의 미술관은?",
+          "choices": [
+            "솔로몬 R. 구겐하임 미술관",
+            "뉴욕 현대 미술관",
+            "휘트니 미술관",
+            "메트로폴리탄 미술관"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "꼭대기까지 엘리베이터로 올라간 뒤 경사로를 따라 걸어 내려오며 봐요.",
+        "tip": "나선형 미술관"
+      }
+    },
+    {
+      "id": "architecture-m4005",
+      "difficulty": "hard",
+      "answer": "크라이슬러 빌딩",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "꼭대기의 반짝이는 왕관 모양 장식으로 유명한 뉴욕의 아르데코 양식 마천루는?",
+          "choices": [
+            "크라이슬러 빌딩",
+            "엠파이어 스테이트 빌딩",
+            "록펠러 센터",
+            "플랫아이언 빌딩"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1930년 완공 때 잠시 세계에서 가장 높은 건물이었어요. 자동차 회사가 주인이었어요.",
+        "tip": "자동차 회사 빌딩"
+      }
+    },
+    {
+      "id": "architecture-m4006",
+      "difficulty": "normal",
+      "answer": "원 월드 트레이드 센터",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "9·11 테러로 무너진 세계 무역 센터 자리에 세워진, 미국 독립 연도를 따 높이를 1,776피트로 맞춘 건물은?",
+          "choices": [
+            "원 월드 트레이드 센터",
+            "엠파이어 스테이트 빌딩",
+            "센트럴 파크 타워",
+            "허드슨 야드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약 541m로 서반구에서 가장 높은 건물이에요.",
+        "tip": "1776"
+      }
+    },
+    {
+      "id": "architecture-m4007",
+      "difficulty": "hard",
+      "answer": "메르데카 118",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2023년 완공되어 두바이의 부르즈 할리파에 이어 세계에서 두 번째로 높은 건물이 된 말레이시아의 마천루는?",
+          "choices": [
+            "메르데카 118",
+            "페트로나스 트윈 타워",
+            "상하이 타워",
+            "롯데월드타워"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "높이 약 679m예요. '메르데카'는 말레이어로 '독립'이라는 뜻이에요.",
+        "tip": "쿠알라룸푸르"
+      }
+    },
+    {
+      "id": "architecture-m4008",
+      "difficulty": "easy",
+      "answer": "노트르담 대성당",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2019년 4월 큰불이 나 첨탑이 무너졌다가 2024년 12월 다시 문을 연 파리의 대성당은?",
+          "choices": [
+            "노트르담 대성당",
+            "사크레쾨르 대성당",
+            "생트샤펠",
+            "샤르트르 대성당"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'우리의 귀부인', 곧 성모 마리아를 뜻해요. 빅토르 위고 소설의 배경이에요.",
+        "tip": "파리의 성모"
+      }
+    },
+    {
+      "id": "architecture-m4009",
+      "difficulty": "normal",
+      "answer": "몽생미셸",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "프랑스 노르망디 앞바다의 작은 바위섬 위에 수도원이 우뚝 선 곳으로, 밀물 때면 섬이 되는 곳은?",
+          "choices": [
+            "몽생미셸",
+            "몽마르트르",
+            "생말로",
+            "카르카손"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "조수 간만의 차가 매우 커서 예전에는 썰물 때만 걸어서 건널 수 있었어요.",
+        "tip": "바다 위 수도원"
+      }
+    },
+    {
+      "id": "architecture-m4010",
+      "difficulty": "hard",
+      "answer": "쾰른 대성당",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1248년 공사를 시작해 600년이 넘은 1880년에야 완공된 독일의 고딕 대성당은?",
+          "choices": [
+            "쾰른 대성당",
+            "밀라노 대성당",
+            "노트르담 대성당",
+            "울름 대성당"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "두 첨탑의 높이가 약 157m예요. 2차 대전 폭격에도 살아남았어요.",
+        "tip": "632년의 공사"
+      }
+    },
+    {
+      "id": "architecture-m4011",
+      "difficulty": "hard",
+      "answer": "술탄 아흐메트 모스크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "튀르키예 이스탄불에 있으며 실내를 푸른 타일 2만여 장으로 꾸며 '블루 모스크'로 불리는 사원은?",
+          "choices": [
+            "술탄 아흐메트 모스크",
+            "아야 소피아",
+            "쉴레이마니예 모스크",
+            "돌마바흐체 궁전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미너렛(뾰족탑)이 6개 있어요. 바로 앞에 아야 소피아가 마주 보고 있어요.",
+        "tip": "파란 타일"
+      }
+    },
+    {
+      "id": "architecture-m4012",
+      "difficulty": "normal",
+      "answer": "포탈라궁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "티베트 라싸의 산 위에 붉고 흰 벽으로 지어진, 달라이 라마가 머물던 궁전은?",
+          "choices": [
+            "포탈라궁",
+            "자금성",
+            "이화원",
+            "앙코르 와트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "해발 약 3,700m에 있는 세계에서 가장 높은 곳의 궁전 가운데 하나예요.",
+        "tip": "하늘 위 궁전"
+      }
+    },
+    {
+      "id": "architecture-m4013",
+      "difficulty": "normal",
+      "answer": "히메지성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "하얀 벽과 겹겹의 지붕이 날개를 편 백로 같다고 해 '백로성'이라 불리는 일본의 성은?",
+          "choices": [
+            "히메지성",
+            "오사카성",
+            "나고야성",
+            "구마모토성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "일본 최초의 유네스코 세계 유산 가운데 하나예요.",
+        "tip": "백로성"
+      }
+    },
+    {
+      "id": "architecture-m4014",
+      "difficulty": "normal",
+      "answer": "보로부두르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인도네시아 자와섬에 있으며 하늘에서 보면 거대한 만다라 모양인 세계 최대의 불교 사원은?",
+          "choices": [
+            "보로부두르",
+            "앙코르 와트",
+            "쉐다곤 파고다",
+            "왓 아룬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "9세기 무렵 지어졌어요. 화산재에 묻혀 있다가 19세기에 다시 알려졌어요.",
+        "tip": "거대한 만다라"
+      }
+    },
+    {
+      "id": "architecture-m4015",
+      "difficulty": "easy",
+      "answer": "구원의 예수상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "브라질 리우데자네이루의 코르코바두산 꼭대기에 두 팔을 벌린 거대한 조각상은?",
+          "choices": [
+            "구원의 예수상",
+            "자유의 여신상",
+            "마더 러시아상",
+            "평화의 예수상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1931년 완공됐어요. 높이 약 30m이고, 신세계 7대 불가사의로 뽑혔어요.",
+        "tip": "두 팔 벌린 예수"
+      }
+    },
+    {
+      "id": "architecture-m4016",
+      "difficulty": "normal",
+      "answer": "브루클린 다리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1883년 개통해 강철 케이블을 쓴 최초의 현수교 가운데 하나로 꼽히는 뉴욕의 다리는?",
+          "choices": [
+            "브루클린 다리",
+            "골든게이트교",
+            "조지 워싱턴 다리",
+            "맨해튼 다리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "설계자 존 로블링이 공사 중 다쳐 숨지자 아들과 며느리가 완성했어요.",
+        "tip": "맨해튼과 브루클린"
+      }
+    },
+    {
+      "id": "architecture-m4017",
+      "difficulty": "normal",
+      "answer": "싼샤 댐",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 큰 수력 발전소가 있는 중국 양쯔강의 댐은?",
+          "choices": [
+            "싼샤 댐",
+            "후버 댐",
+            "이타이푸 댐",
+            "아스완 하이 댐"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'세 개의 협곡'이라는 뜻이에요. 이 댐 때문에 100만 명이 넘는 사람이 이주했어요.",
+        "tip": "세 협곡"
+      }
+    },
+    {
+      "id": "architecture-m4018",
+      "difficulty": "normal",
+      "answer": "팜 주메이라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "두바이 앞바다에 야자나무 모양으로 만든 거대한 인공 섬은?",
+          "choices": [
+            "팜 주메이라",
+            "더 월드",
+            "센토사섬",
+            "마리나 베이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "모래를 바다에 쏟아부어 만들었어요. 우주에서도 모양이 보여요.",
+        "tip": "야자나무 섬"
+      }
+    },
+    {
+      "id": "architecture-m4019",
+      "difficulty": "normal",
+      "answer": "석가탑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "불국사 대웅전 앞에 다보탑과 마주 서 있는 단정한 3층 석탑은?",
+          "choices": [
+            "석가탑",
+            "정림사지 오층 석탑",
+            "감은사지 삼층 석탑",
+            "분황사 모전 석탑"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1966년 탑을 수리하다 세계에서 가장 오래된 목판 인쇄물로 꼽히는 「무구정광대다라니경」이 나왔어요.",
+        "tip": "다보탑의 짝"
+      }
+    },
+    {
+      "id": "architecture-m4020",
+      "difficulty": "hard",
+      "answer": "향원정",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "경복궁 안 연못 가운데 섬에 지은 육각형 정자로, 나무다리 '취향교'로 이어진 것은?",
+          "choices": [
+            "향원정",
+            "경회루",
+            "부용정",
+            "애련정"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'향기가 멀리 퍼진다'는 뜻이에요. 우리나라 최초로 전깃불이 켜진 곳 근처예요.",
+        "tip": "연못 속 육각 정자"
+      }
+    },
+    {
+      "id": "architecture-m4021",
+      "difficulty": "hard",
+      "answer": "창경궁 대온실",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1909년 창경궁에 지어진 우리나라 최초의 서양식 온실은?",
+          "choices": [
+            "창경궁 대온실",
+            "덕수궁 석조전",
+            "정관헌",
+            "운현궁 양관"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "철골과 유리로 지은 건물로, 지금은 국가 등록 문화유산이에요.",
+        "tip": "유리 온실"
+      }
+    },
+    {
+      "id": "architecture-m4022",
+      "difficulty": "easy",
+      "answer": "푸른 기와",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "청와대 본관 지붕을 덮은 기와의 특징으로 '청와대'라는 이름이 나온 것은?",
+          "choices": [
+            "푸른 기와",
+            "금빛 기와",
+            "검은 기와",
+            "하얀 기와"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "청기와 약 15만 장을 한 장씩 구워 얹었어요.",
+        "tip": "청 + 와"
+      }
+    },
+    {
+      "id": "architecture-m4023",
+      "difficulty": "hard",
+      "answer": "아모레퍼시픽 본사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국 건축가 데이비드 치퍼필드가 설계한, 서울 용산의 커다란 정육면체 모양 회사 사옥은?",
+          "choices": [
+            "아모레퍼시픽 본사",
+            "삼성 서초 사옥",
+            "현대카드 본사",
+            "네이버 1784"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "조선 백자 달항아리에서 영감을 받았어요. 가운데가 뻥 뚫려 있어요.",
+        "tip": "달항아리 빌딩"
+      }
+    },
+    {
+      "id": "architecture-m4024",
+      "difficulty": "normal",
+      "answer": "세빛섬",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한강 반포대교 옆 물 위에 떠 있는 세 개의 인공 섬 건물은?",
+          "choices": [
+            "세빛섬",
+            "노들섬",
+            "선유도",
+            "서래섬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물 위에 띄운 부유식 건물이에요. 밤에는 화려한 조명이 켜져요.",
+        "tip": "물 위의 섬"
+      }
+    }
+  ]
+}
