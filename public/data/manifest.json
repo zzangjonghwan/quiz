@@ -1,5 +1,5 @@
 {
-  "version": 187,
+  "version": 188,
   "files": [
     {
       "category": "idiom",
@@ -104,6 +104,11 @@
     {
       "category": "slang",
       "file": "slang.m2.json",
+      "version": 1
+    },
+    {
+      "category": "slang",
+      "file": "slang.m3.json",
       "version": 1
     },
     {
