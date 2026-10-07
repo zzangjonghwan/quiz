@@ -1,0 +1,111 @@
+{
+  "category": "health",
+  "version": 1,
+  "cards": [
+    {
+      "id": "health-m9001",
+      "difficulty": "normal",
+      "answer": "약 600개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람 몸에서 스스로 움직일 수 있는 골격근은 대략 몇 개일까?",
+          "choices": [
+            "약 600개",
+            "약 60개",
+            "약 6,000개",
+            "약 6만 개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몸무게의 40% 안팎이 근육이에요. 나이가 들수록 근육이 줄어 근력 운동이 중요해요.",
+        "tip": "600"
+      }
+    },
+    {
+      "id": "health-m9002",
+      "difficulty": "hard",
+      "answer": "엉덩이 근육(큰볼기근)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람 몸에서 가장 큰 근육은?",
+          "choices": [
+            "엉덩이 근육(큰볼기근)",
+            "허벅지 앞 근육",
+            "가슴 근육",
+            "종아리 근육"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서서 걷고 계단을 오를 때 몸을 받쳐 줘요. 가장 작은 근육은 귓속 등자뼈에 붙은 근육이에요.",
+        "tip": "앉을 때 깔고 앉는"
+      }
+    },
+    {
+      "id": "health-m9003",
+      "difficulty": "normal",
+      "answer": "새벽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "건강한 사람의 체온이 하루 중 가장 낮아지는 때는?",
+          "choices": [
+            "새벽",
+            "한낮",
+            "저녁",
+            "잠들기 직전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "체온은 새벽에 가장 낮고 늦은 오후에 가장 높아요. 하루에 1℃ 안팎 오르내려요.",
+        "tip": "해 뜨기 전"
+      }
+    },
+    {
+      "id": "health-m9004",
+      "difficulty": "hard",
+      "answer": "약 2.5L",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "하루 동안 몸 밖으로 나가는 물의 양(땀, 오줌, 숨 등)은 어른 기준 대략 얼마일까?",
+          "choices": [
+            "약 2.5L",
+            "약 0.5L",
+            "약 10L",
+            "약 20L"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그만큼 음식과 물로 다시 채워야 해요. 음식 속 수분도 1L 가까이 돼요.",
+        "tip": "들어온 만큼 나간다"
+      }
+    },
+    {
+      "id": "health-m9005",
+      "difficulty": "hard",
+      "answer": "약물 과용 두통",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "두통이 있을 때 진통제를 한 달에 보름 넘게 자주 먹으면 생길 수 있는 문제는?",
+          "choices": [
+            "약물 과용 두통",
+            "편두통 완치",
+            "탈모",
+            "시력 향상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약 때문에 오히려 두통이 더 자주 생기는 거예요. 두통이 잦으면 진료를 받는 게 좋아요.",
+        "tip": "약이 부르는 두통"
+      }
+    }
+  ]
+}
