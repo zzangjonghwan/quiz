@@ -1,0 +1,699 @@
+{
+  "category": "figure",
+  "version": 1,
+  "cards": [
+    {
+      "id": "figure-m3001",
+      "difficulty": "normal",
+      "answer": "담징",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고구려의 승려 화가로, 일본에 건너가 종이와 먹 만드는 법을 전하고 호류지 금당 벽화를 그렸다고 전하는 인물은?",
+          "choices": [
+            "담징",
+            "왕인",
+            "혜자",
+            "아직기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "610년 무렵 일본에 건너갔다고 해요. 금당 벽화는 1949년 화재로 크게 손상됐어요.",
+        "tip": "호류지 금당 벽화"
+      }
+    },
+    {
+      "id": "figure-m3002",
+      "difficulty": "normal",
+      "answer": "설총",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "원효의 아들로, 한자를 빌려 우리말을 적는 '이두'를 정리했다고 전하는 신라의 학자는?",
+          "choices": [
+            "설총",
+            "강수",
+            "최치원",
+            "김대문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원효와 요석 공주의 아들이에요. 「화왕계」라는 글로 신문왕에게 바른 정치를 권했어요.",
+        "tip": "원효의 아들"
+      }
+    },
+    {
+      "id": "figure-m3003",
+      "difficulty": "hard",
+      "answer": "의천",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고려 문종의 아들로 송나라에서 공부하고 돌아와 천태종을 연 승려는?",
+          "choices": [
+            "의천",
+            "지눌",
+            "일연",
+            "균여"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대각 국사로 불려요. 불교 경전 해설서를 모아 「교장」을 펴냈어요.",
+        "tip": "대각 국사"
+      }
+    },
+    {
+      "id": "figure-m3004",
+      "difficulty": "hard",
+      "answer": "지눌",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'돈오점수'와 '정혜쌍수'를 주장하며 송광사에서 수선사 결사를 이끈 고려의 승려는?",
+          "choices": [
+            "지눌",
+            "의천",
+            "일연",
+            "요세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "단번에 깨닫고 꾸준히 닦아야 한다고 했어요. 보조 국사로 불려요.",
+        "tip": "보조 국사"
+      }
+    },
+    {
+      "id": "figure-m3005",
+      "difficulty": "easy",
+      "answer": "온달",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고구려 평원왕의 딸과 결혼해 장수가 된 '바보'로 알려진 인물은?",
+          "choices": [
+            "온달",
+            "을지문덕",
+            "연개소문",
+            "양만춘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "평강 공주가 '울보'였을 때 왕이 \"온달에게 시집보내겠다\"고 놀린 일이 실제 결혼으로 이어졌다는 이야기예요.",
+        "tip": "평강 공주의 남편"
+      }
+    },
+    {
+      "id": "figure-m3006",
+      "difficulty": "normal",
+      "answer": "이차돈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "신라 법흥왕 때 불교를 인정받으려고 순교하자 흰 피가 솟았다는 전설이 있는 인물은?",
+          "choices": [
+            "이차돈",
+            "원광",
+            "자장",
+            "아도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그 뒤 신라가 불교를 공인했어요.",
+        "tip": "흰 피의 순교"
+      }
+    },
+    {
+      "id": "figure-m3007",
+      "difficulty": "normal",
+      "answer": "맹사성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "소를 타고 다니며 피리를 불었다는 청렴한 재상으로, 황희와 함께 세종을 보좌한 인물은?",
+          "choices": [
+            "맹사성",
+            "황희",
+            "김종서",
+            "신숙주"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "높은 벼슬에도 검소하게 살아 '청백리'로 꼽혀요.",
+        "tip": "소 탄 정승"
+      }
+    },
+    {
+      "id": "figure-m3008",
+      "difficulty": "normal",
+      "answer": "김종서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세종 때 6진을 개척해 두만강 국경을 지키고, 계유정난 때 세조 세력에게 죽임을 당한 장군은?",
+          "choices": [
+            "김종서",
+            "최윤덕",
+            "이종무",
+            "황희"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'큰 호랑이(대호)'라는 별명이 있었어요.",
+        "tip": "대호 김종서"
+      }
+    },
+    {
+      "id": "figure-m3009",
+      "difficulty": "normal",
+      "answer": "무학 대사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이성계의 스승으로 한양 도읍을 정하는 데 도움을 줬다고 전하는 승려는?",
+          "choices": [
+            "무학 대사",
+            "사명 대사",
+            "서산 대사",
+            "의천"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서울 '왕십리'라는 지명이 그와 관련된 전설에서 나왔다고 전해요.",
+        "tip": "왕십리 전설"
+      }
+    },
+    {
+      "id": "figure-m3010",
+      "difficulty": "normal",
+      "answer": "서산 대사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "임진왜란 때 70이 넘은 나이로 승병을 일으킨 승려로, 사명 대사의 스승은?",
+          "choices": [
+            "서산 대사",
+            "무학 대사",
+            "의천",
+            "지눌"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "휴정이라고도 해요. 전국의 승려들에게 나라를 구하자는 글을 보냈어요.",
+        "tip": "휴정"
+      }
+    },
+    {
+      "id": "figure-m3011",
+      "difficulty": "normal",
+      "answer": "윤선도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「어부사시사」를 지어 사계절 어부의 삶을 노래한 조선 시인은?",
+          "choices": [
+            "윤선도",
+            "정철",
+            "박인로",
+            "송순"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "전남 보길도에 정원 '부용동'을 꾸미고 살았어요. 해남 녹우당이 집안의 고택이에요.",
+        "tip": "보길도의 시인"
+      }
+    },
+    {
+      "id": "figure-m3012",
+      "difficulty": "hard",
+      "answer": "송시열",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 후기 서인(노론)의 우두머리로, 「조선왕조실록」에 이름이 3,000번 넘게 나온다는 학자는?",
+          "choices": [
+            "송시열",
+            "허목",
+            "윤휴",
+            "김장생"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "예송 논쟁 등 정치 논쟁의 중심에 있었어요. 숙종 때 사약을 받았어요.",
+        "tip": "실록 최다 등장 인물"
+      }
+    },
+    {
+      "id": "figure-m3013",
+      "difficulty": "hard",
+      "answer": "유득공",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'발해'의 역사를 우리 역사로 다뤄야 한다며 「발해고」를 쓴 조선 후기 학자는?",
+          "choices": [
+            "유득공",
+            "박제가",
+            "이덕무",
+            "안정복"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "통일 신라와 발해를 '남북국'으로 처음 부른 사람으로 꼽혀요.",
+        "tip": "남북국 시대"
+      }
+    },
+    {
+      "id": "figure-m3014",
+      "difficulty": "hard",
+      "answer": "김육",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대동법을 충청도와 전라도로 넓히는 데 평생을 바친 조선 효종 때의 정승은?",
+          "choices": [
+            "김육",
+            "이원익",
+            "조광조",
+            "채제공"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "수레와 화폐 사용을 늘리자는 주장도 했어요.",
+        "tip": "대동법의 아버지"
+      }
+    },
+    {
+      "id": "figure-m3015",
+      "difficulty": "hard",
+      "answer": "채제공",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "정조의 신임을 받은 남인 재상으로, 시전 상인의 특권을 줄인 신해통공을 이끈 인물은?",
+          "choices": [
+            "채제공",
+            "김육",
+            "송시열",
+            "정약용"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "수원 화성 축성의 총책임자이기도 했어요.",
+        "tip": "화성 축성 총책임"
+      }
+    },
+    {
+      "id": "figure-m3016",
+      "difficulty": "normal",
+      "answer": "논개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "진주성이 함락된 뒤 일본 장수를 안고 남강에 뛰어들었다고 전하는 의로운 여성은?",
+          "choices": [
+            "논개",
+            "계월향",
+            "김만덕",
+            "황진이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "진주 촉석루 아래 바위를 '의암'이라 불러요.",
+        "tip": "촉석루 의암"
+      }
+    },
+    {
+      "id": "figure-m3017",
+      "difficulty": "normal",
+      "answer": "이준",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1907년 헤이그 만국 평화 회의에 특사로 갔다가 그곳에서 세상을 떠난 인물은?",
+          "choices": [
+            "이준",
+            "이상설",
+            "이위종",
+            "안중근"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이상설, 이위종과 함께 갔지만 회의에 참석하지 못했어요. 헤이그에 이준 열사 기념관이 있어요.",
+        "tip": "헤이그 특사"
+      }
+    },
+    {
+      "id": "figure-m3018",
+      "difficulty": "hard",
+      "answer": "최익현",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "을사늑약에 반대해 의병을 일으키고, 일본 땅 쓰시마에서 단식 끝에 세상을 떠난 유학자는?",
+          "choices": [
+            "최익현",
+            "신돌석",
+            "유인석",
+            "민영환"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'내 목을 자를지언정 머리카락은 자를 수 없다'며 단발령에도 반대했어요.",
+        "tip": "쓰시마의 단식"
+      }
+    },
+    {
+      "id": "figure-m3019",
+      "difficulty": "hard",
+      "answer": "신돌석",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'태백산 호랑이'로 불린 평민 출신 의병장은?",
+          "choices": [
+            "신돌석",
+            "최익현",
+            "홍범도",
+            "유인석"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "을사의병 때 경북 영해에서 의병을 일으켰어요. 양반이 아닌 평민 의병장으로 유명해요.",
+        "tip": "평민 의병장"
+      }
+    },
+    {
+      "id": "figure-m3020",
+      "difficulty": "normal",
+      "answer": "나혜석",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 최초의 여성 서양화가로, 여성 해방을 주장한 글도 남긴 인물은?",
+          "choices": [
+            "나혜석",
+            "천경자",
+            "김일엽",
+            "윤심덕"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1921년 서울에서 처음으로 유화 개인전을 열었어요.",
+        "tip": "최초의 여성 서양화가"
+      }
+    },
+    {
+      "id": "figure-m3021",
+      "difficulty": "hard",
+      "answer": "권기옥",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국 최초의 여성 비행사로, 독립운동에 참여하고 중국 공군에서도 활약한 인물은?",
+          "choices": [
+            "권기옥",
+            "박경원",
+            "남자현",
+            "김마리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대한민국 임시 정부와 함께 독립운동을 했어요.",
+        "tip": "하늘의 독립운동가"
+      }
+    },
+    {
+      "id": "figure-m3022",
+      "difficulty": "hard",
+      "answer": "프랭크 스코필드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에 와서 독립운동을 돕고, 1919년 제암리 학살을 사진과 글로 세계에 알린 캐나다 출신 의사는?",
+          "choices": [
+            "프랭크 스코필드",
+            "호머 헐버트",
+            "어니스트 베델",
+            "알렌"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'석호필'이라는 한국 이름을 썼어요. 외국인으로는 처음으로 국립 서울 현충원에 묻혔어요.",
+        "tip": "34번째 민족 대표"
+      }
+    },
+    {
+      "id": "figure-m3023",
+      "difficulty": "hard",
+      "answer": "호머 헐버트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'나는 웨스트민스터 사원보다 한국 땅에 묻히기를 원한다'고 말한 미국인 독립운동가로, 한글의 우수성을 세계에 알린 사람은?",
+          "choices": [
+            "호머 헐버트",
+            "프랭크 스코필드",
+            "어니스트 베델",
+            "언더우드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "헤이그 특사 파견도 도왔어요. 서울 양화진 외국인 묘지에 잠들어 있어요.",
+        "tip": "양화진에 잠든 미국인"
+      }
+    },
+    {
+      "id": "figure-m3024",
+      "difficulty": "hard",
+      "answer": "어니스트 베델",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국 언론인으로 「대한매일신보」를 창간해 일제의 침략을 비판한 사람은?",
+          "choices": [
+            "어니스트 베델",
+            "호머 헐버트",
+            "프랭크 스코필드",
+            "아펜젤러"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한국 이름은 배설이에요. 양기탁과 함께 신문을 만들었어요.",
+        "tip": "배설"
+      }
+    },
+    {
+      "id": "figure-m3025",
+      "difficulty": "hard",
+      "answer": "여운형",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "광복 직후 좌우 합작 운동을 이끌다 1947년 암살된 정치인은?",
+          "choices": [
+            "여운형",
+            "김구",
+            "조만식",
+            "송진우"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "조선 건국 준비 위원회를 이끌었어요. 호는 몽양이에요.",
+        "tip": "몽양"
+      }
+    },
+    {
+      "id": "figure-m3026",
+      "difficulty": "normal",
+      "answer": "조만식",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'조선의 간디'로 불리며 물산 장려 운동을 이끈 평양의 민족 지도자는?",
+          "choices": [
+            "조만식",
+            "안창호",
+            "이승훈",
+            "여운형"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "광복 뒤 북한에서 신탁 통치에 반대하다 감금됐어요.",
+        "tip": "조선의 간디"
+      }
+    },
+    {
+      "id": "figure-m3027",
+      "difficulty": "hard",
+      "answer": "이범석",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "청산리 전투에서 김좌진과 함께 싸우고 뒤에 한국광복군 참모장을 지낸 독립운동가는?",
+          "choices": [
+            "이범석",
+            "지청천",
+            "김원봉",
+            "홍범도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "광복 뒤 대한민국 초대 국무총리가 됐어요.",
+        "tip": "초대 국무총리"
+      }
+    },
+    {
+      "id": "figure-m3028",
+      "difficulty": "easy",
+      "answer": "법정",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'무소유'라는 책으로 많은 사람에게 울림을 준 승려는?",
+          "choices": [
+            "법정",
+            "성철",
+            "혜민",
+            "청화"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "\"필요한 것만 가지라\"는 가르침을 남겼어요. 유언에 따라 책을 더 이상 찍지 않게 했어요.",
+        "tip": "무소유"
+      }
+    },
+    {
+      "id": "figure-m3029",
+      "difficulty": "normal",
+      "answer": "성철",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "\"산은 산이요 물은 물이로다\"라는 법어로 유명한 조계종 종정은?",
+          "choices": [
+            "성철",
+            "법정",
+            "경허",
+            "만공"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "8년 동안 눕지 않고 수행했다는 '장좌불와'로도 유명해요.",
+        "tip": "산은 산, 물은 물"
+      }
+    },
+    {
+      "id": "figure-m3030",
+      "difficulty": "normal",
+      "answer": "장기려",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "6·25 전쟁 뒤 부산에 무료 병원을 세우고 평생 가난한 환자를 돌봐 '한국의 슈바이처'로 불린 의사는?",
+          "choices": [
+            "장기려",
+            "이태석",
+            "이종욱",
+            "우장춘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한국 최초의 의료 보험 조합인 '청십자 의료 조합'을 만들었어요.",
+        "tip": "바보 의사"
+      }
+    },
+    {
+      "id": "figure-m3031",
+      "difficulty": "normal",
+      "answer": "이종욱",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국인 최초로 세계 보건 기구(WHO) 사무총장을 지낸 사람은?",
+          "choices": [
+            "이종욱",
+            "반기문",
+            "장기려",
+            "이태석"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'아시아의 슈바이처'로 불렸고, 2006년 임기 중 세상을 떠났어요.",
+        "tip": "WHO 사무총장"
+      }
+    },
+    {
+      "id": "figure-m3032",
+      "difficulty": "easy",
+      "answer": "반기문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국인 최초로 유엔(UN) 사무총장을 지낸 사람은?",
+          "choices": [
+            "반기문",
+            "이종욱",
+            "한승수",
+            "김용"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2007년부터 2016년까지 10년 동안 맡았어요.",
+        "tip": "제8대 UN 사무총장"
+      }
+    },
+    {
+      "id": "figure-m3033",
+      "difficulty": "hard",
+      "answer": "김용",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국계 미국인으로, 세계은행 총재를 지낸 사람은?",
+          "choices": [
+            "김용",
+            "반기문",
+            "이종욱",
+            "강경화"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "의사 출신으로 다트머스 대학 총장을 지낸 뒤 2012년 세계은행 총재가 됐어요.",
+        "tip": "세계은행 총재"
+      }
+    }
+  ]
+}
