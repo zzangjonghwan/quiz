@@ -1,0 +1,573 @@
+{
+  "category": "science",
+  "version": 1,
+  "cards": [
+    {
+      "id": "science-m8001",
+      "difficulty": "normal",
+      "answer": "대류권",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "구름과 비, 눈 같은 날씨 변화가 대부분 일어나는 대기의 가장 아래층은?",
+          "choices": [
+            "대류권",
+            "성층권",
+            "중간권",
+            "열권"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "높이 올라갈수록 기온이 낮아져 공기가 위아래로 섞여요. 비행기는 주로 대류권 꼭대기나 성층권 아래쪽을 날아요.",
+        "tip": "날씨가 사는 층"
+      }
+    },
+    {
+      "id": "science-m8002",
+      "difficulty": "normal",
+      "answer": "적란운",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "수직으로 높이 솟아 천둥, 번개, 소나기, 우박을 몰고 오는 구름은?",
+          "choices": [
+            "적란운",
+            "권운",
+            "층운",
+            "고적운"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'쌘비구름'이라고도 해요. 꼭대기가 모루 모양으로 넓게 퍼지기도 해요.",
+        "tip": "소나기구름"
+      }
+    },
+    {
+      "id": "science-m8003",
+      "difficulty": "easy",
+      "answer": "태풍의 눈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태풍 한가운데 바람이 약하고 하늘이 맑은 곳을 뭐라고 할까?",
+          "choices": [
+            "태풍의 눈",
+            "태풍의 꼬리",
+            "태풍의 심장",
+            "태풍의 귀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "눈이 지나간 뒤 반대 방향에서 다시 강한 바람이 불어와 조심해야 해요.",
+        "tip": "고요한 중심"
+      }
+    },
+    {
+      "id": "science-m8004",
+      "difficulty": "normal",
+      "answer": "라니냐",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "동태평양 적도 바닷물 온도가 평소보다 낮아지는 현상으로, 엘니뇨와 반대되는 것은?",
+          "choices": [
+            "라니냐",
+            "몬순",
+            "푄",
+            "제트 기류"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스페인어로 '여자아이'라는 뜻이에요. 엘니뇨는 '남자아이'라는 뜻이에요.",
+        "tip": "엘니뇨의 반대"
+      }
+    },
+    {
+      "id": "science-m8005",
+      "difficulty": "normal",
+      "answer": "판 구조론",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지구 겉면이 여러 개의 큰 판으로 나뉘어 천천히 움직이며 지진과 화산을 일으킨다는 이론은?",
+          "choices": [
+            "판 구조론",
+            "빅뱅 이론",
+            "진화론",
+            "천동설"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "판끼리 부딪치는 곳에 히말라야 같은 높은 산맥이 생겨요.",
+        "tip": "움직이는 땅"
+      }
+    },
+    {
+      "id": "science-m8006",
+      "difficulty": "hard",
+      "answer": "제트 기류",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "하늘 높은 곳에서 서쪽에서 동쪽으로 빠르게 부는 강한 바람의 띠로, 비행기 운항 시간에도 영향을 주는 것은?",
+          "choices": [
+            "제트 기류",
+            "무역풍",
+            "계절풍",
+            "해륙풍"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그래서 우리나라에서 미국으로 갈 때가 올 때보다 비행시간이 짧아요.",
+        "tip": "갈 때가 빠른 이유"
+      }
+    },
+    {
+      "id": "science-m8007",
+      "difficulty": "hard",
+      "answer": "해륙풍",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "낮에는 바다에서 육지로, 밤에는 육지에서 바다로 부는 바닷가의 바람은?",
+          "choices": [
+            "해륙풍",
+            "계절풍",
+            "편서풍",
+            "높새바람"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "육지가 바다보다 빨리 데워지고 빨리 식어서 생겨요.",
+        "tip": "낮엔 해풍, 밤엔 육풍"
+      }
+    },
+    {
+      "id": "science-m8008",
+      "difficulty": "easy",
+      "answer": "월식",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지구의 그림자에 달이 가려지는 현상은?",
+          "choices": [
+            "월식",
+            "일식",
+            "삭",
+            "상현"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태양-지구-달이 일직선이 될 때 보름달에서 일어나요. 개기 월식 때 달은 붉게 보여요.",
+        "tip": "붉은 달"
+      }
+    },
+    {
+      "id": "science-m8009",
+      "difficulty": "easy",
+      "answer": "보름달",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "음력 15일 무렵 해가 진 뒤 동쪽 하늘에 떠서 밤새 보이는 달은?",
+          "choices": [
+            "보름달",
+            "초승달",
+            "그믐달",
+            "상현달"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태양-지구-달 순서로 늘어설 때 달의 앞면 전체가 햇빛을 받아요.",
+        "tip": "음력 15일"
+      }
+    },
+    {
+      "id": "science-m8010",
+      "difficulty": "normal",
+      "answer": "핼리 혜성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "약 76년마다 지구 가까이 찾아오는 유명한 혜성으로, 다음 방문이 2061년으로 예상되는 것은?",
+          "choices": [
+            "핼리 혜성",
+            "헤일밥 혜성",
+            "시메이커-레비 혜성",
+            "네오와이즈 혜성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국 천문학자 핼리가 돌아올 때를 처음 예측했어요. 마지막으로 1986년에 왔어요.",
+        "tip": "76년 주기"
+      }
+    },
+    {
+      "id": "science-m8011",
+      "difficulty": "hard",
+      "answer": "페르세우스자리 유성우",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해마다 8월 중순 무렵 가장 많이 쏟아져 여름밤 별똥별 구경에 좋은 유성우는?",
+          "choices": [
+            "페르세우스자리 유성우",
+            "쌍둥이자리 유성우",
+            "사자자리 유성우",
+            "사분의자리 유성우"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스위프트-터틀 혜성이 남긴 부스러기 사이를 지구가 지나며 생겨요.",
+        "tip": "여름 별똥별"
+      }
+    },
+    {
+      "id": "science-m8012",
+      "difficulty": "normal",
+      "answer": "흑점",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양 표면에서 주변보다 온도가 낮아 검게 보이는 점은?",
+          "choices": [
+            "흑점",
+            "홍염",
+            "코로나",
+            "쌀알 무늬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약 11년 주기로 많아졌다 적어졌다 해요. 많을 때 오로라도 잘 생겨요.",
+        "tip": "태양의 주근깨"
+      }
+    },
+    {
+      "id": "science-m8013",
+      "difficulty": "normal",
+      "answer": "약 138억 년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "빅뱅 이후 지금까지 우주의 나이는 약 얼마로 추정될까?",
+          "choices": [
+            "약 138억 년",
+            "약 46억 년",
+            "약 1억 년",
+            "약 1,000억 년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지구와 태양의 나이는 약 46억 년이에요.",
+        "tip": "138억"
+      }
+    },
+    {
+      "id": "science-m8014",
+      "difficulty": "normal",
+      "answer": "대적점",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "목성 표면에서 수백 년째 몰아치고 있는 거대한 소용돌이 폭풍은?",
+          "choices": [
+            "대적점",
+            "대흑점",
+            "극관",
+            "고리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지구가 통째로 들어갈 만큼 커요. 최근에는 크기가 조금씩 줄고 있어요.",
+        "tip": "붉은 큰 점"
+      }
+    },
+    {
+      "id": "science-m8015",
+      "difficulty": "normal",
+      "answer": "토성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "밀도가 물보다 작아 '커다란 욕조가 있다면 물에 뜰 행성'으로 불리는 행성은?",
+          "choices": [
+            "토성",
+            "목성",
+            "해왕성",
+            "수성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "주로 수소와 헬륨으로 된 가스 행성이라 아주 가벼워요.",
+        "tip": "물에 뜨는 행성"
+      }
+    },
+    {
+      "id": "science-m8016",
+      "difficulty": "hard",
+      "answer": "천왕성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자전축이 거의 옆으로 누워 굴러가듯 태양을 도는 행성은?",
+          "choices": [
+            "천왕성",
+            "해왕성",
+            "금성",
+            "화성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자전축이 약 98도 기울어 있어요. 아주 먼 옛날 큰 천체와 부딪혔기 때문이라고 봐요.",
+        "tip": "누워서 도는 행성"
+      }
+    },
+    {
+      "id": "science-m8017",
+      "difficulty": "normal",
+      "answer": "허블 우주 망원경",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1990년 우주로 올라가 우주 사진을 수없이 찍어 보낸 미국의 우주 망원경은?",
+          "choices": [
+            "허블 우주 망원경",
+            "제임스 웹 우주 망원경",
+            "케플러 우주 망원경",
+            "스피처 우주 망원경"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "처음엔 거울이 잘못 깎여 흐린 사진만 보냈다가 우주에서 수리했어요. 우주가 팽창한다는 걸 밝힌 천문학자 허블의 이름을 땄어요.",
+        "tip": "30년 넘은 망원경"
+      }
+    },
+    {
+      "id": "science-m8018",
+      "difficulty": "hard",
+      "answer": "고요의 바다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1969년 아폴로 11호로 사람이 처음 달에 내린 곳의 이름은?",
+          "choices": [
+            "고요의 바다",
+            "비의 바다",
+            "폭풍의 대양",
+            "맑음의 바다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "달의 '바다'는 물이 아니라 어두운 현무암 평원이에요.",
+        "tip": "물 없는 바다"
+      }
+    },
+    {
+      "id": "science-m8019",
+      "difficulty": "normal",
+      "answer": "초록 색소가 분해되며 다른 색소가 드러나서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "가을에 나뭇잎이 노랗거나 붉게 물드는 주된 이유는?",
+          "choices": [
+            "초록 색소가 분해되며 다른 색소가 드러나서",
+            "나뭇잎이 강한 햇볕에 타 버려서",
+            "차가운 빗물이 잎의 색을 바꿔서",
+            "벌레가 잎을 갉아 상처가 나서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노란 색소는 원래 잎에 있었고, 붉은 색소는 가을에 새로 만들어져요.",
+        "tip": "숨어 있던 색"
+      }
+    },
+    {
+      "id": "science-m8020",
+      "difficulty": "easy",
+      "answer": "나이테",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "나무를 가로로 잘랐을 때 보이는 동그란 무늬로 나이를 알 수 있는 것은?",
+          "choices": [
+            "나이테",
+            "물관",
+            "껍질눈",
+            "마디"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "봄·여름에 자란 부분은 연하고 넓게, 가을에 자란 부분은 진하고 좁게 생겨 한 해에 한 줄씩 생겨요.",
+        "tip": "1년에 한 줄"
+      }
+    },
+    {
+      "id": "science-m8021",
+      "difficulty": "normal",
+      "answer": "잎",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "선인장의 가시는 원래 식물의 어떤 부분이 바뀐 것일까?",
+          "choices": [
+            "잎",
+            "뿌리",
+            "꽃",
+            "열매"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물이 빠져나가지 않게 잎을 가시로 바꾸고, 줄기에서 광합성을 해요.",
+        "tip": "사막에서 살아남기"
+      }
+    },
+    {
+      "id": "science-m8022",
+      "difficulty": "normal",
+      "answer": "파리지옥",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "잎이 덫처럼 닫혀 곤충을 잡아 소화하는 식물은?",
+          "choices": [
+            "파리지옥",
+            "끈끈이주걱",
+            "벌레잡이통풀",
+            "미모사"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "감각털을 짧은 시간에 두 번 건드려야 닫혀요. 쓸데없이 닫히는 걸 막으려는 거예요.",
+        "tip": "두 번 건드리면 철컥"
+      }
+    },
+    {
+      "id": "science-m8023",
+      "difficulty": "normal",
+      "answer": "풀(볏과 식물)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대나무는 나무일까, 풀일까?",
+          "choices": [
+            "풀(볏과 식물)",
+            "나무(활엽수)",
+            "나무(침엽수)",
+            "버섯의 한 종류"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "줄기가 단단하지만 나이테가 없고 부피가 굵어지지 않아 풀로 분류해요. 하루에 1m 가까이 자라기도 해요.",
+        "tip": "나이테가 없다"
+      }
+    },
+    {
+      "id": "science-m8024",
+      "difficulty": "normal",
+      "answer": "균류",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "버섯과 곰팡이는 어느 무리에 속할까?",
+          "choices": [
+            "균류",
+            "식물",
+            "동물",
+            "세균"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "광합성을 하지 않고 다른 생물이나 죽은 것을 분해해 양분을 얻어요. 유전적으로는 식물보다 동물에 더 가까워요.",
+        "tip": "식물이 아니에요"
+      }
+    },
+    {
+      "id": "science-m8025",
+      "difficulty": "normal",
+      "answer": "미모사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "건드리면 잎을 오므리고 고개를 숙여 '신경초'라고도 불리는 식물은?",
+          "choices": [
+            "미모사",
+            "파리지옥",
+            "해바라기",
+            "토끼풀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "잎자루 밑의 세포가 물을 빼며 순식간에 움직여요.",
+        "tip": "부끄럼쟁이 풀"
+      }
+    },
+    {
+      "id": "science-m8026",
+      "difficulty": "hard",
+      "answer": "꽃이 피기 전 어린 시기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해바라기가 해를 따라 고개를 돌리는 모습은 언제 주로 볼 수 있을까?",
+          "choices": [
+            "꽃이 피기 전 어린 시기",
+            "꽃이 활짝 핀 뒤",
+            "씨가 다 익은 뒤",
+            "평생 내내"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "어릴 때는 해를 따라 움직이지만 꽃이 핀 뒤에는 대부분 동쪽을 향해 멈춰요.",
+        "tip": "어릴 때만"
+      }
+    },
+    {
+      "id": "science-m8027",
+      "difficulty": "hard",
+      "answer": "뽕나무버섯 균사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 큰 생물 가운데 하나로 꼽히며, 미국 오리건주 숲 땅 밑에 넓게 퍼져 있는 것은?",
+          "choices": [
+            "뽕나무버섯 균사",
+            "세쿼이아 나무",
+            "대왕고래",
+            "대왕오징어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "땅속 균사가 약 9km²에 걸쳐 퍼져 있다고 해요. 나이는 수천 년으로 추정해요.",
+        "tip": "땅속 거인"
+      }
+    }
+  ]
+}
