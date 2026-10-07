@@ -1,9 +1,14 @@
 {
-  "version": 29,
+  "version": 34,
   "files": [
     {
       "category": "idiom",
       "file": "idiom.json",
+      "version": 1
+    },
+    {
+      "category": "idiom",
+      "file": "idiom.m.json",
       "version": 1
     },
     {
@@ -12,8 +17,18 @@
       "version": 1
     },
     {
+      "category": "proverb",
+      "file": "proverb.m.json",
+      "version": 1
+    },
+    {
       "category": "korean",
       "file": "korean.json",
+      "version": 1
+    },
+    {
+      "category": "korean",
+      "file": "korean.m.json",
       "version": 1
     },
     {
@@ -22,8 +37,18 @@
       "version": 1
     },
     {
+      "category": "slang",
+      "file": "slang.m.json",
+      "version": 1
+    },
+    {
       "category": "loanword",
       "file": "loanword.json",
+      "version": 1
+    },
+    {
+      "category": "loanword",
+      "file": "loanword.m.json",
       "version": 1
     },
     {
