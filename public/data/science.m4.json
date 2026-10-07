@@ -1,0 +1,930 @@
+{
+  "category": "science",
+  "version": 1,
+  "cards": [
+    {
+      "id": "science-m4001",
+      "difficulty": "normal",
+      "answer": "멘델레예프",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "원소 주기율표를 처음 만들어, 아직 발견되지 않은 원소의 자리까지 비워 둔 러시아 화학자는?",
+          "choices": [
+            "멘델레예프",
+            "라부아지에",
+            "돌턴",
+            "보어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1869년 원소를 원자량 순서로 늘어놓고 성질이 비슷한 것끼리 묶었어요. 비워 둔 자리의 원소들이 뒤에 실제로 발견됐어요.",
+        "tip": "빈칸까지 예언한 표"
+      }
+    },
+    {
+      "id": "science-m4002",
+      "difficulty": "easy",
+      "answer": "헬륨",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "풍선을 띄우는 데 쓰이며, 들이마시면 목소리가 높게 변하는 가벼운 기체는?",
+          "choices": [
+            "헬륨",
+            "수소",
+            "네온",
+            "아르곤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "소리가 헬륨 속에서 더 빨리 퍼져 목소리 톤이 높게 들려요. 불에 타지 않아 수소보다 안전해요.",
+        "tip": "오리 목소리"
+      }
+    },
+    {
+      "id": "science-m4003",
+      "difficulty": "normal",
+      "answer": "네온",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "간판에 넣어 전기를 흘리면 붉은 주황빛을 내는 기체로, '네온사인'의 이름이 된 원소는?",
+          "choices": [
+            "네온",
+            "헬륨",
+            "아르곤",
+            "크립톤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "네온 자체는 붉은빛을 내요. 다른 색 간판은 다른 기체나 형광 물질을 써요.",
+        "tip": "빨간 간판 불빛"
+      }
+    },
+    {
+      "id": "science-m4004",
+      "difficulty": "normal",
+      "answer": "나트륨",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "원소 기호 'Na'가 가리키는 원소는?",
+          "choices": [
+            "나트륨",
+            "네온",
+            "니켈",
+            "질소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "소듐이라고도 해요. 소금(염화 나트륨)의 성분이에요. 질소는 N, 니켈은 Ni예요.",
+        "tip": "NaCl의 Na"
+      }
+    },
+    {
+      "id": "science-m4005",
+      "difficulty": "normal",
+      "answer": "흑연",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "연필심의 주재료로, 다이아몬드와 같은 원소로 이뤄진 물질은?",
+          "choices": [
+            "흑연",
+            "납",
+            "숯",
+            "석탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다이아몬드와 흑연은 둘 다 탄소지만 원자 배열이 달라 성질이 전혀 달라요. 연필심에는 납이 없어요.",
+        "tip": "탄소 형제"
+      }
+    },
+    {
+      "id": "science-m4006",
+      "difficulty": "hard",
+      "answer": "동소체",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "같은 원소로 이뤄졌지만 원자 배열이 달라 성질이 다른 물질끼리의 관계는?",
+          "choices": [
+            "동소체",
+            "동위 원소",
+            "이성질체",
+            "혼합물"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다이아몬드와 흑연, 산소와 오존이 동소체예요. 양성자 수는 같고 중성자 수가 다른 원자는 동위 원소예요.",
+        "tip": "같은 재료 다른 배열"
+      }
+    },
+    {
+      "id": "science-m4007",
+      "difficulty": "normal",
+      "answer": "오존",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "산소 원자 3개가 결합한 기체로, 높은 하늘에서 자외선을 막아 주는 것은?",
+          "choices": [
+            "오존",
+            "이산화 탄소",
+            "메테인",
+            "질소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "성층권의 오존층이 해로운 자외선을 흡수해요. 땅 가까이 많으면 오히려 몸에 해로워요.",
+        "tip": "O₃"
+      }
+    },
+    {
+      "id": "science-m4008",
+      "difficulty": "easy",
+      "answer": "질소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "과자 봉지 안을 부풀리는 데 주로 넣는 기체는?",
+          "choices": [
+            "질소",
+            "산소",
+            "헬륨",
+            "이산화 탄소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "질소는 다른 물질과 잘 반응하지 않아 과자가 눅눅해지거나 산화되는 것을 막아요. 부서지는 것도 막아 줘요.",
+        "tip": "질소 과자"
+      }
+    },
+    {
+      "id": "science-m4009",
+      "difficulty": "easy",
+      "answer": "물",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "수소 2개와 산소 1개가 결합한 물질은?",
+          "choices": [
+            "물",
+            "과산화 수소",
+            "소금",
+            "오존"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "화학식은 H₂O예요. 과산화 수소는 H₂O₂로, 상처 소독약으로 써요.",
+        "tip": "H₂O"
+      }
+    },
+    {
+      "id": "science-m4010",
+      "difficulty": "hard",
+      "answer": "페놀프탈레인 용액",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "염기성 용액에 넣으면 붉은색으로 변하는 지시약은?",
+          "choices": [
+            "페놀프탈레인 용액",
+            "메틸 오렌지",
+            "푸른 리트머스",
+            "아이오딘 용액"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "산성과 중성에서는 색이 없다가 염기성에서 붉게 변해요.",
+        "tip": "염기성 = 분홍빛"
+      }
+    },
+    {
+      "id": "science-m4011",
+      "difficulty": "normal",
+      "answer": "아이오딘 용액",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "녹말에 떨어뜨리면 청람색으로 변하는 용액은?",
+          "choices": [
+            "아이오딘 용액",
+            "페놀프탈레인 용액",
+            "석회수",
+            "베네딕트 용액"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "감자나 밥에 떨어뜨리면 푸른 보랏빛으로 변해 녹말이 있는지 알 수 있어요.",
+        "tip": "녹말 확인"
+      }
+    },
+    {
+      "id": "science-m4012",
+      "difficulty": "normal",
+      "answer": "석회수",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이산화 탄소를 통과시키면 뿌옇게 흐려지는 용액은?",
+          "choices": [
+            "석회수",
+            "아이오딘 용액",
+            "식초",
+            "소금물"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "석회수 속 수산화 칼슘이 이산화 탄소와 만나 흰 앙금(탄산 칼슘)이 생겨요.",
+        "tip": "입김 불면 뿌옇게"
+      }
+    },
+    {
+      "id": "science-m4013",
+      "difficulty": "easy",
+      "answer": "녹",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "철이 공기 중 산소, 물과 만나 생기는 붉은 물질은?",
+          "choices": [
+            "녹",
+            "이끼",
+            "그을음",
+            "곰팡이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "철이 산화된 것이에요. 페인트를 칠하거나 기름을 바르면 녹을 막을 수 있어요.",
+        "tip": "산화 철"
+      }
+    },
+    {
+      "id": "science-m4014",
+      "difficulty": "normal",
+      "answer": "공기 중 산소와 반응해서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사과를 깎아 두면 갈색으로 변하는 주된 이유는?",
+          "choices": [
+            "공기 중 산소와 반응해서",
+            "햇빛에 타서",
+            "물이 증발해서",
+            "세균이 번식해서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사과 속 효소가 산소와 만나 갈색 물질을 만들어요. 소금물이나 레몬즙에 담그면 늦출 수 있어요.",
+        "tip": "갈변 = 산화"
+      }
+    },
+    {
+      "id": "science-m4015",
+      "difficulty": "easy",
+      "answer": "연소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "물질이 열과 빛을 내며 산소와 빠르게 결합하는 현상은?",
+          "choices": [
+            "연소",
+            "증발",
+            "응결",
+            "용해"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "연소에는 탈 물질, 산소, 발화점 이상의 온도라는 세 가지 조건이 필요해요.",
+        "tip": "불의 3요소"
+      }
+    },
+    {
+      "id": "science-m4016",
+      "difficulty": "normal",
+      "answer": "용해",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "설탕이 물에 녹는 것처럼 한 물질이 다른 물질에 고르게 섞여 녹는 현상은?",
+          "choices": [
+            "용해",
+            "융해",
+            "연소",
+            "응고"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "녹는 물질은 용질, 녹이는 물질은 용매, 그 결과물은 용액이에요. 고체가 열을 받아 액체가 되는 것은 융해예요.",
+        "tip": "물에 녹다 = 용해, 열에 녹다 = 융해"
+      }
+    },
+    {
+      "id": "science-m4017",
+      "difficulty": "normal",
+      "answer": "포화 용액",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "물 100g에 설탕을 더 이상 녹일 수 없을 만큼 녹인 용액을 부르는 말은?",
+          "choices": [
+            "포화 용액",
+            "불포화 용액",
+            "과포화 용액",
+            "현탁액"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "온도가 높을수록 고체는 대체로 더 많이 녹아요.",
+        "tip": "꽉 찬(飽和) 용액"
+      }
+    },
+    {
+      "id": "science-m4018",
+      "difficulty": "normal",
+      "answer": "압력이 낮아져 기체가 덜 녹아서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "탄산음료 뚜껑을 따면 거품이 솟아오르는 이유와 관계있는 것은?",
+          "choices": [
+            "압력이 낮아져 기체가 덜 녹아서",
+            "온도가 높아져 물이 끓어서",
+            "설탕이 분해돼서",
+            "산소가 새로 생겨서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "기체는 압력이 높을수록 많이 녹아요. 뚜껑을 열면 압력이 낮아져 녹아 있던 이산화 탄소가 빠져나와요.",
+        "tip": "압력 ↓ → 기체 탈출"
+      }
+    },
+    {
+      "id": "science-m4019",
+      "difficulty": "normal",
+      "answer": "온도가 높을수록 기체가 덜 녹아서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "여름에 탄산음료의 김이 더 빨리 빠지는 이유는?",
+          "choices": [
+            "온도가 높을수록 기체가 덜 녹아서",
+            "설탕이 더 잘 녹아서",
+            "햇빛이 탄산을 분해해서",
+            "병이 늘어나서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "고체와 달리 기체는 온도가 높을수록 물에 덜 녹아요. 그래서 탄산음료는 차갑게 보관해요.",
+        "tip": "기체는 차가울수록 잘 녹는다"
+      }
+    },
+    {
+      "id": "science-m4020",
+      "difficulty": "normal",
+      "answer": "촉매",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "다른 물질의 반응 속도를 빠르게 하지만 자신은 변하지 않는 물질은?",
+          "choices": [
+            "촉매",
+            "용매",
+            "반응물",
+            "중화제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "우리 몸의 효소는 생체 촉매예요. 자동차 배기가스를 깨끗하게 하는 장치에도 촉매가 쓰여요.",
+        "tip": "자신은 그대로"
+      }
+    },
+    {
+      "id": "science-m4021",
+      "difficulty": "hard",
+      "answer": "라부아지에",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'질량 보존 법칙'을 발견하고 '근대 화학의 아버지'로 불리는 프랑스 과학자는?",
+          "choices": [
+            "라부아지에",
+            "멘델레예프",
+            "돌턴",
+            "파스퇴르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물질이 타거나 반응해도 전체 질량은 변하지 않는다는 것을 실험으로 보였어요. 프랑스 혁명 때 처형당했어요.",
+        "tip": "단두대에 선 화학자"
+      }
+    },
+    {
+      "id": "science-m4022",
+      "difficulty": "easy",
+      "answer": "다이너마이트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "노벨상을 만든 알프레드 노벨이 발명한 것은?",
+          "choices": [
+            "다이너마이트",
+            "화약",
+            "전구",
+            "증기 기관"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "광산과 공사에 쓰이길 바랐지만 무기로도 쓰였어요. 유언에 따라 재산으로 노벨상이 만들어졌어요.",
+        "tip": "죽음의 상인 → 노벨상"
+      }
+    },
+    {
+      "id": "science-m4023",
+      "difficulty": "hard",
+      "answer": "폴로늄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마리 퀴리가 발견한 원소 가운데, 조국 폴란드의 이름을 딴 것은?",
+          "choices": [
+            "폴로늄",
+            "라듐",
+            "퀴륨",
+            "우라늄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "퀴리 부부는 폴로늄과 라듐을 발견했어요. 퀴륨은 나중에 퀴리 부부를 기려 붙인 이름이에요.",
+        "tip": "Poland → 폴로늄"
+      }
+    },
+    {
+      "id": "science-m4024",
+      "difficulty": "easy",
+      "answer": "세포",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "생물의 몸을 이루는 가장 작은 기본 단위는?",
+          "choices": [
+            "세포",
+            "원자",
+            "조직",
+            "기관"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1665년 로버트 훅이 코르크를 현미경으로 보다 작은 방 모양을 발견하고 '세포(cell)'라고 이름 붙였어요.",
+        "tip": "작은 방 = cell"
+      }
+    },
+    {
+      "id": "science-m4025",
+      "difficulty": "easy",
+      "answer": "핵",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세포 안에서 유전 정보가 담긴 DNA가 들어 있는 곳은?",
+          "choices": [
+            "핵",
+            "세포막",
+            "리보솜",
+            "액포"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "핵 속 DNA가 단백질과 감겨 염색체를 이뤄요.",
+        "tip": "세포의 사령부"
+      }
+    },
+    {
+      "id": "science-m4026",
+      "difficulty": "easy",
+      "answer": "XY",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람의 성별을 결정하는 염색체 조합에서 남성은?",
+          "choices": [
+            "XY",
+            "XX",
+            "YY",
+            "XO"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "여성은 XX, 남성은 XY예요. 아버지에게서 X를 받으면 딸, Y를 받으면 아들이 돼요.",
+        "tip": "Y가 있으면 남성"
+      }
+    },
+    {
+      "id": "science-m4027",
+      "difficulty": "easy",
+      "answer": "멘델",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "완두콩 실험으로 유전 법칙을 밝혀 '유전학의 아버지'로 불리는 사람은?",
+          "choices": [
+            "멘델",
+            "다윈",
+            "왓슨",
+            "모건"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "오스트리아 수도원의 수사였어요. 살아 있을 땐 주목받지 못하다가 죽은 뒤에야 인정받았어요.",
+        "tip": "완두콩 수도사"
+      }
+    },
+    {
+      "id": "science-m4028",
+      "difficulty": "normal",
+      "answer": "갈라파고스 제도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "찰스 다윈이 진화론의 아이디어를 얻은 곳으로 유명한, 핀치새와 거북이 사는 섬들은?",
+          "choices": [
+            "갈라파고스 제도",
+            "하와이 제도",
+            "마다가스카르",
+            "보르네오섬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "섬마다 핀치새의 부리 모양이 먹이에 맞게 다른 것을 보고 생각을 키웠어요.",
+        "tip": "핀치새의 부리"
+      }
+    },
+    {
+      "id": "science-m4029",
+      "difficulty": "normal",
+      "answer": "종의 기원",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1859년 다윈이 진화론을 담아 펴낸 책은?",
+          "choices": [
+            "종의 기원",
+            "자연의 체계",
+            "이기적 유전자",
+            "침묵의 봄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "같은 종 안의 다양한 개체 가운데 환경에 잘 맞는 것이 살아남아 자손을 남긴다는 '자연 선택'을 주장했어요.",
+        "tip": "1859년 진화론"
+      }
+    },
+    {
+      "id": "science-m4030",
+      "difficulty": "normal",
+      "answer": "복제 양 돌리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1996년 영국에서 체세포 복제로 태어난 최초의 포유류는?",
+          "choices": [
+            "복제 양 돌리",
+            "복제 소 영롱이",
+            "복제 개 스너피",
+            "복제 원숭이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "어른 양의 젖샘 세포로 만들었어요. 이름은 가수 돌리 파턴에서 땄다고 해요.",
+        "tip": "양 돌리"
+      }
+    },
+    {
+      "id": "science-m4031",
+      "difficulty": "normal",
+      "answer": "간",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람 몸속 장기 가운데 가장 큰 것은?",
+          "choices": [
+            "간",
+            "폐",
+            "위",
+            "심장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "어른 기준 약 1.2~1.5kg이에요. 해독, 쓸개즙 생산, 영양소 저장 등 수백 가지 일을 해요.",
+        "tip": "침묵의 장기"
+      }
+    },
+    {
+      "id": "science-m4032",
+      "difficulty": "normal",
+      "answer": "귀",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람 몸에서 가장 작은 뼈가 있는 곳은?",
+          "choices": [
+            "귀",
+            "손가락",
+            "발가락",
+            "코"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가운데귀의 등자뼈(등골)는 길이가 약 3mm예요. 가장 긴 뼈는 넓적다리뼈예요.",
+        "tip": "등자뼈"
+      }
+    },
+    {
+      "id": "science-m4033",
+      "difficulty": "normal",
+      "answer": "넓적다리뼈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람 몸에서 가장 긴 뼈는?",
+          "choices": [
+            "넓적다리뼈",
+            "정강이뼈",
+            "위팔뼈",
+            "척추뼈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'대퇴골'이라고도 해요. 키의 약 4분의 1 길이예요.",
+        "tip": "허벅지 뼈"
+      }
+    },
+    {
+      "id": "science-m4034",
+      "difficulty": "easy",
+      "answer": "ABO식",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "흔히 '혈액형'을 A, B, O, AB로 나누는 방식을 부르는 말은?",
+          "choices": [
+            "ABO식",
+            "Rh식",
+            "MN식",
+            "HLA식"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1901년 란트슈타이너가 발견했어요. Rh식은 Rh+와 Rh-로 나눠요.",
+        "tip": "네 가지 혈액형"
+      }
+    },
+    {
+      "id": "science-m4035",
+      "difficulty": "normal",
+      "answer": "O형",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "어떤 혈액형에게나 피를 줄 수 있다고 해서 예전에 '만능 공혈자'로 불린 혈액형은?",
+          "choices": [
+            "O형",
+            "A형",
+            "B형",
+            "AB형"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "적혈구에 A, B 항원이 없기 때문이에요. 하지만 실제 수혈은 같은 혈액형끼리 하는 게 원칙이에요.",
+        "tip": "항원이 없는 O"
+      }
+    },
+    {
+      "id": "science-m4036",
+      "difficulty": "normal",
+      "answer": "입 - 식도 - 위 - 작은창자 - 큰창자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "음식물이 입에서 항문까지 지나가는 길을 순서대로 바르게 나타낸 것은?",
+          "choices": [
+            "입 - 식도 - 위 - 작은창자 - 큰창자",
+            "입 - 위 - 식도 - 큰창자 - 작은창자",
+            "입 - 식도 - 작은창자 - 위 - 큰창자",
+            "입 - 기관 - 위 - 작은창자 - 큰창자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영양소는 대부분 작은창자에서 흡수되고, 큰창자에서는 주로 물이 흡수돼요.",
+        "tip": "식도 → 위 → 작은창자 → 큰창자"
+      }
+    },
+    {
+      "id": "science-m4037",
+      "difficulty": "hard",
+      "answer": "후두개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "들이마신 공기가 지나가는 길인 '기관'과 음식이 지나가는 '식도'를 갈라 주는 뚜껑 같은 기관은?",
+          "choices": [
+            "후두개",
+            "편도",
+            "목젖",
+            "성대"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "음식을 삼킬 때 기관 입구를 덮어 음식이 폐로 들어가지 않게 막아요. 사레가 들리는 건 이게 잠깐 늦었을 때예요.",
+        "tip": "사레의 원인"
+      }
+    },
+    {
+      "id": "science-m4038",
+      "difficulty": "hard",
+      "answer": "시상 하부",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리 몸의 체온을 조절하고 배고픔, 목마름을 느끼게 하는 뇌의 부위는?",
+          "choices": [
+            "시상 하부",
+            "소뇌",
+            "연수",
+            "해마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몸의 항상성을 유지하는 중추예요. 해마는 기억, 소뇌는 몸의 균형을 맡아요.",
+        "tip": "몸의 온도 조절기"
+      }
+    },
+    {
+      "id": "science-m4039",
+      "difficulty": "normal",
+      "answer": "소뇌",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자전거 타기처럼 몸의 균형과 운동을 조절하는 뇌의 부위는?",
+          "choices": [
+            "소뇌",
+            "대뇌",
+            "연수",
+            "간뇌"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "술을 마시면 비틀거리는 것도 소뇌 기능이 떨어지기 때문이에요.",
+        "tip": "균형 = 소뇌"
+      }
+    },
+    {
+      "id": "science-m4040",
+      "difficulty": "normal",
+      "answer": "해마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "새로운 기억을 만드는 데 중요한 뇌의 부위로, 바다 생물을 닮은 이름을 가진 것은?",
+          "choices": [
+            "해마",
+            "편도체",
+            "소뇌",
+            "시상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "모양이 바닷속 해마를 닮아 이런 이름이 붙었어요. 다치면 새로운 일을 기억하기 어려워져요.",
+        "tip": "기억의 저장소"
+      }
+    },
+    {
+      "id": "science-m4041",
+      "difficulty": "normal",
+      "answer": "증산 작용",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "식물이 뿌리에서 빨아들인 물을 잎의 기공으로 내보내는 현상은?",
+          "choices": [
+            "증산 작용",
+            "광합성",
+            "호흡",
+            "삼투"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물이 빠져나가며 뿌리에서 물을 끌어 올리는 힘이 생기고, 식물 온도도 낮춰 줘요.",
+        "tip": "식물의 땀"
+      }
+    },
+    {
+      "id": "science-m4042",
+      "difficulty": "normal",
+      "answer": "기공",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "식물 잎 뒷면에 있는 작은 구멍으로, 공기와 수증기가 드나드는 곳은?",
+          "choices": [
+            "기공",
+            "물관",
+            "체관",
+            "엽록체"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공변세포 두 개가 입술처럼 열고 닫아요. 낮에 열리고 밤에 닫히는 식물이 많아요.",
+        "tip": "잎의 숨구멍"
+      }
+    },
+    {
+      "id": "science-m4043",
+      "difficulty": "hard",
+      "answer": "체관",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "식물에서 잎에서 만든 양분이 이동하는 통로는?",
+          "choices": [
+            "체관",
+            "물관",
+            "기공",
+            "뿌리털"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물과 양분 이동은 물관, 잎에서 만든 양분 이동은 체관이에요. 둘을 합쳐 관다발이라고 해요.",
+        "tip": "물 = 물관, 양분 = 체관"
+      }
+    },
+    {
+      "id": "science-m4044",
+      "difficulty": "easy",
+      "answer": "꽃가루받이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "꽃가루가 암술머리에 옮겨 붙는 것을 무엇이라고 할까?",
+          "choices": [
+            "꽃가루받이",
+            "씨 퍼뜨리기",
+            "싹 틔우기",
+            "광합성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'수분'이라고도 해요. 벌, 나비, 바람, 새 등이 도와줘요.",
+        "tip": "수분"
+      }
+    }
+  ]
+}
