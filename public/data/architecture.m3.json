@@ -530,27 +530,6 @@
     {
       "id": "architecture-m3026",
       "difficulty": "easy",
-      "answer": "빅벤",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "영국 런던의 국회 의사당 시계탑에 달린 큰 종의 별명은?",
-          "choices": [
-            "빅벤",
-            "빅 브라더",
-            "로열 벨",
-            "타워 벨"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "원래 종의 이름이지만 지금은 시계탑 전체를 부르는 말로 쓰여요. 2012년 탑 이름은 '엘리자베스 타워'가 됐어요.",
-        "tip": "종 이름 = 빅벤"
-      }
-    },
-    {
-      "id": "architecture-m3027",
-      "difficulty": "easy",
       "answer": "모아이",
       "questions": [
         {
@@ -570,7 +549,7 @@
       }
     },
     {
-      "id": "architecture-m3028",
+      "id": "architecture-m3027",
       "difficulty": "easy",
       "answer": "대만",
       "questions": [
@@ -591,7 +570,7 @@
       }
     },
     {
-      "id": "architecture-m3029",
+      "id": "architecture-m3028",
       "difficulty": "easy",
       "answer": "프랑스",
       "questions": [
@@ -612,7 +591,7 @@
       }
     },
     {
-      "id": "architecture-m3030",
+      "id": "architecture-m3029",
       "difficulty": "hard",
       "answer": "비트루비우스",
       "questions": [
@@ -633,7 +612,7 @@
       }
     },
     {
-      "id": "architecture-m3031",
+      "id": "architecture-m3030",
       "difficulty": "hard",
       "answer": "루이스 설리번",
       "questions": [
@@ -654,7 +633,7 @@
       }
     },
     {
-      "id": "architecture-m3032",
+      "id": "architecture-m3031",
       "difficulty": "hard",
       "answer": "수정궁",
       "questions": [
@@ -675,7 +654,7 @@
       }
     },
     {
-      "id": "architecture-m3033",
+      "id": "architecture-m3032",
       "difficulty": "normal",
       "answer": "벽면 녹화",
       "questions": [
@@ -696,7 +675,7 @@
       }
     },
     {
-      "id": "architecture-m3034",
+      "id": "architecture-m3033",
       "difficulty": "hard",
       "answer": "면진 구조",
       "questions": [
@@ -717,7 +696,7 @@
       }
     },
     {
-      "id": "architecture-m3035",
+      "id": "architecture-m3034",
       "difficulty": "normal",
       "answer": "트러스",
       "questions": [
@@ -738,7 +717,7 @@
       }
     },
     {
-      "id": "architecture-m3036",
+      "id": "architecture-m3035",
       "difficulty": "normal",
       "answer": "비계",
       "questions": [
@@ -759,7 +738,7 @@
       }
     },
     {
-      "id": "architecture-m3037",
+      "id": "architecture-m3036",
       "difficulty": "normal",
       "answer": "거푸집",
       "questions": [
@@ -780,7 +759,7 @@
       }
     },
     {
-      "id": "architecture-m3038",
+      "id": "architecture-m3037",
       "difficulty": "easy",
       "answer": "말뚝",
       "questions": [
@@ -801,7 +780,7 @@
       }
     },
     {
-      "id": "architecture-m3039",
+      "id": "architecture-m3038",
       "difficulty": "normal",
       "answer": "도넛 현상",
       "questions": [
@@ -822,7 +801,7 @@
       }
     },
     {
-      "id": "architecture-m3040",
+      "id": "architecture-m3039",
       "difficulty": "hard",
       "answer": "대성전",
       "questions": [
@@ -843,7 +822,7 @@
       }
     },
     {
-      "id": "architecture-m3041",
+      "id": "architecture-m3040",
       "difficulty": "normal",
       "answer": "서원",
       "questions": [
@@ -864,7 +843,7 @@
       }
     },
     {
-      "id": "architecture-m3042",
+      "id": "architecture-m3041",
       "difficulty": "easy",
       "answer": "하회 마을",
       "questions": [
@@ -885,7 +864,7 @@
       }
     },
     {
-      "id": "architecture-m3043",
+      "id": "architecture-m3042",
       "difficulty": "easy",
       "answer": "돌담",
       "questions": [
@@ -906,7 +885,7 @@
       }
     },
     {
-      "id": "architecture-m3044",
+      "id": "architecture-m3043",
       "difficulty": "normal",
       "answer": "화강암",
       "questions": [
@@ -927,7 +906,7 @@
       }
     },
     {
-      "id": "architecture-m3045",
+      "id": "architecture-m3044",
       "difficulty": "hard",
       "answer": "앙곡",
       "questions": [
@@ -948,7 +927,7 @@
       }
     },
     {
-      "id": "architecture-m3046",
+      "id": "architecture-m3045",
       "difficulty": "normal",
       "answer": "솟을대문",
       "questions": [
@@ -969,7 +948,7 @@
       }
     },
     {
-      "id": "architecture-m3047",
+      "id": "architecture-m3046",
       "difficulty": "normal",
       "answer": "일주문",
       "questions": [
@@ -990,7 +969,7 @@
       }
     },
     {
-      "id": "architecture-m3048",
+      "id": "architecture-m3047",
       "difficulty": "hard",
       "answer": "홍살문",
       "questions": [
@@ -1011,7 +990,7 @@
       }
     },
     {
-      "id": "architecture-m3049",
+      "id": "architecture-m3048",
       "difficulty": "normal",
       "answer": "독립문",
       "questions": [
@@ -1032,7 +1011,7 @@
       }
     },
     {
-      "id": "architecture-m3050",
+      "id": "architecture-m3049",
       "difficulty": "hard",
       "answer": "석조전",
       "questions": [
@@ -1053,7 +1032,7 @@
       }
     },
     {
-      "id": "architecture-m3051",
+      "id": "architecture-m3050",
       "difficulty": "normal",
       "answer": "명동 대성당",
       "questions": [
@@ -1074,7 +1053,7 @@
       }
     },
     {
-      "id": "architecture-m3052",
+      "id": "architecture-m3051",
       "difficulty": "hard",
       "answer": "ㅁ자 집",
       "questions": [
@@ -1095,7 +1074,7 @@
       }
     },
     {
-      "id": "architecture-m3053",
+      "id": "architecture-m3052",
       "difficulty": "normal",
       "answer": "폐철길",
       "questions": [
@@ -1116,7 +1095,7 @@
       }
     },
     {
-      "id": "architecture-m3054",
+      "id": "architecture-m3053",
       "difficulty": "normal",
       "answer": "서울로 7017",
       "questions": [
@@ -1137,7 +1116,7 @@
       }
     },
     {
-      "id": "architecture-m3055",
+      "id": "architecture-m3054",
       "difficulty": "easy",
       "answer": "청계천",
       "questions": [
@@ -1158,7 +1137,7 @@
       }
     },
     {
-      "id": "architecture-m3056",
+      "id": "architecture-m3055",
       "difficulty": "hard",
       "answer": "문화비축기지",
       "questions": [
@@ -1179,7 +1158,7 @@
       }
     },
     {
-      "id": "architecture-m3057",
+      "id": "architecture-m3056",
       "difficulty": "normal",
       "answer": "선유도 공원",
       "questions": [

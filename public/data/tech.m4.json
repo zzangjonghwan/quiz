@@ -257,27 +257,6 @@
     {
       "id": "tech-m4013",
       "difficulty": "hard",
-      "answer": ":-)",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "1982년 미국 카네기 멜런 대학의 교수가 농담을 표시하려고 처음 제안한 이모티콘은?",
-          "choices": [
-            ":-)",
-            "^^",
-            "♥",
-            "😀"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "스콧 팔먼이 웃는 얼굴 :-)과 진지한 글 표시 :-(를 제안했어요. 고개를 옆으로 돌려 보면 얼굴이에요.",
-        "tip": "옆으로 누운 웃음"
-      }
-    },
-    {
-      "id": "tech-m4014",
-      "difficulty": "hard",
       "answer": "Me at the zoo",
       "questions": [
         {
@@ -297,28 +276,7 @@
       }
     },
     {
-      "id": "tech-m4015",
-      "difficulty": "normal",
-      "answer": "10의 100제곱",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "'구글'이라는 이름이 유래한 수학 용어 '구골(googol)'이 뜻하는 수는?",
-          "choices": [
-            "10의 100제곱",
-            "10의 10제곱",
-            "100만",
-            "무한대"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "1 뒤에 0이 100개 붙은 엄청나게 큰 수예요. 세상의 방대한 정보를 정리하겠다는 뜻을 담았어요.",
-        "tip": "0이 100개"
-      }
-    },
-    {
-      "id": "tech-m4016",
+      "id": "tech-m4014",
       "difficulty": "easy",
       "answer": "책",
       "questions": [
@@ -339,7 +297,7 @@
       }
     },
     {
-      "id": "tech-m4017",
+      "id": "tech-m4015",
       "difficulty": "normal",
       "answer": "하버드 대학교 기숙사",
       "questions": [
@@ -360,7 +318,7 @@
       }
     },
     {
-      "id": "tech-m4018",
+      "id": "tech-m4016",
       "difficulty": "easy",
       "answer": "X",
       "questions": [
@@ -381,7 +339,7 @@
       }
     },
     {
-      "id": "tech-m4019",
+      "id": "tech-m4017",
       "difficulty": "normal",
       "answer": "딥 블루",
       "questions": [
@@ -402,7 +360,7 @@
       }
     },
     {
-      "id": "tech-m4020",
+      "id": "tech-m4018",
       "difficulty": "easy",
       "answer": "챗GPT",
       "questions": [
@@ -423,7 +381,7 @@
       }
     },
     {
-      "id": "tech-m4021",
+      "id": "tech-m4019",
       "difficulty": "normal",
       "answer": "10세기 덴마크 왕의 별명",
       "questions": [
@@ -444,7 +402,7 @@
       }
     },
     {
-      "id": "tech-m4022",
+      "id": "tech-m4020",
       "difficulty": "hard",
       "answer": "영국 코미디 프로그램",
       "questions": [
@@ -465,7 +423,7 @@
       }
     },
     {
-      "id": "tech-m4023",
+      "id": "tech-m4021",
       "difficulty": "easy",
       "answer": "이진법",
       "questions": [
@@ -486,7 +444,7 @@
       }
     },
     {
-      "id": "tech-m4024",
+      "id": "tech-m4022",
       "difficulty": "normal",
       "answer": "8비트",
       "questions": [
@@ -507,7 +465,7 @@
       }
     },
     {
-      "id": "tech-m4025",
+      "id": "tech-m4023",
       "difficulty": "hard",
       "answer": "1010",
       "questions": [
@@ -528,7 +486,7 @@
       }
     },
     {
-      "id": "tech-m4026",
+      "id": "tech-m4024",
       "difficulty": "normal",
       "answer": "유니코드",
       "questions": [
@@ -549,7 +507,7 @@
       }
     },
     {
-      "id": "tech-m4027",
+      "id": "tech-m4025",
       "difficulty": "easy",
       "answer": "JPEG",
       "questions": [
@@ -570,7 +528,7 @@
       }
     },
     {
-      "id": "tech-m4028",
+      "id": "tech-m4026",
       "difficulty": "normal",
       "answer": "GIF",
       "questions": [
@@ -591,7 +549,7 @@
       }
     },
     {
-      "id": "tech-m4029",
+      "id": "tech-m4027",
       "difficulty": "easy",
       "answer": "PDF",
       "questions": [
@@ -612,7 +570,7 @@
       }
     },
     {
-      "id": "tech-m4030",
+      "id": "tech-m4028",
       "difficulty": "easy",
       "answer": "HWP",
       "questions": [
@@ -633,7 +591,7 @@
       }
     },
     {
-      "id": "tech-m4031",
+      "id": "tech-m4029",
       "difficulty": "easy",
       "answer": "USB-C",
       "questions": [
@@ -654,7 +612,7 @@
       }
     },
     {
-      "id": "tech-m4032",
+      "id": "tech-m4030",
       "difficulty": "easy",
       "answer": "내 휴대폰 데이터를 다른 기기와 나눠 쓴다",
       "questions": [

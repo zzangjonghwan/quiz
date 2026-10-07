@@ -509,27 +509,6 @@
     {
       "id": "animal-m5025",
       "difficulty": "normal",
-      "answer": "사실이 아닌 속설이다",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "타조가 위험할 때 머리를 모래에 묻는다는 말에 대한 설명으로 알맞은 것은?",
-          "choices": [
-            "사실이 아닌 속설이다",
-            "실제로 매번 그렇게 한다",
-            "새끼만 그렇게 한다",
-            "밤에만 그렇게 한다"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "알을 굴리려고 고개를 숙인 모습을 오해했다는 해석이 있어요. 실제로는 시속 70km로 달려 도망쳐요.",
-        "tip": "타조는 달린다"
-      }
-    },
-    {
-      "id": "animal-m5026",
-      "difficulty": "normal",
       "answer": "황제펭귄",
       "questions": [
         {
@@ -549,7 +528,7 @@
       }
     },
     {
-      "id": "animal-m5027",
+      "id": "animal-m5026",
       "difficulty": "hard",
       "answer": "갈라파고스펭귄",
       "questions": [
@@ -570,7 +549,7 @@
       }
     },
     {
-      "id": "animal-m5028",
+      "id": "animal-m5027",
       "difficulty": "normal",
       "answer": "공기 중 냄새 입자를 모아 맡으려고",
       "questions": [
@@ -591,7 +570,7 @@
       }
     },
     {
-      "id": "animal-m5029",
+      "id": "animal-m5028",
       "difficulty": "hard",
       "answer": "동물 몸의 열",
       "questions": [
@@ -612,7 +591,7 @@
       }
     },
     {
-      "id": "animal-m5030",
+      "id": "animal-m5029",
       "difficulty": "hard",
       "answer": "다른 생물이 내는 아주 약한 전기",
       "questions": [
@@ -633,7 +612,7 @@
       }
     },
     {
-      "id": "animal-m5031",
+      "id": "animal-m5030",
       "difficulty": "normal",
       "answer": "바닷물의 짠맛",
       "questions": [
@@ -654,7 +633,7 @@
       }
     },
     {
-      "id": "animal-m5032",
+      "id": "animal-m5031",
       "difficulty": "normal",
       "answer": "먹지도, 배설하지도 않고 지방으로 버틴다",
       "questions": [
@@ -675,7 +654,7 @@
       }
     },
     {
-      "id": "animal-m5033",
+      "id": "animal-m5032",
       "difficulty": "easy",
       "answer": "여기저기 오줌을 조금씩 눈다",
       "questions": [
@@ -696,7 +675,7 @@
       }
     },
     {
-      "id": "animal-m5034",
+      "id": "animal-m5033",
       "difficulty": "easy",
       "answer": "믿고 편안하다는 표시",
       "questions": [
@@ -717,28 +696,7 @@
       }
     },
     {
-      "id": "animal-m5035",
-      "difficulty": "hard",
-      "answer": "피가 아니라 햇빛과 세균을 막는 분비물이다",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "하마의 피부에서 나오는 붉은 액체에 대한 설명으로 알맞은 것은?",
-          "choices": [
-            "피가 아니라 햇빛과 세균을 막는 분비물이다",
-            "상처에서 흘러나오는 진짜 피다",
-            "땀에 섞여 나오는 강한 독이다",
-            "몸을 식히려고 내보내는 맹물이다"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "'피땀'처럼 보이지만 천연 자외선 차단제 역할을 하는 액체예요.",
-        "tip": "천연 선크림"
-      }
-    },
-    {
-      "id": "animal-m5036",
+      "id": "animal-m5034",
       "difficulty": "normal",
       "answer": "누 대이동",
       "questions": [
@@ -759,7 +717,7 @@
       }
     },
     {
-      "id": "animal-m5037",
+      "id": "animal-m5035",
       "difficulty": "normal",
       "answer": "쿼카",
       "questions": [
@@ -780,7 +738,7 @@
       }
     },
     {
-      "id": "animal-m5038",
+      "id": "animal-m5036",
       "difficulty": "hard",
       "answer": "갑오징어",
       "questions": [
@@ -801,7 +759,7 @@
       }
     },
     {
-      "id": "animal-m5039",
+      "id": "animal-m5037",
       "difficulty": "normal",
       "answer": "떨어지며 몸을 비틀어 발을 아래로 돌리는 반사 능력이 있어서",
       "questions": [

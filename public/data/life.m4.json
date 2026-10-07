@@ -67,27 +67,6 @@
     },
     {
       "id": "life-m4004",
-      "difficulty": "normal",
-      "answer": "약 2.54cm",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "1인치는 약 몇 센티미터일까?",
-          "choices": [
-            "약 2.54cm",
-            "약 1cm",
-            "약 3.3cm",
-            "약 10cm"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "바지 허리 30인치는 약 76cm예요.",
-        "tip": "1인치 = 2.54cm"
-      }
-    },
-    {
-      "id": "life-m4005",
       "difficulty": "hard",
       "answer": "약 450g",
       "questions": [
@@ -108,28 +87,7 @@
       }
     },
     {
-      "id": "life-m4006",
-      "difficulty": "hard",
-      "answer": "100°C",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "화씨 212°F는 섭씨 몇 도일까?",
-          "choices": [
-            "100°C",
-            "0°C",
-            "50°C",
-            "212°C"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "물이 끓는 온도예요. 물이 어는 온도는 화씨 32°F(섭씨 0°C)예요. 미국은 화씨를 써요.",
-        "tip": "끓는점 212°F, 어는점 32°F"
-      }
-    },
-    {
-      "id": "life-m4007",
+      "id": "life-m4005",
       "difficulty": "normal",
       "answer": "1kW 전력을 1시간 쓴 전기의 양",
       "questions": [
@@ -150,7 +108,7 @@
       }
     },
     {
-      "id": "life-m4008",
+      "id": "life-m4006",
       "difficulty": "easy",
       "answer": "연료 1L로 15km를 갈 수 있다",
       "questions": [
@@ -171,7 +129,7 @@
       }
     },
     {
-      "id": "life-m4009",
+      "id": "life-m4007",
       "difficulty": "easy",
       "answer": "119",
       "questions": [
@@ -192,7 +150,7 @@
       }
     },
     {
-      "id": "life-m4010",
+      "id": "life-m4008",
       "difficulty": "hard",
       "answer": "110",
       "questions": [
@@ -213,7 +171,7 @@
       }
     },
     {
-      "id": "life-m4011",
+      "id": "life-m4009",
       "difficulty": "normal",
       "answer": "약 5cm",
       "questions": [
@@ -234,7 +192,7 @@
       }
     },
     {
-      "id": "life-m4012",
+      "id": "life-m4010",
       "difficulty": "normal",
       "answer": "AED",
       "questions": [
@@ -255,7 +213,7 @@
       }
     },
     {
-      "id": "life-m4013",
+      "id": "life-m4011",
       "difficulty": "easy",
       "answer": "흐르는 찬물에 15분 이상 식힌다",
       "questions": [
@@ -276,7 +234,7 @@
       }
     },
     {
-      "id": "life-m4014",
+      "id": "life-m4012",
       "difficulty": "normal",
       "answer": "고개를 살짝 숙이고 콧볼을 눌러 준다",
       "questions": [
@@ -297,7 +255,7 @@
       }
     },
     {
-      "id": "life-m4015",
+      "id": "life-m4013",
       "difficulty": "normal",
       "answer": "카드 같은 납작한 것으로 긁어 낸다",
       "questions": [
@@ -318,7 +276,7 @@
       }
     },
     {
-      "id": "life-m4016",
+      "id": "life-m4014",
       "difficulty": "normal",
       "answer": "움직임을 줄이고 119에 위치를 알린다",
       "questions": [
@@ -339,7 +297,7 @@
       }
     },
     {
-      "id": "life-m4017",
+      "id": "life-m4015",
       "difficulty": "normal",
       "answer": "구조 요청 때 정확한 위치를 알리려고",
       "questions": [
@@ -360,7 +318,7 @@
       }
     },
     {
-      "id": "life-m4018",
+      "id": "life-m4016",
       "difficulty": "normal",
       "answer": "구조 요청을 하고 줄이나 튜브를 던져 준다",
       "questions": [
@@ -381,7 +339,7 @@
       }
     },
     {
-      "id": "life-m4019",
+      "id": "life-m4017",
       "difficulty": "hard",
       "answer": "창문의 가장자리 모서리",
       "questions": [
@@ -402,7 +360,7 @@
       }
     },
     {
-      "id": "life-m4020",
+      "id": "life-m4018",
       "difficulty": "normal",
       "answer": "흔들릴 땐 탁자 밑, 멈추면 계단으로 밖으로",
       "questions": [
@@ -423,7 +381,7 @@
       }
     },
     {
-      "id": "life-m4021",
+      "id": "life-m4019",
       "difficulty": "normal",
       "answer": "남색",
       "questions": [
@@ -444,7 +402,7 @@
       }
     },
     {
-      "id": "life-m4022",
+      "id": "life-m4020",
       "difficulty": "normal",
       "answer": "10년",
       "questions": [
@@ -465,7 +423,7 @@
       }
     },
     {
-      "id": "life-m4023",
+      "id": "life-m4021",
       "difficulty": "normal",
       "answer": "성별과 태어난 세기",
       "questions": [
@@ -486,7 +444,7 @@
       }
     },
     {
-      "id": "life-m4024",
+      "id": "life-m4022",
       "difficulty": "easy",
       "answer": "전입 신고",
       "questions": [
@@ -507,7 +465,7 @@
       }
     },
     {
-      "id": "life-m4025",
+      "id": "life-m4023",
       "difficulty": "normal",
       "answer": "등기부 등본",
       "questions": [
@@ -528,7 +486,7 @@
       }
     },
     {
-      "id": "life-m4026",
+      "id": "life-m4024",
       "difficulty": "hard",
       "answer": "승차 정원 15인승 승합차",
       "questions": [
@@ -549,7 +507,7 @@
       }
     },
     {
-      "id": "life-m4027",
+      "id": "life-m4025",
       "difficulty": "normal",
       "answer": "개인 통관 고유 부호",
       "questions": [
@@ -570,7 +528,7 @@
       }
     },
     {
-      "id": "life-m4028",
+      "id": "life-m4026",
       "difficulty": "normal",
       "answer": "짝수 금액(예: 4만 원)",
       "questions": [
@@ -591,7 +549,7 @@
       }
     },
     {
-      "id": "life-m4029",
+      "id": "life-m4027",
       "difficulty": "normal",
       "answer": "고개 숙여 짧게 위로하거나 말없이 목례한다",
       "questions": [
@@ -612,7 +570,7 @@
       }
     },
     {
-      "id": "life-m4030",
+      "id": "life-m4028",
       "difficulty": "normal",
       "answer": "두 번",
       "questions": [
@@ -633,7 +591,7 @@
       }
     },
     {
-      "id": "life-m4031",
+      "id": "life-m4029",
       "difficulty": "easy",
       "answer": "눈팅족",
       "questions": [
@@ -654,7 +612,7 @@
       }
     },
     {
-      "id": "life-m4032",
+      "id": "life-m4030",
       "difficulty": "easy",
       "answer": "내리는 사람이 다 내린 뒤 탄다",
       "questions": [
@@ -675,7 +633,7 @@
       }
     },
     {
-      "id": "life-m4033",
+      "id": "life-m4031",
       "difficulty": "normal",
       "answer": "걷거나 뛰지 말고 손잡이를 잡고 선다",
       "questions": [
@@ -696,7 +654,7 @@
       }
     },
     {
-      "id": "life-m4034",
+      "id": "life-m4032",
       "difficulty": "normal",
       "answer": "5ml",
       "questions": [
@@ -717,7 +675,7 @@
       }
     },
     {
-      "id": "life-m4035",
+      "id": "life-m4033",
       "difficulty": "normal",
       "answer": "약 180ml",
       "questions": [
@@ -738,7 +696,7 @@
       }
     },
     {
-      "id": "life-m4036",
+      "id": "life-m4034",
       "difficulty": "easy",
       "answer": "손등",
       "questions": [
@@ -759,7 +717,7 @@
       }
     },
     {
-      "id": "life-m4037",
+      "id": "life-m4035",
       "difficulty": "normal",
       "answer": "면에 간이 배게 하려고",
       "questions": [
@@ -780,7 +738,7 @@
       }
     },
     {
-      "id": "life-m4038",
+      "id": "life-m4036",
       "difficulty": "easy",
       "answer": "물기를 잘 닦는다",
       "questions": [
@@ -801,7 +759,7 @@
       }
     },
     {
-      "id": "life-m4039",
+      "id": "life-m4037",
       "difficulty": "hard",
       "answer": "속까지 고르게 익히려고",
       "questions": [
@@ -822,7 +780,7 @@
       }
     },
     {
-      "id": "life-m4040",
+      "id": "life-m4038",
       "difficulty": "easy",
       "answer": "삶은 직후 찬물에 담가 식힌다",
       "questions": [
@@ -843,7 +801,7 @@
       }
     },
     {
-      "id": "life-m4041",
+      "id": "life-m4039",
       "difficulty": "normal",
       "answer": "글루텐(단백질) 함량",
       "questions": [
@@ -864,7 +822,7 @@
       }
     },
     {
-      "id": "life-m4042",
+      "id": "life-m4040",
       "difficulty": "normal",
       "answer": "감칠맛",
       "questions": [
@@ -885,7 +843,7 @@
       }
     },
     {
-      "id": "life-m4043",
+      "id": "life-m4041",
       "difficulty": "normal",
       "answer": "에틸렌",
       "questions": [

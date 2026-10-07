@@ -173,27 +173,6 @@
     {
       "id": "sports-m5009",
       "difficulty": "normal",
-      "answer": "대부분 은에 금을 도금한 것",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "올림픽에서 1등에게 주는 금메달의 실제 재료로 알맞은 것은?",
-          "choices": [
-            "대부분 은에 금을 도금한 것",
-            "순금 100%",
-            "구리에 금을 칠한 것",
-            "플라스틱에 금박"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "규정상 은 92.5% 이상에 금 6g 이상을 도금해요. 순금 메달은 1912년 대회가 마지막이었어요.",
-        "tip": "은에 금 도금"
-      }
-    },
-    {
-      "id": "sports-m5010",
-      "difficulty": "normal",
       "answer": "사진 기자들이 요청하는 기념 포즈라서",
       "questions": [
         {
@@ -213,7 +192,7 @@
       }
     },
     {
-      "id": "sports-m5011",
+      "id": "sports-m5010",
       "difficulty": "hard",
       "answer": "사이클",
       "questions": [
@@ -234,7 +213,7 @@
       }
     },
     {
-      "id": "sports-m5012",
+      "id": "sports-m5011",
       "difficulty": "easy",
       "answer": "계주",
       "questions": [
@@ -255,7 +234,7 @@
       }
     },
     {
-      "id": "sports-m5013",
+      "id": "sports-m5012",
       "difficulty": "normal",
       "answer": "경보",
       "questions": [
@@ -276,7 +255,7 @@
       }
     },
     {
-      "id": "sports-m5014",
+      "id": "sports-m5013",
       "difficulty": "hard",
       "answer": "엘리우드 킵초게",
       "questions": [
@@ -297,7 +276,7 @@
       }
     },
     {
-      "id": "sports-m5015",
+      "id": "sports-m5014",
       "difficulty": "hard",
       "answer": "윌트 체임벌린",
       "questions": [
@@ -318,7 +297,7 @@
       }
     },
     {
-      "id": "sports-m5016",
+      "id": "sports-m5015",
       "difficulty": "normal",
       "answer": "르브론 제임스",
       "questions": [
@@ -339,7 +318,7 @@
       }
     },
     {
-      "id": "sports-m5017",
+      "id": "sports-m5016",
       "difficulty": "normal",
       "answer": "스테픈 커리",
       "questions": [
@@ -360,7 +339,7 @@
       }
     },
     {
-      "id": "sports-m5018",
+      "id": "sports-m5017",
       "difficulty": "easy",
       "answer": "리오넬 메시",
       "asOf": "2026-10",
@@ -382,7 +361,7 @@
       }
     },
     {
-      "id": "sports-m5019",
+      "id": "sports-m5018",
       "difficulty": "normal",
       "answer": "디에고 마라도나",
       "questions": [
@@ -403,7 +382,7 @@
       }
     },
     {
-      "id": "sports-m5020",
+      "id": "sports-m5019",
       "difficulty": "normal",
       "answer": "지네딘 지단",
       "questions": [
@@ -424,7 +403,7 @@
       }
     },
     {
-      "id": "sports-m5021",
+      "id": "sports-m5020",
       "difficulty": "hard",
       "answer": "로저 페더러",
       "questions": [
@@ -445,7 +424,7 @@
       }
     },
     {
-      "id": "sports-m5022",
+      "id": "sports-m5021",
       "difficulty": "hard",
       "answer": "1976년 몬트리올",
       "questions": [
@@ -466,7 +445,7 @@
       }
     },
     {
-      "id": "sports-m5023",
+      "id": "sports-m5022",
       "difficulty": "normal",
       "answer": "황영조",
       "questions": [
@@ -487,7 +466,7 @@
       }
     },
     {
-      "id": "sports-m5024",
+      "id": "sports-m5023",
       "difficulty": "normal",
       "answer": "이상화",
       "questions": [
@@ -508,7 +487,7 @@
       }
     },
     {
-      "id": "sports-m5025",
+      "id": "sports-m5024",
       "difficulty": "normal",
       "answer": "안세영",
       "questions": [
@@ -529,7 +508,7 @@
       }
     },
     {
-      "id": "sports-m5026",
+      "id": "sports-m5025",
       "difficulty": "hard",
       "answer": "김우진과 임시현",
       "questions": [
@@ -550,7 +529,7 @@
       }
     },
     {
-      "id": "sports-m5027",
+      "id": "sports-m5026",
       "difficulty": "hard",
       "answer": "2008년 베이징",
       "questions": [
@@ -571,7 +550,7 @@
       }
     },
     {
-      "id": "sports-m5028",
+      "id": "sports-m5027",
       "difficulty": "normal",
       "answer": "미국",
       "questions": [
@@ -592,7 +571,7 @@
       }
     },
     {
-      "id": "sports-m5029",
+      "id": "sports-m5028",
       "difficulty": "hard",
       "answer": "나디아 코마네치",
       "questions": [
@@ -613,7 +592,7 @@
       }
     },
     {
-      "id": "sports-m5030",
+      "id": "sports-m5029",
       "difficulty": "normal",
       "answer": "웸블리 스타디움",
       "questions": [
@@ -634,7 +613,7 @@
       }
     },
     {
-      "id": "sports-m5031",
+      "id": "sports-m5030",
       "difficulty": "hard",
       "answer": "그린 몬스터",
       "questions": [
@@ -655,7 +634,7 @@
       }
     },
     {
-      "id": "sports-m5032",
+      "id": "sports-m5031",
       "difficulty": "easy",
       "answer": "정규 시즌 뒤 열리는 포스트 시즌",
       "questions": [
@@ -676,7 +655,7 @@
       }
     },
     {
-      "id": "sports-m5033",
+      "id": "sports-m5032",
       "difficulty": "easy",
       "answer": "파도타기",
       "questions": [
@@ -697,7 +676,7 @@
       }
     },
     {
-      "id": "sports-m5034",
+      "id": "sports-m5033",
       "difficulty": "hard",
       "answer": "고시엔",
       "questions": [
@@ -718,7 +697,7 @@
       }
     },
     {
-      "id": "sports-m5035",
+      "id": "sports-m5034",
       "difficulty": "easy",
       "answer": "몸무게",
       "questions": [
@@ -739,7 +718,7 @@
       }
     },
     {
-      "id": "sports-m5036",
+      "id": "sports-m5035",
       "difficulty": "easy",
       "answer": "한판",
       "questions": [
@@ -760,7 +739,7 @@
       }
     },
     {
-      "id": "sports-m5037",
+      "id": "sports-m5036",
       "difficulty": "easy",
       "answer": "샅바",
       "questions": [
@@ -781,7 +760,7 @@
       }
     },
     {
-      "id": "sports-m5038",
+      "id": "sports-m5037",
       "difficulty": "easy",
       "answer": "검은 띠",
       "questions": [
@@ -802,7 +781,7 @@
       }
     },
     {
-      "id": "sports-m5039",
+      "id": "sports-m5038",
       "difficulty": "hard",
       "answer": "따냄",
       "questions": [
@@ -823,7 +802,7 @@
       }
     },
     {
-      "id": "sports-m5040",
+      "id": "sports-m5039",
       "difficulty": "normal",
       "answer": "체크",
       "questions": [
@@ -844,7 +823,7 @@
       }
     },
     {
-      "id": "sports-m5041",
+      "id": "sports-m5040",
       "difficulty": "normal",
       "answer": "월드 챔피언십(롤드컵)",
       "questions": [
