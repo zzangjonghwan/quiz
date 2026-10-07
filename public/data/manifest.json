@@ -1,5 +1,5 @@
 {
-  "version": 92,
+  "version": 95,
   "files": [
     {
       "category": "idiom",
@@ -69,6 +69,11 @@
     {
       "category": "korean",
       "file": "korean.m3.json",
+      "version": 1
+    },
+    {
+      "category": "korean",
+      "file": "korean.m4.json",
       "version": 1
     },
     {
@@ -167,6 +172,11 @@
       "version": 1
     },
     {
+      "category": "worldhistory",
+      "file": "worldhistory.m3.json",
+      "version": 1
+    },
+    {
       "category": "myth",
       "file": "myth.json",
       "version": 1
@@ -179,6 +189,11 @@
     {
       "category": "myth",
       "file": "myth.m2.json",
+      "version": 1
+    },
+    {
+      "category": "myth",
+      "file": "myth.m3.json",
       "version": 1
     },
     {
