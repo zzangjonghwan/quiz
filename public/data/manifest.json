@@ -1,5 +1,5 @@
 {
-  "version": 185,
+  "version": 186,
   "files": [
     {
       "category": "idiom",
@@ -789,6 +789,11 @@
     {
       "category": "architecture",
       "file": "architecture.t.json",
+      "version": 1
+    },
+    {
+      "category": "architecture",
+      "file": "architecture.t2.json",
       "version": 1
     },
     {
