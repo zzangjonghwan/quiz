@@ -740,13 +740,13 @@
     {
       "id": "trivia-m2036",
       "difficulty": "hard",
-      "answer": "아침 인사 노래 「Good Morning to All」",
+      "answer": "아침 인사 노래",
       "questions": [
         {
           "mode": "mcq",
           "prompt": "「생일 축하합니다(Happy Birthday to You)」의 멜로디는 원래 어떤 노래였을까?",
           "choices": [
-            "아침 인사 노래 「Good Morning to All」",
+            "아침 인사 노래",
             "유럽의 크리스마스 캐럴",
             "미국 독립 기념일 행진곡",
             "영국 왕실의 자장가"
