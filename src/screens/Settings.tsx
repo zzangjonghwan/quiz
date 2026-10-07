@@ -6,7 +6,15 @@ import { useBackHandler } from '../native'
 import { resetProgress, updateSettings, useStore } from '../store'
 import type { CategoryId } from '../types'
 
-export function SettingsScreen({ onBack, onCredits }: { onBack: () => void; onCredits: () => void }) {
+export function SettingsScreen({
+  onBack,
+  onCredits,
+  onSounds,
+}: {
+  onBack: () => void
+  onCredits: () => void
+  onSounds: () => void
+}) {
   const { settings } = useStore()
   const [confirmReset, setConfirmReset] = useState(false)
 
@@ -44,6 +52,16 @@ export function SettingsScreen({ onBack, onCredits }: { onBack: () => void; onCr
           <Row label="터치 진동">
             <Toggle on={settings.haptics} onChange={(haptics) => updateSettings({ haptics })} />
           </Row>
+        </Group>
+
+        <Group title="게임 모드">
+          <Row label="효과음">
+            <Toggle on={settings.sound} onChange={(sound) => updateSettings({ sound })} />
+          </Row>
+          <button onClick={onSounds} className="flex w-full items-center justify-between py-1 text-left">
+            <span className="text-[15px]">효과음 고르기</span>
+            <ChevronRight size={18} className="text-fg-subtle" />
+          </button>
         </Group>
 
         <section className="flex flex-col gap-2">

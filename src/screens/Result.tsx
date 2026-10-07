@@ -1,22 +1,28 @@
-import { Check, ChevronDown, X } from 'lucide-react'
-import { useState } from 'react'
+import { Check, ChevronDown, Flame, Trophy, X } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
 import { CATEGORY_BY_ID, DIFFICULTY_LABEL } from '../categories'
 import { CardImage } from '../components/CardImage'
 import { Explanation } from '../components/Explanation'
 import { PrimaryButton, Screen, SecondaryButton } from '../components/ui'
+import { celebrate, clearFx } from '../fx'
+import type { GameResult } from '../game'
 import { useBackHandler } from '../native'
+import { playSound, setGameAudio } from '../sound'
+import { getState, recordGame } from '../store'
 import { correctAnswerText, type AnswerRecord, type SessionConfig } from '../session'
 
 export function Result({
   config,
   answers,
   durationMs,
+  game,
   onRetry,
   onHome,
 }: {
   config: SessionConfig
   answers: AnswerRecord[]
   durationMs: number
+  game?: GameResult
   onRetry: () => void
   onHome: () => void
 }) {
@@ -28,6 +34,26 @@ export function Result({
 
   const correct = answers.filter((a) => a.correct).length
   const rate = answers.length ? Math.round((correct / answers.length) * 100) : 0
+
+  // 게임 모드: save the record once, then celebrate a good run.
+  const [newBest, setNewBest] = useState(false)
+  const [bestScore] = useState(() => getState().stats.bestScore)
+  const recorded = useRef(false)
+  useEffect(() => {
+    if (!game || recorded.current) return
+    recorded.current = true
+    const best = recordGame(game.score, game.maxCombo)
+    setNewBest(best && game.score > 0)
+    setGameAudio(true)
+    if ((best && game.score > 0) || rate >= 70) {
+      playSound('fanfare')
+      celebrate(best ? 6 : 3)
+    }
+    return () => {
+      setGameAudio(false)
+      clearFx()
+    }
+  }, [game, rate])
   const title =
     (config.source === 'note' ? '오답노트 · ' : '') +
     (config.category ? CATEGORY_BY_ID[config.category].name : '종합') +
@@ -47,6 +73,26 @@ export function Result({
           </p>
           <p className="pt-1 text-sm text-fg-muted">{comment(rate)}</p>
         </div>
+
+        {game && (
+          <section className="relative flex flex-col gap-3 overflow-hidden rounded-2xl bg-surface p-5">
+            {newBest && (
+              <span className="fx-pulse absolute top-4 right-4 flex items-center gap-1 rounded-full bg-accent px-2.5 py-1 text-xs font-extrabold text-accent-fg">
+                <Trophy size={13} strokeWidth={2.5} />
+                최고 기록!
+              </span>
+            )}
+            <span className="text-xs font-semibold text-fg-subtle">게임 점수</span>
+            <span className="text-4xl font-black text-accent tabular-nums">{game.score.toLocaleString()}</span>
+            <div className="flex gap-4 text-sm text-fg-muted">
+              <span className="flex items-center gap-1">
+                <Flame size={15} className="text-orange-400" />
+                최대 {game.maxCombo}콤보
+              </span>
+              <span>최고 기록 {Math.max(bestScore, game.score).toLocaleString()}</span>
+            </div>
+          </section>
+        )}
 
         <section className="grid grid-cols-2 gap-3 rounded-2xl bg-surface p-5">
           <Stat label="정답률" value={`${rate}%`} />

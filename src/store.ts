@@ -5,7 +5,8 @@ import { App } from '@capacitor/app'
 import { Capacitor } from '@capacitor/core'
 import { Preferences } from '@capacitor/preferences'
 import { useSyncExternalStore } from 'react'
-import type { CategoryId, CountChoice, DifficultyChoice } from './types'
+import type { SoundName } from './sound'
+import type { CategoryId, CountChoice, DifficultyChoice, PlayStyle } from './types'
 
 export interface CardProgress {
   /** Leitner box 0-5. 0 = never answered correctly yet. */
@@ -25,6 +26,9 @@ export interface Stats {
   correct: number
   streak: number
   bestStreak: number
+  /** 게임 모드 기록. */
+  bestScore: number
+  bestCombo: number
 }
 
 export interface Settings {
@@ -34,6 +38,11 @@ export interface Settings {
   excluded: CategoryId[]
   difficulty: DifficultyChoice
   count: CountChoice
+  /** 일반 모드 or 게임 모드 (effects, score, sound). */
+  play: PlayStyle
+  sound: boolean
+  /** Chosen variant id per sound effect (see src/sound.ts). */
+  soundPicks: Partial<Record<SoundName, string>>
 }
 
 export interface StoreState {
@@ -47,13 +56,16 @@ const DAY = 24 * 60 * 60 * 1000
 /** Days until the next review, indexed by box. */
 const REVIEW_DAYS = [0, 1, 3, 7, 21, 60]
 
-const EMPTY_STATS: Stats = { answers: 0, correct: 0, streak: 0, bestStreak: 0 }
+const EMPTY_STATS: Stats = { answers: 0, correct: 0, streak: 0, bestStreak: 0, bestScore: 0, bestCombo: 0 }
 const DEFAULT_SETTINGS: Settings = {
   theme: 'dark',
   haptics: true,
   excluded: [],
   difficulty: 'mixed',
   count: 10,
+  play: 'game',
+  sound: true,
+  soundPicks: {},
 }
 
 let state: StoreState = { progress: {}, stats: EMPTY_STATS, settings: DEFAULT_SETTINGS }
@@ -150,6 +162,7 @@ export function recordAnswer(cardId: string, correct: boolean, hinted = false): 
     ...state,
     progress: { ...state.progress, [cardId]: p },
     stats: {
+      ...s,
       answers: s.answers + 1,
       correct: s.correct + (correct ? 1 : 0),
       streak,
@@ -176,6 +189,17 @@ export function removeFromNote(cardId: string) {
 
 export function updateSettings(patch: Partial<Settings>) {
   commit({ ...state, settings: { ...state.settings, ...patch } })
+}
+
+/** Records a finished game-mode session; returns true when it set a new best score. */
+export function recordGame(score: number, maxCombo: number) {
+  const s = state.stats
+  const newBest = score > s.bestScore
+  commit({
+    ...state,
+    stats: { ...s, bestScore: Math.max(s.bestScore, score), bestCombo: Math.max(s.bestCombo, maxCombo) },
+  })
+  return newBest
 }
 
 export function resetProgress() {

@@ -1,7 +1,7 @@
 import { isTypeable, normalize } from './answer'
 import type { QuestionBank } from './data'
 import type { CardProgress } from './store'
-import type { Card, CategoryId, CountChoice, DifficultyChoice, McqQuestion, QuizMode } from './types'
+import type { Card, CategoryId, CountChoice, DifficultyChoice, McqQuestion, PlayStyle, QuizMode } from './types'
 
 export interface SessionConfig {
   mode: QuizMode
@@ -11,6 +11,7 @@ export interface SessionConfig {
   category: CategoryId | null
   difficulty: DifficultyChoice
   count: CountChoice
+  play: PlayStyle
 }
 
 interface ItemBase {
@@ -41,6 +42,8 @@ export interface AnswerRecord {
   pickedIndex?: number
   typed?: string
   hinted?: boolean
+  /** 게임 모드 points earned. */
+  points?: number
 }
 
 export interface PoolOptions {

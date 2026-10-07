@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { loadBank, type QuestionBank } from './data'
+import type { GameResult } from './game'
 import { applyTheme } from './native'
 import { CategorySelect } from './screens/CategorySelect'
 import { Credits } from './screens/Credits'
@@ -7,6 +8,7 @@ import { Home } from './screens/Home'
 import { Quiz } from './screens/Quiz'
 import { Result } from './screens/Result'
 import { SettingsScreen } from './screens/Settings'
+import { SoundPicker } from './screens/SoundPicker'
 import { StatsScreen } from './screens/Stats'
 import { WrongNote } from './screens/WrongNote'
 import { buildSession, type AnswerRecord, type SessionConfig, type SessionItem } from './session'
@@ -17,11 +19,12 @@ type Screen =
   | { name: 'home' }
   | { name: 'categories'; mode: QuizMode }
   | { name: 'quiz'; config: SessionConfig; items: SessionItem[]; startedAt: number }
-  | { name: 'result'; config: SessionConfig; answers: AnswerRecord[]; durationMs: number }
+  | { name: 'result'; config: SessionConfig; answers: AnswerRecord[]; durationMs: number; game?: GameResult }
   | { name: 'note' }
   | { name: 'stats' }
   | { name: 'settings' }
   | { name: 'credits' }
+  | { name: 'sounds' }
 
 export default function App() {
   const [bank, setBank] = useState<QuestionBank | null>(null)
@@ -69,12 +72,13 @@ export default function App() {
           items={screen.items}
           config={screen.config}
           onQuit={() => back(screen.config)}
-          onFinish={(answers) =>
+          onFinish={(answers, game) =>
             setScreen({
               name: 'result',
               config: screen.config,
               answers,
               durationMs: Date.now() - screen.startedAt,
+              game,
             })
           }
         />
@@ -85,6 +89,7 @@ export default function App() {
           config={screen.config}
           answers={screen.answers}
           durationMs={screen.durationMs}
+          game={screen.game}
           onRetry={() => startQuiz(screen.config)}
           onHome={() => back(screen.config)}
         />
@@ -94,7 +99,15 @@ export default function App() {
     case 'stats':
       return <StatsScreen bank={bank} onBack={home} />
     case 'settings':
-      return <SettingsScreen onBack={home} onCredits={() => setScreen({ name: 'credits' })} />
+      return (
+        <SettingsScreen
+          onBack={home}
+          onCredits={() => setScreen({ name: 'credits' })}
+          onSounds={() => setScreen({ name: 'sounds' })}
+        />
+      )
+    case 'sounds':
+      return <SoundPicker onBack={() => setScreen({ name: 'settings' })} />
     case 'credits':
       return <Credits onBack={() => setScreen({ name: 'settings' })} />
   }

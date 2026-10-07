@@ -2,6 +2,7 @@ import { App } from '@capacitor/app'
 import { Capacitor, SystemBars, SystemBarsStyle } from '@capacitor/core'
 import { Haptics, ImpactStyle, NotificationType } from '@capacitor/haptics'
 import { useEffect, useRef } from 'react'
+import { playSound } from './sound'
 import { getState } from './store'
 
 const isNative = Capacitor.isNativePlatform()
@@ -17,6 +18,13 @@ export function hapticCorrect() {
 
 export function hapticWrong() {
   if (hapticsOn()) void Haptics.notification({ type: NotificationType.Error })
+}
+
+/** The heavy "쿠구궁" for a wrong answer in 게임 모드. */
+export function hapticCrash() {
+  if (!hapticsOn()) return
+  void Haptics.impact({ style: ImpactStyle.Heavy })
+  setTimeout(() => void Haptics.impact({ style: ImpactStyle.Heavy }), 260)
 }
 
 export function applyTheme(theme: 'dark' | 'light') {
@@ -35,7 +43,10 @@ export function installTapHaptics() {
     'click',
     (e) => {
       const button = (e.target as Element | null)?.closest('button')
-      if (button && !button.disabled && button.dataset.haptic !== 'off') hapticTap()
+      if (button && !button.disabled && button.dataset.haptic !== 'off') {
+        hapticTap()
+        playSound('tap')
+      }
     },
     true,
   )

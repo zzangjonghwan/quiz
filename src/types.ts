@@ -2,6 +2,7 @@ export type Difficulty = 'easy' | 'normal' | 'hard'
 export type DifficultyChoice = Difficulty | 'mixed'
 export type CountChoice = 10 | 20 | 30 | 'infinite'
 export type QuizMode = 'mcq' | 'subjective'
+export type PlayStyle = 'normal' | 'game'
 
 export type CategoryId =
   | 'idiom' | 'proverb' | 'korean' | 'slang' | 'loanword'

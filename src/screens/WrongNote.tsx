@@ -19,7 +19,7 @@ export function WrongNote({
   onBack: () => void
   onStart: (config: SessionConfig) => void
 }) {
-  const { progress } = useStore()
+  const { progress, settings } = useStore()
   const [filter, setFilter] = useState<CategoryId | null>(null)
   const [open, setOpen] = useState<string | null>(null)
 
@@ -44,7 +44,7 @@ export function WrongNote({
   const shown = filter ? entries.filter((e) => e.category === filter) : entries
   const subjectiveCount = shown.filter((e) => subjectivePrompts(e.card).length > 0).length
   const start = (mode: SessionConfig['mode']) =>
-    onStart({ mode, source: 'note', category: filter, difficulty: 'mixed', count: 'infinite' })
+    onStart({ mode, source: 'note', category: filter, difficulty: 'mixed', count: 'infinite', play: settings.play })
 
   return (
     <Screen>
