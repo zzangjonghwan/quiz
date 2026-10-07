@@ -1,5 +1,5 @@
 {
-  "version": 116,
+  "version": 119,
   "files": [
     {
       "category": "idiom",
@@ -154,6 +154,21 @@
     {
       "category": "koreanhistory",
       "file": "koreanhistory.m2.json",
+      "version": 1
+    },
+    {
+      "category": "koreanhistory",
+      "file": "koreanhistory.m3.json",
+      "version": 1
+    },
+    {
+      "category": "koreanhistory",
+      "file": "koreanhistory.m4.json",
+      "version": 1
+    },
+    {
+      "category": "koreanhistory",
+      "file": "koreanhistory.m5.json",
       "version": 1
     },
     {
