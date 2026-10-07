@@ -1,5 +1,5 @@
 {
-  "version": 204,
+  "version": 205,
   "files": [
     {
       "category": "idiom",
@@ -369,6 +369,11 @@
     {
       "category": "animal",
       "file": "animal.m7.json",
+      "version": 1
+    },
+    {
+      "category": "animal",
+      "file": "animal.m8.json",
       "version": 1
     },
     {
