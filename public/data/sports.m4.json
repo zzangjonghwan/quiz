@@ -1,0 +1,805 @@
+{
+  "category": "sports",
+  "version": 1,
+  "cards": [
+    {
+      "id": "sports-m4001",
+      "difficulty": "normal",
+      "answer": "11m",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "축구에서 페널티킥을 차는 지점은 골라인에서 몇 m 떨어져 있을까?",
+          "choices": [
+            "11m",
+            "9m",
+            "16.5m",
+            "20m"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그래서 페널티킥을 '11미터 킥'이라고도 해요. 페널티 구역은 골라인에서 16.5m까지예요.",
+        "tip": "11m 앞 한 판 승부"
+      }
+    },
+    {
+      "id": "sports-m4002",
+      "difficulty": "easy",
+      "answer": "VAR",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "축구 경기에서 비디오 판독으로 심판 판정을 돕는 제도의 약자는?",
+          "choices": [
+            "VAR",
+            "VIP",
+            "MVP",
+            "GPS"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'비디오 보조 심판'이에요. 골, 페널티킥, 퇴장, 선수 착각 상황을 다시 봐요.",
+        "tip": "비디오 보조 심판"
+      }
+    },
+    {
+      "id": "sports-m4003",
+      "difficulty": "normal",
+      "answer": "5명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "축구 경기 중 한 팀이 쓸 수 있는 교체 인원은 정규 시간 기준으로 최대 몇 명일까?",
+          "choices": [
+            "5명",
+            "3명",
+            "4명",
+            "7명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "코로나19 시기에 임시로 5명으로 늘렸다가 그대로 정식 규칙이 됐어요. 교체 기회는 3번이에요.",
+        "tip": "5명, 3번의 기회"
+      }
+    },
+    {
+      "id": "sports-m4004",
+      "difficulty": "easy",
+      "answer": "4개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "야구에서 볼을 몇 개 받으면 타자가 1루로 걸어 나갈까?",
+          "choices": [
+            "4개",
+            "3개",
+            "5개",
+            "6개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'볼넷'이에요. 몸에 맞는 공(사구)도 1루로 나가요.",
+        "tip": "볼넷"
+      }
+    },
+    {
+      "id": "sports-m4005",
+      "difficulty": "easy",
+      "answer": "3개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "야구에서 한 팀이 공격할 때 아웃 몇 개가 되면 공수가 바뀔까?",
+          "choices": [
+            "3개",
+            "2개",
+            "4개",
+            "9개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스리 아웃이면 공격과 수비가 바뀌어요.",
+        "tip": "스리 아웃 체인지"
+      }
+    },
+    {
+      "id": "sports-m4006",
+      "difficulty": "hard",
+      "answer": "약 27.4m",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "야구 다이아몬드에서 각 베이스 사이의 거리는 약 얼마일까?",
+          "choices": [
+            "약 27.4m",
+            "약 18.4m",
+            "약 30m",
+            "약 40m"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "90피트예요. 투수판에서 홈 플레이트까지는 약 18.44m(60피트 6인치)예요.",
+        "tip": "90피트"
+      }
+    },
+    {
+      "id": "sports-m4007",
+      "difficulty": "hard",
+      "answer": "약 18.44m",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "야구에서 투수가 던질 때 밟는 판에서 홈 플레이트까지의 거리는 약 얼마일까?",
+          "choices": [
+            "약 18.44m",
+            "약 10m",
+            "약 27.4m",
+            "약 25m"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "60피트 6인치예요. 이 거리를 시속 150km 공은 0.4초 남짓에 날아와요.",
+        "tip": "60피트 6인치"
+      }
+    },
+    {
+      "id": "sports-m4008",
+      "difficulty": "easy",
+      "answer": "3점",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "농구 경기장에서 3점 슛 라인 바깥에서 넣은 슛은 몇 점일까?",
+          "choices": [
+            "3점",
+            "2점",
+            "4점",
+            "1점"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "라인 안쪽은 2점, 자유투는 1점이에요.",
+        "tip": "외곽 = 3점"
+      }
+    },
+    {
+      "id": "sports-m4009",
+      "difficulty": "normal",
+      "answer": "24초",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "농구에서 공을 가진 팀이 몇 초 안에 슛을 던져야 할까?",
+          "choices": [
+            "24초",
+            "10초",
+            "30초",
+            "45초"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'샷 클록'이라고 해요. 1954년 NBA가 도입해 경기 속도를 크게 높였어요.",
+        "tip": "24초 샷 클록"
+      }
+    },
+    {
+      "id": "sports-m4010",
+      "difficulty": "normal",
+      "answer": "트래블링",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "농구에서 공을 든 채 세 걸음 이상 걷는 반칙은?",
+          "choices": [
+            "트래블링",
+            "더블 드리블",
+            "바이얼레이션",
+            "차징"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'워킹'이라고도 해요. 드리블을 멈췄다 다시 하면 더블 드리블이에요.",
+        "tip": "공 들고 걷기"
+      }
+    },
+    {
+      "id": "sports-m4011",
+      "difficulty": "normal",
+      "answer": "리베로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "배구에서 수비만 전문으로 하고 다른 색 유니폼을 입는 선수는?",
+          "choices": [
+            "리베로",
+            "세터",
+            "라이트",
+            "센터"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공격과 서브를 할 수 없고 후위에서 리시브와 디그를 맡아요. 이탈리아어로 '자유로운'이라는 뜻이에요.",
+        "tip": "다른 색 유니폼"
+      }
+    },
+    {
+      "id": "sports-m4012",
+      "difficulty": "normal",
+      "answer": "세터",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "배구에서 공을 토스해 공격수에게 올려 주는 '코트 위의 사령관'은?",
+          "choices": [
+            "세터",
+            "리베로",
+            "센터",
+            "레프트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "팀 공격을 조율해서 농구의 포인트 가드와 비슷한 역할을 해요.",
+        "tip": "공을 세팅하는 사람"
+      }
+    },
+    {
+      "id": "sports-m4013",
+      "difficulty": "normal",
+      "answer": "6게임",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "테니스에서 한 세트를 이기려면 보통 몇 게임을 먼저 따야 할까?",
+          "choices": [
+            "6게임",
+            "4게임",
+            "5게임",
+            "7게임"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "두 게임 이상 차이가 나야 해요. 6 대 6이 되면 타이브레이크로 승부를 가려요.",
+        "tip": "6게임, 2게임 차"
+      }
+    },
+    {
+      "id": "sports-m4014",
+      "difficulty": "normal",
+      "answer": "마이애미 오픈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "테니스 4대 메이저 대회가 아닌 것은?",
+          "choices": [
+            "마이애미 오픈",
+            "호주 오픈",
+            "롤랑가로스(프랑스 오픈)",
+            "US 오픈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "호주 오픈, 프랑스 오픈, 윔블던, US 오픈이 4대 메이저예요.",
+        "tip": "호주·프랑스·윔블던·US"
+      }
+    },
+    {
+      "id": "sports-m4015",
+      "difficulty": "normal",
+      "answer": "프랑스 오픈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "붉은 흙(클레이) 코트에서 열리는 테니스 메이저 대회는?",
+          "choices": [
+            "프랑스 오픈",
+            "윔블던",
+            "US 오픈",
+            "호주 오픈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'롤랑가로스'라고도 해요. 공이 느리고 높게 튀어 랠리가 길어져요.",
+        "tip": "붉은 흙 = 롤랑가로스"
+      }
+    },
+    {
+      "id": "sports-m4016",
+      "difficulty": "easy",
+      "answer": "퍼터",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "골프에서 공을 그린 위 홀에 넣을 때 쓰는, 굴리는 데 쓰는 클럽은?",
+          "choices": [
+            "퍼터",
+            "드라이버",
+            "아이언",
+            "웨지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가장 멀리 치는 클럽은 드라이버예요.",
+        "tip": "굴리기 = 퍼터"
+      }
+    },
+    {
+      "id": "sports-m4017",
+      "difficulty": "easy",
+      "answer": "50m",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "수영 경기장에서 올림픽 규격 수영장의 길이는?",
+          "choices": [
+            "50m",
+            "25m",
+            "100m",
+            "33m"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "25m 길이 수영장은 '쇼트 코스'라고 해요.",
+        "tip": "롱 코스 = 50m"
+      }
+    },
+    {
+      "id": "sports-m4018",
+      "difficulty": "easy",
+      "answer": "400m",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "육상 트랙 경기장 한 바퀴의 거리는(가장 안쪽 레인 기준)?",
+          "choices": [
+            "400m",
+            "200m",
+            "300m",
+            "500m"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "바깥 레인은 더 길어서 400m 경주는 출발선을 계단처럼 엇갈려 놓아요.",
+        "tip": "한 바퀴 400m"
+      }
+    },
+    {
+      "id": "sports-m4019",
+      "difficulty": "hard",
+      "answer": "남자 선수",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "육상 '10종 경기'를 하는 사람은 누구일까?",
+          "choices": [
+            "남자 선수",
+            "여자 선수",
+            "청소년만",
+            "혼성 팀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남자는 10종, 여자는 7종 경기를 해요. 이틀 동안 달리기, 뛰기, 던지기를 모두 해요.",
+        "tip": "남자 10종, 여자 7종"
+      }
+    },
+    {
+      "id": "sports-m4020",
+      "difficulty": "hard",
+      "answer": "포스버리 플롭",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "높이뛰기에서 몸을 뒤로 젖혀 등으로 바를 넘는 기술을 처음 선보인 선수의 이름을 딴 기술은?",
+          "choices": [
+            "포스버리 플롭",
+            "가위뛰기",
+            "벨리 롤",
+            "플랫 점프"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1968년 멕시코시티 올림픽에서 딕 포스버리가 이 방법으로 금메달을 땄고, 이후 표준이 됐어요.",
+        "tip": "배면뛰기"
+      }
+    },
+    {
+      "id": "sports-m4021",
+      "difficulty": "easy",
+      "answer": "퍽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아이스하키에서 쓰는 납작한 고무 원반을 부르는 말은?",
+          "choices": [
+            "퍽",
+            "스톤",
+            "셔틀콕",
+            "볼"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "얼어 있는 상태로 써야 덜 튀어서 경기 전에 냉동해 둬요.",
+        "tip": "하키 원반"
+      }
+    },
+    {
+      "id": "sports-m4022",
+      "difficulty": "easy",
+      "answer": "컬링",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "얼음 위에서 돌을 밀어 과녁에 가깝게 보내는 경기로, 선수들이 빗자루질을 하는 종목은?",
+          "choices": [
+            "컬링",
+            "봅슬레이",
+            "루지",
+            "스켈레톤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2018 평창 동계 올림픽에서 한국 여자 대표팀 '팀 킴'이 은메달을 따 '영미!'가 유행어가 됐어요.",
+        "tip": "\"영미!\""
+      }
+    },
+    {
+      "id": "sports-m4023",
+      "difficulty": "hard",
+      "answer": "루지 - 스켈레톤",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "썰매에 누워 발부터 내려가는 종목과 머리부터 엎드려 내려가는 종목이 바르게 짝지어진 것은?",
+          "choices": [
+            "루지 - 스켈레톤",
+            "스켈레톤 - 루지",
+            "봅슬레이 - 루지",
+            "컬링 - 봅슬레이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "루지는 누워서 발부터, 스켈레톤은 엎드려 머리부터 내려가요. 봅슬레이는 여럿이 썰매 안에 앉아 타요.",
+        "tip": "발부터 루지, 머리부터 스켈레톤"
+      }
+    },
+    {
+      "id": "sports-m4024",
+      "difficulty": "normal",
+      "answer": "윤성빈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2018 평창 동계 올림픽 스켈레톤에서 금메달을 딴 한국 선수는?",
+          "choices": [
+            "윤성빈",
+            "이상화",
+            "최민정",
+            "이승훈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아시아 선수 최초의 썰매 종목 올림픽 금메달이에요. '아이언맨' 헬멧으로 유명해요.",
+        "tip": "아이언맨 헬멧"
+      }
+    },
+    {
+      "id": "sports-m4025",
+      "difficulty": "hard",
+      "answer": "어렵고 위험한 기술이라 더 높게 쳐 줘서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태권도 경기에서 머리 공격을 회전하며 성공했을 때 얻는 점수가 가장 높은 이유는?",
+          "choices": [
+            "어렵고 위험한 기술이라 더 높게 쳐 줘서",
+            "심판 재량이라서",
+            "몸통보다 맞히기 쉬워서",
+            "규칙에 정해진 게 없어서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "회전 기술로 머리를 차면 5점이에요. 주먹 공격은 1점이에요.",
+        "tip": "돌려차기 머리 = 5점"
+      }
+    },
+    {
+      "id": "sports-m4026",
+      "difficulty": "easy",
+      "answer": "프리미어 리그",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "잉글랜드 프로 축구 1부 리그의 이름은?",
+          "choices": [
+            "프리미어 리그",
+            "라리가",
+            "분데스리가",
+            "세리에 A"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스페인은 라리가, 독일은 분데스리가, 이탈리아는 세리에 A, 프랑스는 리그 1이에요.",
+        "tip": "EPL"
+      }
+    },
+    {
+      "id": "sports-m4027",
+      "difficulty": "normal",
+      "answer": "분데스리가",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "독일 프로 축구 1부 리그의 이름은?",
+          "choices": [
+            "분데스리가",
+            "프리미어 리그",
+            "세리에 A",
+            "에레디비시"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "바이에른 뮌헨이 가장 많이 우승한 팀이에요. 네덜란드 리그는 에레디비시예요.",
+        "tip": "독일 = 분데스"
+      }
+    },
+    {
+      "id": "sports-m4028",
+      "difficulty": "easy",
+      "answer": "UEFA 챔피언스 리그",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "유럽 각국 리그 상위 팀들이 겨루는 최고의 클럽 축구 대회는?",
+          "choices": [
+            "UEFA 챔피언스 리그",
+            "유로파 리그",
+            "코파 아메리카",
+            "클럽 월드컵"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "줄여서 '챔스'라고 해요. 레알 마드리드가 가장 많이 우승한 팀이에요.",
+        "tip": "빅 이어 트로피"
+      }
+    },
+    {
+      "id": "sports-m4029",
+      "difficulty": "normal",
+      "answer": "UEFA 유로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "4년마다 열리는 유럽 국가 대항 축구 대회의 이름은?",
+          "choices": [
+            "UEFA 유로",
+            "코파 아메리카",
+            "AFC 아시안컵",
+            "CONCACAF 골드컵"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남미는 코파 아메리카, 아시아는 AFC 아시안컵이에요.",
+        "tip": "유럽 = 유로"
+      }
+    },
+    {
+      "id": "sports-m4030",
+      "difficulty": "easy",
+      "answer": "월드 시리즈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국 프로 야구 메이저리그의 챔피언 결정전 이름은?",
+          "choices": [
+            "월드 시리즈",
+            "슈퍼볼",
+            "NBA 파이널",
+            "스탠리컵"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아메리칸 리그와 내셔널 리그 우승 팀이 7전 4선승제로 붙어요.",
+        "tip": "7전 4선승"
+      }
+    },
+    {
+      "id": "sports-m4031",
+      "difficulty": "hard",
+      "answer": "스탠리컵",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "북미 아이스하키 리그(NHL) 우승 팀에게 주는 트로피는?",
+          "choices": [
+            "스탠리컵",
+            "래리 오브라이언 트로피",
+            "빈스 롬바르디 트로피",
+            "커미셔너스 트로피"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "우승 팀 선수들은 각자 하루씩 컵을 고향에 가져가 즐기는 전통이 있어요.",
+        "tip": "하루씩 집에 가져가는 컵"
+      }
+    },
+    {
+      "id": "sports-m4032",
+      "difficulty": "easy",
+      "answer": "한국 시리즈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해마다 가을에 열리는 한국 프로 야구 최종 우승 결정전은?",
+          "choices": [
+            "한국 시리즈",
+            "올스타전",
+            "퓨처스 리그",
+            "준플레이오프"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정규 시즌 1위 팀이 기다렸다가 플레이오프를 이긴 팀과 겨뤄요.",
+        "tip": "가을 야구의 끝"
+      }
+    },
+    {
+      "id": "sports-m4033",
+      "difficulty": "normal",
+      "answer": "KIA 타이거즈",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국 프로 야구에서 최다 우승 기록을 가진 팀은?",
+          "choices": [
+            "KIA 타이거즈",
+            "삼성 라이온즈",
+            "두산 베어스",
+            "LG 트윈스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "해태 시절을 포함해 12회 우승했어요. 한국 시리즈에 오르면 한 번도 지지 않은 기록이 유명해요.",
+        "tip": "한국 시리즈 불패"
+      }
+    },
+    {
+      "id": "sports-m4034",
+      "difficulty": "easy",
+      "answer": "아시안 게임",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "4년마다 열리는 아시아 국가들의 종합 스포츠 대회는?",
+          "choices": [
+            "아시안 게임",
+            "유니버시아드",
+            "커먼웰스 게임",
+            "패럴림픽"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한국은 1986년 서울, 2002년 부산, 2014년 인천에서 열었어요.",
+        "tip": "서울·부산·인천"
+      }
+    },
+    {
+      "id": "sports-m4035",
+      "difficulty": "easy",
+      "answer": "패럴림픽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "올림픽이 끝난 뒤 같은 도시에서 열리는 장애인 종합 스포츠 대회는?",
+          "choices": [
+            "패럴림픽",
+            "스페셜 올림픽",
+            "데플림픽",
+            "유니버시아드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'평행(parallel)'과 올림픽을 합친 말이에요. 지적 장애인 대회는 스페셜 올림픽, 청각 장애인 대회는 데플림픽이에요.",
+        "tip": "올림픽과 나란히"
+      }
+    },
+    {
+      "id": "sports-m4036",
+      "difficulty": "normal",
+      "answer": "세계 대학 경기 대회",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대학생들이 참가하는 국제 종합 스포츠 대회는?",
+          "choices": [
+            "세계 대학 경기 대회",
+            "아시아 경기 대회",
+            "영연방 경기 대회",
+            "청소년 올림픽 대회"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "예전 이름은 '유니버시아드'예요. 한국은 2003년 대구, 2015년 광주에서 열었어요.",
+        "tip": "대학생 올림픽"
+      }
+    },
+    {
+      "id": "sports-m4037",
+      "difficulty": "hard",
+      "answer": "슈퍼볼",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계 3대 스포츠 축제로 흔히 꼽히는 것에 들지 않는 것은?",
+          "choices": [
+            "슈퍼볼",
+            "올림픽",
+            "FIFA 월드컵",
+            "세계 육상 선수권 대회"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "올림픽, 월드컵, 세계 육상 선수권을 흔히 3대 스포츠 축제로 꼽아요.",
+        "tip": "올림픽·월드컵·세계육상"
+      }
+    },
+    {
+      "id": "sports-m4038",
+      "difficulty": "hard",
+      "answer": "흰 바탕에 빨간 물방울",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'투르 드 프랑스'에서 산악 구간 1위 선수가 입는 저지 무늬는?",
+          "choices": [
+            "흰 바탕에 빨간 물방울",
+            "노란색",
+            "초록색",
+            "흰색"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "종합 1위는 노란색, 포인트 1위는 초록색, 젊은 선수 1위는 흰색 저지를 입어요.",
+        "tip": "물방울 = 산악왕"
+      }
+    }
+  ]
+}
