@@ -1,0 +1,594 @@
+{
+  "category": "film",
+  "version": 1,
+  "cards": [
+    {
+      "id": "film-m5001",
+      "difficulty": "normal",
+      "answer": "1987",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1987년 대학생 박종철 고문 치사 사건부터 6월 민주 항쟁까지를 그린 2017년 영화는?",
+          "choices": [
+            "1987",
+            "택시운전사",
+            "변호인",
+            "남산의 부장들"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김윤석, 하정우, 유해진, 김태리 등이 출연했어요.",
+        "tip": "6월 항쟁"
+      }
+    },
+    {
+      "id": "film-m5002",
+      "difficulty": "normal",
+      "answer": "변호인",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1981년 부림 사건을 바탕으로, 세무 변호사가 인권 변호사로 거듭나는 과정을 그린 영화는?",
+          "choices": [
+            "변호인",
+            "1987",
+            "재심",
+            "소수의견"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "송강호가 주인공 송우석을 연기했고, 1,000만 관객을 넘겼어요.",
+        "tip": "송우석 변호사"
+      }
+    },
+    {
+      "id": "film-m5003",
+      "difficulty": "normal",
+      "answer": "국가부도의 날",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1997년 외환 위기 직전 일주일 동안의 긴박한 상황을 그린 영화는?",
+          "choices": [
+            "국가부도의 날",
+            "마진 콜",
+            "빅쇼트",
+            "작전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김혜수가 한국은행 통화 정책 팀장 역을 맡았어요.",
+        "tip": "IMF 직전"
+      }
+    },
+    {
+      "id": "film-m5004",
+      "difficulty": "hard",
+      "answer": "남산의 부장들",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1979년 10·26 사태 직전 40일 동안 권력 핵심부의 갈등을 그린 영화는?",
+          "choices": [
+            "남산의 부장들",
+            "서울의 봄",
+            "그때 그 사람들",
+            "1987"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이병헌이 중앙정보부장 김규평 역을 맡았어요.",
+        "tip": "중앙정보부"
+      }
+    },
+    {
+      "id": "film-m5005",
+      "difficulty": "normal",
+      "answer": "헌트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "배우 이정재가 처음으로 감독을 맡은 2022년 첩보 액션 영화는?",
+          "choices": [
+            "헌트",
+            "신세계",
+            "관상",
+            "다만 악에서 구하소서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정우성과 함께 주연을 맡았어요. 칸 영화제에서 처음 공개됐어요.",
+        "tip": "감독 데뷔작"
+      }
+    },
+    {
+      "id": "film-m5006",
+      "difficulty": "normal",
+      "answer": "한산: 용의 출현",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1592년 이순신 장군이 학익진으로 일본 수군을 크게 무찌른 해전을 그린 2022년 영화는?",
+          "choices": [
+            "한산: 용의 출현",
+            "명량",
+            "노량: 죽음의 바다",
+            "천문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「명량」, 「노량」과 함께 김한민 감독의 이순신 3부작이에요.",
+        "tip": "학익진"
+      }
+    },
+    {
+      "id": "film-m5007",
+      "difficulty": "normal",
+      "answer": "관상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "수양 대군과 김종서의 대립 속에 얼굴을 보고 운명을 읽는 관상가의 이야기를 그린 영화는?",
+          "choices": [
+            "관상",
+            "광해, 왕이 된 남자",
+            "사도",
+            "왕의 남자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이정재가 수양 대군을 연기해 '내가 왕이 될 상인가'라는 대사가 유명해졌어요.",
+        "tip": "\"내가 왕이 될 상인가\""
+      }
+    },
+    {
+      "id": "film-m5008",
+      "difficulty": "normal",
+      "answer": "사도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영조와 아들 사도 세자의 비극을 그린 2015년 영화는?",
+          "choices": [
+            "사도",
+            "관상",
+            "역린",
+            "광해, 왕이 된 남자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "송강호가 영조, 유아인이 사도 세자를 연기했어요.",
+        "tip": "뒤주"
+      }
+    },
+    {
+      "id": "film-m5009",
+      "difficulty": "normal",
+      "answer": "광해, 왕이 된 남자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "독살 위기에 놓인 왕을 대신해 천민이 왕 노릇을 하는 2012년 사극 영화는?",
+          "choices": [
+            "광해, 왕이 된 남자",
+            "왕의 남자",
+            "관상",
+            "역린"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이병헌이 광해군과 광대 하선 1인 2역을 연기했어요.",
+        "tip": "가짜 왕"
+      }
+    },
+    {
+      "id": "film-m5010",
+      "difficulty": "normal",
+      "answer": "콘크리트 유토피아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대지진 뒤 홀로 무너지지 않은 아파트에 생존자들이 모여 벌어지는 이야기를 그린 2023년 영화는?",
+          "choices": [
+            "콘크리트 유토피아",
+            "부산행",
+            "엑시트",
+            "반도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이병헌, 박서준, 박보영이 출연했어요.",
+        "tip": "황궁 아파트"
+      }
+    },
+    {
+      "id": "film-m5011",
+      "difficulty": "normal",
+      "answer": "밀수",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1970년대 바닷가 마을 해녀들이 밀수에 뛰어드는 이야기를 그린 류승완 감독의 2023년 영화는?",
+          "choices": [
+            "밀수",
+            "해적",
+            "헤어질 결심",
+            "마녀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김혜수, 염정아가 주연을 맡았어요.",
+        "tip": "해녀들의 밀수"
+      }
+    },
+    {
+      "id": "film-m5012",
+      "difficulty": "hard",
+      "answer": "버닝",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이창동 감독이 무라카미 하루키의 단편 「헛간을 태우다」를 바탕으로 만든 영화는?",
+          "choices": [
+            "버닝",
+            "시",
+            "밀양",
+            "박하사탕"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "유아인, 스티븐 연, 전종서가 출연했어요.",
+        "tip": "하루키 원작"
+      }
+    },
+    {
+      "id": "film-m5013",
+      "difficulty": "normal",
+      "answer": "마더",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "봉준호 감독이 아들의 누명을 벗기려는 엄마의 이야기를 그린 2009년 영화는?",
+          "choices": [
+            "마더",
+            "살인의 추억",
+            "괴물",
+            "옥자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김혜자가 엄마, 원빈이 아들 도준을 연기했어요.",
+        "tip": "김혜자"
+      }
+    },
+    {
+      "id": "film-m5014",
+      "difficulty": "hard",
+      "answer": "첫사랑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 드라마 역사상 가장 높은 시청률(약 65.8%)을 기록한 1997년 드라마는?",
+          "choices": [
+            "첫사랑",
+            "허준",
+            "모래시계",
+            "사랑이 뭐길래"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "배용준, 최수종이 형제로 출연했어요.",
+        "tip": "역대 최고 시청률"
+      }
+    },
+    {
+      "id": "film-m5015",
+      "difficulty": "normal",
+      "answer": "내 이름은 김삼순",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2005년 방영되어 '삼순이 열풍'을 일으킨, 파티시에 김삼순의 사랑을 그린 드라마는?",
+          "choices": [
+            "내 이름은 김삼순",
+            "커피프린스 1호점",
+            "파리의 연인",
+            "시크릿 가든"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김선아가 주인공 삼순이를 연기했어요.",
+        "tip": "삼순이"
+      }
+    },
+    {
+      "id": "film-m5016",
+      "difficulty": "normal",
+      "answer": "시크릿 가든",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "재벌 2세와 스턴트우먼의 영혼이 서로 뒤바뀌는 2010년 판타지 로맨스 드라마는?",
+          "choices": [
+            "시크릿 가든",
+            "내 이름은 김삼순",
+            "도깨비",
+            "파리의 연인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "현빈과 하지원이 주연을 맡았어요.",
+        "tip": "영혼 체인지"
+      }
+    },
+    {
+      "id": "film-m5017",
+      "difficulty": "normal",
+      "answer": "응답하라 1997",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1990년대 아이돌 팬덤 문화를 배경으로 '응답하라' 시리즈를 시작한 2012년 드라마는?",
+          "choices": [
+            "응답하라 1997",
+            "응답하라 1994",
+            "응답하라 1988",
+            "슬기로운 의사생활"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정은지가 H.O.T.의 열성 팬 성시원을 연기했어요.",
+        "tip": "시리즈 첫 작품"
+      }
+    },
+    {
+      "id": "film-m5018",
+      "difficulty": "normal",
+      "answer": "무빙",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "강풀의 웹툰이 원작이며, 초능력을 숨기고 사는 부모와 아이들의 이야기를 그린 2023년 디즈니+ 드라마는?",
+          "choices": [
+            "무빙",
+            "카지노",
+            "경이로운 소문",
+            "지옥"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "류승룡, 한효주, 조인성 등이 출연했어요.",
+        "tip": "초능력 가족"
+      }
+    },
+    {
+      "id": "film-m5019",
+      "difficulty": "normal",
+      "answer": "정년이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1950년대 '여성 국극' 무대에서 최고의 배우를 꿈꾸는 소녀의 이야기를 그린 2024년 드라마는?",
+          "choices": [
+            "정년이",
+            "정년퇴직",
+            "미스터 션샤인",
+            "연인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김태리가 주인공 윤정년을 연기했어요. 웹툰이 원작이에요.",
+        "tip": "여성 국극"
+      }
+    },
+    {
+      "id": "film-m5020",
+      "difficulty": "hard",
+      "answer": "가르강튀아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「인터스텔라」에 나오는 거대한 블랙홀의 이름은?",
+          "choices": [
+            "가르강튀아",
+            "판도라",
+            "아라키스",
+            "솔라리스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물리학자 킵 손이 과학 자문을 맡아 블랙홀을 실제 계산에 가깝게 그렸어요.",
+        "tip": "거인의 이름"
+      }
+    },
+    {
+      "id": "film-m5021",
+      "difficulty": "normal",
+      "answer": "바비",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2023년 개봉해 그해 세계 흥행 1위를 차지한 그레타 거윅 감독의 영화는?",
+          "choices": [
+            "바비",
+            "오펜하이머",
+            "슈퍼 마리오 브라더스",
+            "가디언즈 오브 갤럭시 3"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "같은 날 개봉한 「오펜하이머」와 함께 '바벤하이머'라는 유행어가 생겼어요.",
+        "tip": "바벤하이머"
+      }
+    },
+    {
+      "id": "film-m5022",
+      "difficulty": "normal",
+      "answer": "불안",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "애니메이션 「인사이드 아웃」 1편에 나오는 다섯 감정이 아닌 것은?",
+          "choices": [
+            "불안",
+            "기쁨",
+            "슬픔",
+            "까칠"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1편에는 기쁨, 슬픔, 버럭, 까칠, 소심이 나와요. 불안은 2편에 새로 등장해요.",
+        "tip": "2편의 새 감정"
+      }
+    },
+    {
+      "id": "film-m5023",
+      "difficulty": "normal",
+      "answer": "코코",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "멕시코의 '죽은 자의 날'을 배경으로 음악을 꿈꾸는 소년의 이야기를 그린 픽사 애니메이션은?",
+          "choices": [
+            "코코",
+            "엔칸토",
+            "모아나",
+            "소울"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「Remember Me」라는 노래가 아카데미 주제가상을 받았어요.",
+        "tip": "죽은 자의 날"
+      }
+    },
+    {
+      "id": "film-m5024",
+      "difficulty": "normal",
+      "answer": "엘리멘탈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "불, 물, 공기, 흙 원소들이 사는 도시를 배경으로 한 픽사 애니메이션으로, 한국계 감독 피터 손이 만든 것은?",
+          "choices": [
+            "엘리멘탈",
+            "인사이드 아웃",
+            "소울",
+            "루카"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "감독의 이민자 가족 경험이 이야기에 담겼어요.",
+        "tip": "불과 물의 사랑"
+      }
+    },
+    {
+      "id": "film-m5025",
+      "difficulty": "easy",
+      "answer": "미니언즈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "노란 몸에 고글을 쓰고 바나나를 좋아하는 애니메이션 캐릭터는?",
+          "choices": [
+            "미니언즈",
+            "스머프",
+            "트롤",
+            "포켓몬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「슈퍼배드」 시리즈에서 악당 그루를 돕는 조수로 처음 나왔어요.",
+        "tip": "\"바나나!\""
+      }
+    },
+    {
+      "id": "film-m5026",
+      "difficulty": "normal",
+      "answer": "레옹",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "킬러 레옹과 소녀 마틸다의 이야기를 그린 뤽 베송 감독의 1994년 영화는?",
+          "choices": [
+            "레옹",
+            "니키타",
+            "택시",
+            "제5원소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "레옹이 늘 들고 다니는 화분이 상징으로 남았어요.",
+        "tip": "화분"
+      }
+    },
+    {
+      "id": "film-m5027",
+      "difficulty": "normal",
+      "answer": "사랑은 비를 타고",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "빗속에서 우산을 들고 노래하며 춤추는 장면으로 유명한 1952년 할리우드 뮤지컬 영화는?",
+          "choices": [
+            "사랑은 비를 타고",
+            "사운드 오브 뮤직",
+            "웨스트 사이드 스토리",
+            "마이 페어 레이디"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원제는 「Singin' in the Rain」이에요. 무성 영화가 유성 영화로 바뀌던 시기를 그렸어요.",
+        "tip": "빗속의 춤"
+      }
+    },
+    {
+      "id": "film-m5028",
+      "difficulty": "normal",
+      "answer": "티파니에서 아침을",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "오드리 헵번이 검은 드레스를 입고 보석 가게 진열장을 바라보는 장면으로 유명한 영화는?",
+          "choices": [
+            "티파니에서 아침을",
+            "로마의 휴일",
+            "사브리나",
+            "마이 페어 레이디"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "주제가 「Moon River」도 큰 사랑을 받았어요.",
+        "tip": "「Moon River」"
+      }
+    }
+  ]
+}
