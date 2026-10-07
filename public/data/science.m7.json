@@ -1,0 +1,616 @@
+{
+  "category": "science",
+  "version": 1,
+  "cards": [
+    {
+      "id": "science-m7001",
+      "difficulty": "normal",
+      "answer": "청록, 자홍, 노랑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인쇄할 때 쓰는 '색의 삼원색'은?",
+          "choices": [
+            "청록, 자홍, 노랑",
+            "빨강, 초록, 파랑",
+            "빨강, 노랑, 파랑",
+            "검정, 하양, 회색"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세 색을 섞을수록 어두워져 검정에 가까워져요. 빛의 삼원색(빨강, 초록, 파랑)은 섞을수록 밝아져요.",
+        "tip": "CMY"
+      }
+    },
+    {
+      "id": "science-m7002",
+      "difficulty": "normal",
+      "answer": "절반으로 줄어든다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "움직도르래 한 개를 쓰면 물체를 들어 올리는 데 드는 힘은 어떻게 될까?",
+          "choices": [
+            "절반으로 줄어든다",
+            "두 배로 늘어난다",
+            "변하지 않는다",
+            "10분의 1로 줄어든다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대신 줄은 두 배 길이만큼 당겨야 해요. 고정 도르래는 힘의 방향만 바꿔 줘요.",
+        "tip": "힘은 반, 거리는 두 배"
+      }
+    },
+    {
+      "id": "science-m7003",
+      "difficulty": "hard",
+      "answer": "진자의 길이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "진자가 한 번 왕복하는 시간(주기)을 결정하는 것은?",
+          "choices": [
+            "진자의 길이",
+            "추의 무게",
+            "흔드는 폭",
+            "줄의 색깔"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "갈릴레이가 성당의 흔들리는 등불을 보고 발견했다고 해요. 길이가 길수록 주기가 길어져요.",
+        "tip": "길이가 전부"
+      }
+    },
+    {
+      "id": "science-m7004",
+      "difficulty": "normal",
+      "answer": "전류 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "19세기 말 에디슨의 직류와 테슬라·웨스팅하우스의 교류가 송전 방식을 두고 벌인 경쟁을 부르는 말은?",
+          "choices": [
+            "전류 전쟁",
+            "냉전",
+            "특허 전쟁",
+            "빛의 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "먼 거리 송전에 유리한 교류가 이겨 지금 가정에서 쓰는 전기도 교류예요.",
+        "tip": "직류 vs 교류"
+      }
+    },
+    {
+      "id": "science-m7005",
+      "difficulty": "easy",
+      "answer": "E = mc²",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아인슈타인의 특수 상대성 이론에서 나온, 질량과 에너지의 관계를 나타낸 식은?",
+          "choices": [
+            "E = mc²",
+            "F = ma",
+            "V = IR",
+            "PV = nRT"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "작은 질량도 엄청난 에너지로 바뀔 수 있다는 뜻이에요. c는 빛의 속도예요.",
+        "tip": "이 = 엠씨 제곱"
+      }
+    },
+    {
+      "id": "science-m7006",
+      "difficulty": "hard",
+      "answer": "위치 오차가 하루에 수 km씩 쌓인다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "GPS 위성의 시계를 상대성 이론에 따라 보정하지 않으면 어떻게 될까?",
+          "choices": [
+            "위치 오차가 하루에 수 km씩 쌓인다",
+            "위성이 지구로 떨어진다",
+            "아무 차이도 없다",
+            "위치가 정확히 두 배로 나온다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빠르게 움직이고 중력이 약한 곳에 있는 위성의 시계는 땅의 시계와 흐르는 속도가 달라요.",
+        "tip": "상대성 이론의 실생활"
+      }
+    },
+    {
+      "id": "science-m7007",
+      "difficulty": "normal",
+      "answer": "플라스마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고체, 액체, 기체에 이어 '물질의 제4의 상태'로 불리며 번개와 오로라에서 볼 수 있는 것은?",
+          "choices": [
+            "플라스마",
+            "초전도체",
+            "반물질",
+            "액정"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "기체가 아주 높은 에너지를 받아 원자핵과 전자가 떨어져 나간 상태예요. 태양도 플라스마 덩어리예요.",
+        "tip": "네 번째 상태"
+      }
+    },
+    {
+      "id": "science-m7008",
+      "difficulty": "hard",
+      "answer": "힉스 입자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2012년 발견이 발표되어 '신의 입자'라는 별명으로 불린, 다른 입자에 질량을 주는 입자는?",
+          "choices": [
+            "힉스 입자",
+            "쿼크",
+            "중성미자",
+            "광자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "유럽 입자 물리 연구소(CERN)의 거대 강입자 가속기에서 찾아냈어요.",
+        "tip": "신의 입자"
+      }
+    },
+    {
+      "id": "science-m7009",
+      "difficulty": "hard",
+      "answer": "쿼크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "양성자와 중성자를 이루는 더 작은 기본 입자는?",
+          "choices": [
+            "쿼크",
+            "전자",
+            "광자",
+            "원자핵"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "양성자와 중성자는 각각 쿼크 세 개로 이뤄져 있어요. 이름은 소설 「피네건의 경야」 속 낱말에서 땄어요.",
+        "tip": "셋이 모여 하나"
+      }
+    },
+    {
+      "id": "science-m7010",
+      "difficulty": "hard",
+      "answer": "중력파",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2015년 미국의 관측 시설 LIGO가 처음으로 직접 잡아내 아인슈타인의 예측을 확인한 것은?",
+          "choices": [
+            "중력파",
+            "암흑 물질",
+            "반물질",
+            "힉스 입자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "13억 년 전 블랙홀 두 개가 합쳐지며 생긴 시공간의 물결이었어요. 2017년 노벨 물리학상을 받았어요.",
+        "tip": "시공간의 물결"
+      }
+    },
+    {
+      "id": "science-m7011",
+      "difficulty": "normal",
+      "answer": "블랙홀의 실제 모습 사진",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2019년 '사건의 지평선 망원경' 연구진이 세계 최초로 공개한 것은?",
+          "choices": [
+            "블랙홀의 실제 모습 사진",
+            "외계 생명체의 신호",
+            "우주의 끝",
+            "태양계 밖 지구형 행성 표면"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지구 곳곳의 전파 망원경을 묶어 지구만 한 망원경처럼 썼어요. M87 은하 중심의 블랙홀이에요.",
+        "tip": "주황색 도넛"
+      }
+    },
+    {
+      "id": "science-m7012",
+      "difficulty": "normal",
+      "answer": "118개",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지금까지 공식적으로 이름이 붙은 원소는 모두 몇 개일까? (2026년 기준)",
+          "choices": [
+            "118개",
+            "92개",
+            "108개",
+            "150개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자연에서 나는 원소는 90여 개이고 나머지는 실험실에서 만들었어요. 가장 최근 이름 붙은 원소는 2016년이에요.",
+        "tip": "118"
+      }
+    },
+    {
+      "id": "science-m7013",
+      "difficulty": "hard",
+      "answer": "산소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지구의 겉껍질(지각)에 가장 많이 들어 있는 원소는?",
+          "choices": [
+            "산소",
+            "철",
+            "규소",
+            "수소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "돌과 흙 속 광물에 산소가 많이 들어 있어요. 두 번째는 규소예요.",
+        "tip": "돌 속의 원소"
+      }
+    },
+    {
+      "id": "science-m7014",
+      "difficulty": "hard",
+      "answer": "약 -196℃",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "액체 질소의 끓는점은 약 몇 도일까?",
+          "choices": [
+            "약 -196℃",
+            "약 -20℃",
+            "약 -78℃",
+            "약 -273℃"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그래서 꽃을 넣으면 순식간에 얼어 산산조각이 나요. 드라이아이스는 약 -78℃예요.",
+        "tip": "-196"
+      }
+    },
+    {
+      "id": "science-m7015",
+      "difficulty": "normal",
+      "answer": "물과 기름 모두와 붙는 성분이 있어서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "비누가 기름때를 없앨 수 있는 이유는?",
+          "choices": [
+            "물과 기름 모두와 붙는 성분이 있어서",
+            "기름을 태워 없애서",
+            "기름을 딱딱하게 굳혀서",
+            "물을 기름으로 바꿔서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한쪽은 물과, 다른 쪽은 기름과 잘 붙는 '계면 활성제'가 기름때를 감싸 물에 씻겨 나가게 해요.",
+        "tip": "계면 활성제"
+      }
+    },
+    {
+      "id": "science-m7016",
+      "difficulty": "easy",
+      "answer": "이산화 탄소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "탄산음료의 '톡 쏘는' 맛을 내는 기체는?",
+          "choices": [
+            "이산화 탄소",
+            "산소",
+            "질소",
+            "수소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "높은 압력으로 물에 녹여 두었다가 뚜껑을 열면 거품으로 빠져나와요.",
+        "tip": "탄산"
+      }
+    },
+    {
+      "id": "science-m7017",
+      "difficulty": "easy",
+      "answer": "엽록체",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "녹색 식물의 잎에서 광합성이 일어나는 세포 속 기관은?",
+          "choices": [
+            "엽록체",
+            "미토콘드리아",
+            "리보솜",
+            "골지체"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록색 색소인 엽록소가 들어 있어요. 미토콘드리아는 에너지를 만드는 곳이에요.",
+        "tip": "초록 공장"
+      }
+    },
+    {
+      "id": "science-m7018",
+      "difficulty": "hard",
+      "answer": "리보솜",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세포 속에서 유전 정보를 읽어 단백질을 만드는 작은 알갱이는?",
+          "choices": [
+            "리보솜",
+            "엽록체",
+            "액포",
+            "핵막"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세포의 단백질 공장이라고 불러요.",
+        "tip": "단백질 공장"
+      }
+    },
+    {
+      "id": "science-m7019",
+      "difficulty": "normal",
+      "answer": "아드레날린",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "깜짝 놀라거나 위급할 때 콩팥 위의 부신에서 나와 심장을 빨리 뛰게 하는 호르몬은?",
+          "choices": [
+            "아드레날린",
+            "인슐린",
+            "멜라토닌",
+            "옥시토신"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'싸울 것인가 도망칠 것인가' 반응을 일으켜요. '에피네프린'이라고도 해요.",
+        "tip": "위기 호르몬"
+      }
+    },
+    {
+      "id": "science-m7020",
+      "difficulty": "normal",
+      "answer": "도파민",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "보상을 받거나 기대할 때 나와 즐거움과 의욕을 느끼게 하는 뇌의 신경 전달 물질은?",
+          "choices": [
+            "도파민",
+            "멜라토닌",
+            "코르티솔",
+            "인슐린"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'좋아요' 알림이나 게임 보상에도 나와 중독과도 관련이 있어요.",
+        "tip": "보상 물질"
+      }
+    },
+    {
+      "id": "science-m7021",
+      "difficulty": "normal",
+      "answer": "엔도르핀",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "오래 달리거나 아플 때 뇌에서 나와 통증을 줄이고 기분을 좋게 하는 물질은?",
+          "choices": [
+            "엔도르핀",
+            "아드레날린",
+            "인슐린",
+            "히스타민"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'몸속(endo)의 모르핀'이라는 뜻이에요.",
+        "tip": "몸속 진통제"
+      }
+    },
+    {
+      "id": "science-m7022",
+      "difficulty": "normal",
+      "answer": "옥시토신",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "출산과 수유를 돕고 사람 사이의 유대감을 높여 '사랑의 호르몬'으로 불리는 것은?",
+          "choices": [
+            "옥시토신",
+            "테스토스테론",
+            "코르티솔",
+            "아드레날린"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "포옹하거나 반려동물을 쓰다듬을 때도 나와요.",
+        "tip": "포옹 호르몬"
+      }
+    },
+    {
+      "id": "science-m7023",
+      "difficulty": "normal",
+      "answer": "줄기세포",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "여러 종류의 세포로 자라날 수 있어 재생 의학에서 주목받는 세포는?",
+          "choices": [
+            "줄기세포",
+            "적혈구",
+            "신경 세포",
+            "지방 세포"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2012년 야마나카 신야는 다 자란 세포를 줄기세포로 되돌리는 방법으로 노벨상을 받았어요.",
+        "tip": "만능 세포"
+      }
+    },
+    {
+      "id": "science-m7024",
+      "difficulty": "hard",
+      "answer": "2003년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람의 유전 정보 전체를 읽어 내는 '인간 게놈 프로젝트'가 완료를 선언한 해는?",
+          "choices": [
+            "2003년",
+            "1953년",
+            "1990년",
+            "2020년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1990년에 시작해 13년 걸렸어요. 남아 있던 빈틈은 2022년에야 모두 채워졌어요.",
+        "tip": "13년 프로젝트"
+      }
+    },
+    {
+      "id": "science-m7025",
+      "difficulty": "hard",
+      "answer": "라마르크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자주 쓰는 기관은 발달하고 안 쓰는 기관은 퇴화해 다음 세대에 전해진다는 '용불용설'을 주장한 사람은?",
+          "choices": [
+            "라마르크",
+            "다윈",
+            "멘델",
+            "린네"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "기린의 목이 높은 잎을 먹으려 늘어나 길어졌다는 설명이 유명해요. 지금은 틀린 이론으로 봐요.",
+        "tip": "기린의 목"
+      }
+    },
+    {
+      "id": "science-m7026",
+      "difficulty": "hard",
+      "answer": "린네",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "모든 생물에 '속명 + 종명' 두 단어로 된 학명을 붙이는 방법을 정리한 스웨덴 학자는?",
+          "choices": [
+            "린네",
+            "다윈",
+            "라마르크",
+            "훔볼트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사람의 학명 '호모 사피엔스'도 그가 붙였어요. '분류학의 아버지'로 불려요.",
+        "tip": "이명법"
+      }
+    },
+    {
+      "id": "science-m7027",
+      "difficulty": "normal",
+      "answer": "슬기로운 사람",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "현생 인류의 학명 '호모 사피엔스'의 뜻은?",
+          "choices": [
+            "슬기로운 사람",
+            "서서 걷는 사람",
+            "손을 쓰는 사람",
+            "불을 쓰는 사람"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서서 걷는 사람은 '호모 에렉투스', 손을 쓰는 사람은 '호모 하빌리스'예요.",
+        "tip": "sapiens = 슬기로운"
+      }
+    },
+    {
+      "id": "science-m7028",
+      "difficulty": "normal",
+      "answer": "루시",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1974년 에티오피아에서 발견된 약 320만 년 전 인류 조상 화석의 별명은?",
+          "choices": [
+            "루시",
+            "아담",
+            "토마이",
+            "자바인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "발굴단이 비틀스의 노래 「Lucy in the Sky with Diamonds」를 듣다가 붙였어요. 오스트랄로피테쿠스예요.",
+        "tip": "비틀스 노래"
+      }
+    },
+    {
+      "id": "science-m7029",
+      "difficulty": "normal",
+      "answer": "네안데르탈인",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "현생 인류와 같은 시기에 살다 약 4만 년 전 사라진 인류로, 오늘날 사람 유전자에도 흔적이 남은 것은?",
+          "choices": [
+            "네안데르탈인",
+            "크로마뇽인",
+            "베이징 원인",
+            "자바 원인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "독일 네안데르 계곡에서 처음 화석이 나왔어요. 아시아·유럽인 유전자의 1~2%가 이들에게서 왔어요.",
+        "tip": "사촌 인류"
+      }
+    }
+  ]
+}
