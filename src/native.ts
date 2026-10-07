@@ -1,16 +1,44 @@
 import { App } from '@capacitor/app'
-import { Capacitor } from '@capacitor/core'
+import { Capacitor, SystemBars, SystemBarsStyle } from '@capacitor/core'
 import { Haptics, ImpactStyle, NotificationType } from '@capacitor/haptics'
 import { useEffect, useRef } from 'react'
+import { getState } from './store'
 
 const isNative = Capacitor.isNativePlatform()
+const hapticsOn = () => isNative && getState().settings.haptics
+
+export function hapticTap() {
+  if (hapticsOn()) void Haptics.impact({ style: ImpactStyle.Light })
+}
 
 export function hapticCorrect() {
-  if (isNative) void Haptics.impact({ style: ImpactStyle.Light })
+  if (hapticsOn()) void Haptics.impact({ style: ImpactStyle.Medium })
 }
 
 export function hapticWrong() {
-  if (isNative) void Haptics.notification({ type: NotificationType.Error })
+  if (hapticsOn()) void Haptics.notification({ type: NotificationType.Error })
+}
+
+export function applyTheme(theme: 'dark' | 'light') {
+  document.documentElement.dataset.theme = theme
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#0b0b0c' : '#f6f6f7')
+  // Status bar icons must contrast with the page background.
+  if (isNative) void SystemBars.setStyle({ style: theme === 'dark' ? SystemBarsStyle.Dark : SystemBarsStyle.Light })
+}
+
+/**
+ * Light vibration on every button press. Buttons that give their own feedback
+ * (answer choices) opt out with data-haptic="off".
+ */
+export function installTapHaptics() {
+  document.addEventListener(
+    'click',
+    (e) => {
+      const button = (e.target as Element | null)?.closest('button')
+      if (button && !button.disabled && button.dataset.haptic !== 'off') hapticTap()
+    },
+    true,
+  )
 }
 
 // Android back button: the most recently mounted handler wins (dialogs mount after

@@ -1,4 +1,7 @@
 export type Difficulty = 'easy' | 'normal' | 'hard'
+export type DifficultyChoice = Difficulty | 'mixed'
+export type CountChoice = 10 | 20 | 30 | 'infinite'
+export type QuizMode = 'mcq' | 'subjective'
 
 export type CategoryId =
   | 'idiom' | 'proverb' | 'korean' | 'slang' | 'loanword'
@@ -41,6 +44,16 @@ export interface SubjectiveQuestion {
 
 export type Question = McqQuestion | SubjectiveQuestion
 
+export interface CardImage {
+  /** Path under public/, e.g. "images/flags/kr.svg". */
+  src: string
+  alt: string
+  /** Key into the image credits list (see src/credits.ts). */
+  credit: string
+  /** Flags and signs look best on white; silhouettes/stars draw their own background. */
+  background?: 'light' | 'none'
+}
+
 /** A single fact. One card can be asked in several directions (questions). */
 export interface Card {
   id: string
@@ -50,6 +63,7 @@ export interface Card {
   aliases?: string[]
   questions: Question[]
   explanation: Explanation
+  image?: CardImage
   /** "YYYY-MM" for facts that can go stale (news, celebs, numbers, laws). */
   asOf?: string
   sources?: string[]
@@ -63,5 +77,6 @@ export interface CategoryFile {
 
 export interface Manifest {
   version: number
-  categories: { id: CategoryId; file: string; version: number }[]
+  /** A category may span several files (e.g. geo.json + geo.flags.json). */
+  files: { category: CategoryId; file: string; version: number }[]
 }

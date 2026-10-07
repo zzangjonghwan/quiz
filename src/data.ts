@@ -14,6 +14,19 @@ async function fetchJson<T>(path: string): Promise<T> {
 
 export async function loadBank(): Promise<QuestionBank> {
   const manifest = await fetchJson<Manifest>('manifest.json')
-  const files = await Promise.all(manifest.categories.map((c) => fetchJson<CategoryFile>(c.file)))
-  return new Map(files.map((f) => [f.category, f.cards]))
+  const files = await Promise.all(manifest.files.map((f) => fetchJson<CategoryFile>(f.file)))
+  const bank: QuestionBank = new Map()
+  for (const f of files) bank.set(f.category, [...(bank.get(f.category) ?? []), ...f.cards])
+  return bank
+}
+
+/** The question a card is best summarized by in lists (오답노트). */
+export function headlinePrompt(card: Card) {
+  return card.questions[0].prompt
+}
+
+/** The card's answer as one line: its canonical answer, or the first question's correct choice. */
+export function headlineAnswer(card: Card) {
+  const first = card.questions[0]
+  return card.answer ?? (first.mode === 'mcq' ? first.choices[0] : '')
 }

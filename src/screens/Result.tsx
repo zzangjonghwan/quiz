@@ -1,10 +1,11 @@
 import { Check, ChevronDown, X } from 'lucide-react'
 import { useState } from 'react'
 import { CATEGORY_BY_ID, DIFFICULTY_LABEL } from '../categories'
+import { CardImage } from '../components/CardImage'
 import { Explanation } from '../components/Explanation'
 import { PrimaryButton, Screen, SecondaryButton } from '../components/ui'
 import { useBackHandler } from '../native'
-import type { AnswerRecord, SessionConfig } from '../session'
+import { correctAnswerText, type AnswerRecord, type SessionConfig } from '../session'
 
 export function Result({
   config,
@@ -27,7 +28,10 @@ export function Result({
 
   const correct = answers.filter((a) => a.correct).length
   const rate = answers.length ? Math.round((correct / answers.length) * 100) : 0
-  const title = config.category ? CATEGORY_BY_ID[config.category].name : '종합'
+  const title =
+    (config.source === 'note' ? '오답노트 · ' : '') +
+    (config.category ? CATEGORY_BY_ID[config.category].name : '종합') +
+    (config.mode === 'subjective' ? ' · 주관식' : '')
   const difficulty = config.difficulty === 'mixed' ? '섞기' : DIFFICULTY_LABEL[config.difficulty]
 
   return (
@@ -63,9 +67,10 @@ export function Result({
                   <X size={18} strokeWidth={3} className="shrink-0 text-wrong" />
                 )}
                 <span className="flex-1 text-[15px] leading-snug">
-                  {a.item.question.prompt}
+                  {a.item.prompt}
                   <span className="mt-1 block text-sm text-fg-muted">
-                    정답: {a.item.choices[a.item.correctIndex]}
+                    정답: {correctAnswerText(a.item)}
+                    {a.typed && !a.correct && <span className="text-wrong"> · 내 답: {a.typed}</span>}
                   </span>
                 </span>
                 <ChevronDown
@@ -74,7 +79,8 @@ export function Result({
                 />
               </button>
               {open === i && (
-                <div className="px-2 pb-2">
+                <div className="flex flex-col gap-2 px-2 pb-2">
+                  {a.item.card.image && <CardImage image={a.item.card.image} size="small" />}
                   <Explanation card={a.item.card} />
                 </div>
               )}

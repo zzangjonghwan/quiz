@@ -1,0 +1,174 @@
+{
+  "category": "science",
+  "version": 1,
+  "cards": [
+    {
+      "id": "science-c001",
+      "difficulty": "easy",
+      "answer": "북두칠성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 별자리의 이름은? (모양을 단순화한 그림)",
+          "choices": [
+            "북두칠성",
+            "카시오페이아자리",
+            "오리온자리",
+            "작은곰자리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "국자 모양의 일곱 별로, 큰곰자리의 엉덩이와 꼬리 부분이에요. 1년 내내 북쪽 하늘에서 볼 수 있어요.",
+        "tip": "국자 끝 두 별 사이 거리를 5배 늘리면 북극성",
+        "bonus": "북(北)쪽 하늘의 말(斗, 국자 모양 그릇) 모양 일곱(七) 별(星)이라는 뜻이에요."
+      },
+      "image": {
+        "src": "images/stars/big-dipper.svg",
+        "alt": "별자리 그림",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "science-c002",
+      "difficulty": "easy",
+      "answer": "오리온자리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 별자리의 이름은? (모양을 단순화한 그림)",
+          "choices": [
+            "오리온자리",
+            "전갈자리",
+            "쌍둥이자리",
+            "큰개자리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가운데 나란히 선 세 별(오리온의 허리띠)이 특징인 겨울 대표 별자리예요. 왼쪽 위 붉은 별이 베텔게우스, 오른쪽 아래 푸른 별이 리겔이에요.",
+        "tip": "나란히 선 별 3개 = 오리온의 허리띠",
+        "bonus": "그리스 신화에서 오리온은 전갈에 찔려 죽어, 전갈자리가 뜨면 오리온자리는 지는 것처럼 서로 반대 계절에 보여요."
+      },
+      "image": {
+        "src": "images/stars/orion.svg",
+        "alt": "별자리 그림",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "science-c003",
+      "difficulty": "normal",
+      "answer": "카시오페이아자리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 별자리의 이름은? (모양을 단순화한 그림)",
+          "choices": [
+            "카시오페이아자리",
+            "북두칠성",
+            "백조자리",
+            "페르세우스자리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다섯 별이 알파벳 W(또는 M) 모양을 이루는 별자리예요. 북극성을 사이에 두고 북두칠성 반대편에 있어요.",
+        "tip": "W 모양 = 카시오페이아",
+        "bonus": "그리스 신화 속 에티오피아의 왕비로, 자기 딸이 바다 요정보다 아름답다고 자랑하다 벌을 받았어요."
+      },
+      "image": {
+        "src": "images/stars/cassiopeia.svg",
+        "alt": "별자리 그림",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "science-c004",
+      "difficulty": "normal",
+      "answer": "전갈자리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 별자리의 이름은? (모양을 단순화한 그림)",
+          "choices": [
+            "전갈자리",
+            "오리온자리",
+            "사자자리",
+            "궁수자리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "여름철 남쪽 하늘에 S자로 휘어진 꼬리와 독침을 가진 별자리예요. 심장 자리의 붉은 별이 안타레스예요.",
+        "tip": "S자 꼬리 + 붉은 심장(안타레스) = 전갈",
+        "bonus": "안타레스는 '화성(아레스)의 경쟁자'라는 뜻으로, 화성처럼 붉어서 붙은 이름이에요."
+      },
+      "image": {
+        "src": "images/stars/scorpius.svg",
+        "alt": "별자리 그림",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "science-c005",
+      "difficulty": "hard",
+      "answer": "백조자리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 별자리의 이름은? (모양을 단순화한 그림)",
+          "choices": [
+            "백조자리",
+            "남십자자리",
+            "독수리자리",
+            "거문고자리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "날개를 편 백조 모양으로, 커다란 십자가처럼 보여 '북십자성'이라고도 불러요. 꼬리의 밝은 별이 데네브예요.",
+        "tip": "북쪽 하늘의 큰 십자가 = 백조자리",
+        "bonus": "데네브, 거문고자리의 베가(직녀성), 독수리자리의 알타이르(견우성)를 이으면 '여름의 대삼각형'이 돼요."
+      },
+      "image": {
+        "src": "images/stars/cygnus.svg",
+        "alt": "별자리 그림",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "science-c006",
+      "difficulty": "hard",
+      "answer": "남십자자리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 별자리의 이름은? (모양을 단순화한 그림)",
+          "choices": [
+            "남십자자리",
+            "백조자리",
+            "카시오페이아자리",
+            "큰곰자리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남반구 하늘에서 보이는 작은 십자 모양 별자리로, 옛날 뱃사람들이 남쪽 방향을 찾는 데 썼어요.",
+        "tip": "남반구의 길잡이 십자가",
+        "bonus": "88개 별자리 중 가장 작아요. 호주, 뉴질랜드, 브라질 등의 국기에도 그려져 있어요."
+      },
+      "image": {
+        "src": "images/stars/crux.svg",
+        "alt": "별자리 그림",
+        "credit": "original",
+        "background": "none"
+      }
+    }
+  ]
+}

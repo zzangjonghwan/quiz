@@ -1,123 +1,148 @@
 {
-  "version": 24,
-  "categories": [
+  "version": 29,
+  "files": [
     {
-      "id": "idiom",
+      "category": "idiom",
       "file": "idiom.json",
       "version": 1
     },
     {
-      "id": "proverb",
+      "category": "proverb",
       "file": "proverb.json",
       "version": 1
     },
     {
-      "id": "korean",
+      "category": "korean",
       "file": "korean.json",
       "version": 1
     },
     {
-      "id": "slang",
+      "category": "slang",
       "file": "slang.json",
       "version": 1
     },
     {
-      "id": "loanword",
+      "category": "loanword",
       "file": "loanword.json",
       "version": 1
     },
     {
-      "id": "figure",
+      "category": "figure",
       "file": "figure.json",
       "version": 1
     },
     {
-      "id": "celeb",
+      "category": "celeb",
       "file": "celeb.json",
       "version": 1
     },
     {
-      "id": "koreanhistory",
+      "category": "koreanhistory",
       "file": "koreanhistory.json",
       "version": 1
     },
     {
-      "id": "worldhistory",
+      "category": "worldhistory",
       "file": "worldhistory.json",
       "version": 1
     },
     {
-      "id": "myth",
+      "category": "myth",
       "file": "myth.json",
       "version": 1
     },
     {
-      "id": "animal",
+      "category": "animal",
       "file": "animal.json",
       "version": 1
     },
     {
-      "id": "science",
+      "category": "science",
       "file": "science.json",
       "version": 1
     },
     {
-      "id": "geo",
+      "category": "science",
+      "file": "science.stars.json",
+      "version": 1
+    },
+    {
+      "category": "geo",
+      "file": "geo.flags.json",
+      "version": 1
+    },
+    {
+      "category": "geo",
       "file": "geo.json",
       "version": 1
     },
     {
-      "id": "life",
+      "category": "geo",
+      "file": "geo.shapes.json",
+      "version": 1
+    },
+    {
+      "category": "life",
       "file": "life.json",
       "version": 1
     },
     {
-      "id": "health",
+      "category": "life",
+      "file": "life.laundry.json",
+      "version": 1
+    },
+    {
+      "category": "health",
       "file": "health.json",
       "version": 1
     },
     {
-      "id": "food",
+      "category": "food",
       "file": "food.json",
       "version": 1
     },
     {
-      "id": "law",
+      "category": "law",
       "file": "law.json",
       "version": 1
     },
     {
-      "id": "economy",
+      "category": "law",
+      "file": "law.signs.json",
+      "version": 1
+    },
+    {
+      "category": "economy",
       "file": "economy.json",
       "version": 1
     },
     {
-      "id": "book",
+      "category": "book",
       "file": "book.json",
       "version": 1
     },
     {
-      "id": "media",
+      "category": "media",
       "file": "media.json",
       "version": 1
     },
     {
-      "id": "sports",
+      "category": "sports",
       "file": "sports.json",
       "version": 1
     },
     {
-      "id": "trivia",
+      "category": "trivia",
       "file": "trivia.json",
       "version": 1
     },
     {
-      "id": "news",
+      "category": "news",
       "file": "news.json",
       "version": 1
     },
     {
-      "id": "tech",
+      "category": "tech",
       "file": "tech.json",
       "version": 1
     }

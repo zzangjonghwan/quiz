@@ -1,0 +1,222 @@
+{
+  "category": "life",
+  "version": 1,
+  "cards": [
+    {
+      "id": "life-w001",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "옷 라벨의 이 세탁 기호의 뜻은?",
+          "choices": [
+            "손세탁만 가능",
+            "세탁기 사용 가능",
+            "물세탁 금지",
+            "세탁 후 손으로 다림질"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대야에 손이 들어간 그림은 세탁기 대신 손으로 살살 빨라는 뜻이에요.",
+        "tip": "대야 = 물세탁, 삼각형 = 표백, 다리미 = 다림질, 원 = 드라이클리닝, 네모 = 건조",
+        "bonus": "국제 표준(ISO) 세탁 기호 기준이에요. 국내 옷에는 비슷한 그림에 한글이 함께 적힌 KS 기호도 쓰여요."
+      },
+      "image": {
+        "src": "images/laundry/hand-wash.svg",
+        "alt": "세탁 기호",
+        "credit": "original",
+        "background": "light"
+      }
+    },
+    {
+      "id": "life-w002",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "옷 라벨의 이 세탁 기호의 뜻은?",
+          "choices": [
+            "물세탁 금지",
+            "손세탁만 가능",
+            "찬물 세탁",
+            "표백 금지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대야에 X 표시는 물로 빨면 안 된다는 뜻이에요. 보통 드라이클리닝을 해야 해요.",
+        "tip": "대야 = 물세탁, 삼각형 = 표백, 다리미 = 다림질, 원 = 드라이클리닝, 네모 = 건조",
+        "bonus": "국제 표준(ISO) 세탁 기호 기준이에요. 국내 옷에는 비슷한 그림에 한글이 함께 적힌 KS 기호도 쓰여요."
+      },
+      "image": {
+        "src": "images/laundry/no-wash.svg",
+        "alt": "세탁 기호",
+        "credit": "original",
+        "background": "light"
+      }
+    },
+    {
+      "id": "life-w003",
+      "difficulty": "normal",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "옷 라벨의 이 세탁 기호의 뜻은?",
+          "choices": [
+            "물 온도 30°C 이하로 세탁",
+            "30분 이내로 세탁",
+            "30°C 이상으로 세탁",
+            "30회 이상 헹굼"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대야 안의 숫자는 세탁할 수 있는 최고 물 온도예요. 30이면 30°C를 넘지 않게 빨아야 해요.",
+        "tip": "대야 = 물세탁, 삼각형 = 표백, 다리미 = 다림질, 원 = 드라이클리닝, 네모 = 건조",
+        "bonus": "국제 표준(ISO) 세탁 기호 기준이에요. 국내 옷에는 비슷한 그림에 한글이 함께 적힌 KS 기호도 쓰여요."
+      },
+      "image": {
+        "src": "images/laundry/wash-30.svg",
+        "alt": "세탁 기호",
+        "credit": "original",
+        "background": "light"
+      }
+    },
+    {
+      "id": "life-w004",
+      "difficulty": "normal",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "옷 라벨의 이 세탁 기호의 뜻은?",
+          "choices": [
+            "표백제 사용 금지",
+            "산소계 표백제만 가능",
+            "다림질 금지",
+            "건조기 사용 금지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "삼각형은 표백을 뜻하고, X가 있으면 어떤 표백제도 쓰면 안 된다는 뜻이에요.",
+        "tip": "대야 = 물세탁, 삼각형 = 표백, 다리미 = 다림질, 원 = 드라이클리닝, 네모 = 건조",
+        "bonus": "삼각형 안에 사선 두 줄이 있으면 산소계(염소 없는) 표백제만 쓸 수 있다는 뜻이에요."
+      },
+      "image": {
+        "src": "images/laundry/no-bleach.svg",
+        "alt": "세탁 기호",
+        "credit": "original",
+        "background": "light"
+      }
+    },
+    {
+      "id": "life-w005",
+      "difficulty": "normal",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "옷 라벨의 이 세탁 기호의 뜻은?",
+          "choices": [
+            "다림질 금지",
+            "저온 다림질",
+            "스팀 다림질만 가능",
+            "드라이클리닝 금지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다리미 그림에 X가 있으면 다림질하면 안 된다는 뜻이에요.",
+        "tip": "대야 = 물세탁, 삼각형 = 표백, 다리미 = 다림질, 원 = 드라이클리닝, 네모 = 건조",
+        "bonus": "국제 표준(ISO) 세탁 기호 기준이에요. 국내 옷에는 비슷한 그림에 한글이 함께 적힌 KS 기호도 쓰여요."
+      },
+      "image": {
+        "src": "images/laundry/no-iron.svg",
+        "alt": "세탁 기호",
+        "credit": "original",
+        "background": "light"
+      }
+    },
+    {
+      "id": "life-w006",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "옷 라벨의 이 세탁 기호의 뜻은?",
+          "choices": [
+            "낮은 온도(약 110°C)로 다림질",
+            "중간 온도(약 150°C)로 다림질",
+            "높은 온도(약 200°C)로 다림질",
+            "다림질 금지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다리미 안의 점 개수가 온도예요. 점 1개는 약 110°C, 2개는 약 150°C, 3개는 약 200°C까지 가능해요.",
+        "tip": "대야 = 물세탁, 삼각형 = 표백, 다리미 = 다림질, 원 = 드라이클리닝, 네모 = 건조",
+        "bonus": "점 하나짜리 옷은 스팀 없이 다리는 게 안전한 경우가 많아요."
+      },
+      "image": {
+        "src": "images/laundry/iron-low.svg",
+        "alt": "세탁 기호",
+        "credit": "original",
+        "background": "light"
+      }
+    },
+    {
+      "id": "life-w007",
+      "difficulty": "normal",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "옷 라벨의 이 세탁 기호의 뜻은?",
+          "choices": [
+            "드라이클리닝 가능",
+            "물세탁만 가능",
+            "건조기 사용 가능",
+            "표백 가능"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원은 세탁소에서 하는 드라이클리닝을 뜻하고, 안의 글자(P, F)는 세탁소가 쓸 용제의 종류예요.",
+        "tip": "대야 = 물세탁, 삼각형 = 표백, 다리미 = 다림질, 원 = 드라이클리닝, 네모 = 건조",
+        "bonus": "국제 표준(ISO) 세탁 기호 기준이에요. 국내 옷에는 비슷한 그림에 한글이 함께 적힌 KS 기호도 쓰여요."
+      },
+      "image": {
+        "src": "images/laundry/dry-clean.svg",
+        "alt": "세탁 기호",
+        "credit": "original",
+        "background": "light"
+      }
+    },
+    {
+      "id": "life-w008",
+      "difficulty": "hard",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "옷 라벨의 이 세탁 기호의 뜻은?",
+          "choices": [
+            "건조기(텀블 건조) 사용 금지",
+            "그늘에서 말리기",
+            "드라이클리닝 금지",
+            "뉘어서 말리기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "네모는 건조, 네모 안의 원은 건조기(텀블 건조)예요. X가 있으면 건조기에 넣으면 안 돼요.",
+        "tip": "대야 = 물세탁, 삼각형 = 표백, 다리미 = 다림질, 원 = 드라이클리닝, 네모 = 건조",
+        "bonus": "건조기 열에 줄어들기 쉬운 니트, 울, 기능성 옷에 많이 붙어 있어요."
+      },
+      "image": {
+        "src": "images/laundry/no-tumble-dry.svg",
+        "alt": "세탁 기호",
+        "credit": "original",
+        "background": "light"
+      }
+    }
+  ]
+}

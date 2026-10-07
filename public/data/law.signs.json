@@ -1,0 +1,189 @@
+{
+  "category": "law",
+  "version": 1,
+  "cards": [
+    {
+      "id": "law-g001",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 교통 안전 표지의 뜻은?",
+          "choices": [
+            "최고 속도 시속 50km 제한",
+            "최저 속도 시속 50km 유지",
+            "50m 앞 공사 중",
+            "50번 국도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 테두리 원 안의 숫자는 그 속도를 넘으면 안 된다는 최고 속도 제한 표지예요.",
+        "tip": "빨간 원 = 규제(금지·제한), 파란 원 = 지시(이렇게 하라), 노란 삼각형 = 주의(위험 경고)"
+      },
+      "image": {
+        "src": "images/signs/speed-limit-50.svg",
+        "alt": "교통 안전 표지",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "law-g002",
+      "difficulty": "normal",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 교통 안전 표지의 뜻은?",
+          "choices": [
+            "유턴 금지",
+            "유턴 가능",
+            "회전 교차로",
+            "좌회전 금지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "유턴 화살표에 빨간 사선이 그어져 있어 유턴을 하면 안 된다는 규제 표지예요.",
+        "tip": "빨간 원 = 규제(금지·제한), 파란 원 = 지시(이렇게 하라), 노란 삼각형 = 주의(위험 경고)"
+      },
+      "image": {
+        "src": "images/signs/no-u-turn.svg",
+        "alt": "교통 안전 표지",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "law-g003",
+      "difficulty": "normal",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 교통 안전 표지의 뜻은?",
+          "choices": [
+            "좌회전 금지",
+            "우회전 금지",
+            "좌회전만 가능",
+            "진입 금지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "왼쪽으로 꺾인 화살표에 빨간 사선이 있어 좌회전을 하면 안 된다는 뜻이에요.",
+        "tip": "빨간 원 = 규제(금지·제한), 파란 원 = 지시(이렇게 하라), 노란 삼각형 = 주의(위험 경고)"
+      },
+      "image": {
+        "src": "images/signs/no-left-turn.svg",
+        "alt": "교통 안전 표지",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "law-g004",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 교통 안전 표지의 뜻은?",
+          "choices": [
+            "우회전만 가능",
+            "우회전 금지",
+            "우로 굽은 도로",
+            "오른쪽 차로 없어짐"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파란 원에 흰 화살표가 있는 지시 표지로, 화살표 방향(우회전)으로 가라는 뜻이에요.",
+        "tip": "빨간 원 = 규제(금지·제한), 파란 원 = 지시(이렇게 하라), 노란 삼각형 = 주의(위험 경고)"
+      },
+      "image": {
+        "src": "images/signs/turn-right.svg",
+        "alt": "교통 안전 표지",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "law-g005",
+      "difficulty": "easy",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 교통 안전 표지의 뜻은?",
+          "choices": [
+            "직진만 가능",
+            "일방통행 도로",
+            "직진 금지",
+            "앞에 오르막길"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파란 원에 위쪽 화살표가 있는 지시 표지로, 직진만 하라는 뜻이에요.",
+        "tip": "빨간 원 = 규제(금지·제한), 파란 원 = 지시(이렇게 하라), 노란 삼각형 = 주의(위험 경고)",
+        "bonus": "일방통행 표지는 파란 직사각형 안에 화살표와 '일방통행' 글자가 있어 모양이 달라요."
+      },
+      "image": {
+        "src": "images/signs/go-straight.svg",
+        "alt": "교통 안전 표지",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "law-g006",
+      "difficulty": "normal",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 교통 안전 표지의 뜻은?",
+          "choices": [
+            "앞에 신호등이 있음",
+            "신호 위반 단속 중",
+            "신호등 고장",
+            "철길 건널목"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노란 삼각형 주의 표지로, 앞에 신호기(신호등)가 있으니 주의하라는 뜻이에요.",
+        "tip": "빨간 원 = 규제(금지·제한), 파란 원 = 지시(이렇게 하라), 노란 삼각형 = 주의(위험 경고)"
+      },
+      "image": {
+        "src": "images/signs/traffic-signal-ahead.svg",
+        "alt": "교통 안전 표지",
+        "credit": "original",
+        "background": "none"
+      }
+    },
+    {
+      "id": "law-g007",
+      "difficulty": "normal",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 교통 안전 표지의 뜻은?",
+          "choices": [
+            "우로 굽은 도로",
+            "우회전하라",
+            "오른쪽 우회도로",
+            "오른쪽 차로 합류"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노란 삼각형 주의 표지로, 앞길이 오른쪽으로 굽어 있으니 속도를 줄이라는 뜻이에요.",
+        "tip": "빨간 원 = 규제(금지·제한), 파란 원 = 지시(이렇게 하라), 노란 삼각형 = 주의(위험 경고)"
+      },
+      "image": {
+        "src": "images/signs/right-curve.svg",
+        "alt": "교통 안전 표지",
+        "credit": "original",
+        "background": "none"
+      }
+    }
+  ]
+}

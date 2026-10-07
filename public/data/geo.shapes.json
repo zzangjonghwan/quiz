@@ -1,0 +1,425 @@
+{
+  "category": "geo",
+  "version": 1,
+  "cards": [
+    {
+      "id": "geo-s001",
+      "difficulty": "easy",
+      "answer": "이탈리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "이탈리아",
+            "그리스",
+            "스페인",
+            "크로아티아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지중해로 길게 뻗은 반도가 장화처럼 생겼어요. 장화 앞코 쪽 바다 건너 큰 섬이 시칠리아예요.",
+        "tip": "장화 = 이탈리아"
+      },
+      "image": {
+        "src": "images/shapes/italy.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s002",
+      "difficulty": "easy",
+      "answer": "일본",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "일본",
+            "필리핀",
+            "영국",
+            "뉴질랜드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "홋카이도, 혼슈, 시코쿠, 규슈 네 개의 큰 섬이 활처럼 이어져 있어요.",
+        "tip": "활 모양으로 휜 섬 4개",
+        "bonus": "작은 섬까지 합치면 1만 개가 넘는 섬으로 이루어져 있어요."
+      },
+      "image": {
+        "src": "images/shapes/japan.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s003",
+      "difficulty": "easy",
+      "answer": "호주",
+      "aliases": [
+        "오스트레일리아"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "호주",
+            "뉴질랜드",
+            "인도네시아",
+            "마다가스카르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대륙 하나가 통째로 한 나라예요. 아래쪽의 섬은 태즈메이니아예요.",
+        "tip": "대륙 = 나라 = 호주"
+      },
+      "image": {
+        "src": "images/shapes/australia.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s004",
+      "difficulty": "easy",
+      "answer": "대한민국",
+      "aliases": [
+        "한국",
+        "남한"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "대한민국",
+            "북한",
+            "대만",
+            "일본"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한반도의 남쪽으로, 아래의 큰 섬이 제주도예요. 서해안과 남해안은 섬이 많고 해안선이 복잡한 리아스식 해안이에요.",
+        "tip": "토끼(또는 호랑이)의 아래쪽 + 제주도"
+      },
+      "image": {
+        "src": "images/shapes/south-korea.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s005",
+      "difficulty": "normal",
+      "answer": "칠레",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "칠레",
+            "아르헨티나",
+            "페루",
+            "노르웨이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남북으로 약 4,300km나 되지만 동서 폭은 평균 약 180km밖에 안 되는, 세계에서 가장 길쭉한 나라예요.",
+        "tip": "젓가락처럼 가늘고 긴 나라 = 칠레",
+        "bonus": "북쪽 끝에는 세계에서 가장 건조한 아타카마 사막, 남쪽 끝에는 빙하가 있어요."
+      },
+      "image": {
+        "src": "images/shapes/chile.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s006",
+      "difficulty": "normal",
+      "answer": "영국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "영국",
+            "아일랜드",
+            "아이슬란드",
+            "덴마크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "큰 섬 그레이트브리튼과 옆 아일랜드섬의 북쪽 일부(북아일랜드)로 이루어져 있어요.",
+        "tip": "큰 섬 + 옆 섬의 귀퉁이 = 영국"
+      },
+      "image": {
+        "src": "images/shapes/united-kingdom.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s007",
+      "difficulty": "normal",
+      "answer": "인도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "인도",
+            "파키스탄",
+            "방글라데시",
+            "미얀마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남쪽으로 뾰족하게 뻗은 역삼각형 반도가 특징이에요. 아래쪽 바다가 인도양이에요.",
+        "tip": "아래로 뾰족한 역삼각형 = 인도"
+      },
+      "image": {
+        "src": "images/shapes/india.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s008",
+      "difficulty": "normal",
+      "answer": "이집트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "이집트",
+            "리비아",
+            "수단",
+            "사우디아라비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서쪽(리비아)과 남쪽(수단) 국경이 자로 그은 듯한 직선이에요. 오른쪽 위에 삼각형으로 튀어나온 곳이 시나이반도예요.",
+        "tip": "네모난 나라 + 시나이반도 꼬리 = 이집트",
+        "bonus": "직선 국경은 식민지 시대에 위도와 경도를 기준으로 그어서 생겼어요."
+      },
+      "image": {
+        "src": "images/shapes/egypt.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s009",
+      "difficulty": "normal",
+      "answer": "베트남",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "베트남",
+            "라오스",
+            "태국",
+            "칠레"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "인도차이나반도 동쪽 해안을 따라 S자로 길게 휘어진 모양이에요.",
+        "tip": "S자 해안선 = 베트남"
+      },
+      "image": {
+        "src": "images/shapes/vietnam.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s010",
+      "difficulty": "hard",
+      "answer": "노르웨이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "노르웨이",
+            "스웨덴",
+            "핀란드",
+            "칠레"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스칸디나비아반도 서쪽을 따라 길게 뻗어 있고, 빙하가 깎아 만든 피오르 때문에 해안선이 매우 들쭉날쭉해요.",
+        "tip": "들쭉날쭉한 피오르 해안 = 노르웨이"
+      },
+      "image": {
+        "src": "images/shapes/norway.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s011",
+      "difficulty": "hard",
+      "answer": "마다가스카르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "마다가스카르",
+            "스리랑카",
+            "쿠바",
+            "뉴질랜드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아프리카 동남쪽 인도양에 있는 세계에서 네 번째로 큰 섬나라예요.",
+        "tip": "아프리카 옆 길쭉한 큰 섬",
+        "bonus": "여우원숭이처럼 이 섬에만 사는 고유종이 아주 많아요."
+      },
+      "image": {
+        "src": "images/shapes/madagascar.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s012",
+      "difficulty": "hard",
+      "answer": "쿠바",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "쿠바",
+            "자메이카",
+            "아이티",
+            "필리핀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "카리브해에 동서로 길쭉하게 누운 섬나라로, 미국 플로리다 바로 남쪽에 있어요.",
+        "tip": "카리브해의 길쭉한 악어 모양 섬"
+      },
+      "image": {
+        "src": "images/shapes/cuba.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s013",
+      "difficulty": "hard",
+      "answer": "스리랑카",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "스리랑카",
+            "마다가스카르",
+            "대만",
+            "키프로스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "인도 남쪽 바다에 있는 섬나라로, 모양 때문에 '인도양의 눈물'이라고 불려요.",
+        "tip": "눈물방울 모양 섬 = 스리랑카",
+        "bonus": "홍차 실론티의 실론(Ceylon)이 스리랑카의 옛 이름이에요."
+      },
+      "image": {
+        "src": "images/shapes/sri-lanka.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s014",
+      "difficulty": "hard",
+      "answer": "몽골",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "몽골",
+            "카자흐스탄",
+            "우즈베키스탄",
+            "아프가니스탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "러시아와 중국 사이에 끼인, 바다가 없는 내륙국이에요. 동서로 넓적한 모양이에요.",
+        "tip": "러시아와 중국 사이 넓적한 나라",
+        "bonus": "카자흐스탄에 이어 세계에서 두 번째로 큰 내륙국이에요."
+      },
+      "image": {
+        "src": "images/shapes/mongolia.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    },
+    {
+      "id": "geo-s015",
+      "difficulty": "hard",
+      "answer": "아이슬란드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 모양의 나라는 어디일까?",
+          "choices": [
+            "아이슬란드",
+            "아일랜드",
+            "덴마크",
+            "핀란드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "북대서양의 화산섬 나라로, 유라시아판과 북아메리카판이 갈라지는 곳 위에 있어요.",
+        "tip": "얼음(ice)의 나라지만 화산과 온천의 나라",
+        "bonus": "이름과 달리 바로 옆 그린란드(초록 땅)가 훨씬 더 얼음으로 덮여 있어요."
+      },
+      "image": {
+        "src": "images/shapes/iceland.svg",
+        "alt": "나라의 모양",
+        "credit": "natural-earth",
+        "background": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "category": "geo",
+  "version": 1,
+  "cards": [
+    {
+      "id": "geo-f001",
+      "difficulty": "easy",
+      "answer": "대한민국",
+      "aliases": [
+        "한국",
+        "남한"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "대한민국",
+            "일본",
+            "대만",
+            "몽골"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "건",
+            "origin": "☰",
+            "meaning": "하늘"
+          },
+          {
+            "part": "곤",
+            "origin": "☷",
+            "meaning": "땅"
+          },
+          {
+            "part": "감",
+            "origin": "☵",
+            "meaning": "물"
+          },
+          {
+            "part": "리",
+            "origin": "☲",
+            "meaning": "불"
+          }
+        ],
+        "meaning": "흰 바탕 가운데 빨강·파랑의 태극 문양과 네 모서리의 건곤감리 4괘로 이루어진 태극기예요.",
+        "tip": "건곤감리 = 하늘, 땅, 물, 불",
+        "bonus": "흰 바탕은 밝음과 순수, 평화를 사랑하는 마음을 나타내요."
+      },
+      "image": {
+        "src": "images/flags/kr.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f002",
+      "difficulty": "easy",
+      "answer": "일본",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "일본",
+            "방글라데시",
+            "팔라우",
+            "대한민국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰 바탕에 붉은 원 하나, '히노마루(태양의 원)'라고 불러요.",
+        "tip": "해 뜨는 나라(日本) = 해 하나",
+        "bonus": "방글라데시 국기는 초록 바탕에 붉은 원이라 모양이 비슷해요."
+      },
+      "image": {
+        "src": "images/flags/jp.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f003",
+      "difficulty": "easy",
+      "answer": "미국",
+      "aliases": [
+        "미합중국"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "미국",
+            "라이베리아",
+            "말레이시아",
+            "영국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "별 50개는 50개 주, 빨강·흰색 줄 13개는 처음 독립한 13개 주를 뜻해요.",
+        "tip": "별 = 지금의 주, 줄 = 처음의 13개 주",
+        "bonus": "라이베리아 국기는 별이 하나뿐인 성조기 모양이에요."
+      },
+      "image": {
+        "src": "images/flags/us.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f004",
+      "difficulty": "easy",
+      "answer": "중국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "중국",
+            "베트남",
+            "몽골",
+            "대만"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "붉은 바탕에 노란 별 다섯 개라 '오성홍기'예요. 큰 별은 공산당, 작은 별 넷은 노동자·농민·소자산 계급·민족 자본가를 뜻해요.",
+        "tip": "오성홍기 = 다섯(五) 별(星) 붉은(紅) 깃발(旗)"
+      },
+      "image": {
+        "src": "images/flags/cn.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f005",
+      "difficulty": "easy",
+      "answer": "캐나다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "캐나다",
+            "페루",
+            "오스트리아",
+            "레바논"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가운데 빨간 단풍잎이 있어 '메이플 리프 플래그'라고 불러요. 1965년부터 썼어요.",
+        "tip": "단풍잎 = 메이플 시럽의 나라",
+        "bonus": "페루 국기도 빨강·흰색·빨강 세로 줄이지만 단풍잎이 없어요."
+      },
+      "image": {
+        "src": "images/flags/ca.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f006",
+      "difficulty": "easy",
+      "answer": "영국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "영국",
+            "호주",
+            "뉴질랜드",
+            "노르웨이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "잉글랜드(성 조지), 스코틀랜드(성 앤드루), 아일랜드(성 패트릭)의 십자를 겹친 '유니언 잭'이에요.",
+        "tip": "십자 세 개를 겹친 깃발",
+        "bonus": "웨일스는 국기에 들어가 있지 않아요. 호주와 뉴질랜드 국기 왼쪽 위에도 유니언 잭이 있어요."
+      },
+      "image": {
+        "src": "images/flags/gb.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f007",
+      "difficulty": "easy",
+      "answer": "프랑스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "프랑스",
+            "이탈리아",
+            "네덜란드",
+            "러시아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑·흰색·빨강의 세로 삼색기로, 흔히 자유·평등·박애를 뜻한다고 설명해요.",
+        "tip": "세로 파·흰·빨 = 프랑스, 가로 빨·흰·파 = 네덜란드",
+        "bonus": "파랑과 빨강은 파리의 상징색, 흰색은 왕실의 색에서 왔다는 설명도 있어요."
+      },
+      "image": {
+        "src": "images/flags/fr.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f008",
+      "difficulty": "normal",
+      "answer": "독일",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "독일",
+            "벨기에",
+            "리투아니아",
+            "콜롬비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "검정·빨강·금색의 가로 삼색기예요. 19세기 독일 통일 운동 때 쓰인 색에서 왔어요.",
+        "tip": "가로 검·빨·금 = 독일, 세로 검·노·빨 = 벨기에"
+      },
+      "image": {
+        "src": "images/flags/de.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f009",
+      "difficulty": "normal",
+      "answer": "이탈리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "이탈리아",
+            "멕시코",
+            "아일랜드",
+            "헝가리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·흰색·빨강의 세로 삼색기예요. 프랑스 삼색기의 영향을 받았어요.",
+        "tip": "피자 마르게리타 색(바질·모차렐라·토마토)으로 기억",
+        "bonus": "멕시코 국기는 가운데 독수리 문장이 있고, 아일랜드 국기는 초록·흰색·주황이에요."
+      },
+      "image": {
+        "src": "images/flags/it.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f010",
+      "difficulty": "normal",
+      "answer": "브라질",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "브라질",
+            "포르투갈",
+            "콜롬비아",
+            "아르헨티나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록 바탕에 노란 마름모, 가운데 별이 뜬 파란 하늘이 있어요. 띠에는 포르투갈어로 'ORDEM E PROGRESSO(질서와 진보)'라고 적혀 있어요.",
+        "tip": "초록 + 노란 마름모 + 파란 지구본",
+        "bonus": "별 27개는 26개 주와 연방구를 나타내고, 1889년 공화국이 선포된 날 리우데자네이루의 밤하늘을 그렸어요."
+      },
+      "image": {
+        "src": "images/flags/br.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f011",
+      "difficulty": "normal",
+      "answer": "스위스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "스위스",
+            "덴마크",
+            "조지아",
+            "오스트리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕에 흰 십자가 있어요. 국기가 정사각형인 나라는 스위스와 바티칸뿐이에요.",
+        "tip": "정사각형 + 흰 십자 = 스위스",
+        "bonus": "국제 적십자의 표지는 스위스 국기의 색을 뒤집어 만들었어요."
+      },
+      "image": {
+        "src": "images/flags/ch.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f012",
+      "difficulty": "normal",
+      "answer": "인도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "인도",
+            "니제르",
+            "아일랜드",
+            "코트디부아르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "주황·흰색·초록의 가로 줄 가운데 남색 바퀴 '아쇼카 차크라'가 있어요. 바퀴살은 24개예요.",
+        "tip": "가운데 바퀴 = 인도",
+        "bonus": "니제르 국기도 주황·흰색·초록이지만 가운데에 주황색 원이 있어요."
+      },
+      "image": {
+        "src": "images/flags/in.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f013",
+      "difficulty": "normal",
+      "answer": "호주",
+      "aliases": [
+        "오스트레일리아"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "호주",
+            "뉴질랜드",
+            "영국",
+            "피지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "왼쪽 위에 유니언 잭, 그 아래 큰 칠각별(연방의 별), 오른쪽에 남십자성이 있어요.",
+        "tip": "흰 별 = 호주, 빨간 별 4개 = 뉴질랜드",
+        "bonus": "칠각별의 꼭짓점 7개는 6개 주와 준주들을 뜻해요."
+      },
+      "image": {
+        "src": "images/flags/au.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f014",
+      "difficulty": "normal",
+      "answer": "튀르키예",
+      "aliases": [
+        "터키"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "튀르키예",
+            "튀니지",
+            "파키스탄",
+            "아제르바이잔"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕에 흰 초승달과 별이 있어요.",
+        "tip": "빨간 바탕 + 초승달과 별 = 튀르키예",
+        "bonus": "튀니지 국기도 비슷하지만 초승달과 별이 흰 원 안에 들어 있어요."
+      },
+      "image": {
+        "src": "images/flags/tr.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f015",
+      "difficulty": "normal",
+      "answer": "멕시코",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "멕시코",
+            "이탈리아",
+            "이란",
+            "아일랜드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록·흰색·빨강 세로 줄 가운데, 선인장 위에서 뱀을 문 독수리가 그려져 있어요.",
+        "origin": "아즈텍 사람들이 '독수리가 선인장 위에서 뱀을 먹는 곳에 도시를 세우라'는 계시를 받고 테노치티틀란(지금의 멕시코시티)을 세웠다는 전설에서 왔어요.",
+        "tip": "이탈리아 국기 + 독수리 = 멕시코"
+      },
+      "image": {
+        "src": "images/flags/mx.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f016",
+      "difficulty": "normal",
+      "answer": "베트남",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "베트남",
+            "중국",
+            "모로코",
+            "소말리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "붉은 바탕에 노란 별 하나가 있어 '금성홍기'라고 불러요.",
+        "tip": "별 하나 = 베트남, 별 다섯 = 중국",
+        "bonus": "모로코 국기는 붉은 바탕에 초록 별 테두리가 있어요."
+      },
+      "image": {
+        "src": "images/flags/vn.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f017",
+      "difficulty": "normal",
+      "answer": "이스라엘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "이스라엘",
+            "그리스",
+            "핀란드",
+            "우루과이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰 바탕에 파란 줄 두 개, 가운데 '다윗의 별'이 있어요.",
+        "tip": "파란 육각별 = 이스라엘",
+        "bonus": "파란 줄은 유대교 기도 숄(탈리트)의 줄무늬를 본떴어요."
+      },
+      "image": {
+        "src": "images/flags/il.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f018",
+      "difficulty": "hard",
+      "answer": "네팔",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "네팔",
+            "부탄",
+            "스리랑카",
+            "방글라데시"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "직사각형이 아닌 국기는 세계에서 네팔뿐이에요. 삼각형 두 개를 위아래로 겹친 모양에 달과 해가 그려져 있어요.",
+        "tip": "삼각형 두 개 = 네팔",
+        "bonus": "두 삼각형은 히말라야산맥, 또는 힌두교와 불교를 뜻한다고 해요."
+      },
+      "image": {
+        "src": "images/flags/np.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f019",
+      "difficulty": "hard",
+      "answer": "부탄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "부탄",
+            "네팔",
+            "스리랑카",
+            "몽골"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노랑과 주황으로 대각선으로 나뉜 바탕 위에 하얀 용 '드룩'이 있어요.",
+        "tip": "용이 그려진 국기 = 부탄",
+        "bonus": "부탄 사람들은 자기 나라를 '드룩 율(용의 나라)'이라고 불러요."
+      },
+      "image": {
+        "src": "images/flags/bt.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f020",
+      "difficulty": "hard",
+      "answer": "키프로스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "키프로스",
+            "몰타",
+            "코소보",
+            "그리스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흰 바탕에 구리색으로 섬의 모양을 그리고, 그 아래 평화를 뜻하는 올리브 가지 두 개를 넣었어요.",
+        "tip": "국기에 섬 지도 = 키프로스",
+        "bonus": "구리색을 쓴 건 구리(copper)라는 말의 어원이 키프로스와 관련 있어서예요. 나라 모양을 국기에 넣은 곳은 키프로스와 코소보뿐이에요."
+      },
+      "image": {
+        "src": "images/flags/cy.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f021",
+      "difficulty": "hard",
+      "answer": "모잠비크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "모잠비크",
+            "짐바브웨",
+            "앙골라",
+            "케냐"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "국기에 소총(AK-47)이 그려진 나라예요. 소총, 괭이, 책이 각각 국방, 농업, 교육을 뜻해요.",
+        "tip": "소총 + 괭이 + 책 = 모잠비크"
+      },
+      "image": {
+        "src": "images/flags/mz.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f022",
+      "difficulty": "hard",
+      "answer": "레바논",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "레바논",
+            "캐나다",
+            "오스트리아",
+            "라트비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨강·흰색·빨강 가로 줄 가운데 초록색 '레바논 삼나무(백향목)'가 있어요.",
+        "tip": "나무가 그려진 국기 = 레바논",
+        "bonus": "레바논 삼나무는 성경에도 자주 나오는 귀한 나무로, 고대 페니키아인이 배를 만들 때 썼어요."
+      },
+      "image": {
+        "src": "images/flags/lb.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f023",
+      "difficulty": "hard",
+      "answer": "포르투갈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "포르투갈",
+            "스페인",
+            "브라질",
+            "모로코"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록과 빨강 바탕의 경계에 노란 '혼천의(천체 관측 기구)'와 방패가 있어요. 대항해 시대의 바다 탐험을 상징해요.",
+        "tip": "초록·빨강 + 혼천의 = 포르투갈"
+      },
+      "image": {
+        "src": "images/flags/pt.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f024",
+      "difficulty": "hard",
+      "answer": "덴마크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "덴마크",
+            "스위스",
+            "노르웨이",
+            "스웨덴"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빨간 바탕에 흰 십자가 왼쪽으로 치우친 '단네브로'예요. 지금까지 쓰이는 국기 중 가장 오래된 것으로 꼽혀요.",
+        "tip": "빨강 + 흰 십자(왼쪽 치우침) = 덴마크",
+        "bonus": "노르웨이, 스웨덴, 핀란드, 아이슬란드 국기도 같은 북유럽 십자 모양이에요."
+      },
+      "image": {
+        "src": "images/flags/dk.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f025",
+      "difficulty": "hard",
+      "answer": "카자흐스탄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "카자흐스탄",
+            "우즈베키스탄",
+            "키르기스스탄",
+            "팔라우"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색 바탕에 금색 태양과 그 아래 날개를 편 초원 독수리, 왼쪽에 전통 무늬가 있어요.",
+        "tip": "하늘색 + 금색 태양과 독수리 = 카자흐스탄"
+      },
+      "image": {
+        "src": "images/flags/kz.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f026",
+      "difficulty": "hard",
+      "answer": "사우디아라비아",
+      "aliases": [
+        "사우디"
+      ],
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "사우디아라비아",
+            "파키스탄",
+            "이란",
+            "아랍에미리트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초록 바탕에 이슬람 신앙 고백 문구(샤하다)와 칼이 그려져 있어요.",
+        "tip": "초록 + 아랍어 문구 + 칼 = 사우디아라비아",
+        "bonus": "신성한 문구가 있어서 조기(반기)로 달지 않아요."
+      },
+      "image": {
+        "src": "images/flags/sa.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    },
+    {
+      "id": "geo-f027",
+      "difficulty": "hard",
+      "answer": "아르헨티나",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이 국기는 어느 나라의 국기일까?",
+          "choices": [
+            "아르헨티나",
+            "우루과이",
+            "엘살바도르",
+            "니카라과"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘색·흰색·하늘색 가로 줄 가운데 얼굴이 있는 '5월의 태양'이 있어요.",
+        "tip": "하늘색 줄 + 얼굴 있는 태양 = 아르헨티나",
+        "bonus": "5월의 태양은 1810년 5월 혁명과 잉카의 태양신에서 비롯됐어요."
+      },
+      "image": {
+        "src": "images/flags/ar.svg",
+        "alt": "국기",
+        "credit": "flag-icons",
+        "background": "light"
+      }
+    }
+  ]
+}
