@@ -1,5 +1,5 @@
 {
-  "version": 50,
+  "version": 51,
   "files": [
     {
       "category": "idiom",
@@ -219,6 +219,11 @@
     {
       "category": "media",
       "file": "media.json",
+      "version": 1
+    },
+    {
+      "category": "media",
+      "file": "media.m.json",
       "version": 1
     },
     {
