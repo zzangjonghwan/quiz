@@ -1,5 +1,5 @@
 {
-  "version": 170,
+  "version": 172,
   "files": [
     {
       "category": "idiom",
@@ -534,6 +534,16 @@
     {
       "category": "law",
       "file": "law.m5.json",
+      "version": 1
+    },
+    {
+      "category": "law",
+      "file": "law.m6.json",
+      "version": 1
+    },
+    {
+      "category": "law",
+      "file": "law.m7.json",
       "version": 1
     },
     {
