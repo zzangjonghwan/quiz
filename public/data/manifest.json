@@ -1,5 +1,5 @@
 {
-  "version": 203,
+  "version": 204,
   "files": [
     {
       "category": "idiom",
@@ -324,6 +324,11 @@
     {
       "category": "myth",
       "file": "myth.m7.json",
+      "version": 1
+    },
+    {
+      "category": "myth",
+      "file": "myth.m8.json",
       "version": 1
     },
     {

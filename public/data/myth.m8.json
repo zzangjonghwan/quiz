@@ -1,0 +1,468 @@
+{
+  "category": "myth",
+  "version": 1,
+  "cards": [
+    {
+      "id": "myth-m8001",
+      "difficulty": "normal",
+      "answer": "유피테르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "그리스 신화의 제우스에 해당하는 로마 신으로, 목성의 영어 이름(Jupiter)이 된 신은?",
+          "choices": [
+            "유피테르",
+            "마르스",
+            "사투르누스",
+            "넵투누스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태양계에서 가장 큰 행성에 신들의 왕 이름을 붙였어요.",
+        "tip": "Jupiter"
+      }
+    },
+    {
+      "id": "myth-m8002",
+      "difficulty": "normal",
+      "answer": "베누스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "그리스 신화의 아프로디테에 해당하는 로마 여신으로, 금성의 영어 이름이 된 신은?",
+          "choices": [
+            "베누스",
+            "유노",
+            "미네르바",
+            "디아나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어로는 비너스(Venus)예요. 밤하늘에서 가장 밝고 아름다운 행성이에요.",
+        "tip": "Venus"
+      }
+    },
+    {
+      "id": "myth-m8003",
+      "difficulty": "normal",
+      "answer": "넵투누스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "그리스 신화의 포세이돈에 해당하는 로마 신으로, 푸른 행성인 해왕성의 영어 이름이 된 신은?",
+          "choices": [
+            "넵투누스",
+            "유피테르",
+            "불카누스",
+            "메르쿠리우스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어로는 넵튠(Neptune)이에요. 바다처럼 푸른색이라 바다의 신 이름을 붙였어요.",
+        "tip": "Neptune"
+      }
+    },
+    {
+      "id": "myth-m8004",
+      "difficulty": "hard",
+      "answer": "사투르누스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "그리스 신화의 크로노스에 해당하는 로마 신으로, 토성의 영어 이름이 된 신은?",
+          "choices": [
+            "사투르누스",
+            "유피테르",
+            "마르스",
+            "야누스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어로는 새턴(Saturn)이에요. 토요일(Saturday)도 이 신의 이름에서 나왔어요.",
+        "tip": "Saturday"
+      }
+    },
+    {
+      "id": "myth-m8005",
+      "difficulty": "normal",
+      "answer": "플루토",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "그리스 신화의 하데스에 해당하는 로마 신으로, 명왕성의 영어 이름이 된 신은?",
+          "choices": [
+            "플루토",
+            "마르스",
+            "불카누스",
+            "바쿠스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태양에서 멀고 어두운 곳이라 저승의 신 이름을 붙였어요. 열한 살 영국 소녀가 제안한 이름이에요.",
+        "tip": "Pluto"
+      }
+    },
+    {
+      "id": "myth-m8006",
+      "difficulty": "normal",
+      "answer": "헬리오스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "황금 마차를 몰고 날마다 하늘을 가로질러 해를 끌고 간다는 그리스의 태양신은?",
+          "choices": [
+            "헬리오스",
+            "아폴론",
+            "셀레네",
+            "에오스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "누이 셀레네는 달, 에오스는 새벽의 여신이에요. 뒤에는 아폴론이 태양신 역할을 함께 맡게 됐어요.",
+        "tip": "태양 마차"
+      }
+    },
+    {
+      "id": "myth-m8007",
+      "difficulty": "hard",
+      "answer": "에리스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "신들의 잔치에 초대받지 못하자 '가장 아름다운 여신에게'라고 쓴 황금 사과를 던져 트로이 전쟁의 불씨를 만든 여신은?",
+          "choices": [
+            "에리스",
+            "네메시스",
+            "헤라",
+            "아테나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'불화의 사과'라는 말이 여기서 나왔어요.",
+        "tip": "불화의 여신"
+      }
+    },
+    {
+      "id": "myth-m8008",
+      "difficulty": "hard",
+      "answer": "데우칼리온",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "제우스가 홍수로 인류를 쓸어버렸을 때 방주를 타고 살아남아 새 인류의 조상이 된 그리스 신화 속 부부의 남편은?",
+          "choices": [
+            "데우칼리온",
+            "에피메테우스",
+            "프로메테우스",
+            "아틀라스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "부부가 어깨 너머로 던진 돌에서 새 사람들이 태어났다고 해요.",
+        "tip": "그리스판 노아"
+      }
+    },
+    {
+      "id": "myth-m8009",
+      "difficulty": "hard",
+      "answer": "탈로스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "크레타섬을 지키려고 날마다 섬을 세 바퀴 돌았다는 청동 거인은?",
+          "choices": [
+            "탈로스",
+            "아틀라스",
+            "키클롭스",
+            "미노타우로스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "발목의 못 하나가 약점이었어요. 인류 최초의 로봇 이야기로 꼽히기도 해요.",
+        "tip": "청동 로봇"
+      }
+    },
+    {
+      "id": "myth-m8010",
+      "difficulty": "hard",
+      "answer": "이슈타르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "메소포타미아 신화에서 사랑과 전쟁의 여신으로, 바빌론 성문 이름에도 쓰인 신은?",
+          "choices": [
+            "이슈타르",
+            "이시스",
+            "아프로디테",
+            "마아트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파란 벽돌로 꾸민 '이슈타르 문'은 지금 독일 베를린 페르가몬 박물관에 있어요.",
+        "tip": "파란 성문"
+      }
+    },
+    {
+      "id": "myth-m8011",
+      "difficulty": "easy",
+      "answer": "멀린",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아서왕 전설에서 왕을 돕는 마법사는?",
+          "choices": [
+            "멀린",
+            "간달프",
+            "랜슬롯",
+            "모르가나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "어린 아서가 바위에 꽂힌 칼을 뽑게 이끌었다고 전해요.",
+        "tip": "아서왕의 마법사"
+      }
+    },
+    {
+      "id": "myth-m8012",
+      "difficulty": "easy",
+      "answer": "원탁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아서왕과 기사들이 높고 낮음 없이 둘러앉았다는 탁자는?",
+          "choices": [
+            "원탁",
+            "장탁",
+            "석탁",
+            "성배"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "모두가 동등하다는 뜻이 담겼어요. 오늘날 '원탁회의'라는 말도 여기서 나왔어요.",
+        "tip": "둥근 탁자"
+      }
+    },
+    {
+      "id": "myth-m8013",
+      "difficulty": "normal",
+      "answer": "성배",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아서왕의 기사들이 찾아 나선, 예수가 최후의 만찬에서 썼다고 전하는 잔은?",
+          "choices": [
+            "성배",
+            "엑스칼리버",
+            "황금 양털",
+            "판도라의 상자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영화 「인디아나 존스: 최후의 성전」에도 나와요.",
+        "tip": "홀리 그레일"
+      }
+    },
+    {
+      "id": "myth-m8014",
+      "difficulty": "hard",
+      "answer": "이자나기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "일본 신화에서 아내 이자나미와 함께 일본 섬들을 낳았다는 남신은?",
+          "choices": [
+            "이자나기",
+            "스사노오",
+            "쓰쿠요미",
+            "오쿠니누시"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그의 왼쪽 눈에서 태양의 여신 아마테라스가 태어났다고 해요.",
+        "tip": "일본의 창조신"
+      }
+    },
+    {
+      "id": "myth-m8015",
+      "difficulty": "hard",
+      "answer": "마고할미",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리 옛이야기에서 세상을 처음 만들었다고 전하는 거대한 할머니 여신은?",
+          "choices": [
+            "마고할미",
+            "설문대할망",
+            "삼신할머니",
+            "바리데기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지리산과 여러 지역에 전설이 남아 있어요. 제주의 설문대할망과 비슷한 거인 여신이에요.",
+        "tip": "창조의 할머니"
+      }
+    },
+    {
+      "id": "myth-m8016",
+      "difficulty": "hard",
+      "answer": "강림도령",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "제주 무속 신화에서 저승에 가서 염라대왕을 잡아 온 용감한 차사는?",
+          "choices": [
+            "강림도령",
+            "바리데기",
+            "자청비",
+            "해모수"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 일로 저승차사가 되었다고 해요. 영화 「신과 함께」의 강림이 이 신화에서 왔어요.",
+        "tip": "「신과 함께」의 강림"
+      }
+    },
+    {
+      "id": "myth-m8017",
+      "difficulty": "hard",
+      "answer": "측신",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리 민속에서 뒷간(화장실)을 지킨다는 신으로, 깜짝 놀라게 하지 않으려고 들어가기 전 헛기침을 하게 만든 신은?",
+          "choices": [
+            "측신",
+            "조왕신",
+            "성주신",
+            "터주신"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'측간신'이라고도 해요. 성격이 까다로운 여신으로 여겨졌어요.",
+        "tip": "화장실 귀신"
+      }
+    },
+    {
+      "id": "myth-m8018",
+      "difficulty": "normal",
+      "answer": "아브라함",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "유대교, 크리스트교, 이슬람교가 모두 믿음의 조상으로 여기는 인물은?",
+          "choices": [
+            "아브라함",
+            "모세",
+            "노아",
+            "다윗"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그래서 세 종교를 '아브라함 계통의 종교'라고 불러요.",
+        "tip": "세 종교의 조상"
+      }
+    },
+    {
+      "id": "myth-m8019",
+      "difficulty": "normal",
+      "answer": "요셉",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "구약 성경에서 아버지에게 받은 채색옷 때문에 형들의 질투를 받아 이집트로 팔려 간 뒤 총리가 된 인물은?",
+          "choices": [
+            "요셉",
+            "다윗",
+            "모세",
+            "솔로몬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파라오의 꿈을 풀이해 7년 풍년과 7년 흉년을 미리 알려 나라를 구했어요.",
+        "tip": "꿈 해몽가"
+      }
+    },
+    {
+      "id": "myth-m8020",
+      "difficulty": "normal",
+      "answer": "세례 요한",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "요단강에서 예수에게 세례를 준 예언자는?",
+          "choices": [
+            "세례 요한",
+            "베드로",
+            "바울",
+            "엘리야"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "광야에서 낙타 털옷을 입고 메뚜기와 들꿀을 먹으며 살았다고 해요.",
+        "tip": "요단강의 세례"
+      }
+    },
+    {
+      "id": "myth-m8021",
+      "difficulty": "easy",
+      "answer": "12명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "예수가 따로 뽑아 가르친 제자는 모두 몇 명일까?",
+          "choices": [
+            "12명",
+            "7명",
+            "10명",
+            "40명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'12사도'라고 해요. 베드로, 요한, 마태 등이 있어요.",
+        "tip": "12사도"
+      }
+    },
+    {
+      "id": "myth-m8022",
+      "difficulty": "hard",
+      "answer": "보드가야",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "석가모니가 보리수 아래에서 깨달음을 얻은 인도의 장소는?",
+          "choices": [
+            "보드가야",
+            "룸비니",
+            "사르나트",
+            "쿠시나가라"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "룸비니는 태어난 곳, 사르나트는 처음 설법한 곳, 쿠시나가라는 열반에 든 곳이에요.",
+        "tip": "깨달음의 땅"
+      }
+    }
+  ]
+}
