@@ -36,4 +36,10 @@ export const CREDITS: Record<string, Credit> = {
     license: 'ElevenLabs 이용 약관 (출처 표기)',
     url: 'https://elevenlabs.io',
   },
+  'gemini-tts': {
+    title: 'Google Gemini TTS',
+    usedFor: '상식플러스 이야기 음성 (arin)',
+    author: 'Google Gemini 음성 생성(Aoede 음성)으로 제작',
+    license: 'Google Gemini API 이용 약관',
+  },
 }

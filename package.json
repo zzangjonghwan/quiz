@@ -8,6 +8,7 @@
     "data": "node scripts/data.mjs",
     "images": "node scripts/images.mjs && node scripts/data.mjs",
     "content": "node scripts/build-content.mjs && node scripts/data.mjs",
+    "stories": "node scripts/stories.mjs && node scripts/publish-stories.mjs",
     "build": "node scripts/data.mjs && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
