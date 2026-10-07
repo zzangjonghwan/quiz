@@ -1,0 +1,1056 @@
+{
+  "category": "worldhistory",
+  "version": 1,
+  "cards": [
+    {
+      "id": "worldhistory-m7001",
+      "difficulty": "normal",
+      "answer": "테니스코트의 서약",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1789년 프랑스 평민 대표들이 헌법을 만들 때까지 흩어지지 않겠다고 실내 구기장에서 맹세한 사건은?",
+          "choices": [
+            "테니스코트의 서약",
+            "바스티유 습격",
+            "베르사유 행진",
+            "테르미도르 반동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "회의장 문이 잠기자 근처 실내 테니스장에 모였어요. 이들이 '국민 의회'를 세웠어요.",
+        "tip": "실내 구기장의 맹세"
+      }
+    },
+    {
+      "id": "worldhistory-m7002",
+      "difficulty": "normal",
+      "answer": "로베스피에르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "프랑스 혁명 때 자코뱅파를 이끌며 반대파를 대거 처형하는 '공포 정치'를 펼친 인물은?",
+          "choices": [
+            "로베스피에르",
+            "당통",
+            "마라",
+            "라파예트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1794년 '테르미도르 반동'으로 그 자신도 단두대에서 처형됐어요.",
+        "tip": "공포 정치"
+      }
+    },
+    {
+      "id": "worldhistory-m7003",
+      "difficulty": "easy",
+      "answer": "마리 앙투아네트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "루이 16세의 왕비로, 1793년 단두대에서 처형된 오스트리아 출신 왕비는?",
+          "choices": [
+            "마리 앙투아네트",
+            "조제핀",
+            "마리 루이즈",
+            "퐁파두르 부인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "\"빵이 없으면 케이크를 먹으면 되지\"라는 말은 실제로 그녀가 했다는 증거가 없어요.",
+        "tip": "케이크 발언의 오해"
+      }
+    },
+    {
+      "id": "worldhistory-m7004",
+      "difficulty": "normal",
+      "answer": "대륙 봉쇄령",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1806년 나폴레옹이 영국을 경제적으로 고립시키려고 유럽 대륙 나라들에 영국과의 무역을 금지한 명령은?",
+          "choices": [
+            "대륙 봉쇄령",
+            "항해 조례",
+            "곡물법",
+            "먼로 선언"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "러시아가 이를 어기자 나폴레옹이 1812년 러시아 원정에 나섰다가 크게 패했어요.",
+        "tip": "러시아 원정의 원인"
+      }
+    },
+    {
+      "id": "worldhistory-m7005",
+      "difficulty": "normal",
+      "answer": "세인트헬레나섬",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "워털루 전투에서 진 나폴레옹이 유배되어 1821년 세상을 떠난 남대서양의 섬은?",
+          "choices": [
+            "세인트헬레나섬",
+            "엘바섬",
+            "코르시카섬",
+            "몰타섬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "첫 유배지였던 엘바섬에서는 탈출해 다시 황제가 됐어요(백일천하). 코르시카섬은 그가 태어난 곳이에요.",
+        "tip": "두 번째 유배지"
+      }
+    },
+    {
+      "id": "worldhistory-m7006",
+      "difficulty": "hard",
+      "answer": "7월 혁명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "들라크루아의 그림 「민중을 이끄는 자유의 여신」의 배경이 된 1830년 프랑스의 혁명은?",
+          "choices": [
+            "7월 혁명",
+            "2월 혁명",
+            "프랑스 대혁명",
+            "68 혁명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "샤를 10세가 쫓겨나고 루이 필리프가 왕이 됐어요. 1848년에는 2월 혁명이 일어났어요.",
+        "tip": "자유의 여신"
+      }
+    },
+    {
+      "id": "worldhistory-m7007",
+      "difficulty": "easy",
+      "answer": "메이플라워호",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1620년 영국의 청교도들이 신앙의 자유를 찾아 아메리카로 건너갈 때 탄 배는?",
+          "choices": [
+            "메이플라워호",
+            "산타마리아호",
+            "빅토리아호",
+            "비글호"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이들이 첫 수확을 감사하며 연 잔치가 추수 감사절의 기원으로 알려져 있어요.",
+        "tip": "추수 감사절"
+      }
+    },
+    {
+      "id": "worldhistory-m7008",
+      "difficulty": "normal",
+      "answer": "루이지애나 매입",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1803년 미국이 프랑스에서 미시시피강 서쪽의 넓은 땅을 사들여 영토를 두 배 가까이 늘린 일은?",
+          "choices": [
+            "루이지애나 매입",
+            "알래스카 매입",
+            "개즈던 매입",
+            "텍사스 합병"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나폴레옹이 전쟁 자금이 필요해 1,500만 달러에 팔았어요.",
+        "tip": "나폴레옹이 판 땅"
+      }
+    },
+    {
+      "id": "worldhistory-m7009",
+      "difficulty": "normal",
+      "answer": "먼로 선언",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1823년 미국이 유럽은 아메리카 일에 간섭하지 말고 미국도 유럽 일에 끼어들지 않겠다고 밝힌 외교 원칙은?",
+          "choices": [
+            "먼로 선언",
+            "트루먼 독트린",
+            "닉슨 독트린",
+            "대륙 봉쇄령"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국 고립주의 외교의 바탕이 됐어요.",
+        "tip": "아메리카는 아메리카인에게"
+      }
+    },
+    {
+      "id": "worldhistory-m7010",
+      "difficulty": "normal",
+      "answer": "알래스카",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1867년 미국이 러시아에서 720만 달러에 사들여 당시 '수어드의 바보짓'이라 놀림받은 땅은?",
+          "choices": [
+            "알래스카",
+            "하와이",
+            "루이지애나",
+            "텍사스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뒤에 금과 석유가 발견되며 대박 거래로 평가가 바뀌었어요.",
+        "tip": "수어드의 냉장고"
+      }
+    },
+    {
+      "id": "worldhistory-m7011",
+      "difficulty": "hard",
+      "answer": "3C 정책",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국이 이집트 카이로, 남아공 케이프타운, 인도 캘커타를 잇는 지역을 장악하려 한 제국주의 정책은?",
+          "choices": [
+            "3C 정책",
+            "3B 정책",
+            "종단 정책",
+            "횡단 정책"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "독일은 베를린, 비잔티움, 바그다드를 잇는 3B 정책을 폈어요.",
+        "tip": "세 도시의 머리글자"
+      }
+    },
+    {
+      "id": "worldhistory-m7012",
+      "difficulty": "hard",
+      "answer": "파쇼다 사건",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1898년 아프리카 수단에서 영국의 종단 정책과 프랑스의 횡단 정책이 맞부딪친 사건은?",
+          "choices": [
+            "파쇼다 사건",
+            "모로코 사건",
+            "사라예보 사건",
+            "수에즈 위기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "프랑스가 물러나며 전쟁은 피했고, 뒤에 두 나라가 협력하는 계기가 됐어요.",
+        "tip": "아프리카 한복판의 충돌"
+      }
+    },
+    {
+      "id": "worldhistory-m7013",
+      "difficulty": "normal",
+      "answer": "양무운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "19세기 후반 청나라가 \"중국의 정신은 지키고 서양 기술만 받아들이자(중체서용)\"며 추진한 근대화 운동은?",
+          "choices": [
+            "양무운동",
+            "변법자강 운동",
+            "5·4 운동",
+            "신해혁명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공장과 군수 시설을 세웠지만 청일 전쟁에서 지며 한계를 드러냈어요.",
+        "tip": "중체서용"
+      }
+    },
+    {
+      "id": "worldhistory-m7014",
+      "difficulty": "hard",
+      "answer": "변법자강 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1898년 캉유웨이 등이 일본 메이지 유신을 본받아 정치 제도까지 바꾸려다 100여 일 만에 실패한 개혁은?",
+          "choices": [
+            "변법자강 운동",
+            "양무운동",
+            "태평천국 운동",
+            "의화단 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서태후 등 보수파의 반발로 무너졌어요. '무술변법'이라고도 해요.",
+        "tip": "백일 유신"
+      }
+    },
+    {
+      "id": "worldhistory-m7015",
+      "difficulty": "normal",
+      "answer": "신해혁명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1911년 우창 봉기로 시작되어 이듬해 청나라를 무너뜨린 혁명은?",
+          "choices": [
+            "신해혁명",
+            "문화 대혁명",
+            "5·4 운동",
+            "무술정변"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1912년 쑨원을 임시 대총통으로 한 중화민국이 세워졌어요.",
+        "tip": "1911년 = 신해년"
+      }
+    },
+    {
+      "id": "worldhistory-m7016",
+      "difficulty": "normal",
+      "answer": "장제스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중국 국민당을 이끌다 공산당과의 내전에서 져 1949년 타이완으로 옮겨 간 지도자는?",
+          "choices": [
+            "장제스",
+            "쑨원",
+            "위안스카이",
+            "저우언라이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "타이완에서 오랫동안 총통을 지냈어요.",
+        "tip": "타이완으로"
+      }
+    },
+    {
+      "id": "worldhistory-m7017",
+      "difficulty": "hard",
+      "answer": "국공 합작",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1924년과 1937년 중국 국민당과 공산당이 공동의 적에 맞서려고 두 번 손잡은 일은?",
+          "choices": [
+            "국공 합작",
+            "대장정",
+            "시안 사건",
+            "삼국 협상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "두 번째 합작은 일본의 침략에 맞서기 위한 것이었어요.",
+        "tip": "국민당 + 공산당"
+      }
+    },
+    {
+      "id": "worldhistory-m7018",
+      "difficulty": "normal",
+      "answer": "삼국 협상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1차 세계 대전 직전 영국, 프랑스, 러시아가 맺은 협력 관계를 부르는 말은?",
+          "choices": [
+            "삼국 협상",
+            "삼국 동맹",
+            "추축국",
+            "신성 동맹"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이에 맞선 독일, 오스트리아, 이탈리아의 관계는 '삼국 동맹'이에요.",
+        "tip": "영·프·러"
+      }
+    },
+    {
+      "id": "worldhistory-m7019",
+      "difficulty": "easy",
+      "answer": "1918년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1차 세계 대전이 끝난 해는?",
+          "choices": [
+            "1918년",
+            "1914년",
+            "1917년",
+            "1919년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "11월 11일 독일이 휴전 협정에 서명했어요. 그래서 유럽에서는 11월 11일을 '종전 기념일'로 지켜요.",
+        "tip": "11월 11일"
+      }
+    },
+    {
+      "id": "worldhistory-m7020",
+      "difficulty": "hard",
+      "answer": "피의 일요일 사건",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1905년 러시아 상트페테르부르크에서 황제에게 청원하러 가던 군중에게 군대가 총을 쏜 사건은?",
+          "choices": [
+            "피의 일요일 사건",
+            "10월 혁명",
+            "2월 혁명",
+            "데카브리스트의 난"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 일로 황제에 대한 민중의 믿음이 무너지며 혁명의 기운이 커졌어요.",
+        "tip": "1905년 러시아"
+      }
+    },
+    {
+      "id": "worldhistory-m7021",
+      "difficulty": "normal",
+      "answer": "니콜라이 2세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1917년 러시아 혁명으로 물러난 뒤 이듬해 가족과 함께 처형된 러시아의 마지막 황제는?",
+          "choices": [
+            "니콜라이 2세",
+            "알렉산드르 2세",
+            "표트르 대제",
+            "알렉산드르 3세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이로써 300년 넘게 이어진 로마노프 왕조가 끝났어요.",
+        "tip": "로마노프 왕조의 끝"
+      }
+    },
+    {
+      "id": "worldhistory-m7022",
+      "difficulty": "normal",
+      "answer": "볼셰비키",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1917년 10월 혁명을 일으켜 권력을 잡은 레닌의 정당 이름은?",
+          "choices": [
+            "볼셰비키",
+            "멘셰비키",
+            "나로드니키",
+            "자코뱅"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "러시아어로 '다수파'라는 뜻이에요. 반대파는 '소수파'인 멘셰비키였어요.",
+        "tip": "다수파"
+      }
+    },
+    {
+      "id": "worldhistory-m7023",
+      "difficulty": "normal",
+      "answer": "무스타파 케말",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1923년 오스만 제국이 무너진 자리에 튀르키예 공화국을 세우고 문자 개혁 등을 이끈 초대 대통령은?",
+          "choices": [
+            "무스타파 케말",
+            "엔베르 파샤",
+            "에르도안",
+            "압둘하미드 2세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'튀르크인의 아버지'라는 뜻의 '아타튀르크'라는 성을 받았어요. 아랍 문자 대신 로마자를 쓰게 했어요.",
+        "tip": "아타튀르크"
+      }
+    },
+    {
+      "id": "worldhistory-m7024",
+      "difficulty": "hard",
+      "answer": "바이마르 공화국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1차 세계 대전 뒤 독일에 세워져 국민의 '사회권'을 처음 헌법에 담은 공화국은?",
+          "choices": [
+            "바이마르 공화국",
+            "프로이센 왕국",
+            "독일 제국",
+            "라인 동맹"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대공황 속 혼란을 틈타 1933년 히틀러가 권력을 잡으며 사실상 무너졌어요.",
+        "tip": "바이마르 헌법"
+      }
+    },
+    {
+      "id": "worldhistory-m7025",
+      "difficulty": "easy",
+      "answer": "뉴딜 정책",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대공황을 이겨 내려고 미국 루스벨트 대통령이 대규모 공공사업과 사회 보장 제도를 도입한 정책은?",
+          "choices": [
+            "뉴딜 정책",
+            "마셜 플랜",
+            "먼로 선언",
+            "레이거노믹스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "테네시강 유역 개발 공사(TVA)가 대표적이에요. 정부가 경제에 적극 개입한 사례로 꼽혀요.",
+        "tip": "새로운 판짜기"
+      }
+    },
+    {
+      "id": "worldhistory-m7026",
+      "difficulty": "hard",
+      "answer": "수정의 밤",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1938년 11월 나치가 독일 곳곳의 유대인 상점과 회당을 부수고 불태운 사건은?",
+          "choices": [
+            "수정의 밤",
+            "장검의 밤",
+            "뮌헨 폭동",
+            "반제 회의"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "깨진 유리 조각이 거리에 반짝였다고 해서 붙은 이름이에요.",
+        "tip": "깨진 유리"
+      }
+    },
+    {
+      "id": "worldhistory-m7027",
+      "difficulty": "normal",
+      "answer": "스탈린",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1930년대 소련에서 반대파와 무고한 시민 수십만 명을 처형한 '대숙청'을 벌인 지도자는?",
+          "choices": [
+            "스탈린",
+            "레닌",
+            "트로츠키",
+            "흐루쇼프"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "5개년 계획으로 공업화를 밀어붙이고 농업 집단화를 강행했어요.",
+        "tip": "강철의 사나이"
+      }
+    },
+    {
+      "id": "worldhistory-m7028",
+      "difficulty": "normal",
+      "answer": "트루먼 독트린",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1947년 미국이 공산주의 확산을 막으려고 그리스와 튀르키예를 돕겠다고 밝힌 외교 원칙은?",
+          "choices": [
+            "트루먼 독트린",
+            "먼로 선언",
+            "닉슨 독트린",
+            "마셜 플랜"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 선언이 냉전의 본격적인 시작으로 꼽혀요.",
+        "tip": "봉쇄 정책"
+      }
+    },
+    {
+      "id": "worldhistory-m7029",
+      "difficulty": "normal",
+      "answer": "바르샤바 조약 기구",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1955년 소련과 동유럽 공산 국가들이 NATO에 맞서 만든 군사 동맹은?",
+          "choices": [
+            "바르샤바 조약 기구",
+            "코민테른",
+            "코메콘",
+            "독립 국가 연합"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "냉전이 끝난 뒤 1991년 해체됐어요.",
+        "tip": "동구권의 NATO"
+      }
+    },
+    {
+      "id": "worldhistory-m7030",
+      "difficulty": "hard",
+      "answer": "1961년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "동독이 주민들의 탈출을 막으려고 하룻밤 사이에 베를린 장벽을 세우기 시작한 해는?",
+          "choices": [
+            "1961년",
+            "1949년",
+            "1953년",
+            "1968년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "처음엔 철조망이었다가 곧 콘크리트 벽이 됐어요. 1989년 무너질 때까지 28년 동안 서 있었어요.",
+        "tip": "28년의 벽"
+      }
+    },
+    {
+      "id": "worldhistory-m7031",
+      "difficulty": "hard",
+      "answer": "피그스만 침공",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1961년 미국이 지원한 망명 쿠바인들이 카스트로 정권을 무너뜨리려다 실패한 침공은?",
+          "choices": [
+            "피그스만 침공",
+            "쿠바 미사일 위기",
+            "그레나다 침공",
+            "통킹만 사건"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "케네디 정부의 큰 실책으로 꼽히고, 쿠바가 소련과 더 가까워지는 계기가 됐어요.",
+        "tip": "쿠바의 만"
+      }
+    },
+    {
+      "id": "worldhistory-m7032",
+      "difficulty": "normal",
+      "answer": "핑퐁 외교",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1971년 미국 탁구 선수단의 중국 방문이 계기가 되어 1972년 닉슨의 중국 방문으로 이어진 외교는?",
+          "choices": [
+            "핑퐁 외교",
+            "판다 외교",
+            "셔틀 외교",
+            "포함 외교"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "작은 공 하나가 큰 지구를 움직였다는 말이 나왔어요.",
+        "tip": "탁구공 외교"
+      }
+    },
+    {
+      "id": "worldhistory-m7033",
+      "difficulty": "hard",
+      "answer": "디엔비엔푸 전투",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1954년 베트남군이 프랑스군을 크게 무찔러 프랑스가 인도차이나에서 물러나게 된 전투는?",
+          "choices": [
+            "디엔비엔푸 전투",
+            "구정 공세",
+            "케산 전투",
+            "사이공 함락"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 뒤 제네바 협정으로 베트남이 북위 17도선을 따라 남북으로 나뉘었어요.",
+        "tip": "프랑스의 패배"
+      }
+    },
+    {
+      "id": "worldhistory-m7034",
+      "difficulty": "hard",
+      "answer": "아프리카의 해",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1960년 아프리카에서 17개 나라가 한꺼번에 독립하여 붙은 이름은?",
+          "choices": [
+            "아프리카의 해",
+            "아랍의 봄",
+            "제3세계의 해",
+            "비동맹의 해"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나이지리아, 카메룬, 콩고, 소말리아 등이 이해 독립했어요.",
+        "tip": "1960년"
+      }
+    },
+    {
+      "id": "worldhistory-m7035",
+      "difficulty": "normal",
+      "answer": "네루",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1947년 영국에서 독립한 인도의 초대 총리는?",
+          "choices": [
+            "네루",
+            "간디",
+            "인디라 간디",
+            "진나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "간디는 공직을 맡지 않았어요. 네루의 딸 인디라 간디도 뒤에 총리가 됐어요(간디와는 친척이 아니에요).",
+        "tip": "인도 초대 총리"
+      }
+    },
+    {
+      "id": "worldhistory-m7036",
+      "difficulty": "hard",
+      "answer": "수에즈 위기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1956년 이집트의 나세르가 수에즈 운하를 국유화하자 영국·프랑스·이스라엘이 이집트를 공격한 사건은?",
+          "choices": [
+            "수에즈 위기",
+            "6일 전쟁",
+            "욤 키푸르 전쟁",
+            "파쇼다 사건"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국과 소련의 압력으로 세 나라가 물러났어요. 영국의 국제적 위상이 크게 떨어졌어요.",
+        "tip": "운하 국유화"
+      }
+    },
+    {
+      "id": "worldhistory-m7037",
+      "difficulty": "normal",
+      "answer": "6일 전쟁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1967년 이스라엘이 이집트·시리아·요르단과 싸워 엿새 만에 넓은 땅을 차지한 전쟁은?",
+          "choices": [
+            "6일 전쟁",
+            "욤 키푸르 전쟁",
+            "수에즈 위기",
+            "걸프 전쟁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'제3차 중동 전쟁'이라고도 해요. 이때 차지한 요르단강 서안과 가자 지구 문제가 지금까지 이어져요.",
+        "tip": "엿새"
+      }
+    },
+    {
+      "id": "worldhistory-m7038",
+      "difficulty": "hard",
+      "answer": "캠프 데이비드 협정",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1978년 미국 카터 대통령의 중재로 이집트와 이스라엘이 평화에 합의한 협정은?",
+          "choices": [
+            "캠프 데이비드 협정",
+            "오슬로 협정",
+            "아브라함 협정",
+            "제네바 협정"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이집트 사다트 대통령과 이스라엘 베긴 총리가 그해 노벨 평화상을 함께 받았어요.",
+        "tip": "미국 대통령 별장"
+      }
+    },
+    {
+      "id": "worldhistory-m7039",
+      "difficulty": "hard",
+      "answer": "오슬로 협정",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1993년 이스라엘과 팔레스타인 해방 기구(PLO)가 서로를 인정하고 팔레스타인 자치를 약속한 협정은?",
+          "choices": [
+            "오슬로 협정",
+            "캠프 데이비드 협정",
+            "아브라함 협정",
+            "밸푸어 선언"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "라빈 총리와 아라파트 의장이 백악관에서 악수했어요. 라빈은 1995년 암살됐어요.",
+        "tip": "노르웨이에서 비밀 협상"
+      }
+    },
+    {
+      "id": "worldhistory-m7040",
+      "difficulty": "normal",
+      "answer": "이란",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1979년 호메이니가 이끌어 왕정을 무너뜨리고 이슬람 공화국을 세운 혁명이 일어난 나라는?",
+          "choices": [
+            "이란",
+            "이라크",
+            "사우디아라비아",
+            "아프가니스탄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 혁명이 2차 석유 파동의 원인이 됐어요.",
+        "tip": "이슬람 혁명"
+      }
+    },
+    {
+      "id": "worldhistory-m7041",
+      "difficulty": "hard",
+      "answer": "연대",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1980년 폴란드 그단스크 조선소에서 바웬사가 이끌어 동유럽 민주화의 불씨가 된 자유 노조는?",
+          "choices": [
+            "연대",
+            "헌장 77",
+            "포룸",
+            "시민 광장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "폴란드어로 '솔리다르노시치'예요. 바웬사는 1990년 대통령이 됐어요.",
+        "tip": "솔리다르노시치"
+      }
+    },
+    {
+      "id": "worldhistory-m7042",
+      "difficulty": "normal",
+      "answer": "벨벳 혁명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1989년 체코슬로바키아에서 피를 흘리지 않고 공산 정권을 무너뜨린 민주화 혁명은?",
+          "choices": [
+            "벨벳 혁명",
+            "장미 혁명",
+            "프라하의 봄",
+            "오렌지 혁명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "극작가 바츨라프 하벨이 대통령이 됐어요. 1993년 체코와 슬로바키아로 평화롭게 나뉘었어요.",
+        "tip": "부드러운 혁명"
+      }
+    },
+    {
+      "id": "worldhistory-m7043",
+      "difficulty": "hard",
+      "answer": "루마니아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1989년 동유럽 혁명 가운데 유일하게 유혈 사태 끝에 독재자 부부가 처형된 나라는?",
+          "choices": [
+            "루마니아",
+            "불가리아",
+            "헝가리",
+            "알바니아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "차우셰스쿠 부부가 1989년 12월 처형됐어요.",
+        "tip": "차우셰스쿠"
+      }
+    },
+    {
+      "id": "worldhistory-m7044",
+      "difficulty": "normal",
+      "answer": "유고슬라비아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1990년대 여러 나라로 갈라지면서 보스니아 내전 등 참혹한 전쟁을 겪은 발칸반도의 나라는?",
+          "choices": [
+            "유고슬라비아",
+            "체코슬로바키아",
+            "알바니아",
+            "불가리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "슬로베니아, 크로아티아, 보스니아 헤르체고비나, 세르비아 등으로 나뉘었어요.",
+        "tip": "발칸반도의 해체"
+      }
+    },
+    {
+      "id": "worldhistory-m7045",
+      "difficulty": "normal",
+      "answer": "마카오",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1999년 포르투갈이 400년 넘게 다스리다가 중국에 돌려준 곳은?",
+          "choices": [
+            "마카오",
+            "홍콩",
+            "고아",
+            "타이완"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "홍콩처럼 '일국양제'가 적용되는 특별 행정구예요. 고아는 1961년 인도에 편입됐어요.",
+        "tip": "1999년 반환"
+      }
+    },
+    {
+      "id": "worldhistory-m7046",
+      "difficulty": "normal",
+      "answer": "대약진 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1958년 마오쩌둥이 단기간에 영국을 따라잡겠다며 밀어붙였다가 대기근을 불러온 운동은?",
+          "choices": [
+            "대약진 운동",
+            "문화 대혁명",
+            "백화제방",
+            "대장정"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "집집마다 작은 용광로를 만들어 쇠를 녹이게 했지만 쓸모없는 쇳덩이만 나왔어요.",
+        "tip": "마당 용광로"
+      }
+    },
+    {
+      "id": "worldhistory-m7047",
+      "difficulty": "easy",
+      "answer": "이라크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2003년 미국과 영국이 대량 살상 무기를 없앤다며 침공해 사담 후세인 정권을 무너뜨린 나라는?",
+          "choices": [
+            "이라크",
+            "이란",
+            "아프가니스탄",
+            "시리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "침공 뒤 대량 살상 무기는 끝내 발견되지 않았어요.",
+        "tip": "사담 후세인"
+      }
+    },
+    {
+      "id": "worldhistory-m7048",
+      "difficulty": "normal",
+      "answer": "아프가니스탄",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2021년 미군이 철수하자 탈레반이 다시 정권을 잡은 나라는?",
+          "choices": [
+            "아프가니스탄",
+            "이라크",
+            "파키스탄",
+            "시리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2001년 9·11 테러 뒤 미국의 공격으로 무너졌던 탈레반이 20년 만에 돌아왔어요.",
+        "tip": "20년 만의 귀환"
+      }
+    },
+    {
+      "id": "worldhistory-m7049",
+      "difficulty": "normal",
+      "answer": "크림반도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2014년 러시아가 주민 투표를 내세워 우크라이나에서 빼앗아 합병한 반도는?",
+          "choices": [
+            "크림반도",
+            "콜라반도",
+            "발칸반도",
+            "캄차카반도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "국제 사회 대부분은 이 합병을 인정하지 않아요.",
+        "tip": "흑해의 반도"
+      }
+    },
+    {
+      "id": "worldhistory-m7050",
+      "difficulty": "easy",
+      "answer": "유럽 연합 탈퇴",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국이 2016년 국민 투표로 결정하고 2020년 1월 실제로 이뤄진 일은?",
+          "choices": [
+            "유럽 연합 탈퇴",
+            "유로화 도입",
+            "스코틀랜드 독립",
+            "NATO 탈퇴"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'브렉시트(Brexit)'라고 해요. 영국(Britain)과 탈퇴(exit)를 합친 말이에요.",
+        "tip": "Brexit"
+      }
+    }
+  ]
+}

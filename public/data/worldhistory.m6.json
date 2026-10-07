@@ -1,0 +1,1266 @@
+{
+  "category": "worldhistory",
+  "version": 1,
+  "cards": [
+    {
+      "id": "worldhistory-m6001",
+      "difficulty": "easy",
+      "answer": "투탕카멘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1922년 하워드 카터가 거의 도굴되지 않은 무덤을 발견해 황금 마스크로 유명해진 이집트의 소년 왕은?",
+          "choices": [
+            "투탕카멘",
+            "람세스 2세",
+            "쿠푸",
+            "아케나톤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아홉 살 무렵 왕위에 올라 열아홉 살쯤 세상을 떠났어요. 무덤에서 5,000점이 넘는 유물이 나왔어요.",
+        "tip": "황금 마스크"
+      }
+    },
+    {
+      "id": "worldhistory-m6002",
+      "difficulty": "normal",
+      "answer": "람세스 2세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아부심벨 신전을 세우고 히타이트와 카데시 전투를 치른 뒤 평화 조약을 맺은 이집트 파라오는?",
+          "choices": [
+            "람세스 2세",
+            "투탕카멘",
+            "쿠푸",
+            "하트셉수트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "60년 넘게 다스렸어요. 히타이트와 맺은 조약은 기록으로 남은 가장 오래된 평화 조약 가운데 하나로 꼽혀요.",
+        "tip": "아부심벨"
+      }
+    },
+    {
+      "id": "worldhistory-m6003",
+      "difficulty": "easy",
+      "answer": "클레오파트라 7세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이집트 프톨레마이오스 왕조의 마지막 여왕으로, 카이사르와 안토니우스와 손잡았던 인물은?",
+          "choices": [
+            "클레오파트라 7세",
+            "네페르티티",
+            "하트셉수트",
+            "제노비아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이집트어를 배운 프톨레마이오스 왕조의 첫 통치자로 알려져 있어요. 집안은 마케도니아 그리스계였어요.",
+        "tip": "이집트 마지막 여왕"
+      }
+    },
+    {
+      "id": "worldhistory-m6004",
+      "difficulty": "hard",
+      "answer": "악티움 해전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기원전 31년 옥타비아누스가 안토니우스와 클레오파트라 연합 함대를 물리친 해전은?",
+          "choices": [
+            "악티움 해전",
+            "살라미스 해전",
+            "레판토 해전",
+            "칸나에 전투"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 승리로 옥타비아누스가 로마의 1인자가 됐고, 기원전 27년 '아우구스투스'라는 칭호를 받았어요.",
+        "tip": "로마 제정의 문턱"
+      }
+    },
+    {
+      "id": "worldhistory-m6005",
+      "difficulty": "hard",
+      "answer": "니네베",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아슈르바니팔 왕이 점토판 수만 장을 모은 도서관이 있던 아시리아의 수도는?",
+          "choices": [
+            "니네베",
+            "바빌론",
+            "우르",
+            "페르세폴리스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 도서관 터에서 「길가메시 서사시」 점토판이 발견됐어요. 지금의 이라크 모술 근처예요.",
+        "tip": "아시리아의 도서관"
+      }
+    },
+    {
+      "id": "worldhistory-m6006",
+      "difficulty": "normal",
+      "answer": "바빌론 유수",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기원전 586년 신바빌로니아가 예루살렘을 무너뜨리고 유대인을 바빌론으로 끌고 간 사건은?",
+          "choices": [
+            "바빌론 유수",
+            "아비뇽 유수",
+            "헤지라",
+            "출애굽"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "네부카드네자르 2세 때 일이에요. 페르시아의 키루스 2세가 바빌론을 정복한 뒤 유대인의 귀향을 허락했어요.",
+        "tip": "'유수' = 잡아 가둠"
+      }
+    },
+    {
+      "id": "worldhistory-m6007",
+      "difficulty": "normal",
+      "answer": "조로아스터교",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "선한 신과 악한 신의 대결을 믿고 불을 신성하게 여겨 '배화교'라고도 부른 고대 페르시아의 종교는?",
+          "choices": [
+            "조로아스터교",
+            "마니교",
+            "힌두교",
+            "자이나교"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "천국과 지옥, 최후의 심판 같은 생각이 뒤의 종교들에 영향을 줬다고 봐요.",
+        "tip": "불을 모시는 종교"
+      }
+    },
+    {
+      "id": "worldhistory-m6008",
+      "difficulty": "hard",
+      "answer": "다리우스 1세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "페르시아 전역을 20여 개 주로 나눠 다스리고 수도 페르세폴리스를 짓기 시작한 왕은?",
+          "choices": [
+            "다리우스 1세",
+            "키루스 2세",
+            "크세르크세스 1세",
+            "캄비세스 2세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "각 주를 다스리는 총독을 '사트라프'라고 했고, '왕의 눈'과 '왕의 귀'라는 감찰관을 보내 감시했어요.",
+        "tip": "사트라프"
+      }
+    },
+    {
+      "id": "worldhistory-m6009",
+      "difficulty": "normal",
+      "answer": "테르모필레 전투",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기원전 480년 스파르타 왕 레오니다스가 300명의 정예병을 이끌고 페르시아 대군을 막아선 전투는?",
+          "choices": [
+            "테르모필레 전투",
+            "마라톤 전투",
+            "살라미스 해전",
+            "플라타이아 전투"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "좁은 골짜기에서 며칠을 버티다 전멸했어요. 영화 「300」의 배경이에요.",
+        "tip": "영화 「300」"
+      }
+    },
+    {
+      "id": "worldhistory-m6010",
+      "difficulty": "normal",
+      "answer": "페리클레스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아테네 민주 정치의 전성기를 이끌고 파르테논 신전을 다시 짓게 한 정치가는?",
+          "choices": [
+            "페리클레스",
+            "솔론",
+            "클레이스테네스",
+            "테미스토클레스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공직자에게 수당을 줘 가난한 시민도 정치에 참여할 수 있게 했어요.",
+        "tip": "아테네의 황금기"
+      }
+    },
+    {
+      "id": "worldhistory-m6011",
+      "difficulty": "easy",
+      "answer": "루비콘강",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기원전 49년 카이사르가 \"주사위는 던져졌다\"며 군대를 이끌고 건넌 강은?",
+          "choices": [
+            "루비콘강",
+            "티베르강",
+            "라인강",
+            "도나우강"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "군대를 이끌고 이 강을 건너는 것은 로마에 대한 반역이었어요. 그래서 '루비콘강을 건넜다'는 '돌이킬 수 없다'는 뜻이 됐어요.",
+        "tip": "돌이킬 수 없는 결정"
+      }
+    },
+    {
+      "id": "worldhistory-m6012",
+      "difficulty": "normal",
+      "answer": "네로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "64년 로마 대화재가 일어나자 그 책임을 크리스트교도에게 돌려 박해한 로마 황제는?",
+          "choices": [
+            "네로",
+            "칼리굴라",
+            "티베리우스",
+            "도미티아누스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "불타는 로마를 보며 노래를 불렀다는 이야기가 전하지만, 당시 그는 로마 밖에 있었다는 기록도 있어요.",
+        "tip": "로마 대화재"
+      }
+    },
+    {
+      "id": "worldhistory-m6013",
+      "difficulty": "normal",
+      "answer": "콘스탄티누스 1세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "330년 로마 제국의 수도를 비잔티움으로 옮기고 도시 이름을 자기 이름을 따 새로 지은 황제는?",
+          "choices": [
+            "콘스탄티누스 1세",
+            "테오도시우스 1세",
+            "디오클레티아누스",
+            "유스티니아누스 1세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그 도시가 콘스탄티노폴리스, 지금의 튀르키예 이스탄불이에요.",
+        "tip": "이스탄불의 옛 이름"
+      }
+    },
+    {
+      "id": "worldhistory-m6014",
+      "difficulty": "hard",
+      "answer": "하드리아누스 방벽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "로마 황제가 브리타니아 북쪽에 쌓아 지금도 잉글랜드 북부에 남아 있는 긴 성벽은?",
+          "choices": [
+            "하드리아누스 방벽",
+            "안토니누스 방벽",
+            "테오도시우스 성벽",
+            "오파의 방벽"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "122년 무렵 쌓기 시작했어요. 길이가 약 117km이고 세계 문화유산이에요.",
+        "tip": "로마 제국의 북쪽 끝"
+      }
+    },
+    {
+      "id": "worldhistory-m6015",
+      "difficulty": "normal",
+      "answer": "스파르타쿠스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기원전 73년 검투사 노예들을 이끌고 로마에 맞서 큰 반란을 일으킨 인물은?",
+          "choices": [
+            "스파르타쿠스",
+            "한니발",
+            "베르킨게토릭스",
+            "아르미니우스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한때 노예 수만 명이 모였지만 크라수스에게 진압됐어요.",
+        "tip": "검투사의 반란"
+      }
+    },
+    {
+      "id": "worldhistory-m6016",
+      "difficulty": "hard",
+      "answer": "그라쿠스 형제",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기원전 2세기 로마에서 귀족이 독차지한 땅을 농민에게 나눠 주려다 둘 다 목숨을 잃은 형제는?",
+          "choices": [
+            "그라쿠스 형제",
+            "로물루스와 레무스",
+            "스키피오 형제",
+            "카토 형제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "형 티베리우스와 동생 가이우스가 호민관이 되어 개혁을 시도했어요.",
+        "tip": "토지 개혁 형제"
+      }
+    },
+    {
+      "id": "worldhistory-m6017",
+      "difficulty": "hard",
+      "answer": "로마법 대전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "6세기 비잔티움 제국의 유스티니아누스 황제가 로마의 법을 모아 정리한 법전은?",
+          "choices": [
+            "로마법 대전",
+            "12표법",
+            "나폴레옹 법전",
+            "함무라비 법전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뒤에 유럽 여러 나라 법의 바탕이 됐어요. '유스티니아누스 법전'이라고도 해요.",
+        "tip": "유럽 법의 뿌리"
+      }
+    },
+    {
+      "id": "worldhistory-m6018",
+      "difficulty": "normal",
+      "answer": "아틸라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "5세기 유럽을 휩쓸어 '신의 채찍'이라 불린 훈족의 왕은?",
+          "choices": [
+            "아틸라",
+            "칭기즈 칸",
+            "오도아케르",
+            "알라리크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서로마 제국과 동로마 제국 모두를 위협했어요.",
+        "tip": "신의 채찍"
+      }
+    },
+    {
+      "id": "worldhistory-m6019",
+      "difficulty": "hard",
+      "answer": "상앙",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "진나라 효공 때 엄격한 법으로 나라를 개혁했지만, 뒤에 자기가 만든 법 때문에 도망치지 못하고 처형된 사상가는?",
+          "choices": [
+            "상앙",
+            "한비자",
+            "이사",
+            "관중"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 개혁 덕분에 진나라가 강해져 뒤에 천하를 통일했어요.",
+        "tip": "변법"
+      }
+    },
+    {
+      "id": "worldhistory-m6020",
+      "difficulty": "normal",
+      "answer": "유방",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해하 전투에서 항우를 꺾고 기원전 202년 한나라를 세운 인물은?",
+          "choices": [
+            "유방",
+            "항우",
+            "진승",
+            "한신"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "항우가 사방에서 초나라 노래를 들었다는 '사면초가'가 이 전투에서 나왔어요.",
+        "tip": "한 고조"
+      }
+    },
+    {
+      "id": "worldhistory-m6021",
+      "difficulty": "hard",
+      "answer": "왕망",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "서기 8년 한나라를 빼앗아 '신(新)'이라는 나라를 세웠지만 15년 만에 무너진 인물은?",
+          "choices": [
+            "왕망",
+            "동탁",
+            "조조",
+            "원소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "옛 주나라 제도를 되살리려는 개혁이 혼란만 키웠어요. 그 뒤 광무제가 한나라를 다시 세웠어요(후한).",
+        "tip": "신나라"
+      }
+    },
+    {
+      "id": "worldhistory-m6022",
+      "difficulty": "normal",
+      "answer": "황건적의 난",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "184년 장각이 이끈 농민들이 머리에 누런 두건을 두르고 일으켜 후한을 흔든 반란은?",
+          "choices": [
+            "황건적의 난",
+            "안사의 난",
+            "홍건적의 난",
+            "태평천국 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 난을 진압하며 조조, 유비, 손권 같은 인물이 등장해 삼국 시대로 이어졌어요.",
+        "tip": "누런 두건"
+      }
+    },
+    {
+      "id": "worldhistory-m6023",
+      "difficulty": "hard",
+      "answer": "사마염",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "위나라를 이어 진(晉)나라를 세우고 280년 오나라를 멸망시켜 삼국을 통일한 인물은?",
+          "choices": [
+            "사마염",
+            "조비",
+            "사마의",
+            "손권"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사마의의 손자예요. 결국 삼국 통일은 위·촉·오 누구도 아닌 사마씨가 이뤘어요.",
+        "tip": "삼국의 결말"
+      }
+    },
+    {
+      "id": "worldhistory-m6024",
+      "difficulty": "normal",
+      "answer": "정관의 치",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "당 태종 이세민의 안정된 치세를 그의 연호를 따서 부르는 말은?",
+          "choices": [
+            "정관의 치",
+            "개원의 치",
+            "문경의 치",
+            "강건성세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "신하의 바른말을 잘 받아들인 군주로 기억돼요. '개원의 치'는 당 현종 초기를 가리켜요.",
+        "tip": "당 태종"
+      }
+    },
+    {
+      "id": "worldhistory-m6025",
+      "difficulty": "normal",
+      "answer": "측천무후",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중국 역사에서 유일하게 스스로 황제가 되어 나라 이름을 '주(周)'로 바꾼 여성은?",
+          "choices": [
+            "측천무후",
+            "서태후",
+            "여태후",
+            "양귀비"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "당 고종의 황후였어요. 과거제로 인재를 많이 뽑았다는 평가도 받아요.",
+        "tip": "유일한 여황제"
+      }
+    },
+    {
+      "id": "worldhistory-m6026",
+      "difficulty": "normal",
+      "answer": "현장",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "당나라 때 인도에 가서 불경을 가져오고 「대당서역기」를 남긴 승려는?",
+          "choices": [
+            "현장",
+            "법현",
+            "의정",
+            "혜초"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "소설 「서유기」 속 삼장 법사의 모델이에요.",
+        "tip": "삼장 법사"
+      }
+    },
+    {
+      "id": "worldhistory-m6027",
+      "difficulty": "hard",
+      "answer": "왕안석",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "북송 신종 때 농민과 중소 상인을 도우려고 '신법'이라는 개혁을 밀어붙인 재상은?",
+          "choices": [
+            "왕안석",
+            "사마광",
+            "범중엄",
+            "포청천"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "반대파 사마광 등과 크게 대립했어요. 「당송 팔대가」에 드는 문장가이기도 해요.",
+        "tip": "신법"
+      }
+    },
+    {
+      "id": "worldhistory-m6028",
+      "difficulty": "normal",
+      "answer": "쿠빌라이 칸",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1271년 나라 이름을 '원'으로 정하고 대도(지금의 베이징)를 수도로 삼은 몽골의 황제는?",
+          "choices": [
+            "쿠빌라이 칸",
+            "칭기즈 칸",
+            "오고타이 칸",
+            "바투"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "칭기즈 칸의 손자예요. 마르코 폴로가 그의 궁정을 찾아갔어요.",
+        "tip": "원 세조"
+      }
+    },
+    {
+      "id": "worldhistory-m6029",
+      "difficulty": "normal",
+      "answer": "주원장",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "가난한 농민 출신으로 홍건적에 들어갔다가 1368년 명나라를 세운 인물은?",
+          "choices": [
+            "주원장",
+            "영락제",
+            "이자성",
+            "장사성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "홍무제라고도 해요. 몽골의 원나라를 북쪽으로 몰아냈어요.",
+        "tip": "홍무제"
+      }
+    },
+    {
+      "id": "worldhistory-m6030",
+      "difficulty": "hard",
+      "answer": "강희제",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "61년 동안 다스려 중국 역대 황제 가운데 가장 오래 재위한 청나라 황제는?",
+          "choices": [
+            "강희제",
+            "건륭제",
+            "옹정제",
+            "순치제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "건륭제는 할아버지보다 오래 다스리지 않으려고 60년 만에 물러났다고 해요.",
+        "tip": "61년 재위"
+      }
+    },
+    {
+      "id": "worldhistory-m6031",
+      "difficulty": "normal",
+      "answer": "서태후",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "청나라 말기 어린 황제들을 대신해 수십 년 동안 실권을 쥔 황태후는?",
+          "choices": [
+            "서태후",
+            "측천무후",
+            "효장문황후",
+            "여태후"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "해군 예산을 이화원 수리에 썼다는 이야기로도 알려져 있어요.",
+        "tip": "청 말의 실권자"
+      }
+    },
+    {
+      "id": "worldhistory-m6032",
+      "difficulty": "normal",
+      "answer": "푸이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "청나라의 마지막 황제로, 뒤에 일본이 세운 만주국의 황제가 된 인물은?",
+          "choices": [
+            "푸이",
+            "광서제",
+            "동치제",
+            "위안스카이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세 살에 즉위했어요. 영화 「마지막 황제」의 주인공이에요.",
+        "tip": "마지막 황제"
+      }
+    },
+    {
+      "id": "worldhistory-m6033",
+      "difficulty": "hard",
+      "answer": "미나모토노 요리토모",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "12세기 말 일본에서 처음으로 무사 정권인 가마쿠라 막부를 연 인물은?",
+          "choices": [
+            "미나모토노 요리토모",
+            "도쿠가와 이에야스",
+            "아시카가 다카우지",
+            "오다 노부나가"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이때부터 약 700년 동안 쇼군이 실권을 쥔 무사 정권 시대가 이어졌어요.",
+        "tip": "첫 막부"
+      }
+    },
+    {
+      "id": "worldhistory-m6034",
+      "difficulty": "normal",
+      "answer": "오다 노부나가",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "일본 전국 시대 통일을 눈앞에 두었다가 1582년 부하의 배신으로 혼노지에서 숨진 인물은?",
+          "choices": [
+            "오다 노부나가",
+            "도요토미 히데요시",
+            "도쿠가와 이에야스",
+            "다케다 신겐"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "부하 아케치 미쓰히데가 일으킨 '혼노지의 변'이에요. 조총을 전투에 적극적으로 썼어요.",
+        "tip": "혼노지의 변"
+      }
+    },
+    {
+      "id": "worldhistory-m6035",
+      "difficulty": "normal",
+      "answer": "페리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1853년 '검은 배'를 이끌고 일본에 와서 개항을 요구한 미국 해군 제독은?",
+          "choices": [
+            "페리",
+            "맥아더",
+            "니미츠",
+            "듀이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이듬해 미일 화친 조약이 맺어져 일본의 쇄국이 끝났어요.",
+        "tip": "흑선"
+      }
+    },
+    {
+      "id": "worldhistory-m6036",
+      "difficulty": "hard",
+      "answer": "바부르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1526년 인도 북부를 정복해 무굴 제국을 세운, 티무르와 칭기즈 칸의 후손은?",
+          "choices": [
+            "바부르",
+            "아크바르",
+            "샤 자한",
+            "아우랑제브"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'무굴'은 '몽골'을 뜻하는 말에서 나왔어요.",
+        "tip": "무굴 = 몽골"
+      }
+    },
+    {
+      "id": "worldhistory-m6037",
+      "difficulty": "hard",
+      "answer": "아크바르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "무굴 제국의 황제로, 힌두교도에게 걷던 세금을 없애는 등 종교 관용 정책을 편 인물은?",
+          "choices": [
+            "아크바르",
+            "바부르",
+            "아우랑제브",
+            "샤 자한"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "힌두교도 왕비를 맞고 여러 종교 학자를 불러 토론하게 했어요.",
+        "tip": "관용의 황제"
+      }
+    },
+    {
+      "id": "worldhistory-m6038",
+      "difficulty": "normal",
+      "answer": "시아파",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이슬람교에서 무함마드의 사위 알리와 그 후손만을 정통 후계자로 인정하는 종파는?",
+          "choices": [
+            "시아파",
+            "수니파",
+            "수피파",
+            "와하브파"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이란이 대표적인 시아파 국가예요. 전 세계 무슬림의 다수는 수니파예요.",
+        "tip": "알리의 무리"
+      }
+    },
+    {
+      "id": "worldhistory-m6039",
+      "difficulty": "hard",
+      "answer": "지혜의 집",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아바스 왕조가 바그다드에 세워 그리스 학문을 아랍어로 번역하게 한 학술 기관은?",
+          "choices": [
+            "지혜의 집",
+            "알렉산드리아 도서관",
+            "아카데메이아",
+            "알아즈하르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이때 번역된 책들이 뒤에 유럽으로 다시 전해져 르네상스에 영향을 줬어요.",
+        "tip": "바이트 알히크마"
+      }
+    },
+    {
+      "id": "worldhistory-m6040",
+      "difficulty": "normal",
+      "answer": "살라딘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1187년 십자군에게서 예루살렘을 되찾은 이슬람의 술탄은?",
+          "choices": [
+            "살라딘",
+            "메흐메트 2세",
+            "술레이만 1세",
+            "바이바르스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "포로를 너그럽게 대해 유럽에서도 '기사도를 지닌 적'으로 존경받았어요.",
+        "tip": "예루살렘 탈환"
+      }
+    },
+    {
+      "id": "worldhistory-m6041",
+      "difficulty": "normal",
+      "answer": "메흐메트 2세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1453년 콘스탄티노폴리스를 함락해 '정복자'로 불린 오스만 제국의 술탄은?",
+          "choices": [
+            "메흐메트 2세",
+            "술레이만 1세",
+            "셀림 1세",
+            "오스만 1세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "배를 산 위로 끌어 옮겨 금각만에 들여보낸 작전이 유명해요.",
+        "tip": "정복자"
+      }
+    },
+    {
+      "id": "worldhistory-m6042",
+      "difficulty": "hard",
+      "answer": "레판토 해전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1571년 스페인·베네치아 등 연합 함대가 오스만 함대를 크게 무찌른 해전은?",
+          "choices": [
+            "레판토 해전",
+            "트라팔가르 해전",
+            "악티움 해전",
+            "살라미스 해전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「돈키호테」의 작가 세르반테스가 이 해전에서 왼손을 다쳤어요.",
+        "tip": "세르반테스의 왼손"
+      }
+    },
+    {
+      "id": "worldhistory-m6043",
+      "difficulty": "hard",
+      "answer": "만사 무사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1324년 메카 순례길에 금을 너무 많이 뿌려 카이로의 금값을 떨어뜨렸다는 말리 제국의 왕은?",
+          "choices": [
+            "만사 무사",
+            "순디아타",
+            "하일레 셀라시에",
+            "샤카"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "역사상 가장 부유한 사람 가운데 하나로 자주 꼽혀요.",
+        "tip": "황금의 왕"
+      }
+    },
+    {
+      "id": "worldhistory-m6044",
+      "difficulty": "hard",
+      "answer": "키푸",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "글자가 없던 잉카 제국에서 끈에 매듭을 지어 숫자와 정보를 기록한 도구는?",
+          "choices": [
+            "키푸",
+            "파피루스",
+            "코덱스",
+            "점토판"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "매듭의 위치와 모양, 끈의 색깔로 정보를 나타냈어요.",
+        "tip": "매듭 기록"
+      }
+    },
+    {
+      "id": "worldhistory-m6045",
+      "difficulty": "hard",
+      "answer": "테노치티틀란",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "호수 위 섬에 세워진 아즈텍 제국의 수도로, 지금의 멕시코시티 자리에 있던 도시는?",
+          "choices": [
+            "테노치티틀란",
+            "쿠스코",
+            "치첸이트사",
+            "테오티우아칸"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "선인장 위에 앉아 뱀을 문 독수리를 보고 터를 잡았다는 전설이 멕시코 국기에 그려져 있어요.",
+        "tip": "멕시코 국기의 독수리"
+      }
+    },
+    {
+      "id": "worldhistory-m6046",
+      "difficulty": "normal",
+      "answer": "마야 문명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "0의 개념과 정교한 달력을 쓰고 피라미드 신전을 남긴 중앙아메리카의 문명은?",
+          "choices": [
+            "마야 문명",
+            "잉카 문명",
+            "아즈텍 문명",
+            "올멕 문명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지금의 멕시코 유카탄반도와 과테말라 일대에서 번성했어요.",
+        "tip": "유카탄반도"
+      }
+    },
+    {
+      "id": "worldhistory-m6047",
+      "difficulty": "normal",
+      "answer": "장원",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중세 유럽에서 영주가 다스리는 땅에서 농노가 농사를 지으며 살던 자급자족 경제 단위는?",
+          "choices": [
+            "장원",
+            "길드",
+            "폴리스",
+            "코뮌"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "농노는 영주의 땅에 묶여 마음대로 떠날 수 없었어요.",
+        "tip": "영주와 농노"
+      }
+    },
+    {
+      "id": "worldhistory-m6048",
+      "difficulty": "normal",
+      "answer": "동방 정교회",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1054년 크리스트교가 로마 가톨릭과 갈라지며 비잔티움 제국을 중심으로 이어진 교회는?",
+          "choices": [
+            "동방 정교회",
+            "개신교",
+            "성공회",
+            "콥트 교회"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지금도 그리스, 러시아, 세르비아 등에 신자가 많아요.",
+        "tip": "1054년의 분열"
+      }
+    },
+    {
+      "id": "worldhistory-m6049",
+      "difficulty": "hard",
+      "answer": "우르바누스 2세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1095년 클레르몽 공의회에서 십자군 원정을 호소한 교황은?",
+          "choices": [
+            "우르바누스 2세",
+            "그레고리우스 7세",
+            "인노켄티우스 3세",
+            "보니파키우스 8세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "비잔티움 황제가 도움을 청한 것이 계기였어요. \"신이 그것을 원하신다\"는 구호가 퍼졌어요.",
+        "tip": "클레르몽 공의회"
+      }
+    },
+    {
+      "id": "worldhistory-m6050",
+      "difficulty": "hard",
+      "answer": "와트 타일러의 난",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1381년 영국 농민들이 인두세에 반발해 일으킨 반란으로, \"아담이 밭 갈고 이브가 길쌈할 때 누가 귀족이었나\"라는 말이 퍼진 것은?",
+          "choices": [
+            "와트 타일러의 난",
+            "자크리의 난",
+            "러다이트 운동",
+            "청교도 혁명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흑사병 뒤 일손이 모자라 농민의 처지가 달라지던 무렵이에요. 비슷한 시기 프랑스 농민 반란은 자크리의 난이에요.",
+        "tip": "영국 농민 반란"
+      }
+    },
+    {
+      "id": "worldhistory-m6051",
+      "difficulty": "hard",
+      "answer": "바르톨로메우 디아스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1488년 아프리카 남쪽 끝의 '희망봉'에 처음 다다른 포르투갈 항해가는?",
+          "choices": [
+            "바르톨로메우 디아스",
+            "바스쿠 다가마",
+            "카브랄",
+            "엔히크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "처음엔 폭풍이 심해 '폭풍의 곶'이라 불렀는데, 포르투갈 왕이 '희망봉'으로 바꿨다고 전해요.",
+        "tip": "희망봉"
+      }
+    },
+    {
+      "id": "worldhistory-m6052",
+      "difficulty": "hard",
+      "answer": "엔히크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아프리카 서해안 탐험대를 잇달아 보내고 후원해 '항해 왕자'로 불린 포르투갈 왕자는?",
+          "choices": [
+            "엔히크",
+            "마누엘 1세",
+            "주앙 2세",
+            "페르난도"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정작 자신은 먼 항해에 나서지 않았지만 대항해 시대의 문을 열었어요.",
+        "tip": "항해 왕자"
+      }
+    },
+    {
+      "id": "worldhistory-m6053",
+      "difficulty": "hard",
+      "answer": "토르데시야스 조약",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1494년 스페인과 포르투갈이 대서양에 선을 그어 새로 찾은 땅을 나눠 갖기로 한 조약은?",
+          "choices": [
+            "토르데시야스 조약",
+            "베스트팔렌 조약",
+            "위트레흐트 조약",
+            "파리 조약"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그래서 남아메리카에서 브라질만 포르투갈어를 써요.",
+        "tip": "브라질만 포르투갈어"
+      }
+    },
+    {
+      "id": "worldhistory-m6054",
+      "difficulty": "normal",
+      "answer": "아메리고 베스푸치",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "콜럼버스가 닿은 땅이 아시아가 아니라 새로운 대륙이라고 주장해, '아메리카'라는 이름이 유래한 사람은?",
+          "choices": [
+            "아메리고 베스푸치",
+            "콜럼버스",
+            "카브랄",
+            "존 캐벗"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1507년 독일 지도 제작자가 그의 이름을 따서 지도에 '아메리카'라고 적었어요.",
+        "tip": "아메리카의 어원"
+      }
+    },
+    {
+      "id": "worldhistory-m6055",
+      "difficulty": "normal",
+      "answer": "칼뱅",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "구원받을 사람은 신이 미리 정해 두었다는 '예정설'을 주장하며 스위스 제네바에서 종교 개혁을 이끈 사람은?",
+          "choices": [
+            "칼뱅",
+            "루터",
+            "츠빙글리",
+            "얀 후스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "부지런히 일해 얻은 부를 긍정해 상공업자들의 지지를 받았어요.",
+        "tip": "예정설"
+      }
+    },
+    {
+      "id": "worldhistory-m6056",
+      "difficulty": "normal",
+      "answer": "헨리 8세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이혼 문제로 교황과 부딪치자 영국 국교회를 세우고 스스로 교회의 우두머리가 된 왕은?",
+          "choices": [
+            "헨리 8세",
+            "헨리 7세",
+            "제임스 1세",
+            "찰스 1세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1534년 '수장법'으로 국왕을 교회의 우두머리로 정했어요. 왕비를 여섯 번 맞았어요.",
+        "tip": "여섯 왕비"
+      }
+    },
+    {
+      "id": "worldhistory-m6057",
+      "difficulty": "hard",
+      "answer": "낭트 칙령",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1598년 프랑스 앙리 4세가 신교도(위그노)에게 신앙의 자유를 인정한 칙령은?",
+          "choices": [
+            "낭트 칙령",
+            "밀라노 칙령",
+            "보름스 칙령",
+            "퐁텐블로 칙령"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1685년 루이 14세가 이 칙령을 폐지하자 위그노 상공업자들이 대거 나라를 떠났어요.",
+        "tip": "위그노"
+      }
+    },
+    {
+      "id": "worldhistory-m6058",
+      "difficulty": "easy",
+      "answer": "무적함대",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1588년 영국 엘리자베스 1세 때 영국 해군이 무찌른 스페인 함대의 별명은?",
+          "choices": [
+            "무적함대",
+            "흑선",
+            "백색 함대",
+            "보물 함대"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 승리 뒤 영국이 바다로 뻗어 나가는 발판을 마련했어요.",
+        "tip": "아르마다"
+      }
+    },
+    {
+      "id": "worldhistory-m6059",
+      "difficulty": "hard",
+      "answer": "프리드리히 2세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "\"군주는 국가의 첫째가는 머슴\"이라고 말한 프로이센의 계몽 군주로, 감자 재배를 널리 퍼뜨린 왕은?",
+          "choices": [
+            "프리드리히 2세",
+            "빌헬름 1세",
+            "표트르 대제",
+            "요제프 2세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'프리드리히 대왕'이라고도 해요. 지금도 그의 무덤에 감자를 올려놓는 사람이 있어요.",
+        "tip": "감자 대왕"
+      }
+    },
+    {
+      "id": "worldhistory-m6060",
+      "difficulty": "hard",
+      "answer": "마리아 테레지아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "합스부르크 가문을 40년 동안 이끈 여성 통치자로, 마리 앙투아네트의 어머니는?",
+          "choices": [
+            "마리아 테레지아",
+            "예카테리나 2세",
+            "엘리자베스 1세",
+            "빅토리아 여왕"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자녀를 16명 낳아 유럽 왕가와 혼인으로 동맹을 맺었어요.",
+        "tip": "합스부르크의 어머니"
+      }
+    }
+  ]
+}
