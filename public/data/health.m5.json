@@ -1,0 +1,615 @@
+{
+  "category": "health",
+  "version": 1,
+  "cards": [
+    {
+      "id": "health-m5001",
+      "difficulty": "normal",
+      "answer": "약 60%",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "어른의 몸에서 물이 차지하는 비율은 대략 얼마일까?",
+          "choices": [
+            "약 60%",
+            "약 20%",
+            "약 40%",
+            "약 90%"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "갓난아기는 약 75%로 더 높고, 나이가 들수록 줄어요. 몸의 수분이 1~2%만 줄어도 목이 말라요.",
+        "tip": "몸의 절반 넘게 물"
+      }
+    },
+    {
+      "id": "health-m5002",
+      "difficulty": "hard",
+      "answer": "약 8%",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "어른의 몸속 피의 양은 몸무게의 약 몇 %일까?",
+          "choices": [
+            "약 8%",
+            "약 2%",
+            "약 20%",
+            "약 40%"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몸무게 60kg인 사람은 약 4.5~5L예요. 이 가운데 3분의 1 넘게 한꺼번에 잃으면 생명이 위험해요.",
+        "tip": "60kg → 약 5L"
+      }
+    },
+    {
+      "id": "health-m5003",
+      "difficulty": "hard",
+      "answer": "약 1분",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "심장에서 나온 피가 온몸을 한 바퀴 도는 데 걸리는 시간은 약 얼마일까?",
+          "choices": [
+            "약 1분",
+            "약 1초",
+            "약 10분",
+            "약 1시간"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "쉬고 있을 때 기준이에요. 혈관을 모두 이으면 지구를 두 바퀴 넘게 감을 수 있는 길이라고 해요.",
+        "tip": "1분에 한 바퀴"
+      }
+    },
+    {
+      "id": "health-m5004",
+      "difficulty": "easy",
+      "answer": "가슴 가운데에서 약간 왼쪽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람의 심장은 몸의 어느 쪽에 더 치우쳐 있을까?",
+          "choices": [
+            "가슴 가운데에서 약간 왼쪽",
+            "오른쪽 끝",
+            "배꼽 바로 위",
+            "목 아래 정가운데에서 오른쪽"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "심장 아래쪽 끝이 왼쪽으로 향해 있어 박동이 왼쪽에서 더 잘 느껴져요.",
+        "tip": "살짝 왼쪽"
+      }
+    },
+    {
+      "id": "health-m5005",
+      "difficulty": "normal",
+      "answer": "하나만으로도 살 수 있다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "두 개의 콩팥 가운데 하나만 있어도 살 수 있을까?",
+          "choices": [
+            "하나만으로도 살 수 있다",
+            "둘 다 있어야만 산다",
+            "하나면 하루밖에 못 산다",
+            "콩팥은 하나뿐이다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그래서 살아 있는 사람이 가족에게 콩팥 하나를 기증하는 '생체 이식'이 가능해요.",
+        "tip": "생체 신장 이식"
+      }
+    },
+    {
+      "id": "health-m5006",
+      "difficulty": "normal",
+      "answer": "심장",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "몸속에서 이미 할 일이 없어진 흔적 기관으로 흔히 꼽히는 것이 아닌 것은?",
+          "choices": [
+            "심장",
+            "꼬리뼈",
+            "사랑니",
+            "귀를 움직이는 근육"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "꼬리뼈, 사랑니, 귀 근육은 조상에게는 쓰였지만 지금은 기능이 거의 없어 흔적 기관으로 불려요.",
+        "tip": "쓸모를 잃은 흔적"
+      }
+    },
+    {
+      "id": "health-m5007",
+      "difficulty": "normal",
+      "answer": "오른쪽 아랫배",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'맹장'이라고 흔히 부르는 충수가 있는 곳은?",
+          "choices": [
+            "오른쪽 아랫배",
+            "왼쪽 아랫배",
+            "명치",
+            "왼쪽 옆구리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "충수염 초기에는 명치가 아프다가 점점 오른쪽 아랫배로 통증이 옮겨 가는 경우가 많아요.",
+        "tip": "오른쪽 아래"
+      }
+    },
+    {
+      "id": "health-m5008",
+      "difficulty": "hard",
+      "answer": "약 20배 이상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "음식을 먹으면 위가 늘어나는데, 빈 위의 크기와 비교해 다 찼을 때는 대략 몇 배까지 늘어날까?",
+          "choices": [
+            "약 20배 이상",
+            "약 2배",
+            "약 5배",
+            "변하지 않는다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빈 위는 약 50mL 정도지만 음식을 먹으면 1~1.5L 이상까지 늘어나요.",
+        "tip": "쭉쭉 늘어나는 위"
+      }
+    },
+    {
+      "id": "health-m5009",
+      "difficulty": "normal",
+      "answer": "맛봉오리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "혀의 맛을 느끼는 세포가 모여 있는 작은 기관은?",
+          "choices": [
+            "맛봉오리",
+            "침샘",
+            "편도",
+            "목젖"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'미뢰'라고도 해요. 혀 전체에 수천 개가 있고 약 2주마다 새로 바뀌어요.",
+        "tip": "미뢰"
+      }
+    },
+    {
+      "id": "health-m5010",
+      "difficulty": "easy",
+      "answer": "성대",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "목소리를 내는 기관으로, 목 앞쪽 후두 속에 있는 두 겹의 주름은?",
+          "choices": [
+            "성대",
+            "편도",
+            "기관지",
+            "갑상샘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "숨이 지나갈 때 떨리며 소리가 나요. 남자는 사춘기에 후두가 커지며 목소리가 굵어져요.",
+        "tip": "목소리 주름"
+      }
+    },
+    {
+      "id": "health-m5011",
+      "difficulty": "normal",
+      "answer": "갑상샘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "목 앞쪽에 있어 몸의 대사 속도를 조절하는 호르몬을 만드는 나비 모양 기관은?",
+          "choices": [
+            "갑상샘",
+            "부신",
+            "이자",
+            "뇌하수체"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'갑상선'이라고도 해요. 호르몬이 많으면 쉽게 더워하고 살이 빠지며, 적으면 피곤하고 추위를 타요.",
+        "tip": "나비 모양 기관"
+      }
+    },
+    {
+      "id": "health-m5012",
+      "difficulty": "normal",
+      "answer": "이자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "혈당을 조절하는 인슐린을 만드는 기관은?",
+          "choices": [
+            "이자",
+            "간",
+            "쓸개",
+            "콩팥"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'췌장'이라고도 해요. 소화 효소도 만들어요.",
+        "tip": "췌장 = 이자"
+      }
+    },
+    {
+      "id": "health-m5013",
+      "difficulty": "easy",
+      "answer": "발뒤꿈치 뒤쪽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'아킬레스건'이 있는 곳은?",
+          "choices": [
+            "발뒤꿈치 뒤쪽",
+            "손목 안쪽",
+            "무릎 뒤쪽",
+            "어깨 뒤쪽"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "종아리 근육과 발뒤꿈치뼈를 잇는, 몸에서 가장 굵고 강한 힘줄이에요.",
+        "tip": "영웅의 약점"
+      }
+    },
+    {
+      "id": "health-m5014",
+      "difficulty": "normal",
+      "answer": "피부 가까이 지나는 신경을 건드려서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "팔꿈치를 부딪혔을 때 찌릿하고 저린 느낌이 나는 이유는?",
+          "choices": [
+            "피부 가까이 지나는 신경을 건드려서",
+            "팔꿈치 뼈에 금이 가서",
+            "팔로 가는 피가 잠깐 멈춰서",
+            "팔꿈치 근육이 찢어져서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "팔꿈치 안쪽을 지나는 척골 신경이 얕게 있어 부딪히면 저릿해요. 영어로는 '웃기는 뼈(funny bone)'라고 해요.",
+        "tip": "funny bone"
+      }
+    },
+    {
+      "id": "health-m5015",
+      "difficulty": "normal",
+      "answer": "220 - 나이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "최대 심박 수를 대략 구할 때 흔히 쓰는 공식은?",
+          "choices": [
+            "220 - 나이",
+            "200 + 나이",
+            "나이 × 3",
+            "100 - 나이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "30살이라면 약 190회예요. 사람마다 차이가 커서 참고용이에요.",
+        "tip": "220에서 나이 빼기"
+      }
+    },
+    {
+      "id": "health-m5016",
+      "difficulty": "easy",
+      "answer": "플랭크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "팔꿈치와 발끝으로 몸을 일자로 버티는, 코어 근육을 키우는 운동은?",
+          "choices": [
+            "플랭크",
+            "스쿼트",
+            "런지",
+            "버피"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'널빤지(plank)'처럼 몸을 곧게 유지한다는 뜻이에요.",
+        "tip": "널빤지 자세"
+      }
+    },
+    {
+      "id": "health-m5017",
+      "difficulty": "easy",
+      "answer": "스쿼트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "다리를 어깨너비로 벌리고 의자에 앉듯 엉덩이를 내렸다 올리는 하체 운동은?",
+          "choices": [
+            "스쿼트",
+            "플랭크",
+            "풀업",
+            "크런치"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "무릎이 발끝보다 지나치게 앞으로 나가지 않게 하라는 조언이 많아요.",
+        "tip": "앉았다 일어나기"
+      }
+    },
+    {
+      "id": "health-m5018",
+      "difficulty": "normal",
+      "answer": "인터벌 트레이닝",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "짧고 강한 운동과 짧은 휴식을 번갈아 반복하는 운동 방법은?",
+          "choices": [
+            "인터벌 트레이닝",
+            "유산소 운동",
+            "스트레칭",
+            "요가"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "고강도 인터벌 트레이닝(HIIT)은 짧은 시간에 체력을 기르는 데 효과적이라고 알려져 있어요.",
+        "tip": "세게, 쉬고, 세게"
+      }
+    },
+    {
+      "id": "health-m5019",
+      "difficulty": "easy",
+      "answer": "유산소 운동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "산소를 충분히 쓰며 오래 할 수 있는 걷기, 달리기, 수영 같은 운동은?",
+          "choices": [
+            "유산소 운동",
+            "무산소 운동",
+            "등척성 운동",
+            "근력 운동"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "심장과 폐를 튼튼하게 하고 지방을 태우는 데 좋아요.",
+        "tip": "숨 쉬며 오래"
+      }
+    },
+    {
+      "id": "health-m5020",
+      "difficulty": "normal",
+      "answer": "전해질(나트륨, 칼륨 등)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "운동 후 땀을 많이 흘렸을 때 물과 함께 보충하면 좋은 것은?",
+          "choices": [
+            "전해질(나트륨, 칼륨 등)",
+            "카페인(커피, 에너지 음료)",
+            "알코올(맥주, 소주)",
+            "설탕(사탕, 초콜릿)"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "땀에는 물과 함께 소금 성분이 빠져나가요. 그래서 스포츠음료에 전해질이 들어 있어요.",
+        "tip": "물 + 소금 성분"
+      }
+    },
+    {
+      "id": "health-m5021",
+      "difficulty": "hard",
+      "answer": "약 48시간",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'근육이 운동 후 쉬는 동안 회복하며 커진다'는 원리에 따라 같은 부위 근력 운동 사이에 흔히 권하는 휴식은?",
+          "choices": [
+            "약 48시간",
+            "약 1시간",
+            "약 1주일",
+            "쉬지 않아야 한다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "같은 부위를 매일 강하게 하기보다 하루 이틀 쉬어 주는 게 회복에 좋아요.",
+        "tip": "근육도 쉬어야 큰다"
+      }
+    },
+    {
+      "id": "health-m5022",
+      "difficulty": "normal",
+      "answer": "피부를 붉게 태우는 자외선 B",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자외선 차단제의 'SPF'가 주로 막아 주는 것은?",
+          "choices": [
+            "피부를 붉게 태우는 자외선 B",
+            "피부를 검게 만드는 자외선 A",
+            "적외선",
+            "가시광선"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자외선 A 차단 정도는 PA(+, ++, +++)로 표시해요.",
+        "tip": "SPF = UVB, PA = UVA"
+      }
+    },
+    {
+      "id": "health-m5023",
+      "difficulty": "normal",
+      "answer": "흐린 날에도 바르고 2~3시간마다 덧바른다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자외선 차단제를 바르면 좋은 때는?",
+          "choices": [
+            "흐린 날에도 바르고 2~3시간마다 덧바른다",
+            "맑은 날 한낮에만 바른다",
+            "여름에만 바른다",
+            "아침에 한 번만 바르면 된다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "구름이 껴도 자외선의 상당 부분이 내려와요. 땀과 물에 씻겨 나가니 자주 덧발라야 해요.",
+        "tip": "흐려도 바르기"
+      }
+    },
+    {
+      "id": "health-m5024",
+      "difficulty": "easy",
+      "answer": "여드름",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "피지가 모공을 막고 세균이 늘어 생기는 피부 질환은?",
+          "choices": [
+            "여드름",
+            "아토피 피부염",
+            "두드러기",
+            "무좀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "손으로 짜면 흉터가 남거나 염증이 심해질 수 있어요.",
+        "tip": "짜지 마세요"
+      }
+    },
+    {
+      "id": "health-m5025",
+      "difficulty": "easy",
+      "answer": "무좀",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "곰팡이균이 발가락 사이 등에 번식해 가렵고 각질이 생기는 피부병은?",
+          "choices": [
+            "무좀",
+            "여드름",
+            "습진",
+            "두드러기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "습하고 따뜻한 곳에서 잘 생겨요. 발을 씻은 뒤 발가락 사이까지 잘 말려야 해요.",
+        "tip": "발가락 사이 곰팡이"
+      }
+    },
+    {
+      "id": "health-m5026",
+      "difficulty": "easy",
+      "answer": "스케일링",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "치아와 잇몸 사이의 치석을 없애는 치과 시술은?",
+          "choices": [
+            "스케일링",
+            "신경 치료",
+            "임플란트",
+            "교정"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "우리나라는 만 19세 이상이면 1년에 한 번 건강 보험이 적용돼요.",
+        "tip": "1년에 한 번"
+      }
+    },
+    {
+      "id": "health-m5027",
+      "difficulty": "normal",
+      "answer": "손바닥 한가운데",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'손 씻기' 때 놓치기 쉬워 특히 신경 써서 씻어야 하는 부분이 아닌 것은?",
+          "choices": [
+            "손바닥 한가운데",
+            "엄지손가락",
+            "손톱 밑",
+            "손가락 사이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "엄지, 손톱 밑, 손가락 사이, 손등은 씻을 때 자주 빼먹는 곳이에요.",
+        "tip": "엄지와 손톱 밑"
+      }
+    },
+    {
+      "id": "health-m5028",
+      "difficulty": "normal",
+      "answer": "8시간 이상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "건강 검진에서 '공복'으로 오라고 할 때 보통 몇 시간 이상 굶어야 할까?",
+          "choices": [
+            "8시간 이상",
+            "1시간 이상",
+            "3시간 이상",
+            "24시간 이상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "음식을 먹으면 혈당과 중성 지방 수치가 올라가 정확한 결과가 나오지 않아요. 물은 조금 마셔도 되는 경우가 많아요.",
+        "tip": "전날 저녁부터 금식"
+      }
+    },
+    {
+      "id": "health-m5029",
+      "difficulty": "normal",
+      "answer": "아세트알데하이드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "술을 마신 뒤 숙취의 주된 원인 물질은?",
+          "choices": [
+            "아세트알데하이드",
+            "에탄올",
+            "카페인",
+            "젖산"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "알코올이 간에서 분해될 때 생기는 독성 물질이에요. 얼굴이 빨개지는 것도 이 물질 때문이에요.",
+        "tip": "숙취의 범인"
+      }
+    }
+  ]
+}
