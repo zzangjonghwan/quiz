@@ -1,5 +1,5 @@
 {
-  "version": 51,
+  "version": 52,
   "files": [
     {
       "category": "idiom",
@@ -229,6 +229,11 @@
     {
       "category": "sports",
       "file": "sports.json",
+      "version": 1
+    },
+    {
+      "category": "sports",
+      "file": "sports.m.json",
       "version": 1
     },
     {
