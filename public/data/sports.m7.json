@@ -1,0 +1,847 @@
+{
+  "category": "sports",
+  "version": 1,
+  "cards": [
+    {
+      "id": "sports-m7001",
+      "difficulty": "easy",
+      "answer": "브라질",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "남자 축구 월드컵에서 가장 많이 우승한 나라는?",
+          "choices": [
+            "브라질",
+            "독일",
+            "이탈리아",
+            "아르헨티나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1958, 1962, 1970, 1994, 2002년 다섯 번 우승했어요.",
+        "tip": "5회 우승"
+      }
+    },
+    {
+      "id": "sports-m7002",
+      "difficulty": "normal",
+      "answer": "우루과이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1930년 첫 번째 축구 월드컵을 열고 우승한 나라는?",
+          "choices": [
+            "우루과이",
+            "브라질",
+            "이탈리아",
+            "잉글랜드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "13개 나라만 참가했어요. 결승에서 아르헨티나를 이겼어요.",
+        "tip": "첫 개최국이자 우승국"
+      }
+    },
+    {
+      "id": "sports-m7003",
+      "difficulty": "easy",
+      "answer": "한국과 일본",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2002년 FIFA 월드컵을 함께 연 두 나라는?",
+          "choices": [
+            "한국과 일본",
+            "한국과 중국",
+            "일본과 중국",
+            "한국과 미국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "월드컵 역사상 처음으로 두 나라가 공동으로 열었어요.",
+        "tip": "첫 공동 개최"
+      }
+    },
+    {
+      "id": "sports-m7004",
+      "difficulty": "normal",
+      "answer": "48개국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2026년 북중미 월드컵부터 본선에 나가는 나라 수는?",
+          "choices": [
+            "48개국",
+            "24개국",
+            "32개국",
+            "64개국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1998년부터 2022년까지는 32개국이었어요. 경기 수도 64경기에서 104경기로 늘어요.",
+        "tip": "32 → 48"
+      }
+    },
+    {
+      "id": "sports-m7005",
+      "difficulty": "easy",
+      "answer": "득점왕",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "손흥민이 2021-22 시즌 프리미어 리그에서 아시아 선수 최초로 차지한 타이틀은?",
+          "choices": [
+            "득점왕",
+            "도움왕",
+            "올해의 선수",
+            "최우수 골키퍼"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "모하메드 살라와 함께 23골로 공동 득점왕이 됐어요. 페널티킥 골이 하나도 없었어요.",
+        "tip": "23골"
+      }
+    },
+    {
+      "id": "sports-m7006",
+      "difficulty": "normal",
+      "answer": "세리에 A",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "김민재가 2022-23 시즌 나폴리에서 뛰며 우승을 차지한 이탈리아 프로 축구 리그는?",
+          "choices": [
+            "세리에 A",
+            "라리가",
+            "리그 1",
+            "에레디비시"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나폴리의 33년 만의 우승이었어요. 김민재는 리그 최우수 수비수로도 뽑혔어요.",
+        "tip": "나폴리 33년 만의 우승"
+      }
+    },
+    {
+      "id": "sports-m7007",
+      "difficulty": "easy",
+      "answer": "크리스티아누 호날두",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "리오넬 메시와 함께 '메날두'로 묶여 불리는 포르투갈의 축구 선수는?",
+          "choices": [
+            "크리스티아누 호날두",
+            "루이스 피구",
+            "에우제비우",
+            "브루누 페르난드스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이름 머리글자와 등 번호를 합친 'CR7'이라는 별명으로 유명해요.",
+        "tip": "CR7"
+      }
+    },
+    {
+      "id": "sports-m7008",
+      "difficulty": "easy",
+      "answer": "거스 히딩크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2002 월드컵 때 우리나라 대표 팀을 4강으로 이끈 네덜란드 출신 감독은?",
+          "choices": [
+            "거스 히딩크",
+            "딕 아드보카트",
+            "울리 슈틸리케",
+            "파울루 벤투"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "\"나는 아직 배고프다\"라는 말로 유명해요. 명예 서울 시민증도 받았어요.",
+        "tip": "\"아직 배고프다\""
+      }
+    },
+    {
+      "id": "sports-m7009",
+      "difficulty": "normal",
+      "answer": "이승엽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2003년 한 시즌 56개의 홈런을 쳐 당시 아시아 신기록을 세운 '국민 타자'는?",
+          "choices": [
+            "이승엽",
+            "이대호",
+            "박병호",
+            "양준혁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "KBO 리그 통산 467개의 홈런을 쳤어요.",
+        "tip": "국민 타자"
+      }
+    },
+    {
+      "id": "sports-m7010",
+      "difficulty": "normal",
+      "answer": "최동원",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1984년 한국 시리즈에서 혼자 4승을 거둬 롯데 자이언츠의 우승을 이끈 투수는?",
+          "choices": [
+            "최동원",
+            "선동열",
+            "박철순",
+            "김시진"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "7경기 가운데 5경기에 나와 4승을 했어요. 영화 「퍼펙트 게임」의 주인공이기도 해요.",
+        "tip": "혼자 4승"
+      }
+    },
+    {
+      "id": "sports-m7011",
+      "difficulty": "normal",
+      "answer": "선동열",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'무등산 폭격기'라는 별명으로 불린 해태 타이거즈의 전설적인 투수는?",
+          "choices": [
+            "선동열",
+            "최동원",
+            "송진우",
+            "정민철"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "통산 평균 자책점이 1.20으로 KBO 리그 역대 최고 수준이에요.",
+        "tip": "무등산 폭격기"
+      }
+    },
+    {
+      "id": "sports-m7012",
+      "difficulty": "easy",
+      "answer": "이정후",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2024년 샌프란시스코 자이언츠와 계약하며 메이저 리그에 진출한 '바람의 손자'는?",
+          "choices": [
+            "이정후",
+            "김하성",
+            "고우석",
+            "배지환"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아버지 이종범의 별명 '바람의 아들'에서 따온 별명이에요.",
+        "tip": "바람의 손자"
+      }
+    },
+    {
+      "id": "sports-m7013",
+      "difficulty": "normal",
+      "answer": "김하성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2023년 한국인 메이저 리거 최초로 골드 글러브(유틸리티 부문)를 받은 선수는?",
+          "choices": [
+            "김하성",
+            "류현진",
+            "추신수",
+            "최지만"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "내야 여러 자리를 모두 잘 지켜 받은 상이에요. 골드 글러브는 포지션별 최고 수비수에게 줘요.",
+        "tip": "최고 수비수 상"
+      }
+    },
+    {
+      "id": "sports-m7014",
+      "difficulty": "normal",
+      "answer": "재키 로빈슨",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "메이저 리그 모든 팀이 영구 결번으로 정한 등 번호 42번의 주인공으로, 첫 흑인 메이저 리거는?",
+          "choices": [
+            "재키 로빈슨",
+            "행크 에런",
+            "윌리 메이스",
+            "베이브 루스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1947년 브루클린 다저스에서 데뷔했어요. 매년 4월 15일에는 모든 선수가 42번을 달고 뛰어요.",
+        "tip": "42"
+      }
+    },
+    {
+      "id": "sports-m7015",
+      "difficulty": "normal",
+      "answer": "베이브 루스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'홈런왕'의 대명사로, 뉴욕 양키스에서 활약하며 통산 714개의 홈런을 친 미국의 전설적인 야구 선수는?",
+          "choices": [
+            "베이브 루스",
+            "행크 에런",
+            "배리 본즈",
+            "루 게릭"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원래 뛰어난 투수였다가 타자로 바꿨어요. 보스턴이 그를 판 뒤 86년 동안 우승을 못 했다는 '밤비노의 저주'가 유명해요.",
+        "tip": "밤비노의 저주"
+      }
+    },
+    {
+      "id": "sports-m7016",
+      "difficulty": "normal",
+      "answer": "코비 브라이언트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2006년 NBA 경기에서 한 경기 81점을 넣어 역대 2위 기록을 세운 LA 레이커스 선수는?",
+          "choices": [
+            "코비 브라이언트",
+            "르브론 제임스",
+            "샤킬 오닐",
+            "매직 존슨"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1위는 1962년 윌트 체임벌린의 100점이에요. 2020년 헬리콥터 사고로 세상을 떠났어요.",
+        "tip": "81점"
+      }
+    },
+    {
+      "id": "sports-m7017",
+      "difficulty": "hard",
+      "answer": "하승진",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 선수로는 처음으로 NBA 정규 경기에 나선 선수는?",
+          "choices": [
+            "하승진",
+            "서장훈",
+            "허재",
+            "이현중"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2004년 포틀랜드 트레일 블레이저스에 지명됐어요. 키가 221cm예요.",
+        "tip": "221cm"
+      }
+    },
+    {
+      "id": "sports-m7018",
+      "difficulty": "normal",
+      "answer": "여자 핸드볼",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2004년 아테네 올림픽에서 결승 연장 끝에 은메달을 따 영화 「우리 생애 최고의 순간」의 소재가 된 종목은?",
+          "choices": [
+            "여자 핸드볼",
+            "여자 배구",
+            "여자 하키",
+            "여자 농구"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "덴마크와 두 번의 연장과 승부 던지기까지 가는 접전을 벌였어요.",
+        "tip": "우생순"
+      }
+    },
+    {
+      "id": "sports-m7019",
+      "difficulty": "normal",
+      "answer": "최경주",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2002년 한국 남자 선수로는 처음 미국 PGA 투어에서 우승한 골프 선수는?",
+          "choices": [
+            "최경주",
+            "양용은",
+            "김시우",
+            "임성재"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'탱크'라는 별명으로 불려요. 아시아 남자 최초 메이저 우승은 2009년 PGA 챔피언십의 양용은이에요.",
+        "tip": "탱크"
+      }
+    },
+    {
+      "id": "sports-m7020",
+      "difficulty": "hard",
+      "answer": "박인비",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2016년 리우 올림픽 금메달로 4대 메이저와 올림픽 금메달을 모두 이룬 '커리어 골든 슬램'을 처음 달성한 골프 선수는?",
+          "choices": [
+            "박인비",
+            "박세리",
+            "신지애",
+            "고진영"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남녀를 통틀어 처음이에요. 골프는 2016년 112년 만에 올림픽 종목으로 돌아왔어요.",
+        "tip": "골든 슬램"
+      }
+    },
+    {
+      "id": "sports-m7021",
+      "difficulty": "easy",
+      "answer": "타이거 우즈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "메이저 대회 통산 15승을 거두고 2019년 마스터스 우승으로 화려하게 복귀한 미국 골프 선수는?",
+          "choices": [
+            "타이거 우즈",
+            "필 미컬슨",
+            "잭 니클라우스",
+            "로리 매킬로이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "메이저 최다승은 잭 니클라우스의 18승이에요.",
+        "tip": "빨간 셔츠의 일요일"
+      }
+    },
+    {
+      "id": "sports-m7022",
+      "difficulty": "normal",
+      "answer": "라파엘 나달",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "프랑스 오픈에서만 14번 우승해 '흙신'이라 불린 스페인 테니스 선수는?",
+          "choices": [
+            "라파엘 나달",
+            "노바크 조코비치",
+            "카를로스 알카라스",
+            "로저 페더러"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "프랑스 오픈은 붉은 흙(클레이) 코트에서 열려요. 2024년 은퇴했어요.",
+        "tip": "클레이 코트의 왕"
+      }
+    },
+    {
+      "id": "sports-m7023",
+      "difficulty": "normal",
+      "answer": "정현",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2018년 호주 오픈에서 한국 선수 최초로 테니스 메이저 대회 4강에 오른 선수는?",
+          "choices": [
+            "정현",
+            "이형택",
+            "권순우",
+            "이덕희"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "16강에서 조코비치를 이겼어요.",
+        "tip": "안경 쓴 테니스 선수"
+      }
+    },
+    {
+      "id": "sports-m7024",
+      "difficulty": "normal",
+      "answer": "세리나 윌리엄스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "테니스 메이저 대회에서 단식 23번 우승하며 여자 테니스를 휩쓴 미국 선수는?",
+          "choices": [
+            "세리나 윌리엄스",
+            "비너스 윌리엄스",
+            "마리아 샤라포바",
+            "슈테피 그라프"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "언니 비너스와 함께 복식에서도 많이 우승했어요.",
+        "tip": "23회 우승"
+      }
+    },
+    {
+      "id": "sports-m7025",
+      "difficulty": "normal",
+      "answer": "9초58",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우사인 볼트가 2009년 세운 남자 100m 세계 기록은?",
+          "choices": [
+            "9초58",
+            "9초69",
+            "9초79",
+            "9초88"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "같은 대회에서 200m 세계 기록 19초19도 세웠어요.",
+        "tip": "9.58"
+      }
+    },
+    {
+      "id": "sports-m7026",
+      "difficulty": "normal",
+      "answer": "이봉주",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1996년 애틀랜타 올림픽 마라톤에서 3초 차로 은메달을 딴 '봉달이'는?",
+          "choices": [
+            "이봉주",
+            "황영조",
+            "손기정",
+            "김완기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1위와 겨우 3초 차이였어요. 2000년 세운 2시간 7분 20초 기록은 오랫동안 한국 최고 기록이었어요.",
+        "tip": "봉달이"
+      }
+    },
+    {
+      "id": "sports-m7027",
+      "difficulty": "normal",
+      "answer": "황선우",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2023년 후쿠오카 세계 수영 선수권 자유형 200m에서 동메달, 2024년 도하 대회에서 금메달을 딴 한국 선수는?",
+          "choices": [
+            "황선우",
+            "박태환",
+            "김우민",
+            "이호준"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도하 대회 금메달은 박태환 이후 13년 만의 세계 선수권 금메달이었어요.",
+        "tip": "자유형 200m"
+      }
+    },
+    {
+      "id": "sports-m7028",
+      "difficulty": "hard",
+      "answer": "김우민",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2024년 파리 올림픽 수영 남자 자유형 400m에서 동메달을 딴 선수는?",
+          "choices": [
+            "김우민",
+            "황선우",
+            "박태환",
+            "지유찬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "박태환 이후 12년 만에 나온 한국 수영 올림픽 메달이에요.",
+        "tip": "자유형 400m"
+      }
+    },
+    {
+      "id": "sports-m7029",
+      "difficulty": "normal",
+      "answer": "10종 경기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "육상에서 남자 선수가 이틀 동안 달리기, 뛰기, 던지기 등 10가지 종목을 모두 치러 합산하는 경기는?",
+          "choices": [
+            "10종 경기",
+            "근대 5종",
+            "철인 3종",
+            "7종 경기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "우승자를 흔히 '세계 최고의 만능 운동선수'라고 불러요. 여자는 7종 경기를 해요.",
+        "tip": "만능 선수"
+      }
+    },
+    {
+      "id": "sports-m7030",
+      "difficulty": "easy",
+      "answer": "보라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "올림픽 오륜기의 다섯 고리 색깔이 아닌 것은?",
+          "choices": [
+            "보라",
+            "파랑",
+            "노랑",
+            "초록"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파랑, 노랑, 검정, 초록, 빨강이에요. 흰 바탕까지 여섯 색이면 세계 모든 국기를 그릴 수 있다고 했어요.",
+        "tip": "파노검초빨"
+      }
+    },
+    {
+      "id": "sports-m7031",
+      "difficulty": "normal",
+      "answer": "브레이킹",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2024년 파리 올림픽에서 처음 정식 종목이 된 춤 경기는?",
+          "choices": [
+            "브레이킹",
+            "볼룸 댄스",
+            "치어리딩",
+            "발레"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흔히 '브레이크 댄스'라고 해요. 2028년 LA 올림픽에서는 빠져요.",
+        "tip": "비보이"
+      }
+    },
+    {
+      "id": "sports-m7032",
+      "difficulty": "normal",
+      "answer": "2000년 시드니",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태권도가 올림픽 정식 종목으로 처음 치러진 대회는?",
+          "choices": [
+            "2000년 시드니",
+            "1988년 서울",
+            "1996년 애틀랜타",
+            "2004년 아테네"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1988년 서울과 1992년 바르셀로나 올림픽에서는 시범 종목이었어요.",
+        "tip": "시드니"
+      }
+    },
+    {
+      "id": "sports-m7033",
+      "difficulty": "normal",
+      "answer": "10연패",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 여자 양궁 대표 팀이 2024년 파리 올림픽까지 이어 간 단체전 연속 금메달 기록은?",
+          "choices": [
+            "10연패",
+            "5연패",
+            "7연패",
+            "12연패"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "단체전이 생긴 1988년 서울 올림픽부터 한 번도 금메달을 놓치지 않았어요.",
+        "tip": "1988년부터"
+      }
+    },
+    {
+      "id": "sports-m7034",
+      "difficulty": "normal",
+      "answer": "2022 항저우 아시안 게임",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "e스포츠가 처음으로 정식 메달 종목이 된 종합 대회는?",
+          "choices": [
+            "2022 항저우 아시안 게임",
+            "2020 도쿄 올림픽",
+            "2018 자카르타 아시안 게임",
+            "2024 파리 올림픽"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'리그 오브 레전드' 한국 대표 팀이 금메달을 따 병역 특례를 받았어요. 대회는 코로나19로 2023년에 열렸어요.",
+        "tip": "페이커의 금메달"
+      }
+    },
+    {
+      "id": "sports-m7035",
+      "difficulty": "normal",
+      "answer": "그레코로만형",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "레슬링에서 허리 위 상체만 공격할 수 있는 경기 방식은?",
+          "choices": [
+            "그레코로만형",
+            "자유형",
+            "삼보",
+            "스모"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자유형은 다리까지 잡을 수 있어요. 고대 그리스·로마 레슬링을 되살린다는 뜻으로 붙은 이름이에요.",
+        "tip": "상체만"
+      }
+    },
+    {
+      "id": "sports-m7036",
+      "difficulty": "hard",
+      "answer": "요코즈나",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "일본 스모에서 가장 높은 등급의 선수를 부르는 말은?",
+          "choices": [
+            "요코즈나",
+            "오제키",
+            "사무라이",
+            "쇼군"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "허리에 두르는 흰 밧줄에서 나온 이름이에요. 한 번 오르면 내려가지 않고 성적이 나쁘면 은퇴해요.",
+        "tip": "스모의 최고 등급"
+      }
+    },
+    {
+      "id": "sports-m7037",
+      "difficulty": "normal",
+      "answer": "하카",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "럭비 경기 전에 뉴질랜드 대표 팀이 추는 마오리족의 전통 춤은?",
+          "choices": [
+            "하카",
+            "훌라",
+            "탱고",
+            "삼바"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "팀은 검은 유니폼 때문에 '올블랙스'로 불려요.",
+        "tip": "올블랙스"
+      }
+    },
+    {
+      "id": "sports-m7038",
+      "difficulty": "normal",
+      "answer": "크리켓",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인도, 파키스탄, 영국, 호주 등에서 큰 인기를 누리는, 배트와 공으로 하는 영국에서 시작된 스포츠는?",
+          "choices": [
+            "크리켓",
+            "폴로",
+            "하키",
+            "스쿼시"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한 경기가 며칠씩 걸리는 방식도 있어요. 2028년 LA 올림픽에서 128년 만에 정식 종목으로 돌아와요.",
+        "tip": "영연방의 국민 스포츠"
+      }
+    },
+    {
+      "id": "sports-m7039",
+      "difficulty": "hard",
+      "answer": "6점",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미식축구에서 공을 들고 상대 엔드 존에 들어가거나 그 안에서 패스를 받으면 얻는 점수는?",
+          "choices": [
+            "6점",
+            "1점",
+            "3점",
+            "7점"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이것을 '터치다운'이라고 해요. 그 뒤 보너스 킥이 성공하면 1점을 더 받아요.",
+        "tip": "터치다운"
+      }
+    },
+    {
+      "id": "sports-m7040",
+      "difficulty": "easy",
+      "answer": "종합 격투기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'UFC'는 어떤 종목의 세계적인 프로 단체일까?",
+          "choices": [
+            "종합 격투기",
+            "프로 레슬링",
+            "권투",
+            "킥복싱"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "타격과 메치기, 조르기를 모두 쓸 수 있는 종목으로 MMA라고도 해요. 정찬성은 '코리안 좀비'로 불렸어요.",
+        "tip": "옥타곤"
+      }
+    }
+  ]
+}
