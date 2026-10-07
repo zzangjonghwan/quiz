@@ -1,0 +1,776 @@
+{
+  "category": "celeb",
+  "version": 1,
+  "cards": [
+    {
+      "id": "celeb-m4001",
+      "difficulty": "normal",
+      "answer": "이미자",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'엘레지의 여왕'으로 불리며 1964년 「동백 아가씨」로 큰 인기를 얻은 가수는?",
+          "choices": [
+            "이미자",
+            "패티김",
+            "심수봉",
+            "주현미"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "음반을 500장 넘게 낸 것으로 알려져 있어요.",
+        "tip": "「동백 아가씨」"
+      }
+    },
+    {
+      "id": "celeb-m4002",
+      "difficulty": "normal",
+      "answer": "남진",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1970년대 나훈아와 함께 라이벌로 불리며 「님과 함께」를 부른 가수는?",
+          "choices": [
+            "남진",
+            "조용필",
+            "송대관",
+            "태진아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'오빠 부대'의 원조로 꼽히기도 해요.",
+        "tip": "나훈아의 라이벌"
+      }
+    },
+    {
+      "id": "celeb-m4003",
+      "difficulty": "normal",
+      "answer": "젝스키스",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1997년 「학원별곡」으로 데뷔해 H.O.T.와 라이벌을 이룬 1세대 아이돌 그룹은?",
+          "choices": [
+            "젝스키스",
+            "god",
+            "신화",
+            "클릭비"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'젝스키스'는 독일어로 '여섯 개의 수정'이라는 뜻이에요.",
+        "tip": "노란 풍선"
+      }
+    },
+    {
+      "id": "celeb-m4004",
+      "difficulty": "normal",
+      "answer": "듀스",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「여름 안에서」, 「나를 돌아봐」를 부른 이현도·김성재의 힙합 듀오는?",
+          "choices": [
+            "듀스",
+            "클론",
+            "룰라",
+            "015B"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1990년대 한국 힙합과 댄스 음악의 수준을 크게 끌어올렸다는 평가를 받아요.",
+        "tip": "1990년대 힙합 듀오"
+      }
+    },
+    {
+      "id": "celeb-m4005",
+      "difficulty": "normal",
+      "answer": "클론",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「꿍따리 샤바라」, 「초련」을 부른 강원래·구준엽의 남성 듀오는?",
+          "choices": [
+            "클론",
+            "듀스",
+            "터보",
+            "쿨"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대만 등 중화권에서도 큰 인기를 얻어 한류 1세대로 꼽혀요.",
+        "tip": "꿍따리 샤바라"
+      }
+    },
+    {
+      "id": "celeb-m4006",
+      "difficulty": "normal",
+      "answer": "쿨",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「해변의 여인」, 「애상」 등 여름 노래로 사랑받아 '여름 그룹'으로 불린 혼성 그룹은?",
+          "choices": [
+            "쿨",
+            "코요태",
+            "룰라",
+            "자자"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이재훈의 시원한 목소리가 특징이에요.",
+        "tip": "여름 하면"
+      }
+    },
+    {
+      "id": "celeb-m4007",
+      "difficulty": "normal",
+      "answer": "소녀시대",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2009년 「Gee」로 KBS 「뮤직뱅크」 9주 연속 1위를 차지한 걸그룹은?",
+          "choices": [
+            "소녀시대",
+            "원더걸스",
+            "카라",
+            "2NE1"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스키니 진을 입고 추는 '게 다리 춤'이 유행했어요.",
+        "tip": "「Gee」"
+      }
+    },
+    {
+      "id": "celeb-m4008",
+      "difficulty": "normal",
+      "answer": "최불암",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「전원일기」의 김 회장으로 유명하고 「한국인의 밥상」을 오래 진행한 배우는?",
+          "choices": [
+            "최불암",
+            "김혜자",
+            "이순재",
+            "신구"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'최불암 시리즈'라는 유머가 유행할 만큼 국민적인 배우예요.",
+        "tip": "김 회장"
+      }
+    },
+    {
+      "id": "celeb-m4009",
+      "difficulty": "normal",
+      "answer": "설경구",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「박하사탕」에서 철길 위에 서서 \"나 다시 돌아갈래!\"라고 외친 배우는?",
+          "choices": [
+            "설경구",
+            "송강호",
+            "최민식",
+            "한석규"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이야기가 시간을 거꾸로 거슬러 올라가는 구성이에요.",
+        "tip": "\"나 다시 돌아갈래\""
+      }
+    },
+    {
+      "id": "celeb-m4010",
+      "difficulty": "normal",
+      "answer": "한석규",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「8월의 크리스마스」에서 시한부 사진사 정원을 연기한 배우는?",
+          "choices": [
+            "한석규",
+            "설경구",
+            "안성기",
+            "정우성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "심은하가 주차 단속원 다림을 연기했어요.",
+        "tip": "사진관 주인"
+      }
+    },
+    {
+      "id": "celeb-m4011",
+      "difficulty": "hard",
+      "answer": "김윤석",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「추격자」(2008)에서 연쇄 살인범을 쫓는 전직 형사 엄중호를 연기한 배우는?",
+          "choices": [
+            "김윤석",
+            "하정우",
+            "송강호",
+            "황정민"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하정우가 범인 지영민을 연기했어요.",
+        "tip": "엄중호"
+      }
+    },
+    {
+      "id": "celeb-m4012",
+      "difficulty": "easy",
+      "answer": "수지",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「건축학개론」으로 '국민 첫사랑'이라는 별명을 얻은 가수 겸 배우는?",
+          "choices": [
+            "수지",
+            "윤아",
+            "아이유",
+            "설현"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "걸그룹 미쓰에이 출신이에요.",
+        "tip": "국민 첫사랑"
+      }
+    },
+    {
+      "id": "celeb-m4013",
+      "difficulty": "easy",
+      "answer": "이민호",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「꽃보다 남자」에서 F4의 리더 구준표를 연기한 배우는?",
+          "choices": [
+            "이민호",
+            "김현중",
+            "김범",
+            "김준"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "일본 만화가 원작이에요.",
+        "tip": "구준표"
+      }
+    },
+    {
+      "id": "celeb-m4014",
+      "difficulty": "normal",
+      "answer": "손석구",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「나의 해방일지」에서 '구씨'를 연기해 큰 화제가 된 배우는?",
+          "choices": [
+            "손석구",
+            "이민기",
+            "이선균",
+            "구교환"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김지원이 염미정을 연기했어요. \"나를 추앙해요\"라는 대사가 유명해요.",
+        "tip": "추앙"
+      }
+    },
+    {
+      "id": "celeb-m4015",
+      "difficulty": "easy",
+      "answer": "변우석",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「선재 업고 튀어」에서 톱스타 류선재를 연기한 배우는?",
+          "choices": [
+            "변우석",
+            "차은우",
+            "이도현",
+            "로운"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "김혜윤이 그의 팬 임솔을 연기했어요.",
+        "tip": "류선재"
+      }
+    },
+    {
+      "id": "celeb-m4016",
+      "difficulty": "normal",
+      "answer": "김고은",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「도깨비」에서 도깨비 신부 지은탁을 연기한 배우는?",
+          "choices": [
+            "김고은",
+            "김태리",
+            "수지",
+            "박보영"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영화 「파묘」에서는 무당 화림을 연기했어요.",
+        "tip": "지은탁"
+      }
+    },
+    {
+      "id": "celeb-m4017",
+      "difficulty": "normal",
+      "answer": "이제훈",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라마 「모범택시」에서 복수 대행 택시 기사 김도기를 연기한 배우는?",
+          "choices": [
+            "이제훈",
+            "이준기",
+            "지창욱",
+            "남궁민"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영화 「건축학개론」에서 대학생 승민을 연기하기도 했어요.",
+        "tip": "김도기"
+      }
+    },
+    {
+      "id": "celeb-m4018",
+      "difficulty": "normal",
+      "answer": "이경규",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'예능 대부'로 불리며 1980년대부터 「몰래카메라」 등으로 활약한 코미디언은?",
+          "choices": [
+            "이경규",
+            "신동엽",
+            "강호동",
+            "유재석"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'양심 냉장고' 같은 공익 예능도 이끌었어요.",
+        "tip": "몰래카메라"
+      }
+    },
+    {
+      "id": "celeb-m4019",
+      "difficulty": "normal",
+      "answer": "전현무",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아나운서 출신으로 「나 혼자 산다」 등 여러 예능을 진행하는 방송인은?",
+          "choices": [
+            "전현무",
+            "김성주",
+            "오상진",
+            "조우종"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "KBS 아나운서로 일하다 프리랜서가 됐어요.",
+        "tip": "아나운서 출신"
+      }
+    },
+    {
+      "id": "celeb-m4020",
+      "difficulty": "easy",
+      "answer": "쯔양",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "엄청난 양을 먹는 먹방으로 큰 인기를 얻은 유튜버는?",
+          "choices": [
+            "쯔양",
+            "침착맨",
+            "대도서관",
+            "보겸"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "작은 몸집으로 라면 수십 개를 먹는 영상 등으로 유명해요.",
+        "tip": "대식가 유튜버"
+      }
+    },
+    {
+      "id": "celeb-m4021",
+      "difficulty": "easy",
+      "answer": "문워크",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마이클 잭슨이 1983년 TV 무대에서 처음 선보여 유명해진, 앞으로 걷는 듯 뒤로 미끄러지는 춤은?",
+          "choices": [
+            "문워크",
+            "로봇 춤",
+            "셔플",
+            "트월킹"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「Billie Jean」을 부르며 선보였어요.",
+        "tip": "달 위를 걷듯"
+      }
+    },
+    {
+      "id": "celeb-m4022",
+      "difficulty": "normal",
+      "answer": "저스틴 비버",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "어린 시절 유튜브에 올린 노래 영상으로 발굴되어 세계적인 스타가 된 캐나다 가수는?",
+          "choices": [
+            "저스틴 비버",
+            "숀 멘데스",
+            "드레이크",
+            "에드 시런"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2009년 첫 앨범을 낸 뒤 「Baby」로 큰 인기를 얻었어요.",
+        "tip": "유튜브 출신"
+      }
+    },
+    {
+      "id": "celeb-m4023",
+      "difficulty": "normal",
+      "answer": "에드 시런",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "「Shape of You」, 「Perfect」를 부른 영국 싱어송라이터는?",
+          "choices": [
+            "에드 시런",
+            "해리 스타일스",
+            "샘 스미스",
+            "루이스 캐패디"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "기타 하나와 루프 장비만으로 공연하는 것으로 유명해요.",
+        "tip": "빨간 머리 싱어송라이터"
+      }
+    },
+    {
+      "id": "celeb-m4024",
+      "difficulty": "normal",
+      "answer": "해리 스타일스",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국 아이돌 그룹 원 디렉션 출신으로 솔로곡 「As It Was」로 큰 인기를 얻은 가수는?",
+          "choices": [
+            "해리 스타일스",
+            "에드 시런",
+            "루이 톰린슨",
+            "나일 호런"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "오디션 프로그램 「엑스 팩터」에서 그룹이 결성됐어요.",
+        "tip": "원 디렉션"
+      }
+    },
+    {
+      "id": "celeb-m4025",
+      "difficulty": "easy",
+      "answer": "조니 뎁",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「캐리비안의 해적」 시리즈에서 잭 스패로 선장을 연기한 배우는?",
+          "choices": [
+            "조니 뎁",
+            "올랜도 블룸",
+            "키아누 리브스",
+            "브래드 피트"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "팀 버튼 감독의 영화에도 자주 출연했어요.",
+        "tip": "잭 스패로"
+      }
+    },
+    {
+      "id": "celeb-m4026",
+      "difficulty": "normal",
+      "answer": "크리스 에반스",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마블 영화에서 캡틴 아메리카를 연기한 배우는?",
+          "choices": [
+            "크리스 에반스",
+            "크리스 헴스워스",
+            "크리스 프랫",
+            "로버트 다우니 주니어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "토르는 크리스 헴스워스, 스타로드는 크리스 프랫이 연기했어요.",
+        "tip": "세 명의 크리스"
+      }
+    },
+    {
+      "id": "celeb-m4027",
+      "difficulty": "normal",
+      "answer": "스칼렛 요한슨",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마블 영화에서 블랙 위도우를 연기한 배우는?",
+          "choices": [
+            "스칼렛 요한슨",
+            "엘리자베스 올슨",
+            "브리 라슨",
+            "조 샐다나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2021년 단독 영화 「블랙 위도우」가 나왔어요.",
+        "tip": "나타샤 로마노프"
+      }
+    },
+    {
+      "id": "celeb-m4028",
+      "difficulty": "normal",
+      "answer": "톰 홀랜드",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2016년부터 마블 영화 시리즈에서 스파이더맨을 연기한 영국 배우는?",
+          "choices": [
+            "톰 홀랜드",
+            "앤드루 가필드",
+            "토비 맥과이어",
+            "티모시 샬라메"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "토비 맥과이어, 앤드루 가필드에 이은 세 번째 실사 스파이더맨이에요.",
+        "tip": "세 번째 스파이더맨"
+      }
+    },
+    {
+      "id": "celeb-m4029",
+      "difficulty": "normal",
+      "answer": "숀 코너리",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 007 시리즈에서 처음으로 제임스 본드를 연기한 배우는?",
+          "choices": [
+            "숀 코너리",
+            "로저 무어",
+            "피어스 브로스넌",
+            "대니얼 크레이그"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1962년 「살인 번호(Dr. No)」가 첫 작품이에요. 가장 최근 본드는 대니얼 크레이그였어요.",
+        "tip": "첫 번째 본드"
+      }
+    },
+    {
+      "id": "celeb-m4030",
+      "difficulty": "normal",
+      "answer": "짐 캐리",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「마스크」, 「트루먼 쇼」로 유명한, 고무처럼 얼굴을 움직이는 코미디 배우는?",
+          "choices": [
+            "짐 캐리",
+            "로빈 윌리엄스",
+            "애덤 샌들러",
+            "벤 스틸러"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「덤 앤 더머」로도 큰 인기를 얻었어요.",
+        "tip": "고무 얼굴"
+      }
+    },
+    {
+      "id": "celeb-m4031",
+      "difficulty": "normal",
+      "answer": "로빈 윌리엄스",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「죽은 시인의 사회」에서 학생들에게 \"카르페 디엠\"을 외친 키팅 선생님을 연기한 배우는?",
+          "choices": [
+            "로빈 윌리엄스",
+            "짐 캐리",
+            "톰 행크스",
+            "케빈 코스트너"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「알라딘」에서는 지니의 목소리를 맡았어요.",
+        "tip": "\"오 캡틴, 마이 캡틴\""
+      }
+    },
+    {
+      "id": "celeb-m4032",
+      "difficulty": "normal",
+      "answer": "휴 그랜트",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「노팅 힐」에서 런던의 작은 서점 주인 윌리엄을 연기한 배우는?",
+          "choices": [
+            "휴 그랜트",
+            "콜린 퍼스",
+            "주드 로",
+            "이완 맥그리거"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "줄리아 로버츠가 할리우드 스타 애나를 연기했어요.",
+        "tip": "서점 주인"
+      }
+    },
+    {
+      "id": "celeb-m4033",
+      "difficulty": "normal",
+      "answer": "앤 해서웨이",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「악마는 프라다를 입는다」에서 신입 비서 앤디를 연기한 배우는?",
+          "choices": [
+            "앤 해서웨이",
+            "에밀리 블런트",
+            "엠마 스톤",
+            "나탈리 포트먼"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "메릴 스트리프가 무시무시한 편집장 미란다를 연기했어요.",
+        "tip": "앤디"
+      }
+    },
+    {
+      "id": "celeb-m4034",
+      "difficulty": "normal",
+      "answer": "티모시 샬라메",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영화 「듄」 시리즈에서 주인공 폴 아트레이데스를 연기한 배우는?",
+          "choices": [
+            "티모시 샬라메",
+            "톰 홀랜드",
+            "앤설 엘고트",
+            "오스틴 버틀러"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "「웡카」에서는 젊은 윌리 웡카를 연기했어요.",
+        "tip": "폴 아트레이데스"
+      }
+    },
+    {
+      "id": "celeb-m4035",
+      "difficulty": "normal",
+      "answer": "로완 앳킨슨",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "말없이 몸짓만으로 웃기는 영국 코미디 캐릭터 '미스터 빈'을 연기한 배우는?",
+          "choices": [
+            "로완 앳킨슨",
+            "베니 힐",
+            "사샤 배런 코언",
+            "존 클리스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2012년 런던 올림픽 개막식에도 미스터 빈으로 나왔어요.",
+        "tip": "미스터 빈"
+      }
+    }
+  ]
+}
