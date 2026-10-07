@@ -1,0 +1,4142 @@
+{
+  "category": "idiom",
+  "version": 1,
+  "cards": [
+    {
+      "id": "idiom-m4001",
+      "difficulty": "easy",
+      "answer": "단도직입",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'단도직입'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "군말 없이 바로 요점이나 본론으로 들어감",
+            "여러 집단이나 사람이 하나로 크게 뭉침",
+            "어떤 계기로 마음가짐을 완전히 새롭게 바꿈",
+            "삶이나 일의 진행에 변화와 곡절이 몹시 심함"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“군말 없이 바로 요점이나 본론으로 들어감”라는 뜻의 사자성어는?",
+          "choices": [
+            "단도직입",
+            "생로병사",
+            "대동단결",
+            "천만다행"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "단",
+            "origin": "單",
+            "meaning": "홑"
+          },
+          {
+            "part": "도",
+            "origin": "刀",
+            "meaning": "칼"
+          },
+          {
+            "part": "직",
+            "origin": "直",
+            "meaning": "곧다"
+          },
+          {
+            "part": "입",
+            "origin": "入",
+            "meaning": "들어가다"
+          }
+        ],
+        "literal": "칼 한 자루를 들고 곧장 적진으로 들어간다",
+        "meaning": "군말 없이 바로 요점이나 본론으로 들어감",
+        "tip": "\"단도직입적으로 말할게\""
+      }
+    },
+    {
+      "id": "idiom-m4002",
+      "difficulty": "easy",
+      "answer": "대동단결",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'대동단결'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "여러 집단이나 사람이 하나로 크게 뭉침",
+            "군말 없이 바로 요점이나 본론으로 들어감",
+            "부부가 한평생 사이좋게 함께 늙어 감",
+            "고집을 부려 도무지 어찌할 수 없음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“여러 집단이나 사람이 하나로 크게 뭉침”라는 뜻의 사자성어는?",
+          "choices": [
+            "대동단결",
+            "백년해로",
+            "삼삼오오",
+            "단도직입"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "대",
+            "origin": "大",
+            "meaning": "크다"
+          },
+          {
+            "part": "동",
+            "origin": "同",
+            "meaning": "같다"
+          },
+          {
+            "part": "단",
+            "origin": "團",
+            "meaning": "둥글다"
+          },
+          {
+            "part": "결",
+            "origin": "結",
+            "meaning": "맺다"
+          }
+        ],
+        "literal": "크게 하나 되어 뭉친다",
+        "meaning": "여러 집단이나 사람이 하나로 크게 뭉침",
+        "tip": "응원전의 대동단결"
+      }
+    },
+    {
+      "id": "idiom-m4003",
+      "difficulty": "easy",
+      "answer": "막무가내",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'막무가내'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "고집을 부려 도무지 어찌할 수 없음",
+            "풍채와 기세가 위엄 있고 떳떳함",
+            "여러 집단이나 사람이 하나로 크게 뭉침",
+            "부부가 한평생 사이좋게 함께 늙어 감"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“고집을 부려 도무지 어찌할 수 없음”라는 뜻의 사자성어는?",
+          "choices": [
+            "막무가내",
+            "연전연승",
+            "천만다행",
+            "신토불이"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "막",
+            "origin": "莫",
+            "meaning": "없다"
+          },
+          {
+            "part": "무",
+            "origin": "無",
+            "meaning": "없다"
+          },
+          {
+            "part": "가",
+            "origin": "可",
+            "meaning": "옳다"
+          },
+          {
+            "part": "내",
+            "origin": "奈",
+            "meaning": "어찌"
+          }
+        ],
+        "literal": "어찌할 도리가 전혀 없다",
+        "meaning": "고집을 부려 도무지 어찌할 수 없음",
+        "tip": "떼쓰는 아이"
+      }
+    },
+    {
+      "id": "idiom-m4004",
+      "difficulty": "easy",
+      "answer": "만수무강",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'만수무강'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "아무 탈 없이 아주 오래 삶",
+            "일을 빨리 진행해 빨리 끝냄",
+            "한 군데도 빠짐없는 모든 곳",
+            "산길이 몹시 험하게 꼬불꼬불함"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“아무 탈 없이 아주 오래 삶”라는 뜻의 사자성어는?",
+          "choices": [
+            "만수무강",
+            "천만다행",
+            "기진맥진",
+            "시시각각"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "만",
+            "origin": "萬",
+            "meaning": "일만"
+          },
+          {
+            "part": "수",
+            "origin": "壽",
+            "meaning": "목숨"
+          },
+          {
+            "part": "무",
+            "origin": "無",
+            "meaning": "없다"
+          },
+          {
+            "part": "강",
+            "origin": "疆",
+            "meaning": "끝"
+          }
+        ],
+        "literal": "만 년의 목숨에 끝이 없다",
+        "meaning": "아무 탈 없이 아주 오래 삶",
+        "tip": "\"만수무강하세요\""
+      }
+    },
+    {
+      "id": "idiom-m4005",
+      "difficulty": "easy",
+      "answer": "망망대해",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'망망대해'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "끝없이 넓고 큰 바다",
+            "늙지 않고 오래 삶",
+            "일을 빨리 진행해 빨리 끝냄",
+            "싸울 때마다 잇따라 이김"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“끝없이 넓고 큰 바다”라는 뜻의 사자성어는?",
+          "choices": [
+            "망망대해",
+            "생로병사",
+            "백년해로",
+            "위풍당당"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "망",
+            "origin": "茫",
+            "meaning": "아득하다"
+          },
+          {
+            "part": "망",
+            "origin": "茫",
+            "meaning": "아득하다"
+          },
+          {
+            "part": "대",
+            "origin": "大",
+            "meaning": "크다"
+          },
+          {
+            "part": "해",
+            "origin": "海",
+            "meaning": "바다"
+          }
+        ],
+        "meaning": "끝없이 넓고 큰 바다",
+        "tip": "망망대해의 돛단배"
+      }
+    },
+    {
+      "id": "idiom-m4006",
+      "difficulty": "easy",
+      "answer": "무릉도원",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'무릉도원'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "세상과 떨어진 아름답고 평화로운 이상향",
+            "기운이 다 빠져 스스로 가눌 수 없게 됨",
+            "어떤 계기로 마음가짐을 완전히 새롭게 바꿈",
+            "고집을 부려 도무지 어찌할 수 없음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“세상과 떨어진 아름답고 평화로운 이상향”라는 뜻의 사자성어는?",
+          "choices": [
+            "무릉도원",
+            "망망대해",
+            "방방곡곡",
+            "우여곡절"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "무",
+            "origin": "武",
+            "meaning": "무릉(땅 이름)"
+          },
+          {
+            "part": "릉",
+            "origin": "陵",
+            "meaning": "언덕"
+          },
+          {
+            "part": "도",
+            "origin": "桃",
+            "meaning": "복숭아"
+          },
+          {
+            "part": "원",
+            "origin": "源",
+            "meaning": "근원"
+          }
+        ],
+        "literal": "무릉의 복숭아꽃 피는 골짜기",
+        "meaning": "세상과 떨어진 아름답고 평화로운 이상향",
+        "origin": "도연명의 「도화원기」에서 무릉의 어부가 복숭아꽃 숲을 지나 별천지를 발견한 이야기에서 나왔어요.",
+        "tip": "동양의 유토피아"
+      }
+    },
+    {
+      "id": "idiom-m4007",
+      "difficulty": "easy",
+      "answer": "백년해로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'백년해로'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "부부가 한평생 사이좋게 함께 늙어 감",
+            "기운이 다 빠져 스스로 가눌 수 없게 됨",
+            "군말 없이 바로 요점이나 본론으로 들어감",
+            "여러 가지로 뒤얽힌 복잡한 사정이나 변화"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“부부가 한평생 사이좋게 함께 늙어 감”라는 뜻의 사자성어는?",
+          "choices": [
+            "백년해로",
+            "심기일전",
+            "신토불이",
+            "우여곡절"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "백",
+            "origin": "百",
+            "meaning": "백"
+          },
+          {
+            "part": "년",
+            "origin": "年",
+            "meaning": "해"
+          },
+          {
+            "part": "해",
+            "origin": "偕",
+            "meaning": "함께"
+          },
+          {
+            "part": "로",
+            "origin": "老",
+            "meaning": "늙다"
+          }
+        ],
+        "literal": "백 년을 함께 늙는다",
+        "meaning": "부부가 한평생 사이좋게 함께 늙어 감",
+        "tip": "결혼식 덕담"
+      }
+    },
+    {
+      "id": "idiom-m4008",
+      "difficulty": "easy",
+      "answer": "산해진미",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'산해진미'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "온갖 귀한 재료로 잘 차린 맛있는 음식",
+            "어떤 계기로 마음가짐을 완전히 새롭게 바꿈",
+            "여러 가지로 뒤얽힌 복잡한 사정이나 변화",
+            "군말 없이 바로 요점이나 본론으로 들어감"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“온갖 귀한 재료로 잘 차린 맛있는 음식”라는 뜻의 사자성어는?",
+          "choices": [
+            "산해진미",
+            "우여곡절",
+            "심기일전",
+            "천재지변"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "산",
+            "origin": "山",
+            "meaning": "산"
+          },
+          {
+            "part": "해",
+            "origin": "海",
+            "meaning": "바다"
+          },
+          {
+            "part": "진",
+            "origin": "珍",
+            "meaning": "보배"
+          },
+          {
+            "part": "미",
+            "origin": "味",
+            "meaning": "맛"
+          }
+        ],
+        "literal": "산과 바다에서 나는 진귀한 맛",
+        "meaning": "온갖 귀한 재료로 잘 차린 맛있는 음식",
+        "tip": "진수성찬과 비슷"
+      }
+    },
+    {
+      "id": "idiom-m4009",
+      "difficulty": "easy",
+      "answer": "생로병사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'생로병사'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "사람이 태어나 늙고 병들고 죽는 네 가지 고통",
+            "삶이나 일의 진행에 변화와 곡절이 몹시 심함",
+            "자기가 사는 땅에서 난 농산물이 몸에 잘 맞음",
+            "여러 가지로 뒤얽힌 복잡한 사정이나 변화"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“사람이 태어나 늙고 병들고 죽는 네 가지 고통”라는 뜻의 사자성어는?",
+          "choices": [
+            "생로병사",
+            "위풍당당",
+            "연전연승",
+            "산해진미"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "생",
+            "origin": "生",
+            "meaning": "나다"
+          },
+          {
+            "part": "로",
+            "origin": "老",
+            "meaning": "늙다"
+          },
+          {
+            "part": "병",
+            "origin": "病",
+            "meaning": "병들다"
+          },
+          {
+            "part": "사",
+            "origin": "死",
+            "meaning": "죽다"
+          }
+        ],
+        "meaning": "사람이 태어나 늙고 병들고 죽는 네 가지 고통",
+        "tip": "불교의 사고(四苦)"
+      }
+    },
+    {
+      "id": "idiom-m4010",
+      "difficulty": "easy",
+      "answer": "속전속결",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'속전속결'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "일을 빨리 진행해 빨리 끝냄",
+            "아무 탈 없이 아주 오래 삶",
+            "한 군데도 빠짐없는 모든 곳",
+            "눈 내리는 몹시 추운 겨울"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“일을 빨리 진행해 빨리 끝냄”라는 뜻의 사자성어는?",
+          "choices": [
+            "속전속결",
+            "무릉도원",
+            "산해진미",
+            "연전연승"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "속",
+            "origin": "速",
+            "meaning": "빠르다"
+          },
+          {
+            "part": "전",
+            "origin": "戰",
+            "meaning": "싸우다"
+          },
+          {
+            "part": "속",
+            "origin": "速",
+            "meaning": "빠르다"
+          },
+          {
+            "part": "결",
+            "origin": "決",
+            "meaning": "결정하다"
+          }
+        ],
+        "literal": "빨리 싸워 빨리 끝낸다",
+        "meaning": "일을 빨리 진행해 빨리 끝냄",
+        "tip": "단기전 전략"
+      }
+    },
+    {
+      "id": "idiom-m4011",
+      "difficulty": "easy",
+      "answer": "신토불이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'신토불이'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "자기가 사는 땅에서 난 농산물이 몸에 잘 맞음",
+            "삶이나 일의 진행에 변화와 곡절이 몹시 심함",
+            "사람이 태어나 늙고 병들고 죽는 네 가지 고통",
+            "여러 가지로 뒤얽힌 복잡한 사정이나 변화"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“자기가 사는 땅에서 난 농산물이 몸에 잘 맞음”라는 뜻의 사자성어는?",
+          "choices": [
+            "신토불이",
+            "백년해로",
+            "막무가내",
+            "생로병사"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "신",
+            "origin": "身",
+            "meaning": "몸"
+          },
+          {
+            "part": "토",
+            "origin": "土",
+            "meaning": "흙"
+          },
+          {
+            "part": "불",
+            "origin": "不",
+            "meaning": "아니다"
+          },
+          {
+            "part": "이",
+            "origin": "二",
+            "meaning": "둘"
+          }
+        ],
+        "literal": "몸과 땅은 둘이 아니다",
+        "meaning": "자기가 사는 땅에서 난 농산물이 몸에 잘 맞음",
+        "tip": "국산 농산물 캠페인"
+      }
+    },
+    {
+      "id": "idiom-m4012",
+      "difficulty": "easy",
+      "answer": "심기일전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'심기일전'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어떤 계기로 마음가짐을 완전히 새롭게 바꿈",
+            "여러 집단이나 사람이 하나로 크게 뭉침",
+            "군말 없이 바로 요점이나 본론으로 들어감",
+            "여러 가지로 뒤얽힌 복잡한 사정이나 변화"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어떤 계기로 마음가짐을 완전히 새롭게 바꿈”라는 뜻의 사자성어는?",
+          "choices": [
+            "심기일전",
+            "속전속결",
+            "단도직입",
+            "망망대해"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "심",
+            "origin": "心",
+            "meaning": "마음"
+          },
+          {
+            "part": "기",
+            "origin": "機",
+            "meaning": "틀"
+          },
+          {
+            "part": "일",
+            "origin": "一",
+            "meaning": "하나"
+          },
+          {
+            "part": "전",
+            "origin": "轉",
+            "meaning": "바꾸다"
+          }
+        ],
+        "literal": "마음의 틀을 한 번 바꾼다",
+        "meaning": "어떤 계기로 마음가짐을 완전히 새롭게 바꿈",
+        "tip": "새해 다짐"
+      }
+    },
+    {
+      "id": "idiom-m4013",
+      "difficulty": "easy",
+      "answer": "연전연승",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'연전연승'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "싸울 때마다 잇따라 이김",
+            "뜻을 이루어 우쭐대며 뽐냄",
+            "온 마음과 온 힘을 다함",
+            "다른 나라의 아주 먼 곳"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“싸울 때마다 잇따라 이김”라는 뜻의 사자성어는?",
+          "choices": [
+            "연전연승",
+            "생로병사",
+            "기진맥진",
+            "방방곡곡"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "연",
+            "origin": "連",
+            "meaning": "잇다"
+          },
+          {
+            "part": "전",
+            "origin": "戰",
+            "meaning": "싸우다"
+          },
+          {
+            "part": "연",
+            "origin": "連",
+            "meaning": "잇다"
+          },
+          {
+            "part": "승",
+            "origin": "勝",
+            "meaning": "이기다"
+          }
+        ],
+        "meaning": "싸울 때마다 잇따라 이김",
+        "tip": "연승 행진"
+      }
+    },
+    {
+      "id": "idiom-m4014",
+      "difficulty": "easy",
+      "answer": "우여곡절",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'우여곡절'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "여러 가지로 뒤얽힌 복잡한 사정이나 변화",
+            "여러 집단이나 사람이 하나로 크게 뭉침",
+            "군말 없이 바로 요점이나 본론으로 들어감",
+            "어떤 계기로 마음가짐을 완전히 새롭게 바꿈"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“여러 가지로 뒤얽힌 복잡한 사정이나 변화”라는 뜻의 사자성어는?",
+          "choices": [
+            "우여곡절",
+            "기진맥진",
+            "천재지변",
+            "천만다행"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "우",
+            "origin": "迂",
+            "meaning": "굽다"
+          },
+          {
+            "part": "여",
+            "origin": "餘",
+            "meaning": "남다"
+          },
+          {
+            "part": "곡",
+            "origin": "曲",
+            "meaning": "굽다"
+          },
+          {
+            "part": "절",
+            "origin": "折",
+            "meaning": "꺾다"
+          }
+        ],
+        "literal": "굽고 굽고 꺾인다",
+        "meaning": "여러 가지로 뒤얽힌 복잡한 사정이나 변화",
+        "tip": "우여곡절 끝에 성공"
+      }
+    },
+    {
+      "id": "idiom-m4015",
+      "difficulty": "easy",
+      "answer": "위풍당당",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'위풍당당'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "풍채와 기세가 위엄 있고 떳떳함",
+            "일을 빨리 진행해 빨리 끝냄",
+            "한 군데도 빠짐없는 모든 곳",
+            "고집을 부려 도무지 어찌할 수 없음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“풍채와 기세가 위엄 있고 떳떳함”라는 뜻의 사자성어는?",
+          "choices": [
+            "위풍당당",
+            "삼삼오오",
+            "무릉도원",
+            "백년해로"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "위",
+            "origin": "威",
+            "meaning": "위엄"
+          },
+          {
+            "part": "풍",
+            "origin": "風",
+            "meaning": "풍채"
+          },
+          {
+            "part": "당",
+            "origin": "堂",
+            "meaning": "당당하다"
+          },
+          {
+            "part": "당",
+            "origin": "堂",
+            "meaning": "당당하다"
+          }
+        ],
+        "meaning": "풍채와 기세가 위엄 있고 떳떳함",
+        "tip": "「위풍당당 행진곡」"
+      }
+    },
+    {
+      "id": "idiom-m4016",
+      "difficulty": "easy",
+      "answer": "천만다행",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'천만다행'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "아주 다행스러움",
+            "몸이 몹시 여윔",
+            "매우 급한 일",
+            "늙지 않고 오래 삶"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“아주 다행스러움”라는 뜻의 사자성어는?",
+          "choices": [
+            "천만다행",
+            "기진맥진",
+            "무릉도원",
+            "생로병사"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "천",
+            "origin": "千",
+            "meaning": "천"
+          },
+          {
+            "part": "만",
+            "origin": "萬",
+            "meaning": "만"
+          },
+          {
+            "part": "다",
+            "origin": "多",
+            "meaning": "많다"
+          },
+          {
+            "part": "행",
+            "origin": "幸",
+            "meaning": "다행"
+          }
+        ],
+        "meaning": "아주 다행스러움",
+        "tip": "\"안 다쳐서 천만다행이야\""
+      }
+    },
+    {
+      "id": "idiom-m4017",
+      "difficulty": "easy",
+      "answer": "천재지변",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'천재지변'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "지진, 홍수, 태풍처럼 자연에서 일어나는 재앙",
+            "어떤 계기로 마음가짐을 완전히 새롭게 바꿈",
+            "기운이 다 빠져 스스로 가눌 수 없게 됨",
+            "각각의 시각마다, 곧 시간이 흐름에 따라 계속"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“지진, 홍수, 태풍처럼 자연에서 일어나는 재앙”라는 뜻의 사자성어는?",
+          "choices": [
+            "천재지변",
+            "망망대해",
+            "단도직입",
+            "백년해로"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "천",
+            "origin": "天",
+            "meaning": "하늘"
+          },
+          {
+            "part": "재",
+            "origin": "災",
+            "meaning": "재앙"
+          },
+          {
+            "part": "지",
+            "origin": "地",
+            "meaning": "땅"
+          },
+          {
+            "part": "변",
+            "origin": "變",
+            "meaning": "변고"
+          }
+        ],
+        "meaning": "지진, 홍수, 태풍처럼 자연에서 일어나는 재앙",
+        "tip": "보험 약관 단골 단어"
+      }
+    },
+    {
+      "id": "idiom-m4018",
+      "difficulty": "easy",
+      "answer": "방방곡곡",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'방방곡곡'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "한 군데도 빠짐없는 모든 곳",
+            "일을 빨리 진행해 빨리 끝냄",
+            "아무 탈 없이 아주 오래 삶",
+            "뜻을 이루어 우쭐대며 뽐냄"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“한 군데도 빠짐없는 모든 곳”라는 뜻의 사자성어는?",
+          "choices": [
+            "방방곡곡",
+            "연전연승",
+            "신토불이",
+            "망망대해"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "방",
+            "origin": "坊",
+            "meaning": "동네"
+          },
+          {
+            "part": "방",
+            "origin": "坊",
+            "meaning": "동네"
+          },
+          {
+            "part": "곡",
+            "origin": "曲",
+            "meaning": "굽이"
+          },
+          {
+            "part": "곡",
+            "origin": "曲",
+            "meaning": "굽이"
+          }
+        ],
+        "meaning": "한 군데도 빠짐없는 모든 곳",
+        "tip": "전국 방방곡곡"
+      }
+    },
+    {
+      "id": "idiom-m4019",
+      "difficulty": "easy",
+      "answer": "삼삼오오",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'삼삼오오'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "서너 사람 또는 대여섯 사람씩 무리 지어 다니는 모양",
+            "여러 번 시도하고 실패하면서 알맞은 방법을 찾아감",
+            "남에게 피해를 줄 만큼 큰 소리로 떠들고 노래함",
+            "서로 모순되는 두 명제가 똑같이 타당하게 주장되는 일"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“서너 사람 또는 대여섯 사람씩 무리 지어 다니는 모양”라는 뜻의 사자성어는?",
+          "choices": [
+            "삼삼오오",
+            "대동단결",
+            "망망대해",
+            "연전연승"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "삼",
+            "origin": "三",
+            "meaning": "셋"
+          },
+          {
+            "part": "삼",
+            "origin": "三",
+            "meaning": "셋"
+          },
+          {
+            "part": "오",
+            "origin": "五",
+            "meaning": "다섯"
+          },
+          {
+            "part": "오",
+            "origin": "五",
+            "meaning": "다섯"
+          }
+        ],
+        "meaning": "서너 사람 또는 대여섯 사람씩 무리 지어 다니는 모양",
+        "tip": "삼삼오오 모여 앉은 학생들"
+      }
+    },
+    {
+      "id": "idiom-m4020",
+      "difficulty": "easy",
+      "answer": "시시각각",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'시시각각'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "각각의 시각마다, 곧 시간이 흐름에 따라 계속",
+            "자기가 사는 땅에서 난 농산물이 몸에 잘 맞음",
+            "사람이 태어나 늙고 병들고 죽는 네 가지 고통",
+            "군말 없이 바로 요점이나 본론으로 들어감"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“각각의 시각마다, 곧 시간이 흐름에 따라 계속”라는 뜻의 사자성어는?",
+          "choices": [
+            "시시각각",
+            "연전연승",
+            "천만다행",
+            "방방곡곡"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "시",
+            "origin": "時",
+            "meaning": "때"
+          },
+          {
+            "part": "시",
+            "origin": "時",
+            "meaning": "때"
+          },
+          {
+            "part": "각",
+            "origin": "刻",
+            "meaning": "시각"
+          },
+          {
+            "part": "각",
+            "origin": "刻",
+            "meaning": "시각"
+          }
+        ],
+        "meaning": "각각의 시각마다, 곧 시간이 흐름에 따라 계속",
+        "tip": "시시각각 변하는 날씨"
+      }
+    },
+    {
+      "id": "idiom-m4021",
+      "difficulty": "easy",
+      "answer": "시행착오",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'시행착오'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "여러 번 시도하고 실패하면서 알맞은 방법을 찾아감",
+            "서너 사람 또는 대여섯 사람씩 무리 지어 다니는 모양",
+            "각각의 시각마다, 곧 시간이 흐름에 따라 계속",
+            "삶이나 일의 진행에 변화와 곡절이 몹시 심함"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“여러 번 시도하고 실패하면서 알맞은 방법을 찾아감”라는 뜻의 사자성어는?",
+          "choices": [
+            "시행착오",
+            "신토불이",
+            "속전속결",
+            "심기일전"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "시",
+            "origin": "試",
+            "meaning": "시험하다"
+          },
+          {
+            "part": "행",
+            "origin": "行",
+            "meaning": "행하다"
+          },
+          {
+            "part": "착",
+            "origin": "錯",
+            "meaning": "어긋나다"
+          },
+          {
+            "part": "오",
+            "origin": "誤",
+            "meaning": "그르치다"
+          }
+        ],
+        "meaning": "여러 번 시도하고 실패하면서 알맞은 방법을 찾아감",
+        "tip": "처음엔 누구나"
+      }
+    },
+    {
+      "id": "idiom-m4022",
+      "difficulty": "easy",
+      "answer": "기진맥진",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'기진맥진'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "기운이 다 빠져 스스로 가눌 수 없게 됨",
+            "온갖 귀한 재료로 잘 차린 맛있는 음식",
+            "여러 가지로 뒤얽힌 복잡한 사정이나 변화",
+            "삶이나 일의 진행에 변화와 곡절이 몹시 심함"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“기운이 다 빠져 스스로 가눌 수 없게 됨”라는 뜻의 사자성어는?",
+          "choices": [
+            "기진맥진",
+            "속전속결",
+            "만수무강",
+            "심기일전"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "기",
+            "origin": "氣",
+            "meaning": "기운"
+          },
+          {
+            "part": "진",
+            "origin": "盡",
+            "meaning": "다하다"
+          },
+          {
+            "part": "맥",
+            "origin": "脈",
+            "meaning": "맥"
+          },
+          {
+            "part": "진",
+            "origin": "盡",
+            "meaning": "다하다"
+          }
+        ],
+        "literal": "기운도 다하고 맥도 다했다",
+        "meaning": "기운이 다 빠져 스스로 가눌 수 없게 됨",
+        "tip": "마라톤 완주 직후"
+      }
+    },
+    {
+      "id": "idiom-m4023",
+      "difficulty": "easy",
+      "answer": "파란만장",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'파란만장'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "삶이나 일의 진행에 변화와 곡절이 몹시 심함",
+            "기운이 다 빠져 스스로 가눌 수 없게 됨",
+            "어떤 계기로 마음가짐을 완전히 새롭게 바꿈",
+            "자기가 사는 땅에서 난 농산물이 몸에 잘 맞음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“삶이나 일의 진행에 변화와 곡절이 몹시 심함”라는 뜻의 사자성어는?",
+          "choices": [
+            "파란만장",
+            "삼삼오오",
+            "산해진미",
+            "시행착오"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "파",
+            "origin": "波",
+            "meaning": "물결"
+          },
+          {
+            "part": "란",
+            "origin": "瀾",
+            "meaning": "큰 물결"
+          },
+          {
+            "part": "만",
+            "origin": "萬",
+            "meaning": "일만"
+          },
+          {
+            "part": "장",
+            "origin": "丈",
+            "meaning": "길이 단위(장)"
+          }
+        ],
+        "literal": "물결이 만 길 높이로 친다",
+        "meaning": "삶이나 일의 진행에 변화와 곡절이 몹시 심함",
+        "tip": "파란만장한 인생"
+      }
+    },
+    {
+      "id": "idiom-m4024",
+      "difficulty": "normal",
+      "answer": "각자도생",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'각자도생'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "저마다 제 살길을 스스로 찾음",
+            "싸움에 나가서는 물러서지 않음",
+            "길이 사방으로 막힘없이 통함",
+            "오랜 세월 동안 변하지 않음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“저마다 제 살길을 스스로 찾음”라는 뜻의 사자성어는?",
+          "choices": [
+            "각자도생",
+            "좌충우돌",
+            "천편일률",
+            "궁여지책"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "각",
+            "origin": "各",
+            "meaning": "각각"
+          },
+          {
+            "part": "자",
+            "origin": "自",
+            "meaning": "스스로"
+          },
+          {
+            "part": "도",
+            "origin": "圖",
+            "meaning": "꾀하다"
+          },
+          {
+            "part": "생",
+            "origin": "生",
+            "meaning": "살다"
+          }
+        ],
+        "literal": "각자 스스로 살길을 꾀한다",
+        "meaning": "저마다 제 살길을 스스로 찾음",
+        "tip": "각자도생의 시대"
+      }
+    },
+    {
+      "id": "idiom-m4025",
+      "difficulty": "normal",
+      "answer": "감개무량",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'감개무량'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "마음에 사무치는 느낌이 끝이 없음",
+            "저마다 제 살길을 스스로 찾음",
+            "말이나 행동이 터무니없고 근거가 없음",
+            "오래도록 사귀어 잘 아는 친구"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“마음에 사무치는 느낌이 끝이 없음”라는 뜻의 사자성어는?",
+          "choices": [
+            "감개무량",
+            "시기상조",
+            "적재적소",
+            "혼연일체"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "감",
+            "origin": "感",
+            "meaning": "느끼다"
+          },
+          {
+            "part": "개",
+            "origin": "慨",
+            "meaning": "슬퍼하다"
+          },
+          {
+            "part": "무",
+            "origin": "無",
+            "meaning": "없다"
+          },
+          {
+            "part": "량",
+            "origin": "量",
+            "meaning": "헤아리다"
+          }
+        ],
+        "literal": "느끼는 바가 헤아릴 수 없다",
+        "meaning": "마음에 사무치는 느낌이 끝이 없음",
+        "tip": "10년 만의 귀향"
+      }
+    },
+    {
+      "id": "idiom-m4026",
+      "difficulty": "normal",
+      "answer": "거두절미",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'거두절미'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "앞뒤의 군더더기를 빼고 요점만 말함",
+            "약속이나 일을 자꾸 미루는 모양",
+            "생각이나 행동이 완전히 하나가 됨",
+            "알맞은 인재를 알맞은 자리에 씀"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“앞뒤의 군더더기를 빼고 요점만 말함”라는 뜻의 사자성어는?",
+          "choices": [
+            "거두절미",
+            "대서특필",
+            "공평무사",
+            "시기상조"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "거",
+            "origin": "去",
+            "meaning": "버리다"
+          },
+          {
+            "part": "두",
+            "origin": "頭",
+            "meaning": "머리"
+          },
+          {
+            "part": "절",
+            "origin": "截",
+            "meaning": "자르다"
+          },
+          {
+            "part": "미",
+            "origin": "尾",
+            "meaning": "꼬리"
+          }
+        ],
+        "literal": "머리와 꼬리를 잘라 버린다",
+        "meaning": "앞뒤의 군더더기를 빼고 요점만 말함",
+        "tip": "\"거두절미하고 결론만\""
+      }
+    },
+    {
+      "id": "idiom-m4027",
+      "difficulty": "normal",
+      "answer": "고성방가",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'고성방가'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "남에게 피해를 줄 만큼 큰 소리로 떠들고 노래함",
+            "남의 잘못된 모습을 보고 오히려 배우는 것",
+            "이리저리 마구 부딪치거나 아무 데나 함부로 덤빔",
+            "이리저리 흩어지고 찢겨 갈피를 잡을 수 없음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“남에게 피해를 줄 만큼 큰 소리로 떠들고 노래함”라는 뜻의 사자성어는?",
+          "choices": [
+            "고성방가",
+            "무아지경",
+            "전심전력",
+            "이역만리"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "고",
+            "origin": "高",
+            "meaning": "높다"
+          },
+          {
+            "part": "성",
+            "origin": "聲",
+            "meaning": "소리"
+          },
+          {
+            "part": "방",
+            "origin": "放",
+            "meaning": "놓다"
+          },
+          {
+            "part": "가",
+            "origin": "歌",
+            "meaning": "노래"
+          }
+        ],
+        "literal": "큰 소리로 마구 노래한다",
+        "meaning": "남에게 피해를 줄 만큼 큰 소리로 떠들고 노래함",
+        "tip": "경범죄 처벌 대상"
+      }
+    },
+    {
+      "id": "idiom-m4028",
+      "difficulty": "normal",
+      "answer": "공평무사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'공평무사'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "공평하여 사사로움이 없음",
+            "뜻을 이루어 우쭐대며 뽐냄",
+            "온 마음과 온 힘을 다함",
+            "눈 내리는 몹시 추운 겨울"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“공평하여 사사로움이 없음”라는 뜻의 사자성어는?",
+          "choices": [
+            "공평무사",
+            "시기상조",
+            "임전무퇴",
+            "용의주도"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "공",
+            "origin": "公",
+            "meaning": "공평하다"
+          },
+          {
+            "part": "평",
+            "origin": "平",
+            "meaning": "평평하다"
+          },
+          {
+            "part": "무",
+            "origin": "無",
+            "meaning": "없다"
+          },
+          {
+            "part": "사",
+            "origin": "私",
+            "meaning": "사사롭다"
+          }
+        ],
+        "meaning": "공평하여 사사로움이 없음",
+        "tip": "공정한 심사"
+      }
+    },
+    {
+      "id": "idiom-m4029",
+      "difficulty": "normal",
+      "answer": "궁여지책",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'궁여지책'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "몹시 어려운 상황에서 짜낸 계책",
+            "오랜 세월 동안 변하지 않음",
+            "재물을 탐하고 행실이 더러운 관리",
+            "싸움에 나가서는 물러서지 않음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“몹시 어려운 상황에서 짜낸 계책”라는 뜻의 사자성어는?",
+          "choices": [
+            "궁여지책",
+            "백의종군",
+            "태평성대",
+            "만고불변"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "궁",
+            "origin": "窮",
+            "meaning": "궁하다"
+          },
+          {
+            "part": "여",
+            "origin": "餘",
+            "meaning": "남다"
+          },
+          {
+            "part": "지",
+            "origin": "之",
+            "meaning": "~의"
+          },
+          {
+            "part": "책",
+            "origin": "策",
+            "meaning": "꾀"
+          }
+        ],
+        "literal": "궁한 나머지 낸 꾀",
+        "meaning": "몹시 어려운 상황에서 짜낸 계책",
+        "tip": "최후의 수단"
+      }
+    },
+    {
+      "id": "idiom-m4030",
+      "difficulty": "normal",
+      "answer": "대서특필",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'대서특필'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "신문 등에서 어떤 일을 특별히 크게 다룸",
+            "말이나 행동이 터무니없고 근거가 없음",
+            "벼슬 없이 평범한 군인으로 싸움터에 나감",
+            "이리저리 흩어지고 찢겨 갈피를 잡을 수 없음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“신문 등에서 어떤 일을 특별히 크게 다룸”라는 뜻의 사자성어는?",
+          "choices": [
+            "대서특필",
+            "백의종군",
+            "감개무량",
+            "거두절미"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "대",
+            "origin": "大",
+            "meaning": "크다"
+          },
+          {
+            "part": "서",
+            "origin": "書",
+            "meaning": "쓰다"
+          },
+          {
+            "part": "특",
+            "origin": "特",
+            "meaning": "특별하다"
+          },
+          {
+            "part": "필",
+            "origin": "筆",
+            "meaning": "붓"
+          }
+        ],
+        "literal": "크게 쓰고 특별히 적는다",
+        "meaning": "신문 등에서 어떤 일을 특별히 크게 다룸",
+        "tip": "1면 톱기사"
+      }
+    },
+    {
+      "id": "idiom-m4031",
+      "difficulty": "normal",
+      "answer": "만고불변",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'만고불변'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "오랜 세월 동안 변하지 않음",
+            "저마다 제 살길을 스스로 찾음",
+            "오래도록 사귀어 잘 아는 친구",
+            "싸움에 나가서는 물러서지 않음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“오랜 세월 동안 변하지 않음”라는 뜻의 사자성어는?",
+          "choices": [
+            "만고불변",
+            "견원지간",
+            "지리멸렬",
+            "용의주도"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "만",
+            "origin": "萬",
+            "meaning": "일만"
+          },
+          {
+            "part": "고",
+            "origin": "古",
+            "meaning": "옛"
+          },
+          {
+            "part": "불",
+            "origin": "不",
+            "meaning": "아니다"
+          },
+          {
+            "part": "변",
+            "origin": "變",
+            "meaning": "변하다"
+          }
+        ],
+        "meaning": "오랜 세월 동안 변하지 않음",
+        "tip": "만고불변의 진리"
+      }
+    },
+    {
+      "id": "idiom-m4032",
+      "difficulty": "normal",
+      "answer": "무사안일",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'무사안일'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "큰 탈 없이 편하게 지내려고만 하는 태도",
+            "정신이 한곳에 쏠려 자기 자신도 잊는 상태",
+            "말이나 행동이 터무니없고 근거가 없음",
+            "태도나 신념이 확실하고 굳어 흔들리지 않음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“큰 탈 없이 편하게 지내려고만 하는 태도”라는 뜻의 사자성어는?",
+          "choices": [
+            "무사안일",
+            "엄동설한",
+            "득의양양",
+            "고성방가"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "무",
+            "origin": "無",
+            "meaning": "없다"
+          },
+          {
+            "part": "사",
+            "origin": "事",
+            "meaning": "일"
+          },
+          {
+            "part": "안",
+            "origin": "安",
+            "meaning": "편안하다"
+          },
+          {
+            "part": "일",
+            "origin": "逸",
+            "meaning": "편안하다"
+          }
+        ],
+        "meaning": "큰 탈 없이 편하게 지내려고만 하는 태도",
+        "tip": "무사안일한 공무원"
+      }
+    },
+    {
+      "id": "idiom-m4033",
+      "difficulty": "normal",
+      "answer": "무아지경",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'무아지경'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "정신이 한곳에 쏠려 자기 자신도 잊는 상태",
+            "어진 임금이 다스려 나라가 평화로운 시대",
+            "벼슬 없이 평범한 군인으로 싸움터에 나감",
+            "이리저리 흩어지고 찢겨 갈피를 잡을 수 없음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“정신이 한곳에 쏠려 자기 자신도 잊는 상태”라는 뜻의 사자성어는?",
+          "choices": [
+            "무아지경",
+            "차일피일",
+            "시기상조",
+            "혼연일체"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "무",
+            "origin": "無",
+            "meaning": "없다"
+          },
+          {
+            "part": "아",
+            "origin": "我",
+            "meaning": "나"
+          },
+          {
+            "part": "지",
+            "origin": "之",
+            "meaning": "~의"
+          },
+          {
+            "part": "경",
+            "origin": "境",
+            "meaning": "경지"
+          }
+        ],
+        "literal": "나를 잊은 경지",
+        "meaning": "정신이 한곳에 쏠려 자기 자신도 잊는 상태",
+        "tip": "몰입의 경지"
+      }
+    },
+    {
+      "id": "idiom-m4034",
+      "difficulty": "normal",
+      "answer": "반면교사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'반면교사'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "남의 잘못된 모습을 보고 오히려 배우는 것",
+            "벼슬 없이 평범한 군인으로 싸움터에 나감",
+            "어진 임금이 다스려 나라가 평화로운 시대",
+            "태도나 신념이 확실하고 굳어 흔들리지 않음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“남의 잘못된 모습을 보고 오히려 배우는 것”라는 뜻의 사자성어는?",
+          "choices": [
+            "반면교사",
+            "대서특필",
+            "십년지기",
+            "혼연일체"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "반",
+            "origin": "反",
+            "meaning": "돌이키다"
+          },
+          {
+            "part": "면",
+            "origin": "面",
+            "meaning": "면"
+          },
+          {
+            "part": "교",
+            "origin": "敎",
+            "meaning": "가르치다"
+          },
+          {
+            "part": "사",
+            "origin": "師",
+            "meaning": "스승"
+          }
+        ],
+        "literal": "반대쪽에서 가르쳐 주는 스승",
+        "meaning": "남의 잘못된 모습을 보고 오히려 배우는 것",
+        "tip": "\"저렇게는 하지 말아야지\""
+      }
+    },
+    {
+      "id": "idiom-m4035",
+      "difficulty": "normal",
+      "answer": "백의종군",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'백의종군'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "벼슬 없이 평범한 군인으로 싸움터에 나감",
+            "질서가 정연해 조금도 흐트러지지 않음",
+            "어떤 일을 할 때 빈틈없이 꼼꼼하게 준비함",
+            "이리저리 흩어지고 찢겨 갈피를 잡을 수 없음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“벼슬 없이 평범한 군인으로 싸움터에 나감”라는 뜻의 사자성어는?",
+          "choices": [
+            "백의종군",
+            "태평성대",
+            "적재적소",
+            "좌충우돌"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "백",
+            "origin": "白",
+            "meaning": "희다"
+          },
+          {
+            "part": "의",
+            "origin": "衣",
+            "meaning": "옷"
+          },
+          {
+            "part": "종",
+            "origin": "從",
+            "meaning": "따르다"
+          },
+          {
+            "part": "군",
+            "origin": "軍",
+            "meaning": "군대"
+          }
+        ],
+        "literal": "흰옷을 입고 군대를 따른다",
+        "meaning": "벼슬 없이 평범한 군인으로 싸움터에 나감",
+        "origin": "이순신 장군이 모함으로 벼슬을 잃고 백의종군한 일로 유명해요.",
+        "tip": "직책 없이 다시 뛰기"
+      }
+    },
+    {
+      "id": "idiom-m4036",
+      "difficulty": "normal",
+      "answer": "불로장생",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'불로장생'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "늙지 않고 오래 삶",
+            "끝없이 넓고 큰 바다",
+            "공평하여 사사로움이 없음",
+            "온 마음과 온 힘을 다함"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“늙지 않고 오래 삶”라는 뜻의 사자성어는?",
+          "choices": [
+            "불로장생",
+            "견원지간",
+            "득의양양",
+            "혼연일체"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "불",
+            "origin": "不",
+            "meaning": "아니다"
+          },
+          {
+            "part": "로",
+            "origin": "老",
+            "meaning": "늙다"
+          },
+          {
+            "part": "장",
+            "origin": "長",
+            "meaning": "길다"
+          },
+          {
+            "part": "생",
+            "origin": "生",
+            "meaning": "살다"
+          }
+        ],
+        "meaning": "늙지 않고 오래 삶",
+        "tip": "진시황의 불로초"
+      }
+    },
+    {
+      "id": "idiom-m4037",
+      "difficulty": "normal",
+      "answer": "사통팔달",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'사통팔달'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "길이 사방으로 막힘없이 통함",
+            "오래도록 사귀어 잘 아는 친구",
+            "눈 내리는 몹시 추운 겨울",
+            "서로 몹시 사이가 나쁜 관계"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“길이 사방으로 막힘없이 통함”라는 뜻의 사자성어는?",
+          "choices": [
+            "사통팔달",
+            "선공후사",
+            "지리멸렬",
+            "엄동설한"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "사",
+            "origin": "四",
+            "meaning": "넷"
+          },
+          {
+            "part": "통",
+            "origin": "通",
+            "meaning": "통하다"
+          },
+          {
+            "part": "팔",
+            "origin": "八",
+            "meaning": "여덟"
+          },
+          {
+            "part": "달",
+            "origin": "達",
+            "meaning": "이르다"
+          }
+        ],
+        "literal": "네 방향으로 통하고 여덟 방향으로 닿는다",
+        "meaning": "길이 사방으로 막힘없이 통함",
+        "tip": "교통의 요지"
+      }
+    },
+    {
+      "id": "idiom-m4038",
+      "difficulty": "normal",
+      "answer": "선공후사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'선공후사'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "공적인 일을 먼저 하고 사적인 일은 뒤로 미룸",
+            "태도나 신념이 확실하고 굳어 흔들리지 않음",
+            "남의 잘못된 모습을 보고 오히려 배우는 것",
+            "정신이 한곳에 쏠려 자기 자신도 잊는 상태"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“공적인 일을 먼저 하고 사적인 일은 뒤로 미룸”라는 뜻의 사자성어는?",
+          "choices": [
+            "선공후사",
+            "불로장생",
+            "궁여지책",
+            "임전무퇴"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "선",
+            "origin": "先",
+            "meaning": "먼저"
+          },
+          {
+            "part": "공",
+            "origin": "公",
+            "meaning": "공적인 것"
+          },
+          {
+            "part": "후",
+            "origin": "後",
+            "meaning": "뒤"
+          },
+          {
+            "part": "사",
+            "origin": "私",
+            "meaning": "사사로운 것"
+          }
+        ],
+        "meaning": "공적인 일을 먼저 하고 사적인 일은 뒤로 미룸",
+        "tip": "공무원의 덕목"
+      }
+    },
+    {
+      "id": "idiom-m4039",
+      "difficulty": "normal",
+      "answer": "십년지기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'십년지기'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "오래도록 사귀어 잘 아는 친구",
+            "서로 몹시 사이가 나쁜 관계",
+            "몹시 어려운 상황에서 짜낸 계책",
+            "저마다 제 살길을 스스로 찾음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“오래도록 사귀어 잘 아는 친구”라는 뜻의 사자성어는?",
+          "choices": [
+            "십년지기",
+            "용의주도",
+            "황당무계",
+            "득의양양"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "십",
+            "origin": "十",
+            "meaning": "열"
+          },
+          {
+            "part": "년",
+            "origin": "年",
+            "meaning": "해"
+          },
+          {
+            "part": "지",
+            "origin": "知",
+            "meaning": "알다"
+          },
+          {
+            "part": "기",
+            "origin": "己",
+            "meaning": "자기"
+          }
+        ],
+        "literal": "십 년 동안 나를 알아준 사람",
+        "meaning": "오래도록 사귀어 잘 아는 친구",
+        "tip": "오래된 찐친"
+      }
+    },
+    {
+      "id": "idiom-m4040",
+      "difficulty": "normal",
+      "answer": "아수라장",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'아수라장'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "싸움이나 난리로 몹시 혼란스러운 곳",
+            "어떤 일을 하기에 아직 때가 이름",
+            "앞뒤의 군더더기를 빼고 요점만 말함",
+            "질서가 정연해 조금도 흐트러지지 않음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“싸움이나 난리로 몹시 혼란스러운 곳”라는 뜻의 사자성어는?",
+          "choices": [
+            "아수라장",
+            "백의종군",
+            "지리멸렬",
+            "전심전력"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "아",
+            "origin": "阿",
+            "meaning": "언덕"
+          },
+          {
+            "part": "수",
+            "origin": "修",
+            "meaning": "닦다"
+          },
+          {
+            "part": "라",
+            "origin": "羅",
+            "meaning": "벌이다"
+          },
+          {
+            "part": "장",
+            "origin": "場",
+            "meaning": "마당"
+          }
+        ],
+        "literal": "아수라가 싸우는 마당",
+        "meaning": "싸움이나 난리로 몹시 혼란스러운 곳",
+        "origin": "불교에서 싸우기 좋아하는 신 '아수라'가 제석천과 싸우던 곳에서 나왔어요.",
+        "tip": "세일 첫날 매장"
+      }
+    },
+    {
+      "id": "idiom-m4041",
+      "difficulty": "normal",
+      "answer": "엄동설한",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'엄동설한'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "눈 내리는 몹시 추운 겨울",
+            "뜻을 이루어 우쭐대며 뽐냄",
+            "온 마음과 온 힘을 다함",
+            "서로 몹시 사이가 나쁜 관계"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“눈 내리는 몹시 추운 겨울”라는 뜻의 사자성어는?",
+          "choices": [
+            "엄동설한",
+            "사통팔달",
+            "궁여지책",
+            "확고부동"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "엄",
+            "origin": "嚴",
+            "meaning": "엄하다"
+          },
+          {
+            "part": "동",
+            "origin": "冬",
+            "meaning": "겨울"
+          },
+          {
+            "part": "설",
+            "origin": "雪",
+            "meaning": "눈"
+          },
+          {
+            "part": "한",
+            "origin": "寒",
+            "meaning": "차다"
+          }
+        ],
+        "meaning": "눈 내리는 몹시 추운 겨울",
+        "tip": "한겨울 추위"
+      }
+    },
+    {
+      "id": "idiom-m4042",
+      "difficulty": "normal",
+      "answer": "용의주도",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'용의주도'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어떤 일을 할 때 빈틈없이 꼼꼼하게 준비함",
+            "어진 임금이 다스려 나라가 평화로운 시대",
+            "큰 탈 없이 편하게 지내려고만 하는 태도",
+            "남의 잘못된 모습을 보고 오히려 배우는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어떤 일을 할 때 빈틈없이 꼼꼼하게 준비함”라는 뜻의 사자성어는?",
+          "choices": [
+            "용의주도",
+            "공평무사",
+            "태평성대",
+            "감개무량"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "용",
+            "origin": "用",
+            "meaning": "쓰다"
+          },
+          {
+            "part": "의",
+            "origin": "意",
+            "meaning": "뜻"
+          },
+          {
+            "part": "주",
+            "origin": "周",
+            "meaning": "두루"
+          },
+          {
+            "part": "도",
+            "origin": "到",
+            "meaning": "이르다"
+          }
+        ],
+        "literal": "마음 씀이 두루 미친다",
+        "meaning": "어떤 일을 할 때 빈틈없이 꼼꼼하게 준비함",
+        "tip": "계획형 인간"
+      }
+    },
+    {
+      "id": "idiom-m4043",
+      "difficulty": "normal",
+      "answer": "이역만리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'이역만리'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "다른 나라의 아주 먼 곳",
+            "눈 내리는 몹시 추운 겨울",
+            "온 마음과 온 힘을 다함",
+            "뜻을 이루어 우쭐대며 뽐냄"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“다른 나라의 아주 먼 곳”라는 뜻의 사자성어는?",
+          "choices": [
+            "이역만리",
+            "무아지경",
+            "시기상조",
+            "고성방가"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "이",
+            "origin": "異",
+            "meaning": "다르다"
+          },
+          {
+            "part": "역",
+            "origin": "域",
+            "meaning": "지역"
+          },
+          {
+            "part": "만",
+            "origin": "萬",
+            "meaning": "일만"
+          },
+          {
+            "part": "리",
+            "origin": "里",
+            "meaning": "리"
+          }
+        ],
+        "meaning": "다른 나라의 아주 먼 곳",
+        "tip": "이역만리 타국 생활"
+      }
+    },
+    {
+      "id": "idiom-m4044",
+      "difficulty": "normal",
+      "answer": "일사불란",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'일사불란'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "질서가 정연해 조금도 흐트러지지 않음",
+            "말이나 행동이 터무니없고 근거가 없음",
+            "신문 등에서 어떤 일을 특별히 크게 다룸",
+            "마음에 사무치는 느낌이 끝이 없음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“질서가 정연해 조금도 흐트러지지 않음”라는 뜻의 사자성어는?",
+          "choices": [
+            "일사불란",
+            "백의종군",
+            "아수라장",
+            "견원지간"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "일",
+            "origin": "一",
+            "meaning": "하나"
+          },
+          {
+            "part": "사",
+            "origin": "絲",
+            "meaning": "실"
+          },
+          {
+            "part": "불",
+            "origin": "不",
+            "meaning": "아니다"
+          },
+          {
+            "part": "란",
+            "origin": "亂",
+            "meaning": "어지럽다"
+          }
+        ],
+        "literal": "실 한 올도 흐트러지지 않는다",
+        "meaning": "질서가 정연해 조금도 흐트러지지 않음",
+        "tip": "칼군무"
+      }
+    },
+    {
+      "id": "idiom-m4045",
+      "difficulty": "normal",
+      "answer": "임전무퇴",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'임전무퇴'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "싸움에 나가서는 물러서지 않음",
+            "몹시 어려운 상황에서 짜낸 계책",
+            "서로 몹시 사이가 나쁜 관계",
+            "오래도록 사귀어 잘 아는 친구"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“싸움에 나가서는 물러서지 않음”라는 뜻의 사자성어는?",
+          "choices": [
+            "임전무퇴",
+            "득의양양",
+            "궁여지책",
+            "태평성대"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "임",
+            "origin": "臨",
+            "meaning": "임하다"
+          },
+          {
+            "part": "전",
+            "origin": "戰",
+            "meaning": "싸우다"
+          },
+          {
+            "part": "무",
+            "origin": "無",
+            "meaning": "없다"
+          },
+          {
+            "part": "퇴",
+            "origin": "退",
+            "meaning": "물러나다"
+          }
+        ],
+        "meaning": "싸움에 나가서는 물러서지 않음",
+        "origin": "신라 화랑의 '세속오계' 가운데 하나예요.",
+        "tip": "화랑도의 정신"
+      }
+    },
+    {
+      "id": "idiom-m4046",
+      "difficulty": "normal",
+      "answer": "적재적소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'적재적소'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "알맞은 인재를 알맞은 자리에 씀",
+            "오래도록 사귀어 잘 아는 친구",
+            "몹시 어려운 상황에서 짜낸 계책",
+            "생각이나 행동이 완전히 하나가 됨"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“알맞은 인재를 알맞은 자리에 씀”라는 뜻의 사자성어는?",
+          "choices": [
+            "적재적소",
+            "이역만리",
+            "견원지간",
+            "태평성대"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "적",
+            "origin": "適",
+            "meaning": "알맞다"
+          },
+          {
+            "part": "재",
+            "origin": "材",
+            "meaning": "재목"
+          },
+          {
+            "part": "적",
+            "origin": "適",
+            "meaning": "알맞다"
+          },
+          {
+            "part": "소",
+            "origin": "所",
+            "meaning": "곳"
+          }
+        ],
+        "meaning": "알맞은 인재를 알맞은 자리에 씀",
+        "tip": "인사의 기본"
+      }
+    },
+    {
+      "id": "idiom-m4047",
+      "difficulty": "normal",
+      "answer": "전심전력",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'전심전력'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "온 마음과 온 힘을 다함",
+            "공평하여 사사로움이 없음",
+            "눈 내리는 몹시 추운 겨울",
+            "다른 나라의 아주 먼 곳"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“온 마음과 온 힘을 다함”라는 뜻의 사자성어는?",
+          "choices": [
+            "전심전력",
+            "공평무사",
+            "백의종군",
+            "사통팔달"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "전",
+            "origin": "全",
+            "meaning": "온전하다"
+          },
+          {
+            "part": "심",
+            "origin": "心",
+            "meaning": "마음"
+          },
+          {
+            "part": "전",
+            "origin": "全",
+            "meaning": "온전하다"
+          },
+          {
+            "part": "력",
+            "origin": "力",
+            "meaning": "힘"
+          }
+        ],
+        "meaning": "온 마음과 온 힘을 다함",
+        "tip": "최선을 다하다"
+      }
+    },
+    {
+      "id": "idiom-m4048",
+      "difficulty": "normal",
+      "answer": "좌충우돌",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'좌충우돌'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "이리저리 마구 부딪치거나 아무 데나 함부로 덤빔",
+            "정신이 한곳에 쏠려 자기 자신도 잊는 상태",
+            "남의 잘못된 모습을 보고 오히려 배우는 것",
+            "남에게 피해를 줄 만큼 큰 소리로 떠들고 노래함"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“이리저리 마구 부딪치거나 아무 데나 함부로 덤빔”라는 뜻의 사자성어는?",
+          "choices": [
+            "좌충우돌",
+            "십년지기",
+            "탐관오리",
+            "전심전력"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "좌",
+            "origin": "左",
+            "meaning": "왼쪽"
+          },
+          {
+            "part": "충",
+            "origin": "衝",
+            "meaning": "찌르다"
+          },
+          {
+            "part": "우",
+            "origin": "右",
+            "meaning": "오른쪽"
+          },
+          {
+            "part": "돌",
+            "origin": "突",
+            "meaning": "부딪치다"
+          }
+        ],
+        "literal": "왼쪽으로 찌르고 오른쪽으로 부딪친다",
+        "meaning": "이리저리 마구 부딪치거나 아무 데나 함부로 덤빔",
+        "tip": "좌충우돌 신입 생활"
+      }
+    },
+    {
+      "id": "idiom-m4049",
+      "difficulty": "normal",
+      "answer": "지리멸렬",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'지리멸렬'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "이리저리 흩어지고 찢겨 갈피를 잡을 수 없음",
+            "남의 잘못된 모습을 보고 오히려 배우는 것",
+            "어떤 일을 할 때 빈틈없이 꼼꼼하게 준비함",
+            "벼슬 없이 평범한 군인으로 싸움터에 나감"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“이리저리 흩어지고 찢겨 갈피를 잡을 수 없음”라는 뜻의 사자성어는?",
+          "choices": [
+            "지리멸렬",
+            "불로장생",
+            "고성방가",
+            "전심전력"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "지",
+            "origin": "支",
+            "meaning": "가르다"
+          },
+          {
+            "part": "리",
+            "origin": "離",
+            "meaning": "떠나다"
+          },
+          {
+            "part": "멸",
+            "origin": "滅",
+            "meaning": "멸하다"
+          },
+          {
+            "part": "렬",
+            "origin": "裂",
+            "meaning": "찢다"
+          }
+        ],
+        "meaning": "이리저리 흩어지고 찢겨 갈피를 잡을 수 없음",
+        "tip": "지리멸렬한 회의"
+      }
+    },
+    {
+      "id": "idiom-m4050",
+      "difficulty": "normal",
+      "answer": "차일피일",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'차일피일'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "약속이나 일을 자꾸 미루는 모양",
+            "오랜 세월 동안 변하지 않음",
+            "앞뒤의 군더더기를 빼고 요점만 말함",
+            "저마다 제 살길을 스스로 찾음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“약속이나 일을 자꾸 미루는 모양”라는 뜻의 사자성어는?",
+          "choices": [
+            "차일피일",
+            "황당무계",
+            "전심전력",
+            "득의양양"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "차",
+            "origin": "此",
+            "meaning": "이"
+          },
+          {
+            "part": "일",
+            "origin": "日",
+            "meaning": "날"
+          },
+          {
+            "part": "피",
+            "origin": "彼",
+            "meaning": "저"
+          },
+          {
+            "part": "일",
+            "origin": "日",
+            "meaning": "날"
+          }
+        ],
+        "literal": "이날 저날",
+        "meaning": "약속이나 일을 자꾸 미루는 모양",
+        "tip": "차일피일 미루던 숙제"
+      }
+    },
+    {
+      "id": "idiom-m4051",
+      "difficulty": "normal",
+      "answer": "태평성대",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'태평성대'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어진 임금이 다스려 나라가 평화로운 시대",
+            "말이나 행동이 터무니없고 근거가 없음",
+            "태도나 신념이 확실하고 굳어 흔들리지 않음",
+            "어떤 일을 할 때 빈틈없이 꼼꼼하게 준비함"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어진 임금이 다스려 나라가 평화로운 시대”라는 뜻의 사자성어는?",
+          "choices": [
+            "태평성대",
+            "차일피일",
+            "황당무계",
+            "견원지간"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "태",
+            "origin": "太",
+            "meaning": "크다"
+          },
+          {
+            "part": "평",
+            "origin": "平",
+            "meaning": "평평하다"
+          },
+          {
+            "part": "성",
+            "origin": "聖",
+            "meaning": "성스럽다"
+          },
+          {
+            "part": "대",
+            "origin": "代",
+            "meaning": "시대"
+          }
+        ],
+        "meaning": "어진 임금이 다스려 나라가 평화로운 시대",
+        "tip": "요순시대"
+      }
+    },
+    {
+      "id": "idiom-m4052",
+      "difficulty": "normal",
+      "answer": "황당무계",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'황당무계'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "말이나 행동이 터무니없고 근거가 없음",
+            "질서가 정연해 조금도 흐트러지지 않음",
+            "재물을 탐하고 행실이 더러운 관리",
+            "싸움이나 난리로 몹시 혼란스러운 곳"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“말이나 행동이 터무니없고 근거가 없음”라는 뜻의 사자성어는?",
+          "choices": [
+            "황당무계",
+            "십년지기",
+            "궁여지책",
+            "혼연일체"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "황",
+            "origin": "荒",
+            "meaning": "거칠다"
+          },
+          {
+            "part": "당",
+            "origin": "唐",
+            "meaning": "황당하다"
+          },
+          {
+            "part": "무",
+            "origin": "無",
+            "meaning": "없다"
+          },
+          {
+            "part": "계",
+            "origin": "稽",
+            "meaning": "상고하다"
+          }
+        ],
+        "meaning": "말이나 행동이 터무니없고 근거가 없음",
+        "tip": "황당무계한 소문"
+      }
+    },
+    {
+      "id": "idiom-m4053",
+      "difficulty": "normal",
+      "answer": "견원지간",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'견원지간'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "서로 몹시 사이가 나쁜 관계",
+            "눈 내리는 몹시 추운 겨울",
+            "오랜 세월 동안 변하지 않음",
+            "오래도록 사귀어 잘 아는 친구"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“서로 몹시 사이가 나쁜 관계”라는 뜻의 사자성어는?",
+          "choices": [
+            "견원지간",
+            "지리멸렬",
+            "임전무퇴",
+            "무아지경"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "견",
+            "origin": "犬",
+            "meaning": "개"
+          },
+          {
+            "part": "원",
+            "origin": "猿",
+            "meaning": "원숭이"
+          },
+          {
+            "part": "지",
+            "origin": "之",
+            "meaning": "~의"
+          },
+          {
+            "part": "간",
+            "origin": "間",
+            "meaning": "사이"
+          }
+        ],
+        "literal": "개와 원숭이의 사이",
+        "meaning": "서로 몹시 사이가 나쁜 관계",
+        "tip": "앙숙"
+      }
+    },
+    {
+      "id": "idiom-m4054",
+      "difficulty": "normal",
+      "answer": "득의양양",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'득의양양'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "뜻을 이루어 우쭐대며 뽐냄",
+            "다른 나라의 아주 먼 곳",
+            "공평하여 사사로움이 없음",
+            "눈 내리는 몹시 추운 겨울"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“뜻을 이루어 우쭐대며 뽐냄”라는 뜻의 사자성어는?",
+          "choices": [
+            "득의양양",
+            "만고불변",
+            "무사안일",
+            "불로장생"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "득",
+            "origin": "得",
+            "meaning": "얻다"
+          },
+          {
+            "part": "의",
+            "origin": "意",
+            "meaning": "뜻"
+          },
+          {
+            "part": "양",
+            "origin": "揚",
+            "meaning": "날리다"
+          },
+          {
+            "part": "양",
+            "origin": "揚",
+            "meaning": "날리다"
+          }
+        ],
+        "meaning": "뜻을 이루어 우쭐대며 뽐냄",
+        "tip": "1등 하고 으쓱"
+      }
+    },
+    {
+      "id": "idiom-m4055",
+      "difficulty": "normal",
+      "answer": "시기상조",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'시기상조'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어떤 일을 하기에 아직 때가 이름",
+            "저마다 제 살길을 스스로 찾음",
+            "알맞은 인재를 알맞은 자리에 씀",
+            "앞뒤의 군더더기를 빼고 요점만 말함"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어떤 일을 하기에 아직 때가 이름”라는 뜻의 사자성어는?",
+          "choices": [
+            "시기상조",
+            "용의주도",
+            "좌충우돌",
+            "지리멸렬"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "시",
+            "origin": "時",
+            "meaning": "때"
+          },
+          {
+            "part": "기",
+            "origin": "機",
+            "meaning": "기회"
+          },
+          {
+            "part": "상",
+            "origin": "尙",
+            "meaning": "오히려"
+          },
+          {
+            "part": "조",
+            "origin": "早",
+            "meaning": "이르다"
+          }
+        ],
+        "literal": "때가 아직 이르다",
+        "meaning": "어떤 일을 하기에 아직 때가 이름",
+        "tip": "\"결론 내리기엔 시기상조\""
+      }
+    },
+    {
+      "id": "idiom-m4056",
+      "difficulty": "normal",
+      "answer": "어두육미",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'어두육미'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "물고기는 머리 쪽이, 짐승 고기는 꼬리 쪽이 맛있다는 말",
+            "서너 사람 또는 대여섯 사람씩 무리 지어 다니는 모양",
+            "가는 봄의 경치, 또는 힘과 세력이 쇠퇴해 보잘것없이 됨",
+            "아무 보람 없는 일을 하거나, 출세하고도 남이 알아주지 않음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“물고기는 머리 쪽이, 짐승 고기는 꼬리 쪽이 맛있다는 말”라는 뜻의 사자성어는?",
+          "choices": [
+            "어두육미",
+            "십년지기",
+            "시기상조",
+            "불로장생"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "어",
+            "origin": "魚",
+            "meaning": "물고기"
+          },
+          {
+            "part": "두",
+            "origin": "頭",
+            "meaning": "머리"
+          },
+          {
+            "part": "육",
+            "origin": "肉",
+            "meaning": "고기"
+          },
+          {
+            "part": "미",
+            "origin": "尾",
+            "meaning": "꼬리"
+          }
+        ],
+        "literal": "물고기는 머리, 짐승 고기는 꼬리",
+        "meaning": "물고기는 머리 쪽이, 짐승 고기는 꼬리 쪽이 맛있다는 말",
+        "tip": "생선 머리가 진짜"
+      }
+    },
+    {
+      "id": "idiom-m4057",
+      "difficulty": "normal",
+      "answer": "천편일률",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'천편일률'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "여럿이 개성 없이 모두 비슷비슷함",
+            "마음에 사무치는 느낌이 끝이 없음",
+            "저마다 제 살길을 스스로 찾음",
+            "질서가 정연해 조금도 흐트러지지 않음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“여럿이 개성 없이 모두 비슷비슷함”라는 뜻의 사자성어는?",
+          "choices": [
+            "천편일률",
+            "혼연일체",
+            "감개무량",
+            "황당무계"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "천",
+            "origin": "千",
+            "meaning": "천"
+          },
+          {
+            "part": "편",
+            "origin": "篇",
+            "meaning": "책"
+          },
+          {
+            "part": "일",
+            "origin": "一",
+            "meaning": "하나"
+          },
+          {
+            "part": "률",
+            "origin": "律",
+            "meaning": "법칙"
+          }
+        ],
+        "literal": "천 편의 글이 한 가지 가락",
+        "meaning": "여럿이 개성 없이 모두 비슷비슷함",
+        "tip": "천편일률적인 아이돌 콘셉트"
+      }
+    },
+    {
+      "id": "idiom-m4058",
+      "difficulty": "normal",
+      "answer": "혼연일체",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'혼연일체'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "생각이나 행동이 완전히 하나가 됨",
+            "싸움에 나가서는 물러서지 않음",
+            "약속이나 일을 자꾸 미루는 모양",
+            "앞뒤의 군더더기를 빼고 요점만 말함"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“생각이나 행동이 완전히 하나가 됨”라는 뜻의 사자성어는?",
+          "choices": [
+            "혼연일체",
+            "무아지경",
+            "견원지간",
+            "확고부동"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "혼",
+            "origin": "渾",
+            "meaning": "섞이다"
+          },
+          {
+            "part": "연",
+            "origin": "然",
+            "meaning": "그러하다"
+          },
+          {
+            "part": "일",
+            "origin": "一",
+            "meaning": "하나"
+          },
+          {
+            "part": "체",
+            "origin": "體",
+            "meaning": "몸"
+          }
+        ],
+        "meaning": "생각이나 행동이 완전히 하나가 됨",
+        "tip": "팀워크"
+      }
+    },
+    {
+      "id": "idiom-m4059",
+      "difficulty": "normal",
+      "answer": "확고부동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'확고부동'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "태도나 신념이 확실하고 굳어 흔들리지 않음",
+            "이리저리 흩어지고 찢겨 갈피를 잡을 수 없음",
+            "남의 잘못된 모습을 보고 오히려 배우는 것",
+            "신문 등에서 어떤 일을 특별히 크게 다룸"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“태도나 신념이 확실하고 굳어 흔들리지 않음”라는 뜻의 사자성어는?",
+          "choices": [
+            "확고부동",
+            "고성방가",
+            "이역만리",
+            "태평성대"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "확",
+            "origin": "確",
+            "meaning": "굳다"
+          },
+          {
+            "part": "고",
+            "origin": "固",
+            "meaning": "굳다"
+          },
+          {
+            "part": "부",
+            "origin": "不",
+            "meaning": "아니다"
+          },
+          {
+            "part": "동",
+            "origin": "動",
+            "meaning": "움직이다"
+          }
+        ],
+        "meaning": "태도나 신념이 확실하고 굳어 흔들리지 않음",
+        "tip": "확고부동한 1위"
+      }
+    },
+    {
+      "id": "idiom-m4060",
+      "difficulty": "normal",
+      "answer": "탐관오리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'탐관오리'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "재물을 탐하고 행실이 더러운 관리",
+            "말이나 행동이 터무니없고 근거가 없음",
+            "알맞은 인재를 알맞은 자리에 씀",
+            "저마다 제 살길을 스스로 찾음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“재물을 탐하고 행실이 더러운 관리”라는 뜻의 사자성어는?",
+          "choices": [
+            "탐관오리",
+            "만고불변",
+            "엄동설한",
+            "좌충우돌"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "탐",
+            "origin": "貪",
+            "meaning": "탐내다"
+          },
+          {
+            "part": "관",
+            "origin": "官",
+            "meaning": "벼슬"
+          },
+          {
+            "part": "오",
+            "origin": "汚",
+            "meaning": "더럽다"
+          },
+          {
+            "part": "리",
+            "origin": "吏",
+            "meaning": "관리"
+          }
+        ],
+        "meaning": "재물을 탐하고 행실이 더러운 관리",
+        "tip": "춘향전의 변학도"
+      }
+    },
+    {
+      "id": "idiom-m4061",
+      "difficulty": "hard",
+      "answer": "건곤일척",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'건곤일척'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "운명을 걸고 단판 승부를 겨룸",
+            "같은 겨레끼리 서로 싸우고 죽임",
+            "산길이 몹시 험하게 꼬불꼬불함",
+            "싸움에 나가서는 물러서지 않음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“운명을 걸고 단판 승부를 겨룸”라는 뜻의 사자성어는?",
+          "choices": [
+            "건곤일척",
+            "구절양장",
+            "배수지진",
+            "이율배반"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "건",
+            "origin": "乾",
+            "meaning": "하늘"
+          },
+          {
+            "part": "곤",
+            "origin": "坤",
+            "meaning": "땅"
+          },
+          {
+            "part": "일",
+            "origin": "一",
+            "meaning": "하나"
+          },
+          {
+            "part": "척",
+            "origin": "擲",
+            "meaning": "던지다"
+          }
+        ],
+        "literal": "하늘과 땅을 걸고 한 번 던진다",
+        "meaning": "운명을 걸고 단판 승부를 겨룸",
+        "tip": "최후의 한판"
+      }
+    },
+    {
+      "id": "idiom-m4062",
+      "difficulty": "hard",
+      "answer": "구절양장",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'구절양장'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "산길이 몹시 험하게 꼬불꼬불함",
+            "운명을 걸고 단판 승부를 겨룸",
+            "같은 겨레끼리 서로 싸우고 죽임",
+            "서로 몹시 사이가 나쁜 관계"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“산길이 몹시 험하게 꼬불꼬불함”라는 뜻의 사자성어는?",
+          "choices": [
+            "구절양장",
+            "금의야행",
+            "이율배반",
+            "면종복배"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "구",
+            "origin": "九",
+            "meaning": "아홉"
+          },
+          {
+            "part": "절",
+            "origin": "折",
+            "meaning": "꺾다"
+          },
+          {
+            "part": "양",
+            "origin": "羊",
+            "meaning": "양"
+          },
+          {
+            "part": "장",
+            "origin": "腸",
+            "meaning": "창자"
+          }
+        ],
+        "literal": "아홉 번 꺾인 양의 창자",
+        "meaning": "산길이 몹시 험하게 꼬불꼬불함",
+        "tip": "대관령 옛길"
+      }
+    },
+    {
+      "id": "idiom-m4063",
+      "difficulty": "hard",
+      "answer": "낙화유수",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'낙화유수'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "가는 봄의 경치, 또는 힘과 세력이 쇠퇴해 보잘것없이 됨",
+            "아무 보람 없는 일을 하거나, 출세하고도 남이 알아주지 않음",
+            "서로 모순되는 두 명제가 똑같이 타당하게 주장되는 일",
+            "물고기는 머리 쪽이, 짐승 고기는 꼬리 쪽이 맛있다는 말"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“가는 봄의 경치, 또는 힘과 세력이 쇠퇴해 보잘것없이 됨”라는 뜻의 사자성어는?",
+          "choices": [
+            "낙화유수",
+            "언감생심",
+            "초록동색",
+            "이율배반"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "낙",
+            "origin": "落",
+            "meaning": "떨어지다"
+          },
+          {
+            "part": "화",
+            "origin": "花",
+            "meaning": "꽃"
+          },
+          {
+            "part": "유",
+            "origin": "流",
+            "meaning": "흐르다"
+          },
+          {
+            "part": "수",
+            "origin": "水",
+            "meaning": "물"
+          }
+        ],
+        "literal": "떨어지는 꽃과 흐르는 물",
+        "meaning": "가는 봄의 경치, 또는 힘과 세력이 쇠퇴해 보잘것없이 됨",
+        "tip": "봄날은 간다"
+      }
+    },
+    {
+      "id": "idiom-m4064",
+      "difficulty": "hard",
+      "answer": "면종복배",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'면종복배'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "겉으로는 따르는 척하면서 속으로는 배반함",
+            "목숨이 곧 끊어질 만큼 몹시 위태로움",
+            "물러설 곳 없이 목숨을 걸고 싸우는 태세",
+            "처지가 같은 사람끼리 어울리거나 편을 듦"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“겉으로는 따르는 척하면서 속으로는 배반함”라는 뜻의 사자성어는?",
+          "choices": [
+            "면종복배",
+            "이율배반",
+            "정문일침",
+            "초록동색"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "면",
+            "origin": "面",
+            "meaning": "얼굴"
+          },
+          {
+            "part": "종",
+            "origin": "從",
+            "meaning": "따르다"
+          },
+          {
+            "part": "복",
+            "origin": "腹",
+            "meaning": "배"
+          },
+          {
+            "part": "배",
+            "origin": "背",
+            "meaning": "등지다"
+          }
+        ],
+        "literal": "얼굴로는 따르고 배 속으로는 등진다",
+        "meaning": "겉으로는 따르는 척하면서 속으로는 배반함",
+        "tip": "양봉음위와 비슷"
+      }
+    },
+    {
+      "id": "idiom-m4065",
+      "difficulty": "hard",
+      "answer": "명재경각",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'명재경각'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "목숨이 곧 끊어질 만큼 몹시 위태로움",
+            "감히 그런 마음을 품을 수도 없음",
+            "처지가 같은 사람끼리 어울리거나 편을 듦",
+            "상대의 급소를 찌르는 따끔한 충고"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“목숨이 곧 끊어질 만큼 몹시 위태로움”라는 뜻의 사자성어는?",
+          "choices": [
+            "명재경각",
+            "정문일침",
+            "언감생심",
+            "초록동색"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "명",
+            "origin": "命",
+            "meaning": "목숨"
+          },
+          {
+            "part": "재",
+            "origin": "在",
+            "meaning": "있다"
+          },
+          {
+            "part": "경",
+            "origin": "頃",
+            "meaning": "잠깐"
+          },
+          {
+            "part": "각",
+            "origin": "刻",
+            "meaning": "시각"
+          }
+        ],
+        "literal": "목숨이 잠깐 사이에 달려 있다",
+        "meaning": "목숨이 곧 끊어질 만큼 몹시 위태로움",
+        "tip": "위독한 상태"
+      }
+    },
+    {
+      "id": "idiom-m4066",
+      "difficulty": "hard",
+      "answer": "정문일침",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'정문일침'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "상대의 급소를 찌르는 따끔한 충고",
+            "산길이 몹시 험하게 꼬불꼬불함",
+            "같은 겨레끼리 서로 싸우고 죽임",
+            "말이나 글의 요점을 잡을 수 없음"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“상대의 급소를 찌르는 따끔한 충고”라는 뜻의 사자성어는?",
+          "choices": [
+            "정문일침",
+            "면종복배",
+            "건곤일척",
+            "배수지진"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "정",
+            "origin": "頂",
+            "meaning": "정수리"
+          },
+          {
+            "part": "문",
+            "origin": "門",
+            "meaning": "문"
+          },
+          {
+            "part": "일",
+            "origin": "一",
+            "meaning": "하나"
+          },
+          {
+            "part": "침",
+            "origin": "鍼",
+            "meaning": "침"
+          }
+        ],
+        "literal": "정수리에 놓는 침 한 대",
+        "meaning": "상대의 급소를 찌르는 따끔한 충고",
+        "tip": "뼈 때리는 조언"
+      }
+    },
+    {
+      "id": "idiom-m4067",
+      "difficulty": "hard",
+      "answer": "초미지급",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'초미지급'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "매우 급한 일",
+            "몸이 몹시 여윔",
+            "아주 다행스러움",
+            "늙지 않고 오래 삶"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“매우 급한 일”라는 뜻의 사자성어는?",
+          "choices": [
+            "초미지급",
+            "피골상접",
+            "언감생심",
+            "건곤일척"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "초",
+            "origin": "焦",
+            "meaning": "타다"
+          },
+          {
+            "part": "미",
+            "origin": "眉",
+            "meaning": "눈썹"
+          },
+          {
+            "part": "지",
+            "origin": "之",
+            "meaning": "~의"
+          },
+          {
+            "part": "급",
+            "origin": "急",
+            "meaning": "급하다"
+          }
+        ],
+        "literal": "눈썹에 불이 붙은 것처럼 급하다",
+        "meaning": "매우 급한 일",
+        "tip": "발등에 불이 떨어지다와 비슷"
+      }
+    },
+    {
+      "id": "idiom-m4068",
+      "difficulty": "hard",
+      "answer": "피골상접",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'피골상접'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "몸이 몹시 여윔",
+            "아주 다행스러움",
+            "매우 급한 일",
+            "늙지 않고 오래 삶"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“몸이 몹시 여윔”라는 뜻의 사자성어는?",
+          "choices": [
+            "피골상접",
+            "초록동색",
+            "낙화유수",
+            "배수지진"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "피",
+            "origin": "皮",
+            "meaning": "가죽"
+          },
+          {
+            "part": "골",
+            "origin": "骨",
+            "meaning": "뼈"
+          },
+          {
+            "part": "상",
+            "origin": "相",
+            "meaning": "서로"
+          },
+          {
+            "part": "접",
+            "origin": "接",
+            "meaning": "닿다"
+          }
+        ],
+        "literal": "살가죽과 뼈가 서로 맞붙었다",
+        "meaning": "몸이 몹시 여윔",
+        "tip": "뼈만 앙상"
+      }
+    },
+    {
+      "id": "idiom-m4069",
+      "difficulty": "hard",
+      "answer": "금의야행",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'금의야행'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "아무 보람 없는 일을 하거나, 출세하고도 남이 알아주지 않음",
+            "가는 봄의 경치, 또는 힘과 세력이 쇠퇴해 보잘것없이 됨",
+            "서로 모순되는 두 명제가 똑같이 타당하게 주장되는 일",
+            "서너 사람 또는 대여섯 사람씩 무리 지어 다니는 모양"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“아무 보람 없는 일을 하거나, 출세하고도 남이 알아주지 않음”라는 뜻의 사자성어는?",
+          "choices": [
+            "금의야행",
+            "동족상잔",
+            "언감생심",
+            "장삼이사"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "금",
+            "origin": "錦",
+            "meaning": "비단"
+          },
+          {
+            "part": "의",
+            "origin": "衣",
+            "meaning": "옷"
+          },
+          {
+            "part": "야",
+            "origin": "夜",
+            "meaning": "밤"
+          },
+          {
+            "part": "행",
+            "origin": "行",
+            "meaning": "다니다"
+          }
+        ],
+        "literal": "비단옷을 입고 밤길을 다닌다",
+        "meaning": "아무 보람 없는 일을 하거나, 출세하고도 남이 알아주지 않음",
+        "origin": "항우가 진나라를 무너뜨린 뒤 \"부귀해져서 고향에 돌아가지 않으면 비단옷을 입고 밤길을 걷는 것과 같다\"고 한 데서 나왔어요.",
+        "tip": "반대는 금의환향"
+      }
+    },
+    {
+      "id": "idiom-m4070",
+      "difficulty": "hard",
+      "answer": "동족상잔",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'동족상잔'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "같은 겨레끼리 서로 싸우고 죽임",
+            "운명을 걸고 단판 승부를 겨룸",
+            "말이나 글의 요점을 잡을 수 없음",
+            "상대의 급소를 찌르는 따끔한 충고"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“같은 겨레끼리 서로 싸우고 죽임”라는 뜻의 사자성어는?",
+          "choices": [
+            "동족상잔",
+            "건곤일척",
+            "낙화유수",
+            "정문일침"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "동",
+            "origin": "同",
+            "meaning": "같다"
+          },
+          {
+            "part": "족",
+            "origin": "族",
+            "meaning": "겨레"
+          },
+          {
+            "part": "상",
+            "origin": "相",
+            "meaning": "서로"
+          },
+          {
+            "part": "잔",
+            "origin": "殘",
+            "meaning": "해치다"
+          }
+        ],
+        "meaning": "같은 겨레끼리 서로 싸우고 죽임",
+        "tip": "6·25 전쟁을 이르는 말"
+      }
+    },
+    {
+      "id": "idiom-m4071",
+      "difficulty": "hard",
+      "answer": "배수지진",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'배수지진'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "물러설 곳 없이 목숨을 걸고 싸우는 태세",
+            "처지가 같은 사람끼리 어울리거나 편을 듦",
+            "상대를 마음대로 다루어 진심으로 복종하게 함",
+            "이름이나 신분이 특별하지 않은 평범한 사람들"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“물러설 곳 없이 목숨을 걸고 싸우는 태세”라는 뜻의 사자성어는?",
+          "choices": [
+            "배수지진",
+            "초록동색",
+            "정문일침",
+            "이율배반"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "배",
+            "origin": "背",
+            "meaning": "등지다"
+          },
+          {
+            "part": "수",
+            "origin": "水",
+            "meaning": "물"
+          },
+          {
+            "part": "지",
+            "origin": "之",
+            "meaning": "~의"
+          },
+          {
+            "part": "진",
+            "origin": "陣",
+            "meaning": "진"
+          }
+        ],
+        "literal": "강물을 등지고 친 진",
+        "meaning": "물러설 곳 없이 목숨을 걸고 싸우는 태세",
+        "origin": "한나라 장수 한신이 일부러 강을 등지고 진을 쳐 병사들이 죽기로 싸우게 만들어 이긴 데서 나왔어요.",
+        "tip": "배수의 진을 치다"
+      }
+    },
+    {
+      "id": "idiom-m4072",
+      "difficulty": "hard",
+      "answer": "언감생심",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'언감생심'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "감히 그런 마음을 품을 수도 없음",
+            "상대의 급소를 찌르는 따끔한 충고",
+            "목숨이 곧 끊어질 만큼 몹시 위태로움",
+            "같은 겨레끼리 서로 싸우고 죽임"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“감히 그런 마음을 품을 수도 없음”라는 뜻의 사자성어는?",
+          "choices": [
+            "언감생심",
+            "초미지급",
+            "피골상접",
+            "면종복배"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "언",
+            "origin": "焉",
+            "meaning": "어찌"
+          },
+          {
+            "part": "감",
+            "origin": "敢",
+            "meaning": "감히"
+          },
+          {
+            "part": "생",
+            "origin": "生",
+            "meaning": "내다"
+          },
+          {
+            "part": "심",
+            "origin": "心",
+            "meaning": "마음"
+          }
+        ],
+        "literal": "어찌 감히 그런 마음을 품겠는가",
+        "meaning": "감히 그런 마음을 품을 수도 없음",
+        "tip": "\"언감생심 꿈도 못 꾼다\""
+      }
+    },
+    {
+      "id": "idiom-m4073",
+      "difficulty": "hard",
+      "answer": "요령부득",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'요령부득'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "말이나 글의 요점을 잡을 수 없음",
+            "같은 겨레끼리 서로 싸우고 죽임",
+            "감히 그런 마음을 품을 수도 없음",
+            "상대의 급소를 찌르는 따끔한 충고"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“말이나 글의 요점을 잡을 수 없음”라는 뜻의 사자성어는?",
+          "choices": [
+            "요령부득",
+            "구절양장",
+            "초미지급",
+            "칠종칠금"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "요",
+            "origin": "要",
+            "meaning": "요긴하다"
+          },
+          {
+            "part": "령",
+            "origin": "領",
+            "meaning": "옷깃"
+          },
+          {
+            "part": "부",
+            "origin": "不",
+            "meaning": "아니다"
+          },
+          {
+            "part": "득",
+            "origin": "得",
+            "meaning": "얻다"
+          }
+        ],
+        "meaning": "말이나 글의 요점을 잡을 수 없음",
+        "tip": "횡설수설과 비슷"
+      }
+    },
+    {
+      "id": "idiom-m4074",
+      "difficulty": "hard",
+      "answer": "이율배반",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'이율배반'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "서로 모순되는 두 명제가 똑같이 타당하게 주장되는 일",
+            "가는 봄의 경치, 또는 힘과 세력이 쇠퇴해 보잘것없이 됨",
+            "물고기는 머리 쪽이, 짐승 고기는 꼬리 쪽이 맛있다는 말",
+            "서너 사람 또는 대여섯 사람씩 무리 지어 다니는 모양"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“서로 모순되는 두 명제가 똑같이 타당하게 주장되는 일”라는 뜻의 사자성어는?",
+          "choices": [
+            "이율배반",
+            "명재경각",
+            "면종복배",
+            "장삼이사"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "이",
+            "origin": "二",
+            "meaning": "둘"
+          },
+          {
+            "part": "율",
+            "origin": "律",
+            "meaning": "법칙"
+          },
+          {
+            "part": "배",
+            "origin": "背",
+            "meaning": "등지다"
+          },
+          {
+            "part": "반",
+            "origin": "反",
+            "meaning": "돌이키다"
+          }
+        ],
+        "literal": "두 법칙이 서로 등진다",
+        "meaning": "서로 모순되는 두 명제가 똑같이 타당하게 주장되는 일",
+        "tip": "자가당착과 비슷"
+      }
+    },
+    {
+      "id": "idiom-m4075",
+      "difficulty": "hard",
+      "answer": "장삼이사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'장삼이사'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "이름이나 신분이 특별하지 않은 평범한 사람들",
+            "처지가 같은 사람끼리 어울리거나 편을 듦",
+            "상대를 마음대로 다루어 진심으로 복종하게 함",
+            "물러설 곳 없이 목숨을 걸고 싸우는 태세"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“이름이나 신분이 특별하지 않은 평범한 사람들”라는 뜻의 사자성어는?",
+          "choices": [
+            "장삼이사",
+            "낙화유수",
+            "초록동색",
+            "정문일침"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "장",
+            "origin": "張",
+            "meaning": "장(성씨)"
+          },
+          {
+            "part": "삼",
+            "origin": "三",
+            "meaning": "셋"
+          },
+          {
+            "part": "이",
+            "origin": "李",
+            "meaning": "이(성씨)"
+          },
+          {
+            "part": "사",
+            "origin": "四",
+            "meaning": "넷"
+          }
+        ],
+        "literal": "장씨네 셋째와 이씨네 넷째",
+        "meaning": "이름이나 신분이 특별하지 않은 평범한 사람들",
+        "tip": "갑남을녀와 비슷"
+      }
+    },
+    {
+      "id": "idiom-m4076",
+      "difficulty": "hard",
+      "answer": "초록동색",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'초록동색'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "처지가 같은 사람끼리 어울리거나 편을 듦",
+            "겉으로는 따르는 척하면서 속으로는 배반함",
+            "목숨이 곧 끊어질 만큼 몹시 위태로움",
+            "이름이나 신분이 특별하지 않은 평범한 사람들"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“처지가 같은 사람끼리 어울리거나 편을 듦”라는 뜻의 사자성어는?",
+          "choices": [
+            "초록동색",
+            "정문일침",
+            "건곤일척",
+            "칠종칠금"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "초",
+            "origin": "草",
+            "meaning": "풀"
+          },
+          {
+            "part": "록",
+            "origin": "綠",
+            "meaning": "초록"
+          },
+          {
+            "part": "동",
+            "origin": "同",
+            "meaning": "같다"
+          },
+          {
+            "part": "색",
+            "origin": "色",
+            "meaning": "빛"
+          }
+        ],
+        "literal": "풀빛과 녹색은 같은 빛",
+        "meaning": "처지가 같은 사람끼리 어울리거나 편을 듦",
+        "tip": "가재는 게 편"
+      }
+    },
+    {
+      "id": "idiom-m4077",
+      "difficulty": "hard",
+      "answer": "칠종칠금",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'칠종칠금'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "상대를 마음대로 다루어 진심으로 복종하게 함",
+            "겉으로는 따르는 척하면서 속으로는 배반함",
+            "처지가 같은 사람끼리 어울리거나 편을 듦",
+            "물러설 곳 없이 목숨을 걸고 싸우는 태세"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“상대를 마음대로 다루어 진심으로 복종하게 함”라는 뜻의 사자성어는?",
+          "choices": [
+            "칠종칠금",
+            "동족상잔",
+            "구절양장",
+            "피골상접"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "칠",
+            "origin": "七",
+            "meaning": "일곱"
+          },
+          {
+            "part": "종",
+            "origin": "縱",
+            "meaning": "놓아주다"
+          },
+          {
+            "part": "칠",
+            "origin": "七",
+            "meaning": "일곱"
+          },
+          {
+            "part": "금",
+            "origin": "擒",
+            "meaning": "사로잡다"
+          }
+        ],
+        "literal": "일곱 번 놓아주고 일곱 번 잡는다",
+        "meaning": "상대를 마음대로 다루어 진심으로 복종하게 함",
+        "origin": "제갈량이 남만의 왕 맹획을 일곱 번 잡았다가 일곱 번 놓아주어 마침내 진심으로 항복하게 했다는 이야기에서 나왔어요.",
+        "tip": "제갈량과 맹획"
+      }
+    }
+  ]
+}
