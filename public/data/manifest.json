@@ -1,5 +1,5 @@
 {
-  "version": 193,
+  "version": 194,
   "files": [
     {
       "category": "idiom",
@@ -479,6 +479,11 @@
     {
       "category": "life",
       "file": "life.m7.json",
+      "version": 1
+    },
+    {
+      "category": "life",
+      "file": "life.m8.json",
       "version": 1
     },
     {
