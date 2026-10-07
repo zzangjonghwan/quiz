@@ -1,5 +1,5 @@
 {
-  "version": 95,
+  "version": 97,
   "files": [
     {
       "category": "idiom",
@@ -353,6 +353,11 @@
     },
     {
       "category": "law",
+      "file": "law.m3.json",
+      "version": 1
+    },
+    {
+      "category": "law",
       "file": "law.signs.json",
       "version": 1
     },
@@ -454,6 +459,11 @@
     {
       "category": "news",
       "file": "news.m.json",
+      "version": 1
+    },
+    {
+      "category": "news",
+      "file": "news.m2.json",
       "version": 1
     },
     {
