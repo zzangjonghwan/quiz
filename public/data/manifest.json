@@ -1,5 +1,5 @@
 {
-  "version": 75,
+  "version": 76,
   "files": [
     {
       "category": "idiom",
@@ -54,6 +54,11 @@
     {
       "category": "korean",
       "file": "korean.m2.json",
+      "version": 1
+    },
+    {
+      "category": "korean",
+      "file": "korean.m3.json",
       "version": 1
     },
     {
