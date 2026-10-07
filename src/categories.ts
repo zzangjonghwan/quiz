@@ -1,5 +1,5 @@
 import {
-  Atom, BookOpen, Brain, Briefcase, Cpu, Earth, Gavel, Globe, HeartPulse, Landmark,
+  Atom, BookOpen, Brain, Briefcase, Building2, Clapperboard, Cpu, Earth, Gavel, Globe, HeartPulse, Landmark, Music,
   Languages, Lightbulb, Mic, Newspaper, Palette, PawPrint, Quote, ScrollText, Sparkles, SpellCheck,
   Sun, Trophy, User, UtensilsCrossed, Home, type LucideIcon,
 } from 'lucide-react'
@@ -59,7 +59,10 @@ export const CATEGORY_GROUPS: CategoryGroup[] = [
     name: '문화',
     categories: [
       { id: 'book', name: '문학·책', icon: BookOpen },
-      { id: 'media', name: '문화·예술', icon: Palette },
+      { id: 'film', name: '영화·드라마', icon: Clapperboard },
+      { id: 'music', name: '음악·공연', icon: Music },
+      { id: 'art', name: '미술', icon: Palette },
+      { id: 'architecture', name: '건축', icon: Building2 },
       { id: 'sports', name: '스포츠', icon: Trophy },
     ],
   },

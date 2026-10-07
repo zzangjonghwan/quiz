@@ -1,5 +1,5 @@
 {
-  "version": 98,
+  "version": 109,
   "files": [
     {
       "category": "idiom",
@@ -397,23 +397,78 @@
       "version": 1
     },
     {
-      "category": "media",
-      "file": "media.json",
+      "category": "film",
+      "file": "film.json",
       "version": 1
     },
     {
-      "category": "media",
-      "file": "media.m.json",
+      "category": "film",
+      "file": "film.m.json",
       "version": 1
     },
     {
-      "category": "media",
-      "file": "media.m2.json",
+      "category": "film",
+      "file": "film.t.json",
       "version": 1
     },
     {
-      "category": "media",
-      "file": "media.m3.json",
+      "category": "music",
+      "file": "music.json",
+      "version": 1
+    },
+    {
+      "category": "music",
+      "file": "music.m.json",
+      "version": 1
+    },
+    {
+      "category": "music",
+      "file": "music.t.json",
+      "version": 1
+    },
+    {
+      "category": "art",
+      "file": "art.json",
+      "version": 1
+    },
+    {
+      "category": "art",
+      "file": "art.m.json",
+      "version": 1
+    },
+    {
+      "category": "art",
+      "file": "art.m2.json",
+      "version": 1
+    },
+    {
+      "category": "art",
+      "file": "art.m3.json",
+      "version": 1
+    },
+    {
+      "category": "art",
+      "file": "art.t.json",
+      "version": 1
+    },
+    {
+      "category": "architecture",
+      "file": "architecture.m.json",
+      "version": 1
+    },
+    {
+      "category": "architecture",
+      "file": "architecture.m2.json",
+      "version": 1
+    },
+    {
+      "category": "architecture",
+      "file": "architecture.m3.json",
+      "version": 1
+    },
+    {
+      "category": "architecture",
+      "file": "architecture.t.json",
       "version": 1
     },
     {

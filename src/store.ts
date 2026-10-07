@@ -105,6 +105,12 @@ export async function loadStore() {
         const { wrong: _, ...rest } = soundPicks
         state.settings = { ...state.settings, soundPicks: soundVersion < 2 ? {} : rest, soundVersion: DEFAULT_SETTINGS.soundVersion }
       }
+      // 문화·예술 (media) was split into 영화·드라마, 음악·공연, 미술, 건축; carry its 종합 exclusion over.
+      const excluded = state.settings.excluded as string[]
+      if (excluded.includes('media')) {
+        const split: CategoryId[] = ['film', 'music', 'art', 'architecture']
+        state.settings = { ...state.settings, excluded: [...excluded.filter((c) => c !== 'media'), ...split] as CategoryId[] }
+      }
     }
   } catch (e) {
     console.error('store load failed', e)

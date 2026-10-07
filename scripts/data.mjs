@@ -16,7 +16,7 @@ const CATEGORIES = [
   'figure', 'celeb', 'koreanhistory', 'worldhistory', 'myth',
   'animal', 'science', 'geo',
   'life', 'health', 'food', 'law', 'economy',
-  'book', 'media', 'sports',
+  'book', 'film', 'music', 'art', 'architecture', 'sports',
   'trivia', 'news', 'tech',
 ]
 const DIFFICULTIES = ['easy', 'normal', 'hard']

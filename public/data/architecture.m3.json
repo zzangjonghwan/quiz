@@ -1,0 +1,1203 @@
+{
+  "category": "architecture",
+  "version": 1,
+  "cards": [
+    {
+      "id": "architecture-m3001",
+      "difficulty": "easy",
+      "answer": "골든게이트교",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국 샌프란시스코 만 입구에 놓인, 붉은 주황색으로 유명한 현수교는?",
+          "choices": [
+            "골든게이트교",
+            "브루클린교",
+            "베이브리지",
+            "조지 워싱턴교"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1937년 개통했어요. 안개 속에서도 잘 보이도록 '인터내셔널 오렌지'라는 색을 칠했어요.",
+        "tip": "금문교"
+      }
+    },
+    {
+      "id": "architecture-m3002",
+      "difficulty": "normal",
+      "answer": "타워 브리지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국 런던 템스강에 있는 다리로, 가운데가 위로 열려 배가 지나가는 쌍둥이 탑 모양 다리는?",
+          "choices": [
+            "타워 브리지",
+            "런던 브리지",
+            "밀레니엄 브리지",
+            "웨스트민스터 브리지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "흔히 '런던 브리지'로 착각하지만, 런던 브리지는 바로 옆의 평범한 다리예요.",
+        "tip": "열리는 다리"
+      }
+    },
+    {
+      "id": "architecture-m3003",
+      "difficulty": "normal",
+      "answer": "현수교",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "두 개의 큰 탑에 굵은 케이블을 걸고, 거기서 내린 줄로 다리 상판을 매다는 방식의 다리는?",
+          "choices": [
+            "현수교",
+            "사장교",
+            "아치교",
+            "트러스교"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "광안대교, 이순신대교, 골든게이트교가 현수교예요. 탑에서 케이블을 비스듬히 바로 연결하면 사장교예요.",
+        "tip": "빨랫줄처럼 늘어진 케이블"
+      }
+    },
+    {
+      "id": "architecture-m3004",
+      "difficulty": "hard",
+      "answer": "사장교",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "탑에서 뻗은 여러 케이블을 비스듬히 다리 상판에 직접 연결해 받치는 다리는?",
+          "choices": [
+            "사장교",
+            "현수교",
+            "아치교",
+            "거더교"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "케이블이 탑에서 부채꼴이나 하프 모양으로 뻗어요. 인천대교, 서해대교가 대표적이에요.",
+        "tip": "하프 줄 같은 케이블"
+      }
+    },
+    {
+      "id": "architecture-m3005",
+      "difficulty": "normal",
+      "answer": "인천대교",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "인천 송도와 영종도를 잇는, 개통 당시 한국에서 가장 긴 다리였던 곳은?",
+          "choices": [
+            "인천대교",
+            "영종대교",
+            "서해대교",
+            "광안대교"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2009년 개통했고 길이는 약 21km예요. 인천공항으로 가는 길이 크게 짧아졌어요.",
+        "tip": "공항 가는 바다 위 다리"
+      }
+    },
+    {
+      "id": "architecture-m3006",
+      "difficulty": "easy",
+      "answer": "광안대교",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "부산 수영구와 해운대를 잇는 2층 해상 다리로, 야경과 불꽃 축제로 유명한 곳은?",
+          "choices": [
+            "광안대교",
+            "부산항대교",
+            "거가대교",
+            "남항대교"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2003년 개통한 현수교예요. 해마다 가을 부산 불꽃 축제의 배경이 돼요.",
+        "tip": "부산 불꽃 축제"
+      }
+    },
+    {
+      "id": "architecture-m3007",
+      "difficulty": "hard",
+      "answer": "퐁 뒤 가르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "프랑스 남부에 있는 로마 시대 수도교로, 3층 아치가 겹쳐 쌓인 유네스코 세계 유산은?",
+          "choices": [
+            "퐁 뒤 가르",
+            "세고비아 수도교",
+            "퐁 네프",
+            "알칸타라 다리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도시에 물을 대려고 기원 1세기 무렵 만들었어요. 접착제 없이 돌만 정교하게 쌓았어요.",
+        "tip": "물이 건너던 다리"
+      }
+    },
+    {
+      "id": "architecture-m3008",
+      "difficulty": "hard",
+      "answer": "CN 타워",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "캐나다 토론토에 있는 높이 553m의 통신탑은?",
+          "choices": [
+            "CN 타워",
+            "스페이스 니들",
+            "도쿄 스카이트리",
+            "오스탄키노 타워"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1976년 완공돼 30여 년 동안 세계에서 가장 높은 자립식 구조물이었어요. 바닥이 유리인 전망대가 있어요.",
+        "tip": "토론토의 바늘"
+      }
+    },
+    {
+      "id": "architecture-m3009",
+      "difficulty": "normal",
+      "answer": "도쿄 스카이트리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2012년 문을 연 일본 도쿄의 전파탑으로, 높이 634m인 것은?",
+          "choices": [
+            "도쿄 스카이트리",
+            "도쿄 타워",
+            "롯폰기 힐스",
+            "아베노 하루카스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'634'를 일본어로 읽으면 옛 지역 이름 '무사시'와 비슷해 높이를 일부러 맞췄다고 해요.",
+        "tip": "634 = 무사시"
+      }
+    },
+    {
+      "id": "architecture-m3010",
+      "difficulty": "easy",
+      "answer": "N서울타워",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1975년 서울 남산 꼭대기에 세워진 전파 송출탑의 지금 이름은?",
+          "choices": [
+            "N서울타워",
+            "63빌딩",
+            "롯데월드타워",
+            "서울스카이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원래 방송 전파를 보내는 탑으로 지었고, 1980년부터 일반인에게 전망대를 열었어요. 사랑의 자물쇠로 유명해요.",
+        "tip": "남산 사랑의 자물쇠"
+      }
+    },
+    {
+      "id": "architecture-m3011",
+      "difficulty": "normal",
+      "answer": "페트로나스 트윈 타워",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "말레이시아 쿠알라룸푸르에 있는 쌍둥이 빌딩으로, 두 건물을 다리가 잇는 곳은?",
+          "choices": [
+            "페트로나스 트윈 타워",
+            "마리나 베이 샌즈",
+            "타이베이 101",
+            "상하이 타워"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1998년 완공돼 2004년까지 세계에서 가장 높은 건물이었어요. 41~42층에 두 건물을 잇는 스카이브리지가 있어요.",
+        "tip": "쌍둥이 + 하늘 다리"
+      }
+    },
+    {
+      "id": "architecture-m3012",
+      "difficulty": "easy",
+      "answer": "마리나 베이 샌즈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "싱가포르에 있는 호텔로, 세 건물 꼭대기를 배 모양 구조물이 잇고 그 위에 수영장이 있는 곳은?",
+          "choices": [
+            "마리나 베이 샌즈",
+            "래플스 호텔",
+            "부르즈 알 아랍",
+            "가든스 바이 더 베이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "쌍용건설이 시공해 2010년 문을 열었어요. 꼭대기의 인피니티 풀이 유명해요.",
+        "tip": "하늘 위 수영장"
+      }
+    },
+    {
+      "id": "architecture-m3013",
+      "difficulty": "normal",
+      "answer": "부르즈 알 아랍",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "두바이 앞바다 인공섬 위에 지은, 돛 모양의 고급 호텔은?",
+          "choices": [
+            "부르즈 알 아랍",
+            "부르즈 할리파",
+            "아틀란티스 더 팜",
+            "에미레이트 팰리스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1999년 문을 열었어요. 이름은 '아랍의 탑'이라는 뜻이에요.",
+        "tip": "돛단배 호텔"
+      }
+    },
+    {
+      "id": "architecture-m3014",
+      "difficulty": "normal",
+      "answer": "쿠푸왕",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이집트 기자에 있는 가장 큰 피라미드는 누구의 무덤으로 알려져 있을까?",
+          "choices": [
+            "쿠푸왕",
+            "투탕카멘",
+            "람세스 2세",
+            "클레오파트라"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "높이가 원래 약 146m였고, 약 3,800년 동안 세계에서 가장 높은 건축물이었어요.",
+        "tip": "대피라미드 = 쿠푸"
+      }
+    },
+    {
+      "id": "architecture-m3015",
+      "difficulty": "easy",
+      "answer": "마추픽추",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "페루 안데스산맥 높은 곳에 있는 잉카 제국의 돌 도시 유적은?",
+          "choices": [
+            "마추픽추",
+            "테오티우아칸",
+            "치첸이트사",
+            "쿠스코"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "15세기에 지었으며, 면도날도 들어가지 않을 만큼 정교하게 돌을 맞춰 쌓았어요.",
+        "tip": "공중 도시"
+      }
+    },
+    {
+      "id": "architecture-m3016",
+      "difficulty": "hard",
+      "answer": "치첸이트사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "멕시코 유카탄반도에 있는 마야 유적으로, 계단식 피라미드 '엘 카스티요'가 있는 곳은?",
+          "choices": [
+            "치첸이트사",
+            "마추픽추",
+            "테오티우아칸",
+            "티칼"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "춘분과 추분 해 질 녘이면 계단에 뱀이 내려오는 듯한 그림자가 생겨요.",
+        "tip": "계단을 내려오는 뱀 그림자"
+      }
+    },
+    {
+      "id": "architecture-m3017",
+      "difficulty": "normal",
+      "answer": "페트라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "요르단 사막에 붉은 사암 절벽을 깎아 만든 고대 도시로, 영화 「인디아나 존스」에도 나온 곳은?",
+          "choices": [
+            "페트라",
+            "팔미라",
+            "바알베크",
+            "제라시"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나바테아 왕국의 수도였어요. 바위를 깎아 만든 '알 카즈네'가 가장 유명해요.",
+        "tip": "장밋빛 바위 도시"
+      }
+    },
+    {
+      "id": "architecture-m3018",
+      "difficulty": "hard",
+      "answer": "천단",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중국 베이징에서 명·청 황제가 하늘에 풍년을 빌던 둥근 지붕의 제단 건축은?",
+          "choices": [
+            "천단",
+            "자금성",
+            "이화원",
+            "종묘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘은 둥글고 땅은 네모나다는 생각에 따라 둥근 건물(기년전)을 지었어요.",
+        "tip": "하늘(天)에 제사하는 단(壇)"
+      }
+    },
+    {
+      "id": "architecture-m3019",
+      "difficulty": "normal",
+      "answer": "금각사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "일본 교토의 사찰 로쿠온지에 있는, 금박으로 덮인 3층 누각은?",
+          "choices": [
+            "금각사",
+            "은각사",
+            "청수사",
+            "동대사"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1950년 방화로 불탔다가 1955년 다시 지었어요. 미시마 유키오의 소설 「금각사」의 소재가 됐어요.",
+        "tip": "연못에 비친 금빛"
+      }
+    },
+    {
+      "id": "architecture-m3020",
+      "difficulty": "hard",
+      "answer": "도다이지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "일본 나라의 사찰로, 세계 최대 규모 목조 건물 가운데 하나에 거대한 청동 불상을 모신 곳은?",
+          "choices": [
+            "도다이지",
+            "호류지",
+            "기요미즈데라",
+            "긴카쿠지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대불전 안에 높이 약 15m의 청동 대불이 있어요. 경내에 사슴이 많기로도 유명해요.",
+        "tip": "나라의 대불"
+      }
+    },
+    {
+      "id": "architecture-m3021",
+      "difficulty": "normal",
+      "answer": "브란덴부르크 문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "독일 베를린에 있는 신고전주의 양식 문으로, 동서 분단과 통일의 상징인 것은?",
+          "choices": [
+            "브란덴부르크 문",
+            "개선문",
+            "이슈타르 문",
+            "홀슈텐 문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1791년 완공됐어요. 베를린 장벽이 무너진 1989년, 사람들이 이 문 앞에 모여 환호했어요.",
+        "tip": "통일의 문"
+      }
+    },
+    {
+      "id": "architecture-m3022",
+      "difficulty": "easy",
+      "answer": "개선문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "나폴레옹이 승리를 기념해 세우게 한, 파리 샹젤리제 거리 끝의 거대한 문은?",
+          "choices": [
+            "개선문",
+            "브란덴부르크 문",
+            "카루젤 개선문",
+            "라 데팡스 그랑드 아르슈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1806년 짓기 시작해 나폴레옹이 죽은 뒤인 1836년 완공됐어요. 아래에는 무명용사의 무덤이 있어요.",
+        "tip": "12개 길이 모이는 광장의 문"
+      }
+    },
+    {
+      "id": "architecture-m3023",
+      "difficulty": "hard",
+      "answer": "산 마르코 대성당",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "베네치아 산 마르코 광장에 있는, 비잔틴 양식의 황금빛 모자이크로 유명한 성당은?",
+          "choices": [
+            "산 마르코 대성당",
+            "산타 마리아 델 피오레",
+            "성 베드로 대성당",
+            "밀라노 대성당"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "복음서 저자 성 마르코의 유해를 모시려고 지었어요. 다섯 개의 돔이 있어요.",
+        "tip": "황금 모자이크 성당"
+      }
+    },
+    {
+      "id": "architecture-m3024",
+      "difficulty": "hard",
+      "answer": "필리포 브루넬레스키",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이탈리아 피렌체 대성당의 거대한 돔을 비계 없이 쌓아 올린 르네상스 건축가는?",
+          "choices": [
+            "필리포 브루넬레스키",
+            "레온 바티스타 알베르티",
+            "도나토 브라만테",
+            "안드레아 팔라디오"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "안쪽과 바깥쪽 이중 껍질 구조와 벽돌을 엇갈려 쌓는 방법으로 1436년 돔을 완성했어요. 원근법도 체계화했어요.",
+        "tip": "두오모의 돔"
+      }
+    },
+    {
+      "id": "architecture-m3025",
+      "difficulty": "normal",
+      "answer": "성 베드로 대성당",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 큰 성당 가운데 하나로, 미켈란젤로가 돔 설계를 맡은 바티칸의 성당은?",
+          "choices": [
+            "성 베드로 대성당",
+            "시스티나 성당",
+            "라테라노 대성당",
+            "산 파올로 대성당"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "예수의 제자 베드로의 무덤 위에 지었다고 전해요. 앞 광장의 타원형 열주는 베르니니의 작품이에요.",
+        "tip": "바티칸의 큰 돔"
+      }
+    },
+    {
+      "id": "architecture-m3026",
+      "difficulty": "easy",
+      "answer": "빅벤",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국 런던의 국회 의사당 시계탑에 달린 큰 종의 별명은?",
+          "choices": [
+            "빅벤",
+            "빅 브라더",
+            "로열 벨",
+            "타워 벨"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원래 종의 이름이지만 지금은 시계탑 전체를 부르는 말로 쓰여요. 2012년 탑 이름은 '엘리자베스 타워'가 됐어요.",
+        "tip": "종 이름 = 빅벤"
+      }
+    },
+    {
+      "id": "architecture-m3027",
+      "difficulty": "easy",
+      "answer": "모아이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "칠레 이스터섬에 서 있는 커다란 사람 얼굴 석상을 부르는 이름은?",
+          "choices": [
+            "모아이",
+            "스핑크스",
+            "돌하르방",
+            "토템폴"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "900여 개가 남아 있으며, 조상을 기리려고 세운 것으로 여겨져요.",
+        "tip": "이스터섬의 얼굴들"
+      }
+    },
+    {
+      "id": "architecture-m3028",
+      "difficulty": "easy",
+      "answer": "대만",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'타이베이 101'이 있는 나라는?",
+          "choices": [
+            "대만",
+            "중국",
+            "홍콩",
+            "싱가포르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2004년 완공돼 부르즈 할리파가 생기기 전까지 세계에서 가장 높은 건물이었어요. 대나무 마디 모양이에요.",
+        "tip": "대나무 마디 빌딩"
+      }
+    },
+    {
+      "id": "architecture-m3029",
+      "difficulty": "easy",
+      "answer": "프랑스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "뉴욕의 '자유의 여신상'을 미국에 선물한 나라는?",
+          "choices": [
+            "프랑스",
+            "영국",
+            "스페인",
+            "네덜란드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국 독립 100주년을 기념해 1886년 세웠어요. 내부 철골 구조는 에펠탑을 만든 귀스타브 에펠이 설계했어요.",
+        "tip": "에펠이 만든 뼈대"
+      }
+    },
+    {
+      "id": "architecture-m3030",
+      "difficulty": "hard",
+      "answer": "비트루비우스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 로마의 건축가로, 건축의 3요소로 '튼튼함, 쓸모, 아름다움'을 제시한 책 「건축십서」를 쓴 사람은?",
+          "choices": [
+            "비트루비우스",
+            "아르키메데스",
+            "플리니우스",
+            "키케로"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다빈치의 인체 비례도 「비트루비우스적 인간」도 그의 책에 나온 비례 이론을 그린 거예요.",
+        "tip": "다빈치의 원 안의 사람"
+      }
+    },
+    {
+      "id": "architecture-m3031",
+      "difficulty": "hard",
+      "answer": "루이스 설리번",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "\"형태는 기능을 따른다\"라는 말을 남긴 미국 '마천루의 아버지'는?",
+          "choices": [
+            "루이스 설리번",
+            "프랭크 로이드 라이트",
+            "미스 반 데어 로에",
+            "르 코르뷔지에"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "시카고에서 철골 고층 건물을 발전시켰어요. 프랭크 로이드 라이트가 그의 제자였어요.",
+        "tip": "Form follows function"
+      }
+    },
+    {
+      "id": "architecture-m3032",
+      "difficulty": "hard",
+      "answer": "수정궁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "대량 생산된 유리와 철로 1851년 런던 만국 박람회장을 지은 건물의 이름은?",
+          "choices": [
+            "수정궁",
+            "그랑 팔레",
+            "에펠탑",
+            "버킹엄 궁전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "조지프 팩스턴이 온실 구조를 응용해 몇 달 만에 지었어요. 1936년 화재로 사라졌어요.",
+        "tip": "유리 궁전"
+      }
+    },
+    {
+      "id": "architecture-m3033",
+      "difficulty": "normal",
+      "answer": "벽면 녹화",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "건물 바깥 벽면 전체에 식물을 심어 초록으로 덮는 것을 부르는 말은?",
+          "choices": [
+            "벽면 녹화",
+            "옥상 정원",
+            "조경",
+            "테라스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "여름엔 건물 온도를 낮추고 공기를 깨끗하게 하는 효과가 있어요. 이탈리아 밀라노의 '수직 숲' 아파트가 유명해요.",
+        "tip": "수직 숲"
+      }
+    },
+    {
+      "id": "architecture-m3034",
+      "difficulty": "hard",
+      "answer": "면진 구조",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지진이 났을 때 건물과 땅 사이에 고무 받침 등을 넣어 흔들림이 건물에 덜 전해지게 하는 기술은?",
+          "choices": [
+            "면진 구조",
+            "내력벽 구조",
+            "필로티 구조",
+            "트러스 구조"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "땅의 흔들림을 받침이 흡수해 건물은 천천히 움직여요. 내진은 버티기, 면진은 피하기에 가까워요.",
+        "tip": "흔들림을 면(免)하다"
+      }
+    },
+    {
+      "id": "architecture-m3035",
+      "difficulty": "normal",
+      "answer": "트러스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "삼각형을 이어 붙여 가볍고 튼튼하게 만든 뼈대 구조로, 철교와 지붕에 많이 쓰이는 것은?",
+          "choices": [
+            "트러스",
+            "아치",
+            "돔",
+            "필로티"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "삼각형은 힘을 받아도 모양이 잘 변하지 않아 적은 재료로 튼튼한 구조를 만들 수 있어요.",
+        "tip": "삼각형의 힘"
+      }
+    },
+    {
+      "id": "architecture-m3036",
+      "difficulty": "normal",
+      "answer": "비계",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "건물을 지을 때 높은 곳에서 일할 수 있도록 임시로 설치하는 발판 구조물은?",
+          "choices": [
+            "비계",
+            "거푸집",
+            "크레인",
+            "말뚝"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "쇠파이프를 엮어 건물 바깥에 세우는 구조물이에요. 공사가 끝나면 철거해요.",
+        "tip": "공사장의 철제 발판"
+      }
+    },
+    {
+      "id": "architecture-m3037",
+      "difficulty": "normal",
+      "answer": "거푸집",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "콘크리트를 부어 원하는 모양으로 굳히기 위해 미리 만들어 두는 틀은?",
+          "choices": [
+            "거푸집",
+            "비계",
+            "철근",
+            "석고 보드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나무나 철판으로 만들고, 콘크리트가 굳으면 떼어 내요. 노출 콘크리트에는 이 틀의 자국이 무늬로 남아요.",
+        "tip": "콘크리트를 붓는 틀"
+      }
+    },
+    {
+      "id": "architecture-m3038",
+      "difficulty": "easy",
+      "answer": "말뚝",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "건물을 땅에 단단히 고정하려고 지반 깊이 박는 기둥 모양 구조물은?",
+          "choices": [
+            "말뚝",
+            "들보",
+            "서까래",
+            "처마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지반이 약한 곳은 말뚝을 깊이 박아 단단한 층에 닿게 해요. 베네치아는 나무 말뚝 위에 세운 도시예요.",
+        "tip": "베네치아를 떠받친 나무"
+      }
+    },
+    {
+      "id": "architecture-m3039",
+      "difficulty": "normal",
+      "answer": "도넛 현상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "도심의 땅값이 비싸 사람들이 교외로 빠져나가 도심이 텅 비는 현상은?",
+          "choices": [
+            "도넛 현상",
+            "젠트리피케이션",
+            "열섬 현상",
+            "스프롤 현상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도넛처럼 가운데가 비고 바깥이 두꺼워진다는 뜻이에요. '공동화 현상'이라고도 해요.",
+        "tip": "가운데가 빈 도넛"
+      }
+    },
+    {
+      "id": "architecture-m3040",
+      "difficulty": "hard",
+      "answer": "대성전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 최고 교육 기관인 성균관에서 공자를 모신 사당을 부르는 말은?",
+          "choices": [
+            "대성전",
+            "명륜당",
+            "동재",
+            "존경각"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "공부하던 강당은 명륜당, 유생들이 머물던 기숙사는 동재와 서재예요.",
+        "tip": "제사 = 대성전, 강의 = 명륜당"
+      }
+    },
+    {
+      "id": "architecture-m3041",
+      "difficulty": "normal",
+      "answer": "서원",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 지방의 사립 교육 기관으로, 2019년 9곳이 함께 세계 유산에 오른 것은?",
+          "choices": [
+            "서원",
+            "향교",
+            "서당",
+            "성균관"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도산 서원, 병산 서원, 소수 서원 등이 '한국의 서원'으로 등재됐어요. 향교는 나라가 세운 지방 학교예요.",
+        "tip": "선비들의 사립 학교"
+      }
+    },
+    {
+      "id": "architecture-m3042",
+      "difficulty": "easy",
+      "answer": "하회 마을",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "경북 안동에 있는 조선 시대 양반 마을로, 낙동강이 마을을 'S' 자로 감싸 흐르는 곳은?",
+          "choices": [
+            "하회 마을",
+            "양동 마을",
+            "외암 마을",
+            "낙안읍성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'물이 돌아 흐른다(하회)'는 뜻이에요. 2010년 경주 양동 마을과 함께 세계 유산에 올랐어요.",
+        "tip": "물(河)이 돌아(回) 흐르는 마을"
+      }
+    },
+    {
+      "id": "architecture-m3043",
+      "difficulty": "easy",
+      "answer": "돌담",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "돌을 둥글게 쌓아 만든 제주 전통 집의 담을 부르는 말은?",
+          "choices": [
+            "돌담",
+            "토담",
+            "꽃담",
+            "싸리담"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "제주의 현무암 돌담은 틈새로 바람이 빠져나가 강한 바람에도 잘 무너지지 않아요.",
+        "tip": "바람이 빠져나가는 담"
+      }
+    },
+    {
+      "id": "architecture-m3044",
+      "difficulty": "normal",
+      "answer": "화강암",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "석굴암과 불국사 석탑을 만든 단단한 돌로, 한국에 가장 흔한 암석은?",
+          "choices": [
+            "화강암",
+            "현무암",
+            "대리석",
+            "사암"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "단단해서 정교하게 깎기 어렵지만 오래 견뎌요. 신라 장인들은 이 돌로 섬세한 조각을 남겼어요.",
+        "tip": "단단한 우리 돌"
+      }
+    },
+    {
+      "id": "architecture-m3045",
+      "difficulty": "hard",
+      "answer": "앙곡",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한옥 지붕에서 처마 끝이 하늘을 향해 살짝 들린 곡선을 가리키는 말은?",
+          "choices": [
+            "앙곡",
+            "안허리곡",
+            "배흘림",
+            "민흘림"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "처마를 정면에서 볼 때 양 끝이 들린 곡선은 앙곡, 위에서 볼 때 가운데가 들어간 곡선은 안허리곡이에요.",
+        "tip": "들려 올라간(仰) 곡선"
+      }
+    },
+    {
+      "id": "architecture-m3046",
+      "difficulty": "normal",
+      "answer": "솟을대문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한옥 대문 가운데 행랑채보다 높이 솟게 지은 대문으로, 가마를 타고 드나들던 문은?",
+          "choices": [
+            "솟을대문",
+            "일주문",
+            "홍살문",
+            "사립문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "높은 벼슬을 한 양반 집에 주로 세웠어요. 싸리나무로 엮은 소박한 문은 사립문이에요.",
+        "tip": "높이 솟은 대문"
+      }
+    },
+    {
+      "id": "architecture-m3047",
+      "difficulty": "normal",
+      "answer": "일주문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "절 입구에 기둥을 한 줄로 세워 지은 첫 번째 문은?",
+          "choices": [
+            "일주문",
+            "천왕문",
+            "불이문",
+            "홍살문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'한마음으로 부처의 세계에 들어선다'는 뜻을 담았어요. 이어서 사천왕을 모신 천왕문이 나와요.",
+        "tip": "기둥이 한(一) 줄(柱)"
+      }
+    },
+    {
+      "id": "architecture-m3048",
+      "difficulty": "hard",
+      "answer": "홍살문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "능이나 향교 입구에 세운, 붉은 칠을 한 기둥과 화살 모양 살을 꽂은 문은?",
+          "choices": [
+            "홍살문",
+            "일주문",
+            "솟을대문",
+            "독립문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "신성한 곳임을 알리는 문으로, 문짝이 없어요.",
+        "tip": "붉은(紅) 화살(살)"
+      }
+    },
+    {
+      "id": "architecture-m3049",
+      "difficulty": "normal",
+      "answer": "독립문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1897년 서재필이 이끈 독립 협회가 프랑스 개선문을 본떠 세운 서울의 문은?",
+          "choices": [
+            "독립문",
+            "영은문",
+            "광화문",
+            "돈의문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "중국 사신을 맞던 영은문을 헐고 그 자리 근처에 세웠어요. 청나라로부터의 독립을 뜻해요.",
+        "tip": "영은문 자리의 개선문"
+      }
+    },
+    {
+      "id": "architecture-m3050",
+      "difficulty": "hard",
+      "answer": "석조전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1910년 완공된 덕수궁 안의 서양식 석조 건물로, 대한제국 황제의 집무 공간으로 쓰인 것은?",
+          "choices": [
+            "석조전",
+            "중명전",
+            "정관헌",
+            "돈덕전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그리스 신전처럼 기둥이 늘어선 신고전주의 양식이에요. 지금은 대한제국 역사관으로 쓰여요.",
+        "tip": "덕수궁의 서양 궁전"
+      }
+    },
+    {
+      "id": "architecture-m3051",
+      "difficulty": "normal",
+      "answer": "명동 대성당",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1898년 완공된 서울 중구의 고딕 양식 붉은 벽돌 성당은?",
+          "choices": [
+            "명동 대성당",
+            "약현 성당",
+            "정동 교회",
+            "전동 성당"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한국 최초의 본당 가운데 하나로, 한국 가톨릭의 상징이에요. 민주화 운동의 중심지이기도 했어요.",
+        "tip": "명동의 뾰족 성당"
+      }
+    },
+    {
+      "id": "architecture-m3052",
+      "difficulty": "hard",
+      "answer": "ㅁ자 집",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마당을 가운데 두고 건물을 'ㅁ' 자 모양으로 둘러 지은 한옥을 부르는 말은?",
+          "choices": [
+            "ㅁ자 집",
+            "ㄱ자 집",
+            "일자 집",
+            "겹집"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "추운 북부 지방이나 도시 한옥에서 마당을 품어 바람을 막고 사생활을 지키려고 이렇게 지었어요.",
+        "tip": "마당을 품은 집"
+      }
+    },
+    {
+      "id": "architecture-m3053",
+      "difficulty": "normal",
+      "answer": "폐철길",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "서울 마포구 '경의선숲길'은 무엇을 고쳐 만든 공원일까?",
+          "choices": [
+            "폐철길",
+            "옛 고가 도로",
+            "쓰레기 매립지",
+            "정수장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지하화된 경의선의 옛 철길 자리를 공원으로 만들어 '연트럴파크'라는 별명도 생겼어요.",
+        "tip": "연트럴파크"
+      }
+    },
+    {
+      "id": "architecture-m3054",
+      "difficulty": "normal",
+      "answer": "서울로 7017",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "서울역 앞 옛 고가 도로를 보행길로 고쳐 2017년 문을 연 공원은?",
+          "choices": [
+            "서울로 7017",
+            "경의선숲길",
+            "서울숲",
+            "청계천"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1970년에 만든 고가 도로가 2017년 사람 길로 다시 태어났다는 뜻을 이름에 담았어요.",
+        "tip": "1970 + 2017"
+      }
+    },
+    {
+      "id": "architecture-m3055",
+      "difficulty": "easy",
+      "answer": "청계천",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "도로를 덮었던 복개 구조물과 고가 도로를 걷어 내고 2005년 물길을 되살린 서울 도심의 하천은?",
+          "choices": [
+            "청계천",
+            "중랑천",
+            "안양천",
+            "양재천"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "광화문 근처에서 시작해 중랑천으로 흘러요. 도시 재생의 대표 사례로 꼽혀요.",
+        "tip": "고가 도로 밑에서 다시 흐른 물"
+      }
+    },
+    {
+      "id": "architecture-m3056",
+      "difficulty": "hard",
+      "answer": "문화비축기지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "마포의 옛 석유 비축 기지를 고쳐 2017년 문을 연 문화 공원은?",
+          "choices": [
+            "문화비축기지",
+            "선유도 공원",
+            "하늘공원",
+            "서울숲"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1970년대 석유 파동 뒤 만든 거대한 석유 탱크들을 공연장과 전시장으로 바꿨어요.",
+        "tip": "석유 탱크 → 문화 공간"
+      }
+    },
+    {
+      "id": "architecture-m3057",
+      "difficulty": "normal",
+      "answer": "선유도 공원",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한강의 옛 정수장 시설을 살려 만든, 섬 전체가 공원인 곳은?",
+          "choices": [
+            "선유도 공원",
+            "노들섬",
+            "여의도 공원",
+            "밤섬"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2002년 문을 연 한국 최초의 재활용 생태 공원이에요. 물탱크와 기둥을 그대로 살려 정원을 꾸몄어요.",
+        "tip": "정수장 → 공원"
+      }
+    }
+  ]
+}

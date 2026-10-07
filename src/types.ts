@@ -9,7 +9,7 @@ export type CategoryId =
   | 'figure' | 'celeb' | 'koreanhistory' | 'worldhistory' | 'myth'
   | 'animal' | 'science' | 'geo'
   | 'life' | 'health' | 'food' | 'law' | 'economy'
-  | 'book' | 'media' | 'sports'
+  | 'book' | 'film' | 'music' | 'art' | 'architecture' | 'sports'
   | 'trivia' | 'news' | 'tech'
 
 /** One piece of a "쪼개기" breakdown: a character, word, or word root. */

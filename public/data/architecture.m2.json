@@ -1,0 +1,993 @@
+{
+  "category": "architecture",
+  "version": 1,
+  "cards": [
+    {
+      "id": "architecture-m2001",
+      "difficulty": "easy",
+      "answer": "에펠탑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1889년 파리 만국 박람회에 맞춰 세운 철골 탑으로, 처음엔 '흉물'이라는 비난도 받은 건축물은?",
+          "choices": [
+            "에펠탑",
+            "개선문",
+            "몽파르나스 타워",
+            "그랑 팔레"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "귀스타브 에펠의 회사가 설계·시공했어요. 20년 뒤 철거될 예정이었지만 무선 송신탑으로 쓰이며 살아남았어요.",
+        "tip": "박람회용 임시 탑이 상징이 됐다"
+      }
+    },
+    {
+      "id": "architecture-m2002",
+      "difficulty": "easy",
+      "answer": "파르테논 신전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기원전 5세기 아테네 아크로폴리스 언덕에 세운, 아테나 여신을 모신 신전은?",
+          "choices": [
+            "파르테논 신전",
+            "판테온",
+            "제우스 신전",
+            "아폴론 신전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "굵은 기둥이 늘어선 도리스 양식의 대표작이에요. 기둥 가운데를 살짝 불룩하게 해 착시를 바로잡았어요.",
+        "tip": "아크로폴리스의 왕관"
+      }
+    },
+    {
+      "id": "architecture-m2003",
+      "difficulty": "normal",
+      "answer": "판테온",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "로마에 있는 고대 신전으로, 지름 약 43m의 돔 꼭대기에 둥근 구멍이 뚫린 건축물은?",
+          "choices": [
+            "판테온",
+            "콜로세움",
+            "파르테논 신전",
+            "성 베드로 대성당"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'모든 신을 위한 신전'이라는 뜻이에요. 꼭대기 구멍 '오쿨루스'로 빛이 들어오고 비도 들어와요.",
+        "tip": "천장에 뚫린 하늘 구멍"
+      }
+    },
+    {
+      "id": "architecture-m2004",
+      "difficulty": "normal",
+      "answer": "앙코르 와트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "캄보디아에 있는 세계 최대 규모의 종교 건축물로, 국기에도 그려진 사원은?",
+          "choices": [
+            "앙코르 와트",
+            "보로부두르",
+            "왓 아룬",
+            "바간 사원"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "12세기 크메르 제국이 힌두교 사원으로 지었고, 뒤에 불교 사원으로 쓰였어요.",
+        "tip": "캄보디아 국기의 사원"
+      }
+    },
+    {
+      "id": "architecture-m2005",
+      "difficulty": "easy",
+      "answer": "피사의 사탑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이탈리아에 있는 종탑으로, 지반이 약해 공사 중에 기울어진 것으로 유명한 건축물은?",
+          "choices": [
+            "피사의 사탑",
+            "조토의 종탑",
+            "산 마르코 종탑",
+            "두오모"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "여러 차례 보강 공사를 해서 지금은 기울기가 줄어 안정된 상태예요.",
+        "tip": "손으로 받치는 기념사진"
+      }
+    },
+    {
+      "id": "architecture-m2006",
+      "difficulty": "normal",
+      "answer": "성 바실리 대성당",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "화려한 양파 모양 돔이 특징인 모스크바 붉은 광장의 성당은?",
+          "choices": [
+            "성 바실리 대성당",
+            "성 이삭 대성당",
+            "구세주 그리스도 대성당",
+            "성 소피아 대성당"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "16세기 이반 4세(뇌제)가 카잔 정복을 기념해 지었어요. 알록달록한 양파 모양 돔이 상징이에요.",
+        "tip": "아이스크림 같은 지붕"
+      }
+    },
+    {
+      "id": "architecture-m2007",
+      "difficulty": "normal",
+      "answer": "아야 소피아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "튀르키예 이스탄불에 있는 건축물로, 동로마 시대 성당이었다가 모스크가 된 거대한 돔 건물은?",
+          "choices": [
+            "아야 소피아",
+            "블루 모스크",
+            "톱카프 궁전",
+            "돌마바흐체 궁전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "537년 유스티니아누스 황제 때 완공됐어요. 성당, 모스크, 박물관을 거쳐 2020년 다시 모스크가 됐어요.",
+        "tip": "성당 → 모스크 → 박물관 → 모스크"
+      }
+    },
+    {
+      "id": "architecture-m2008",
+      "difficulty": "normal",
+      "answer": "알람브라 궁전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "스페인 그라나다에 있는 이슬람 왕조의 궁전으로, 정교한 아라베스크 장식으로 유명한 곳은?",
+          "choices": [
+            "알람브라 궁전",
+            "메스키타",
+            "세비야 대성당",
+            "엘 에스코리알"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "나스르 왕조가 지은 궁전이에요. 기타 곡 「알람브라 궁전의 추억」으로도 잘 알려졌어요.",
+        "tip": "기타 연주곡의 그 궁전"
+      }
+    },
+    {
+      "id": "architecture-m2009",
+      "difficulty": "easy",
+      "answer": "베르사유 궁전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "프랑스 루이 14세가 지은 궁전으로, 거울로 꾸민 '거울의 방'이 유명한 곳은?",
+          "choices": [
+            "베르사유 궁전",
+            "루브르 궁전",
+            "퐁텐블로 궁전",
+            "쇤브룬 궁전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1919년 1차 세계 대전을 끝낸 베르사유 조약도 거울의 방에서 맺어졌어요.",
+        "tip": "태양왕의 궁전"
+      }
+    },
+    {
+      "id": "architecture-m2010",
+      "difficulty": "normal",
+      "answer": "노이슈반슈타인 성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "디즈니 성의 모델로 알려진, 독일 바이에른 언덕 위의 성은?",
+          "choices": [
+            "노이슈반슈타인 성",
+            "하이델베르크 성",
+            "호엔촐레른 성",
+            "상수시 궁전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "바이에른 왕 루트비히 2세가 동화 같은 성을 꿈꾸며 지었어요.",
+        "tip": "백조의 성"
+      }
+    },
+    {
+      "id": "architecture-m2011",
+      "difficulty": "easy",
+      "answer": "시드니 오페라 하우스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조개껍데기나 돛을 닮은 지붕으로 유명한 오스트레일리아의 공연장은?",
+          "choices": [
+            "시드니 오페라 하우스",
+            "멜버른 아트 센터",
+            "하버 브리지",
+            "로열 앨버트 홀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "덴마크 건축가 요른 웃손이 설계해 1973년 문을 열었고, 2007년 세계 유산에 올랐어요.",
+        "tip": "하얀 돛단배 지붕"
+      }
+    },
+    {
+      "id": "architecture-m2012",
+      "difficulty": "easy",
+      "answer": "부르즈 할리파",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2010년 완공된 아랍에미리트 두바이의 초고층 빌딩으로, 높이 828m인 건물은?",
+          "choices": [
+            "부르즈 할리파",
+            "부르즈 알 아랍",
+            "롯데월드타워",
+            "상하이 타워"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "완공 이후 세계에서 가장 높은 건물 자리를 지켜 왔어요. 아랍에미리트 대통령 할리파의 이름을 땄어요.",
+        "tip": "828m"
+      }
+    },
+    {
+      "id": "architecture-m2013",
+      "difficulty": "easy",
+      "answer": "롯데월드타워",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2017년 완공된 서울 잠실의 123층 초고층 빌딩은?",
+          "choices": [
+            "롯데월드타워",
+            "63빌딩",
+            "파크원",
+            "여의도 IFC"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "높이 555m로 한국에서 가장 높은 건물이에요. 붓 모양을 본떠 위로 갈수록 가늘어져요.",
+        "tip": "555m, 123층"
+      }
+    },
+    {
+      "id": "architecture-m2014",
+      "difficulty": "normal",
+      "answer": "63빌딩",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1985년 완공되어 한동안 한국에서 가장 높은 건물이었던 여의도의 금빛 빌딩은?",
+          "choices": [
+            "63빌딩",
+            "롯데월드타워",
+            "무역센터",
+            "남산타워"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지상 60층, 지하 3층이라 '63'이에요. 금색 반사 유리가 한강 위에서 빛나요.",
+        "tip": "금빛 63"
+      }
+    },
+    {
+      "id": "architecture-m2015",
+      "difficulty": "normal",
+      "answer": "엠파이어 스테이트 빌딩",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1931년 완공된 뉴욕의 102층 빌딩으로, 영화 「킹콩」에서 고릴라가 올라간 건물은?",
+          "choices": [
+            "엠파이어 스테이트 빌딩",
+            "크라이슬러 빌딩",
+            "원 월드 트레이드 센터",
+            "록펠러 센터"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "완공 뒤 약 40년 동안 세계에서 가장 높은 건물이었어요. 1년 남짓 만에 지어 놀라움을 줬어요.",
+        "tip": "킹콩이 매달린 빌딩"
+      }
+    },
+    {
+      "id": "architecture-m2016",
+      "difficulty": "normal",
+      "answer": "2019년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "프랑스 파리의 노트르담 대성당에서 큰불이 나 첨탑이 무너진 해는?",
+          "choices": [
+            "2019년",
+            "2015년",
+            "2017년",
+            "2021년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2019년 4월 화재 뒤 5년여 복원 공사를 거쳐 2024년 12월 다시 문을 열었어요.",
+        "tip": "첨탑이 무너진 봄"
+      }
+    },
+    {
+      "id": "architecture-m2017",
+      "difficulty": "normal",
+      "answer": "구엘 공원",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "스페인 바르셀로나에 있는 가우디의 작품으로, 구불구불한 벤치와 도마뱀 분수가 있는 공원은?",
+          "choices": [
+            "구엘 공원",
+            "시우타데야 공원",
+            "몬주익 공원",
+            "레티로 공원"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사업가 구엘이 주택 단지로 계획했다가 공원이 됐어요. 깨진 타일 조각을 붙인 장식이 특징이에요.",
+        "tip": "타일 도마뱀"
+      }
+    },
+    {
+      "id": "architecture-m2018",
+      "difficulty": "hard",
+      "answer": "카사 바트요",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "가우디가 설계한 바르셀로나의 주택으로, 뼈와 해골 모양 발코니 때문에 '뼈의 집'이라고도 불리는 곳은?",
+          "choices": [
+            "카사 바트요",
+            "카사 밀라",
+            "구엘 저택",
+            "카사 비센스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "파도처럼 출렁이는 외벽과 용 비늘 같은 지붕이 특징이에요. 근처 카사 밀라는 '채석장'이라는 별명이 있어요.",
+        "tip": "해골 발코니"
+      }
+    },
+    {
+      "id": "architecture-m2019",
+      "difficulty": "normal",
+      "answer": "르 코르뷔지에",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'근대 건축의 아버지'로 불리며, 필로티·옥상 정원 등 '근대 건축의 5원칙'을 제시한 건축가는?",
+          "choices": [
+            "르 코르뷔지에",
+            "미스 반 데어 로에",
+            "프랭크 로이드 라이트",
+            "발터 그로피우스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "프랑스 파리 근교의 '빌라 사보아'가 5원칙을 잘 보여 주는 대표작이에요. 스위스 지폐에도 얼굴이 실렸어요.",
+        "tip": "빌라 사보아"
+      }
+    },
+    {
+      "id": "architecture-m2020",
+      "difficulty": "hard",
+      "answer": "미스 반 데어 로에",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "\"적을수록 많다(Less is more)\"라는 말로 유명한 독일 출신 건축가는?",
+          "choices": [
+            "미스 반 데어 로에",
+            "르 코르뷔지에",
+            "발터 그로피우스",
+            "알바 알토"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "유리와 철골만으로 단순하고 투명한 건물을 지었어요. 뉴욕 시그램 빌딩이 대표작이에요.",
+        "tip": "Less is more"
+      }
+    },
+    {
+      "id": "architecture-m2021",
+      "difficulty": "normal",
+      "answer": "프랭크 로이드 라이트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "폭포 위에 집을 띄운 듯 지은 미국의 주택 '낙수장'을 설계한 건축가는?",
+          "choices": [
+            "프랭크 로이드 라이트",
+            "루이스 칸",
+            "리처드 마이어",
+            "필립 존슨"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자연과 건축이 하나가 되는 '유기적 건축'을 주장했어요. 뉴욕 구겐하임 미술관도 그의 작품이에요.",
+        "tip": "폭포 위의 집"
+      }
+    },
+    {
+      "id": "architecture-m2022",
+      "difficulty": "normal",
+      "answer": "안도 다다오",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "노출 콘크리트와 빛을 활용한 '빛의 교회'로 유명한, 독학으로 건축을 익힌 일본 건축가는?",
+          "choices": [
+            "안도 다다오",
+            "구마 겐고",
+            "이소자키 아라타",
+            "반 시게루"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "권투 선수 출신으로 독학해 1995년 프리츠커상을 받았어요. 제주의 '본태 박물관', 원주의 '뮤지엄 산'도 설계했어요.",
+        "tip": "권투 선수 출신 건축가"
+      }
+    },
+    {
+      "id": "architecture-m2023",
+      "difficulty": "normal",
+      "answer": "프리츠커상",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'건축계의 노벨상'으로 불리는 상은?",
+          "choices": [
+            "프리츠커상",
+            "퓰리처상",
+            "골든 라이언상",
+            "터너상"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국 하얏트 재단이 1979년 만든 상으로, 해마다 뛰어난 건축가 한 명(또는 팀)에게 줘요.",
+        "tip": "건축 = 프리츠커"
+      }
+    },
+    {
+      "id": "architecture-m2024",
+      "difficulty": "normal",
+      "answer": "프랭크 게리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "티타늄 판을 구겨 놓은 듯한 스페인 빌바오 구겐하임 미술관을 설계한 건축가는?",
+          "choices": [
+            "프랭크 게리",
+            "렘 콜하스",
+            "노먼 포스터",
+            "자하 하디드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1997년 미술관이 들어선 뒤 쇠퇴하던 공업 도시 빌바오가 관광 도시로 살아났어요. 이를 '빌바오 효과'라고 해요.",
+        "tip": "빌바오 효과"
+      }
+    },
+    {
+      "id": "architecture-m2025",
+      "difficulty": "hard",
+      "answer": "빌바오 효과",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "건축물 하나가 도시 전체를 되살리는 현상을 스페인의 한 도시 이름을 따서 부르는 말은?",
+          "choices": [
+            "빌바오 효과",
+            "바르셀로나 효과",
+            "두바이 효과",
+            "베네치아 효과"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "구겐하임 미술관 하나로 관광객이 몰려 도시 경제가 살아난 빌바오에서 나온 말이에요.",
+        "tip": "미술관 하나로 도시가 산다"
+      }
+    },
+    {
+      "id": "architecture-m2026",
+      "difficulty": "hard",
+      "answer": "노먼 포스터",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "런던의 오이 모양 빌딩 '거킨'과 베를린 국회 의사당 유리 돔을 설계한 영국 건축가는?",
+          "choices": [
+            "노먼 포스터",
+            "리처드 로저스",
+            "자하 하디드",
+            "렌초 피아노"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "첨단 기술을 드러내는 '하이테크 건축'의 대가예요. 1999년 프리츠커상을 받았어요.",
+        "tip": "오이 빌딩"
+      }
+    },
+    {
+      "id": "architecture-m2027",
+      "difficulty": "hard",
+      "answer": "중국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "루브르 피라미드를 설계한 건축가의 출신 국가로 알맞은 것은?",
+          "choices": [
+            "중국",
+            "일본",
+            "프랑스",
+            "이탈리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이오 밍 페이는 중국 광저우에서 태어나 미국에서 활동한 중국계 미국인 건축가예요.",
+        "tip": "중국계 미국인"
+      }
+    },
+    {
+      "id": "architecture-m2028",
+      "difficulty": "hard",
+      "answer": "김수근",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "서울 '공간 사옥'과 '경동교회'를 설계한 한국 현대 건축의 거장은?",
+          "choices": [
+            "김수근",
+            "김중업",
+            "승효상",
+            "조성룡"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "담쟁이덩굴로 덮인 벽돌 건물 '공간 사옥'은 지금 '아라리오 뮤지엄 인 스페이스'로 쓰여요.",
+        "tip": "담쟁이 벽돌 건물"
+      }
+    },
+    {
+      "id": "architecture-m2029",
+      "difficulty": "hard",
+      "answer": "김중업",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "르 코르뷔지에의 제자로, 서울 '주한 프랑스 대사관'을 설계한 한국 건축가는?",
+          "choices": [
+            "김중업",
+            "김수근",
+            "승효상",
+            "이타미 준"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한옥 지붕의 곡선을 현대적으로 표현한 프랑스 대사관은 한국 현대 건축의 대표작으로 꼽혀요.",
+        "tip": "처마 곡선의 대사관"
+      }
+    },
+    {
+      "id": "architecture-m2030",
+      "difficulty": "easy",
+      "answer": "경복궁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 왕조의 첫 번째 법궁으로, 태조 이성계 때 지은 궁궐은?",
+          "choices": [
+            "경복궁",
+            "창덕궁",
+            "덕수궁",
+            "창경궁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1395년 완공됐어요. '큰 복을 누리라'는 뜻의 이름은 정도전이 지었어요.",
+        "tip": "광화문 뒤의 궁궐"
+      }
+    },
+    {
+      "id": "architecture-m2031",
+      "difficulty": "normal",
+      "answer": "경회루",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "경복궁 연못 위에 세운 2층 누각으로, 임금이 외국 사신을 맞아 잔치를 벌이던 곳은?",
+          "choices": [
+            "경회루",
+            "향원정",
+            "부용정",
+            "근정전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "48개의 돌기둥이 받치고 있어요. 연못 위에 지어 경치를 즐기기 좋았어요.",
+        "tip": "연못 위 돌기둥 48개"
+      }
+    },
+    {
+      "id": "architecture-m2032",
+      "difficulty": "normal",
+      "answer": "근정전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "경복궁의 정전으로, 임금의 즉위식과 큰 행사가 열리던 건물은?",
+          "choices": [
+            "근정전",
+            "사정전",
+            "강녕전",
+            "경회루"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'부지런히 정치하라'는 뜻의 이름이에요. 앞마당에 신하들의 자리를 표시한 품계석이 늘어서 있어요.",
+        "tip": "품계석이 늘어선 마당"
+      }
+    },
+    {
+      "id": "architecture-m2033",
+      "difficulty": "easy",
+      "answer": "숭례문",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2008년 방화로 크게 불탔다가 2013년 복구된 서울의 국보 성문은?",
+          "choices": [
+            "숭례문",
+            "흥인지문",
+            "광화문",
+            "돈의문"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'남대문'으로 더 잘 알려져 있어요. 조선 한양 도성의 정문이에요.",
+        "tip": "남대문"
+      }
+    },
+    {
+      "id": "architecture-m2034",
+      "difficulty": "easy",
+      "answer": "수원 화성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "정조가 아버지 사도세자의 무덤을 옮기며 쌓은 수원의 성곽으로, 세계 유산에 오른 곳은?",
+          "choices": [
+            "수원 화성",
+            "남한산성",
+            "북한산성",
+            "해미읍성"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정약용이 설계에 참여하고 거중기를 써서 2년 9개월 만에 완공했어요. 공사 기록 「화성성역의궤」가 남아 있어요.",
+        "tip": "정조와 정약용의 신도시"
+      }
+    },
+    {
+      "id": "architecture-m2035",
+      "difficulty": "hard",
+      "answer": "무량수전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "경북 영주 부석사에 있는 고려 시대 건물로, 배흘림기둥이 유명한 목조 건축물은?",
+          "choices": [
+            "무량수전",
+            "극락전",
+            "대웅전",
+            "팔상전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "현존하는 가장 오래된 목조 건물 가운데 하나예요. 무량수는 '끝없는 목숨'이라는 뜻이에요.",
+        "tip": "\"무량수전 배흘림기둥에 기대서서\""
+      }
+    },
+    {
+      "id": "architecture-m2036",
+      "difficulty": "hard",
+      "answer": "봉정사 극락전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "현재 남아 있는 우리나라에서 가장 오래된 목조 건축물로 꼽히는 것은?",
+          "choices": [
+            "봉정사 극락전",
+            "부석사 무량수전",
+            "수덕사 대웅전",
+            "법주사 팔상전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "경북 안동 봉정사에 있는 고려 시대 건물로, 1972년 해체 수리 때 고려 공민왕 때 수리했다는 기록이 나왔어요.",
+        "tip": "안동 봉정사"
+      }
+    },
+    {
+      "id": "architecture-m2037",
+      "difficulty": "hard",
+      "answer": "팔상전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라에 남은 유일한 조선 시대 5층 목탑으로, 충북 보은 법주사에 있는 것은?",
+          "choices": [
+            "팔상전",
+            "미륵전",
+            "대웅보전",
+            "원통보전"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "부처의 일생을 여덟 장면으로 그린 팔상도를 모셔 '팔상전'이라고 불러요.",
+        "tip": "팔(8)상도의 목탑"
+      }
+    },
+    {
+      "id": "architecture-m2038",
+      "difficulty": "easy",
+      "answer": "다보탑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "불국사 대웅전 앞마당에 나란히 선 두 석탑 가운데, 장식이 화려한 탑은?",
+          "choices": [
+            "다보탑",
+            "석가탑",
+            "감은사지 석탑",
+            "분황사 석탑"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "단순하고 단정한 석가탑과 화려한 다보탑이 마주 서 있어요. 다보탑은 10원짜리 동전에도 새겨져 있어요.",
+        "tip": "10원 동전의 탑"
+      }
+    },
+    {
+      "id": "architecture-m2039",
+      "difficulty": "normal",
+      "answer": "석빙고",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "조선 시대 얼음을 저장하던 돌로 만든 창고를 부르는 말은?",
+          "choices": [
+            "석빙고",
+            "첨성대",
+            "해우소",
+            "곳간"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "경주 석빙고가 대표적이에요. 지붕의 환기 구멍과 경사진 바닥으로 여름까지 얼음을 보관했어요.",
+        "tip": "조선의 냉동 창고"
+      }
+    },
+    {
+      "id": "architecture-m2040",
+      "difficulty": "easy",
+      "answer": "볏짚",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'초가집' 지붕을 덮는 재료로 알맞은 것은?",
+          "choices": [
+            "볏짚",
+            "기와",
+            "너와",
+            "억새 기와"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "벼를 거두고 남은 짚을 엮어 덮었어요. 기와로 덮은 집은 기와집, 나무 조각으로 덮은 집은 너와집이에요.",
+        "tip": "초가 = 볏짚"
+      }
+    },
+    {
+      "id": "architecture-m2041",
+      "difficulty": "normal",
+      "answer": "사랑채",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'한옥'에서 남자 주인이 생활하며 손님을 맞던 바깥 공간은?",
+          "choices": [
+            "사랑채",
+            "안채",
+            "행랑채",
+            "별채"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "안채는 안주인과 가족이, 행랑채는 하인들이 머물던 곳이에요.",
+        "tip": "\"사랑방 손님\""
+      }
+    },
+    {
+      "id": "architecture-m2042",
+      "difficulty": "normal",
+      "answer": "DDP",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2014년 문을 연, 자하 하디드가 설계한 서울 중구의 비정형 건축물의 약칭은?",
+          "choices": [
+            "DDP",
+            "IFC",
+            "COEX",
+            "SETEC"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "동대문디자인플라자(Dongdaemun Design Plaza)의 약자예요. 옛 동대문 운동장 자리에 지었어요.",
+        "tip": "동대문 우주선"
+      }
+    },
+    {
+      "id": "architecture-m2043",
+      "difficulty": "hard",
+      "answer": "이오니아식",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고대 그리스 기둥 양식 가운데, 기둥 머리가 소용돌이 모양인 것은?",
+          "choices": [
+            "이오니아식",
+            "도리스식",
+            "코린트식",
+            "토스카나식"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도리스식은 단순하고 굵으며, 코린트식은 아칸서스 잎으로 화려하게 장식했어요.",
+        "tip": "소용돌이 = 이오니아, 잎사귀 = 코린트"
+      }
+    },
+    {
+      "id": "architecture-m2044",
+      "difficulty": "normal",
+      "answer": "고딕 양식",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "높이 솟은 첨탑과 스테인드글라스로 유명한, 독일 쾰른과 프랑스 노트르담의 공통 건축 양식은?",
+          "choices": [
+            "고딕 양식",
+            "로마네스크 양식",
+            "바로크 양식",
+            "비잔틴 양식"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하늘로 높이 뻗어 신에게 가까이 가려는 마음을 담았어요. 플라잉 버트레스로 벽을 받쳐 큰 창을 낼 수 있었어요.",
+        "tip": "하늘로 뾰족"
+      }
+    },
+    {
+      "id": "architecture-m2045",
+      "difficulty": "easy",
+      "answer": "내진 설계",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "건물이 지진에 흔들려도 무너지지 않도록 설계하는 것을 무엇이라고 할까?",
+          "choices": [
+            "내진 설계",
+            "단열 설계",
+            "방음 설계",
+            "조경 설계"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "건물이 흔들림을 견디도록 기둥과 벽을 튼튼히 하거나, 바닥에 충격 흡수 장치를 달아요.",
+        "tip": "지진을 견디다(내)"
+      }
+    },
+    {
+      "id": "architecture-m2046",
+      "difficulty": "hard",
+      "answer": "동조 질량 댐퍼",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고층 건물 꼭대기에 무거운 추를 매달아 바람과 지진에 따른 흔들림을 줄이는 장치는?",
+          "choices": [
+            "동조 질량 댐퍼",
+            "피뢰침",
+            "플라잉 버트레스",
+            "면진 고무"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대만 '타이베이 101' 꼭대기에는 무게 660t이 넘는 금빛 공 모양 댐퍼가 걸려 있어요.",
+        "tip": "타이베이 101의 거대한 공"
+      }
+    },
+    {
+      "id": "architecture-m2047",
+      "difficulty": "easy",
+      "answer": "1층",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "건물 높이를 셀 때 한국에서 '지하 1층' 바로 위 층을 부르는 말은?",
+          "choices": [
+            "1층",
+            "0층",
+            "그라운드층",
+            "중2층"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국 등 유럽에서는 땅과 맞닿은 층을 '그라운드 플로어(G)'라 하고 그 위를 1층으로 세요.",
+        "tip": "유럽 1층 = 한국 2층"
+      }
+    }
+  ]
+}
