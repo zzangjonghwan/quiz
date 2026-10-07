@@ -1,0 +1,657 @@
+{
+  "category": "trivia",
+  "version": 1,
+  "cards": [
+    {
+      "id": "trivia-m7001",
+      "difficulty": "hard",
+      "answer": "멕시코",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'시저 샐러드'가 처음 만들어진 곳은?",
+          "choices": [
+            "멕시코",
+            "이탈리아 로마",
+            "프랑스 파리",
+            "그리스 아테네"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1920년대 멕시코 티후아나에서 식당을 하던 이탈리아계 요리사 시저 카르디니가 만들었다고 해요. 로마의 카이사르와는 관계없어요.",
+        "tip": "카이사르와 무관"
+      }
+    },
+    {
+      "id": "trivia-m7002",
+      "difficulty": "hard",
+      "answer": "오스트리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "크루아상의 원조로 꼽히는 초승달 모양 빵 '킵펠'은 어느 나라 빵일까?",
+          "choices": [
+            "오스트리아",
+            "프랑스",
+            "벨기에",
+            "스위스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빈 출신 사람이 파리에 빵집을 열며 프랑스에 퍼졌다고 해요. 지금처럼 결이 겹겹인 크루아상은 프랑스에서 발전했어요.",
+        "tip": "빈의 초승달 빵"
+      }
+    },
+    {
+      "id": "trivia-m7003",
+      "difficulty": "hard",
+      "answer": "생선을 삭혀 만든 소스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "토마토케첩의 '케첩'은 원래 어떤 음식이었을까?",
+          "choices": [
+            "생선을 삭혀 만든 소스",
+            "달콤한 과일잼",
+            "버섯으로 만든 수프",
+            "매운 고추기름"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "중국 남부와 동남아시아의 생선 소스가 영국으로 건너가 버섯, 호두 케첩 등으로 바뀌다가 19세기 미국에서 토마토케첩이 됐어요.",
+        "tip": "생선 소스였다"
+      }
+    },
+    {
+      "id": "trivia-m7004",
+      "difficulty": "normal",
+      "answer": "처음 만든 요리사의 별명",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'나초'라는 이름은 어디에서 나왔을까?",
+          "choices": [
+            "처음 만든 요리사의 별명",
+            "멕시코 마을 이름",
+            "옥수수 품종 이름",
+            "스페인어로 '바삭한'"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1943년 멕시코 국경 마을에서 '나초'라는 별명의 지배인 이그나시오 아나야가 즉석에서 만들었다고 해요.",
+        "tip": "이그나시오의 애칭"
+      }
+    },
+    {
+      "id": "trivia-m7005",
+      "difficulty": "hard",
+      "answer": "1904년 세인트루이스 만국 박람회",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아이스크림을 담는 먹을 수 있는 '콘'이 널리 알려지는 계기가 된 행사는?",
+          "choices": [
+            "1904년 세인트루이스 만국 박람회",
+            "1896년 아테네 올림픽",
+            "1889년 파리 만국 박람회",
+            "1851년 런던 만국 박람회"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아이스크림 그릇이 떨어지자 옆 와플 가게가 와플을 말아 줬다는 이야기가 유명해요.",
+        "tip": "그릇 대신 와플"
+      }
+    },
+    {
+      "id": "trivia-m7006",
+      "difficulty": "hard",
+      "answer": "약 50년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "통조림이 발명된 뒤 '캔 따개'가 나오기까지 걸린 시간은 대략 얼마일까?",
+          "choices": [
+            "약 50년",
+            "약 1년",
+            "약 5년",
+            "약 200년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "처음 통조림은 두꺼운 쇠로 만들어 망치와 끌로 열었어요. 캔이 얇아진 뒤에야 따개가 나왔어요.",
+        "tip": "망치와 끌"
+      }
+    },
+    {
+      "id": "trivia-m7007",
+      "difficulty": "hard",
+      "answer": "벽지의 그을음을 닦는 세척제",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아이들 장난감 '플레이도' 점토는 원래 무엇에 쓰던 물건이었을까?",
+          "choices": [
+            "벽지의 그을음을 닦는 세척제",
+            "치과용 본뜨기 재료",
+            "빵 반죽",
+            "공업용 접착제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "석탄 난방이 줄면서 안 팔리자 장난감으로 바꿔 대성공했어요.",
+        "tip": "벽지 청소용"
+      }
+    },
+    {
+      "id": "trivia-m7008",
+      "difficulty": "hard",
+      "answer": "입체 무늬 벽지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "포장재 '뽁뽁이(에어캡)'는 원래 무엇으로 쓰려고 만들었을까?",
+          "choices": [
+            "입체 무늬 벽지",
+            "수영장 튜브",
+            "군용 방탄복",
+            "비닐하우스 덮개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1957년 비닐 두 장을 붙여 벽지를 만들었는데 실패했어요. 뒤에 포장재로 성공했어요.",
+        "tip": "실패한 벽지"
+      }
+    },
+    {
+      "id": "trivia-m7009",
+      "difficulty": "normal",
+      "answer": "옷에 달라붙은 도꼬마리 열매",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "찍찍이(벨크로)를 만든 발명가가 아이디어를 얻은 것은?",
+          "choices": [
+            "옷에 달라붙은 도꼬마리 열매",
+            "바위에 붙은 문어의 빨판",
+            "고양이 혀의 까끌한 돌기",
+            "나뭇가지에 친 거미줄"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스위스 발명가가 개와 산책한 뒤 털에 붙은 열매를 현미경으로 보고 갈고리 구조를 발견했어요.",
+        "tip": "산책길 열매"
+      }
+    },
+    {
+      "id": "trivia-m7010",
+      "difficulty": "hard",
+      "answer": "광고 전에도 빨간 옷을 입은 산타가 그려졌다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'산타클로스의 빨간 옷은 코카콜라 광고가 만들었다'는 말에 대한 사실은?",
+          "choices": [
+            "광고 전에도 빨간 옷을 입은 산타가 그려졌다",
+            "코카콜라가 산타를 처음 만들었다",
+            "원래 산타는 초록 옷만 입었다",
+            "펩시 광고가 빨간 옷을 만들었다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1930년대 코카콜라 광고가 지금의 푸근한 산타 모습을 널리 퍼뜨린 건 맞지만, 빨간 옷은 그 전부터 있었어요.",
+        "tip": "퍼뜨린 건 맞지만"
+      }
+    },
+    {
+      "id": "trivia-m7011",
+      "difficulty": "normal",
+      "answer": "4세기의 성 니콜라오",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "산타클로스의 모델로 알려진 사람은?",
+          "choices": [
+            "4세기의 성 니콜라오",
+            "독일의 마르틴 루터",
+            "영국의 헨리 8세",
+            "로마의 콘스탄티누스 황제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지금의 튀르키예 지역에 살던 주교로, 가난한 이들에게 몰래 선물을 준 이야기가 전해요.",
+        "tip": "산타 = 세인트 니콜라스"
+      }
+    },
+    {
+      "id": "trivia-m7012",
+      "difficulty": "normal",
+      "answer": "하루가 1년보다 길다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "금성에 대한 신기한 사실로 알맞은 것은?",
+          "choices": [
+            "하루가 1년보다 길다",
+            "고리가 있다",
+            "위성이 10개가 넘는다",
+            "태양계에서 가장 차갑다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "금성은 자전이 아주 느려 한 번 도는 데 약 243일, 태양을 한 바퀴 도는 데 약 225일이 걸려요.",
+        "tip": "느림보 자전"
+      }
+    },
+    {
+      "id": "trivia-m7013",
+      "difficulty": "normal",
+      "answer": "바람과 비가 없어서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아폴로 우주인들이 달에 남긴 발자국이 아직 남아 있을 것으로 보는 이유는?",
+          "choices": [
+            "바람과 비가 없어서",
+            "달 흙이 시멘트처럼 굳어서",
+            "누군가 보호막을 씌워서",
+            "달의 중력이 너무 강해서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "운석이 떨어지지 않는 한 수백만 년 동안 그대로 남을 수 있어요.",
+        "tip": "날씨 없는 달"
+      }
+    },
+    {
+      "id": "trivia-m7014",
+      "difficulty": "normal",
+      "answer": "척추 사이가 늘어나 조금 커진다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우주 정거장에 오래 머문 우주인의 키는 어떻게 될까?",
+          "choices": [
+            "척추 사이가 늘어나 조금 커진다",
+            "중력이 없어 조금 줄어든다",
+            "전혀 변하지 않는다",
+            "두 배로 커진다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몇 cm까지 커지기도 하지만 지구로 돌아오면 다시 원래대로 돌아와요.",
+        "tip": "무중력 스트레칭"
+      }
+    },
+    {
+      "id": "trivia-m7015",
+      "difficulty": "hard",
+      "answer": "2011년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해왕성이 1846년 발견된 뒤 태양을 처음으로 한 바퀴 다 돈 해는?",
+          "choices": [
+            "2011년",
+            "1900년",
+            "1950년",
+            "아직 못 돌았다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "해왕성의 공전 주기는 약 165년이에요.",
+        "tip": "165년 만에"
+      }
+    },
+    {
+      "id": "trivia-m7016",
+      "difficulty": "hard",
+      "answer": "프록시마 센타우리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "태양 다음으로 지구에서 가장 가까운 별은?",
+          "choices": [
+            "프록시마 센타우리",
+            "시리우스",
+            "북극성",
+            "베텔게우스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약 4.2광년 떨어져 있어요. 밤하늘에서 가장 밝은 별은 시리우스예요.",
+        "tip": "4.2광년"
+      }
+    },
+    {
+      "id": "trivia-m7017",
+      "difficulty": "normal",
+      "answer": "남극 대륙",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 넓은 사막은?",
+          "choices": [
+            "남극 대륙",
+            "사하라 사막",
+            "고비 사막",
+            "아라비아 사막"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사막은 비나 눈이 아주 적게 내리는 곳을 말해요. 덥지 않아도 사막이에요. 더운 사막 중에서는 사하라가 가장 넓어요.",
+        "tip": "추운 사막"
+      }
+    },
+    {
+      "id": "trivia-m7018",
+      "difficulty": "hard",
+      "answer": "프랑스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해외 영토까지 합치면 세계에서 시간대가 가장 많은 나라는?",
+          "choices": [
+            "프랑스",
+            "러시아",
+            "미국",
+            "중국"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태평양, 대서양, 인도양 곳곳에 해외 영토가 있어 12개 시간대를 써요. 본토만 보면 러시아가 11개로 가장 많아요.",
+        "tip": "해외 영토"
+      }
+    },
+    {
+      "id": "trivia-m7019",
+      "difficulty": "normal",
+      "answer": "1만분의 1",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "네잎클로버를 찾을 확률은 대략 얼마로 알려져 있을까?",
+          "choices": [
+            "1만분의 1",
+            "10분의 1",
+            "100분의 1",
+            "1억분의 1"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세잎클로버의 돌연변이예요. 한 포기에서 계속 네잎이 나는 경우도 있어요.",
+        "tip": "행운의 확률"
+      }
+    },
+    {
+      "id": "trivia-m7020",
+      "difficulty": "normal",
+      "answer": "God be with you",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영어 작별 인사 'Goodbye'는 원래 어떤 말이 줄어든 것일까?",
+          "choices": [
+            "God be with you",
+            "Good boy",
+            "Good day by day",
+            "Go by"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'신이 함께하기를'이라는 축복이 'Good day' 같은 인사와 섞이며 지금 모양이 됐어요.",
+        "tip": "신이 함께하길"
+      }
+    },
+    {
+      "id": "trivia-m7021",
+      "difficulty": "normal",
+      "answer": "프랑스어 '도와줘요'",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "비행기나 배가 위급할 때 무선으로 외치는 '메이데이(Mayday)'는 어느 나라 말에서 왔을까?",
+          "choices": [
+            "프랑스어 '도와줘요'",
+            "영어 '5월의 날'",
+            "독일어 '위험'",
+            "라틴어 '살려 줘'"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "프랑스어 m'aidez(메데, 도와주세요)를 영어식으로 적은 거예요. 노동절과는 관계없어요.",
+        "tip": "m'aidez"
+      }
+    },
+    {
+      "id": "trivia-m7022",
+      "difficulty": "hard",
+      "answer": "'받았다(Received)'의 R을 부르던 말",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "무전에서 '잘 알아들었다'는 뜻으로 쓰는 '로저(Roger)'는 어디에서 나왔을까?",
+          "choices": [
+            "'받았다(Received)'의 R을 부르던 말",
+            "처음 무전을 한 조종사 이름",
+            "영국 왕의 이름",
+            "라틴어 '좋다'"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "옛 음성 알파벳에서 R을 'Roger'라고 불렀어요.",
+        "tip": "R = Received"
+      }
+    },
+    {
+      "id": "trivia-m7023",
+      "difficulty": "normal",
+      "answer": "그리스어 '그리스도'의 첫 글자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'X-mas'에서 X가 뜻하는 것은?",
+          "choices": [
+            "그리스어 '그리스도'의 첫 글자",
+            "모르는 수를 뜻하는 기호",
+            "십자가 모양",
+            "열 번째 달"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그리스어 ΧΡΙΣΤΟΣ(크리스토스)의 첫 글자 Χ(키)예요. 그래서 줄임말이지만 불경한 표기가 아니에요.",
+        "tip": "그리스 문자 키(Χ)"
+      }
+    },
+    {
+      "id": "trivia-m7024",
+      "difficulty": "hard",
+      "answer": "et(그리고)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'&' 기호는 원래 어떤 라틴어 낱말을 이어 쓴 모양일까?",
+          "choices": [
+            "et(그리고)",
+            "ad(~로)",
+            "in(안에)",
+            "ex(밖으로)"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "e와 t를 붙여 쓰다 지금 모양이 됐어요. 이름은 '앰퍼샌드'예요.",
+        "tip": "앰퍼샌드"
+      }
+    },
+    {
+      "id": "trivia-m7025",
+      "difficulty": "hard",
+      "answer": "라틴어 '리브라(저울)'의 줄임이라서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "무게 단위 파운드를 'lb'로 적는 이유는?",
+          "choices": [
+            "라틴어 '리브라(저울)'의 줄임이라서",
+            "영국 왕의 머리글자라서",
+            "'large bag'의 줄임이라서",
+            "런던 은행의 줄임이라서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국 화폐 파운드 기호 £도 같은 리브라(libra)의 L에서 나왔어요.",
+        "tip": "천칭자리 Libra"
+      }
+    },
+    {
+      "id": "trivia-m7026",
+      "difficulty": "normal",
+      "answer": "정오 전",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "시간 표기 'a.m.'은 라틴어로 무슨 뜻일까?",
+          "choices": [
+            "정오 전",
+            "아침 식사 시간",
+            "해 뜬 뒤",
+            "하루의 처음"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "ante meridiem(정오 전)의 줄임이에요. p.m.은 post meridiem(정오 후)예요.",
+        "tip": "ante = 앞"
+      }
+    },
+    {
+      "id": "trivia-m7027",
+      "difficulty": "normal",
+      "answer": "본문 뒤에 쓴 글",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "편지 끝에 덧붙이는 말 앞에 쓰는 'P.S.'는 무슨 뜻일까?",
+          "choices": [
+            "본문 뒤에 쓴 글",
+            "개인적인 비밀",
+            "추신을 꼭 읽으라는 표시",
+            "보낸 사람 서명"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "라틴어 post scriptum의 줄임이에요. 우리말로는 '추신'이라고 해요.",
+        "tip": "추신"
+      }
+    },
+    {
+      "id": "trivia-m7028",
+      "difficulty": "hard",
+      "answer": "네덜란드어",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'쿠키'라는 말은 어느 언어에서 왔을까?",
+          "choices": [
+            "네덜란드어",
+            "독일어",
+            "스페인어",
+            "이탈리아어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'작은 케이크'라는 뜻의 네덜란드어 koekje에서 왔어요. 뉴욕에 살던 네덜란드 이주민들이 퍼뜨렸어요.",
+        "tip": "작은 케이크"
+      }
+    },
+    {
+      "id": "trivia-m7029",
+      "difficulty": "hard",
+      "answer": "사윈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "핼러윈의 뿌리로 꼽히는, 고대 켈트족이 한 해의 끝에 지내던 축제는?",
+          "choices": [
+            "사윈",
+            "율",
+            "오월제",
+            "하지 축제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이날 죽은 사람의 영혼이 돌아온다고 믿어 무서운 가면을 썼다고 해요.",
+        "tip": "켈트족의 섣달그믐"
+      }
+    },
+    {
+      "id": "trivia-m7030",
+      "difficulty": "easy",
+      "answer": "4월 1일",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "거짓말을 해도 웃어넘기는 날인 '만우절'은 몇 월 며칠일까?",
+          "choices": [
+            "4월 1일",
+            "3월 1일",
+            "4월 4일",
+            "5월 1일"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어로는 'April Fools' Day'예요. 프랑스에서는 남의 등에 종이 물고기를 몰래 붙이며 놀아요.",
+        "tip": "에이프릴 풀스 데이"
+      }
+    },
+    {
+      "id": "trivia-m7031",
+      "difficulty": "normal",
+      "answer": "독일",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "집 안에 전나무를 장식하는 크리스마스트리 풍습이 널리 퍼지기 시작한 나라는?",
+          "choices": [
+            "독일",
+            "영국",
+            "미국",
+            "이탈리아"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국 빅토리아 여왕의 남편인 독일 출신 앨버트 공이 들여와 영국과 미국에 크게 퍼졌어요.",
+        "tip": "앨버트 공"
+      }
+    }
+  ]
+}
