@@ -1,5 +1,5 @@
 {
-  "version": 63,
+  "version": 64,
   "files": [
     {
       "category": "idiom",
@@ -254,6 +254,11 @@
     {
       "category": "economy",
       "file": "economy.m.json",
+      "version": 1
+    },
+    {
+      "category": "economy",
+      "file": "economy.m2.json",
       "version": 1
     },
     {
