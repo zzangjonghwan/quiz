@@ -1,5 +1,5 @@
 {
-  "version": 67,
+  "version": 68,
   "files": [
     {
       "category": "idiom",
@@ -234,6 +234,11 @@
     {
       "category": "food",
       "file": "food.m.json",
+      "version": 1
+    },
+    {
+      "category": "food",
+      "file": "food.m2.json",
       "version": 1
     },
     {
