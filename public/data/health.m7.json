@@ -1,0 +1,531 @@
+{
+  "category": "health",
+  "version": 1,
+  "cards": [
+    {
+      "id": "health-m7001",
+      "difficulty": "normal",
+      "answer": "BCG",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "갓난아기 때 맞는 결핵 예방 백신의 이름은?",
+          "choices": [
+            "BCG",
+            "MMR",
+            "DTaP",
+            "HPV"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "왼쪽 어깨에 흉터가 남는 그 예방 접종이에요. MMR은 홍역·볼거리·풍진 백신이에요.",
+        "tip": "불주사"
+      }
+    },
+    {
+      "id": "health-m7002",
+      "difficulty": "normal",
+      "answer": "A형 간염",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "덜 익힌 조개나 오염된 물로 옮고, 백신으로 막을 수 있는 간염은?",
+          "choices": [
+            "A형 간염",
+            "B형 간염",
+            "C형 간염",
+            "지방간"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "입을 통해 옮아요. B형과 C형 간염은 주로 피나 체액으로 옮아요.",
+        "tip": "입으로 옮는 간염"
+      }
+    },
+    {
+      "id": "health-m7003",
+      "difficulty": "easy",
+      "answer": "말라리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "모기가 옮기는 원충 때문에 걸리며, 열이 났다 내렸다를 되풀이하는 병은?",
+          "choices": [
+            "말라리아",
+            "광견병",
+            "콜레라",
+            "결핵"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "우리나라에서도 휴전선 근처 지역에서 여름철에 환자가 나와요.",
+        "tip": "모기 원충"
+      }
+    },
+    {
+      "id": "health-m7004",
+      "difficulty": "normal",
+      "answer": "광견병",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "감염된 동물에게 물려 옮고, 증상이 나타나면 거의 다 목숨을 잃어 물린 직후 접종이 중요한 병은?",
+          "choices": [
+            "광견병",
+            "파상풍",
+            "말라리아",
+            "쯔쯔가무시증"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물을 무서워하는 증상이 있어 '공수병'이라고도 해요. 물리면 비누로 15분 넘게 씻고 바로 병원에 가야 해요.",
+        "tip": "공수병"
+      }
+    },
+    {
+      "id": "health-m7005",
+      "difficulty": "hard",
+      "answer": "쯔쯔가무시증",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "가을철 풀밭에서 털진드기 유충에게 물려 걸리며, 물린 자리에 검은 딱지가 생기는 병은?",
+          "choices": [
+            "쯔쯔가무시증",
+            "말라리아",
+            "광견병",
+            "렙토스피라증"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "열, 두통, 발진이 생겨요. 풀밭에 앉을 땐 돗자리를 깔고 다녀온 뒤 옷을 바로 빨아요.",
+        "tip": "가을 풀밭"
+      }
+    },
+    {
+      "id": "health-m7006",
+      "difficulty": "hard",
+      "answer": "SFTS",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "작은소피참진드기에게 물려 옮으며, 열과 함께 혈소판이 줄어드는 병의 약자는?",
+          "choices": [
+            "SFTS",
+            "MERS",
+            "SARS",
+            "AIDS"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'중증 열성 혈소판 감소 증후군'이에요. 치명률이 높아 야외 활동 뒤 진드기에 물린 자리를 꼭 살펴야 해요.",
+        "tip": "진드기 바이러스"
+      }
+    },
+    {
+      "id": "health-m7007",
+      "difficulty": "hard",
+      "answer": "비브리오 패혈증",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "여름철 덜 익힌 어패류를 먹거나 상처에 바닷물이 닿아 걸리며, 특히 간 질환자에게 위험한 병은?",
+          "choices": [
+            "비브리오 패혈증",
+            "노로바이러스 장염",
+            "A형 간염",
+            "콜레라"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "바닷물 온도가 높아지는 여름에 많아요. 어패류는 꼭 익혀 먹는 게 좋아요.",
+        "tip": "여름 바다 세균"
+      }
+    },
+    {
+      "id": "health-m7008",
+      "difficulty": "normal",
+      "answer": "살모넬라균",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "덜 익힌 달걀이나 닭고기로 잘 걸리는 식중독균은?",
+          "choices": [
+            "살모넬라균",
+            "보툴리누스균",
+            "비브리오균",
+            "헬리코박터균"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "열에 약해서 충분히 익히면 죽어요. 날달걀을 만진 뒤에는 손을 씻어야 해요.",
+        "tip": "달걀 식중독"
+      }
+    },
+    {
+      "id": "health-m7009",
+      "difficulty": "hard",
+      "answer": "황색 포도상 구균",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "손의 상처에 많고, 이 균이 만든 독소는 끓여도 잘 없어지지 않아 김밥 식중독 등의 원인이 되는 균은?",
+          "choices": [
+            "황색 포도상 구균",
+            "살모넬라균",
+            "대장균",
+            "비브리오균"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "균은 열에 죽어도 이미 만들어진 독소는 남아요. 손에 상처가 있으면 장갑을 끼고 조리해야 해요.",
+        "tip": "독소는 열에 강해"
+      }
+    },
+    {
+      "id": "health-m7010",
+      "difficulty": "hard",
+      "answer": "보툴리누스균",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "잘못 만든 통조림 등에서 자라며 아주 강한 신경 독소를 만드는 세균은?",
+          "choices": [
+            "보툴리누스균",
+            "살모넬라균",
+            "결핵균",
+            "유산균"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 독소를 아주 묽게 써서 주름 펴는 '보톡스'를 만들어요.",
+        "tip": "보톡스의 원료"
+      }
+    },
+    {
+      "id": "health-m7011",
+      "difficulty": "normal",
+      "answer": "헬리코박터 파일로리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "위 속에 살며 위염과 위궤양, 위암의 위험을 높이는 세균은?",
+          "choices": [
+            "헬리코박터 파일로리",
+            "살모넬라",
+            "대장균",
+            "유산균"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 균을 발견한 연구자들이 2005년 노벨 생리의학상을 받았어요.",
+        "tip": "위 속 세균"
+      }
+    },
+    {
+      "id": "health-m7012",
+      "difficulty": "easy",
+      "answer": "옷소매 안쪽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "기침이나 재채기를 할 때 손이 없으면 무엇으로 입과 코를 가리라고 권할까?",
+          "choices": [
+            "옷소매 안쪽",
+            "손바닥",
+            "그냥 고개만 돌린다",
+            "아무것도 하지 않는다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "손으로 가리면 그 손으로 만진 물건에 병균이 옮아요.",
+        "tip": "팔꿈치 안쪽"
+      }
+    },
+    {
+      "id": "health-m7013",
+      "difficulty": "normal",
+      "answer": "회복 자세",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "의식은 없지만 숨은 쉬는 사람을 기도가 막히지 않게 옆으로 눕혀 두는 자세는?",
+          "choices": [
+            "회복 자세",
+            "쇼크 자세",
+            "엎드린 자세",
+            "앉은 자세"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "토해도 숨이 막히지 않게 해 줘요. 숨을 쉬지 않으면 바로 심폐 소생술을 해야 해요.",
+        "tip": "옆으로 눕히기"
+      }
+    },
+    {
+      "id": "health-m7014",
+      "difficulty": "normal",
+      "answer": "얼음찜질",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "삐었을 때 하는 응급 처치 'RICE'에서 'I'가 뜻하는 것은?",
+          "choices": [
+            "얼음찜질",
+            "주사",
+            "소독",
+            "마사지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "Rest(쉬기), Ice(얼음찜질), Compression(압박), Elevation(높이 올리기)의 머리글자예요.",
+        "tip": "Ice"
+      }
+    },
+    {
+      "id": "health-m7015",
+      "difficulty": "normal",
+      "answer": "바닷물",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "바다에서 해파리에 쏘였을 때 쏘인 곳을 씻는 데 알맞은 것은?",
+          "choices": [
+            "바닷물",
+            "수돗물",
+            "생수",
+            "탄산음료"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "민물에 닿으면 피부에 남은 독침이 터져 독이 더 퍼질 수 있어요. 촉수는 손으로 만지지 말고 카드로 떼어 내요.",
+        "tip": "민물 X"
+      }
+    },
+    {
+      "id": "health-m7016",
+      "difficulty": "normal",
+      "answer": "우유나 식염수에 담가 간다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사고로 영구치가 빠졌을 때 치과에 가기 전 이를 보관하는 방법으로 알맞은 것은?",
+          "choices": [
+            "우유나 식염수에 담가 간다",
+            "휴지로 박박 닦아 말린다",
+            "수돗물에 오래 씻는다",
+            "그냥 버린다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뿌리 쪽은 만지지 말아야 해요. 30분 안에 치과에 가면 다시 심을 가능성이 높아요.",
+        "tip": "우유에 퐁당"
+      }
+    },
+    {
+      "id": "health-m7017",
+      "difficulty": "hard",
+      "answer": "경구 수액",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "설사로 탈수가 심할 때 링거 대신 마셔서 물과 전해질을 보충하게 하는 용액은?",
+          "choices": [
+            "경구 수액",
+            "링거",
+            "이온 음료",
+            "소금물"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물, 소금, 설탕을 정해진 비율로 섞은 거예요. 설사로 인한 탈수 사망을 크게 줄였어요.",
+        "tip": "마시는 수액"
+      }
+    },
+    {
+      "id": "health-m7018",
+      "difficulty": "normal",
+      "answer": "이부프로펜",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "열을 내리고 통증과 염증을 함께 줄여 주는 소염 진통제로, 애드빌과 부루펜의 성분은?",
+          "choices": [
+            "이부프로펜",
+            "아세트아미노펜",
+            "페니실린",
+            "항히스타민제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "위가 약한 사람은 빈속에 먹지 않는 게 좋아요. 타이레놀의 성분은 아세트아미노펜이에요.",
+        "tip": "소염 진통제"
+      }
+    },
+    {
+      "id": "health-m7019",
+      "difficulty": "normal",
+      "answer": "항히스타민제",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "콧물, 재채기, 두드러기 같은 알레르기 증상을 줄여 주지만 졸음이 오기도 하는 약은?",
+          "choices": [
+            "항히스타민제",
+            "항생제",
+            "진통제",
+            "수면제"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "알레르기 반응을 일으키는 '히스타민'의 작용을 막아요. 먹고 운전은 조심해야 해요.",
+        "tip": "알레르기 약"
+      }
+    },
+    {
+      "id": "health-m7020",
+      "difficulty": "hard",
+      "answer": "위를 보호하고 잊지 않게 하려는 기준이다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "먹는 약의 '식후 30분' 복용 지시에 대해 흔히 하는 설명으로 알맞은 것은?",
+          "choices": [
+            "위를 보호하고 잊지 않게 하려는 기준이다",
+            "30분이 지나면 약이 독이 된다",
+            "반드시 정확히 30분을 지켜야 한다",
+            "빈속에 먹으면 약이 사라진다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약마다 달라서 공복에 먹어야 하는 약도 있어요. 정확한 복용법은 약사에게 물어보는 게 좋아요.",
+        "tip": "약마다 달라요"
+      }
+    },
+    {
+      "id": "health-m7021",
+      "difficulty": "normal",
+      "answer": "타르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "담배 연기 속 끈적한 덩어리로, 폐에 쌓여 암을 일으키는 물질을 통틀어 부르는 말은?",
+          "choices": [
+            "타르",
+            "니코틴",
+            "일산화 탄소",
+            "카페인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "중독을 일으키는 물질은 니코틴, 피 속 산소 운반을 막는 기체는 일산화 탄소예요.",
+        "tip": "끈적한 검은 물질"
+      }
+    },
+    {
+      "id": "health-m7022",
+      "difficulty": "normal",
+      "answer": "화면 위쪽 끝이 눈높이와 비슷하게",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "모니터를 볼 때 목과 눈에 무리가 적은 화면 높이로 흔히 권하는 것은?",
+          "choices": [
+            "화면 위쪽 끝이 눈높이와 비슷하게",
+            "눈보다 30cm 위로",
+            "책상 바닥에 눕혀서",
+            "무릎 높이로"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "화면이 낮으면 고개를 숙이게 되어 거북목이 되기 쉬워요. 거리는 팔 길이 정도가 좋아요.",
+        "tip": "눈높이"
+      }
+    },
+    {
+      "id": "health-m7023",
+      "difficulty": "hard",
+      "answer": "젖산",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "운동할 때 근육에 쌓여 다음 날 근육통을 일으킨다고 오랫동안 잘못 알려진 물질은?",
+          "choices": [
+            "젖산",
+            "요산",
+            "단백질",
+            "포도당"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "젖산은 운동이 끝나고 한두 시간이면 대부분 사라져요. 다음 날 근육통은 근섬유의 미세한 손상 때문이에요.",
+        "tip": "근육통의 누명"
+      }
+    },
+    {
+      "id": "health-m7024",
+      "difficulty": "easy",
+      "answer": "약 1.5~2L",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "하루에 물을 어느 정도 마시라고 흔히 권할까? (음식으로 먹는 물 제외)",
+          "choices": [
+            "약 1.5~2L",
+            "약 200ml",
+            "약 5L",
+            "약 10L"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "땀을 많이 흘리면 더 마셔야 해요. 짧은 시간에 너무 많이 마시면 오히려 위험할 수 있어요.",
+        "tip": "컵으로 8잔쯤"
+      }
+    },
+    {
+      "id": "health-m7025",
+      "difficulty": "normal",
+      "answer": "빛이 잠 호르몬 분비를 늦춰서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "잠들기 전 스마트폰을 오래 보면 잠이 잘 안 오는 이유로 알맞은 것은?",
+          "choices": [
+            "빛이 잠 호르몬 분비를 늦춰서",
+            "배터리 전파가 뇌를 데워서",
+            "눈이 너무 깨끗해져서",
+            "체온이 갑자기 내려가서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "밝은 빛, 특히 파란빛은 멜라토닌 분비를 늦춰요. 자기 1시간 전에는 화면을 멀리하는 게 좋아요.",
+        "tip": "멜라토닌 방해"
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": 154,
+  "version": 156,
   "files": [
     {
       "category": "idiom",
@@ -444,6 +444,16 @@
     {
       "category": "health",
       "file": "health.m5.json",
+      "version": 1
+    },
+    {
+      "category": "health",
+      "file": "health.m6.json",
+      "version": 1
+    },
+    {
+      "category": "health",
+      "file": "health.m7.json",
       "version": 1
     },
     {
