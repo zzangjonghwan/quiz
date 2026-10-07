@@ -1,5 +1,5 @@
 {
-  "version": 66,
+  "version": 67,
   "files": [
     {
       "category": "idiom",
@@ -244,6 +244,11 @@
     {
       "category": "law",
       "file": "law.m.json",
+      "version": 1
+    },
+    {
+      "category": "law",
+      "file": "law.m2.json",
       "version": 1
     },
     {
