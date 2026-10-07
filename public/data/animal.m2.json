@@ -194,27 +194,6 @@
     {
       "id": "animal-m2010",
       "difficulty": "easy",
-      "answer": "갈라파고스 제도",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "찰스 다윈이 거대한 거북과 핀치새를 관찰하며 진화론의 실마리를 얻은 곳은?",
-          "choices": [
-            "갈라파고스 제도",
-            "마다가스카르",
-            "하와이 제도",
-            "뉴질랜드"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "남아메리카 에콰도르 앞바다의 섬들로, 섬마다 핀치새의 부리 모양이 다른 것을 보고 진화를 생각하게 되었어요.",
-        "tip": "갈라파고스 = 스페인어로 거북"
-      }
-    },
-    {
-      "id": "animal-m2011",
-      "difficulty": "easy",
       "answer": "지렁이",
       "questions": [
         {
@@ -234,7 +213,7 @@
       }
     },
     {
-      "id": "animal-m2012",
+      "id": "animal-m2011",
       "difficulty": "normal",
       "answer": "개미핥기",
       "questions": [
@@ -255,7 +234,7 @@
       }
     },
     {
-      "id": "animal-m2013",
+      "id": "animal-m2012",
       "difficulty": "normal",
       "answer": "먹이 대부분을 직접 사냥한다",
       "questions": [
@@ -276,7 +255,7 @@
       }
     },
     {
-      "id": "animal-m2014",
+      "id": "animal-m2013",
       "difficulty": "normal",
       "answer": "수컷",
       "questions": [
@@ -297,7 +276,7 @@
       }
     },
     {
-      "id": "animal-m2015",
+      "id": "animal-m2014",
       "difficulty": "normal",
       "answer": "웜뱃",
       "questions": [
@@ -318,7 +297,7 @@
       }
     },
     {
-      "id": "animal-m2016",
+      "id": "animal-m2015",
       "difficulty": "normal",
       "answer": "동물",
       "questions": [
@@ -339,7 +318,7 @@
       }
     },
     {
-      "id": "animal-m2017",
+      "id": "animal-m2016",
       "difficulty": "normal",
       "answer": "향유고래",
       "questions": [
@@ -360,7 +339,7 @@
       }
     },
     {
-      "id": "animal-m2018",
+      "id": "animal-m2017",
       "difficulty": "normal",
       "answer": "일각고래",
       "questions": [
@@ -381,7 +360,7 @@
       }
     },
     {
-      "id": "animal-m2019",
+      "id": "animal-m2018",
       "difficulty": "normal",
       "answer": "장끼와 까투리",
       "questions": [
@@ -402,7 +381,7 @@
       }
     },
     {
-      "id": "animal-m2020",
+      "id": "animal-m2019",
       "difficulty": "hard",
       "answer": "능소니",
       "questions": [
@@ -423,7 +402,7 @@
       }
     },
     {
-      "id": "animal-m2021",
+      "id": "animal-m2020",
       "difficulty": "hard",
       "answer": "꺼병이",
       "questions": [
@@ -444,7 +423,7 @@
       }
     },
     {
-      "id": "animal-m2022",
+      "id": "animal-m2021",
       "difficulty": "normal",
       "answer": "반달가슴곰",
       "questions": [
@@ -465,7 +444,7 @@
       }
     },
     {
-      "id": "animal-m2023",
+      "id": "animal-m2022",
       "difficulty": "normal",
       "answer": "고라니",
       "questions": [
@@ -486,7 +465,7 @@
       }
     },
     {
-      "id": "animal-m2024",
+      "id": "animal-m2023",
       "difficulty": "normal",
       "answer": "구리가 든 헤모시아닌 때문에",
       "questions": [
@@ -507,7 +486,7 @@
       }
     },
     {
-      "id": "animal-m2025",
+      "id": "animal-m2024",
       "difficulty": "normal",
       "answer": "앞 새가 만든 기류를 타 힘을 아끼려고",
       "questions": [
@@ -528,7 +507,7 @@
       }
     },
     {
-      "id": "animal-m2026",
+      "id": "animal-m2025",
       "difficulty": "hard",
       "answer": "반향 정위",
       "questions": [
@@ -549,7 +528,7 @@
       }
     },
     {
-      "id": "animal-m2027",
+      "id": "animal-m2026",
       "difficulty": "hard",
       "answer": "이름과 달리 뱀장어가 아니다",
       "questions": [
@@ -570,7 +549,7 @@
       }
     },
     {
-      "id": "animal-m2028",
+      "id": "animal-m2027",
       "difficulty": "hard",
       "answer": "물곰(완보동물)",
       "questions": [
@@ -591,7 +570,7 @@
       }
     },
     {
-      "id": "animal-m2029",
+      "id": "animal-m2028",
       "difficulty": "hard",
       "answer": "해삼",
       "questions": [
@@ -612,7 +591,7 @@
       }
     },
     {
-      "id": "animal-m2030",
+      "id": "animal-m2029",
       "difficulty": "hard",
       "answer": "아프리카들고양이",
       "questions": [
