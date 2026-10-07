@@ -1,5 +1,5 @@
 {
-  "version": 60,
+  "version": 61,
   "files": [
     {
       "category": "idiom",
@@ -144,6 +144,11 @@
     {
       "category": "science",
       "file": "science.m.json",
+      "version": 1
+    },
+    {
+      "category": "science",
+      "file": "science.m2.json",
       "version": 1
     },
     {

@@ -1,0 +1,615 @@
+{
+  "category": "science",
+  "version": 1,
+  "cards": [
+    {
+      "id": "science-m2001",
+      "difficulty": "easy",
+      "answer": "고체",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "소리가 가장 빠르게 전달되는 것은?",
+          "choices": [
+            "고체",
+            "액체",
+            "기체",
+            "진공"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "소리는 물질의 떨림으로 전달돼서 알갱이가 빽빽한 고체에서 가장 빠르고, 진공에서는 아예 전달되지 않아요.",
+        "tip": "기찻길에 귀 대면 기차 소리가 먼저 들림"
+      }
+    },
+    {
+      "id": "science-m2002",
+      "difficulty": "normal",
+      "answer": "F = ma",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "뉴턴의 운동 제2법칙(가속도 법칙)을 나타내는 식은?",
+          "choices": [
+            "F = ma",
+            "E = mc²",
+            "V = IR",
+            "PV = nRT"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "힘(F)은 질량(m)과 가속도(a)의 곱이에요. 같은 힘이면 무거울수록 덜 가속돼요.",
+        "tip": "E=mc²는 아인슈타인, V=IR은 옴의 법칙"
+      }
+    },
+    {
+      "id": "science-m2003",
+      "difficulty": "normal",
+      "answer": "옴의 법칙",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "전압(V), 전류(I), 저항(R) 사이의 관계 V = IR을 부르는 이름은?",
+          "choices": [
+            "옴의 법칙",
+            "쿨롱의 법칙",
+            "패러데이 법칙",
+            "줄의 법칙"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "독일 물리학자 옴이 밝혔어요. 저항의 단위 Ω(옴)도 그의 이름에서 왔어요.",
+        "tip": "저항 단위 = 옴(Ω)"
+      }
+    },
+    {
+      "id": "science-m2004",
+      "difficulty": "easy",
+      "answer": "와트(W)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "전기 제품이 1초 동안 쓰는 에너지, 곧 전력의 단위는?",
+          "choices": [
+            "와트(W)",
+            "볼트(V)",
+            "옴(Ω)",
+            "암페어(A)"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "와트는 증기 기관을 개량한 제임스 와트의 이름에서 왔어요. 1,000W를 1시간 쓰면 1kWh예요.",
+        "tip": "전구 60W, 전자레인지 1,000W"
+      }
+    },
+    {
+      "id": "science-m2005",
+      "difficulty": "normal",
+      "answer": "대류",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "방바닥 난방만 해도 방 전체가 따뜻해지는 것처럼, 액체나 기체가 직접 움직이며 열을 옮기는 방식은?",
+          "choices": [
+            "대류",
+            "전도",
+            "복사",
+            "단열"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "데워진 공기는 가벼워져 위로 올라가고 찬 공기가 내려오며 순환해요. 에어컨을 위쪽에 다는 이유도 대류 때문이에요.",
+        "tip": "전도 = 맞닿아서, 대류 = 흘러서, 복사 = 빛처럼 바로"
+      }
+    },
+    {
+      "id": "science-m2006",
+      "difficulty": "normal",
+      "answer": "복사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "모닥불 앞에서 얼굴이 뜨거워지는 것처럼, 물질 없이 열이 바로 전달되는 방식은?",
+          "choices": [
+            "복사",
+            "전도",
+            "대류",
+            "증발"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "복사는 빛(전자기파)으로 열이 전달되는 방식이라 우주 공간도 건너요. 태양열이 지구에 오는 방법이에요.",
+        "tip": "태양열 = 복사"
+      }
+    },
+    {
+      "id": "science-m2007",
+      "difficulty": "easy",
+      "answer": "빛의 굴절",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "물이 담긴 컵에 꽂은 빨대가 꺾여 보이는 현상과 관계있는 것은?",
+          "choices": [
+            "빛의 굴절",
+            "빛의 반사",
+            "빛의 산란",
+            "빛의 간섭"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빛은 공기에서 물로 들어갈 때 속도가 느려져 꺾여 나아가요. 그래서 물속 물체는 실제와 다른 곳에 있는 것처럼 보여요.",
+        "tip": "꺾여 보이면 굴절, 비쳐 보이면 반사"
+      }
+    },
+    {
+      "id": "science-m2008",
+      "difficulty": "normal",
+      "answer": "볼록 렌즈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "가까운 곳이 잘 보이지 않는 원시를 바로잡는 안경 렌즈는?",
+          "choices": [
+            "볼록 렌즈",
+            "오목 렌즈",
+            "원통 렌즈",
+            "평면 유리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원시는 상이 망막 뒤에 맺혀서 빛을 모아 주는 볼록 렌즈를 써요. 근시는 상이 망막 앞에 맺혀 빛을 퍼뜨리는 오목 렌즈를 써요.",
+        "tip": "원시 = 볼록, 근시 = 오목"
+      }
+    },
+    {
+      "id": "science-m2009",
+      "difficulty": "easy",
+      "answer": "철",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "원소 기호 'Fe'는 무엇일까?",
+          "choices": [
+            "철",
+            "납",
+            "주석",
+            "니켈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "라틴어로 철을 뜻하는 ferrum에서 왔어요. 납은 Pb, 주석은 Sn, 니켈은 Ni예요.",
+        "tip": "Fe = 철분(iron)"
+      }
+    },
+    {
+      "id": "science-m2010",
+      "difficulty": "easy",
+      "answer": "이산화 탄소",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라이아이스는 무엇을 얼린 것일까?",
+          "choices": [
+            "이산화 탄소",
+            "물",
+            "질소",
+            "산소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "드라이아이스는 약 -78.5°C의 고체 이산화 탄소예요. 녹을 때 액체가 되지 않고 바로 기체로 변해 '드라이(마른)' 얼음이라고 해요.",
+        "tip": "녹아도 물이 안 생기는 얼음"
+      }
+    },
+    {
+      "id": "science-m2011",
+      "difficulty": "normal",
+      "answer": "승화",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "드라이아이스처럼 고체가 액체를 거치지 않고 바로 기체가 되는 현상은?",
+          "choices": [
+            "승화",
+            "기화",
+            "융해",
+            "응결"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "겨울에 젖은 빨래가 얼어 있다가 그대로 마르는 것, 옷장 속 나프탈렌이 작아지는 것도 승화예요.",
+        "tip": "고체 ↔ 기체 = 승화"
+      }
+    },
+    {
+      "id": "science-m2012",
+      "difficulty": "normal",
+      "answer": "물이 어는 온도를 낮추려고",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "겨울철 도로에 염화 칼슘을 뿌리는 이유는?",
+          "choices": [
+            "물이 어는 온도를 낮추려고",
+            "도로를 빨리 데우려고",
+            "타이어 마찰을 줄이려고",
+            "눈을 더 무겁게 하려고"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물에 소금 같은 물질이 녹으면 어는점이 낮아져서 영하에서도 잘 얼지 않아요.",
+        "tip": "바닷물이 잘 안 어는 이유"
+      }
+    },
+    {
+      "id": "science-m2013",
+      "difficulty": "normal",
+      "answer": "압력이 높아져 물의 끓는점이 올라가서",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "압력솥으로 밥을 하면 더 빨리 익는 이유는?",
+          "choices": [
+            "압력이 높아져 물의 끓는점이 올라가서",
+            "압력이 높아져 끓는점이 내려가서",
+            "수증기가 쌀을 녹여서",
+            "불꽃이 더 세져서"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "압력이 높으면 물이 100°C보다 높은 온도에서 끓어 더 뜨거운 물로 익혀요. 높은 산에서는 반대로 끓는점이 낮아 밥이 설익어요.",
+        "tip": "압력 ↑ 끓는점 ↑"
+      }
+    },
+    {
+      "id": "science-m2014",
+      "difficulty": "hard",
+      "answer": "pH 5.6 미만",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "보통 pH 몇 미만인 비를 '산성비'라고 할까?",
+          "choices": [
+            "pH 5.6 미만",
+            "pH 7 미만",
+            "pH 3 미만",
+            "pH 9 미만"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "깨끗한 비도 공기 중 이산화 탄소가 녹아 pH 5.6 정도로 약한 산성이에요. 그보다 더 산성인 비를 산성비라고 해요.",
+        "tip": "빗물은 원래 살짝 산성"
+      }
+    },
+    {
+      "id": "science-m2015",
+      "difficulty": "normal",
+      "answer": "염산",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "위에서 나오는 위액에 들어 있는 강한 산은?",
+          "choices": [
+            "염산",
+            "황산",
+            "질산",
+            "아세트산"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "위산(염산)은 음식 속 세균을 죽이고 단백질 소화를 도와요. 위벽은 점액으로 스스로를 보호해요.",
+        "tip": "아세트산 = 식초"
+      }
+    },
+    {
+      "id": "science-m2016",
+      "difficulty": "hard",
+      "answer": "우라실",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "DNA를 이루는 염기가 아닌 것은?",
+          "choices": [
+            "우라실",
+            "아데닌",
+            "구아닌",
+            "시토신"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "DNA의 염기는 아데닌(A), 티민(T), 구아닌(G), 시토신(C)이에요. RNA에서는 티민 대신 우라실(U)을 써요.",
+        "tip": "DNA = ATGC, RNA = AUGC"
+      }
+    },
+    {
+      "id": "science-m2017",
+      "difficulty": "normal",
+      "answer": "대동맥",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "심장에서 온몸으로 피를 내보내는, 우리 몸에서 가장 굵은 동맥은?",
+          "choices": [
+            "대동맥",
+            "폐동맥",
+            "대정맥",
+            "경동맥"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대동맥은 좌심실에서 나와 온몸으로 산소가 풍부한 피를 보내요. 굵기가 엄지손가락만 해요.",
+        "tip": "동맥 = 심장에서 나감, 정맥 = 심장으로 들어옴"
+      }
+    },
+    {
+      "id": "science-m2018",
+      "difficulty": "hard",
+      "answer": "크리스퍼 유전자 가위",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "특정 DNA를 정확히 잘라 고칠 수 있게 해 2020년 노벨 화학상을 받은 기술은?",
+          "choices": [
+            "크리스퍼 유전자 가위",
+            "중합 효소 연쇄 반응(PCR)",
+            "체세포 복제",
+            "줄기세포 배양"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세균의 면역 체계에서 착안한 기술로, 유전병 치료나 작물 개량에 쓰여요. 제니퍼 다우드나와 에마뉘엘 샤르팡티에가 상을 받았어요.",
+        "tip": "유전자를 자르고 붙이는 가위"
+      }
+    },
+    {
+      "id": "science-m2019",
+      "difficulty": "normal",
+      "answer": "P파",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지진이 났을 때 가장 먼저 도착하는 지진파는?",
+          "choices": [
+            "P파",
+            "S파",
+            "L파",
+            "R파"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "P파는 빠르지만 흔들림이 작고, 뒤따라오는 S파가 더 크게 흔들어요. 지진 경보는 이 시간 차를 이용해요.",
+        "tip": "P = Primary(첫째)"
+      }
+    },
+    {
+      "id": "science-m2020",
+      "difficulty": "normal",
+      "answer": "외핵",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지구 내부에서 액체 상태로 여겨지는 층은?",
+          "choices": [
+            "외핵",
+            "내핵",
+            "맨틀",
+            "지각"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지각-맨틀-외핵-내핵 가운데 외핵은 녹은 철과 니켈로 되어 있어요. 이 액체 금속이 움직이며 지구 자기장을 만들어요.",
+        "tip": "S파가 통과하지 못하는 층 = 액체"
+      }
+    },
+    {
+      "id": "science-m2021",
+      "difficulty": "easy",
+      "answer": "용암",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "땅속의 마그마가 지표 밖으로 흘러나온 것을 부르는 말은?",
+          "choices": [
+            "용암",
+            "화산재",
+            "화산탄",
+            "맨틀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "땅속에 있으면 마그마, 땅 위로 나오면 용암이라고 해요. 용암이 식어 굳으면 현무암 같은 화산암이 돼요.",
+        "tip": "속 = 마그마, 밖 = 용암"
+      }
+    },
+    {
+      "id": "science-m2022",
+      "difficulty": "hard",
+      "answer": "약 32배",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지진의 규모가 1 커지면 방출되는 에너지는 약 몇 배가 될까?",
+          "choices": [
+            "약 32배",
+            "약 2배",
+            "약 10배",
+            "약 100배"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "규모 6과 7은 숫자로 1 차이지만 에너지는 약 32배, 규모 2가 커지면 약 1,000배 차이가 나요.",
+        "tip": "1 차이 = 32배"
+      }
+    },
+    {
+      "id": "science-m2023",
+      "difficulty": "easy",
+      "answer": "달의 인력",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "바닷물이 하루 두 번쯤 밀려왔다 빠져나가는 밀물과 썰물의 주된 원인은?",
+          "choices": [
+            "달의 인력",
+            "태양의 열",
+            "바람의 방향",
+            "지구 자기장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "달이 바닷물을 끌어당겨 바다가 부풀어 오르는 곳이 생겨요. 태양의 인력도 영향을 줘서 보름과 그믐 무렵 차이가 가장 커요.",
+        "tip": "서해 갯벌은 달의 작품"
+      }
+    },
+    {
+      "id": "science-m2024",
+      "difficulty": "easy",
+      "answer": "일식",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "달이 태양을 가리는 현상은?",
+          "choices": [
+            "일식",
+            "월식",
+            "오로라",
+            "유성우"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "태양-달-지구 순서로 늘어서면 일식, 태양-지구-달 순서로 늘어서 지구 그림자가 달을 가리면 월식이에요.",
+        "tip": "일(日) = 해가 먹힘, 월(月) = 달이 먹힘"
+      }
+    },
+    {
+      "id": "science-m2025",
+      "difficulty": "normal",
+      "answer": "보이저 1호",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람이 만든 물체 가운데 지구에서 가장 멀리 날아가 태양계 바깥 성간 공간에 들어선 탐사선은?",
+          "choices": [
+            "보이저 1호",
+            "뉴호라이즌스호",
+            "파커 태양 탐사선",
+            "아폴로 11호"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1977년 발사된 보이저 1호는 2012년 태양권을 벗어났어요. 금으로 된 레코드판에 지구의 소리와 사진을 싣고 날아가고 있어요.",
+        "tip": "골든 레코드를 실은 탐사선"
+      }
+    },
+    {
+      "id": "science-m2026",
+      "difficulty": "normal",
+      "answer": "제임스 웹 우주 망원경",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2021년 발사되어 허블의 뒤를 잇는 적외선 우주 망원경은?",
+          "choices": [
+            "제임스 웹 우주 망원경",
+            "케플러 우주 망원경",
+            "찬드라 엑스선 망원경",
+            "스피처 우주 망원경"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지름 6.5m의 금도금 거울로 초기 우주의 은하를 관측해요. 지구에서 약 150만 km 떨어진 곳에 있어요.",
+        "tip": "허블 → 제임스 웹"
+      }
+    },
+    {
+      "id": "science-m2027",
+      "difficulty": "easy",
+      "answer": "누리호",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2022년 우리 기술로 만든 발사체로 처음 인공위성을 궤도에 올리는 데 성공한 로켓은?",
+          "choices": [
+            "누리호",
+            "나로호",
+            "다누리",
+            "천리안"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "누리호(KSLV-II)는 엔진부터 모두 국내 기술로 만들었어요. 2013년 나로호는 1단을 러시아가 만들었고, 다누리는 달 궤도선, 천리안은 위성이에요.",
+        "tip": "순수 국산 = 누리호"
+      }
+    },
+    {
+      "id": "science-m2028",
+      "difficulty": "normal",
+      "answer": "다누리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2022년 발사된 우리나라 첫 달 탐사선(달 궤도선)의 이름은?",
+          "choices": [
+            "다누리",
+            "누리호",
+            "아리랑",
+            "무궁화"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다누리는 달 상공을 돌며 달 표면을 촬영하고 자원과 착륙 후보지를 조사해요. '달을 누리다'라는 뜻이에요.",
+        "tip": "달 + 누리다 = 다누리"
+      }
+    },
+    {
+      "id": "science-m2029",
+      "difficulty": "hard",
+      "answer": "약 400km",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "국제 우주 정거장(ISS)은 지구 상공 약 몇 km 높이를 돌고 있을까?",
+          "choices": [
+            "약 400km",
+            "약 40km",
+            "약 4,000km",
+            "약 36,000km"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "ISS는 약 90분마다 지구를 한 바퀴 돌아 하루에 해돋이를 16번쯤 봐요. 약 36,000km는 정지 궤도 위성의 높이예요.",
+        "tip": "서울-부산 거리쯤 위"
+      }
+    }
+  ]
+}
