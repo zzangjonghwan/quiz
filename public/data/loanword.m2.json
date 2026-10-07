@@ -1,0 +1,1457 @@
+{
+  "category": "loanword",
+  "version": 1,
+  "cards": [
+    {
+      "id": "loanword-m2001",
+      "difficulty": "easy",
+      "answer": "콘셉트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'콘셉트'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "작품이나 기획 전체를 꿰뚫는 주된 생각이나 방향",
+            "지난 시대의 유행이나 감성을 다시 즐기는 복고풍",
+            "이야기나 사건에서 긴장과 흥미가 가장 높아지는 절정",
+            "요점을 간추려 짧게 보고하거나 설명하는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“작품이나 기획 전체를 꿰뚫는 주된 생각이나 방향”라는 뜻의 외래어는?",
+          "choices": [
+            "콘셉트",
+            "리스크",
+            "레트로",
+            "브리핑"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "작품이나 기획 전체를 꿰뚫는 주된 생각이나 방향",
+        "tip": "\"이번 앨범 콘셉트는 레트로야\""
+      }
+    },
+    {
+      "id": "loanword-m2002",
+      "difficulty": "easy",
+      "answer": "브리핑",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'브리핑'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "요점을 간추려 짧게 보고하거나 설명하는 것",
+            "오랜 기간 꾸준히 잘 팔리는 책이나 상품",
+            "어떤 일을 잘하는 데 필요한 요령이나 기술",
+            "깊은 진리나 교훈을 짧고 날카롭게 표현한 글귀"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“요점을 간추려 짧게 보고하거나 설명하는 것”라는 뜻의 외래어는?",
+          "choices": [
+            "브리핑",
+            "노하우",
+            "콘셉트",
+            "레트로"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "요점을 간추려 짧게 보고하거나 설명하는 것",
+        "tip": "아침 회의 5분 브리핑"
+      }
+    },
+    {
+      "id": "loanword-m2003",
+      "difficulty": "easy",
+      "answer": "인센티브",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'인센티브'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "성과에 따라 덧붙여 주는 보상",
+            "넘어서는 안 되는 마감 시한",
+            "손해를 보거나 일이 잘못될 위험",
+            "남에게 간섭받지 않을 개인의 사생활"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“성과에 따라 덧붙여 주는 보상”라는 뜻의 외래어는?",
+          "choices": [
+            "인센티브",
+            "데드라인",
+            "롤 모델",
+            "벤치마킹"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "성과에 따라 덧붙여 주는 보상",
+        "tip": "성과급 = 인센티브"
+      }
+    },
+    {
+      "id": "loanword-m2004",
+      "difficulty": "easy",
+      "answer": "리스크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'리스크'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "손해를 보거나 일이 잘못될 위험",
+            "남에게 간섭받지 않을 개인의 사생활",
+            "성과에 따라 덧붙여 주는 보상",
+            "넘어서는 안 되는 마감 시한"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“손해를 보거나 일이 잘못될 위험”라는 뜻의 외래어는?",
+          "choices": [
+            "리스크",
+            "콘셉트",
+            "노하우",
+            "레트로"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "손해를 보거나 일이 잘못될 위험",
+        "tip": "하이 리스크 하이 리턴"
+      }
+    },
+    {
+      "id": "loanword-m2005",
+      "difficulty": "easy",
+      "answer": "데드라인",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'데드라인'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "넘어서는 안 되는 마감 시한",
+            "성과에 따라 덧붙여 주는 보상",
+            "닮고 싶어 본받는 사람",
+            "손해를 보거나 일이 잘못될 위험"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“넘어서는 안 되는 마감 시한”라는 뜻의 외래어는?",
+          "choices": [
+            "데드라인",
+            "롤 모델",
+            "인센티브",
+            "앰배서더"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "넘어서는 안 되는 마감 시한",
+        "tip": "원래는 포로수용소에서 넘으면 사살되는 선이었다는 설이 있어요"
+      }
+    },
+    {
+      "id": "loanword-m2006",
+      "difficulty": "easy",
+      "answer": "브레인스토밍",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'브레인스토밍'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "비판 없이 자유롭게 아이디어를 마구 쏟아 내는 회의 방식",
+            "이야기나 사건에서 긴장과 흥미가 가장 높아지는 절정",
+            "겉으로는 모순 같지만 그 속에 진리가 담긴 말, 곧 역설",
+            "자료나 기록을 체계적으로 모아 보관하는 곳, 또는 그 기록"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“비판 없이 자유롭게 아이디어를 마구 쏟아 내는 회의 방식”라는 뜻의 외래어는?",
+          "choices": [
+            "브레인스토밍",
+            "오프더레코드",
+            "프라이버시",
+            "롤 모델"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "brain",
+            "meaning": "뇌"
+          },
+          {
+            "part": "storming",
+            "meaning": "폭풍처럼 몰아침"
+          }
+        ],
+        "meaning": "비판 없이 자유롭게 아이디어를 마구 쏟아 내는 회의 방식",
+        "tip": "아무 말 대잔치 회의"
+      }
+    },
+    {
+      "id": "loanword-m2007",
+      "difficulty": "easy",
+      "answer": "롤 모델",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'롤 모델'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "닮고 싶어 본받는 사람",
+            "성과에 따라 덧붙여 주는 보상",
+            "넘어서는 안 되는 마감 시한",
+            "남에게 간섭받지 않을 개인의 사생활"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“닮고 싶어 본받는 사람”라는 뜻의 외래어는?",
+          "choices": [
+            "롤 모델",
+            "데드라인",
+            "인센티브",
+            "아웃소싱"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "role",
+            "meaning": "역할"
+          },
+          {
+            "part": "model",
+            "meaning": "본보기"
+          }
+        ],
+        "meaning": "닮고 싶어 본받는 사람",
+        "tip": "\"제 롤 모델은 손흥민 선수예요\""
+      }
+    },
+    {
+      "id": "loanword-m2008",
+      "difficulty": "easy",
+      "answer": "클라이맥스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'클라이맥스'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "이야기나 사건에서 긴장과 흥미가 가장 높아지는 절정",
+            "비판 없이 자유롭게 아이디어를 마구 쏟아 내는 회의 방식",
+            "지난 시대의 유행이나 감성을 다시 즐기는 복고풍",
+            "작품이나 기획 전체를 꿰뚫는 주된 생각이나 방향"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“이야기나 사건에서 긴장과 흥미가 가장 높아지는 절정”라는 뜻의 외래어는?",
+          "choices": [
+            "클라이맥스",
+            "스테디셀러",
+            "프라이버시",
+            "아이덴티티"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이야기나 사건에서 긴장과 흥미가 가장 높아지는 절정",
+        "tip": "영화 후반부 최종 결전"
+      }
+    },
+    {
+      "id": "loanword-m2009",
+      "difficulty": "easy",
+      "answer": "레트로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'레트로'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "지난 시대의 유행이나 감성을 다시 즐기는 복고풍",
+            "작품이나 기획 전체를 꿰뚫는 주된 생각이나 방향",
+            "어떤 일을 잘하는 데 필요한 요령이나 기술",
+            "요점을 간추려 짧게 보고하거나 설명하는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“지난 시대의 유행이나 감성을 다시 즐기는 복고풍”라는 뜻의 외래어는?",
+          "choices": [
+            "레트로",
+            "리스크",
+            "브리핑",
+            "노하우"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "retro",
+            "meaning": "retrospective(회고)"
+          }
+        ],
+        "meaning": "지난 시대의 유행이나 감성을 다시 즐기는 복고풍",
+        "tip": "필름 카메라, LP판 열풍"
+      }
+    },
+    {
+      "id": "loanword-m2010",
+      "difficulty": "easy",
+      "answer": "노하우",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'노하우'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어떤 일을 잘하는 데 필요한 요령이나 기술",
+            "요점을 간추려 짧게 보고하거나 설명하는 것",
+            "오랜 기간 꾸준히 잘 팔리는 책이나 상품",
+            "깊은 진리나 교훈을 짧고 날카롭게 표현한 글귀"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어떤 일을 잘하는 데 필요한 요령이나 기술”라는 뜻의 외래어는?",
+          "choices": [
+            "노하우",
+            "리스크",
+            "브리핑",
+            "콘셉트"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "know",
+            "meaning": "알다"
+          },
+          {
+            "part": "how",
+            "meaning": "어떻게"
+          }
+        ],
+        "meaning": "어떤 일을 잘하는 데 필요한 요령이나 기술",
+        "tip": "자취 10년 차의 살림 요령"
+      }
+    },
+    {
+      "id": "loanword-m2011",
+      "difficulty": "easy",
+      "answer": "프라이버시",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'프라이버시'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "남에게 간섭받지 않을 개인의 사생활",
+            "손해를 보거나 일이 잘못될 위험",
+            "작품이나 기획 전체를 꿰뚫는 주된 생각이나 방향",
+            "요점을 간추려 짧게 보고하거나 설명하는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“남에게 간섭받지 않을 개인의 사생활”라는 뜻의 외래어는?",
+          "choices": [
+            "프라이버시",
+            "클라이맥스",
+            "스테디셀러",
+            "프로토타입"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "남에게 간섭받지 않을 개인의 사생활",
+        "tip": "남의 폰 보지 않기"
+      }
+    },
+    {
+      "id": "loanword-m2012",
+      "difficulty": "easy",
+      "answer": "스테디셀러",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'스테디셀러'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "오랜 기간 꾸준히 잘 팔리는 책이나 상품",
+            "어떤 일을 잘하는 데 필요한 요령이나 기술",
+            "요점을 간추려 짧게 보고하거나 설명하는 것",
+            "기업에 필요한 인재를 찾아 연결해 주는 사람"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“오랜 기간 꾸준히 잘 팔리는 책이나 상품”라는 뜻의 외래어는?",
+          "choices": [
+            "스테디셀러",
+            "프라이버시",
+            "클라이맥스",
+            "아이덴티티"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "steady",
+            "meaning": "꾸준한"
+          },
+          {
+            "part": "seller",
+            "meaning": "잘 팔리는 것"
+          }
+        ],
+        "meaning": "오랜 기간 꾸준히 잘 팔리는 책이나 상품",
+        "tip": "반짝 인기 = 베스트셀러, 꾸준한 인기 = 스테디셀러"
+      }
+    },
+    {
+      "id": "loanword-m2013",
+      "difficulty": "normal",
+      "answer": "아이덴티티",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'아이덴티티'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어떤 존재가 다른 것과 구별되는 본질적인 특성, 곧 정체성",
+            "미술관이나 박물관에서 전시를 기획하고 작품을 관리하는 사람",
+            "뛰어난 대상을 기준으로 삼아 장점을 배우고 따라 하는 것",
+            "실제와 비슷한 상황을 만들어 미리 실험하거나 연습해 보는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어떤 존재가 다른 것과 구별되는 본질적인 특성, 곧 정체성”라는 뜻의 외래어는?",
+          "choices": [
+            "아이덴티티",
+            "미니멀리즘",
+            "프로토타입",
+            "시뮬레이션"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "어떤 존재가 다른 것과 구별되는 본질적인 특성, 곧 정체성",
+        "tip": "브랜드 아이덴티티"
+      }
+    },
+    {
+      "id": "loanword-m2014",
+      "difficulty": "normal",
+      "answer": "어젠다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'어젠다'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "회의에서 다룰 안건, 또는 사회가 함께 논의할 의제",
+            "뛰어난 대상을 기준으로 삼아 장점을 배우고 따라 하는 것",
+            "꼭 필요한 것만 남기고 최대한 단순하게 하려는 경향",
+            "스스로 남보다 못하다고 느끼는 마음, 곧 열등감"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“회의에서 다룰 안건, 또는 사회가 함께 논의할 의제”라는 뜻의 외래어는?",
+          "choices": [
+            "어젠다",
+            "모티브",
+            "인프라",
+            "리스크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "회의에서 다룰 안건, 또는 사회가 함께 논의할 의제",
+        "tip": "정상 회담의 핵심 어젠다"
+      }
+    },
+    {
+      "id": "loanword-m2015",
+      "difficulty": "normal",
+      "answer": "벤치마킹",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'벤치마킹'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "뛰어난 대상을 기준으로 삼아 장점을 배우고 따라 하는 것",
+            "회의에서 다룰 안건, 또는 사회가 함께 논의할 의제",
+            "도로·통신·전기처럼 생활과 산업의 바탕이 되는 시설",
+            "꼭 필요한 것만 남기고 최대한 단순하게 하려는 경향"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“뛰어난 대상을 기준으로 삼아 장점을 배우고 따라 하는 것”라는 뜻의 외래어는?",
+          "choices": [
+            "벤치마킹",
+            "앰배서더",
+            "트라우마",
+            "콤플렉스"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "benchmark",
+            "meaning": "측량의 기준점"
+          }
+        ],
+        "meaning": "뛰어난 대상을 기준으로 삼아 장점을 배우고 따라 하는 것",
+        "tip": "잘나가는 경쟁사 분석"
+      }
+    },
+    {
+      "id": "loanword-m2016",
+      "difficulty": "normal",
+      "answer": "아웃소싱",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'아웃소싱'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "회사 업무 일부를 바깥 전문 업체에 맡기는 것",
+            "큰 충격을 겪은 뒤 마음에 오래 남는 상처",
+            "기업에 필요한 인재를 찾아 연결해 주는 사람",
+            "스스로 남보다 못하다고 느끼는 마음, 곧 열등감"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“회사 업무 일부를 바깥 전문 업체에 맡기는 것”라는 뜻의 외래어는?",
+          "choices": [
+            "아웃소싱",
+            "트라우마",
+            "앰배서더",
+            "큐레이터"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "out",
+            "meaning": "밖"
+          },
+          {
+            "part": "sourcing",
+            "meaning": "조달"
+          }
+        ],
+        "meaning": "회사 업무 일부를 바깥 전문 업체에 맡기는 것",
+        "tip": "청소·경비를 용역 회사에"
+      }
+    },
+    {
+      "id": "loanword-m2017",
+      "difficulty": "normal",
+      "answer": "모티브",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'모티브'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "창작이나 행동을 일으키는 동기나 바탕이 되는 소재",
+            "본격적으로 만들기 전에 시험 삼아 만든 원형",
+            "꼭 필요한 것만 남기고 최대한 단순하게 하려는 경향",
+            "기업에 필요한 인재를 찾아 연결해 주는 사람"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“창작이나 행동을 일으키는 동기나 바탕이 되는 소재”라는 뜻의 외래어는?",
+          "choices": [
+            "모티브",
+            "어젠다",
+            "인프라",
+            "리스크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "창작이나 행동을 일으키는 동기나 바탕이 되는 소재",
+        "tip": "실화를 모티브로 한 영화"
+      }
+    },
+    {
+      "id": "loanword-m2018",
+      "difficulty": "normal",
+      "answer": "시뮬레이션",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'시뮬레이션'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "실제와 비슷한 상황을 만들어 미리 실험하거나 연습해 보는 것",
+            "뛰어난 대상을 기준으로 삼아 장점을 배우고 따라 하는 것",
+            "미술관이나 박물관에서 전시를 기획하고 작품을 관리하는 사람",
+            "어떤 존재가 다른 것과 구별되는 본질적인 특성, 곧 정체성"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“실제와 비슷한 상황을 만들어 미리 실험하거나 연습해 보는 것”라는 뜻의 외래어는?",
+          "choices": [
+            "시뮬레이션",
+            "미니멀리즘",
+            "아이덴티티",
+            "프로토타입"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "실제와 비슷한 상황을 만들어 미리 실험하거나 연습해 보는 것",
+        "tip": "비행 시뮬레이터"
+      }
+    },
+    {
+      "id": "loanword-m2019",
+      "difficulty": "normal",
+      "answer": "프로토타입",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'프로토타입'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "본격적으로 만들기 전에 시험 삼아 만든 원형",
+            "스스로 남보다 못하다고 느끼는 마음, 곧 열등감",
+            "큰 충격을 겪은 뒤 마음에 오래 남는 상처",
+            "회사 업무 일부를 바깥 전문 업체에 맡기는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“본격적으로 만들기 전에 시험 삼아 만든 원형”라는 뜻의 외래어는?",
+          "choices": [
+            "프로토타입",
+            "시뮬레이션",
+            "아이덴티티",
+            "미니멀리즘"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "proto",
+            "meaning": "최초의"
+          },
+          {
+            "part": "type",
+            "meaning": "형태"
+          }
+        ],
+        "meaning": "본격적으로 만들기 전에 시험 삼아 만든 원형",
+        "tip": "시제품, 베타 버전"
+      }
+    },
+    {
+      "id": "loanword-m2020",
+      "difficulty": "normal",
+      "answer": "인프라",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'인프라'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "도로·통신·전기처럼 생활과 산업의 바탕이 되는 시설",
+            "뛰어난 대상을 기준으로 삼아 장점을 배우고 따라 하는 것",
+            "창작이나 행동을 일으키는 동기나 바탕이 되는 소재",
+            "스스로 남보다 못하다고 느끼는 마음, 곧 열등감"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“도로·통신·전기처럼 생활과 산업의 바탕이 되는 시설”라는 뜻의 외래어는?",
+          "choices": [
+            "인프라",
+            "모티브",
+            "어젠다",
+            "콘셉트"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "infra",
+            "meaning": "아래"
+          },
+          {
+            "part": "structure",
+            "meaning": "구조"
+          }
+        ],
+        "meaning": "도로·통신·전기처럼 생활과 산업의 바탕이 되는 시설",
+        "tip": "교통 인프라가 좋은 동네"
+      }
+    },
+    {
+      "id": "loanword-m2021",
+      "difficulty": "normal",
+      "answer": "미니멀리즘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'미니멀리즘'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "꼭 필요한 것만 남기고 최대한 단순하게 하려는 경향",
+            "뛰어난 대상을 기준으로 삼아 장점을 배우고 따라 하는 것",
+            "회사 업무 일부를 바깥 전문 업체에 맡기는 것",
+            "도로·통신·전기처럼 생활과 산업의 바탕이 되는 시설"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“꼭 필요한 것만 남기고 최대한 단순하게 하려는 경향”라는 뜻의 외래어는?",
+          "choices": [
+            "미니멀리즘",
+            "시뮬레이션",
+            "프로토타입",
+            "아이덴티티"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "꼭 필요한 것만 남기고 최대한 단순하게 하려는 경향",
+        "tip": "물건 비우기, 단순한 디자인"
+      }
+    },
+    {
+      "id": "loanword-m2022",
+      "difficulty": "normal",
+      "answer": "앰배서더",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'앰배서더'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "기업이나 브랜드를 대표해 알리는 홍보 대사",
+            "본격적으로 만들기 전에 시험 삼아 만든 원형",
+            "큰 충격을 겪은 뒤 마음에 오래 남는 상처",
+            "기업에 필요한 인재를 찾아 연결해 주는 사람"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“기업이나 브랜드를 대표해 알리는 홍보 대사”라는 뜻의 외래어는?",
+          "choices": [
+            "앰배서더",
+            "벤치마킹",
+            "콤플렉스",
+            "트라우마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "기업이나 브랜드를 대표해 알리는 홍보 대사",
+        "tip": "명품 브랜드 앰배서더가 된 아이돌"
+      }
+    },
+    {
+      "id": "loanword-m2023",
+      "difficulty": "normal",
+      "answer": "콤플렉스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'콤플렉스'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "스스로 남보다 못하다고 느끼는 마음, 곧 열등감",
+            "창작이나 행동을 일으키는 동기나 바탕이 되는 소재",
+            "꼭 필요한 것만 남기고 최대한 단순하게 하려는 경향",
+            "기업이나 브랜드를 대표해 알리는 홍보 대사"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“스스로 남보다 못하다고 느끼는 마음, 곧 열등감”라는 뜻의 외래어는?",
+          "choices": [
+            "콤플렉스",
+            "아웃소싱",
+            "벤치마킹",
+            "큐레이터"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "스스로 남보다 못하다고 느끼는 마음, 곧 열등감",
+        "tip": "키 콤플렉스"
+      }
+    },
+    {
+      "id": "loanword-m2024",
+      "difficulty": "normal",
+      "answer": "트라우마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'트라우마'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "큰 충격을 겪은 뒤 마음에 오래 남는 상처",
+            "회사 업무 일부를 바깥 전문 업체에 맡기는 것",
+            "기업에 필요한 인재를 찾아 연결해 주는 사람",
+            "본격적으로 만들기 전에 시험 삼아 만든 원형"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“큰 충격을 겪은 뒤 마음에 오래 남는 상처”라는 뜻의 외래어는?",
+          "choices": [
+            "트라우마",
+            "헤드헌터",
+            "아웃소싱",
+            "큐레이터"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "큰 충격을 겪은 뒤 마음에 오래 남는 상처",
+        "tip": "물에 빠진 뒤 수영장을 못 감"
+      }
+    },
+    {
+      "id": "loanword-m2025",
+      "difficulty": "normal",
+      "answer": "헤드헌터",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'헤드헌터'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "기업에 필요한 인재를 찾아 연결해 주는 사람",
+            "본격적으로 만들기 전에 시험 삼아 만든 원형",
+            "큰 충격을 겪은 뒤 마음에 오래 남는 상처",
+            "회사 업무 일부를 바깥 전문 업체에 맡기는 것"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“기업에 필요한 인재를 찾아 연결해 주는 사람”라는 뜻의 외래어는?",
+          "choices": [
+            "헤드헌터",
+            "앰배서더",
+            "아웃소싱",
+            "트라우마"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "head",
+            "meaning": "사람(인재)"
+          },
+          {
+            "part": "hunter",
+            "meaning": "사냥꾼"
+          }
+        ],
+        "meaning": "기업에 필요한 인재를 찾아 연결해 주는 사람",
+        "tip": "경력직 이직 제안 전화"
+      }
+    },
+    {
+      "id": "loanword-m2026",
+      "difficulty": "normal",
+      "answer": "큐레이터",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'큐레이터'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "미술관이나 박물관에서 전시를 기획하고 작품을 관리하는 사람",
+            "실제와 비슷한 상황을 만들어 미리 실험하거나 연습해 보는 것",
+            "뛰어난 대상을 기준으로 삼아 장점을 배우고 따라 하는 것",
+            "어떤 존재가 다른 것과 구별되는 본질적인 특성, 곧 정체성"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“미술관이나 박물관에서 전시를 기획하고 작품을 관리하는 사람”라는 뜻의 외래어는?",
+          "choices": [
+            "큐레이터",
+            "헤드헌터",
+            "아웃소싱",
+            "트라우마"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미술관이나 박물관에서 전시를 기획하고 작품을 관리하는 사람",
+        "tip": "요즘은 '콘텐츠 큐레이션'처럼 골라 추천하는 뜻으로도 써요"
+      }
+    },
+    {
+      "id": "loanword-m2027",
+      "difficulty": "hard",
+      "answer": "패러독스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'패러독스'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "겉으로는 모순 같지만 그 속에 진리가 담긴 말, 곧 역설",
+            "어떤 대상을 다른 이야기에 빗대어 뜻을 전하는 표현 방식",
+            "'~같이' 없이 한 대상을 다른 것에 바로 빗대는 은유",
+            "자료나 기록을 체계적으로 모아 보관하는 곳, 또는 그 기록"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“겉으로는 모순 같지만 그 속에 진리가 담긴 말, 곧 역설”라는 뜻의 외래어는?",
+          "choices": [
+            "패러독스",
+            "알레고리",
+            "아포리즘",
+            "아카이브"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "겉으로는 모순 같지만 그 속에 진리가 담긴 말, 곧 역설",
+        "tip": "\"급할수록 돌아가라\""
+      }
+    },
+    {
+      "id": "loanword-m2028",
+      "difficulty": "hard",
+      "answer": "알레고리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'알레고리'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "어떤 대상을 다른 이야기에 빗대어 뜻을 전하는 표현 방식",
+            "자료나 기록을 체계적으로 모아 보관하는 곳, 또는 그 기록",
+            "겉으로는 모순 같지만 그 속에 진리가 담긴 말, 곧 역설",
+            "'~같이' 없이 한 대상을 다른 것에 바로 빗대는 은유"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“어떤 대상을 다른 이야기에 빗대어 뜻을 전하는 표현 방식”라는 뜻의 외래어는?",
+          "choices": [
+            "알레고리",
+            "패러독스",
+            "아카이브",
+            "아포리즘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "어떤 대상을 다른 이야기에 빗대어 뜻을 전하는 표현 방식",
+        "tip": "「동물 농장」 = 독재 정치의 알레고리"
+      }
+    },
+    {
+      "id": "loanword-m2029",
+      "difficulty": "hard",
+      "answer": "메타포",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'메타포'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "'~같이' 없이 한 대상을 다른 것에 바로 빗대는 은유",
+            "겉으로는 모순 같지만 그 속에 진리가 담긴 말, 곧 역설",
+            "어떤 대상을 다른 이야기에 빗대어 뜻을 전하는 표현 방식",
+            "자료나 기록을 체계적으로 모아 보관하는 곳, 또는 그 기록"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“'~같이' 없이 한 대상을 다른 것에 바로 빗대는 은유”라는 뜻의 외래어는?",
+          "choices": [
+            "메타포",
+            "엠바고",
+            "레거시",
+            "노하우"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'~같이' 없이 한 대상을 다른 것에 바로 빗대는 은유",
+        "tip": "\"내 마음은 호수요\""
+      }
+    },
+    {
+      "id": "loanword-m2030",
+      "difficulty": "hard",
+      "answer": "아포리즘",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'아포리즘'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "깊은 진리나 교훈을 짧고 날카롭게 표현한 글귀",
+            "기록하거나 보도하지 않는다는 조건으로 하는 발언",
+            "정해진 시각까지 기사 보도를 미루기로 하는 약속",
+            "이야기나 사건에서 긴장과 흥미가 가장 높아지는 절정"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“깊은 진리나 교훈을 짧고 날카롭게 표현한 글귀”라는 뜻의 외래어는?",
+          "choices": [
+            "아포리즘",
+            "패러독스",
+            "알레고리",
+            "아카이브"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "깊은 진리나 교훈을 짧고 날카롭게 표현한 글귀",
+        "tip": "\"아는 것이 힘이다\""
+      }
+    },
+    {
+      "id": "loanword-m2031",
+      "difficulty": "hard",
+      "answer": "레거시",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'레거시'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "과거로부터 물려받은 유산, 또는 오래되어 바꾸기 어려운 낡은 시스템",
+            "실제와 비슷한 상황을 만들어 미리 실험하거나 연습해 보는 것",
+            "'~같이' 없이 한 대상을 다른 것에 바로 빗대는 은유",
+            "자료나 기록을 체계적으로 모아 보관하는 곳, 또는 그 기록"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“과거로부터 물려받은 유산, 또는 오래되어 바꾸기 어려운 낡은 시스템”라는 뜻의 외래어는?",
+          "choices": [
+            "레거시",
+            "메타포",
+            "엠바고",
+            "리스크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "과거로부터 물려받은 유산, 또는 오래되어 바꾸기 어려운 낡은 시스템",
+        "tip": "레거시 미디어 = 신문·방송"
+      }
+    },
+    {
+      "id": "loanword-m2032",
+      "difficulty": "hard",
+      "answer": "엠바고",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'엠바고'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "정해진 시각까지 기사 보도를 미루기로 하는 약속",
+            "기록하거나 보도하지 않는다는 조건으로 하는 발언",
+            "깊은 진리나 교훈을 짧고 날카롭게 표현한 글귀",
+            "본격적으로 만들기 전에 시험 삼아 만든 원형"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“정해진 시각까지 기사 보도를 미루기로 하는 약속”라는 뜻의 외래어는?",
+          "choices": [
+            "엠바고",
+            "메타포",
+            "레거시",
+            "모티브"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정해진 시각까지 기사 보도를 미루기로 하는 약속",
+        "origin": "원래는 배가 항구에 드나드는 것을 막는 '선박 억류'를 뜻하는 스페인어예요.",
+        "tip": "발표 시각 전 보도 금지"
+      }
+    },
+    {
+      "id": "loanword-m2033",
+      "difficulty": "hard",
+      "answer": "오프더레코드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'오프더레코드'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "기록하거나 보도하지 않는다는 조건으로 하는 발언",
+            "정해진 시각까지 기사 보도를 미루기로 하는 약속",
+            "깊은 진리나 교훈을 짧고 날카롭게 표현한 글귀",
+            "본격적으로 만들기 전에 시험 삼아 만든 원형"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“기록하거나 보도하지 않는다는 조건으로 하는 발언”라는 뜻의 외래어는?",
+          "choices": [
+            "오프더레코드",
+            "브레인스토밍",
+            "패러독스",
+            "아포리즘"
+          ]
+        }
+      ],
+      "explanation": {
+        "breakdown": [
+          {
+            "part": "off",
+            "meaning": "벗어나"
+          },
+          {
+            "part": "the record",
+            "meaning": "기록"
+          }
+        ],
+        "meaning": "기록하거나 보도하지 않는다는 조건으로 하는 발언",
+        "tip": "\"이건 비보도로 하는 말인데요\""
+      }
+    },
+    {
+      "id": "loanword-m2034",
+      "difficulty": "hard",
+      "answer": "아카이브",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'아카이브'의 뜻으로 알맞은 것은?",
+          "choices": [
+            "자료나 기록을 체계적으로 모아 보관하는 곳, 또는 그 기록",
+            "어떤 대상을 다른 이야기에 빗대어 뜻을 전하는 표현 방식",
+            "'~같이' 없이 한 대상을 다른 것에 바로 빗대는 은유",
+            "겉으로는 모순 같지만 그 속에 진리가 담긴 말, 곧 역설"
+          ]
+        },
+        {
+          "mode": "mcq",
+          "prompt": "“자료나 기록을 체계적으로 모아 보관하는 곳, 또는 그 기록”라는 뜻의 외래어는?",
+          "choices": [
+            "아카이브",
+            "패러독스",
+            "알레고리",
+            "아포리즘"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자료나 기록을 체계적으로 모아 보관하는 곳, 또는 그 기록",
+        "tip": "방송국 영상 자료실"
+      }
+    },
+    {
+      "id": "loanword-m2035",
+      "difficulty": "easy",
+      "answer": "rearview mirror",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '백미러'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "rearview mirror",
+            "back mirror",
+            "rear glass",
+            "behind mirror"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "운전석에서 뒤를 보는 거울은 rearview mirror예요. 옆 거울은 side mirror 또는 wing mirror라고 해요.",
+        "tip": "rear(뒤) + view(보기)"
+      }
+    },
+    {
+      "id": "loanword-m2036",
+      "difficulty": "normal",
+      "answer": "window tinting",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '선팅(자동차 창문)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "window tinting",
+            "sunting",
+            "sun coating",
+            "sun cutting"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "창문에 색을 입히는 건 tint(색조)를 써서 window tinting이라고 해요.",
+        "tip": "tint = 엷은 색"
+      }
+    },
+    {
+      "id": "loanword-m2037",
+      "difficulty": "easy",
+      "answer": "glue",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '본드(접착제)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "glue",
+            "bond",
+            "stick paste",
+            "fix liquid"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'본드'는 접착제 상표에서 굳어진 말이에요. 영어로는 보통 glue나 adhesive라고 해요.",
+        "tip": "딱풀 = glue stick"
+      }
+    },
+    {
+      "id": "loanword-m2038",
+      "difficulty": "normal",
+      "answer": "warranty repair",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 'A/S(애프터서비스)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "warranty repair",
+            "A/S",
+            "after service",
+            "back service"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어권에서는 보증 기간 수리를 warranty repair, 고객 응대를 customer service라고 해요.",
+        "tip": "\"Is it under warranty?\""
+      }
+    },
+    {
+      "id": "loanword-m2039",
+      "difficulty": "easy",
+      "answer": "perm",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '파마'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "perm",
+            "pama",
+            "hair wave",
+            "curl making"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'파마'는 permanent wave를 일본식으로 줄인 말이에요. 영어로는 perm이에요.",
+        "tip": "permanent(오래가는) wave(웨이브)"
+      }
+    },
+    {
+      "id": "loanword-m2040",
+      "difficulty": "easy",
+      "answer": "conditioner",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '린스'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "conditioner",
+            "rinse",
+            "hair rinse",
+            "hair soap"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "rinse는 '헹구다'라는 동사예요. 샴푸 뒤에 쓰는 제품은 conditioner예요.",
+        "tip": "샴푸 → 컨디셔너"
+      }
+    },
+    {
+      "id": "loanword-m2041",
+      "difficulty": "normal",
+      "answer": "blender",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '믹서(갈아 주는 기계)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "blender",
+            "mixer",
+            "juicer machine",
+            "grinder cup"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "과일을 가는 기계는 blender예요. 영어 mixer는 반죽을 섞는 거품기 달린 기계를 주로 가리켜요.",
+        "tip": "스무디는 blender로"
+      }
+    },
+    {
+      "id": "loanword-m2042",
+      "difficulty": "easy",
+      "answer": "microwave",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '전자레인지'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "microwave",
+            "electric range",
+            "micro range",
+            "range oven"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "전자레인지는 microwave oven, 줄여서 microwave라고 해요. 영어 range는 가스레인지 같은 조리대를 뜻해요.",
+        "tip": "\"Can I microwave this?\""
+      }
+    },
+    {
+      "id": "loanword-m2043",
+      "difficulty": "normal",
+      "answer": "creamer",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '프림(커피에 넣는 가루)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "creamer",
+            "prim",
+            "milk powder",
+            "cream sugar"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'프림'은 일본 상표 이름에서 온 말이에요. 영어로는 creamer예요.",
+        "tip": "크림 넣는 것 = creamer"
+      }
+    },
+    {
+      "id": "loanword-m2044",
+      "difficulty": "normal",
+      "answer": "flat tire",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '빵꾸(타이어)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "flat tire",
+            "punk",
+            "tire punk",
+            "broken wheel"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'빵꾸'는 puncture(구멍)를 일본식으로 줄인 말이에요. 타이어 바람이 빠진 건 flat tire라고 해요.",
+        "tip": "flat = 납작한"
+      }
+    },
+    {
+      "id": "loanword-m2045",
+      "difficulty": "hard",
+      "answer": "felt-tip pen",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '사인펜'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "felt-tip pen",
+            "sign pen",
+            "signature pen",
+            "name pen"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "펜촉이 섬유로 된 펜은 felt-tip pen이에요. '사인펜'은 일본 상표 이름에서 굳어진 말이에요.",
+        "tip": "felt(펠트) 펜촉"
+      }
+    },
+    {
+      "id": "loanword-m2046",
+      "difficulty": "easy",
+      "answer": "notebook",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '노트(공책)'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "notebook",
+            "note",
+            "writing book",
+            "study paper"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영어 note는 '메모'라는 뜻이에요. 공책은 notebook이라고 해요.",
+        "tip": "note = 쪽지, notebook = 공책"
+      }
+    },
+    {
+      "id": "loanword-m2047",
+      "difficulty": "easy",
+      "answer": "treadmill",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '런닝머신'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "treadmill",
+            "running machine",
+            "run machine",
+            "walking belt"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "헬스장의 달리기 기계는 treadmill이에요. tread(밟다) + mill(방아)에서 왔어요.",
+        "tip": "원래 죄수들이 밟던 방아 바퀴"
+      }
+    },
+    {
+      "id": "loanword-m2048",
+      "difficulty": "easy",
+      "answer": "part-time job",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국에서 쓰는 '아르바이트'에 해당하는 자연스러운 영어 표현은?",
+          "choices": [
+            "part-time job",
+            "arbeit",
+            "alba job",
+            "mini work"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'아르바이트'는 독일어 Arbeit(일, 노동)에서 왔어요. 영어로는 part-time job이에요.",
+        "tip": "알바 = part-time job"
+      }
+    }
+  ]
+}
