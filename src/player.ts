@@ -3,7 +3,7 @@
 // it falls back to an <audio> element.
 import { Capacitor, registerPlugin, type PluginListenerHandle } from '@capacitor/core'
 import { useSyncExternalStore } from 'react'
-import { download, isDownloaded, playableUrl, type Story } from './stories'
+import { convertPosition, download, inVoice, isDownloaded, playableUrl, voiceName, type Story, type VoiceId } from './stories'
 import { getState as getStore, saveListening } from './store'
 
 interface NativeState {
@@ -65,7 +65,11 @@ function remember(force = false) {
   if (!story || (!force && Date.now() - lastSaved < 4000)) return
   lastSaved = Date.now()
   const done = duration > 0 && position >= duration - 2
-  saveListening(story.id, { position: done ? 0 : position, done: done || (getStore().listening[story.id]?.done ?? false) })
+  saveListening(story.id, {
+    position: done ? 0 : position,
+    done: done || (getStore().listening[story.id]?.done ?? false),
+    voice: story.voice,
+  })
 }
 
 function apply(s: NativeState) {
@@ -78,7 +82,7 @@ function apply(s: NativeState) {
   if (s.error) patch.error = '재생하지 못했어요. 인터넷 연결을 확인해 주세요.'
   set(patch)
   if (s.ended && state.story) {
-    saveListening(state.story.id, { position: 0, done: true })
+    saveListening(state.story.id, { position: 0, done: true, voice: state.story.voice })
   } else {
     remember()
   }
@@ -117,15 +121,15 @@ function webAudio() {
 }
 
 /** Starts a story from where the listener left off (or from the start once finished). */
-export async function playStory(story: Story, from?: number) {
+export async function playStory(story: Story, from?: number, autoplay = true) {
   remember(true)
   const saved = getStore().listening[story.id]
-  const start = from ?? (saved && !saved.done ? saved.position : 0)
+  const start = from ?? (saved && !saved.done ? convertPosition(story, saved.voice ?? 'arin', saved.position) : 0)
   set({ story, playing: false, buffering: true, position: start, duration: story.duration, error: null })
   const url = await playableUrl(story)
   if (native) {
     startPolling()
-    const s = await Native.load({ url, title: story.title, artist: '상식플러스 · arin', start, autoplay: true }).catch(
+    const s = await Native.load({ url, title: story.title, artist: `상식플러스 · ${voiceName(story.voice)}`, start, autoplay }).catch(
       () => ({ error: 'load' }) as NativeState,
     )
     apply(s)
@@ -136,8 +140,18 @@ export async function playStory(story: Story, from?: number) {
     a.src = url
     a.currentTime = start
     a.playbackRate = state.rate
-    await a.play().catch(() => set({ buffering: false }))
+    if (autoplay) await a.play().catch(() => set({ buffering: false }))
+    else set({ buffering: false })
   }
+}
+
+/** Moves the loaded story (if any) to another voice at the same spot, keeping play/pause. */
+export function switchVoice(voice: VoiceId) {
+  const { story, position, playing } = state
+  if (!story || story.voice === voice) return
+  const next = inVoice(story, voice)
+  if (next.voice === story.voice) return
+  void playStory(next, convertPosition(next, story.voice, position), playing)
 }
 
 export function toggle() {

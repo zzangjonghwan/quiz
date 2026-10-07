@@ -9,7 +9,7 @@ import { useStore } from '../store'
 export function Plus({ onOpen, onBack }: { onOpen: (story: Story) => void; onBack: () => void }) {
   const [stories, setStories] = useState<Story[] | null>(null)
   const [cat, setCat] = useState<StoryCategory | 'all'>('all')
-  const { listening } = useStore()
+  const { listening, settings } = useStore()
   const { story: current, playing } = usePlayer()
 
   useBackHandler(() => {
@@ -18,8 +18,8 @@ export function Plus({ onOpen, onBack }: { onOpen: (story: Story) => void; onBac
   })
 
   useEffect(() => {
-    void loadStories().then(setStories, () => setStories([]))
-  }, [])
+    void loadStories(settings.storyVoice).then(setStories, () => setStories([]))
+  }, [settings.storyVoice])
 
   const shown = (stories ?? []).filter((s) => cat === 'all' || s.cat === cat)
   const done = (stories ?? []).filter((s) => listening[s.id]?.done).length

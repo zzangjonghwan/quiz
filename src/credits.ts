@@ -31,15 +31,15 @@ export const CREDITS: Record<string, Credit> = {
   },
   elevenlabs: {
     title: 'ElevenLabs',
-    usedFor: '정답(뽁), 결과(트럼펫) 효과음',
+    usedFor: '정답(뽁), 오답(뿌뿌), 결과(트럼펫) 효과음',
     author: 'ElevenLabs Sound Effects로 생성',
     license: 'ElevenLabs 이용 약관 (출처 표기)',
     url: 'https://elevenlabs.io',
   },
   'gemini-tts': {
     title: 'Google Gemini TTS',
-    usedFor: '상식플러스 이야기 음성 (arin)',
-    author: 'Google Gemini 음성 생성(Aoede 음성)으로 제작',
+    usedFor: '상식플러스 이야기 음성 (아린, 모아, 도윤, 프로듀서)',
+    author: 'Google Gemini 음성 생성(Aoede, Leda, Sulafat, Sadaltager 음성)으로 제작',
     license: 'Google Gemini API 이용 약관',
   },
 }

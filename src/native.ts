@@ -28,15 +28,15 @@ export function applyTheme(theme: 'dark' | 'light') {
 }
 
 /**
- * Light vibration on every button press. Buttons that give their own feedback
- * (answer choices) opt out with data-haptic="off".
+ * Light vibration and the tap sound on every button press (and other tappable elements marked
+ * data-tap). Buttons that give their own feedback (answer choices) opt out with data-haptic="off".
  */
 export function installTapHaptics() {
   document.addEventListener(
     'click',
     (e) => {
-      const button = (e.target as Element | null)?.closest('button')
-      if (button && !button.disabled && button.dataset.haptic !== 'off') {
+      const button = (e.target as Element | null)?.closest<HTMLElement>('button, [data-tap]')
+      if (button && !(button as HTMLButtonElement).disabled && button.dataset.haptic !== 'off') {
         hapticTap()
         playSound('tap')
       }

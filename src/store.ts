@@ -6,6 +6,7 @@ import { Capacitor } from '@capacitor/core'
 import { Preferences } from '@capacitor/preferences'
 import { useSyncExternalStore } from 'react'
 import type { SoundName } from './sound'
+import type { VoiceId } from './stories'
 import type { CategoryId, CountChoice, DifficultyChoice, PlayStyle } from './types'
 
 export interface CardProgress {
@@ -45,12 +46,16 @@ export interface Settings {
   soundPicks: Partial<Record<SoundName, string>>
   /** Bumped when the default sounds change, so old picks give way to the new defaults. */
   soundVersion: number
+  /** Narrator for 상식플러스. */
+  storyVoice: VoiceId
 }
 
 /** Where the listener left off in a 상식플러스 story. */
 export interface Listening {
   position: number
   done: boolean
+  /** The voice the position was saved in (arin before voices could be chosen). */
+  voice?: VoiceId
 }
 
 export interface StoreState {
@@ -75,7 +80,8 @@ const DEFAULT_SETTINGS: Settings = {
   play: 'game',
   sound: true,
   soundPicks: {},
-  soundVersion: 2,
+  soundVersion: 3,
+  storyVoice: 'arin',
 }
 
 let state: StoreState = { progress: {}, stats: EMPTY_STATS, settings: DEFAULT_SETTINGS, listening: {} }
@@ -93,8 +99,11 @@ export async function loadStore() {
         settings: { ...DEFAULT_SETTINGS, ...saved.settings },
         listening: saved.listening ?? {},
       }
-      if (state.settings.soundVersion !== DEFAULT_SETTINGS.soundVersion) {
-        state.settings = { ...state.settings, soundPicks: {}, soundVersion: DEFAULT_SETTINGS.soundVersion }
+      const { soundVersion, soundPicks } = state.settings
+      if (soundVersion !== DEFAULT_SETTINGS.soundVersion) {
+        // v2 brought the recorded 뽁 and trumpet (reset every pick); v3 the recorded 뿌뿌 (reset 오답 only).
+        const { wrong: _, ...rest } = soundPicks
+        state.settings = { ...state.settings, soundPicks: soundVersion < 2 ? {} : rest, soundVersion: DEFAULT_SETTINGS.soundVersion }
       }
     }
   } catch (e) {
@@ -218,7 +227,7 @@ export function recordGame(score: number, maxCombo: number) {
 
 export function saveListening(id: string, listening: Listening) {
   const prev = state.listening[id]
-  if (prev && prev.done === listening.done && Math.abs(prev.position - listening.position) < 1) return
+  if (prev && prev.done === listening.done && prev.voice === listening.voice && Math.abs(prev.position - listening.position) < 1) return
   commit({ ...state, listening: { ...state.listening, [id]: listening } })
 }
 

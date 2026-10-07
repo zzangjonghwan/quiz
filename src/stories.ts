@@ -6,16 +6,36 @@ import { BookOpen, Brain, Landmark, Palette, ScrollText, Sparkles, type LucideIc
 
 export type StoryCategory = 'samguk' | 'myth' | 'tarot' | 'art' | 'history' | 'wisdom'
 
-export interface Story {
+export type VoiceId = 'arin' | 'moa' | 'doyun' | 'producer'
+
+/** The narrators to pick from in 설정 (Gemini voices; previews ship in public/voices). */
+export const VOICES: { id: VoiceId; name: string; desc: string }[] = [
+  { id: 'arin', name: '아린', desc: '밝고 부드러운 목소리' },
+  { id: 'moa', name: '모아', desc: '명랑하고 생기 있는 목소리' },
+  { id: 'doyun', name: '도윤', desc: '담백하고 차분한 목소리' },
+  { id: 'producer', name: '프로듀서', desc: '낮고 믿음직한 남성 목소리' },
+]
+
+/** One recording of a story. */
+export interface Take {
+  file: string
+  duration: number
+  /** Paragraph start times in seconds. */
+  starts: number[]
+}
+
+interface StoryData {
   id: string
   cat: StoryCategory
   title: string
   sub: string
   paragraphs: string[]
-  /** Paragraph start times in seconds. */
-  starts: number[]
-  duration: number
-  file: string
+  voices: Partial<Record<VoiceId, Take>>
+}
+
+/** A story as heard in one voice. */
+export interface Story extends StoryData, Take {
+  voice: VoiceId
 }
 
 export const STORY_CATEGORIES: { id: StoryCategory; name: string; icon: LucideIcon }[] = [
@@ -32,14 +52,34 @@ const AUDIO_BASE = import.meta.env.DEV
   ? '/.stories/audio/'
   : 'https://raw.githubusercontent.com/zzangjonghwan/quiz/stories/audio/'
 
-let cache: Promise<Story[]> | null = null
+let cache: Promise<StoryData[]> | null = null
 
-export function loadStories() {
+/** The stories in the chosen voice (arin wherever that voice isn't recorded yet). */
+export function loadStories(voice: VoiceId) {
   cache ??= fetch(`${import.meta.env.BASE_URL}data/stories.json`)
-    .then((r) => r.json() as Promise<{ stories: Story[] }>)
+    .then((r) => r.json() as Promise<{ stories: StoryData[] }>)
     .then((d) => d.stories)
-  return cache
+  return cache.then((list) => list.map((s) => inVoice(s, voice)))
 }
+
+export function inVoice(story: StoryData, voice: VoiceId): Story {
+  const v = story.voices[voice] ? voice : 'arin'
+  return { ...story, ...story.voices[v]!, voice: v }
+}
+
+/** Carries a listening position over to another recording, paragraph by paragraph. */
+export function convertPosition(story: Story, from: VoiceId, position: number) {
+  const old = story.voices[from]
+  if (from === story.voice || !old) return position
+  let i = 0
+  while (i + 1 < old.starts.length && old.starts[i + 1] <= position) i++
+  const end = old.starts[i + 1] ?? old.duration
+  const nextStart = story.starts[i + 1] ?? story.duration
+  const t = Math.min(1, (position - old.starts[i]) / Math.max(1, end - old.starts[i]))
+  return story.starts[i] + t * (nextStart - story.starts[i])
+}
+
+export const voiceName = (id: VoiceId) => VOICES.find((v) => v.id === id)?.name ?? id
 
 export const remoteUrl = (story: Story) => AUDIO_BASE + story.file
 

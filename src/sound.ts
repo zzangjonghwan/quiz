@@ -111,6 +111,7 @@ function clip(name: string, gain = 0.9) {
 export function preloadSounds() {
   try {
     void loadClip('correct')
+    void loadClip('wrong')
     void loadClip('fanfare')
   } catch {
     // No audio support; effects are optional.
@@ -160,6 +161,7 @@ export const VARIANTS: Record<SoundName, Variant[]> = {
     },
   ],
   wrong: [
+    { id: 'gentle', label: '뿌뿌 (부드럽게)', play: () => clip('wrong') },
     {
       id: 'boo',
       label: '뿌뿌-',
@@ -254,7 +256,7 @@ export const VARIANTS: Record<SoundName, Variant[]> = {
 
 export const DEFAULT_PICKS: Record<SoundName, string> = {
   correct: 'pop',
-  wrong: 'boo',
+  wrong: 'gentle',
   combo: 'whoosh',
   fanfare: 'trumpet',
   tap: 'tick',
@@ -269,7 +271,8 @@ export function playVariant(name: SoundName, id: string) {
   }
 }
 
-// Sound effects belong to 게임 모드; 일반 모드 stays quiet.
+// Sound effects belong to 게임 모드; 일반 모드 stays quiet. Button taps sound on every screen
+// once 게임 모드 is chosen, the rest only while a game is running.
 let gameActive = false
 export function setGameAudio(active: boolean) {
   gameActive = active
@@ -277,7 +280,7 @@ export function setGameAudio(active: boolean) {
 
 /** Plays the player's chosen variant if a game is running and sound is on. */
 export function playSound(name: SoundName) {
-  const { sound, soundPicks } = getState().settings
-  if (!gameActive || !sound) return
+  const { sound, soundPicks, play } = getState().settings
+  if (!sound || !(gameActive || (name === 'tap' && play === 'game'))) return
   playVariant(name, soundPicks[name] ?? DEFAULT_PICKS[name])
 }

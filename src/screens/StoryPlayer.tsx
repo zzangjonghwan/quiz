@@ -8,9 +8,11 @@ import { formatTime, STORY_CATEGORIES, type Story } from '../stories'
 const RATES = [1, 1.1, 1.25, 1.5]
 
 /** Full player: the story text with the paragraph being read highlighted, and playback controls. */
-export function StoryPlayer({ story, next, onBack, onNext }: { story: Story; next?: Story; onBack: () => void; onNext: (s: Story) => void }) {
+export function StoryPlayer({ story: opened, next, onBack, onNext }: { story: Story; next?: Story; onBack: () => void; onNext: (s: Story) => void }) {
   const player = usePlayer()
-  const current = player.story?.id === story.id
+  const current = player.story?.id === opened.id
+  // The recording actually loaded (its timings), which can be another voice than the one opened.
+  const story = current ? player.story! : opened
   const position = current ? player.position : 0
   const duration = current && player.duration ? player.duration : story.duration
   const reading = current ? currentParagraph(story, position) : -1
@@ -53,6 +55,7 @@ export function StoryPlayer({ story, next, onBack, onNext }: { story: Story; nex
                 refs.current[i] = el
               }}
               onClick={() => (current ? seek(story.starts[i]) : void playStory(story, story.starts[i]))}
+              data-tap
               className={`text-[17px] leading-relaxed transition-colors duration-300 ${
                 i === reading ? 'font-medium text-fg' : reading >= 0 ? 'text-fg-subtle' : 'text-fg-muted'
               }`}

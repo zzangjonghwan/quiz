@@ -1,9 +1,11 @@
-import { ChevronRight } from 'lucide-react'
-import { useState, type ReactNode } from 'react'
+import { ChevronRight, Play, Square } from 'lucide-react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { ALL_CATEGORIES, CATEGORY_GROUPS } from '../categories'
 import { Header, PrimaryButton, Screen, SecondaryButton, Segmented } from '../components/ui'
 import { useBackHandler } from '../native'
+import { pause, switchVoice, usePlayer } from '../player'
 import { resetProgress, updateSettings, useStore } from '../store'
+import { VOICES, type VoiceId } from '../stories'
 import type { CategoryId } from '../types'
 
 export function SettingsScreen({
@@ -81,6 +83,10 @@ export function SettingsScreen({
           </button>
         </Group>
 
+        <Group title="상식플러스">
+          <VoicePicker />
+        </Group>
+
         <section className="flex flex-col gap-2">
           <div className="flex items-baseline justify-between px-1">
             <h2 className="text-xs font-semibold text-fg-subtle">종합에 포함할 카테고리</h2>
@@ -143,6 +149,71 @@ export function SettingsScreen({
         />
       )}
     </Screen>
+  )
+}
+
+let previewAudio: HTMLAudioElement | null = null
+
+/** 목소리 choice for 상식플러스, each with a short preview clip. */
+function VoicePicker() {
+  const { settings } = useStore()
+  const { playing } = usePlayer()
+  const [previewing, setPreviewing] = useState<VoiceId | null>(null)
+
+  useEffect(() => () => previewAudio?.pause(), [])
+
+  const preview = (id: VoiceId) => {
+    previewAudio?.pause()
+    if (previewing === id) {
+      setPreviewing(null)
+      return
+    }
+    if (playing) pause()
+    previewAudio = new Audio(`${import.meta.env.BASE_URL}voices/${id}.mp3`)
+    previewAudio.onended = () => setPreviewing(null)
+    void previewAudio.play().catch(() => setPreviewing(null))
+    setPreviewing(id)
+  }
+
+  const choose = (id: VoiceId) => {
+    updateSettings({ storyVoice: id })
+    switchVoice(id)
+  }
+
+  return (
+    <div className="flex flex-col gap-2">
+      <span className="text-[15px]">목소리</span>
+      {VOICES.map((v) => {
+        const on = settings.storyVoice === v.id
+        return (
+          <div key={v.id} className="flex items-center gap-2">
+            <button
+              onClick={() => choose(v.id)}
+              aria-pressed={on}
+              className={`flex flex-1 items-center gap-3 rounded-xl px-3 py-2.5 text-left transition-colors ${
+                on ? 'bg-accent/15 ring-1 ring-accent/50' : 'bg-surface-2'
+              }`}
+            >
+              <span className={`flex size-4 items-center justify-center rounded-full border-2 ${on ? 'border-accent' : 'border-fg-subtle'}`}>
+                {on && <span className="size-2 rounded-full bg-accent" />}
+              </span>
+              <span className="flex flex-col">
+                <span className="text-[15px] font-semibold">{v.name}</span>
+                <span className="text-xs text-fg-subtle">{v.desc}</span>
+              </span>
+            </button>
+            <button
+              onClick={() => preview(v.id)}
+              aria-label={`${v.name} 목소리 미리 듣기`}
+              className="flex size-11 shrink-0 items-center justify-center rounded-full bg-surface-2"
+            >
+              {previewing === v.id ? <Square size={16} fill="currentColor" /> : <Play size={18} fill="currentColor" className="ml-0.5" />}
+            </button>
+          </div>
+        )
+      })}
+      <p className="text-xs text-fg-subtle">듣던 이야기는 같은 자리에서 바뀐 목소리로 이어져요.</p>
+    </div>
   )
 }
 
