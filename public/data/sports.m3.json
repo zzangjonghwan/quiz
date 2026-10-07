@@ -1,0 +1,239 @@
+{
+  "category": "sports",
+  "version": 1,
+  "cards": [
+    {
+      "id": "sports-m3001",
+      "difficulty": "normal",
+      "answer": "1982년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 프로 야구(KBO 리그)가 출범한 해는?",
+          "choices": [
+            "1982년",
+            "1972년",
+            "1988년",
+            "1995년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1982년 6개 구단으로 출범했어요. 프로 축구 K리그는 이듬해인 1983년에 시작했어요.",
+        "tip": "프로 야구 1982, 프로 축구 1983"
+      }
+    },
+    {
+      "id": "sports-m3002",
+      "difficulty": "normal",
+      "answer": "노히트 노런",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "야구에서 투수가 안타와 점수를 하나도 내주지 않고 이긴 경기는?",
+          "choices": [
+            "노히트 노런",
+            "완봉승",
+            "세이브",
+            "홀드"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "볼넷이나 실책으로 주자가 나가도 안타와 실점이 없으면 노히트 노런이에요. 완봉승은 안타를 맞아도 점수만 안 주면 돼요.",
+        "tip": "노 히트(안타) + 노 런(점수)"
+      }
+    },
+    {
+      "id": "sports-m3003",
+      "difficulty": "normal",
+      "answer": "마스터스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우승자에게 초록색 재킷을 입혀 주는 골프 메이저 대회는?",
+          "choices": [
+            "마스터스",
+            "US 오픈",
+            "디 오픈",
+            "PGA 챔피언십"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국 조지아주 오거스타 내셔널 골프 클럽에서 매년 4월에 열려요. 2021년 일본의 마쓰야마 히데키가 아시아 남자 선수로는 처음 우승했어요.",
+        "tip": "그린 재킷"
+      }
+    },
+    {
+      "id": "sports-m3004",
+      "difficulty": "normal",
+      "answer": "Formula",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 빠른 자동차 경주 대회 시리즈로 꼽히는 'F1'의 F는 무엇의 약자일까?",
+          "choices": [
+            "Formula",
+            "Fast",
+            "First",
+            "Fire"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "Formula는 '규정'이라는 뜻으로, 정해진 규정에 맞춰 만든 1인승 경주차로 겨루는 대회예요.",
+        "tip": "Formula One"
+      }
+    },
+    {
+      "id": "sports-m3005",
+      "difficulty": "normal",
+      "answer": "박세리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1998년 US 여자 오픈에서 맨발로 연못에 들어가 공을 쳐 내 우승하며 IMF 시기 국민에게 희망을 준 골프 선수는?",
+          "choices": [
+            "박세리",
+            "박인비",
+            "신지애",
+            "김미현"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하얀 맨발과 그을린 다리가 대비된 '맨발 투혼'은 지금도 명장면으로 꼽혀요. '세리 키즈'라는 다음 세대 선수들을 키워 냈어요.",
+        "tip": "맨발 투혼"
+      }
+    },
+    {
+      "id": "sports-m3006",
+      "difficulty": "easy",
+      "answer": "김연경",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'배구 여제'로 불리며 튀르키예 리그 등 해외에서도 활약한 한국 여자 배구 선수는?",
+          "choices": [
+            "김연경",
+            "김연아",
+            "김연지",
+            "양효진"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2012년 런던 올림픽 MVP에 뽑혔고, 2020 도쿄 올림픽에서 대표팀의 4강 진출을 이끌었어요.",
+        "tip": "\"해보자, 후회 없이\""
+      }
+    },
+    {
+      "id": "sports-m3007",
+      "difficulty": "normal",
+      "answer": "안산",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2020 도쿄 올림픽 양궁에서 한국 하계 올림픽 첫 3관왕에 오른 선수는?",
+          "choices": [
+            "안산",
+            "김제덕",
+            "기보배",
+            "장혜진"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "여자 개인전, 여자 단체전, 처음 생긴 혼성 단체전에서 모두 금메달을 땄어요.",
+        "tip": "하계 첫 3관왕"
+      }
+    },
+    {
+      "id": "sports-m3008",
+      "difficulty": "normal",
+      "answer": "진종오",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "올림픽 사격 50m 권총 종목에서 2008·2012·2016년 3연패를 이룬 선수는?",
+          "choices": [
+            "진종오",
+            "이은철",
+            "강초현",
+            "오진혁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "진종오는 올림픽 금메달 4개를 땄어요. 한국인 올림픽 최다 금메달 기록은 2024 파리 올림픽에서 다섯 번째 금메달을 딴 양궁의 김우진이 갖고 있어요.",
+        "tip": "사격 황제"
+      }
+    },
+    {
+      "id": "sports-m3009",
+      "difficulty": "normal",
+      "answer": "노바크 조코비치",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "남자 테니스 메이저 대회(그랜드 슬램) 최다 우승 기록을 가진 선수는?",
+          "choices": [
+            "노바크 조코비치",
+            "로저 페더러",
+            "라파엘 나달",
+            "피트 샘프러스"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세르비아의 조코비치는 2023년 메이저 24승으로 역대 최다 기록을 세웠어요. 나달은 프랑스 오픈에서만 14번 우승한 '흙신'이에요.",
+        "tip": "빅 3 가운데 최다"
+      }
+    },
+    {
+      "id": "sports-m3010",
+      "difficulty": "normal",
+      "answer": "택견",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2011년 유네스코 인류 무형 유산에 오른 우리 전통 무예는?",
+          "choices": [
+            "택견",
+            "태권도",
+            "씨름",
+            "수박"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "춤추듯 부드럽게 움직이며 발로 차고 걸어 넘기는 무예예요. 씨름은 2018년 남북 공동으로 무형 유산에 올랐어요.",
+        "tip": "'이크', '에크' 기합"
+      }
+    },
+    {
+      "id": "sports-m3011",
+      "difficulty": "hard",
+      "answer": "다 함께",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "올림픽 표어 \"더 빠르게, 더 높이, 더 힘차게\"에 2021년 새로 덧붙은 말은?",
+          "choices": [
+            "다 함께",
+            "더 멀리",
+            "더 즐겁게",
+            "끝까지"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "라틴어 'Citius, Altius, Fortius'에 'Communiter(다 함께)'가 더해졌어요. 코로나19 시기 연대를 강조하려는 뜻이었어요.",
+        "tip": "Together"
+      }
+    }
+  ]
+}

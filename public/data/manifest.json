@@ -1,5 +1,5 @@
 {
-  "version": 89,
+  "version": 92,
   "files": [
     {
       "category": "idiom",
@@ -317,6 +317,11 @@
       "version": 1
     },
     {
+      "category": "food",
+      "file": "food.m3.json",
+      "version": 1
+    },
+    {
       "category": "law",
       "file": "law.json",
       "version": 1
@@ -387,6 +392,11 @@
       "version": 1
     },
     {
+      "category": "media",
+      "file": "media.m3.json",
+      "version": 1
+    },
+    {
       "category": "sports",
       "file": "sports.json",
       "version": 1
@@ -399,6 +409,11 @@
     {
       "category": "sports",
       "file": "sports.m2.json",
+      "version": 1
+    },
+    {
+      "category": "sports",
+      "file": "sports.m3.json",
       "version": 1
     },
     {
