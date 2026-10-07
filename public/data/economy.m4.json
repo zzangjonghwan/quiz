@@ -1,0 +1,573 @@
+{
+  "category": "economy",
+  "version": 1,
+  "cards": [
+    {
+      "id": "economy-m4001",
+      "difficulty": "easy",
+      "answer": "세종 대왕",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1만 원권 지폐 앞면에 그려진 인물은?",
+          "choices": [
+            "세종 대왕",
+            "이순신",
+            "정약용",
+            "장영실"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뒷면에는 혼천의와 천체 관측 그림이 있어요.",
+        "tip": "세종 = 만 원"
+      }
+    },
+    {
+      "id": "economy-m4002",
+      "difficulty": "easy",
+      "answer": "이순신",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "100원짜리 동전 앞면에 새겨진 인물은?",
+          "choices": [
+            "이순신",
+            "세종 대왕",
+            "안중근",
+            "김구"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "500원 동전에는 학, 50원에는 벼 이삭, 10원에는 다보탑이 있어요.",
+        "tip": "100원 = 이순신"
+      }
+    },
+    {
+      "id": "economy-m4003",
+      "difficulty": "easy",
+      "answer": "학",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "500원짜리 동전에 새겨진 동물은?",
+          "choices": [
+            "학",
+            "거북",
+            "호랑이",
+            "봉황"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1982년 처음 나왔어요. 1998년 발행량이 아주 적은 500원 동전은 수집가들 사이에서 비싸게 거래돼요.",
+        "tip": "날아가는 학"
+      }
+    },
+    {
+      "id": "economy-m4004",
+      "difficulty": "hard",
+      "answer": "환에서 원으로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1962년 화폐 개혁 때 바뀐 우리나라 화폐 단위의 변화로 알맞은 것은?",
+          "choices": [
+            "환에서 원으로",
+            "원에서 환으로",
+            "전에서 원으로",
+            "냥에서 원으로"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "10환을 1원으로 바꿨어요. 그 전 1953년에는 원을 환으로 바꾼 적이 있어요.",
+        "tip": "10환 = 1원"
+      }
+    },
+    {
+      "id": "economy-m4005",
+      "difficulty": "easy",
+      "answer": "한국은행",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 돈을 만들고 통화 정책을 맡는 중앙은행은?",
+          "choices": [
+            "한국은행",
+            "조폐공사",
+            "기획재정부",
+            "금융감독원"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "돈을 실제로 찍어 내는 곳은 한국조폐공사지만, 발행 권한은 한국은행에 있어요. 1950년 세워졌어요.",
+        "tip": "발행은 한국은행, 인쇄는 조폐공사"
+      }
+    },
+    {
+      "id": "economy-m4006",
+      "difficulty": "easy",
+      "answer": "미국 달러",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계 무역과 금융 거래에서 가장 많이 쓰여 '기축 통화'로 불리는 화폐는?",
+          "choices": [
+            "미국 달러",
+            "유로",
+            "일본 엔",
+            "중국 위안"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "국제 결제와 각국 외환 보유액에서 가장 큰 비중을 차지해요.",
+        "tip": "세계의 기준 돈"
+      }
+    },
+    {
+      "id": "economy-m4007",
+      "difficulty": "easy",
+      "answer": "파운드",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영국의 화폐 단위는?",
+          "choices": [
+            "파운드",
+            "유로",
+            "프랑",
+            "마르크"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국은 유럽 연합에 있던 시절에도 유로를 쓰지 않았어요. 기호는 £예요.",
+        "tip": "£"
+      }
+    },
+    {
+      "id": "economy-m4008",
+      "difficulty": "hard",
+      "answer": "¥",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "중국의 화폐 단위 '위안'의 기호로 알맞은 것은?",
+          "choices": [
+            "¥",
+            "$",
+            "€",
+            "₩"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "일본 엔도 같은 ¥ 기호를 써요. 중국 돈의 정식 이름은 '런민비(인민폐)'예요.",
+        "tip": "엔과 같은 기호"
+      }
+    },
+    {
+      "id": "economy-m4009",
+      "difficulty": "normal",
+      "answer": "그레셤의 법칙",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'악화가 양화를 구축한다(나쁜 돈이 좋은 돈을 몰아낸다)'는 경제 법칙의 이름은?",
+          "choices": [
+            "그레셤의 법칙",
+            "세이의 법칙",
+            "엥겔의 법칙",
+            "파레토의 법칙"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "금 함량이 낮은 동전이 돌면 사람들은 좋은 동전은 간직하고 나쁜 동전만 써요.",
+        "tip": "나쁜 돈만 돈다"
+      }
+    },
+    {
+      "id": "economy-m4010",
+      "difficulty": "hard",
+      "answer": "닉슨 쇼크",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1971년 미국 닉슨 대통령이 선언해 달러를 금으로 바꿔 주는 제도를 끝낸 사건은?",
+          "choices": [
+            "닉슨 쇼크",
+            "오일 쇼크",
+            "플라자 합의",
+            "블랙 먼데이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 뒤로 세계는 금에 묶이지 않는 변동 환율제 시대로 넘어갔어요.",
+        "tip": "금 태환 정지"
+      }
+    },
+    {
+      "id": "economy-m4011",
+      "difficulty": "hard",
+      "answer": "브레턴우즈 회의",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1944년 2차 대전 막바지에 달러를 중심으로 한 국제 통화 질서를 만들고 IMF와 세계은행을 세운 회의는?",
+          "choices": [
+            "브레턴우즈 회의",
+            "얄타 회담",
+            "포츠담 회담",
+            "베르사유 회의"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "미국 뉴햄프셔주의 휴양지 이름이에요.",
+        "tip": "IMF의 탄생지"
+      }
+    },
+    {
+      "id": "economy-m4012",
+      "difficulty": "normal",
+      "answer": "튤립 파동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "17세기 네덜란드에서 꽃 알뿌리 하나 값이 집 한 채보다 비싸질 만큼 투기 열풍이 분 사건은?",
+          "choices": [
+            "튤립 파동",
+            "남해 거품 사건",
+            "미시시피 버블",
+            "닷컴 버블"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "역사상 처음 기록된 투기 거품 가운데 하나로 꼽혀요. 1637년 갑자기 값이 폭락했어요.",
+        "tip": "튤립 한 뿌리 = 집 한 채"
+      }
+    },
+    {
+      "id": "economy-m4013",
+      "difficulty": "normal",
+      "answer": "네덜란드 동인도 회사",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1602년 세계 최초로 주식을 발행한 주식회사로 꼽히는 회사는?",
+          "choices": [
+            "네덜란드 동인도 회사",
+            "영국 동인도 회사",
+            "허드슨 베이 회사",
+            "메디치 은행"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "암스테르담에 세계 최초의 증권 거래소도 생겼어요.",
+        "tip": "VOC"
+      }
+    },
+    {
+      "id": "economy-m4014",
+      "difficulty": "normal",
+      "answer": "석유 파동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1973년 중동 전쟁 뒤 산유국들이 원유 값을 크게 올려 세계 경제가 흔들린 사건은?",
+          "choices": [
+            "석유 파동",
+            "대공황",
+            "닷컴 버블",
+            "서브프라임 사태"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'오일 쇼크'라고도 해요. 1979년 2차 석유 파동이 이어졌어요.",
+        "tip": "오일 쇼크"
+      }
+    },
+    {
+      "id": "economy-m4015",
+      "difficulty": "normal",
+      "answer": "닷컴 버블",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2000년 무렵 인터넷 기업 주가가 지나치게 오르다 폭락한 사건은?",
+          "choices": [
+            "닷컴 버블",
+            "튤립 파동",
+            "석유 파동",
+            "블랙 먼데이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'.com'만 붙으면 주가가 치솟았지만 많은 회사가 무너졌어요. 아마존처럼 살아남아 크게 성장한 회사도 있어요.",
+        "tip": ".com 거품"
+      }
+    },
+    {
+      "id": "economy-m4016",
+      "difficulty": "normal",
+      "answer": "서브프라임 모기지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2008년 세계 금융 위기의 출발점이 된, 미국의 신용 낮은 사람들에게 내준 주택 담보 대출은?",
+          "choices": [
+            "서브프라임 모기지",
+            "프라임 레이트",
+            "리볼빙",
+            "마이너스 통장"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "집값이 떨어지며 대출이 부실해지자 이를 묶은 금융 상품이 줄줄이 무너졌어요.",
+        "tip": "비우량 주택 대출"
+      }
+    },
+    {
+      "id": "economy-m4017",
+      "difficulty": "hard",
+      "answer": "블랙 먼데이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1987년 10월 19일 미국 다우 지수가 하루 만에 20% 넘게 폭락한 날을 부르는 말은?",
+          "choices": [
+            "블랙 먼데이",
+            "블랙 프라이데이",
+            "검은 목요일",
+            "블루 먼데이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "하루 낙폭으로는 역사상 최대예요. 대공황의 시작은 1929년 '검은 목요일'이었어요.",
+        "tip": "월요일의 폭락"
+      }
+    },
+    {
+      "id": "economy-m4018",
+      "difficulty": "easy",
+      "answer": "블랙 프라이데이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국에서 추수 감사절 다음 날 대규모 할인 판매가 시작되는 날은?",
+          "choices": [
+            "블랙 프라이데이",
+            "사이버 먼데이",
+            "블랙 먼데이",
+            "박싱 데이"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가게 장부가 적자(빨강)에서 흑자(검정)로 바뀌는 날이라는 데서 이름이 왔다는 설명이 유명해요.",
+        "tip": "장부가 검게"
+      }
+    },
+    {
+      "id": "economy-m4019",
+      "difficulty": "normal",
+      "answer": "경제 개발 5개년 계획",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1962년 시작되어 한국의 산업화를 이끈 정부의 경제 계획은?",
+          "choices": [
+            "경제 개발 5개년 계획",
+            "새마을 운동",
+            "금 모으기 운동",
+            "한강 개발 계획"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "경공업에서 시작해 1970년대에는 중화학 공업을 키웠어요.",
+        "tip": "5년 단위 계획"
+      }
+    },
+    {
+      "id": "economy-m4020",
+      "difficulty": "easy",
+      "answer": "한강의 기적",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "6·25 전쟁 뒤 한국이 짧은 기간에 이룬 빠른 경제 성장을 부르는 말은?",
+          "choices": [
+            "한강의 기적",
+            "라인강의 기적",
+            "아시아의 용",
+            "동방의 등불"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "서독의 전후 부흥을 '라인강의 기적'이라 부른 데서 빌려 왔어요.",
+        "tip": "라인강 → 한강"
+      }
+    },
+    {
+      "id": "economy-m4021",
+      "difficulty": "normal",
+      "answer": "1996년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국이 경제 협력 개발 기구(OECD)에 가입한 해는?",
+          "choices": [
+            "1996년",
+            "1988년",
+            "2002년",
+            "2010년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아시아에서는 일본에 이어 두 번째였어요. 이듬해 외환 위기가 찾아왔어요.",
+        "tip": "선진국 클럽 가입"
+      }
+    },
+    {
+      "id": "economy-m4022",
+      "difficulty": "hard",
+      "answer": "2011년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한국의 연간 무역 규모(수출 + 수입)가 처음 1조 달러를 넘은 해는?",
+          "choices": [
+            "2011년",
+            "1997년",
+            "2005년",
+            "2020년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세계에서 아홉 번째로 무역 1조 달러를 달성했어요. 이를 기념해 '무역의 날'이 12월 5일로 바뀌었어요.",
+        "tip": "무역 1조 달러"
+      }
+    },
+    {
+      "id": "economy-m4023",
+      "difficulty": "normal",
+      "answer": "일본",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'아시아의 네 마리 용'으로 불린 나라와 지역에 들지 않는 것은?",
+          "choices": [
+            "일본",
+            "한국",
+            "대만",
+            "싱가포르"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한국, 대만, 홍콩, 싱가포르가 1960~90년대 빠르게 성장해 이렇게 불렸어요.",
+        "tip": "한국·대만·홍콩·싱가포르"
+      }
+    },
+    {
+      "id": "economy-m4024",
+      "difficulty": "normal",
+      "answer": "S&P 500",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국의 대형 우량주 500개로 만든 대표 주가 지수는?",
+          "choices": [
+            "S&P 500",
+            "다우 존스 지수",
+            "나스닥 종합 지수",
+            "니케이 225"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다우 존스는 30개 대표 기업, 니케이 225는 일본 도쿄 증시의 대표 지수예요.",
+        "tip": "미국 500대 기업"
+      }
+    },
+    {
+      "id": "economy-m4025",
+      "difficulty": "normal",
+      "answer": "세계 무역 기구(WTO)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "1995년 출범해 나라 사이의 무역 규칙을 정하고 분쟁을 해결하는 국제기구는?",
+          "choices": [
+            "세계 무역 기구(WTO)",
+            "국제 통화 기금(IMF)",
+            "세계은행",
+            "경제 협력 개발 기구(OECD)"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "관세와 무역에 관한 일반 협정(GATT)을 이어 만들었어요. 본부는 스위스 제네바에 있어요.",
+        "tip": "무역의 심판"
+      }
+    },
+    {
+      "id": "economy-m4026",
+      "difficulty": "normal",
+      "answer": "다보스 포럼",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "해마다 1월 스위스의 휴양 도시에서 세계 정치·경제 지도자들이 모이는 회의의 흔한 이름은?",
+          "choices": [
+            "다보스 포럼",
+            "G20 정상 회의",
+            "뮌헨 안보 회의",
+            "브레턴우즈 회의"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정식 이름은 '세계 경제 포럼(WEF)'이에요.",
+        "tip": "알프스의 경제 회의"
+      }
+    },
+    {
+      "id": "economy-m4027",
+      "difficulty": "normal",
+      "answer": "중국",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "G7에 들지 않는 나라는?",
+          "choices": [
+            "중국",
+            "캐나다",
+            "이탈리아",
+            "일본"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "G7은 미국, 영국, 프랑스, 독일, 이탈리아, 캐나다, 일본이에요. 한국과 중국은 G20 회원이에요.",
+        "tip": "선진 7개국"
+      }
+    }
+  ]
+}
