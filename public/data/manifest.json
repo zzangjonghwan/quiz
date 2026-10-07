@@ -1,5 +1,5 @@
 {
-  "version": 201,
+  "version": 202,
   "files": [
     {
       "category": "idiom",
@@ -449,6 +449,11 @@
     {
       "category": "geo",
       "file": "geo.m5.json",
+      "version": 1
+    },
+    {
+      "category": "geo",
+      "file": "geo.m6.json",
       "version": 1
     },
     {
