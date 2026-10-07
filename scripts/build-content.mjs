@@ -66,6 +66,7 @@ function parseBreakdown(card) {
     return chars.map((part, i) => ({ part, origin: hanja[i], meaning: meanings[i] ?? '' }))
   }
   return card.b.split(' / ').map((entry) => {
+    if (!entry.includes('=')) errors.push(`${card.a}: b 항목은 'part=meaning' 형식이어야 함 (${entry})`)
     const [left, ...rest] = entry.split('=')
     const meaning = rest.join('=').trim()
     const m = left.trim().match(/^(.*?)\((.*)\)$/)
