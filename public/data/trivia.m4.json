@@ -1,0 +1,531 @@
+{
+  "category": "trivia",
+  "version": 1,
+  "cards": [
+    {
+      "id": "trivia-m4001",
+      "difficulty": "normal",
+      "answer": "강제 노동",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'로봇(robot)'이라는 말을 처음 쓴 1920년 체코 작가의 희곡에서, 이 말의 원래 뜻은?",
+          "choices": [
+            "강제 노동",
+            "쇠 인형",
+            "생각하는 기계",
+            "주인을 돕는 하인"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "카렐 차페크의 희곡 「R.U.R.」에서 처음 나왔어요. 체코어 '로보타(힘든 노동)'에서 왔어요.",
+        "tip": "robota = 노동"
+      }
+    },
+    {
+      "id": "trivia-m4002",
+      "difficulty": "hard",
+      "answer": "아일랜드 농민들이 따돌린 영국인 관리인의 이름",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'불매 운동'을 뜻하는 영어 '보이콧(boycott)'은 무엇에서 유래했을까?",
+          "choices": [
+            "아일랜드 농민들이 따돌린 영국인 관리인의 이름",
+            "불매 운동을 처음 벌인 프랑스 왕의 이름",
+            "미국 독립 전쟁에서 싸운 장군의 이름",
+            "응원 거부 운동을 한 영국 축구 클럽 이름"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1880년 소작료 문제로 마을 사람들이 찰스 보이콧 대위와 모든 거래를 끊은 데서 나왔어요.",
+        "tip": "보이콧 대위"
+      }
+    },
+    {
+      "id": "trivia-m4003",
+      "difficulty": "hard",
+      "answer": "프랑스 님",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "청바지 천 '데님(denim)'이라는 이름은 어느 도시에서 왔을까?",
+          "choices": [
+            "프랑스 님",
+            "이탈리아 제노바",
+            "미국 뉴욕",
+            "영국 런던"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'드 님(de Nîmes, 님에서 온)'이 줄어든 말이에요. '진(jeans)'은 제노바 선원들이 입던 바지에서 왔다는 설이 있어요.",
+        "tip": "de Nîmes"
+      }
+    },
+    {
+      "id": "trivia-m4004",
+      "difficulty": "hard",
+      "answer": "미국 뉴욕의 한 마을 이름",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "정장 '턱시도'라는 이름은 무엇에서 왔을까?",
+          "choices": [
+            "미국 뉴욕의 한 마을 이름",
+            "영국 왕자의 이름",
+            "프랑스 재단사의 이름",
+            "이탈리아 오페라 제목"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "뉴욕 턱시도 파크의 사교 모임 사람들이 입기 시작해 이름이 붙었다고 해요.",
+        "tip": "턱시도 파크"
+      }
+    },
+    {
+      "id": "trivia-m4005",
+      "difficulty": "hard",
+      "answer": "별",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'재앙'을 뜻하는 영어 'disaster'에 들어 있는 'aster'의 뜻은?",
+          "choices": [
+            "별",
+            "불",
+            "물",
+            "바람"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'나쁜 별'이라는 뜻이에요. 옛사람들은 별의 위치가 나쁘면 재앙이 온다고 믿었어요.",
+        "tip": "astro = 별"
+      }
+    },
+    {
+      "id": "trivia-m4006",
+      "difficulty": "hard",
+      "answer": "작은 쥐",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'근육(muscle)'의 어원인 라틴어 '무스쿨루스'의 원래 뜻은?",
+          "choices": [
+            "작은 쥐",
+            "작은 뱀",
+            "강한 팔",
+            "단단한 돌"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "근육이 움직이는 모양이 피부 밑에서 생쥐가 꿈틀대는 것 같다고 봤대요.",
+        "tip": "피부 밑 생쥐"
+      }
+    },
+    {
+      "id": "trivia-m4007",
+      "difficulty": "normal",
+      "answer": "달",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'광기'를 뜻하는 영어 'lunatic'에 들어 있는 'luna'의 뜻은?",
+          "choices": [
+            "달",
+            "해",
+            "별",
+            "밤"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "보름달이 사람을 미치게 한다는 옛 믿음에서 나왔어요.",
+        "tip": "luna = 달"
+      }
+    },
+    {
+      "id": "trivia-m4008",
+      "difficulty": "hard",
+      "answer": "대마도 사람들이 부르던 말",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'고구마'라는 이름의 유래로 알려진 것은?",
+          "choices": [
+            "대마도 사람들이 부르던 말",
+            "고구려에서 온 마",
+            "고대 중국어",
+            "포르투갈어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "조선 통신사 조엄이 대마도에서 들여오며 그곳 말 '고코이모'를 따랐다고 해요.",
+        "tip": "조엄의 고구마"
+      }
+    },
+    {
+      "id": "trivia-m4009",
+      "difficulty": "hard",
+      "answer": "타이쿤(tycoon)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'대군(大君)'이라는 일본어에서 나와 '거물 사업가'를 뜻하게 된 영어 단어는?",
+          "choices": [
+            "타이쿤(tycoon)",
+            "쇼군(shogun)",
+            "사무라이(samurai)",
+            "쓰나미(tsunami)"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "에도 막부의 쇼군을 외국에 '대군'이라 부른 데서 나왔어요. 게임 '롤러코스터 타이쿤'의 그 타이쿤이에요.",
+        "tip": "대군 → tycoon"
+      }
+    },
+    {
+      "id": "trivia-m4010",
+      "difficulty": "normal",
+      "answer": "창업자의 별명과 성",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "스포츠 브랜드 '아디다스'라는 이름은 무엇에서 왔을까?",
+          "choices": [
+            "창업자의 별명과 성",
+            "그리스 신의 이름",
+            "독일어 '달리다'",
+            "창업자 딸의 이름"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "아돌프 '아디' 다슬러의 이름을 합쳤어요. 형 루돌프 다슬러는 갈라서서 '푸마'를 세웠어요.",
+        "tip": "아디 + 다슬러"
+      }
+    },
+    {
+      "id": "trivia-m4011",
+      "difficulty": "normal",
+      "answer": "형제",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "스포츠 브랜드 아디다스와 푸마를 세운 두 사람의 관계는?",
+          "choices": [
+            "형제",
+            "부자",
+            "사촌",
+            "동업자였던 친구"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "같은 공장을 운영하다 사이가 틀어져 독일 헤르초게나우라흐 마을에 각자 회사를 세웠어요.",
+        "tip": "형제 라이벌"
+      }
+    },
+    {
+      "id": "trivia-m4012",
+      "difficulty": "hard",
+      "answer": "창업자 이름과 고향 마을의 첫 글자",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "가구 회사 '이케아(IKEA)'의 이름은 무엇을 딴 것일까?",
+          "choices": [
+            "창업자 이름과 고향 마을의 첫 글자",
+            "스웨덴어로 '좋은 집'",
+            "바이킹 왕의 이름",
+            "숲의 이름"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "잉바르 캄프라드(IK), 그가 자란 농장 엘름타뤼드(E)와 마을 아군나뤼드(A)의 머리글자예요.",
+        "tip": "I·K·E·A"
+      }
+    },
+    {
+      "id": "trivia-m4013",
+      "difficulty": "easy",
+      "answer": "국민의 차",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자동차 회사 '폭스바겐'의 독일어 뜻은?",
+          "choices": [
+            "국민의 차",
+            "빠른 차",
+            "여우 차",
+            "하늘을 나는 차"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "누구나 살 수 있는 차를 만들려는 계획에서 나온 이름이에요. 대표 모델은 '비틀'이에요.",
+        "tip": "국민차"
+      }
+    },
+    {
+      "id": "trivia-m4014",
+      "difficulty": "hard",
+      "answer": "관음보살",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "카메라 회사 '캐논'의 이름은 처음에 무엇에서 따왔을까?",
+          "choices": [
+            "관음보살",
+            "대포",
+            "교회 법",
+            "창업자의 이름"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "처음 만든 카메라 이름이 '콰논(관음)'이었고, 이를 영어 느낌의 '캐논'으로 바꿨어요.",
+        "tip": "콰논 → 캐논"
+      }
+    },
+    {
+      "id": "trivia-m4015",
+      "difficulty": "normal",
+      "answer": "핀란드의 강과 마을 이름",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "휴대폰 회사로 유명했던 '노키아'의 이름은 무엇에서 왔을까?",
+          "choices": [
+            "핀란드의 강과 마을 이름",
+            "창업자의 성",
+            "핀란드어로 '연결'",
+            "북유럽 신화의 신"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "노키아는 원래 1865년 제지 공장으로 시작한 회사예요.",
+        "tip": "제지 공장에서 휴대폰까지"
+      }
+    },
+    {
+      "id": "trivia-m4016",
+      "difficulty": "easy",
+      "answer": "세 개의 별",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'삼성(三星)'이라는 이름의 뜻은?",
+          "choices": [
+            "세 개의 별",
+            "세 개의 산",
+            "세 명의 형제",
+            "세 개의 바다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'크고 많고 강하며 영원하라'는 뜻을 담았다고 해요.",
+        "tip": "三星"
+      }
+    },
+    {
+      "id": "trivia-m4017",
+      "difficulty": "normal",
+      "answer": "레이 크록",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'맥도날드'를 세계적인 프랜차이즈로 키운 사람은?",
+          "choices": [
+            "레이 크록",
+            "맥도날드 형제",
+            "커널 샌더스",
+            "하워드 슐츠"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원래 맥도날드 형제의 햄버거 가게였어요. 믹서기를 팔던 레이 크록이 사업권을 사들여 키웠어요.",
+        "tip": "믹서기 판매원"
+      }
+    },
+    {
+      "id": "trivia-m4018",
+      "difficulty": "normal",
+      "answer": "60대",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'KFC'를 세운 커널 샌더스가 프랜차이즈 사업을 본격적으로 시작한 나이는?",
+          "choices": [
+            "60대",
+            "20대",
+            "30대",
+            "40대"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "65세 무렵 식당을 잃고, 치킨 조리법을 들고 다니며 가맹점을 늘렸어요.",
+        "tip": "늦깎이 창업"
+      }
+    },
+    {
+      "id": "trivia-m4019",
+      "difficulty": "normal",
+      "answer": "세계에서 가장 큰 강",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'아마존'이라는 회사 이름은 무엇에서 따왔을까?",
+          "choices": [
+            "세계에서 가장 큰 강",
+            "여전사 부족",
+            "열대 우림의 새",
+            "창업자의 고향"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가장 큰 강처럼 가장 큰 상점이 되겠다는 뜻이었어요. 알파벳 A로 시작해 목록 앞에 오는 점도 고려했대요.",
+        "tip": "가장 큰 강"
+      }
+    },
+    {
+      "id": "trivia-m4020",
+      "difficulty": "normal",
+      "answer": "천둥의 신 토르",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "영어 'Thursday(목요일)'는 어느 신의 이름에서 왔을까?",
+          "choices": [
+            "천둥의 신 토르",
+            "전쟁의 신 마르스",
+            "태양신 아폴론",
+            "바다의 신 포세이돈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "북유럽 신화에서 왔어요. Wednesday는 오딘(보탄), Friday는 프리그(또는 프레이야)의 날이에요.",
+        "tip": "Thor's day"
+      }
+    },
+    {
+      "id": "trivia-m4021",
+      "difficulty": "hard",
+      "answer": "1582년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "지금 전 세계가 쓰는 '그레고리력'이 처음 시행된 해는?",
+          "choices": [
+            "1582년",
+            "1492년",
+            "1688년",
+            "1789년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "교황 그레고리우스 13세가 율리우스력의 오차를 고치려고 10일을 건너뛰게 했어요. 그해 10월 4일 다음 날이 10월 15일이었어요.",
+        "tip": "사라진 10일"
+      }
+    },
+    {
+      "id": "trivia-m4022",
+      "difficulty": "hard",
+      "answer": "메소포타미아(바빌로니아)",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한 시간이 60분, 원이 360도로 나뉘게 된 데 영향을 준 고대 문명은?",
+          "choices": [
+            "메소포타미아(바빌로니아)",
+            "고대 그리스(아테네)",
+            "고대 로마(공화정)",
+            "고대 중국(주나라)"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "바빌로니아는 60진법을 썼어요. 그래서 1시간은 60분, 원은 360도예요.",
+        "tip": "60진법"
+      }
+    },
+    {
+      "id": "trivia-m4023",
+      "difficulty": "hard",
+      "answer": "1896년",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라가 '양력'을 공식적으로 쓰기 시작한 해는?",
+          "choices": [
+            "1896년",
+            "1876년",
+            "1910년",
+            "1945년"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "을미개혁 때 음력 1895년 11월 17일을 양력 1896년 1월 1일로 삼았어요. '건양'이라는 연호도 이때 썼어요.",
+        "tip": "건양 원년"
+      }
+    },
+    {
+      "id": "trivia-m4024",
+      "difficulty": "normal",
+      "answer": "음력과 계절의 차이를 맞추려고 몇 년마다 한 달을 더 넣는다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'윤달'에 대한 설명으로 알맞은 것은?",
+          "choices": [
+            "음력과 계절의 차이를 맞추려고 몇 년마다 한 달을 더 넣는다",
+            "양력 2월 끝에 4년마다 하루를 더 넣는다",
+            "해마다 음력 1월이 한 번 더 돌아온다",
+            "보름달이 한 달에 두 번 뜨는 달을 부른다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "음력 1년은 약 354일이라 계절과 어긋나요. 그래서 약 3년에 한 번 윤달을 넣어요.",
+        "tip": "음력 = 윤달, 양력 = 윤일"
+      }
+    },
+    {
+      "id": "trivia-m4025",
+      "difficulty": "hard",
+      "answer": "지구 자전 속도와 원자시계의 차이를 맞추려고 1초를 더하거나 뺀다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'윤초'에 대한 설명으로 알맞은 것은?",
+          "choices": [
+            "지구 자전 속도와 원자시계의 차이를 맞추려고 1초를 더하거나 뺀다",
+            "4년마다 2월 끝에 하루를 통째로 더한다",
+            "매달 첫날 모든 시계에 1초씩을 더한다",
+            "원자시계 배터리를 바꾸는 동안 멈춘 시간이다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1972년부터 몇 년에 한 번씩 넣었어요. 컴퓨터 시스템 오류 문제로 2035년까지 없애기로 했어요.",
+        "tip": "1초 끼워 넣기"
+      }
+    }
+  ]
+}

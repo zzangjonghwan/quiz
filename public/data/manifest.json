@@ -1,5 +1,5 @@
 {
-  "version": 136,
+  "version": 138,
   "files": [
     {
       "category": "idiom",
@@ -634,6 +634,16 @@
     {
       "category": "trivia",
       "file": "trivia.m3.json",
+      "version": 1
+    },
+    {
+      "category": "trivia",
+      "file": "trivia.m4.json",
+      "version": 1
+    },
+    {
+      "category": "trivia",
+      "file": "trivia.m5.json",
       "version": 1
     },
     {
