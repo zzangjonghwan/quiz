@@ -1,0 +1,219 @@
+{
+  "category": "sports",
+  "version": 1,
+  "cards": [
+    {
+      "id": "sports-m8001",
+      "difficulty": "normal",
+      "answer": "3.05m",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "농구 골대의 림은 바닥에서 얼마나 높이 달려 있을까?",
+          "choices": [
+            "3.05m",
+            "2.5m",
+            "3.5m",
+            "4m"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "10피트에 해당해요. 처음 복숭아 바구니를 발코니 난간에 달았던 높이가 그대로 이어졌어요.",
+        "tip": "10피트"
+      }
+    },
+    {
+      "id": "sports-m8002",
+      "difficulty": "hard",
+      "answer": "2.43m",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "남자 배구 네트의 높이는?",
+          "choices": [
+            "2.43m",
+            "2.24m",
+            "2.0m",
+            "3.0m"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "여자 배구 네트는 2.24m예요.",
+        "tip": "남 2.43, 여 2.24"
+      }
+    },
+    {
+      "id": "sports-m8003",
+      "difficulty": "hard",
+      "answer": "약 10.8cm",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "골프 홀(구멍)의 지름은 약 얼마일까?",
+          "choices": [
+            "약 10.8cm",
+            "약 5cm",
+            "약 20cm",
+            "약 30cm"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "골프공 지름(약 4.3cm)의 2.5배쯤이에요.",
+        "tip": "공 2개 반"
+      }
+    },
+    {
+      "id": "sports-m8004",
+      "difficulty": "hard",
+      "answer": "16개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "배드민턴 셔틀콕 하나에 꽂힌 깃털은 몇 개일까?",
+          "choices": [
+            "16개",
+            "8개",
+            "12개",
+            "24개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "주로 거위나 오리의 왼쪽 날개 깃털로 만들어요.",
+        "tip": "16"
+      }
+    },
+    {
+      "id": "sports-m8005",
+      "difficulty": "normal",
+      "answer": "아먼드 듀플랜티스",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "남자 장대높이뛰기에서 세계 기록을 여러 차례 직접 갈아 치운 스웨덴 선수는?",
+          "choices": [
+            "아먼드 듀플랜티스",
+            "세르게이 붑카",
+            "르노 라빌레니",
+            "우상혁"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'몬도'라는 별명으로 불려요. 6m를 훌쩍 넘는 기록을 1cm씩 높여 왔어요.",
+        "tip": "몬도"
+      }
+    },
+    {
+      "id": "sports-m8006",
+      "difficulty": "normal",
+      "answer": "우상혁",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2022년 세계 실내 육상 선수권 대회 높이뛰기에서 한국 선수 최초로 금메달을 딴 선수는?",
+          "choices": [
+            "우상혁",
+            "이진택",
+            "김덕현",
+            "황영조"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "어린 시절 교통사고로 두 발 크기가 다르지만 이를 이겨 냈어요.",
+        "tip": "스마일 점퍼"
+      }
+    },
+    {
+      "id": "sports-m8007",
+      "difficulty": "normal",
+      "answer": "10개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 프로 야구(KBO 리그)의 구단은 모두 몇 개일까?",
+          "choices": [
+            "10개",
+            "8개",
+            "12개",
+            "16개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2015년 kt 위즈가 합류하며 10개 구단이 됐어요.",
+        "tip": "10개 구단"
+      }
+    },
+    {
+      "id": "sports-m8008",
+      "difficulty": "normal",
+      "answer": "아이치·나고야",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2026년 아시안 게임이 열린 일본의 지역은?",
+          "choices": [
+            "아이치·나고야",
+            "도쿄",
+            "오사카",
+            "삿포로"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "일본에서는 1958년 도쿄, 1994년 히로시마에 이어 세 번째 아시안 게임이에요.",
+        "tip": "나고야"
+      }
+    },
+    {
+      "id": "sports-m8009",
+      "difficulty": "hard",
+      "answer": "도하",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2030년 아시안 게임을 여는 도시는?",
+          "choices": [
+            "도하",
+            "리야드",
+            "방콕",
+            "자카르타"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "카타르 도하는 2006년에 이어 두 번째로 아시안 게임을 열어요. 2034년은 사우디아라비아 리야드예요.",
+        "tip": "카타르"
+      }
+    },
+    {
+      "id": "sports-m8010",
+      "difficulty": "hard",
+      "answer": "프랑스 알프스",
+      "asOf": "2026-10",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "2030년 동계 올림픽 개최지로 정해진 곳은?",
+          "choices": [
+            "프랑스 알프스",
+            "스위스 생모리츠",
+            "일본 삿포로",
+            "미국 솔트레이크시티"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2034년 동계 올림픽은 미국 솔트레이크시티에서 열려요.",
+        "tip": "프랑스"
+      }
+    }
+  ]
+}
