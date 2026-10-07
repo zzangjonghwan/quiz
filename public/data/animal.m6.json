@@ -1,0 +1,762 @@
+{
+  "category": "animal",
+  "version": 1,
+  "cards": [
+    {
+      "id": "animal-m6001",
+      "difficulty": "hard",
+      "answer": "약 4만 개",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "코끼리 코에 있는 근육은 대략 몇 개일까?",
+          "choices": [
+            "약 4만 개",
+            "약 40개",
+            "약 400개",
+            "약 400만 개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사람 몸 전체의 근육은 600개 남짓이에요. 그래서 코로 땅콩 한 알도 집을 수 있어요.",
+        "tip": "뼈 없는 근육 덩어리"
+      }
+    },
+    {
+      "id": "animal-m6002",
+      "difficulty": "hard",
+      "answer": "햇빛을 막고 세균을 막아 준다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "하마가 피부에서 내보내는 붉은 분비물의 역할로 알려진 것은?",
+          "choices": [
+            "햇빛을 막고 세균을 막아 준다",
+            "몸을 무겁게 해 물에 가라앉게 한다",
+            "짝에게 신호를 보낸다",
+            "먹이를 녹여 소화시킨다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "땀처럼 보여 '피땀'이라고 불리지만 피도 땀도 아니에요. 천연 자외선 차단제 역할을 해요.",
+        "tip": "피땀이 아니에요"
+      }
+    },
+    {
+      "id": "animal-m6003",
+      "difficulty": "hard",
+      "answer": "피를 빠는 파리가 덜 앉게 한다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "얼룩말의 줄무늬가 하는 역할로 최근 연구에서 유력하게 꼽히는 것은?",
+          "choices": [
+            "피를 빠는 파리가 덜 앉게 한다",
+            "몸을 더 따뜻하게 한다",
+            "짝을 찾는 데만 쓴다",
+            "물속에서 숨게 해 준다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "줄무늬 옷을 입힌 말에 파리가 덜 내려앉는다는 실험 결과도 있어요.",
+        "tip": "파리 퇴치"
+      }
+    },
+    {
+      "id": "animal-m6004",
+      "difficulty": "normal",
+      "answer": "레서판다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "원래 '판다'라는 이름을 먼저 얻었던, 붉은 털에 줄무늬 꼬리를 가진 동물은?",
+          "choices": [
+            "레서판다",
+            "너구리",
+            "라쿤",
+            "여우"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자이언트판다가 알려진 뒤 구별하려고 '작은(lesser)'을 붙였어요.",
+        "tip": "원조 판다"
+      }
+    },
+    {
+      "id": "animal-m6005",
+      "difficulty": "normal",
+      "answer": "젤리빈 한 알만 하다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "갓 태어난 캥거루 새끼의 크기는 대략 어느 정도일까?",
+          "choices": [
+            "젤리빈 한 알만 하다",
+            "고양이만 하다",
+            "어른 캥거루의 절반만 하다",
+            "사람 아기만 하다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "약 2cm, 1g 정도로 태어나 엄마 주머니로 기어 들어가 젖을 먹으며 자라요.",
+        "tip": "2cm"
+      }
+    },
+    {
+      "id": "animal-m6006",
+      "difficulty": "hard",
+      "answer": "바늘두더지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "오리너구리처럼 알을 낳는 포유류로, 몸이 가시로 덮인 동물은?",
+          "choices": [
+            "바늘두더지",
+            "고슴도치",
+            "호저",
+            "천산갑"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "알을 낳는 포유류는 오리너구리와 바늘두더지 무리뿐이에요. 이들을 '단공류'라고 해요.",
+        "tip": "알 낳는 가시 포유류"
+      }
+    },
+    {
+      "id": "animal-m6007",
+      "difficulty": "normal",
+      "answer": "하마",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "아프리카에서 사람의 목숨을 가장 많이 빼앗는 대형 포유류로 꼽히는 동물은?",
+          "choices": [
+            "하마",
+            "사자",
+            "코뿔소",
+            "표범"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "자기 영역에 들어오면 매우 사납게 공격해요. 물속에서도 땅에서도 빨라요.",
+        "tip": "순해 보이지만"
+      }
+    },
+    {
+      "id": "animal-m6008",
+      "difficulty": "normal",
+      "answer": "범고래",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "돌고래과에 속하며 바다 먹이 사슬 꼭대기에 있는 검고 흰 무늬의 동물은?",
+          "choices": [
+            "범고래",
+            "향유고래",
+            "벨루가",
+            "혹등고래"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이름에 '고래'가 붙었지만 가장 큰 돌고래예요. 무리 지어 사냥하며 백상아리도 잡아먹어요.",
+        "tip": "킬러 웨일"
+      }
+    },
+    {
+      "id": "animal-m6009",
+      "difficulty": "normal",
+      "answer": "벨루가",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "온몸이 하얗고 다양한 소리를 내 '바다의 카나리아'로 불리는 고래는?",
+          "choices": [
+            "벨루가",
+            "일각고래",
+            "범고래",
+            "밍크고래"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "러시아어로 '하얀'이라는 뜻이에요. 목이 자유롭게 움직여 고개를 돌릴 수 있어요.",
+        "tip": "흰고래"
+      }
+    },
+    {
+      "id": "animal-m6010",
+      "difficulty": "normal",
+      "answer": "바다코끼리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "긴 엄니가 있고 북극 바다의 얼음 위에서 무리 지어 사는 큰 바다 포유류는?",
+          "choices": [
+            "바다코끼리",
+            "물범",
+            "바다사자",
+            "듀공"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "엄니로 얼음을 찍어 몸을 끌어 올리기도 해요.",
+        "tip": "엄니 달린 물범"
+      }
+    },
+    {
+      "id": "animal-m6011",
+      "difficulty": "hard",
+      "answer": "코끼리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'바다소'라고도 불리며 강과 바닷가에 사는 매너티와 가장 가까운 육지 동물은?",
+          "choices": [
+            "코끼리",
+            "하마",
+            "물개",
+            "소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "먼 옛날 같은 조상에서 갈라졌어요. 이름과 달리 소와는 가깝지 않아요.",
+        "tip": "뜻밖의 친척"
+      }
+    },
+    {
+      "id": "animal-m6012",
+      "difficulty": "hard",
+      "answer": "무리에서 암컷이 죽으면 수컷이 암컷으로 바뀐다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "애니메이션 「니모를 찾아서」의 주인공 물고기 흰동가리의 특이한 점은?",
+          "choices": [
+            "무리에서 암컷이 죽으면 수컷이 암컷으로 바뀐다",
+            "평생 한 번도 잠을 자지 않는다",
+            "육지에서도 숨을 쉰다",
+            "알을 입속에서만 키운다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "말미잘 속에서 살며 말미잘의 독침에 쏘이지 않아요.",
+        "tip": "성별이 바뀌는 물고기"
+      }
+    },
+    {
+      "id": "animal-m6013",
+      "difficulty": "easy",
+      "answer": "날치",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "가슴지느러미를 날개처럼 펴서 물 위를 수십 미터 날아가는 물고기는?",
+          "choices": [
+            "날치",
+            "가오리",
+            "쥐가오리",
+            "청새치"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "천적을 피하려고 날아요. 한 번에 수백 미터까지 활공하기도 해요.",
+        "tip": "나는 물고기"
+      }
+    },
+    {
+      "id": "animal-m6014",
+      "difficulty": "normal",
+      "answer": "피라냐",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "이빨이 날카롭고 무리 지어 다니며 남아메리카 강에 사는 육식성 물고기는?",
+          "choices": [
+            "피라냐",
+            "메기",
+            "틸라피아",
+            "아로와나"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사나운 이미지와 달리 사람을 공격하는 일은 드물고 겁이 많은 편이에요.",
+        "tip": "아마존강"
+      }
+    },
+    {
+      "id": "animal-m6015",
+      "difficulty": "hard",
+      "answer": "홍해파리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한 번 성체가 된 뒤 다시 어린 시절 모습으로 돌아갈 수 있어 '죽지 않는 해파리'로 불리는 것은?",
+          "choices": [
+            "홍해파리",
+            "상자해파리",
+            "보름달물해파리",
+            "노무라입깃해파리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "병이나 천적에게 잡아먹히지 않는 한 이 과정을 되풀이할 수 있다고 알려져 있어요.",
+        "tip": "불사의 해파리"
+      }
+    },
+    {
+      "id": "animal-m6016",
+      "difficulty": "easy",
+      "answer": "소라게",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "빈 고둥 껍데기를 집처럼 쓰다가 몸이 크면 더 큰 껍데기로 옮겨 가는 동물은?",
+          "choices": [
+            "소라게",
+            "따개비",
+            "갯가재",
+            "집게벌레"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "알맞은 집이 모자라면 크기 순서대로 줄을 서서 한꺼번에 집을 바꾸기도 해요.",
+        "tip": "이사 다니는 게"
+      }
+    },
+    {
+      "id": "animal-m6017",
+      "difficulty": "hard",
+      "answer": "따개비",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "바위나 배 밑에 거꾸로 붙어 살며 다리로 먹이를 쓸어 먹는, 게와 새우의 친척은?",
+          "choices": [
+            "따개비",
+            "홍합",
+            "굴",
+            "군소"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "조개처럼 생겼지만 갑각류예요. 머리로 바위에 붙어 다리를 내저어요.",
+        "tip": "조개 같은 갑각류"
+      }
+    },
+    {
+      "id": "animal-m6018",
+      "difficulty": "normal",
+      "answer": "성게",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "온몸에 가시가 나 있고 노란 생식소를 먹는, 불가사리의 친척인 바다 동물은?",
+          "choices": [
+            "성게",
+            "해삼",
+            "말미잘",
+            "멍게"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "입은 몸 아래쪽에 있어요. 불가사리, 해삼과 같은 극피동물이에요.",
+        "tip": "바다의 밤송이"
+      }
+    },
+    {
+      "id": "animal-m6019",
+      "difficulty": "normal",
+      "answer": "흰머리수리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "미국의 국조(나라를 상징하는 새)는?",
+          "choices": [
+            "흰머리수리",
+            "칠면조",
+            "송골매",
+            "앵무새"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "벤저민 프랭클린은 칠면조를 국조로 하자고 했다는 이야기가 있어요.",
+        "tip": "하얀 머리 독수리"
+      }
+    },
+    {
+      "id": "animal-m6020",
+      "difficulty": "normal",
+      "answer": "원앙",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "부부 금슬의 상징으로 여겨지지만 실제로는 해마다 짝을 바꾸는 새는?",
+          "choices": [
+            "원앙",
+            "두루미",
+            "기러기",
+            "백조"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "수컷은 화려하고 암컷은 수수해요. 짝을 지은 철에는 함께 붙어 다녀요.",
+        "tip": "원앙 금침"
+      }
+    },
+    {
+      "id": "animal-m6021",
+      "difficulty": "easy",
+      "answer": "백로",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "하얀 몸에 긴 다리로 논에서 먹이를 찾으며, 우리나라에서 흔히 볼 수 있는 여름 철새는?",
+          "choices": [
+            "백로",
+            "두루미",
+            "황새",
+            "저어새"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'까마귀 싸우는 골에 백로야 가지 마라'라는 옛 시조에도 나와요.",
+        "tip": "하얀 해오라기"
+      }
+    },
+    {
+      "id": "animal-m6022",
+      "difficulty": "easy",
+      "answer": "공작",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "수컷이 화려한 꼬리깃을 부채처럼 펼쳐 암컷에게 구애하는 새는?",
+          "choices": [
+            "공작",
+            "꿩",
+            "칠면조",
+            "극락조"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "화려한 깃털은 사실 꼬리가 아니라 등 위의 깃털이에요.",
+        "tip": "부채 펼치기"
+      }
+    },
+    {
+      "id": "animal-m6023",
+      "difficulty": "normal",
+      "answer": "땅거북",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "200년 가까이 살기도 해 세계에서 가장 오래 사는 육지 동물로 꼽히는 무리는?",
+          "choices": [
+            "땅거북",
+            "코끼리",
+            "앵무새",
+            "악어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세이셸 출신 땅거북 '조너선'은 1832년쯤 태어난 것으로 알려져 있어요.",
+        "tip": "조너선"
+      }
+    },
+    {
+      "id": "animal-m6024",
+      "difficulty": "normal",
+      "answer": "방울뱀",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "꼬리 끝의 마디를 흔들어 '따르르' 소리로 경고하는 미국의 독사는?",
+          "choices": [
+            "방울뱀",
+            "코브라",
+            "살무사",
+            "맘바"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "허물을 벗을 때마다 마디가 하나씩 늘어요.",
+        "tip": "꼬리 방울"
+      }
+    },
+    {
+      "id": "animal-m6025",
+      "difficulty": "normal",
+      "answer": "피부가 울퉁불퉁하고 건조하다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "두꺼비와 개구리를 구별할 때 두꺼비의 특징으로 알맞은 것은?",
+          "choices": [
+            "피부가 울퉁불퉁하고 건조하다",
+            "피부가 매끈하고 촉촉하다",
+            "물속에서만 산다",
+            "뒷다리가 훨씬 길다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "두꺼비는 뛰기보다 엉금엉금 걷는 편이에요. 눈 뒤에서 독이 든 하얀 액을 내기도 해요.",
+        "tip": "울퉁불퉁"
+      }
+    },
+    {
+      "id": "animal-m6026",
+      "difficulty": "easy",
+      "answer": "맹꽁이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "장마철에 '맹꽁맹꽁' 하고 우는 멸종 위기 양서류는?",
+          "choices": [
+            "맹꽁이",
+            "청개구리",
+            "참개구리",
+            "두꺼비"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "한 마리가 '맹' 하면 다른 마리가 '꽁' 하고 받아서 그렇게 들려요.",
+        "tip": "맹 + 꽁"
+      }
+    },
+    {
+      "id": "animal-m6027",
+      "difficulty": "normal",
+      "answer": "도롱뇽",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "도마뱀처럼 생겼지만 피부가 촉촉하고 물가에 사는 양서류는?",
+          "choices": [
+            "도롱뇽",
+            "이구아나",
+            "카멜레온",
+            "게코도마뱀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "도마뱀은 비늘이 있는 파충류고, 도롱뇽은 비늘 없는 양서류예요.",
+        "tip": "비늘 없는 도마뱀"
+      }
+    },
+    {
+      "id": "animal-m6028",
+      "difficulty": "easy",
+      "answer": "반딧불이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "꽁무니에서 빛을 내 짝을 찾는 곤충은?",
+          "choices": [
+            "반딧불이",
+            "무당벌레",
+            "하루살이",
+            "사슴벌레"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몸속 화학 반응으로 열이 거의 없는 빛을 내요. 깨끗한 곳에만 살아 환경 지표가 돼요.",
+        "tip": "개똥벌레"
+      }
+    },
+    {
+      "id": "animal-m6029",
+      "difficulty": "normal",
+      "answer": "로열젤리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "꿀벌 가운데 여왕벌만 평생 먹어 몸이 크고 오래 사는 먹이는?",
+          "choices": [
+            "로열젤리",
+            "꽃가루",
+            "꿀",
+            "밀랍"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "일벌이 머리의 샘에서 만들어요. 같은 알에서 나와도 이것만 먹으면 여왕벌이 돼요.",
+        "tip": "왕의 젤리"
+      }
+    },
+    {
+      "id": "animal-m6030",
+      "difficulty": "normal",
+      "answer": "여왕벌과 짝짓기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "수벌이 벌집에서 하는 주된 역할은?",
+          "choices": [
+            "여왕벌과 짝짓기",
+            "꿀 모으기",
+            "벌집 짓기",
+            "침으로 벌집 지키기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "수벌은 침이 없어요. 가을이 되면 벌집에서 쫓겨나기도 해요.",
+        "tip": "침 없는 벌"
+      }
+    },
+    {
+      "id": "animal-m6031",
+      "difficulty": "hard",
+      "answer": "전갈",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "자외선을 비추면 몸이 청록색으로 빛나는 동물은?",
+          "choices": [
+            "전갈",
+            "거미",
+            "지네",
+            "사마귀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "껍데기 속 물질 때문이에요. 왜 빛나는지는 아직 확실하지 않아요.",
+        "tip": "블랙라이트"
+      }
+    },
+    {
+      "id": "animal-m6032",
+      "difficulty": "normal",
+      "answer": "아니다, 거미와 같은 무리다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "진드기는 곤충일까?",
+          "choices": [
+            "아니다, 거미와 같은 무리다",
+            "그렇다, 날개 없는 곤충이다",
+            "그렇다, 개미의 친척이다",
+            "아니다, 갑각류다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다리가 8개인 거미강에 속해요. 곤충은 다리가 6개예요.",
+        "tip": "다리 8개"
+      }
+    },
+    {
+      "id": "animal-m6033",
+      "difficulty": "hard",
+      "answer": "달팽이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "혀에 수천~수만 개의 작은 이빨이 줄지어 난 동물은?",
+          "choices": [
+            "달팽이",
+            "지렁이",
+            "개구리",
+            "나비"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 혀를 '치설'이라고 해요. 줄칼처럼 잎을 갉아 먹어요.",
+        "tip": "줄칼 혀"
+      }
+    },
+    {
+      "id": "animal-m6034",
+      "difficulty": "normal",
+      "answer": "플라나리아",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "몸을 여러 조각으로 잘라도 조각마다 새 몸이 자라나는 납작한 동물은?",
+          "choices": [
+            "플라나리아",
+            "지렁이",
+            "거머리",
+            "해파리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "재생 능력이 아주 뛰어나 과학 실험에 많이 쓰여요.",
+        "tip": "재생의 달인"
+      }
+    },
+    {
+      "id": "animal-m6035",
+      "difficulty": "normal",
+      "answer": "누에나방",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "누에가 자라 고치를 짓고 나오는 곤충은?",
+          "choices": [
+            "누에나방",
+            "호랑나비",
+            "배추흰나비",
+            "박각시"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사람이 수천 년 동안 길러 와 이제는 날지 못해요.",
+        "tip": "비단의 나방"
+      }
+    },
+    {
+      "id": "animal-m6036",
+      "difficulty": "easy",
+      "answer": "장수풍뎅이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라에서 가장 큰 딱정벌레 무리 가운데 하나로, 수컷 머리에 긴 뿔이 있는 곤충은?",
+          "choices": [
+            "장수풍뎅이",
+            "사슴벌레",
+            "하늘소",
+            "쇠똥구리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "사슴벌레는 큰턱이 집게처럼 생겼고, 장수풍뎅이는 뿔이 하나 솟아 있어요.",
+        "tip": "뿔 하나"
+      }
+    }
+  ]
+}
