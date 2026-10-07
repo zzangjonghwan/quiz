@@ -1,4 +1,5 @@
-const DISH = (dish) => `'${dish}'는 어느 나라의 대표 음식일까?`
+const eun = (w) => ((w.replace(/\(.*\)$/, '').slice(-1).charCodeAt(0) - 0xac00) % 28 ? '은' : '는')
+const DISH = (dish) => `'${dish}'${eun(dish)} 어느 나라의 대표 음식일까?`
 
 export default {
   category: 'food',

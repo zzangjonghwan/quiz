@@ -46,27 +46,6 @@
     },
     {
       "id": "trivia-m003",
-      "difficulty": "normal",
-      "answer": "검보라색",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "기린의 길쭉한 혀는 무슨 색일까?",
-          "choices": [
-            "검보라색",
-            "분홍색",
-            "노란색",
-            "하얀색"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "기린 혀는 50cm 가까이 되고 검푸른 보라색이에요. 햇볕에 타지 않도록 진한 색을 띤다는 설이 있어요.",
-        "tip": "혀로 귀 청소도 가능"
-      }
-    },
-    {
-      "id": "trivia-m004",
       "difficulty": "hard",
       "answer": "코알라",
       "questions": [
@@ -87,7 +66,7 @@
       }
     },
     {
-      "id": "trivia-m005",
+      "id": "trivia-m004",
       "difficulty": "normal",
       "answer": "코 주름(비문)",
       "questions": [
@@ -108,7 +87,7 @@
       }
     },
     {
-      "id": "trivia-m006",
+      "id": "trivia-m005",
       "difficulty": "normal",
       "answer": "천이 펄럭이는 움직임 때문",
       "questions": [
@@ -129,7 +108,7 @@
       }
     },
     {
-      "id": "trivia-m007",
+      "id": "trivia-m006",
       "difficulty": "normal",
       "answer": "기니 출신도, 돼지도 아니다",
       "questions": [
@@ -150,7 +129,7 @@
       }
     },
     {
-      "id": "trivia-m008",
+      "id": "trivia-m007",
       "difficulty": "normal",
       "answer": "아니다, 대부분 눈으로도 볼 수 있다",
       "questions": [
@@ -171,7 +150,7 @@
       }
     },
     {
-      "id": "trivia-m009",
+      "id": "trivia-m008",
       "difficulty": "normal",
       "answer": "아니다, 알을 돌보려고 고개를 숙일 뿐이다",
       "questions": [
@@ -192,7 +171,7 @@
       }
     },
     {
-      "id": "trivia-m010",
+      "id": "trivia-m009",
       "difficulty": "easy",
       "answer": "튀르키예",
       "questions": [
@@ -213,7 +192,7 @@
       }
     },
     {
-      "id": "trivia-m011",
+      "id": "trivia-m010",
       "difficulty": "easy",
       "answer": "손톱",
       "questions": [
@@ -234,7 +213,7 @@
       }
     },
     {
-      "id": "trivia-m012",
+      "id": "trivia-m011",
       "difficulty": "normal",
       "answer": "혀 전체가 모든 맛을 느낀다",
       "questions": [
@@ -255,7 +234,7 @@
       }
     },
     {
-      "id": "trivia-m013",
+      "id": "trivia-m012",
       "difficulty": "easy",
       "answer": "소화되진 않지만 며칠 안에 몸 밖으로 나온다",
       "questions": [
@@ -276,7 +255,7 @@
       }
     },
     {
-      "id": "trivia-m014",
+      "id": "trivia-m013",
       "difficulty": "easy",
       "answer": "근거 없는 속설로, 뇌 대부분을 쓴다",
       "questions": [
@@ -297,7 +276,7 @@
       }
     },
     {
-      "id": "trivia-m015",
+      "id": "trivia-m014",
       "difficulty": "hard",
       "answer": "모두 같은 종의 식물이다",
       "questions": [
@@ -318,7 +297,7 @@
       }
     },
     {
-      "id": "trivia-m016",
+      "id": "trivia-m015",
       "difficulty": "normal",
       "answer": "채소(과채류)",
       "questions": [
@@ -339,7 +318,7 @@
       }
     },
     {
-      "id": "trivia-m017",
+      "id": "trivia-m016",
       "difficulty": "normal",
       "answer": "난초",
       "questions": [
@@ -360,7 +339,7 @@
       }
     },
     {
-      "id": "trivia-m018",
+      "id": "trivia-m017",
       "difficulty": "hard",
       "answer": "껍데기에 피부를 짓무르게 하는 물질이 있어서",
       "questions": [
@@ -381,7 +360,7 @@
       }
     },
     {
-      "id": "trivia-m019",
+      "id": "trivia-m018",
       "difficulty": "hard",
       "answer": "생선",
       "questions": [
@@ -402,7 +381,7 @@
       }
     },
     {
-      "id": "trivia-m020",
+      "id": "trivia-m019",
       "difficulty": "normal",
       "answer": "약국에서 파는 강장제",
       "questions": [
@@ -423,7 +402,7 @@
       }
     },
     {
-      "id": "trivia-m021",
+      "id": "trivia-m020",
       "difficulty": "normal",
       "answer": "미국",
       "questions": [
@@ -444,7 +423,7 @@
       }
     },
     {
-      "id": "trivia-m022",
+      "id": "trivia-m021",
       "difficulty": "normal",
       "answer": "캐나다",
       "questions": [
@@ -465,7 +444,7 @@
       }
     },
     {
-      "id": "trivia-m023",
+      "id": "trivia-m022",
       "difficulty": "normal",
       "answer": "소금",
       "questions": [
@@ -486,7 +465,7 @@
       }
     },
     {
-      "id": "trivia-m024",
+      "id": "trivia-m023",
       "difficulty": "hard",
       "answer": "힌디어",
       "questions": [
@@ -507,7 +486,7 @@
       }
     },
     {
-      "id": "trivia-m025",
+      "id": "trivia-m024",
       "difficulty": "normal",
       "answer": "7",
       "questions": [
@@ -528,7 +507,7 @@
       }
     },
     {
-      "id": "trivia-m026",
+      "id": "trivia-m025",
       "difficulty": "normal",
       "answer": "율리우스 카이사르",
       "questions": [
@@ -549,7 +528,7 @@
       }
     },
     {
-      "id": "trivia-m027",
+      "id": "trivia-m026",
       "difficulty": "hard",
       "answer": "일본어 '그림 문자'",
       "questions": [
@@ -570,7 +549,7 @@
       }
     },
     {
-      "id": "trivia-m028",
+      "id": "trivia-m027",
       "difficulty": "hard",
       "answer": "특별한 뜻이 없는 상표명",
       "questions": [
@@ -591,7 +570,7 @@
       }
     },
     {
-      "id": "trivia-m029",
+      "id": "trivia-m028",
       "difficulty": "normal",
       "answer": "10의 100제곱을 뜻하는 수 '구골'",
       "questions": [
@@ -612,7 +591,7 @@
       }
     },
     {
-      "id": "trivia-m030",
+      "id": "trivia-m029",
       "difficulty": "normal",
       "answer": "일본 지퍼 회사 이름",
       "questions": [
@@ -633,7 +612,7 @@
       }
     },
     {
-      "id": "trivia-m031",
+      "id": "trivia-m030",
       "difficulty": "normal",
       "answer": "삼켰을 때 숨이 막히지 않게 하려고",
       "questions": [
@@ -654,7 +633,7 @@
       }
     },
     {
-      "id": "trivia-m032",
+      "id": "trivia-m031",
       "difficulty": "easy",
       "answer": "회중시계",
       "questions": [
@@ -675,7 +654,7 @@
       }
     },
     {
-      "id": "trivia-m033",
+      "id": "trivia-m032",
       "difficulty": "normal",
       "answer": "공기 저항을 줄여 멀리 날게 하려고",
       "questions": [
@@ -696,7 +675,7 @@
       }
     },
     {
-      "id": "trivia-m034",
+      "id": "trivia-m033",
       "difficulty": "normal",
       "answer": "모서리에 압력이 몰려 금이 가는 걸 막으려고",
       "questions": [
@@ -717,7 +696,7 @@
       }
     },
     {
-      "id": "trivia-m035",
+      "id": "trivia-m034",
       "difficulty": "hard",
       "answer": "금·은 동전을 몰래 깎아 내는 것을 막으려고",
       "questions": [
@@ -738,7 +717,7 @@
       }
     },
     {
-      "id": "trivia-m036",
+      "id": "trivia-m035",
       "difficulty": "normal",
       "answer": "아니다, 은에 금을 입힌 것이다",
       "questions": [
@@ -759,7 +738,7 @@
       }
     },
     {
-      "id": "trivia-m037",
+      "id": "trivia-m036",
       "difficulty": "easy",
       "answer": "7",
       "questions": [
@@ -780,7 +759,7 @@
       }
     },
     {
-      "id": "trivia-m038",
+      "id": "trivia-m037",
       "difficulty": "normal",
       "answer": "헝가리",
       "questions": [
@@ -801,7 +780,7 @@
       }
     },
     {
-      "id": "trivia-m039",
+      "id": "trivia-m038",
       "difficulty": "hard",
       "answer": "덴마크어로 '잘 놀아라'",
       "questions": [
@@ -822,7 +801,7 @@
       }
     },
     {
-      "id": "trivia-m040",
+      "id": "trivia-m039",
       "difficulty": "normal",
       "answer": "소련",
       "questions": [
@@ -843,7 +822,7 @@
       }
     },
     {
-      "id": "trivia-m041",
+      "id": "trivia-m040",
       "difficulty": "hard",
       "answer": "목수",
       "questions": [
@@ -864,7 +843,7 @@
       }
     },
     {
-      "id": "trivia-m042",
+      "id": "trivia-m041",
       "difficulty": "normal",
       "answer": "당시 프랑스 남자 평균보다 조금 컸다",
       "questions": [
@@ -885,7 +864,7 @@
       }
     },
     {
-      "id": "trivia-m043",
+      "id": "trivia-m042",
       "difficulty": "normal",
       "answer": "19세기 오페라 의상",
       "questions": [
@@ -906,7 +885,7 @@
       }
     },
     {
-      "id": "trivia-m044",
+      "id": "trivia-m043",
       "difficulty": "easy",
       "answer": "보이지 않는다",
       "questions": [
@@ -927,7 +906,7 @@
       }
     },
     {
-      "id": "trivia-m045",
+      "id": "trivia-m044",
       "difficulty": "normal",
       "answer": "임금을 받던 노동자들",
       "questions": [
@@ -948,7 +927,7 @@
       }
     },
     {
-      "id": "trivia-m046",
+      "id": "trivia-m045",
       "difficulty": "hard",
       "answer": "시계탑 안의 큰 종",
       "questions": [
@@ -969,7 +948,7 @@
       }
     },
     {
-      "id": "trivia-m047",
+      "id": "trivia-m046",
       "difficulty": "normal",
       "answer": "겉면 구리가 녹슬어서",
       "questions": [
@@ -990,7 +969,7 @@
       }
     },
     {
-      "id": "trivia-m048",
+      "id": "trivia-m047",
       "difficulty": "hard",
       "answer": "세슘 원자의 진동",
       "questions": [
@@ -1011,7 +990,7 @@
       }
     },
     {
-      "id": "trivia-m049",
+      "id": "trivia-m048",
       "difficulty": "normal",
       "answer": "약 5배 더 뜨겁다",
       "questions": [
@@ -1032,28 +1011,7 @@
       }
     },
     {
-      "id": "trivia-m050",
-      "difficulty": "easy",
-      "answer": "태양",
-      "questions": [
-        {
-          "mode": "mcq",
-          "prompt": "지구에서 가장 가까운 항성(별)은?",
-          "choices": [
-            "태양",
-            "프록시마 센타우리",
-            "시리우스",
-            "북극성"
-          ]
-        }
-      ],
-      "explanation": {
-        "meaning": "태양도 스스로 빛을 내는 별이에요. 태양 다음으로 가까운 별이 약 4.2광년 떨어진 프록시마 센타우리예요.",
-        "tip": "함정 문제!"
-      }
-    },
-    {
-      "id": "trivia-m051",
+      "id": "trivia-m049",
       "difficulty": "hard",
       "answer": "마우나케아",
       "questions": [
@@ -1074,7 +1032,7 @@
       }
     },
     {
-      "id": "trivia-m052",
+      "id": "trivia-m050",
       "difficulty": "normal",
       "answer": "아이작 뉴턴",
       "questions": [

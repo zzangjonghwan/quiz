@@ -1,5 +1,6 @@
 const KONGLISH = (k) => `한국에서 쓰는 '${k}'에 해당하는 자연스러운 영어 표현은?`
-const ORIGIN = (w) => `'${w}'는 어느 나라 말에서 왔을까?`
+const eun = (w) => ((w.slice(-1).charCodeAt(0) - 0xac00) % 28 ? '은' : '는')
+const ORIGIN = (w) => `'${w}'${eun(w)} 어느 나라 말에서 왔을까?`
 
 export default {
   category: 'loanword',
