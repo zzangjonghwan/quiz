@@ -1,0 +1,1077 @@
+{
+  "category": "animal",
+  "version": 1,
+  "cards": [
+    {
+      "id": "animal-m4001",
+      "difficulty": "easy",
+      "answer": "새끼에게 젖을 먹여 키운다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "포유류의 공통 특징으로 알맞은 것은?",
+          "choices": [
+            "새끼에게 젖을 먹여 키운다",
+            "모두 알을 낳는다",
+            "모두 털이 없다",
+            "모두 물속에서 산다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'젖(乳)을 먹이는(哺) 동물'이라는 뜻이에요. 대부분 새끼를 낳지만 오리너구리처럼 알을 낳는 예외도 있어요.",
+        "tip": "젖 먹이는 동물"
+      }
+    },
+    {
+      "id": "animal-m4002",
+      "difficulty": "easy",
+      "answer": "양서류",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "개구리, 도롱뇽처럼 어릴 때는 물에서 아가미로, 커서는 폐와 피부로 숨 쉬는 동물 무리는?",
+          "choices": [
+            "양서류",
+            "파충류",
+            "어류",
+            "포유류"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물과 땅 두 곳(兩)에서 산다는 뜻이에요. 피부가 늘 촉촉해야 해요.",
+        "tip": "물과 땅 양쪽"
+      }
+    },
+    {
+      "id": "animal-m4003",
+      "difficulty": "easy",
+      "answer": "파충류",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "뱀, 도마뱀, 거북, 악어가 속한 동물 무리는?",
+          "choices": [
+            "파충류",
+            "양서류",
+            "포유류",
+            "어류"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "비늘이나 딱딱한 껍질로 덮여 있고, 주위 온도에 따라 체온이 변하는 변온 동물이에요.",
+        "tip": "비늘 덮인 변온 동물"
+      }
+    },
+    {
+      "id": "animal-m4004",
+      "difficulty": "easy",
+      "answer": "상어",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고래와 상어 가운데 물고기(어류)에 속하는 것은?",
+          "choices": [
+            "상어",
+            "고래",
+            "둘 다",
+            "둘 다 아니다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "고래는 폐로 숨 쉬고 새끼에게 젖을 먹이는 포유류예요. 상어는 아가미로 숨 쉬는 연골어류예요.",
+        "tip": "아가미 = 어류"
+      }
+    },
+    {
+      "id": "animal-m4005",
+      "difficulty": "easy",
+      "answer": "머리, 가슴, 배",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "곤충의 몸을 이루는 세 부분은?",
+          "choices": [
+            "머리, 가슴, 배",
+            "머리, 몸통, 꼬리",
+            "머리, 배, 다리",
+            "몸통, 날개, 다리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "다리 3쌍(6개)과 날개는 가슴에 붙어 있어요. 거미는 머리가슴과 배 두 부분이라 곤충이 아니에요.",
+        "tip": "머리 · 가슴 · 배"
+      }
+    },
+    {
+      "id": "animal-m4006",
+      "difficulty": "easy",
+      "answer": "무척추동물",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "등뼈가 없는 동물을 부르는 말은?",
+          "choices": [
+            "무척추동물",
+            "척추동물",
+            "포유동물",
+            "변온 동물"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "곤충, 거미, 오징어, 지렁이, 해파리 등이에요. 지구 동물 종의 95% 이상이 무척추동물이에요.",
+        "tip": "등뼈 없음"
+      }
+    },
+    {
+      "id": "animal-m4007",
+      "difficulty": "normal",
+      "answer": "정온 동물",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "주위 온도와 상관없이 몸 온도를 일정하게 유지하는 동물을 부르는 말은?",
+          "choices": [
+            "정온 동물",
+            "변온 동물",
+            "냉혈 동물",
+            "야행성 동물"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "포유류와 조류가 정온 동물이에요. 체온을 유지하려고 많이 먹어야 해요.",
+        "tip": "항상 따뜻한 몸"
+      }
+    },
+    {
+      "id": "animal-m4008",
+      "difficulty": "normal",
+      "answer": "갑각류",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "게와 새우가 속한, 딱딱한 껍데기로 몸이 덮인 무리는?",
+          "choices": [
+            "갑각류",
+            "연체동물",
+            "극피동물",
+            "환형동물"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'갑옷 같은 껍데기'라는 뜻이에요. 오징어, 조개 같은 무른 몸의 동물은 연체동물이에요.",
+        "tip": "갑옷 껍데기"
+      }
+    },
+    {
+      "id": "animal-m4009",
+      "difficulty": "hard",
+      "answer": "극피동물",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "불가사리와 성게가 속한, 피부에 가시나 돌기가 있는 동물 무리는?",
+          "choices": [
+            "극피동물",
+            "갑각류",
+            "자포동물",
+            "연체동물"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몸이 다섯 방향으로 대칭인 경우가 많아요. 해삼도 극피동물이에요.",
+        "tip": "가시(棘) 피부(皮)"
+      }
+    },
+    {
+      "id": "animal-m4010",
+      "difficulty": "normal",
+      "answer": "꿀벌새",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 작은 새로 꼽히는 쿠바의 새는?",
+          "choices": [
+            "꿀벌새",
+            "참새",
+            "박새",
+            "굴뚝새"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몸길이 약 5~6cm, 무게는 약 2g으로 벌새 무리 가운데 가장 작아요.",
+        "tip": "2g짜리 새"
+      }
+    },
+    {
+      "id": "animal-m4011",
+      "difficulty": "hard",
+      "answer": "그린란드 상어",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "척추동물 가운데 가장 오래 사는 것으로 알려진, 수백 년을 사는 북대서양의 상어는?",
+          "choices": [
+            "그린란드 상어",
+            "백상아리",
+            "고래상어",
+            "귀상어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "눈의 수정체를 분석해 400년 가까이 살 수 있다는 연구가 나왔어요. 1년에 1cm 정도만 자라요.",
+        "tip": "400살 상어"
+      }
+    },
+    {
+      "id": "animal-m4012",
+      "difficulty": "normal",
+      "answer": "독화살개구리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "독이 아주 강해 손으로 만지기만 해도 위험하다고 알려진 남미의 작고 화려한 개구리는?",
+          "choices": [
+            "독화살개구리",
+            "청개구리",
+            "황소개구리",
+            "아홀로틀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "원주민이 이 개구리의 독을 화살촉에 발라 사냥에 썼다는 데서 이름이 왔어요.",
+        "tip": "화살촉의 독"
+      }
+    },
+    {
+      "id": "animal-m4013",
+      "difficulty": "normal",
+      "answer": "북극곰",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 큰 곰으로 꼽히는 곰은?",
+          "choices": [
+            "북극곰",
+            "반달가슴곰",
+            "판다",
+            "말레이곰"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "알래스카 코디악불곰과 함께 가장 큰 곰이에요. 큰 수컷은 몸무게가 600kg을 넘기도 해요.",
+        "tip": "북극의 왕"
+      }
+    },
+    {
+      "id": "animal-m4014",
+      "difficulty": "easy",
+      "answer": "아프리카코끼리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "땅 위에 사는 동물 가운데 가장 무거운 동물은?",
+          "choices": [
+            "아프리카코끼리",
+            "하마",
+            "코뿔소",
+            "기린"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "큰 수컷은 6t이 넘어요. 아시아코끼리보다 귀가 크고 넓어요.",
+        "tip": "아프리카 = 큰 귀"
+      }
+    },
+    {
+      "id": "animal-m4015",
+      "difficulty": "easy",
+      "answer": "기린",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "땅 위에 사는 동물 가운데 키가 가장 큰 동물은?",
+          "choices": [
+            "기린",
+            "코끼리",
+            "타조",
+            "낙타"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "큰 수컷은 5m가 넘어요. 다리 길이만 사람 키보다 커요.",
+        "tip": "5m 키다리"
+      }
+    },
+    {
+      "id": "animal-m4016",
+      "difficulty": "hard",
+      "answer": "돛새치",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 빨리 헤엄치는 물고기로 꼽히는 것은?",
+          "choices": [
+            "돛새치",
+            "참치",
+            "연어",
+            "상어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "시속 100km 안팎으로 헤엄친다고 알려져 있어요. 등지느러미가 돛처럼 커요.",
+        "tip": "바다의 치타"
+      }
+    },
+    {
+      "id": "animal-m4017",
+      "difficulty": "hard",
+      "answer": "상자해파리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "독이 가장 강한 해파리로 꼽히며 '바다 말벌'로 불리는 것은?",
+          "choices": [
+            "상자해파리",
+            "보름달물해파리",
+            "노무라입깃해파리",
+            "작은부레관해파리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "오스트레일리아 바다에 살아요. 쏘이면 몇 분 만에 목숨을 잃을 수도 있어요.",
+        "tip": "네모난 해파리"
+      }
+    },
+    {
+      "id": "animal-m4018",
+      "difficulty": "normal",
+      "answer": "모기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "사람을 가장 많이 죽게 하는 동물로 꼽히는 것은?",
+          "choices": [
+            "모기",
+            "상어",
+            "뱀",
+            "악어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "말라리아, 뎅기열 등 병을 옮겨 해마다 수십만 명이 목숨을 잃어요.",
+        "tip": "작지만 가장 위험한"
+      }
+    },
+    {
+      "id": "animal-m4019",
+      "difficulty": "normal",
+      "answer": "수달",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "강과 하천에 살며 물고기를 잡아먹는, 천연기념물 제330호로 지정됐던 족제비과 동물은?",
+          "choices": [
+            "수달",
+            "해달",
+            "족제비",
+            "너구리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "물갈퀴가 있고 털이 촘촘해 물속 생활에 알맞아요. 바다에 사는 해달과는 다른 동물이에요.",
+        "tip": "강의 수달, 바다의 해달"
+      }
+    },
+    {
+      "id": "animal-m4020",
+      "difficulty": "normal",
+      "answer": "산양",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "설악산 등 험한 바위산에 살며 '살아 있는 화석'으로 불리는 천연기념물 동물은?",
+          "choices": [
+            "산양",
+            "고라니",
+            "노루",
+            "사향노루"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "200만 년 전 모습을 거의 그대로 지니고 있다고 해요. 가파른 절벽을 잘 타요.",
+        "tip": "절벽 위 염소"
+      }
+    },
+    {
+      "id": "animal-m4021",
+      "difficulty": "normal",
+      "answer": "하늘다람쥐",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "앞다리와 뒷다리 사이의 막을 펼쳐 나무 사이를 날 듯이 미끄러지는 천연기념물 동물은?",
+          "choices": [
+            "하늘다람쥐",
+            "날다람쥐",
+            "청설모",
+            "박쥐"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "밤에 활동하고 눈이 아주 커요.",
+        "tip": "나무 사이 활강"
+      }
+    },
+    {
+      "id": "animal-m4022",
+      "difficulty": "normal",
+      "answer": "저어새",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "주걱 모양의 부리로 물속을 휘저어 먹이를 찾는 멸종 위기의 새는?",
+          "choices": [
+            "저어새",
+            "황새",
+            "백로",
+            "두루미"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세계 개체 수의 상당수가 우리나라 서해안 무인도에서 번식해요.",
+        "tip": "주걱 부리로 휘휘"
+      }
+    },
+    {
+      "id": "animal-m4023",
+      "difficulty": "normal",
+      "answer": "따오기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한때 우리나라에서 사라졌다가 중국에서 들여와 경남 창녕 우포늪에서 복원 중인 새는?",
+          "choices": [
+            "따오기",
+            "황새",
+            "두루미",
+            "고니"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "동요 「따오기」로 친숙해요. 2019년부터 자연으로 돌려보내고 있어요.",
+        "tip": "\"보일 듯이 보일 듯이\""
+      }
+    },
+    {
+      "id": "animal-m4024",
+      "difficulty": "normal",
+      "answer": "두루미",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "천연기념물이자 장수를 상징하며, 머리 꼭대기가 붉은 우리나라 겨울 철새는?",
+          "choices": [
+            "두루미",
+            "백로",
+            "황새",
+            "왜가리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'단정학'이라고도 해요. 철원 평야와 비무장 지대 근처에서 겨울을 나요.",
+        "tip": "붉은 정수리(丹頂)"
+      }
+    },
+    {
+      "id": "animal-m4025",
+      "difficulty": "hard",
+      "answer": "점박이물범",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "서해 백령도 주변에 살며 겨울에는 중국 랴오둥만 얼음 위에서 새끼를 낳는 해양 포유류는?",
+          "choices": [
+            "점박이물범",
+            "바다사자",
+            "물개",
+            "듀공"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "몸에 점박이 무늬가 있어요. 천연기념물이자 멸종 위기 동물이에요.",
+        "tip": "백령도 물범"
+      }
+    },
+    {
+      "id": "animal-m4026",
+      "difficulty": "hard",
+      "answer": "상괭이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "우리나라 서해와 남해에 사는, 등지느러미가 없고 웃는 얼굴처럼 생긴 작은 돌고래는?",
+          "choices": [
+            "상괭이",
+            "남방큰돌고래",
+            "범고래",
+            "밍크고래"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "그물에 걸려 죽는 일이 많아 해양 보호 생물로 지정됐어요.",
+        "tip": "웃는 돌고래"
+      }
+    },
+    {
+      "id": "animal-m4027",
+      "difficulty": "hard",
+      "answer": "남방큰돌고래",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "제주 바다에 사는 돌고래로, 수족관에서 공연하다 바다로 돌아간 '제돌이'의 종은?",
+          "choices": [
+            "남방큰돌고래",
+            "상괭이",
+            "흰돌고래",
+            "참돌고래"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "2013년 제돌이를 시작으로 여러 마리가 고향 바다로 돌아갔어요. 드라마 「이상한 변호사 우영우」에도 나왔어요.",
+        "tip": "제주 바다의 돌고래"
+      }
+    },
+    {
+      "id": "animal-m4028",
+      "difficulty": "easy",
+      "answer": "까치",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'까치까치 설날'로 친숙하고 예로부터 반가운 소식을 알린다고 여긴 우리나라 대표 텃새는?",
+          "choices": [
+            "까치",
+            "까마귀",
+            "참새",
+            "비둘기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "1964년 국민 투표로 '나라 새'로 뽑히기도 했어요.",
+        "tip": "반가운 손님"
+      }
+    },
+    {
+      "id": "animal-m4029",
+      "difficulty": "easy",
+      "answer": "텃새",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "한곳에서 일 년 내내 사는 새를 부르는 말은?",
+          "choices": [
+            "텃새",
+            "철새",
+            "나그네새",
+            "겨울새"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "참새, 까치, 비둘기가 텃새예요. 계절 따라 옮겨 다니면 철새예요.",
+        "tip": "터(땅)를 지키는 새"
+      }
+    },
+    {
+      "id": "animal-m4030",
+      "difficulty": "easy",
+      "answer": "망아지",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "말의 새끼를 부르는 우리말은?",
+          "choices": [
+            "망아지",
+            "송아지",
+            "강아지",
+            "병아리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "소는 송아지, 개는 강아지, 닭은 병아리예요.",
+        "tip": "말 = 망아지"
+      }
+    },
+    {
+      "id": "animal-m4031",
+      "difficulty": "hard",
+      "answer": "개호주",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "호랑이의 새끼를 부르는 우리말은?",
+          "choices": [
+            "개호주",
+            "능소니",
+            "꺼병이",
+            "애저"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "곰의 새끼는 능소니, 꿩의 새끼는 꺼병이, 돼지 새끼는 애저라고도 해요.",
+        "tip": "범 새끼 = 개호주"
+      }
+    },
+    {
+      "id": "animal-m4032",
+      "difficulty": "hard",
+      "answer": "고도리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고등어의 새끼를 부르는 우리말은?",
+          "choices": [
+            "고도리",
+            "노가리",
+            "능소니",
+            "전어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "명태의 새끼는 노가리예요. 화투 놀이의 '고도리'는 새 다섯 마리라는 뜻에서 왔다는 이야기가 있어요.",
+        "tip": "고등어 새끼"
+      }
+    },
+    {
+      "id": "animal-m4033",
+      "difficulty": "normal",
+      "answer": "과메기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "명태를 말린 정도와 잡은 때에 따라 부르는 이름이 아닌 것은?",
+          "choices": [
+            "과메기",
+            "동태",
+            "황태",
+            "코다리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "얼린 것은 동태, 얼었다 녹았다 하며 말린 것은 황태, 반쯤 말린 것은 코다리, 새끼는 노가리예요. 과메기는 꽁치나 청어를 말린 거예요.",
+        "tip": "이름 많은 생선"
+      }
+    },
+    {
+      "id": "animal-m4034",
+      "difficulty": "hard",
+      "answer": "모쟁이",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "'숭어'의 새끼를 부르는 말은?",
+          "choices": [
+            "모쟁이",
+            "노가리",
+            "고도리",
+            "전어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "지역에 따라 동어, 모치라고도 불러요.",
+        "tip": "숭어 새끼"
+      }
+    },
+    {
+      "id": "animal-m4035",
+      "difficulty": "easy",
+      "answer": "명주실",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "누에가 만드는 고치에서 뽑아내는 실은?",
+          "choices": [
+            "명주실",
+            "무명실",
+            "삼베실",
+            "나일론"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "이 실로 짠 천이 비단(실크)이에요. 누에는 뽕잎을 먹고 자라요.",
+        "tip": "비단의 재료"
+      }
+    },
+    {
+      "id": "animal-m4036",
+      "difficulty": "normal",
+      "answer": "웰시코기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "다리가 짧고 엉덩이가 통통하며, 원래 영국에서 소 떼를 몰던 개 품종은?",
+          "choices": [
+            "웰시코기",
+            "닥스훈트",
+            "비글",
+            "시바견"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "영국 엘리자베스 2세 여왕이 평생 아낀 개로도 유명해요.",
+        "tip": "여왕의 개"
+      }
+    },
+    {
+      "id": "animal-m4037",
+      "difficulty": "normal",
+      "answer": "닥스훈트",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "원래 오소리 굴에 들어가 사냥하려고 몸이 길고 다리가 짧게 개량된 개 품종은?",
+          "choices": [
+            "닥스훈트",
+            "웰시코기",
+            "푸들",
+            "치와와"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "독일어로 '오소리(닥스) 사냥개(훈트)'라는 뜻이에요. '소시지 개'라는 별명이 있어요.",
+        "tip": "소시지 개"
+      }
+    },
+    {
+      "id": "animal-m4038",
+      "difficulty": "easy",
+      "answer": "치와와",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "세계에서 가장 작은 개 품종으로 꼽히는 것은?",
+          "choices": [
+            "치와와",
+            "포메라니안",
+            "요크셔테리어",
+            "말티즈"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "멕시코 치와와주의 이름을 땄어요.",
+        "tip": "멕시코 출신 꼬마"
+      }
+    },
+    {
+      "id": "animal-m4039",
+      "difficulty": "normal",
+      "answer": "래브라도 리트리버",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "시각 장애인 안내견으로 가장 많이 활동하는 품종으로 꼽히는 것은?",
+          "choices": [
+            "래브라도 리트리버",
+            "진돗개",
+            "시베리안 허스키",
+            "불도그"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "성격이 온순하고 사람을 잘 따르며 집중력이 좋아요. 골든 리트리버도 많이 활동해요.",
+        "tip": "온순한 리트리버"
+      }
+    },
+    {
+      "id": "animal-m4040",
+      "difficulty": "easy",
+      "answer": "쓰다듬거나 먹이를 주지 않는다",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "안내견을 만났을 때 지켜야 할 예절로 알맞은 것은?",
+          "choices": [
+            "쓰다듬거나 먹이를 주지 않는다",
+            "반갑게 이름을 부른다",
+            "간식을 준다",
+            "사진을 찍으려 부른다"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "안내견은 일하는 중이라 집중을 흐트러뜨리면 안 돼요. 법으로 식당과 대중교통 출입도 보장돼요.",
+        "tip": "일하는 중이에요"
+      }
+    },
+    {
+      "id": "animal-m4041",
+      "difficulty": "normal",
+      "answer": "시베리안 허스키",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "썰매를 끌던 개로, 파란 눈과 늑대 같은 생김새를 가진 품종은?",
+          "choices": [
+            "시베리안 허스키",
+            "알래스칸 말라뮤트",
+            "사모예드",
+            "진돗개"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "추위에 강하고 체력이 좋아요. 말라뮤트는 허스키보다 크고 힘이 세요.",
+        "tip": "파란 눈 썰매개"
+      }
+    },
+    {
+      "id": "animal-m4042",
+      "difficulty": "normal",
+      "answer": "익힌 닭 가슴살",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "개에게 주면 위험한 음식이 아닌 것은?",
+          "choices": [
+            "익힌 닭 가슴살",
+            "초콜릿",
+            "포도",
+            "양파"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "초콜릿의 테오브로민, 포도와 건포도, 양파와 마늘은 개에게 중독을 일으킬 수 있어요.",
+        "tip": "초콜릿·포도·양파 금지"
+      }
+    },
+    {
+      "id": "animal-m4043",
+      "difficulty": "normal",
+      "answer": "개박하",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고양이가 좋아해 취한 듯 뒹구는 반응을 보이는 식물은?",
+          "choices": [
+            "개박하",
+            "라벤더",
+            "로즈마리",
+            "민트 초콜릿"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "'캣닢'이라고도 해요. 모든 고양이가 반응하는 건 아니에요.",
+        "tip": "캣닢"
+      }
+    },
+    {
+      "id": "animal-m4044",
+      "difficulty": "normal",
+      "answer": "수염고래",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "고래 가운데 이빨 대신 빗 모양의 '수염'으로 작은 먹이를 걸러 먹는 무리는?",
+          "choices": [
+            "수염고래",
+            "이빨고래",
+            "돌고래",
+            "향유고래"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "대왕고래, 혹등고래가 수염고래예요. 향유고래와 돌고래는 이빨고래예요.",
+        "tip": "빗처럼 거르는 수염"
+      }
+    },
+    {
+      "id": "animal-m4045",
+      "difficulty": "normal",
+      "answer": "숨을 내쉴 때 나오는 공기와 수증기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "혹등고래가 이동하면서 내뿜는 물줄기의 정체는?",
+          "choices": [
+            "숨을 내쉴 때 나오는 공기와 수증기",
+            "입에 머금은 바닷물을 뿜는 것",
+            "먹고 남은 먹이를 토해 내는 것",
+            "몸속 남은 물을 오줌처럼 버리는 것"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "정수리에 있는 숨구멍(분기공)으로 숨을 내쉬면 따뜻한 공기가 차가운 공기와 만나 물안개처럼 보여요.",
+        "tip": "고래의 날숨"
+      }
+    },
+    {
+      "id": "animal-m4046",
+      "difficulty": "easy",
+      "answer": "백상아리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "상어 가운데 영화 「죠스」의 모델이 된 것은?",
+          "choices": [
+            "백상아리",
+            "고래상어",
+            "귀상어",
+            "돌묵상어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "가장 큰 육식성 물고기 가운데 하나예요. 실제로 사람을 일부러 사냥하는 일은 드물어요.",
+        "tip": "「죠스」"
+      }
+    },
+    {
+      "id": "animal-m4047",
+      "difficulty": "normal",
+      "answer": "귀상어",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "머리 양쪽이 망치처럼 튀어나온 상어는?",
+          "choices": [
+            "귀상어",
+            "백상아리",
+            "청상아리",
+            "뱀상어"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "눈이 양 끝에 있어 넓게 볼 수 있어요. 영어로는 '해머헤드 샤크'예요.",
+        "tip": "망치 머리"
+      }
+    },
+    {
+      "id": "animal-m4048",
+      "difficulty": "hard",
+      "answer": "초롱아귀",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "몸 안에 세균이 살아 스스로 빛을 내는 심해 물고기로, 머리에 낚싯대 같은 돌기가 있는 것은?",
+          "choices": [
+            "초롱아귀",
+            "개복치",
+            "돗돔",
+            "쥐치"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "빛나는 미끼로 먹이를 유인해요. 아주 작은 수컷이 암컷 몸에 붙어 사는 특이한 생태로도 유명해요.",
+        "tip": "심해의 등불"
+      }
+    },
+    {
+      "id": "animal-m4049",
+      "difficulty": "hard",
+      "answer": "개복치",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "몸이 납작하고 크며, 한 번에 수억 개의 알을 낳는 것으로 유명한 물고기는?",
+          "choices": [
+            "개복치",
+            "광어",
+            "가오리",
+            "아귀"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "세계에서 가장 무거운 경골어류로 꼽혀요. 수억 개의 알을 낳지만 대부분 살아남지 못해요.",
+        "tip": "알 부자 물고기"
+      }
+    },
+    {
+      "id": "animal-m4050",
+      "difficulty": "normal",
+      "answer": "눈이 왼쪽에 몰리면 광어, 오른쪽이면 도다리",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "광어와 도다리를 구별하는 흔한 말로, '좌광우도'가 뜻하는 것은?",
+          "choices": [
+            "눈이 왼쪽에 몰리면 광어, 오른쪽이면 도다리",
+            "서해에서 잡으면 광어, 남해에서 잡으면 도다리",
+            "입이 왼쪽에 있으면 도다리, 오른쪽이면 광어",
+            "지느러미가 크면 광어, 작으면 도다리"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "배를 아래로 두고 볼 때 기준이에요. 어릴 땐 눈이 양쪽에 있다가 자라며 한쪽으로 옮겨 가요.",
+        "tip": "좌광우도"
+      }
+    },
+    {
+      "id": "animal-m4051",
+      "difficulty": "hard",
+      "answer": "청소놀래기",
+      "questions": [
+        {
+          "mode": "mcq",
+          "prompt": "산호초에서 다른 물고기 몸의 기생충을 청소해 주는 작은 물고기는?",
+          "choices": [
+            "청소놀래기",
+            "흰동가리",
+            "복어",
+            "나비고기"
+          ]
+        }
+      ],
+      "explanation": {
+        "meaning": "큰 물고기들이 입을 벌리고 기다리면 입속까지 들어가 청소해요. 서로 돕는 공생 관계예요.",
+        "tip": "바다의 세차장"
+      }
+    }
+  ]
+}
