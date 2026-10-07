@@ -30,3 +30,8 @@ keystore.properties
 
 # Local Claude Code settings
 .claude/
+
+# Secrets and generated story audio (audio is published separately)
+.env
+.env.*
+.stories/

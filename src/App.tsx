@@ -1,17 +1,22 @@
 import { useEffect, useState } from 'react'
 import { loadBank, type QuestionBank } from './data'
 import type { GameResult } from './game'
+import { TabBar } from './components/TabBar'
 import { applyTheme } from './native'
+import { usePlayer } from './player'
 import { CategorySelect } from './screens/CategorySelect'
 import { Credits } from './screens/Credits'
 import { Home } from './screens/Home'
+import { Plus } from './screens/Plus'
 import { Quiz } from './screens/Quiz'
 import { Result } from './screens/Result'
 import { SettingsScreen } from './screens/Settings'
 import { SoundPicker } from './screens/SoundPicker'
+import { StoryPlayer } from './screens/StoryPlayer'
 import { StatsScreen } from './screens/Stats'
 import { WrongNote } from './screens/WrongNote'
 import { buildSession, type AnswerRecord, type SessionConfig, type SessionItem } from './session'
+import { loadStories, type Story } from './stories'
 import { getState, loadStore, useStore } from './store'
 import type { QuizMode } from './types'
 
@@ -25,18 +30,26 @@ type Screen =
   | { name: 'settings' }
   | { name: 'credits' }
   | { name: 'sounds' }
+  | { name: 'plus' }
+  | { name: 'story'; story: Story }
 
 export default function App() {
   const [bank, setBank] = useState<QuestionBank | null>(null)
   const [loadError, setLoadError] = useState<string | null>(null)
   const [screen, setScreen] = useState<Screen>({ name: 'home' })
   const { settings } = useStore()
+  const { story: playing } = usePlayer()
+  const [stories, setStories] = useState<Story[]>([])
 
   useEffect(() => {
     Promise.all([loadBank(), loadStore()]).then(([b]) => setBank(b), (e: unknown) => setLoadError(String(e)))
   }, [])
 
   useEffect(() => applyTheme(settings.theme), [settings.theme])
+
+  useEffect(() => {
+    void loadStories().then(setStories, () => {})
+  }, [])
 
   if (loadError) {
     return <Centered>문제를 불러오지 못했어요.<br />{loadError}</Centered>
@@ -52,17 +65,48 @@ export default function App() {
   // Sessions started from the 오답노트 return there, everything else returns home.
   const back = (config: SessionConfig) => (config.source === 'note' ? setScreen({ name: 'note' }) : home())
 
+  const openStory = (story: Story) => setScreen({ name: 'story', story })
+  const tabs = (tab: 'quiz' | 'plus') => (
+    <TabBar
+      tab={tab}
+      onTab={(t) => setScreen(t === 'quiz' ? { name: 'home' } : { name: 'plus' })}
+      onOpenStory={() => playing && openStory(playing)}
+    />
+  )
+
   switch (screen.name) {
     case 'home':
       return (
-        <Home
-          bank={bank}
-          onStart={(mode) => setScreen({ name: 'categories', mode })}
-          onNote={() => setScreen({ name: 'note' })}
-          onStats={() => setScreen({ name: 'stats' })}
-          onSettings={() => setScreen({ name: 'settings' })}
+        <>
+          <Home
+            bank={bank}
+            onStart={(mode) => setScreen({ name: 'categories', mode })}
+            onNote={() => setScreen({ name: 'note' })}
+            onStats={() => setScreen({ name: 'stats' })}
+            onSettings={() => setScreen({ name: 'settings' })}
+          />
+          {tabs('quiz')}
+        </>
+      )
+    case 'plus':
+      return (
+        <>
+          <Plus onOpen={openStory} onBack={home} />
+          {tabs('plus')}
+        </>
+      )
+    case 'story': {
+      const i = stories.findIndex((s) => s.id === screen.story.id)
+      return (
+        <StoryPlayer
+          key={screen.story.id}
+          story={screen.story}
+          next={i >= 0 ? stories[i + 1] : undefined}
+          onBack={() => setScreen({ name: 'plus' })}
+          onNext={openStory}
         />
       )
+    }
     case 'categories':
       return <CategorySelect bank={bank} mode={screen.mode} onBack={home} onStart={startQuiz} />
     case 'quiz':

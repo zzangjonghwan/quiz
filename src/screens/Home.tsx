@@ -39,7 +39,7 @@ export function Home({
         </button>
       </header>
 
-      <main className="flex flex-1 flex-col gap-4 px-5 pt-8 pb-6">
+      <main className="flex flex-1 flex-col gap-4 px-5 pt-8 pb-36">
         <section className="flex flex-col gap-4 rounded-2xl bg-surface p-5">
           <div className="grid grid-cols-3 gap-3">
             <Stat label="푼 문제" value={seen.toLocaleString()} />

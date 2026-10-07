@@ -47,10 +47,17 @@ export interface Settings {
   soundVersion: number
 }
 
+/** Where the listener left off in a 상식플러스 story. */
+export interface Listening {
+  position: number
+  done: boolean
+}
+
 export interface StoreState {
   progress: Record<string, CardProgress>
   stats: Stats
   settings: Settings
+  listening: Record<string, Listening>
 }
 
 const STORAGE_KEY = 'store-v1'
@@ -71,7 +78,7 @@ const DEFAULT_SETTINGS: Settings = {
   soundVersion: 2,
 }
 
-let state: StoreState = { progress: {}, stats: EMPTY_STATS, settings: DEFAULT_SETTINGS }
+let state: StoreState = { progress: {}, stats: EMPTY_STATS, settings: DEFAULT_SETTINGS, listening: {} }
 const listeners = new Set<() => void>()
 let saveTimer: ReturnType<typeof setTimeout> | undefined
 
@@ -84,6 +91,7 @@ export async function loadStore() {
         progress: saved.progress ?? {},
         stats: { ...EMPTY_STATS, ...saved.stats },
         settings: { ...DEFAULT_SETTINGS, ...saved.settings },
+        listening: saved.listening ?? {},
       }
       if (state.settings.soundVersion !== DEFAULT_SETTINGS.soundVersion) {
         state.settings = { ...state.settings, soundPicks: {}, soundVersion: DEFAULT_SETTINGS.soundVersion }
@@ -206,6 +214,12 @@ export function recordGame(score: number, maxCombo: number) {
     stats: { ...s, bestScore: Math.max(s.bestScore, score), bestCombo: Math.max(s.bestCombo, maxCombo) },
   })
   return newBest
+}
+
+export function saveListening(id: string, listening: Listening) {
+  const prev = state.listening[id]
+  if (prev && prev.done === listening.done && Math.abs(prev.position - listening.position) < 1) return
+  commit({ ...state, listening: { ...state.listening, [id]: listening } })
 }
 
 export function resetProgress() {
