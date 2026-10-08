@@ -1,17 +1,20 @@
-// Builds 상식플러스 audio stories: voices each paragraph of content/stories/*.mjs with Gemini TTS
-// in the app's voices (moa, the default, and arin), joins them into one MP3 per story and voice,
-// and writes public/data/stories.json with the text, paragraph timings and audio file names.
+// Builds 상식플러스 audio stories: voices each paragraph of content/stories/*.mjs with Gemini TTS or
+// Fish S2 (on this PC) in the app's voices (moa, the default, arin and doyoung), joins them into one MP3 per
+// story and voice, and writes public/data/stories.json with the text, paragraph timings and audio file names.
 //
 //   node scripts/stories.mjs                      build everything missing or changed
 //   node scripts/stories.mjs <id> ...             only these stories
 //   node scripts/stories.mjs --voice=moa          only these voices
 //   node scripts/stories.mjs <id> --force         voice again even if the text is unchanged
-//   node scripts/stories.mjs --samples            the short preview clips in public/voices
+//   node scripts/stories.mjs --dry                which takes are missing, without voicing them
+//   node scripts/stories.mjs --samples            the short preview clips in public/voices (--voice= works too)
 //
-// The API key is read from GEMINI_API_KEY, .env.local, or ../agent/.env and never written anywhere.
+// API keys (GEMINI_API_KEY, FISH_AUDIO_API_KEY) are read from the environment, .env.local, or
+// ../agent/.env and never written anywhere.
 // Audio goes to .stories/audio (git-ignored) and is published to the `stories` branch, so the
 // app downloads it on first play instead of carrying it inside the APK.
 import { Mp3Encoder } from '@breezystack/lamejs'
+import { spawnSync } from 'node:child_process'
 import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -21,36 +24,84 @@ const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const OUT = join(ROOT, '.stories')
 const AUDIO = join(OUT, 'audio')
 /**
- * The app's voices (설정 > 목소리) and the Gemini voice and model behind each. New takes use `model`;
+ * The app's voices (설정 > 목소리) and the engine, voice and model behind each. New takes use `model`;
  * stories already voiced on an older model (`kept`) stay as they are instead of being redone.
  */
 const VOICES = {
   arin: { name: 'Aoede', model: 'gemini-3.8-flash-tts', kept: [] },
-  moa: { name: 'Leda', model: 'gemini-3.8-flash-tts', kept: ['gemini-3.8-flash-lite-tts'] },
+  // New takes come from Fish S2 Pro cloning a 25s Gemini Leda clip; the Gemini takes stay.
+  moa: { ...localFish('moa'), kept: ['gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts'], keptName: 'Leda' },
+  doyoung: { ...localFish('doyoung'), kept: [] },
+}
+
+/**
+ * Fish S2 Pro on this PC (C:\tts\fish-speech, see PLAN.md). `name` is the folder under its
+ * references/ holding the voice sample; `style` names the script() rules and is part of the file
+ * name, so changing the rules means bumping it.
+ */
+function localFish(name) {
+  return {
+    provider: 'fish',
+    url: 'http://127.0.0.1:8880',
+    name,
+    model: 's2-pro',
+    style: 'lively-2',
+    script: lively,
+    sampling: { temperature: 0.9, top_p: 0.9, chunk_length: 300 },
+    rate: 44100,
+    kbps: 128,
+    parallel: 1,
+    // Paragraphs are voiced apart, so the break between them is all added silence.
+    gap: 0.8,
+  }
+}
+
+/**
+ * Stage directions for Fish S2, which reads [bracketed] cues as how to say the next words: a lively
+ * tone for each paragraph, a breath after long sentences, extra feeling on the hook lines that pull
+ * the story along, and stress on intensifiers. Short tag-on lines like "참 재밌죠!" sounded forced
+ * and are left out of the take (the app still shows them).
+ */
+function lively(paragraph) {
+  const filler = /^(참|꽤|많이|정말)?\s*(재밌|놀랍|의외)죠[!?.]$/
+  // A sentence can end inside quotes: …손전등이야.’ 재밌죠!
+  const sentences = paragraph.split(/(?<=[.?!][’”'"]?)\s+/).filter((s) => !filler.test(s))
+  const lines = sentences.map((s, i) => {
+    // A beat between sentences; after a long one, a breath instead.
+    let cue = !i ? '' : sentences[i - 1].length >= 30 ? '[inhale] ' : '[short pause] '
+    if (/^여기서 반전/.test(s)) cue = '[inhale] [깜짝 놀란 듯 신나게] '
+    else if (s.endsWith('?')) cue += '[궁금증을 자극하듯 끝을 올려서] '
+    else if (s.endsWith('!')) cue += '[생기 있게 힘주어] '
+    return cue + s.replace(/(^|\s)(아주|정말|진짜|엄청|무척|굉장히|훨씬|완전히)(?=\s)/g, '$1[emphasis] $2')
+  })
+  return `[생기 있고 높낮이가 큰 이야기 말투] ${lines.join(' ')}`
 }
 /** Listens to a finished take and reports where each paragraph starts (see align()). */
 const ALIGN_MODEL = 'gemini-3.6-flash'
+/** Sample rate of the Gemini voices; a voice with its own `rate` (and `kbps`) is kept at that quality. */
 const RATE = 24000
+const rateOf = (voice) => VOICES[voice].rate ?? RATE
 /** Stories voiced at the same time per voice (each voice also runs in parallel). */
 const PARALLEL = 2
 /** Extra silence added at each paragraph break, on top of the reader's own pause, in seconds. */
 const GAP = 0.35
 
-function apiKey() {
-  if (process.env.GEMINI_API_KEY) return process.env.GEMINI_API_KEY
+function apiKey(name) {
+  if (process.env[name]) return process.env[name]
   for (const file of [join(ROOT, '.env.local'), join(ROOT, '..', 'agent', '.env')]) {
     if (!existsSync(file)) continue
-    const m = readFileSync(file, 'utf8').match(/^GEMINI_API_KEY\s*=\s*"?([^"\r\n]+)"?/m)
+    const m = readFileSync(file, 'utf8').match(new RegExp(`^${name}\\s*=\\s*"?([^"\\r\\n]+)"?`, 'm'))
     if (m) return m[1]
   }
-  throw new Error('GEMINI_API_KEY를 찾지 못했어요')
+  throw new Error(`${name}를 찾지 못했어요`)
 }
 
-const KEY = apiKey()
+const KEY = apiKey('GEMINI_API_KEY')
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
 /** Returns 16-bit mono PCM samples for the text. */
 async function speak(text, voice) {
+  if (VOICES[voice].provider === 'fish') return speakFish(text, voice)
   const { name, model } = VOICES[voice]
   let lastError = ''
   for (let attempt = 0; attempt < 6; attempt++) {
@@ -84,10 +135,57 @@ async function speak(text, voice) {
 }
 
 /**
+ * Fish Audio TTS. Without `url` it is the cloud API, billed per character from the API credit at
+ * fish.audio/app/developers (separate from the website's own credit), answering with raw PCM.
+ * With `url` it is a fish-speech server on this PC (same /v1/tts, free), answering with a WAV at
+ * the model's own rate, which ffmpeg converts to the voice's rate.
+ */
+async function speakFish(text, voice) {
+  const { name, model, url, sampling } = VOICES[voice]
+  let lastError = ''
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const res = await fetch(`${url ?? 'https://api.fish.audio'}/v1/tts`, {
+      method: 'POST',
+      headers: url
+        ? { 'content-type': 'application/json' }
+        : { authorization: `Bearer ${apiKey('FISH_AUDIO_API_KEY')}`, 'content-type': 'application/json', model },
+      body: JSON.stringify(
+        url
+          ? { text, reference_id: name, format: 'wav', language: 'ko', ...sampling }
+          : { text, reference_id: name, format: 'pcm', sample_rate: RATE },
+      ),
+      // A whole story on a home GPU takes several minutes.
+      signal: AbortSignal.timeout(url ? 3_600_000 : 300_000),
+    }).catch((e) => ({ ok: false, status: 0, text: async () => String(e) }))
+    if (res.ok) {
+      const buf = Buffer.from(await res.arrayBuffer())
+      return url ? decode(resample(buf, rateOf(voice)), `rate=${rateOf(voice)}`, rateOf(voice)) : decode(buf, `rate=${RATE}`)
+    }
+    const body = await res.text()
+    // Out of API credit: retrying won't help until it is topped up.
+    if (res.status === 402) throw Object.assign(new Error(`${model}: Fish Audio API 크레딧이 부족해요`), { daily: true })
+    lastError = `${model}: HTTP ${res.status} ${body.slice(0, 200)}`
+    await sleep(5000 * (attempt + 1))
+  }
+  throw new Error(lastError)
+}
+
+/** Any audio file → raw 16-bit mono PCM at `rate` (ffmpeg on PATH, or the FFMPEG env var). */
+function resample(buf, rate) {
+  const r = spawnSync(
+    process.env.FFMPEG ?? 'ffmpeg',
+    ['-loglevel', 'error', '-i', 'pipe:0', '-af', 'aresample=resampler=soxr', '-ac', '1', '-ar', String(rate), '-f', 's16le', 'pipe:1'],
+    { input: buf, maxBuffer: 1 << 30 },
+  )
+  if (r.status !== 0) throw new Error(`ffmpeg: ${r.error?.message ?? r.stderr}`)
+  return r.stdout
+}
+
+/**
  * The API answers with either raw 16-bit PCM or a whole WAV file. Treating a WAV header as samples
  * put a loud click at the start of every paragraph, so WAVs are parsed down to their data chunk.
  */
-function decode(buf, mime) {
+function decode(buf, mime, expected = RATE) {
   let rate = Number(/rate=(\d+)/.exec(mime)?.[1] ?? RATE)
   let data = buf
   if (buf.toString('ascii', 0, 4) === 'RIFF') {
@@ -108,15 +206,15 @@ function decode(buf, mime) {
     }
     if (!data) throw new Error('WAV에 data 청크가 없어요')
   }
-  if (rate !== RATE) throw new Error(`예상과 다른 샘플레이트 ${rate}`)
+  if (rate !== expected) throw new Error(`예상과 다른 샘플레이트 ${rate}`)
   const copy = Buffer.from(data.subarray(0, data.length - (data.length % 2)))
   return new Int16Array(copy.buffer, copy.byteOffset, copy.length / 2)
 }
 
 /** Lowers the level a little (the voice peaks at full scale) and fades the edges to avoid clicks. */
-function polish(pcm) {
+function polish(pcm, rate) {
   const out = new Int16Array(pcm.length)
-  const fade = Math.max(1, Math.min(Math.round(RATE * 0.012), Math.floor(pcm.length / 2)))
+  const fade = Math.max(1, Math.min(Math.round(rate * 0.012), Math.floor(pcm.length / 2)))
   for (let i = 0; i < pcm.length; i++) {
     const edge = Math.min(1, i / fade, (pcm.length - 1 - i) / fade)
     out[i] = Math.round(pcm[i] * 0.88 * edge)
@@ -124,8 +222,8 @@ function polish(pcm) {
   return out
 }
 
-function toMp3(pcm) {
-  const enc = new Mp3Encoder(1, RATE, 64)
+function toMp3(pcm, rate, kbps = 64) {
+  const enc = new Mp3Encoder(1, rate, kbps)
   const chunks = []
   for (let i = 0; i < pcm.length; i += 1152) {
     const buf = enc.encodeBuffer(pcm.subarray(i, i + 1152))
@@ -136,13 +234,13 @@ function toMp3(pcm) {
 }
 
 /** Trims leading/trailing near-silence so paragraph gaps stay even. */
-function trim(pcm) {
+function trim(pcm, rate) {
   const limit = 300
   let a = 0
   let b = pcm.length
   while (a < b && Math.abs(pcm[a]) < limit) a++
   while (b > a && Math.abs(pcm[b - 1]) < limit) b--
-  return pcm.subarray(Math.max(0, a - RATE * 0.05), Math.min(pcm.length, b + RATE * 0.1))
+  return pcm.subarray(Math.max(0, a - rate * 0.05), Math.min(pcm.length, b + rate * 0.1))
 }
 
 async function loadStories() {
@@ -157,7 +255,11 @@ async function loadStories() {
 
 /** File name for a story in one voice. arin keeps the original naming so existing audio is reused. */
 function fileFor(story, voice, model = VOICES[voice].model) {
-  const seed = voice === 'arin' ? VOICES.arin.name : `${voice}:${VOICES[voice].name}:${model}`
+  // Kept takes were made on another engine, under that engine's voice name and without a style.
+  const current = model === VOICES[voice].model
+  const name = current ? VOICES[voice].name : (VOICES[voice].keptName ?? VOICES[voice].name)
+  const style = current && VOICES[voice].style ? `:${VOICES[voice].style}` : ''
+  const seed = voice === 'arin' ? name : `${voice}:${name}:${model}${style}`
   const hash = createHash('sha1').update(seed + 'v2' + JSON.stringify(story.paragraphs)).digest('hex').slice(0, 12)
   return voice === 'arin' ? `${story.id}-${hash}.mp3` : `${story.id}-${voice}-${hash}.mp3`
 }
@@ -175,18 +277,29 @@ async function build(story, voice, cache, force) {
   const cached = cache[story.id]
   if (!force && isCurrent(story, voice, cached) && existsSync(join(AUDIO, cached.file))) return cached
 
-  const take = trim(await speak(story.paragraphs.join('\n\n'), voice))
-  const cuts = [0, ...(await align(story, take)), take.length]
+  const { script = String, url, gap: pause = GAP } = VOICES[voice]
+  const rate = rateOf(voice)
+  let pieces
+  if (url) {
+    // The home server is free and unlimited but can't hold a whole story in one context (and
+    // fetch gives up on a response after 5 minutes), so it reads one paragraph at a time.
+    pieces = []
+    for (const p of story.paragraphs) pieces.push(trim(await speak(script(p), voice), rate))
+  } else {
+    const take = trim(await speak(story.paragraphs.map(script).join('\n\n'), voice), rate)
+    const cuts = [0, ...(await align(story, take, rate)), take.length]
+    pieces = cuts.slice(0, -1).map((at, i) => take.subarray(at, cuts[i + 1]))
+  }
   const parts = []
   const starts = []
   let samples = 0
-  for (let i = 0; i + 1 < cuts.length; i++) {
-    const pcm = polish(take.subarray(cuts[i], cuts[i + 1]))
-    starts.push(+(samples / RATE).toFixed(2))
+  for (let i = 0; i < pieces.length; i++) {
+    const pcm = polish(pieces[i], rate)
+    starts.push(+(samples / rate).toFixed(2))
     parts.push(pcm)
     samples += pcm.length
-    if (i + 2 < cuts.length) {
-      const gap = new Int16Array(Math.round(RATE * GAP))
+    if (i + 1 < pieces.length) {
+      const gap = new Int16Array(Math.round(rate * pause))
       parts.push(gap)
       samples += gap.length
     }
@@ -197,13 +310,13 @@ async function build(story, voice, cache, force) {
     all.set(p, o)
     o += p.length
   }
-  writeFileSync(join(AUDIO, file), toMp3(all))
-  const entry = { file, duration: Math.round(samples / RATE), starts }
+  writeFileSync(join(AUDIO, file), toMp3(all, rate, VOICES[voice].kbps))
+  const entry = { file, duration: Math.round(samples / rate), starts }
   console.log(`  ${voice} ${story.id}: ${entry.duration}초`)
   return entry
 }
 
-function toWav(pcm) {
+function toWav(pcm, rate) {
   const head = Buffer.alloc(44)
   head.write('RIFF', 0, 'ascii')
   head.writeUInt32LE(36 + pcm.length * 2, 4)
@@ -211,8 +324,8 @@ function toWav(pcm) {
   head.writeUInt32LE(16, 16)
   head.writeUInt16LE(1, 20)
   head.writeUInt16LE(1, 22)
-  head.writeUInt32LE(RATE, 24)
-  head.writeUInt32LE(RATE * 2, 28)
+  head.writeUInt32LE(rate, 24)
+  head.writeUInt32LE(rate * 2, 28)
   head.writeUInt16LE(2, 32)
   head.writeUInt16LE(16, 34)
   head.write('data', 36, 'ascii')
@@ -221,8 +334,8 @@ function toWav(pcm) {
 }
 
 /** Quiet stretches of at least 0.2s, as {start, end} in seconds (20ms windows). */
-function pauses(pcm) {
-  const w = RATE / 50
+function pauses(pcm, rate) {
+  const w = Math.round(rate / 50)
   const out = []
   let from = -1
   for (let i = 0; i + w <= pcm.length; i += w) {
@@ -231,7 +344,7 @@ function pauses(pcm) {
     if (peak < 300) {
       if (from < 0) from = i
     } else if (from >= 0) {
-      if (i - from >= RATE * 0.2) out.push({ start: from / RATE, end: i / RATE })
+      if (i - from >= rate * 0.2) out.push({ start: from / rate, end: i / rate })
       from = -1
     }
   }
@@ -243,15 +356,17 @@ function pauses(pcm) {
  * reports approximate start times (falling back to a character-count estimate); each is then
  * snapped to the pause the reader took just before it, so cuts never land mid-word.
  */
-async function align(story, pcm) {
-  const total = pcm.length / RATE
+async function align(story, pcm, rate) {
+  const total = pcm.length / rate
   const n = story.paragraphs.length
   let guess = null
   let why = ''
   const prompt =
     `이 오디오는 아래 원고 ${n}개 문단을 순서대로 읽은 거야. 각 문단의 첫 단어가 들리기 시작하는 시각을 초 단위(소수점 한 자리)로 알려 줘. JSON만: {"starts":[...]}\n\n` +
     story.paragraphs.map((p, i) => `[${i + 1}] ${p}`).join('\n')
-  const audio = toWav(pcm).toString('base64')
+  // The listener only needs speech, so high-rate takes go at RATE (which also keeps the request small).
+  const wav = toWav(pcm, rate)
+  const audio = (rate === RATE ? wav : toWav(decode(resample(wav, RATE)), RATE)).toString('base64')
   for (let attempt = 0; attempt < 4 && !guess; attempt++) {
     if (attempt) await sleep(5000 * attempt)
     const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${ALIGN_MODEL}:generateContent`, {
@@ -282,7 +397,7 @@ async function align(story, pcm) {
     let acc = 0
     guess = lens.map((l) => (((acc += l) - l) / sum) * total)
   }
-  const quiet = pauses(pcm)
+  const quiet = pauses(pcm, rate)
   return guess.slice(1).map((t) => {
     let best = null
     let bestScore = Infinity
@@ -296,7 +411,7 @@ async function align(story, pcm) {
     }
     // Cut just before the next word, keeping a breath of the pause on the new paragraph.
     const at = best ? Math.max(best.start, best.end - 0.12) : t
-    return Math.round(at * RATE)
+    return Math.round(at * rate)
   })
 }
 
@@ -327,26 +442,36 @@ mkdirSync(AUDIO, { recursive: true })
 const args = process.argv.slice(2)
 const flag = (name) => args.find((a) => a.startsWith(`--${name}`))
 
+const voices = flag('voice=')?.split('=')[1].split(',') ?? Object.keys(VOICES)
+for (const v of voices) if (!VOICES[v]) throw new Error(`모르는 목소리: ${v}`)
+
 // Settings preview: one short clip per voice, shipped with the app in public/voices.
 if (flag('samples')) {
   const text = '안녕하세요, 상식플러스예요. 오늘도 3분 동안 재밌는 이야기 하나 들려드릴게요.'
   mkdirSync(join(ROOT, 'public', 'voices'), { recursive: true })
   await Promise.all(
-    Object.keys(VOICES).map(async (v) => {
-      const pcm = polish(trim(await speak(text, v)))
-      writeFileSync(join(ROOT, 'public', 'voices', `${v}.mp3`), toMp3(pcm))
-      console.log(`  ${v}: ${(pcm.length / RATE).toFixed(1)}초`)
+    voices.map(async (v) => {
+      const pcm = polish(trim(await speak((VOICES[v].script ?? String)(text), v), rateOf(v)), rateOf(v))
+      writeFileSync(join(ROOT, 'public', 'voices', `${v}.mp3`), toMp3(pcm, rateOf(v), VOICES[v].kbps))
+      console.log(`  ${v}: ${(pcm.length / rateOf(v)).toFixed(1)}초`)
     }),
   )
   process.exit(0)
 }
 
-const voices = flag('voice=')?.split('=')[1].split(',') ?? Object.keys(VOICES)
-for (const v of voices) if (!VOICES[v]) throw new Error(`모르는 목소리: ${v}`)
 const force = !!flag('force')
 const ids = args.filter((a) => !a.startsWith('--'))
 const stories = await loadStories()
 const todo = stories.filter((s) => !ids.length || ids.includes(s.id))
+
+if (flag('dry')) {
+  for (const voice of voices) {
+    const cache = readCache(voice)
+    const missing = todo.filter((s) => force || !isCurrent(s, voice, cache[s.id]) || !existsSync(join(AUDIO, cache[s.id].file)))
+    console.log(`${voice}: ${missing.length}편 ${missing.map((s) => s.id).join(' ')}`)
+  }
+  process.exit(0)
+}
 
 let failed = 0
 await Promise.all(
@@ -367,7 +492,7 @@ await Promise.all(
         }
       }
     }
-    await Promise.all(Array.from({ length: PARALLEL }, worker))
+    await Promise.all(Array.from({ length: VOICES[voice].parallel ?? PARALLEL }, worker))
   }),
 )
 writeList(stories)

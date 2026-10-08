@@ -6,12 +6,13 @@ import { BookOpen, Brain, Landmark, Palette, ScrollText, Sparkles, type LucideIc
 
 export type StoryCategory = 'samguk' | 'myth' | 'tarot' | 'art' | 'history' | 'wisdom'
 
-export type VoiceId = 'moa' | 'arin'
+export type VoiceId = 'moa' | 'arin' | 'doyoung'
 
-/** The narrators to pick from in 설정 (Gemini voices; previews ship in public/voices). */
+/** The narrators to pick from in 설정 (Gemini and Fish Audio voices; previews ship in public/voices). */
 export const VOICES: { id: VoiceId; name: string; desc: string }[] = [
   { id: 'moa', name: '모아', desc: '명랑하고 생기 있는 목소리' },
   { id: 'arin', name: '아린', desc: '밝고 부드러운 목소리' },
+  { id: 'doyoung', name: '도영', desc: '차분하고 또렷한 목소리' },
 ]
 
 /** One recording of a story. */
