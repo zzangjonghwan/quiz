@@ -135,6 +135,21 @@ export function Quiz({
     else setIndex(index + 1)
   }
 
+  // PC keyboard: 1–4 picks a choice, Enter or Space moves on once the explanation is showing.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (confirmExit || e.target instanceof HTMLInputElement || e.repeat) return
+      if (current && (e.key === 'Enter' || e.key === ' ')) {
+        e.preventDefault()
+        next()
+      } else if (!current && item.kind === 'mcq' && /^[1-9]$/.test(e.key)) {
+        document.querySelector<HTMLElement>(`[data-choice="${Number(e.key) - 1}"]`)?.click()
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  })
+
   const cat = CATEGORY_BY_ID[item.category]
 
   return (
@@ -443,6 +458,7 @@ function ChoiceButton({
     <button
       onClick={(e) => onClick(e.currentTarget)}
       disabled={state !== 'idle'}
+      data-choice={number - 1}
       data-haptic="off"
       className={`flex min-h-14 w-full items-center gap-3 rounded-2xl px-4 py-3.5 text-left text-base font-medium transition-colors ${
         CHOICE_STYLES[state]

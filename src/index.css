@@ -49,6 +49,19 @@ body {
   overflow-wrap: anywhere;
 }
 
+/* PC browsers: keep the phone layout as a centered column, bars and sheets included. */
+@media (min-width: 640px) {
+  #root {
+    max-width: 480px;
+    margin-inline: auto;
+    box-shadow: 0 0 0 1px var(--color-line);
+  }
+  .fixed.inset-x-0,
+  .fixed.inset-0:not(.pointer-events-none) {
+    inset-inline: max(0px, calc(50% - 240px));
+  }
+}
+
 /* Android: Capacitor injects --safe-area-inset-*; browsers fall back to env(). */
 .safe-area {
   padding-top: var(--safe-area-inset-top, env(safe-area-inset-top, 0px));
