@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { CATEGORY_BY_ID, CATEGORY_GROUPS, MIXED_ICON } from '../categories'
+import { CATEGORY_BY_ID, categoryGroups, MIXED_ICON } from '../categories'
 import { Header, PrimaryButton, Screen, Segmented } from '../components/ui'
 import type { QuestionBank } from '../data'
 import { useBackHandler } from '../native'
@@ -73,7 +73,7 @@ export function CategorySelect({
           <span className="text-sm text-fg-muted tabular-nums">{mixedCount}</span>
         </button>
 
-        {CATEGORY_GROUPS.map((group) => (
+        {categoryGroups(bank.keys()).map((group) => (
           <section key={group.name} className="flex flex-col gap-2">
             <h2 className="px-1 text-xs font-semibold text-fg-subtle">{group.name}</h2>
             <div className="grid grid-cols-2 gap-2">

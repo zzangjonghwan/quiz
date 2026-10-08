@@ -11,6 +11,8 @@ export type CategoryId =
   | 'life' | 'health' | 'food' | 'law' | 'economy'
   | 'book' | 'film' | 'music' | 'art' | 'architecture' | 'sports'
   | 'trivia' | 'news' | 'tech'
+  // Optional packs, downloaded from 설정 > 학습 팩.
+  | 'kanji'
 
 /** One piece of a "쪼개기" breakdown: a character, word, or word root. */
 export interface BreakdownPart {
@@ -20,7 +22,20 @@ export interface BreakdownPart {
   meaning: string
 }
 
+/** A kanji card's character, readings and example words (일본어 한자 팩). */
+export interface KanjiInfo {
+  char: string
+  /** Korean hanja name and sound, e.g. "일할 노". Missing for kanji made in Japan. */
+  ko?: string
+  /** 음독 (on'yomi) in hiragana. */
+  on?: string
+  /** 훈독 (kun'yomi), okurigana in parentheses: "はたら(く)". */
+  kun?: string
+  words?: { word: string; reading: string; meaning: string }[]
+}
+
 export interface Explanation {
+  kanji?: KanjiInfo
   breakdown?: BreakdownPart[]
   /** Literal meaning after joining the breakdown ("합치면"). */
   literal?: string
@@ -34,6 +49,8 @@ export interface Explanation {
 export interface McqQuestion {
   mode: 'mcq'
   prompt: string
+  /** A character shown large under the prompt (kanji cards). */
+  glyph?: string
   /** choices[0] is always the correct answer; the app shuffles them. */
   choices: [string, string, string, string]
 }

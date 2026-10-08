@@ -1,5 +1,5 @@
 import {
-  Atom, BookOpen, Brain, Briefcase, Building2, Clapperboard, Cpu, Earth, Gavel, Globe, HeartPulse, Landmark, Music,
+  Atom, BookOpen, BookType, Brain, Briefcase, Building2, Clapperboard, Cpu, Earth, Gavel, Globe, HeartPulse, Landmark, Music,
   Languages, Lightbulb, Mic, Newspaper, Palette, PawPrint, Quote, ScrollText, Sparkles, SpellCheck,
   Sun, Trophy, User, UtensilsCrossed, Home, type LucideIcon,
 } from 'lucide-react'
@@ -76,9 +76,27 @@ export const CATEGORY_GROUPS: CategoryGroup[] = [
   },
 ]
 
+/** Categories that only exist once their pack is downloaded in 설정 > 학습 팩. */
+export const PACK_GROUP: CategoryGroup = {
+  name: '학습 팩',
+  categories: [{ id: 'kanji', name: '일본어 한자', icon: BookType }],
+}
+
+export const PACK_CATEGORIES = new Set<CategoryId>(PACK_GROUP.categories.map((c) => c.id))
+
+/** Built-in categories (always shown). */
 export const ALL_CATEGORIES: CategoryMeta[] = CATEGORY_GROUPS.flatMap((g) => g.categories)
 
-export const CATEGORY_BY_ID = Object.fromEntries(ALL_CATEGORIES.map((c) => [c.id, c])) as Record<
+/** The groups to show: the built-in ones, plus the 학습 팩 group with the packs that are installed. */
+export function categoryGroups(installed: Iterable<CategoryId>): CategoryGroup[] {
+  const have = new Set(installed)
+  const packs = PACK_GROUP.categories.filter((c) => have.has(c.id))
+  return packs.length ? [...CATEGORY_GROUPS, { ...PACK_GROUP, categories: packs }] : CATEGORY_GROUPS
+}
+
+export const CATEGORY_BY_ID = Object.fromEntries(
+  [...ALL_CATEGORIES, ...PACK_GROUP.categories].map((c) => [c.id, c]),
+) as Record<
   CategoryId,
   CategoryMeta
 >

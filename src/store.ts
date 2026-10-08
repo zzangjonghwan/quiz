@@ -48,6 +48,14 @@ export interface Settings {
   soundVersion: number
   /** Narrator for 상식플러스. */
   storyVoice: VoiceId
+  /** Downloaded 학습 팩 (the files themselves live in app storage, see src/packs.ts). */
+  packs: InstalledPack[]
+}
+
+export interface InstalledPack {
+  id: string
+  category: CategoryId
+  version: number
 }
 
 /** Where the listener left off in a 상식플러스 story. */
@@ -82,6 +90,7 @@ const DEFAULT_SETTINGS: Settings = {
   soundPicks: {},
   soundVersion: 3,
   storyVoice: 'moa',
+  packs: [],
 }
 
 let state: StoreState = { progress: {}, stats: EMPTY_STATS, settings: DEFAULT_SETTINGS, listening: {} }

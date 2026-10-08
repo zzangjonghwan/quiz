@@ -1,0 +1,14 @@
+{
+  "packs": [
+    {
+      "id": "kanji-n2",
+      "category": "kanji",
+      "name": "일본어 한자 (JLPT N2)",
+      "desc": "모양을 쪼개서 뜻을 익히는 N2 한자와 부수",
+      "version": 1,
+      "hash": "eea615da50cc",
+      "cards": 327,
+      "bytes": 250101
+    }
+  ]
+}

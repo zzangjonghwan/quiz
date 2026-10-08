@@ -12,7 +12,8 @@
     "build": "node scripts/data.mjs && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "cap:sync": "npm run build && cap sync android"
+    "cap:sync": "npm run build && cap sync android",
+    "packs": "node scripts/build-packs.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.2",

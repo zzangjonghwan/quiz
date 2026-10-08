@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { CATEGORY_BY_ID, CATEGORY_GROUPS } from '../categories'
+import { CATEGORY_BY_ID, categoryGroups } from '../categories'
 import { Header, Screen } from '../components/ui'
 import type { QuestionBank } from '../data'
 import { useBackHandler } from '../native'
@@ -106,7 +106,7 @@ export function StatsScreen({ bank, onBack }: { bank: QuestionBank; onBack: () =
           </section>
         )}
 
-        {CATEGORY_GROUPS.map((group) => (
+        {categoryGroups(bank.keys()).map((group) => (
           <section key={group.name} className="flex flex-col gap-2">
             <h2 className="px-1 text-xs font-semibold text-fg-subtle">{group.name}</h2>
             <div className="flex flex-col divide-y divide-line rounded-2xl bg-surface">

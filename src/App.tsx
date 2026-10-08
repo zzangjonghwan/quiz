@@ -42,7 +42,9 @@ export default function App() {
   const [stories, setStories] = useState<Story[]>([])
 
   useEffect(() => {
-    Promise.all([loadBank(), loadStore()]).then(([b]) => setBank(b), (e: unknown) => setLoadError(String(e)))
+    loadStore()
+      .then(loadBank)
+      .then(setBank, (e: unknown) => setLoadError(String(e)))
   }, [])
 
   useEffect(() => applyTheme(settings.theme), [settings.theme])
@@ -57,6 +59,8 @@ export default function App() {
   if (!bank) return <Centered>불러오는 중…</Centered>
 
   const home = () => setScreen({ name: 'home' })
+  /** After a 학습 팩 is downloaded or removed. */
+  const reloadBank = () => loadBank().then(setBank, (e: unknown) => console.error('reload failed', e))
   const startQuiz = (config: SessionConfig) => {
     const { progress, settings } = getState()
     const items = buildSession(bank, progress, config, settings.excluded)
@@ -148,6 +152,7 @@ export default function App() {
           onBack={home}
           onCredits={() => setScreen({ name: 'credits' })}
           onSounds={() => setScreen({ name: 'sounds' })}
+          onPacksChanged={reloadBank}
         />
       )
     case 'sounds':

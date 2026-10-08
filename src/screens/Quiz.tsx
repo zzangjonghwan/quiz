@@ -180,6 +180,12 @@ export function Quiz({
           <h2 className="text-xl leading-snug font-bold">{item.prompt}</h2>
         </div>
 
+        {item.kind === 'mcq' && item.glyph && (
+          <div lang="ja" className="flex justify-center rounded-2xl bg-surface py-6 text-7xl leading-none font-medium">
+            {item.glyph}
+          </div>
+        )}
+
         {item.card.image && <CardImage image={item.card.image} />}
 
         {item.kind === 'mcq' ? (
@@ -409,6 +415,9 @@ function Verdict({ correct, text, points }: { correct: boolean; text?: string; p
 
 type ChoiceState = 'idle' | 'correct' | 'wrong' | 'dim'
 
+/** A one- or two-character kanji/radical choice, shown large in a Japanese font. */
+const isGlyph = (label: string) => [...label].length <= 2 && /\p{Script=Han}|[⺀-⿕]/u.test(label)
+
 const CHOICE_STYLES: Record<ChoiceState, string> = {
   idle: 'bg-surface active:bg-surface-2',
   correct: 'bg-accent text-accent-fg',
@@ -446,7 +455,13 @@ function ChoiceButton({
       >
         {state === 'correct' ? <Check size={18} strokeWidth={3} /> : state === 'wrong' ? <X size={18} strokeWidth={3} /> : number}
       </span>
-      <span className="flex-1">{label}</span>
+      {isGlyph(label) ? (
+        <span lang="ja" className="flex-1 text-3xl leading-none">
+          {label}
+        </span>
+      ) : (
+        <span className="flex-1">{label}</span>
+      )}
     </button>
   )
 }

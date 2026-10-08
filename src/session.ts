@@ -22,6 +22,7 @@ interface ItemBase {
 
 export interface McqItem extends ItemBase {
   kind: 'mcq'
+  glyph?: string
   /** Shuffled copy of the question's choices. */
   choices: string[]
   correctIndex: number
@@ -169,7 +170,7 @@ export function buildSession(
     if (config.mode === 'mcq') {
       const q = pick(prompts as McqQuestion[])
       const choices = shuffle(q.choices)
-      return { kind: 'mcq', card, category, prompt: q.prompt, choices, correctIndex: choices.indexOf(q.choices[0]) }
+      return { kind: 'mcq', card, category, prompt: q.prompt, glyph: q.glyph, choices, correctIndex: choices.indexOf(q.choices[0]) }
     }
     const answer = card.answer!
     return {

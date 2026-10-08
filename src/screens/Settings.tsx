@@ -1,8 +1,9 @@
-import { ChevronRight, Play, Square } from 'lucide-react'
+import { ChevronRight, Download, LoaderCircle, Play, Square, Trash2 } from 'lucide-react'
 import { useEffect, useState, type ReactNode } from 'react'
-import { ALL_CATEGORIES, CATEGORY_GROUPS } from '../categories'
+import { categoryGroups } from '../categories'
 import { Header, PrimaryButton, Screen, SecondaryButton, Segmented } from '../components/ui'
 import { useBackHandler } from '../native'
+import { fetchPackIndex, installPack, removePack, type PackInfo } from '../packs'
 import { pause, switchVoice, usePlayer } from '../player'
 import { resetProgress, updateSettings, useStore } from '../store'
 import { recordedVoices, VOICES, type VoiceId } from '../stories'
@@ -12,10 +13,12 @@ export function SettingsScreen({
   onBack,
   onCredits,
   onSounds,
+  onPacksChanged,
 }: {
   onBack: () => void
   onCredits: () => void
   onSounds: () => void
+  onPacksChanged: () => void
 }) {
   const { settings } = useStore()
   const [confirmReset, setConfirmReset] = useState(false)
@@ -25,13 +28,15 @@ export function SettingsScreen({
     return true
   })
 
-  const included = ALL_CATEGORIES.length - settings.excluded.length
+  const groups = categoryGroups(settings.packs.map((p) => p.category))
+  const shown = groups.flatMap((g) => g.categories.map((c) => c.id))
+  const included = shown.filter((id) => !settings.excluded.includes(id)).length
   const toggleCategory = (id: CategoryId) => {
     const excluded = settings.excluded.includes(id)
       ? settings.excluded.filter((c) => c !== id)
       : [...settings.excluded, id]
     // 종합 needs at least one category to draw from.
-    if (excluded.length < ALL_CATEGORIES.length) updateSettings({ excluded })
+    if (shown.some((c) => !excluded.includes(c))) updateSettings({ excluded })
   }
 
   return (
@@ -87,15 +92,19 @@ export function SettingsScreen({
           <VoicePicker />
         </Group>
 
+        <Group title="학습 팩">
+          <PackList onChanged={onPacksChanged} />
+        </Group>
+
         <section className="flex flex-col gap-2">
           <div className="flex items-baseline justify-between px-1">
             <h2 className="text-xs font-semibold text-fg-subtle">종합에 포함할 카테고리</h2>
             <span className="text-xs text-fg-subtle tabular-nums">
-              {included}/{ALL_CATEGORIES.length}
+              {included}/{shown.length}
             </span>
           </div>
           <div className="flex flex-col gap-4 rounded-2xl bg-surface p-4">
-            {CATEGORY_GROUPS.map((group) => (
+            {groups.map((group) => (
               <div key={group.name} className="flex flex-col gap-2">
                 <span className="text-[11px] text-fg-subtle">{group.name}</span>
                 <div className="flex flex-wrap gap-2">
@@ -149,6 +158,84 @@ export function SettingsScreen({
         />
       )}
     </Screen>
+  )
+}
+
+/** Optional question packs: download, update or remove. */
+function PackList({ onChanged }: { onChanged: () => void }) {
+  const { settings } = useStore()
+  const [index, setIndex] = useState<PackInfo[] | null>(null)
+  const [offline, setOffline] = useState(false)
+  const [busy, setBusy] = useState<string | null>(null)
+  const [error, setError] = useState<string | null>(null)
+
+  useEffect(() => {
+    void fetchPackIndex().then(setIndex, () => setOffline(true))
+  }, [])
+
+  const run = async (id: string, job: () => Promise<void>) => {
+    setBusy(id)
+    setError(null)
+    try {
+      await job()
+      onChanged()
+    } catch (e) {
+      setError(`받지 못했어요. 인터넷 연결을 확인해 주세요. (${e instanceof Error ? e.message : String(e)})`)
+    } finally {
+      setBusy(null)
+    }
+  }
+
+  // Installed packs are listed even offline, so they can still be removed.
+  const installedOnly = settings.packs
+    .filter((p) => !index?.some((i) => i.id === p.id))
+    .map((p) => ({ id: p.id, category: p.category, name: p.id, desc: '', version: p.version, cards: 0, bytes: 0 }))
+  const list = [...(index ?? []), ...installedOnly]
+
+  return (
+    <div className="flex flex-col gap-3">
+      <p className="text-xs text-fg-subtle">원하는 사람만 받아서 푸는 문제 모음이에요. 받은 팩은 카테고리 목록에 따로 나타나요.</p>
+      {!index && !offline && <span className="text-sm text-fg-muted">목록을 불러오는 중…</span>}
+      {offline && !list.length && <span className="text-sm text-fg-muted">팩 목록을 보려면 인터넷 연결이 필요해요.</span>}
+      {list.map((pack) => {
+        const mine = settings.packs.find((p) => p.id === pack.id)
+        const outdated = mine && pack.cards > 0 && pack.version > mine.version
+        return (
+          <div key={pack.id} className="flex items-center gap-3 rounded-xl bg-surface-2 px-3 py-3">
+            <span className="flex flex-1 flex-col gap-0.5">
+              <span className="text-[15px] font-semibold">{pack.name}</span>
+              {pack.desc && <span className="text-xs text-fg-muted">{pack.desc}</span>}
+              {pack.cards > 0 && (
+                <span className="text-[11px] text-fg-subtle tabular-nums">
+                  {pack.cards}문제 · {Math.max(1, Math.round(pack.bytes / 1024))}KB
+                  {mine && (outdated ? ' · 새 버전이 있어요' : ' · 받음')}
+                </span>
+              )}
+            </span>
+            {busy === pack.id ? (
+              <LoaderCircle size={20} className="animate-spin text-fg-muted" />
+            ) : mine && !outdated ? (
+              <button
+                onClick={() => void run(pack.id, () => removePack(pack.id))}
+                aria-label={`${pack.name} 삭제`}
+                className="flex size-10 items-center justify-center rounded-full text-fg-subtle active:bg-surface"
+              >
+                <Trash2 size={18} />
+              </button>
+            ) : (
+              <button
+                onClick={() => void run(pack.id, () => installPack(pack))}
+                className="flex items-center gap-1.5 rounded-full bg-accent px-3.5 py-2 text-sm font-bold text-accent-fg"
+              >
+                <Download size={15} strokeWidth={2.5} />
+                {outdated ? '업데이트' : '받기'}
+              </button>
+            )}
+          </div>
+        )
+      })}
+      {error && <p className="text-xs text-wrong">{error}</p>}
+    </div>
   )
 }
 

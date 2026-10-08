@@ -57,7 +57,7 @@ export function hintText(answer: string, level: 1 | 2) {
     .join('')
 }
 
-/** Answers short and unambiguous enough to type. */
+/** Answers short and unambiguous enough to type (hanja and kanji can't be typed on a Korean keyboard). */
 export function isTypeable(answer: string) {
-  return normalize(answer).length <= 12 && !/[,<>]/.test(answer)
+  return normalize(answer).length <= 12 && !/[,<>]/.test(answer) && !/\p{Script=Han}/u.test(answer)
 }

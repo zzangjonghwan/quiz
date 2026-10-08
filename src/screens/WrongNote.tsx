@@ -1,6 +1,6 @@
 import { BookCheck, ChevronDown } from 'lucide-react'
 import { useMemo, useState } from 'react'
-import { CATEGORY_BY_ID, ALL_CATEGORIES } from '../categories'
+import { CATEGORY_BY_ID, ALL_CATEGORIES, PACK_GROUP } from '../categories'
 import { CardImage } from '../components/CardImage'
 import { Explanation } from '../components/Explanation'
 import { Header, PrimaryButton, Screen, SecondaryButton } from '../components/ui'
@@ -40,7 +40,7 @@ export function WrongNote({
     return list.sort((a, b) => b.last - a.last)
   }, [bank, progress])
 
-  const categories = ALL_CATEGORIES.filter((c) => entries.some((e) => e.category === c.id))
+  const categories = [...ALL_CATEGORIES, ...PACK_GROUP.categories].filter((c) => entries.some((e) => e.category === c.id))
   const shown = filter ? entries.filter((e) => e.category === filter) : entries
   const subjectiveCount = shown.filter((e) => subjectivePrompts(e.card).length > 0).length
   const start = (mode: SessionConfig['mode']) =>
