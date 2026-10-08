@@ -21,12 +21,12 @@ const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const OUT = join(ROOT, '.stories')
 const AUDIO = join(OUT, 'audio')
 /**
- * The app's voices (설정 > 목소리) and the Gemini voice and model behind each. One model per voice:
- * models sound different, so a story is never finished on a fallback model.
+ * The app's voices (설정 > 목소리) and the Gemini voice and model behind each. New takes use `model`;
+ * stories already voiced on an older model (`kept`) stay as they are instead of being redone.
  */
 const VOICES = {
-  arin: { name: 'Aoede', model: 'gemini-3.8-flash-tts' },
-  moa: { name: 'Leda', model: 'gemini-3.8-flash-lite-tts' },
+  arin: { name: 'Aoede', model: 'gemini-3.8-flash-tts', kept: [] },
+  moa: { name: 'Leda', model: 'gemini-3.8-flash-tts', kept: ['gemini-3.8-flash-lite-tts'] },
 }
 /** Listens to a finished take and reports where each paragraph starts (see align()). */
 const ALIGN_MODEL = 'gemini-3.6-flash'
@@ -156,11 +156,15 @@ async function loadStories() {
 }
 
 /** File name for a story in one voice. arin keeps the original naming so existing audio is reused. */
-function fileFor(story, voice) {
-  const seed = voice === 'arin' ? VOICES.arin.name : `${voice}:${VOICES[voice].name}:${VOICES[voice].model}`
+function fileFor(story, voice, model = VOICES[voice].model) {
+  const seed = voice === 'arin' ? VOICES.arin.name : `${voice}:${VOICES[voice].name}:${model}`
   const hash = createHash('sha1').update(seed + 'v2' + JSON.stringify(story.paragraphs)).digest('hex').slice(0, 12)
   return voice === 'arin' ? `${story.id}-${hash}.mp3` : `${story.id}-${voice}-${hash}.mp3`
 }
+
+/** Whether a cached take is still current: same text, recorded on the voice's model or a kept older one. */
+const isCurrent = (story, voice, entry) =>
+  !!entry && [VOICES[voice].model, ...VOICES[voice].kept].some((m) => entry.file === fileFor(story, voice, m))
 
 /**
  * Voices the whole story in one request (one take sounds more even than seven, and the TTS models
@@ -168,7 +172,8 @@ function fileFor(story, voice) {
  */
 async function build(story, voice, cache, force) {
   const file = fileFor(story, voice)
-  if (!force && cache[story.id]?.file === file && existsSync(join(AUDIO, file))) return cache[story.id]
+  const cached = cache[story.id]
+  if (!force && isCurrent(story, voice, cached) && existsSync(join(AUDIO, cached.file))) return cached
 
   const take = trim(await speak(story.paragraphs.join('\n\n'), voice))
   const cuts = [0, ...(await align(story, take)), take.length]
@@ -303,12 +308,12 @@ const readCache = (voice) => (existsSync(cachePath(voice)) ? JSON.parse(readFile
 function writeList(stories) {
   const caches = Object.fromEntries(Object.keys(VOICES).map((v) => [v, readCache(v)]))
   const list = stories
-    .filter((s) => Object.keys(VOICES).some((v) => caches[v][s.id]?.file === fileFor(s, v)))
+    .filter((s) => Object.keys(VOICES).some((v) => isCurrent(s, v, caches[v][s.id])))
     .map((s) => ({
       ...s,
       voices: Object.fromEntries(
         Object.keys(VOICES)
-          .filter((v) => caches[v][s.id]?.file === fileFor(s, v))
+          .filter((v) => isCurrent(s, v, caches[v][s.id]))
           .map((v) => [v, caches[v][s.id]]),
       ),
     }))
