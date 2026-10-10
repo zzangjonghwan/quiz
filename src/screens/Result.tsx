@@ -1,4 +1,4 @@
-import { Check, ChevronDown, Flame, Trophy, X } from 'lucide-react'
+import { Check, ChevronDown, Flame, Share2, Trophy, X } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { CATEGORY_BY_ID, DIFFICULTY_LABEL } from '../categories'
 import { CardImage } from '../components/CardImage'
@@ -10,6 +10,7 @@ import { useBackHandler } from '../native'
 import { playSound, setGameAudio } from '../sound'
 import { getState, recordGame } from '../store'
 import { correctAnswerText, type AnswerRecord, type SessionConfig } from '../session'
+import { shareResult } from '../shareCard'
 
 export function Result({
   config,
@@ -60,6 +61,28 @@ export function Result({
     (config.mode === 'subjective' ? ' · 주관식' : '')
   const difficulty = config.difficulty === 'mixed' ? '섞기' : DIFFICULTY_LABEL[config.difficulty]
 
+  const [sharing, setSharing] = useState(false)
+  const share = async () => {
+    if (sharing) return
+    setSharing(true)
+    try {
+      await shareResult({
+        subtitle: `${title} · ${difficulty}`,
+        correct,
+        total: answers.length,
+        comment: comment(rate),
+        duration: formatDuration(durationMs),
+        game: game && { score: game.score, maxCombo: game.maxCombo },
+        challenge: pickChallenge(answers),
+      })
+    } catch (e) {
+      // Closing the share sheet without picking an app also lands here.
+      console.warn('share failed', e)
+    } finally {
+      setSharing(false)
+    }
+  }
+
   return (
     <Screen>
       <main className="flex flex-1 flex-col gap-6 px-5 pt-10 pb-8">
@@ -72,6 +95,13 @@ export function Result({
             <span className="text-fg-subtle"> / {answers.length}</span>
           </p>
           <p className="pt-1 text-sm text-fg-muted">{comment(rate)}</p>
+          <button
+            onClick={share}
+            className="mt-3 flex w-fit items-center gap-2 rounded-full bg-surface-2 px-4 py-2.5 text-sm font-semibold transition-transform active:scale-[0.97]"
+          >
+            <Share2 size={16} strokeWidth={2.2} className="text-accent" />
+            {sharing ? '카드 만드는 중…' : '결과 카드 공유'}
+          </button>
         </div>
 
         {game && (
@@ -150,6 +180,16 @@ function Stat({ label, value }: { label: string; value: string }) {
       <span className="text-xs text-fg-muted">{label}</span>
     </div>
   )
+}
+
+/** A multiple-choice question from the round for friends to try: a hard one the player got right if there is one. */
+function pickChallenge(answers: AnswerRecord[]) {
+  // Picture questions need their picture, which the card doesn't show.
+  const mcq = answers.filter((a) => a.item.kind === 'mcq' && !a.item.card.image)
+  const rank = (a: AnswerRecord) => (a.correct ? 2 : 0) + (a.item.card.difficulty === 'hard' ? 1 : 0)
+  const best = [...mcq].sort((a, b) => rank(b) - rank(a))[0]?.item
+  if (best?.kind !== 'mcq') return undefined
+  return { prompt: best.prompt, glyph: best.glyph, choices: best.choices }
 }
 
 function comment(rate: number) {
