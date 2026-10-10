@@ -217,15 +217,16 @@ export const VARIANTS: Record<SoundName, Variant[]> = {
       },
     },
   ],
+  // The 결과 발표 sounds play over the confetti and were too loud next to the rest: half volume.
   fanfare: [
-    { id: 'trumpet', label: '트럼펫', play: () => clip('fanfare') },
+    { id: 'trumpet', label: '트럼펫', play: () => clip('fanfare', 0.45) },
     {
       id: 'brass',
       label: '빰빠밤',
       play: () => {
         ;[[523, 0, 0.14], [659, 0.15, 0.14], [784, 0.3, 0.14], [1046, 0.45, 0.6]].forEach(([f, at, dur]) => {
-          tone({ type: 'sawtooth', freq: f, at, dur, gain: 0.1 })
-          tone({ type: 'square', freq: f * 2, at, dur, gain: 0.03 })
+          tone({ type: 'sawtooth', freq: f, at, dur, gain: 0.05 })
+          tone({ type: 'square', freq: f * 2, at, dur, gain: 0.015 })
         })
       },
     },
@@ -233,7 +234,7 @@ export const VARIANTS: Record<SoundName, Variant[]> = {
       id: 'bells',
       label: '종소리',
       play: () => {
-        ;[1046, 1319, 1568, 2093].forEach((f, i) => tone({ freq: f, at: i * 0.12, dur: 0.9, gain: 0.15 }))
+        ;[1046, 1319, 1568, 2093].forEach((f, i) => tone({ freq: f, at: i * 0.12, dur: 0.9, gain: 0.075 }))
       },
     },
     {
@@ -241,22 +242,22 @@ export const VARIANTS: Record<SoundName, Variant[]> = {
       label: '폭죽 팡팡',
       play: () => {
         ;[0, 0.25, 0.45, 0.6].forEach((at) => {
-          burst({ at, dur: 0.15, freq: 1200, to: 200, gain: 0.4 })
-          burst({ at: at + 0.08, dur: 0.4, filter: 'highpass', freq: 5000, gain: 0.06 })
+          burst({ at, dur: 0.15, freq: 1200, to: 200, gain: 0.2 })
+          burst({ at: at + 0.08, dur: 0.4, filter: 'highpass', freq: 5000, gain: 0.03 })
         })
       },
     },
   ],
   tap: [
-    { id: 'tick', label: '톡', play: () => tone({ type: 'triangle', freq: 1800, to: 900, dur: 0.04, gain: 0.08 }) },
-    { id: 'pop', label: '뽁', play: () => tone({ freq: 600, to: 1200, dur: 0.06, gain: 0.12 }) },
+    { id: 'tick', label: '톡', play: () => tone({ type: 'triangle', freq: 1800, to: 900, dur: 0.04, gain: 0.104 }) },
+    { id: 'pop', label: '뽁', play: () => tone({ freq: 600, to: 1200, dur: 0.06, gain: 0.156 }) },
     { id: 'none', label: '소리 없음', play: () => {} },
   ],
 }
 
 export const DEFAULT_PICKS: Record<SoundName, string> = {
   correct: 'pop',
-  wrong: 'gentle',
+  wrong: 'boo',
   combo: 'whoosh',
   fanfare: 'trumpet',
   tap: 'tick',
