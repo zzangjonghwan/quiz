@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { loadBank, type QuestionBank } from './data'
+import { updateData } from './updates'
 import type { GameResult } from './game'
 import { TabBar } from './components/TabBar'
 import { applyTheme } from './native'
@@ -45,6 +46,13 @@ export default function App() {
     loadStore()
       .then(loadBank)
       .then(setBank, (e: unknown) => setLoadError(String(e)))
+      // Then look for 문제 업데이트; new questions are swapped in quietly (a quiz in progress keeps
+      // the cards it started with).
+      .then(updateData)
+      .then(async (updated) => {
+        if (updated) setBank(await loadBank())
+      })
+      .catch((e: unknown) => console.warn('문제 업데이트 확인 실패', e))
   }, [])
 
   useEffect(() => applyTheme(settings.theme), [settings.theme])

@@ -37,6 +37,11 @@ jobs:
       - name: Build web app
         run: npm run build
 
+      # The Android app downloads 학습 팩 from here (src/packs.ts) and checks public/data for
+      # 문제 업데이트 (src/updates.ts), which the build already copied.
+      - name: Add 학습 팩
+        run: cp -r packs dist/packs
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v4

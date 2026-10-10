@@ -1,0 +1,24 @@
+{
+  "packs": [
+    {
+      "id": "kanji-n2",
+      "category": "kanji",
+      "name": "일본어 한자 (JLPT N2)",
+      "desc": "모양을 쪼개서 뜻을 익히는 N2 한자와 부수",
+      "version": 2,
+      "hash": "c659f9403f4e",
+      "cards": 500,
+      "bytes": 388003
+    },
+    {
+      "id": "english-roots",
+      "category": "english",
+      "name": "영단어 어원",
+      "desc": "접두사·어근·접미사로 쪼개서 처음 보는 단어도 짐작하는 영단어",
+      "version": 1,
+      "hash": "f3b2ca5470e1",
+      "cards": 500,
+      "bytes": 357332
+    }
+  ]
+}

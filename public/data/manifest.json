@@ -1,1075 +1,1292 @@
 {
+  "schema": 1,
+  "id": "4c082c1ce3e3",
+  "built": "2026-10-10T04:11:07.727Z",
   "version": 214,
   "files": [
     {
       "category": "idiom",
       "file": "idiom.json",
-      "version": 1
+      "version": 1,
+      "hash": "f60553d63185"
     },
     {
       "category": "idiom",
       "file": "idiom.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "44587dc8e7d3"
     },
     {
       "category": "idiom",
       "file": "idiom.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "52660bcf7441"
     },
     {
       "category": "idiom",
       "file": "idiom.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "412f82d23e6c"
     },
     {
       "category": "idiom",
       "file": "idiom.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "697956091767"
     },
     {
       "category": "idiom",
       "file": "idiom.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "50ccbd6139e4"
     },
     {
       "category": "proverb",
       "file": "proverb.json",
-      "version": 1
+      "version": 1,
+      "hash": "49a9ad2fc00c"
     },
     {
       "category": "proverb",
       "file": "proverb.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "f88121dcbeab"
     },
     {
       "category": "proverb",
       "file": "proverb.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "3ba7bf2ecc3d"
     },
     {
       "category": "proverb",
       "file": "proverb.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "1574928e8d06"
     },
     {
       "category": "proverb",
       "file": "proverb.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "6c4aa42c58df"
     },
     {
       "category": "proverb",
       "file": "proverb.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "f8a6fb547a96"
     },
     {
       "category": "korean",
       "file": "korean.json",
-      "version": 1
+      "version": 1,
+      "hash": "492d0d3e72c5"
     },
     {
       "category": "korean",
       "file": "korean.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "deab14f9f924"
     },
     {
       "category": "korean",
       "file": "korean.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "e08cd264acf5"
     },
     {
       "category": "korean",
       "file": "korean.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "20dcb0af2e39"
     },
     {
       "category": "korean",
       "file": "korean.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "caa5d2765760"
     },
     {
       "category": "korean",
       "file": "korean.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "00f42c7d5749"
     },
     {
       "category": "korean",
       "file": "korean.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "13f759d1c08c"
     },
     {
       "category": "slang",
       "file": "slang.json",
-      "version": 1
+      "version": 1,
+      "hash": "d315dfaee475"
     },
     {
       "category": "slang",
       "file": "slang.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "6250ba30996c"
     },
     {
       "category": "slang",
       "file": "slang.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "124193943221"
     },
     {
       "category": "slang",
       "file": "slang.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "8400cd399e8f"
     },
     {
       "category": "slang",
       "file": "slang.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "dbdca79db171"
     },
     {
       "category": "loanword",
       "file": "loanword.json",
-      "version": 1
+      "version": 1,
+      "hash": "fc862fb3d643"
     },
     {
       "category": "loanword",
       "file": "loanword.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "837eb6aba8ca"
     },
     {
       "category": "loanword",
       "file": "loanword.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "57a534161655"
     },
     {
       "category": "loanword",
       "file": "loanword.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "420e30fb8655"
     },
     {
       "category": "loanword",
       "file": "loanword.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "9c5037ec27df"
     },
     {
       "category": "loanword",
       "file": "loanword.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "7709fdbeb1b6"
     },
     {
       "category": "figure",
       "file": "figure.json",
-      "version": 1
+      "version": 1,
+      "hash": "64b76159775c"
     },
     {
       "category": "figure",
       "file": "figure.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "0b5f4fe16998"
     },
     {
       "category": "figure",
       "file": "figure.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "2208e93ce85b"
     },
     {
       "category": "figure",
       "file": "figure.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "ef5b0dce9211"
     },
     {
       "category": "figure",
       "file": "figure.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "26f2da575528"
     },
     {
       "category": "figure",
       "file": "figure.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "057afe65c03e"
     },
     {
       "category": "figure",
       "file": "figure.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "243d1aa5c352"
     },
     {
       "category": "celeb",
       "file": "celeb.json",
-      "version": 1
+      "version": 1,
+      "hash": "d1356bedd076"
     },
     {
       "category": "celeb",
       "file": "celeb.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "c5da7a2b9a70"
     },
     {
       "category": "celeb",
       "file": "celeb.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "ee89c49bce47"
     },
     {
       "category": "celeb",
       "file": "celeb.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "9afc8129d015"
     },
     {
       "category": "celeb",
       "file": "celeb.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "d7077d457d46"
     },
     {
       "category": "koreanhistory",
       "file": "koreanhistory.json",
-      "version": 1
+      "version": 1,
+      "hash": "1e966ed1a505"
     },
     {
       "category": "koreanhistory",
       "file": "koreanhistory.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "4175a3e74f80"
     },
     {
       "category": "koreanhistory",
       "file": "koreanhistory.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "ef8402b0cd7a"
     },
     {
       "category": "koreanhistory",
       "file": "koreanhistory.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "91846bc1784a"
     },
     {
       "category": "koreanhistory",
       "file": "koreanhistory.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "8f52cd66134a"
     },
     {
       "category": "koreanhistory",
       "file": "koreanhistory.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "0a0825a5aadc"
     },
     {
       "category": "koreanhistory",
       "file": "koreanhistory.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "29e3fb77348b"
     },
     {
       "category": "koreanhistory",
       "file": "koreanhistory.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "d320726dfb4c"
     },
     {
       "category": "worldhistory",
       "file": "worldhistory.json",
-      "version": 1
+      "version": 1,
+      "hash": "03b4d949e0be"
     },
     {
       "category": "worldhistory",
       "file": "worldhistory.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "c3fd731c1ab7"
     },
     {
       "category": "worldhistory",
       "file": "worldhistory.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "26ca24cf5693"
     },
     {
       "category": "worldhistory",
       "file": "worldhistory.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "0bc088980ece"
     },
     {
       "category": "worldhistory",
       "file": "worldhistory.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "42e95178e146"
     },
     {
       "category": "worldhistory",
       "file": "worldhistory.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "7efe675b49bb"
     },
     {
       "category": "worldhistory",
       "file": "worldhistory.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "3d31313bde77"
     },
     {
       "category": "worldhistory",
       "file": "worldhistory.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "7ddae2d3acc8"
     },
     {
       "category": "myth",
       "file": "myth.json",
-      "version": 1
+      "version": 1,
+      "hash": "813be2d35fbb"
     },
     {
       "category": "myth",
       "file": "myth.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "e5228c975e20"
     },
     {
       "category": "myth",
       "file": "myth.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "51d38f9dca39"
     },
     {
       "category": "myth",
       "file": "myth.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "245f9a027e9c"
     },
     {
       "category": "myth",
       "file": "myth.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "2c54813a7295"
     },
     {
       "category": "myth",
       "file": "myth.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "3a8e33c11ef8"
     },
     {
       "category": "myth",
       "file": "myth.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "0806fecb1b28"
     },
     {
       "category": "myth",
       "file": "myth.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "679ecae2f96d"
     },
     {
       "category": "myth",
       "file": "myth.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "5a81f034cd2a"
     },
     {
       "category": "animal",
       "file": "animal.json",
-      "version": 1
+      "version": 1,
+      "hash": "9a4776d377e6"
     },
     {
       "category": "animal",
       "file": "animal.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "74a5d3019d0f"
     },
     {
       "category": "animal",
       "file": "animal.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "3a4506fbf540"
     },
     {
       "category": "animal",
       "file": "animal.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "3e8b3812312f"
     },
     {
       "category": "animal",
       "file": "animal.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "95acef3345f9"
     },
     {
       "category": "animal",
       "file": "animal.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "777e861fac00"
     },
     {
       "category": "animal",
       "file": "animal.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "277e9e09f8ac"
     },
     {
       "category": "animal",
       "file": "animal.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "0bfa7acecb33"
     },
     {
       "category": "animal",
       "file": "animal.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "f4e112592004"
     },
     {
       "category": "science",
       "file": "science.json",
-      "version": 1
+      "version": 1,
+      "hash": "5bedf60ffce0"
     },
     {
       "category": "science",
       "file": "science.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "c07d2b54b2b1"
     },
     {
       "category": "science",
       "file": "science.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "87ad28b8b5c7"
     },
     {
       "category": "science",
       "file": "science.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "2d386ed9f6ec"
     },
     {
       "category": "science",
       "file": "science.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "b758557ff2c3"
     },
     {
       "category": "science",
       "file": "science.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "2ebfdfd2d62a"
     },
     {
       "category": "science",
       "file": "science.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "07fa2f83b290"
     },
     {
       "category": "science",
       "file": "science.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "1c82a9de8760"
     },
     {
       "category": "science",
       "file": "science.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "5319acdcdb4c"
     },
     {
       "category": "science",
       "file": "science.m9.json",
-      "version": 1
+      "version": 1,
+      "hash": "33e9646ad96b"
     },
     {
       "category": "science",
       "file": "science.stars.json",
-      "version": 1
+      "version": 1,
+      "hash": "184be815a9d1"
     },
     {
       "category": "geo",
       "file": "geo.flags.json",
-      "version": 1
+      "version": 1,
+      "hash": "15e87cef222a"
     },
     {
       "category": "geo",
       "file": "geo.json",
-      "version": 1
+      "version": 1,
+      "hash": "a3a1d5b82ca3"
     },
     {
       "category": "geo",
       "file": "geo.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "687fc948f882"
     },
     {
       "category": "geo",
       "file": "geo.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "ed97c6f0c463"
     },
     {
       "category": "geo",
       "file": "geo.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "8bcf02001c40"
     },
     {
       "category": "geo",
       "file": "geo.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "ff57db750e84"
     },
     {
       "category": "geo",
       "file": "geo.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "50b5a927f44c"
     },
     {
       "category": "geo",
       "file": "geo.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "ad2013bc85f1"
     },
     {
       "category": "geo",
       "file": "geo.shapes.json",
-      "version": 1
+      "version": 1,
+      "hash": "1921d322ea71"
     },
     {
       "category": "life",
       "file": "life.json",
-      "version": 1
+      "version": 1,
+      "hash": "0bfe686b2130"
     },
     {
       "category": "life",
       "file": "life.laundry.json",
-      "version": 1
+      "version": 1,
+      "hash": "9d76766e68dc"
     },
     {
       "category": "life",
       "file": "life.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "bd7ecfd2f6db"
     },
     {
       "category": "life",
       "file": "life.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "bff6d2de2cf5"
     },
     {
       "category": "life",
       "file": "life.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "3b9bb45c167c"
     },
     {
       "category": "life",
       "file": "life.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "c33d87612486"
     },
     {
       "category": "life",
       "file": "life.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "655f86c87ab7"
     },
     {
       "category": "life",
       "file": "life.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "9928574b89de"
     },
     {
       "category": "life",
       "file": "life.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "e85d07e09ee5"
     },
     {
       "category": "life",
       "file": "life.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "bd7ec31b6b31"
     },
     {
       "category": "life",
       "file": "life.m9.json",
-      "version": 1
+      "version": 1,
+      "hash": "efdaa4a6ef26"
     },
     {
       "category": "health",
       "file": "health.json",
-      "version": 1
+      "version": 1,
+      "hash": "8b5ce11834ab"
     },
     {
       "category": "health",
       "file": "health.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "a89beb3ec00b"
     },
     {
       "category": "health",
       "file": "health.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "1660aa8e5662"
     },
     {
       "category": "health",
       "file": "health.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "d1cebdf29ae0"
     },
     {
       "category": "health",
       "file": "health.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "349b5a6449fb"
     },
     {
       "category": "health",
       "file": "health.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "9804e8cca0da"
     },
     {
       "category": "health",
       "file": "health.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "48d3fcc6df6f"
     },
     {
       "category": "health",
       "file": "health.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "0a9aaacd9857"
     },
     {
       "category": "health",
       "file": "health.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "de4a67eeaff1"
     },
     {
       "category": "health",
       "file": "health.m9.json",
-      "version": 1
+      "version": 1,
+      "hash": "5b4877e2c9ec"
     },
     {
       "category": "food",
       "file": "food.json",
-      "version": 1
+      "version": 1,
+      "hash": "69401fb800fa"
     },
     {
       "category": "food",
       "file": "food.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "fd2ddd83a913"
     },
     {
       "category": "food",
       "file": "food.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "7444537c132f"
     },
     {
       "category": "food",
       "file": "food.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "82ef7ab1e08f"
     },
     {
       "category": "food",
       "file": "food.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "356530a78439"
     },
     {
       "category": "food",
       "file": "food.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "0b7244f04d5f"
     },
     {
       "category": "food",
       "file": "food.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "dcf64d9480cc"
     },
     {
       "category": "food",
       "file": "food.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "6e55e87aebd2"
     },
     {
       "category": "food",
       "file": "food.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "6569f91de216"
     },
     {
       "category": "law",
       "file": "law.json",
-      "version": 1
+      "version": 1,
+      "hash": "a46caf68b77f"
     },
     {
       "category": "law",
       "file": "law.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "3d665f5a79b7"
     },
     {
       "category": "law",
       "file": "law.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "0f9111a8102b"
     },
     {
       "category": "law",
       "file": "law.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "182dc437e255"
     },
     {
       "category": "law",
       "file": "law.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "702371465f58"
     },
     {
       "category": "law",
       "file": "law.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "e1de0a949882"
     },
     {
       "category": "law",
       "file": "law.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "a1ecf65b4c4f"
     },
     {
       "category": "law",
       "file": "law.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "797c36280b13"
     },
     {
       "category": "law",
       "file": "law.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "090eb1efd722"
     },
     {
       "category": "law",
       "file": "law.signs.json",
-      "version": 1
+      "version": 1,
+      "hash": "d78b66325bc4"
     },
     {
       "category": "economy",
       "file": "economy.json",
-      "version": 1
+      "version": 1,
+      "hash": "f2ec15a7484d"
     },
     {
       "category": "economy",
       "file": "economy.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "3a0d5bde19f3"
     },
     {
       "category": "economy",
       "file": "economy.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "bfe6907e0e3e"
     },
     {
       "category": "economy",
       "file": "economy.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "0fe618cdc028"
     },
     {
       "category": "economy",
       "file": "economy.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "b2f3d641ca1c"
     },
     {
       "category": "economy",
       "file": "economy.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "7052e297a927"
     },
     {
       "category": "economy",
       "file": "economy.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "acd7dcf6e09e"
     },
     {
       "category": "economy",
       "file": "economy.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "5bb060fca9f0"
     },
     {
       "category": "economy",
       "file": "economy.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "76092eea49ca"
     },
     {
       "category": "book",
       "file": "book.json",
-      "version": 1
+      "version": 1,
+      "hash": "b755321d83dd"
     },
     {
       "category": "book",
       "file": "book.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "9111baaed0fd"
     },
     {
       "category": "book",
       "file": "book.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "d1e69883bb47"
     },
     {
       "category": "book",
       "file": "book.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "d79372aa4d9f"
     },
     {
       "category": "book",
       "file": "book.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "0b40c465d9a2"
     },
     {
       "category": "book",
       "file": "book.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "551f071aff1c"
     },
     {
       "category": "book",
       "file": "book.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "e07146b7aba4"
     },
     {
       "category": "book",
       "file": "book.t.json",
-      "version": 1
+      "version": 1,
+      "hash": "68486ec8dd86"
     },
     {
       "category": "book",
       "file": "book.t2.json",
-      "version": 1
+      "version": 1,
+      "hash": "f410c5872f08"
     },
     {
       "category": "film",
       "file": "film.json",
-      "version": 1
+      "version": 1,
+      "hash": "7ba616b83973"
     },
     {
       "category": "film",
       "file": "film.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "83b09fc6f015"
     },
     {
       "category": "film",
       "file": "film.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "bbf5a764bed4"
     },
     {
       "category": "film",
       "file": "film.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "7c2ad5407bc0"
     },
     {
       "category": "film",
       "file": "film.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "e5a95d6564ac"
     },
     {
       "category": "film",
       "file": "film.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "5ac57bf16137"
     },
     {
       "category": "film",
       "file": "film.t.json",
-      "version": 1
+      "version": 1,
+      "hash": "c3db0e10c85d"
     },
     {
       "category": "film",
       "file": "film.t2.json",
-      "version": 1
+      "version": 1,
+      "hash": "9f7ffd867535"
     },
     {
       "category": "music",
       "file": "music.json",
-      "version": 1
+      "version": 1,
+      "hash": "b800ef2f944b"
     },
     {
       "category": "music",
       "file": "music.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "cb04d1dce3a2"
     },
     {
       "category": "music",
       "file": "music.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "1287614e3b2c"
     },
     {
       "category": "music",
       "file": "music.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "3b4fb05fa5bf"
     },
     {
       "category": "music",
       "file": "music.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "52791ed9ed23"
     },
     {
       "category": "music",
       "file": "music.t.json",
-      "version": 1
+      "version": 1,
+      "hash": "01af74f79e9a"
     },
     {
       "category": "music",
       "file": "music.t2.json",
-      "version": 1
+      "version": 1,
+      "hash": "442ca317d7dc"
     },
     {
       "category": "art",
       "file": "art.json",
-      "version": 1
+      "version": 1,
+      "hash": "92385577c834"
     },
     {
       "category": "art",
       "file": "art.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "be8670737228"
     },
     {
       "category": "art",
       "file": "art.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "7499386d9319"
     },
     {
       "category": "art",
       "file": "art.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "b29febc23b0b"
     },
     {
       "category": "art",
       "file": "art.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "98728e0c5b26"
     },
     {
       "category": "art",
       "file": "art.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "e0408f17b4f6"
     },
     {
       "category": "art",
       "file": "art.t.json",
-      "version": 1
+      "version": 1,
+      "hash": "9ad525312e40"
     },
     {
       "category": "art",
       "file": "art.t2.json",
-      "version": 1
+      "version": 1,
+      "hash": "35b54f92b788"
     },
     {
       "category": "architecture",
       "file": "architecture.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "27291aa5c666"
     },
     {
       "category": "architecture",
       "file": "architecture.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "24c09967b43d"
     },
     {
       "category": "architecture",
       "file": "architecture.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "a12b65e45891"
     },
     {
       "category": "architecture",
       "file": "architecture.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "74f199e1c8f9"
     },
     {
       "category": "architecture",
       "file": "architecture.t.json",
-      "version": 1
+      "version": 1,
+      "hash": "844789c6ff54"
     },
     {
       "category": "architecture",
       "file": "architecture.t2.json",
-      "version": 1
+      "version": 1,
+      "hash": "a45f967a5f36"
     },
     {
       "category": "sports",
       "file": "sports.json",
-      "version": 1
+      "version": 1,
+      "hash": "f83fe03d8436"
     },
     {
       "category": "sports",
       "file": "sports.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "4b94ad8e27db"
     },
     {
       "category": "sports",
       "file": "sports.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "d5e421d06422"
     },
     {
       "category": "sports",
       "file": "sports.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "4e32c4949491"
     },
     {
       "category": "sports",
       "file": "sports.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "dfcd8de7f32c"
     },
     {
       "category": "sports",
       "file": "sports.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "94c5d2380e46"
     },
     {
       "category": "sports",
       "file": "sports.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "977086d0c932"
     },
     {
       "category": "sports",
       "file": "sports.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "941737f751de"
     },
     {
       "category": "sports",
       "file": "sports.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "697d2f12b271"
     },
     {
       "category": "trivia",
       "file": "trivia.json",
-      "version": 1
+      "version": 1,
+      "hash": "c1c13468520a"
     },
     {
       "category": "trivia",
       "file": "trivia.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "e26df1b2c47c"
     },
     {
       "category": "trivia",
       "file": "trivia.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "4178f2804df1"
     },
     {
       "category": "trivia",
       "file": "trivia.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "3d8974e98140"
     },
     {
       "category": "trivia",
       "file": "trivia.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "20acf56c9344"
     },
     {
       "category": "trivia",
       "file": "trivia.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "2fab7e5e82ea"
     },
     {
       "category": "trivia",
       "file": "trivia.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "e24cda60dc6d"
     },
     {
       "category": "trivia",
       "file": "trivia.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "8964aa627388"
     },
     {
       "category": "trivia",
       "file": "trivia.m8.json",
-      "version": 1
+      "version": 1,
+      "hash": "5c5a75b16767"
     },
     {
       "category": "news",
       "file": "news.json",
-      "version": 1
+      "version": 1,
+      "hash": "83d4dc9014aa"
     },
     {
       "category": "news",
       "file": "news.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "9534059324b9"
     },
     {
       "category": "news",
       "file": "news.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "9668b2716d1a"
     },
     {
       "category": "news",
       "file": "news.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "0c408738d0c5"
     },
     {
       "category": "news",
       "file": "news.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "2a060b23095b"
     },
     {
       "category": "tech",
       "file": "tech.json",
-      "version": 1
+      "version": 1,
+      "hash": "bc107614dbd5"
     },
     {
       "category": "tech",
       "file": "tech.m.json",
-      "version": 1
+      "version": 1,
+      "hash": "43d7eecec833"
     },
     {
       "category": "tech",
       "file": "tech.m2.json",
-      "version": 1
+      "version": 1,
+      "hash": "83aaa3c64439"
     },
     {
       "category": "tech",
       "file": "tech.m3.json",
-      "version": 1
+      "version": 1,
+      "hash": "b057f4e0809f"
     },
     {
       "category": "tech",
       "file": "tech.m4.json",
-      "version": 1
+      "version": 1,
+      "hash": "fb364e09eb84"
     },
     {
       "category": "tech",
       "file": "tech.m5.json",
-      "version": 1
+      "version": 1,
+      "hash": "cb7603aa6f04"
     },
     {
       "category": "tech",
       "file": "tech.m6.json",
-      "version": 1
+      "version": 1,
+      "hash": "0d2914d600d5"
     },
     {
       "category": "tech",
       "file": "tech.m7.json",
-      "version": 1
+      "version": 1,
+      "hash": "d70a0501abbf"
     }
   ]
 }

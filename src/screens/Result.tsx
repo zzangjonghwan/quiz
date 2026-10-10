@@ -127,7 +127,7 @@ export function Result({
               {open === i && (
                 <div className="flex flex-col gap-2 px-2 pb-2">
                   {a.item.card.image && <CardImage image={a.item.card.image} size="small" />}
-                  <Explanation card={a.item.card} />
+                  <Explanation card={a.item.card} item={a.item} />
                 </div>
               )}
             </div>

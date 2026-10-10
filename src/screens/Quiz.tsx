@@ -195,11 +195,17 @@ export function Quiz({
           <h2 className="text-xl leading-snug font-bold">{item.prompt}</h2>
         </div>
 
-        {item.kind === 'mcq' && item.glyph && (
-          <div lang="ja" className="flex justify-center rounded-2xl bg-surface py-6 text-7xl leading-none font-medium">
-            {item.glyph}
-          </div>
-        )}
+        {item.kind === 'mcq' &&
+          item.glyph &&
+          (isHan(item.glyph) ? (
+            <div lang="ja" className="flex justify-center rounded-2xl bg-surface py-6 text-7xl leading-none font-medium">
+              {item.glyph}
+            </div>
+          ) : (
+            <div lang="en" className="flex justify-center rounded-2xl bg-surface px-4 py-7 text-center text-4xl font-bold break-all">
+              {item.glyph}
+            </div>
+          ))}
 
         {item.card.image && <CardImage image={item.card.image} />}
 
@@ -217,7 +223,7 @@ export function Quiz({
 
         {current && (
           <div ref={explanationRef} className="flex flex-col gap-3">
-            <Explanation card={item.card} />
+            <Explanation card={item.card} item={item} />
           </div>
         )}
       </main>
@@ -430,8 +436,11 @@ function Verdict({ correct, text, points }: { correct: boolean; text?: string; p
 
 type ChoiceState = 'idle' | 'correct' | 'wrong' | 'dim'
 
+const isHan = (text: string) => /\p{Script=Han}|[⺀-⿕]/u.test(text)
 /** A one- or two-character kanji/radical choice, shown large in a Japanese font. */
-const isGlyph = (label: string) => [...label].length <= 2 && /\p{Script=Han}|[⺀-⿕]/u.test(label)
+const isGlyph = (label: string) => [...label].length <= 2 && isHan(label)
+/** An English word or word part (영단어 팩), shown a little larger. */
+const isLatin = (label: string) => /^[A-Za-z][A-Za-z' -]*$|^-[a-z]+$/.test(label)
 
 const CHOICE_STYLES: Record<ChoiceState, string> = {
   idle: 'bg-surface active:bg-surface-2',
@@ -473,6 +482,10 @@ function ChoiceButton({
       </span>
       {isGlyph(label) ? (
         <span lang="ja" className="flex-1 text-3xl leading-none">
+          {label}
+        </span>
+      ) : isLatin(label) ? (
+        <span lang="en" className="flex-1 text-lg font-semibold">
           {label}
         </span>
       ) : (

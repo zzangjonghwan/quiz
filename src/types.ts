@@ -12,7 +12,7 @@ export type CategoryId =
   | 'book' | 'film' | 'music' | 'art' | 'architecture' | 'sports'
   | 'trivia' | 'news' | 'tech'
   // Optional packs, downloaded from 설정 > 학습 팩.
-  | 'kanji'
+  | 'kanji' | 'english'
 
 /** One piece of a "쪼개기" breakdown: a character, word, or word root. */
 export interface BreakdownPart {
@@ -34,8 +34,19 @@ export interface KanjiInfo {
   words?: { word: string; reading: string; meaning: string }[]
 }
 
+/** An English word card's word, part of speech, example sentence and related words (영단어 팩). */
+export interface WordInfo {
+  text: string
+  /** 품사, e.g. "동사". */
+  pos?: string
+  sentence?: { en: string; ko: string }
+  /** Other words built on the same root. */
+  related?: { word: string; meaning: string }[]
+}
+
 export interface Explanation {
   kanji?: KanjiInfo
+  word?: WordInfo
   breakdown?: BreakdownPart[]
   /** Literal meaning after joining the breakdown ("합치면"). */
   literal?: string
@@ -94,7 +105,13 @@ export interface CategoryFile {
 }
 
 export interface Manifest {
+  /** Data format version; an app skips 문제 업데이트 written for a newer one. */
+  schema: number
+  /** Hash of all the files' hashes. */
+  id: string
+  /** When the data last changed (ISO time); the newer of shipped and downloaded data wins. */
+  built: string
   version: number
   /** A category may span several files (e.g. geo.json + geo.flags.json). */
-  files: { category: CategoryId; file: string; version: number }[]
+  files: { category: CategoryId; file: string; version: number; hash: string }[]
 }

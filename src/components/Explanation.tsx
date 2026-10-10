@@ -1,19 +1,25 @@
-import { Lightbulb } from 'lucide-react'
+import { Flag, Lightbulb } from 'lucide-react'
 import type { ReactNode } from 'react'
-import type { Card, KanjiInfo } from '../types'
+import { canReport, reportUrl } from '../report'
+import type { SessionItem } from '../session'
+import type { Card, KanjiInfo, WordInfo } from '../types'
 
-/** The "쪼개기 → 합치면 → 뜻 → 유래 → 기억 팁 → 덤" explanation card. */
-export function Explanation({ card }: { card: Card }) {
+/**
+ * The "쪼개기 → 합치면 → 뜻 → 유래 → 기억 팁 → 덤" explanation card. `item` is the question as it was
+ * asked, which the 문제 신고 form gets filled in with.
+ */
+export function Explanation({ card, item }: { card: Card; item?: SessionItem }) {
   const e = card.explanation
   return (
     <div className="flex flex-col gap-4 rounded-2xl bg-surface p-5">
       {e.kanji && <KanjiHeader kanji={e.kanji} />}
+      {e.word && <WordHeader word={e.word} />}
       {e.breakdown && e.breakdown.length > 0 && (
-        <Section label={e.kanji ? '모양 쪼개기' : '쪼개기'}>
+        <Section label={e.kanji ? '모양 쪼개기' : e.word ? '어원 쪼개기' : '쪼개기'}>
           <div className="flex flex-col divide-y divide-line">
             {e.breakdown.map((b, i) => (
               <div key={i} className="flex items-baseline gap-3 py-2 first:pt-0 last:pb-0">
-                <span lang={e.kanji ? 'ja' : undefined} className="min-w-[2.5rem] shrink-0 text-lg font-bold">
+                <span lang={e.kanji ? 'ja' : e.word ? 'en' : undefined} className="min-w-[2.5rem] shrink-0 text-lg font-bold">
                   {b.part}
                 </span>
                 {b.origin && <span className="shrink-0 text-sm text-fg-muted">{b.origin}</span>}
@@ -24,13 +30,35 @@ export function Explanation({ card }: { card: Card }) {
         </Section>
       )}
       {e.literal && <Section label="합치면">{e.literal}</Section>}
-      <Section label={e.kanji ? '뜻' : e.literal ? '실제 뜻' : '해설'}>{e.meaning}</Section>
+      <Section label={e.kanji || e.word ? '뜻' : e.literal ? '실제 뜻' : '해설'}>{e.meaning}</Section>
       {e.origin && <Section label="유래">{e.origin}</Section>}
       {e.tip && (
         <div className="flex gap-3 rounded-xl bg-accent/10 p-4">
           <Lightbulb size={18} strokeWidth={2} className="mt-0.5 shrink-0 text-accent" />
           <p className="text-[15px] leading-relaxed">{e.tip}</p>
         </div>
+      )}
+      {e.word?.sentence && (
+        <Section label="예문">
+          <p lang="en" className="font-medium">
+            {e.word.sentence.en}
+          </p>
+          <p className="text-fg-muted">{e.word.sentence.ko}</p>
+        </Section>
+      )}
+      {e.word?.related && e.word.related.length > 0 && (
+        <Section label="같은 뿌리의 단어">
+          <div className="flex flex-col gap-1.5">
+            {e.word.related.map((w) => (
+              <div key={w.word} className="flex items-baseline gap-2">
+                <span lang="en" className="font-semibold">
+                  {w.word}
+                </span>
+                <span className="ml-auto text-right text-[15px]">{w.meaning}</span>
+              </div>
+            ))}
+          </div>
+        </Section>
       )}
       {e.kanji?.words && e.kanji.words.length > 0 && (
         <Section label="이 한자가 들어간 말">
@@ -50,7 +78,22 @@ export function Explanation({ card }: { card: Card }) {
         </Section>
       )}
       {e.bonus && <Section label="덤 지식">{e.bonus}</Section>}
-      {card.asOf && <p className="text-xs text-fg-subtle">기준 시점: {formatAsOf(card.asOf)}</p>}
+      {(card.asOf || canReport) && (
+        <div className="flex items-center gap-3 text-xs text-fg-subtle">
+          {card.asOf && <span>기준 시점: {formatAsOf(card.asOf)}</span>}
+          {canReport && (
+            <a
+              href={reportUrl(card, item)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="-my-2 ml-auto flex items-center gap-1 py-2 active:text-fg-muted"
+            >
+              <Flag size={13} strokeWidth={2} />
+              문제 신고
+            </a>
+          )}
+        </div>
+      )}
     </div>
   )
 }
@@ -77,6 +120,18 @@ function KanjiHeader({ kanji }: { kanji: KanjiInfo }) {
           </span>
         )}
       </div>
+    </div>
+  )
+}
+
+/** The English word (or word part) and its part of speech. */
+function WordHeader({ word }: { word: WordInfo }) {
+  return (
+    <div className="flex items-baseline gap-3">
+      <span lang="en" className="text-3xl font-bold break-all">
+        {word.text}
+      </span>
+      {word.pos && <span className="shrink-0 text-sm text-fg-muted">{word.pos}</span>}
     </div>
   )
 }

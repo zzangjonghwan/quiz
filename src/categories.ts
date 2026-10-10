@@ -1,7 +1,7 @@
 import {
   Atom, BookOpen, BookType, Brain, Briefcase, Building2, Clapperboard, Cpu, Earth, Gavel, Globe, HeartPulse, Landmark, Music,
   Languages, Lightbulb, Mic, Newspaper, Palette, PawPrint, Quote, ScrollText, Sparkles, SpellCheck,
-  Sun, Trophy, User, UtensilsCrossed, Home, type LucideIcon,
+  Sun, Trophy, User, UtensilsCrossed, Home, WholeWord, type LucideIcon,
 } from 'lucide-react'
 import type { CategoryId, Difficulty } from './types'
 
@@ -79,7 +79,10 @@ export const CATEGORY_GROUPS: CategoryGroup[] = [
 /** Categories that only exist once their pack is downloaded in 설정 > 학습 팩. */
 export const PACK_GROUP: CategoryGroup = {
   name: '학습 팩',
-  categories: [{ id: 'kanji', name: '일본어 한자', icon: BookType }],
+  categories: [
+    { id: 'kanji', name: '일본어 한자', icon: BookType },
+    { id: 'english', name: '영단어 어원', icon: WholeWord },
+  ],
 }
 
 export const PACK_CATEGORIES = new Set<CategoryId>(PACK_GROUP.categories.map((c) => c.id))

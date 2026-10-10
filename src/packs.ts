@@ -5,7 +5,7 @@ import { Directory, Encoding, Filesystem } from '@capacitor/filesystem'
 import { getState, updateSettings } from './store'
 import type { CategoryFile, CategoryId } from './types'
 
-/** One entry of packs/index.json (written by scripts/build-packs.mjs). */
+/** One entry of packs/catalog.json (written by scripts/build-packs.mjs). */
 export interface PackInfo {
   id: string
   category: CategoryId
@@ -16,15 +16,15 @@ export interface PackInfo {
   bytes: number
 }
 
-// In development the generated files are served straight from the repo by Vite.
-const BASE = import.meta.env.DEV
-  ? '/packs/'
-  : 'https://raw.githubusercontent.com/zzangjonghwan/quiz/main/packs/'
+// In development the generated files are served straight from the repo by Vite. Otherwise they
+// come from the web version (GitHub Pages, which the Web workflow copies packs/ into); apps up to
+// v0.10 read raw.githubusercontent.com/…/main/packs/ instead, so packs/ stays in the repo too.
+const BASE = import.meta.env.DEV ? '/packs/' : 'https://zzangjonghwan.github.io/quiz/packs/'
 
 const localPath = (id: string) => `packs/${id}.json`
 
 export async function fetchPackIndex(): Promise<PackInfo[]> {
-  const res = await fetch(`${BASE}index.json?t=${Date.now()}`)
+  const res = await fetch(`${BASE}catalog.json?t=${Date.now()}`)
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   return ((await res.json()) as { packs: PackInfo[] }).packs
 }

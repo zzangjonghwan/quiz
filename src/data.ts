@@ -1,26 +1,21 @@
+import { CATEGORY_BY_ID } from './categories'
 import { loadInstalledPacks } from './packs'
-import type { Card, CategoryFile, CategoryId, Manifest } from './types'
+import type { Card, CategoryId } from './types'
+import { loadDataFiles } from './updates'
 
 export type QuestionBank = Map<CategoryId, Card[]>
 
-// Question data ships inside the app (public/data) so it works offline. Downloaded 학습 팩
-// (src/packs.ts) are added on top; call after loadStore(), which knows which packs are installed.
-const DATA_BASE = './data/'
-
-async function fetchJson<T>(path: string): Promise<T> {
-  const res = await fetch(DATA_BASE + path)
-  if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`)
-  return res.json() as Promise<T>
-}
-
+// Question data ships inside the app (public/data) so it works offline, and newer data downloaded by
+// 문제 업데이트 (src/updates.ts) replaces it. Downloaded 학습 팩 (src/packs.ts) are added on top; call
+// after loadStore(), which knows which packs are installed.
 export async function loadBank(): Promise<QuestionBank> {
-  const manifest = await fetchJson<Manifest>('manifest.json')
-  const files = [
-    ...(await Promise.all(manifest.files.map((f) => fetchJson<CategoryFile>(f.file)))),
-    ...(await loadInstalledPacks()),
-  ]
+  const files = [...(await loadDataFiles()), ...(await loadInstalledPacks())]
   const bank: QuestionBank = new Map()
-  for (const f of files) bank.set(f.category, [...(bank.get(f.category) ?? []), ...f.cards])
+  for (const f of files) {
+    // A category added by a later update needs a newer app to show it.
+    if (!CATEGORY_BY_ID[f.category]) continue
+    bank.set(f.category, [...(bank.get(f.category) ?? []), ...f.cards])
+  }
   return bank
 }
 
