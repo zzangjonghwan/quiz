@@ -5,10 +5,11 @@ import type { SessionItem } from './session'
 import type { Card } from './types'
 
 /**
- * The form's 미리 채워진 링크 (⋮ > 미리 채워진 링크 가져오기) with "QID" typed into 문제 번호 and
- * "QTEXT" into 문제 내용. Empty until the form exists, which hides the button.
+ * The "상식한입 문제 신고" form's 미리 채워진 링크 (⋮ > 양식 미리 작성) with "QID" typed into 문제 번호
+ * and "QTEXT" into 문제 내용. Responses are in the form's 응답 tab. An empty string hides the button.
  */
-const FORM = ''
+const FORM =
+  'https://docs.google.com/forms/d/e/1FAIpQLSfp6SVmqoGRdmTXtcc8TctCY4eGqDP9pSICQFDFTQz4JgzdtQ/viewform?usp=pp_url&entry.1014283677=QID&entry.2058845456=QTEXT'
 
 export const canReport = FORM !== ''
 
