@@ -1,12 +1,10 @@
-import { ChevronRight, Download, LoaderCircle, Play, Square, Trash2 } from 'lucide-react'
+import { ChevronRight, Download, LoaderCircle, Trash2 } from 'lucide-react'
 import { useEffect, useState, type ReactNode } from 'react'
 import { categoryGroups } from '../categories'
 import { Header, PrimaryButton, Screen, SecondaryButton, Segmented } from '../components/ui'
 import { useBackHandler } from '../native'
 import { fetchPackIndex, installPack, removePack, type PackInfo } from '../packs'
-import { pause, switchVoice, usePlayer } from '../player'
 import { resetProgress, updateSettings, useStore } from '../store'
-import { recordedVoices, VOICES, type VoiceId } from '../stories'
 import type { CategoryId } from '../types'
 
 export function SettingsScreen({
@@ -86,10 +84,6 @@ export function SettingsScreen({
             <span className="text-[15px]">효과음 고르기</span>
             <ChevronRight size={18} className="text-fg-subtle" />
           </button>
-        </Group>
-
-        <Group title="상식플러스">
-          <VoicePicker />
         </Group>
 
         <Group title="학습 팩">
@@ -235,79 +229,6 @@ function PackList({ onChanged }: { onChanged: () => void }) {
         )
       })}
       {error && <p className="text-xs text-wrong">{error}</p>}
-    </div>
-  )
-}
-
-let previewAudio: HTMLAudioElement | null = null
-
-/** 목소리 choice for 상식플러스, each with a short preview clip. */
-function VoicePicker() {
-  const { settings } = useStore()
-  const { playing } = usePlayer()
-  const [previewing, setPreviewing] = useState<VoiceId | null>(null)
-  const [recorded, setRecorded] = useState<Set<VoiceId> | null>(null)
-
-  useEffect(() => () => previewAudio?.pause(), [])
-  useEffect(() => {
-    void recordedVoices().then(setRecorded, () => setRecorded(new Set(['arin'])))
-  }, [])
-
-  const shown = VOICES.filter((v) => recorded?.has(v.id))
-  // A voice picked earlier but no longer offered plays as 모아, so show 모아 as the choice.
-  const chosen = recorded?.has(settings.storyVoice) ? settings.storyVoice : 'moa'
-
-  const preview = (id: VoiceId) => {
-    previewAudio?.pause()
-    if (previewing === id) {
-      setPreviewing(null)
-      return
-    }
-    if (playing) pause()
-    previewAudio = new Audio(`${import.meta.env.BASE_URL}voices/${id}.mp3`)
-    previewAudio.onended = () => setPreviewing(null)
-    void previewAudio.play().catch(() => setPreviewing(null))
-    setPreviewing(id)
-  }
-
-  const choose = (id: VoiceId) => {
-    updateSettings({ storyVoice: id })
-    switchVoice(id)
-  }
-
-  return (
-    <div className="flex flex-col gap-2">
-      <span className="text-[15px]">목소리</span>
-      {shown.map((v) => {
-        const on = chosen === v.id
-        return (
-          <div key={v.id} className="flex items-center gap-2">
-            <button
-              onClick={() => choose(v.id)}
-              aria-pressed={on}
-              className={`flex flex-1 items-center gap-3 rounded-xl px-3 py-2.5 text-left transition-colors ${
-                on ? 'bg-accent/15 ring-1 ring-accent/50' : 'bg-surface-2'
-              }`}
-            >
-              <span className={`flex size-4 items-center justify-center rounded-full border-2 ${on ? 'border-accent' : 'border-fg-subtle'}`}>
-                {on && <span className="size-2 rounded-full bg-accent" />}
-              </span>
-              <span className="flex flex-col">
-                <span className="text-[15px] font-semibold">{v.name}</span>
-                <span className="text-xs text-fg-subtle">{v.desc}</span>
-              </span>
-            </button>
-            <button
-              onClick={() => preview(v.id)}
-              aria-label={`${v.name} 목소리 미리 듣기`}
-              className="flex size-11 shrink-0 items-center justify-center rounded-full bg-surface-2"
-            >
-              {previewing === v.id ? <Square size={16} fill="currentColor" /> : <Play size={18} fill="currentColor" className="ml-0.5" />}
-            </button>
-          </div>
-        )
-      })}
-      <p className="text-xs text-fg-subtle">듣던 이야기는 같은 자리에서 바뀐 목소리로 이어져요.</p>
     </div>
   )
 }

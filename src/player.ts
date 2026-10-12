@@ -3,7 +3,7 @@
 // it falls back to an <audio> element.
 import { Capacitor, registerPlugin, type PluginListenerHandle } from '@capacitor/core'
 import { useSyncExternalStore } from 'react'
-import { convertPosition, download, inVoice, isDownloaded, playableUrl, voiceName, type Story, type VoiceId } from './stories'
+import { convertPosition, download, isDownloaded, playableUrl, voiceName, type Story } from './stories'
 import { getState as getStore, saveListening } from './store'
 
 interface NativeState {
@@ -143,15 +143,6 @@ export async function playStory(story: Story, from?: number, autoplay = true) {
     if (autoplay) await a.play().catch(() => set({ buffering: false }))
     else set({ buffering: false })
   }
-}
-
-/** Moves the loaded story (if any) to another voice at the same spot, keeping play/pause. */
-export function switchVoice(voice: VoiceId) {
-  const { story, position, playing } = state
-  if (!story || story.voice === voice) return
-  const next = inVoice(story, voice)
-  if (next.voice === story.voice) return
-  void playStory(next, convertPosition(next, story.voice, position), playing)
 }
 
 export function toggle() {

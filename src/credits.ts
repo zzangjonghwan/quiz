@@ -36,10 +36,19 @@ export const CREDITS: Record<string, Credit> = {
     license: 'ElevenLabs 이용 약관 (출처 표기)',
     url: 'https://elevenlabs.io',
   },
+  'fish-audio': {
+    title: 'Built with Fish Audio',
+    usedFor: '상식플러스 이야기 음성 (모아)',
+    author: 'Fish Audio S2 Pro로 음성 생성',
+    // The license asks for this exact notice wherever its outputs are distributed.
+    license:
+      'Fish Audio Research License (비상업적 이용). This model is licensed under the Fish Audio Research License, Copyright © 39 AI, INC. All Rights Reserved.',
+    url: 'https://fish.audio',
+  },
   'gemini-tts': {
     title: 'Google Gemini TTS',
-    usedFor: '상식플러스 이야기 음성 (모아, 아린)',
-    author: 'Google Gemini 음성 생성(Leda, Aoede 음성)으로 제작',
+    usedFor: '모아 목소리의 바탕이 된 음성 샘플',
+    author: 'Google Gemini 음성 생성(Leda 음성)으로 제작',
     license: 'Google Gemini API 이용 약관',
   },
 }

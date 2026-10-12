@@ -6,13 +6,13 @@ import { BookOpen, Brain, Landmark, Palette, ScrollText, Sparkles, type LucideIc
 
 export type StoryCategory = 'samguk' | 'myth' | 'tarot' | 'art' | 'history' | 'wisdom'
 
-export type VoiceId = 'moa' | 'arin' | 'doyoung'
+// Every story is read by 모아. 아린 recordings (up to v0.12) are no longer listed, but a listening
+// position saved in that voice still carries over (convertPosition).
+export type VoiceId = 'moa' | 'arin'
 
-/** The narrators to pick from in 설정 (Gemini and Fish Audio voices; previews ship in public/voices). */
-export const VOICES: { id: VoiceId; name: string; desc: string }[] = [
-  { id: 'moa', name: '모아', desc: '명랑하고 생기 있는 목소리' },
-  { id: 'arin', name: '아린', desc: '밝고 부드러운 목소리' },
-  { id: 'doyoung', name: '도영', desc: '차분하고 또렷한 목소리' },
+const VOICES: { id: VoiceId; name: string }[] = [
+  { id: 'moa', name: '모아' },
+  { id: 'arin', name: '아린' },
 ]
 
 /** One recording of a story. */
@@ -53,19 +53,12 @@ const AUDIO_BASE = import.meta.env.DEV
 
 let cache: Promise<StoryData[]> | null = null
 
-/** The stories in the chosen voice (모아, then 아린, wherever that one isn't recorded). */
-export function loadStories(voice: VoiceId) {
+/** The stories, each in the given voice where recorded (otherwise 모아). */
+export function loadStories(voice: VoiceId = 'moa') {
   cache ??= fetch(`${import.meta.env.BASE_URL}data/stories.json`)
     .then((r) => r.json() as Promise<{ stories: StoryData[] }>)
     .then((d) => d.stories)
   return cache.then((list) => list.map((s) => inVoice(s, voice)))
-}
-
-/** Voices with at least one recorded story; the others stay hidden in 설정. */
-export async function recordedVoices() {
-  await loadStories('arin')
-  const list = await cache!
-  return new Set(list.flatMap((s) => Object.keys(s.voices) as VoiceId[]))
 }
 
 export function inVoice(story: StoryData, voice: VoiceId): Story {

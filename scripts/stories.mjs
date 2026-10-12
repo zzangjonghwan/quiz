@@ -28,10 +28,10 @@ const AUDIO = join(OUT, 'audio')
  * stories already voiced on an older model (`kept`) stay as they are instead of being redone.
  */
 const VOICES = {
-  arin: { name: 'Aoede', model: 'gemini-3.8-flash-tts', kept: [] },
-  // New takes come from Fish S2 Pro cloning a 25s Gemini Leda clip; the Gemini takes stay.
-  moa: { ...localFish('moa'), kept: ['gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts'], keptName: 'Leda' },
-  doyoung: { ...localFish('doyoung'), kept: [] },
+  // The app's only voice since v0.13: Fish S2 Pro cloning a 25s Gemini Leda clip. (아린 and the
+  // Gemini 모아 takes were dropped so every story sounds the same; their files stay on the stories
+  // branch for older apps.) Gemini voices would look like { name: 'Leda', model: 'gemini-3.8-flash-tts' }.
+  moa: { ...localFish('moa'), kept: [] },
 }
 
 /**

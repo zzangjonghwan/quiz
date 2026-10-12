@@ -58,8 +58,8 @@ export default function App() {
   useEffect(() => applyTheme(settings.theme), [settings.theme])
 
   useEffect(() => {
-    void loadStories(settings.storyVoice).then(setStories, () => {})
-  }, [settings.storyVoice])
+    void loadStories().then(setStories, () => {})
+  }, [])
 
   if (loadError) {
     return <Centered>문제를 불러오지 못했어요.<br />{loadError}</Centered>

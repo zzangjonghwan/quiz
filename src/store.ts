@@ -46,8 +46,6 @@ export interface Settings {
   soundPicks: Partial<Record<SoundName, string>>
   /** Bumped when the default sounds change, so old picks give way to the new defaults. */
   soundVersion: number
-  /** Narrator for 상식플러스. */
-  storyVoice: VoiceId
   /** Downloaded 학습 팩 (the files themselves live in app storage, see src/packs.ts). */
   packs: InstalledPack[]
 }
@@ -89,7 +87,6 @@ const DEFAULT_SETTINGS: Settings = {
   sound: true,
   soundPicks: {},
   soundVersion: 3,
-  storyVoice: 'moa',
   packs: [],
 }
 

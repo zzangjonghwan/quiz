@@ -10,6 +10,7 @@ import type { Card, KanjiInfo, WordInfo } from '../types'
  */
 export function Explanation({ card, item }: { card: Card; item?: SessionItem }) {
   const e = card.explanation
+  const notice = NOTICES[card.id.split('-')[0]]
   return (
     <div className="flex flex-col gap-4 rounded-2xl bg-surface p-5">
       {e.kanji && <KanjiHeader kanji={e.kanji} />}
@@ -78,6 +79,7 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
         </Section>
       )}
       {e.bonus && <Section label="덤 지식">{e.bonus}</Section>}
+      {notice && <p className="text-xs leading-relaxed text-fg-subtle">{notice}</p>}
       {(card.asOf || canReport) && (
         <div className="flex items-center gap-3 text-xs text-fg-subtle">
           {card.asOf && <span>기준 시점: {formatAsOf(card.asOf)}</span>}
@@ -96,6 +98,13 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
       )}
     </div>
   )
+}
+
+/** Shown under explanations where acting on general knowledge alone could hurt. */
+const NOTICES: Record<string, string> = {
+  health: '일반적인 건강 정보예요. 증상이나 치료는 의사·약사와 상담하세요.',
+  law: '일반적인 법률 정보예요. 실제 사건은 변호사 등 전문가와 상담하세요.',
+  economy: '일반적인 경제 상식이에요. 투자 권유가 아니에요.',
 }
 
 /** The kanji itself, its Korean hanja name and its Japanese readings. */
