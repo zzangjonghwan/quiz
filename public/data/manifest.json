@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "id": "4c082c1ce3e3",
-  "built": "2026-10-10T04:11:07.727Z",
+  "id": "40f727a61a2a",
+  "built": "2026-10-12T07:06:36.138Z",
   "version": 214,
   "files": [
     {
@@ -776,7 +776,7 @@
       "category": "law",
       "file": "law.m2.json",
       "version": 1,
-      "hash": "0f9111a8102b"
+      "hash": "b091681c81d8"
     },
     {
       "category": "law",
@@ -1214,13 +1214,13 @@
       "category": "news",
       "file": "news.json",
       "version": 1,
-      "hash": "83d4dc9014aa"
+      "hash": "94c235382f17"
     },
     {
       "category": "news",
       "file": "news.m.json",
       "version": 1,
-      "hash": "9534059324b9"
+      "hash": "a47409615b7c"
     },
     {
       "category": "news",
@@ -1232,7 +1232,7 @@
       "category": "news",
       "file": "news.m3.json",
       "version": 1,
-      "hash": "0c408738d0c5"
+      "hash": "4d00642d6ee2"
     },
     {
       "category": "news",
