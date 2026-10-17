@@ -4,6 +4,7 @@ import { hintText, judge, type Verdict } from '../answer'
 import { CATEGORY_BY_ID, DIFFICULTY_LABEL } from '../categories'
 import { CardImage } from '../components/CardImage'
 import { Explanation } from '../components/Explanation'
+import { SpeakButton } from '../components/SpeakButton'
 import { PrimaryButton, Screen, SecondaryButton } from '../components/ui'
 import { celebrate, clearFx, extinguish, fireworks, flashWrong, floatText, setFlame } from '../fx'
 import { comboLevel, isMilestone, pointsFor, type GameResult } from '../game'
@@ -195,17 +196,7 @@ export function Quiz({
           <h2 className="text-xl leading-snug font-bold">{item.prompt}</h2>
         </div>
 
-        {item.kind === 'mcq' &&
-          item.glyph &&
-          (isHan(item.glyph) ? (
-            <div lang="ja" className="flex justify-center rounded-2xl bg-surface py-6 text-7xl leading-none font-medium">
-              {item.glyph}
-            </div>
-          ) : (
-            <div lang="en" className="flex justify-center rounded-2xl bg-surface px-4 py-7 text-center text-4xl font-bold break-all">
-              {item.glyph}
-            </div>
-          ))}
+        {item.kind === 'mcq' && item.glyph && <Glyph item={item} />}
 
         {item.card.image && <CardImage image={item.card.image} />}
 
@@ -437,10 +428,39 @@ function Verdict({ correct, text, points }: { correct: boolean; text?: string; p
 type ChoiceState = 'idle' | 'correct' | 'wrong' | 'dim'
 
 const isHan = (text: string) => /\p{Script=Han}|[⺀-⿕]/u.test(text)
+const isJapanese = (text: string) => /\p{Script=Han}|\p{Script=Hiragana}|\p{Script=Katakana}|[⺀-⿕]/u.test(text) && !/\p{Script=Hangul}/u.test(text)
 /** A one- or two-character kanji/radical choice, shown large in a Japanese font. */
 const isGlyph = (label: string) => [...label].length <= 2 && isHan(label)
 /** An English word or word part (영단어 팩), shown a little larger. */
 const isLatin = (label: string) => /^[A-Za-z][A-Za-z' -]*$|^-[a-z]+$/.test(label)
+
+/**
+ * The character, word or sentence a 학습 팩 question is about: big for a kanji, smaller as it gets
+ * longer, with its reading (or a sentence's translation) underneath and a pronunciation button.
+ */
+function Glyph({ item }: { item: McqItem }) {
+  const text = item.glyph!
+  const ja = isJapanese(text)
+  const length = [...text].length
+  const size = !ja ? 'text-4xl font-bold break-all' : length <= 2 ? 'text-7xl leading-none font-medium' : length <= 6 ? 'text-5xl font-medium' : 'text-2xl leading-relaxed font-medium'
+  return (
+    <div className="relative flex flex-col items-center gap-2 rounded-2xl bg-surface px-4 py-6 text-center">
+      <span lang={ja ? 'ja' : 'en'} className={size}>
+        {text}
+      </span>
+      {item.glyphSub && (
+        <span lang={isJapanese(item.glyphSub) ? 'ja' : undefined} className="text-base text-fg-muted">
+          {item.glyphSub}
+        </span>
+      )}
+      {item.audio && (
+        <div className="absolute top-2 right-2">
+          <SpeakButton file={item.audio} />
+        </div>
+      )}
+    </div>
+  )
+}
 
 const CHOICE_STYLES: Record<ChoiceState, string> = {
   idle: 'bg-surface active:bg-surface-2',
@@ -486,6 +506,10 @@ function ChoiceButton({
         </span>
       ) : isLatin(label) ? (
         <span lang="en" className="flex-1 text-lg font-semibold">
+          {label}
+        </span>
+      ) : isJapanese(label) ? (
+        <span lang="ja" className="flex-1 text-lg">
           {label}
         </span>
       ) : (

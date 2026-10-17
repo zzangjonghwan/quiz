@@ -45,6 +45,13 @@ export const CREDITS: Record<string, Credit> = {
       'Fish Audio Research License (비상업적 이용). This model is licensed under the Fish Audio Research License, Copyright © 39 AI, INC. All Rights Reserved.',
     url: 'https://fish.audio',
   },
+  voicevox: {
+    title: 'VOICEVOX:冥鳴ひまり',
+    usedFor: '일본어 단어 팩 발음',
+    author: 'VOICEVOX(무료 음성 합성 소프트웨어)의 冥鳴ひまり(메이메이 히마리) 음성으로 생성',
+    license: 'VOICEVOX 이용 약관, 冥鳴ひまり 이용 규약 (출처 표기 시 상업·비상업 이용 가능)',
+    url: 'https://voicevox.hiroshiba.jp',
+  },
   'gemini-tts': {
     title: 'Google Gemini TTS',
     usedFor: '모아 목소리의 바탕이 된 음성 샘플',

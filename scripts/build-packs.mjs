@@ -55,6 +55,15 @@ const PACKS = [
     // Apps up to v0.10 don't know this category, so it is listed only in catalog.json.
     newApps: true,
   },
+  {
+    id: 'jp-n4',
+    category: 'japanese',
+    kind: 'japanese',
+    name: '일본어 단어 (JLPT N4)',
+    desc: '한국어 한자음 다리, 헷갈리는 짝, 일상 예문, 원어민 발음으로 익히는 N4 단어',
+    minVersion: '0.14.0',
+    newApps: true,
+  },
 ]
 
 const errors = []
@@ -321,14 +330,123 @@ async function buildEnglish(pack) {
   })
 }
 
-const BUILDERS = { kanji: buildKanji, english: buildEnglish }
+const JP_POS = ['명사', '동사', 'い형용사', 'な형용사', '부사', '표현']
+const hasKanji = (s) => /\p{Script=Han}/u.test(s)
+const isJapanese = (s) => /^[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}ー〜・]+$/u.test(s)
+/** Stable id from the word and its reading, so cards keep their progress when files are reordered. */
+const jpId = (w, r) => createHash('sha1').update(`${w}|${r ?? ''}`).digest('hex').slice(0, 10)
+
+async function buildJapanese(pack) {
+  const entries = []
+  for (const { c, file } of await readCards(pack)) {
+    const where = `${pack.id}/${file} ${c.w}`
+    if (!c.w || !isJapanese(c.w)) errors.push(`${where}: w는 일본어 단어`)
+    if (hasKanji(c.w) && !c.r) errors.push(`${where}: 한자가 있으면 r(읽기)이 필요함`)
+    if (c.r && !/^[\p{Script=Hiragana}\p{Script=Katakana}ー]+$/u.test(c.r)) errors.push(`${where}: r은 가나로만`)
+    if (!DIFF[c.d]) errors.push(`${where}: d는 e/n/h`)
+    if (!c.m) errors.push(`${where}: m(뜻)은 필수`)
+    if (!JP_POS.includes(c.pos)) errors.push(`${where}: pos는 ${JP_POS.join('/')}`)
+    let sentence
+    if (c.ex) {
+      const [ja, ko] = c.ex.split('=').map((s) => s?.trim())
+      if (!ja || !ko) errors.push(`${where}: ex는 '일본어 예문=번역' 형식`)
+      else {
+        const blank = ja.match(/\{(.+?)\}/)?.[1]
+        if (!blank) errors.push(`${where}: 예문에서 이 단어를 {…}로 표시해야 함`)
+        sentence = { ja: ja.replace(/[{}]/g, ''), ko, blank, gap: ja.replace(/\{.+?\}/, '＿＿') }
+      }
+    }
+    const id = `japanese-${jpId(c.w, c.r)}`
+    entries.push({
+      ...c,
+      // wrongChars() reads hand-picked wrong choices from `w`, which here is the word itself.
+      w: undefined,
+      word: c.w,
+      char: c.w,
+      id,
+      where,
+      sentence,
+      label: c.r && hasKanji(c.w) ? `${c.w}（${c.r}）` : c.w,
+      bridgeParts: c.kb && parseParts(where, c.kb)?.map((p) => ({ ja: p.part, ko: p.meaning })),
+    })
+  }
+  checkDuplicates(entries)
+  const byWord = new Map(entries.map((e) => [e.word, e]))
+  for (const e of entries) if (e.vs && !byWord.has(e.vs)) errors.push(`${e.where}: vs(헷갈리는 짝) '${e.vs}'가 팩에 없음`)
+
+  return entries.map((e) => {
+    const samePos = entries.filter((x) => x.pos === e.pos)
+    const pool = samePos.length >= 8 ? samePos : entries
+    const pair = e.vs ? byWord.get(e.vs) : undefined
+    const audio = `${e.id.replace('japanese-', '')}.mp3`
+    const others = (pick, seed, filter = () => true) => {
+      const out = []
+      for (const x of seededShuffle(pool.filter((x) => x !== e && filter(x) && !overlaps(x.m, e.m) && !(e.syn ?? []).includes(x.word)), e.id + seed)) {
+        const v = pick(x)
+        if (v && !out.includes(v) && v !== pick(e)) out.push(v)
+        if (out.length === 3) break
+      }
+      return out
+    }
+    const meanings = wrongMeanings({ ...e, char: e.word }, pool.map((x) => ({ ...x, char: x.word })), e.id + 'm')
+    // The look-alike goes first among the wrong words, so the pair meets head-on, unless the two
+    // mean nearly the same (思う/考える), where it would make two right answers.
+    const contrast = pair && !overlaps(pair.m, e.m) ? [pair.label] : []
+    const wrongWords = [...contrast, ...others((x) => x.label, 'w')].filter((v, i, a) => a.indexOf(v) === i).slice(0, 3)
+    const questions = [
+      { mode: 'mcq', prompt: '이 단어의 뜻으로 알맞은 것은?', glyph: e.word, ...(e.label !== e.word && { glyphSub: e.r }), audio, choices: [e.m, ...meanings] },
+      { mode: 'mcq', prompt: `${quoted(e.m)} 뜻의 일본어는?`, choices: [e.label, ...wrongWords] },
+    ]
+    if (hasKanji(e.word)) {
+      // Wrong readings: words sharing a kanji first (電車 → でんわ), then any of similar length.
+      const chars = [...e.word].filter(hasKanji)
+      const sharing = others((x) => x.r, 'r', (x) => x.r && [...x.word].some((ch) => chars.includes(ch)))
+      const rest = others((x) => x.r, 'r2', (x) => x.r && Math.abs(x.r.length - e.r.length) <= 1)
+      const readings = [...new Set([...sharing, ...rest])].filter((r) => r !== e.r).slice(0, 3)
+      if (readings.length === 3) questions.push({ mode: 'mcq', prompt: '이 단어는 어떻게 읽을까?', glyph: e.word, audio, choices: [e.r, ...readings] })
+    }
+    if (e.kr) {
+      const kos = others((x) => x.kr, 'k')
+      if (kos.length === 3)
+        questions.push({ mode: 'mcq', prompt: '같은 한자를 쓰는 한국어 단어는?', glyph: e.word, glyphSub: e.r, audio, choices: [e.kr, ...kos] })
+    }
+    if (e.sentence?.blank === e.word) {
+      questions.push({ mode: 'mcq', prompt: '빈칸에 알맞은 말은?', glyph: e.sentence.gap, glyphSub: e.sentence.ko, choices: [e.label, ...wrongWords] })
+    }
+    const jp = {
+      word: e.word,
+      ...(e.label !== e.word && { reading: e.r }),
+      pos: e.pos,
+      audio,
+      ...(e.kr && { bridge: { ko: e.kr, ...(e.bridgeParts && { parts: e.bridgeParts }), ...(e.kt && { rule: e.kt }) } }),
+      ...(e.sentence && { sentence: { ja: e.sentence.ja, ko: e.sentence.ko, audio: audio.replace('.mp3', '-ex.mp3') } }),
+      ...(pair && { pair: { word: pair.word, ...(pair.label !== pair.word && { reading: pair.r }), meaning: pair.m, note: e.vn ?? '' } }),
+    }
+    return {
+      id: e.id,
+      difficulty: DIFF[e.d],
+      answer: e.word,
+      questions,
+      explanation: {
+        jp,
+        meaning: e.m,
+        ...(e.t && { tip: e.t }),
+        ...(e.x && { bonus: e.x }),
+      },
+    }
+  })
+}
+
+const BUILDERS = { kanji: buildKanji, english: buildEnglish, japanese: buildJapanese }
 
 mkdirSync(OUT, { recursive: true })
-// catalog.json lists every pack and is what the app reads (src/packs.ts). index.json is the older
-// list that apps up to v0.10 read, so it only has the packs those apps can show.
+// Pack lists, newest first. The app reads catalog-v2.json (src/packs.ts) and hides packs whose
+// minVersion is newer than itself. Older apps read older lists, which only name packs they can show:
+// catalog.json (v0.11–v0.13, no packs with a minVersion) and index.json (up to v0.10).
+const catalog2Path = join(OUT, 'catalog-v2.json')
 const catalogPath = join(OUT, 'catalog.json')
 const indexPath = join(OUT, 'index.json')
-const previous = [catalogPath, indexPath].filter(existsSync).flatMap((f) => JSON.parse(readFileSync(f, 'utf8')).packs)
+const previous = [catalog2Path, catalogPath, indexPath].filter(existsSync).flatMap((f) => JSON.parse(readFileSync(f, 'utf8')).packs)
 const index = []
 for (const { kind, newApps, ...pack } of PACKS) {
   const cards = await BUILDERS[kind](pack)
@@ -355,5 +473,6 @@ if (errors.length) {
   process.exit(1)
 }
 const listed = (packs) => JSON.stringify({ packs: packs.map(({ newApps, ...p }) => p) }, null, 2) + '\n'
-writeFileSync(catalogPath, listed(index))
-writeFileSync(indexPath, listed(index.filter((p) => !p.newApps)))
+writeFileSync(catalog2Path, listed(index))
+writeFileSync(catalogPath, listed(index.filter((p) => !p.minVersion)))
+writeFileSync(indexPath, listed(index.filter((p) => !p.newApps && !p.minVersion)))

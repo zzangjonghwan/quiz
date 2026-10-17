@@ -1,9 +1,10 @@
 // Publishes the story MP3s listed in public/data/stories.json to the repo's `stories` branch,
 // which the app downloads from (raw.githubusercontent.com). Run after `node scripts/stories.mjs`.
+// The 일본어 단어 팩 pronunciation clips in .stories/jp (scripts/jp-audio.mjs) go to jp/ there too.
 // The branch holds only audio/. Files no longer referenced stay, because installed older app
 // versions carry their own stories.json and still point at them.
 import { execFileSync } from 'node:child_process'
-import { copyFileSync, existsSync, mkdirSync, readFileSync } from 'node:fs'
+import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -34,11 +35,18 @@ for (const f of wanted) {
   copyFileSync(src, join(audioDir, f))
 }
 
-git(['add', '-A', 'audio'], WORK)
+const jpSrc = join(ROOT, '.stories', 'jp')
+const jpFiles = existsSync(jpSrc) ? readdirSync(jpSrc).filter((f) => f.endsWith('.mp3')) : []
+if (jpFiles.length) {
+  mkdirSync(join(WORK, 'jp'), { recursive: true })
+  for (const f of jpFiles) copyFileSync(join(jpSrc, f), join(WORK, 'jp', f))
+}
+
+git(['add', '-A', 'audio', ...(jpFiles.length ? ['jp'] : [])], WORK)
 if (git(['status', '--porcelain'], WORK)) {
-  git(['commit', '-q', '-m', `이야기 음성 파일 ${wanted.size}개`], WORK)
+  git(['commit', '-q', '-m', `이야기 음성 파일 ${wanted.size}개, 일본어 발음 ${jpFiles.length}개`], WORK)
   git(['push', '-q', 'origin', 'stories'], WORK)
-  console.log(`✓ stories 브랜치에 음성 파일 ${wanted.size}개`)
+  console.log(`✓ stories 브랜치에 음성 파일 ${wanted.size}개, 일본어 발음 ${jpFiles.length}개`)
 } else {
   console.log('바뀐 음성 없음')
 }

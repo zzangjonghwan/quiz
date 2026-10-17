@@ -5,7 +5,7 @@ import { Directory, Encoding, Filesystem } from '@capacitor/filesystem'
 import { getState, updateSettings } from './store'
 import type { CategoryFile, CategoryId } from './types'
 
-/** One entry of packs/catalog.json (written by scripts/build-packs.mjs). */
+/** One entry of packs/catalog-v2.json (written by scripts/build-packs.mjs). */
 export interface PackInfo {
   id: string
   category: CategoryId
@@ -14,6 +14,15 @@ export interface PackInfo {
   version: number
   cards: number
   bytes: number
+  /** The first app version that can show this pack. */
+  minVersion?: string
+}
+
+/** Whether version a (like "0.14.0") is at least b. */
+function atLeast(a: string, b: string) {
+  const [x, y] = [a, b].map((v) => v.split('.').map(Number))
+  for (let i = 0; i < 3; i++) if ((x[i] ?? 0) !== (y[i] ?? 0)) return (x[i] ?? 0) > (y[i] ?? 0)
+  return true
 }
 
 // In development the generated files are served straight from the repo by Vite. Otherwise they
@@ -24,9 +33,10 @@ const BASE = import.meta.env.DEV ? '/packs/' : 'https://zzangjonghwan.github.io/
 const localPath = (id: string) => `packs/${id}.json`
 
 export async function fetchPackIndex(): Promise<PackInfo[]> {
-  const res = await fetch(`${BASE}catalog.json?t=${Date.now()}`)
+  const res = await fetch(`${BASE}catalog-v2.json?t=${Date.now()}`)
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
-  return ((await res.json()) as { packs: PackInfo[] }).packs
+  const { packs } = (await res.json()) as { packs: PackInfo[] }
+  return packs.filter((p) => !p.minVersion || atLeast(__APP_VERSION__, p.minVersion))
 }
 
 /** Downloads (or updates) a pack. A newly added pack stays out of 종합 until turned on there. */
@@ -73,4 +83,16 @@ export async function loadInstalledPacks(): Promise<CategoryFile[]> {
     }
   }
   return files
+}
+
+/** A pack's cards straight from the web, without installing it (for a shared question). */
+export async function fetchPackCards(category: CategoryId) {
+  const packs = (await fetchPackIndex()).filter((p) => p.category === category)
+  const files = await Promise.all(
+    packs.map(async (p) => {
+      const res = await fetch(`${BASE}${p.id}.json?v=${p.version}`)
+      return res.ok ? ((await res.json()) as CategoryFile).cards : []
+    }),
+  )
+  return files.flat()
 }

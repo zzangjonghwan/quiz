@@ -59,5 +59,6 @@ export function hintText(answer: string, level: 1 | 2) {
 
 /** Answers short and unambiguous enough to type (hanja and kanji can't be typed on a Korean keyboard). */
 export function isTypeable(answer: string) {
-  return normalize(answer).length <= 12 && !/[,<>]/.test(answer) && !/\p{Script=Han}/u.test(answer)
+  // Kanji and kana answers would need a Japanese keyboard, so those cards stay multiple-choice.
+  return normalize(answer).length <= 12 && !/[,<>]/.test(answer) && !/\p{Script=Han}|\p{Script=Hiragana}|\p{Script=Katakana}/u.test(answer)
 }

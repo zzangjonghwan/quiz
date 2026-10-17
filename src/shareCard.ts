@@ -180,26 +180,23 @@ export async function drawResultCard(data: ShareCardData) {
   return canvas
 }
 
-/** Draws the card and opens the share sheet (or downloads the image where sharing files isn't possible). */
-export async function shareResult(data: ShareCardData) {
-  const canvas = await drawResultCard(data)
-  const text = `상식한입 ${data.subtitle} ${data.correct}/${data.total} 맞혔어요. 너도 풀어 봐 → ${WEB_URL}`
-
+/** Opens the share sheet with an image and text (or downloads the image where sharing files isn't possible). */
+async function shareImage(canvas: HTMLCanvasElement, text: string, name: string, dialogTitle: string) {
   if (Capacitor.isNativePlatform()) {
     const base64 = canvas.toDataURL('image/png').split(',')[1]
     const { uri } = await Filesystem.writeFile({
-      path: `share/result-${Date.now()}.png`,
+      path: `share/${name}-${Date.now()}.png`,
       data: base64,
       directory: Directory.Cache,
       recursive: true,
     })
-    await Share.share({ title: '상식한입 결과', text, files: [uri], dialogTitle: '결과 공유' })
+    await Share.share({ title: '상식한입', text, files: [uri], dialogTitle })
     return
   }
 
   const blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, 'image/png'))
   if (!blob) throw new Error('이미지를 만들지 못했어요')
-  const file = new File([blob], '상식한입-결과.png', { type: 'image/png' })
+  const file = new File([blob], `상식한입-${name}.png`, { type: 'image/png' })
   if (navigator.canShare?.({ files: [file] })) {
     await navigator.share({ files: [file], text })
     return
@@ -209,4 +206,106 @@ export async function shareResult(data: ShareCardData) {
   a.download = file.name
   a.click()
   setTimeout(() => URL.revokeObjectURL(a.href), 10_000)
+}
+
+/** Draws the result card and opens the share sheet. */
+export async function shareResult(data: ShareCardData) {
+  const canvas = await drawResultCard(data)
+  const text = `상식한입 ${data.subtitle} ${data.correct}/${data.total} 맞혔어요. 너도 풀어 봐 → ${WEB_URL}`
+  await shareImage(canvas, text, '결과', '결과 공유')
+}
+
+export interface QuestionCardData {
+  /** e.g. "일본어 단어" */
+  category: string
+  prompt: string
+  glyph?: string
+  glyphSub?: string
+  choices: string[]
+  /** Opens this exact question in the web version. */
+  link: string
+}
+
+/** One question without its answer, to throw at a group chat (단톡방에 내기). */
+export async function drawQuestionCard(data: QuestionCardData) {
+  const text = JSON.stringify(data) + '상식한입이문제맞힐수있어?정답은여기서'
+  await Promise.all([400, 600, 800].map((w) => document.fonts.load(font(w, 40), text))).catch(() => {})
+
+  const canvas = document.createElement('canvas')
+  canvas.width = W
+  canvas.height = H
+  const ctx = canvas.getContext('2d')!
+  ctx.fillStyle = C.bg
+  ctx.fillRect(0, 0, W, H)
+
+  ctx.font = font(800, 52)
+  ctx.fillStyle = C.fg
+  ctx.fillText('상식', PAD, PAD + 44)
+  ctx.fillStyle = C.accent
+  ctx.fillText('한입', PAD + ctx.measureText('상식').width, PAD + 44)
+
+  let y = PAD + 140
+  ctx.font = font(600, 32)
+  ctx.fillStyle = C.accent
+  ctx.fillText(`${data.category} · 이 문제, 맞힐 수 있어?`, PAD, y)
+  y += 40
+  ctx.font = font(800, 50)
+  ctx.fillStyle = C.fg
+  for (const line of wrap(ctx, data.prompt, W - PAD * 2, 3)) {
+    y += 66
+    ctx.fillText(line, PAD, y)
+  }
+
+  if (data.glyph) {
+    const length = [...data.glyph].length
+    const size = length <= 2 ? 170 : length <= 6 ? 110 : 56
+    ctx.font = font(600, size)
+    const lines = wrap(ctx, data.glyph, W - PAD * 2 - 80, 3)
+    const boxH = lines.length * size * 1.25 + (data.glyphSub ? 70 : 0) + 70
+    y += 40
+    roundRect(ctx, PAD, y, W - PAD * 2, boxH, 32, C.surface)
+    ctx.textAlign = 'center'
+    ctx.font = font(600, size)
+    ctx.fillStyle = C.fg
+    let ly = y + 35
+    for (const line of lines) {
+      ly += size * 1.15
+      ctx.fillText(line, W / 2, ly)
+    }
+    if (data.glyphSub) {
+      ctx.font = font(400, 34)
+      ctx.fillStyle = C.muted
+      ctx.fillText(wrap(ctx, data.glyphSub, W - PAD * 2 - 80, 1)[0] ?? '', W / 2, ly + 62)
+    }
+    ctx.textAlign = 'left'
+    ctx.fillStyle = C.fg
+    y += boxH
+  }
+
+  y += 36
+  const rowH = Math.min(100, (H - PAD - 120 - y) / data.choices.length - 16)
+  data.choices.forEach((choice, i) => {
+    roundRect(ctx, PAD, y, W - PAD * 2, rowH, 24, C.surface2)
+    ctx.font = font(600, 32)
+    ctx.fillStyle = C.muted
+    ctx.fillText(String(i + 1), PAD + 36, y + rowH / 2 + 11)
+    ctx.font = font(400, 38)
+    ctx.fillStyle = C.fg
+    ctx.fillText(wrap(ctx, choice, W - PAD * 2 - 140, 1)[0] ?? '', PAD + 92, y + rowH / 2 + 13)
+    y += rowH + 16
+  })
+
+  ctx.font = font(600, 32)
+  ctx.fillStyle = C.fg
+  ctx.fillText('정답은 여기서', PAD, H - PAD - 44)
+  ctx.font = font(400, 30)
+  ctx.fillStyle = C.muted
+  ctx.fillText(WEB_URL.replace(/^https:\/\//, '').replace(/\/$/, ''), PAD, H - PAD)
+  return canvas
+}
+
+export async function shareQuestion(data: QuestionCardData) {
+  const canvas = await drawQuestionCard(data)
+  const text = `상식한입 문제! "${data.prompt}" 맞혀 봐 → ${data.link}`
+  await shareImage(canvas, text, '문제', '문제 공유')
 }

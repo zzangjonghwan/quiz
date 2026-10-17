@@ -1,8 +1,12 @@
-import { Flag, Lightbulb } from 'lucide-react'
-import type { ReactNode } from 'react'
+import { Flag, Lightbulb, Share2 } from 'lucide-react'
+import { useState, type ReactNode } from 'react'
+import { CATEGORY_BY_ID } from '../categories'
+import { shareQuestion } from '../shareCard'
+import { questionForCard, questionLink } from '../sharedQuestion'
 import { canReport, reportUrl } from '../report'
 import type { SessionItem } from '../session'
-import type { Card, KanjiInfo, WordInfo } from '../types'
+import type { Card, JpInfo, KanjiInfo, WordInfo } from '../types'
+import { SpeakButton } from './SpeakButton'
 
 /**
  * The "쪼개기 → 합치면 → 뜻 → 유래 → 기억 팁 → 덤" explanation card. `item` is the question as it was
@@ -11,10 +15,25 @@ import type { Card, KanjiInfo, WordInfo } from '../types'
 export function Explanation({ card, item }: { card: Card; item?: SessionItem }) {
   const e = card.explanation
   const notice = NOTICES[card.id.split('-')[0]]
+  const canShare = card.questions.some((q) => q.mode === 'mcq') && !card.image
+  const [sharing, setSharing] = useState(false)
+  const share = async () => {
+    if (sharing) return
+    setSharing(true)
+    try {
+      const category = CATEGORY_BY_ID[card.id.split('-')[0] as keyof typeof CATEGORY_BY_ID]?.name ?? '상식'
+      await shareQuestion({ category, ...questionForCard(card, item), link: questionLink(card, item) })
+    } catch (e) {
+      console.warn('share failed', e)
+    } finally {
+      setSharing(false)
+    }
+  }
   return (
     <div className="flex flex-col gap-4 rounded-2xl bg-surface p-5">
       {e.kanji && <KanjiHeader kanji={e.kanji} />}
       {e.word && <WordHeader word={e.word} />}
+      {e.jp && <JpHeader jp={e.jp} />}
       {e.breakdown && e.breakdown.length > 0 && (
         <Section label={e.kanji ? '모양 쪼개기' : e.word ? '어원 쪼개기' : '쪼개기'}>
           <div className="flex flex-col divide-y divide-line">
@@ -31,13 +50,45 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
         </Section>
       )}
       {e.literal && <Section label="합치면">{e.literal}</Section>}
-      <Section label={e.kanji || e.word ? '뜻' : e.literal ? '실제 뜻' : '해설'}>{e.meaning}</Section>
+      <Section label={e.kanji || e.word || e.jp ? '뜻' : e.literal ? '실제 뜻' : '해설'}>{e.meaning}</Section>
+      {e.jp?.bridge && <Bridge jp={e.jp} />}
       {e.origin && <Section label="유래">{e.origin}</Section>}
       {e.tip && (
         <div className="flex gap-3 rounded-xl bg-accent/10 p-4">
           <Lightbulb size={18} strokeWidth={2} className="mt-0.5 shrink-0 text-accent" />
           <p className="text-[15px] leading-relaxed">{e.tip}</p>
         </div>
+      )}
+      {e.jp?.sentence && (
+        <Section label="예문">
+          <div className="flex items-start gap-3">
+            <div className="flex flex-1 flex-col gap-1">
+              <p lang="ja" className="text-[17px] font-medium">
+                {e.jp.sentence.ja}
+              </p>
+              <p className="text-fg-muted">{e.jp.sentence.ko}</p>
+            </div>
+            {e.jp.sentence.audio && <SpeakButton file={e.jp.sentence.audio} label="예문 듣기" />}
+          </div>
+        </Section>
+      )}
+      {e.jp?.pair && (
+        <Section label="헷갈리는 짝">
+          <div className="flex flex-col gap-1.5 rounded-xl bg-surface-2 p-3">
+            <span className="flex items-baseline gap-2">
+              <span lang="ja" className="text-lg font-semibold">
+                {e.jp.pair.word}
+              </span>
+              {e.jp.pair.reading && (
+                <span lang="ja" className="text-sm text-fg-muted">
+                  {e.jp.pair.reading}
+                </span>
+              )}
+              <span className="ml-auto text-right">{e.jp.pair.meaning}</span>
+            </span>
+            {e.jp.pair.note && <span className="text-sm text-fg-muted">{e.jp.pair.note}</span>}
+          </div>
+        </Section>
       )}
       {e.word?.sentence && (
         <Section label="예문">
@@ -80,15 +131,21 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
       )}
       {e.bonus && <Section label="덤 지식">{e.bonus}</Section>}
       {notice && <p className="text-xs leading-relaxed text-fg-subtle">{notice}</p>}
-      {(card.asOf || canReport) && (
+      {(card.asOf || canReport || canShare) && (
         <div className="flex items-center gap-3 text-xs text-fg-subtle">
           {card.asOf && <span>기준 시점: {formatAsOf(card.asOf)}</span>}
+          {canShare && (
+            <button onClick={share} className="-my-2 ml-auto flex items-center gap-1 py-2 active:text-fg-muted">
+              <Share2 size={13} strokeWidth={2} />
+              {sharing ? '만드는 중…' : '단톡방에 내기'}
+            </button>
+          )}
           {canReport && (
             <a
               href={reportUrl(card, item)}
               target="_blank"
               rel="noopener noreferrer"
-              className="-my-2 ml-auto flex items-center gap-1 py-2 active:text-fg-muted"
+              className={`-my-2 flex items-center gap-1 py-2 active:text-fg-muted ${canShare ? '' : 'ml-auto'}`}
             >
               <Flag size={13} strokeWidth={2} />
               문제 신고
@@ -142,6 +199,54 @@ function WordHeader({ word }: { word: WordInfo }) {
       </span>
       {word.pos && <span className="shrink-0 text-sm text-fg-muted">{word.pos}</span>}
     </div>
+  )
+}
+
+/** The Japanese word, its reading and part of speech, with its pronunciation. */
+function JpHeader({ jp }: { jp: JpInfo }) {
+  return (
+    <div className="flex items-center gap-3">
+      <div className="flex flex-1 flex-col">
+        <span lang="ja" className="text-3xl font-bold">
+          {jp.word}
+        </span>
+        <span className="flex items-baseline gap-2 text-sm text-fg-muted">
+          {jp.reading && <span lang="ja">{jp.reading}</span>}
+          {jp.pos && <span>{jp.pos}</span>}
+        </span>
+      </div>
+      {jp.audio && <SpeakButton file={jp.audio} size={20} />}
+    </div>
+  )
+}
+
+/** 電車 → 전차 → でんしゃ: the Korean reading of the same hanja, sound by sound. */
+function Bridge({ jp }: { jp: JpInfo }) {
+  const b = jp.bridge!
+  return (
+    <Section label="한국어 소리 다리">
+      <p className="text-[17px]">
+        <span lang="ja">{jp.word}</span>
+        <span className="text-fg-subtle"> → </span>
+        <span className="font-semibold text-accent">{b.ko}</span>
+        {jp.reading && (
+          <>
+            <span className="text-fg-subtle"> → </span>
+            <span lang="ja">{jp.reading}</span>
+          </>
+        )}
+      </p>
+      {b.parts && (
+        <p className="flex flex-wrap gap-x-3 text-sm text-fg-muted">
+          {b.parts.map((part, i) => (
+            <span key={i}>
+              {part.ko} = <span lang="ja">{part.ja}</span>
+            </span>
+          ))}
+        </p>
+      )}
+      {b.rule && <p className="text-sm text-fg-muted">규칙: {b.rule}</p>}
+    </Section>
   )
 }
 

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { loadBank, type QuestionBank } from './data'
+import { clearSharedQuestion, sharedQuestion } from './sharedQuestion'
 import { updateData } from './updates'
 import type { GameResult } from './game'
 import { TabBar } from './components/TabBar'
@@ -54,6 +55,27 @@ export default function App() {
       })
       .catch((e: unknown) => console.warn('문제 업데이트 확인 실패', e))
   }, [])
+
+  // A question shared to a group chat (…/?q=…) opens straight away as a one-question quiz.
+  const [sharedChecked, setSharedChecked] = useState(false)
+  useEffect(() => {
+    if (!bank || sharedChecked) return
+    setSharedChecked(true)
+    void sharedQuestion(bank).then((item) => {
+      clearSharedQuestion()
+      if (!item) return
+      const config: SessionConfig = {
+        mode: 'mcq',
+        source: 'normal',
+        // "다시" afterwards plays that category, or 종합 if its pack isn't installed here.
+        category: bank.has(item.category) ? item.category : null,
+        difficulty: 'mixed',
+        count: 10,
+        play: getState().settings.play,
+      }
+      setScreen({ name: 'quiz', config, items: [item], startedAt: Date.now() })
+    })
+  }, [bank, sharedChecked])
 
   useEffect(() => applyTheme(settings.theme), [settings.theme])
 

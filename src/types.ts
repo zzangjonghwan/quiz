@@ -12,7 +12,7 @@ export type CategoryId =
   | 'book' | 'film' | 'music' | 'art' | 'architecture' | 'sports'
   | 'trivia' | 'news' | 'tech'
   // Optional packs, downloaded from 설정 > 학습 팩.
-  | 'kanji' | 'english'
+  | 'kanji' | 'english' | 'japanese'
 
 /** One piece of a "쪼개기" breakdown: a character, word, or word root. */
 export interface BreakdownPart {
@@ -44,8 +44,23 @@ export interface WordInfo {
   related?: { word: string; meaning: string }[]
 }
 
+/** A Japanese word card's reading, Korean sound bridge, example and look-alike (일본어 단어 팩). */
+export interface JpInfo {
+  word: string
+  /** Kana reading, when the word is written with kanji. */
+  reading?: string
+  pos?: string
+  audio?: string
+  /** The same hanja word in Korean: 電車 → 전차 → でんしゃ, sound by sound. */
+  bridge?: { ko: string; parts?: { ja: string; ko: string }[]; rule?: string }
+  sentence?: { ja: string; ko: string; audio?: string }
+  /** A word that's easy to mix up with this one. */
+  pair?: { word: string; reading?: string; meaning: string; note: string }
+}
+
 export interface Explanation {
   kanji?: KanjiInfo
+  jp?: JpInfo
   word?: WordInfo
   breakdown?: BreakdownPart[]
   /** Literal meaning after joining the breakdown ("합치면"). */
@@ -60,8 +75,12 @@ export interface Explanation {
 export interface McqQuestion {
   mode: 'mcq'
   prompt: string
-  /** A character shown large under the prompt (kanji cards). */
+  /** A character, word or sentence shown large under the prompt (학습 팩 cards). */
   glyph?: string
+  /** A smaller line under the glyph: a word's reading, or a sentence's translation. */
+  glyphSub?: string
+  /** Pronunciation of the glyph (일본어 단어 팩), a file name under the pack audio URL. */
+  audio?: string
   /** choices[0] is always the correct answer; the app shuffles them. */
   choices: [string, string, string, string]
 }
