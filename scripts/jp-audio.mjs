@@ -22,11 +22,14 @@ const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const OUT = join(ROOT, '.stories', 'jp')
 const API = 'http://127.0.0.1:50021'
 const SPEAKER = 14
+// The other person in a 일본어 듣기 scene (점원, 친구 …): VOICEVOX:玄野武宏, as the user picked, so
+// the two sides of a conversation sound like two people. "나" keeps 冥鳴ひまり.
+const OTHER = 11
 const FFMPEG = process.env.FFMPEG ?? 'ffmpeg'
 const force = process.argv.includes('--force')
 
-async function query(text) {
-  const res = await fetch(`${API}/audio_query?speaker=${SPEAKER}&text=${encodeURIComponent(sayable(text))}`, { method: 'POST' })
+async function query(text, speaker = SPEAKER) {
+  const res = await fetch(`${API}/audio_query?speaker=${speaker}&text=${encodeURIComponent(sayable(text))}`, { method: 'POST' })
   if (!res.ok) throw new Error(`audio_query ${res.status}`)
   const q = await res.json()
   q.speedScale = 0.95
@@ -35,8 +38,8 @@ async function query(text) {
 }
 const spoken = (q) => sound(q.accent_phrases.flatMap((ap) => ap.moras.map((m) => m.text)).join(''))
 
-async function record(q, file) {
-  const res = await fetch(`${API}/synthesis?speaker=${SPEAKER}`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(q) })
+async function record(q, file, speaker = SPEAKER) {
+  const res = await fetch(`${API}/synthesis?speaker=${speaker}`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(q) })
   if (!res.ok) throw new Error(`synthesis ${res.status}`)
   const wav = Buffer.from(await res.arrayBuffer())
   const mp3 = spawnSync(FFMPEG, ['-loglevel', 'error', '-i', 'pipe:0', '-ac', '1', '-ar', '24000', '-b:a', '64k', '-f', 'mp3', 'pipe:1'], { input: wav, maxBuffer: 1 << 26 })
@@ -54,7 +57,8 @@ for (const pack of packs) {
     // 일본어 듣기 scenes: each line of the conversation.
     for (const line of card.explanation.listen?.lines ?? []) {
       if (!line.audio || (!force && existsSync(join(OUT, line.audio)))) continue
-      await record(await query(line.ja), line.audio)
+      const speaker = line.who === '나' ? SPEAKER : OTHER
+      await record(await query(line.ja, speaker), line.audio, speaker)
       made++
     }
     const jp = card.explanation.jp

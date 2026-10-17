@@ -47,9 +47,16 @@ export const CREDITS: Record<string, Credit> = {
   },
   voicevox: {
     title: 'VOICEVOX:冥鳴ひまり',
-    usedFor: '일본어 단어 팩 발음',
+    usedFor: '일본어 단어·듣기 팩 발음',
     author: 'VOICEVOX(무료 음성 합성 소프트웨어)의 冥鳴ひまり(메이메이 히마리) 음성으로 생성',
     license: 'VOICEVOX 이용 약관, 冥鳴ひまり 이용 규약 (출처 표기 시 상업·비상업 이용 가능)',
+    url: 'https://voicevox.hiroshiba.jp',
+  },
+  'voicevox-takehiro': {
+    title: 'VOICEVOX:玄野武宏',
+    usedFor: '일본어 듣기 팩 대화의 상대역',
+    author: 'VOICEVOX(무료 음성 합성 소프트웨어)의 玄野武宏(구로노 다케히로) 음성으로 생성',
+    license: 'VOICEVOX 이용 약관, 玄野武宏 이용 규약 (출처 표기 시 상업·비상업 이용 가능)',
     url: 'https://voicevox.hiroshiba.jp',
   },
   'gemini-tts': {
