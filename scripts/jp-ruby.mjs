@@ -25,11 +25,17 @@ async function spoken(text) {
 const failed = []
 for (const pack of readdirSync(join(ROOT, 'packs-src')).filter((p) => p.startsWith('jp-'))) {
   const dir = join(ROOT, 'packs-src', pack)
-  const dict = await loadKanji(dir)
-  if (!dict) continue
+  // A pack without its own kanji dictionary (일본어 듣기) uses the 단어 pack's.
+  const dict = (await loadKanji(dir)) ?? (await loadKanji(join(ROOT, 'packs-src', 'jp-n4')))
   const ruby = {}
   for (const file of readdirSync(dir).filter((f) => f.endsWith('.mjs') && !f.startsWith('_')).sort()) {
     for (const c of (await import(pathToFileURL(join(dir, file)).href)).default.cards) {
+      // 상황 대답 scenes: what is said (a) and the answer (b), read as they are.
+      for (const text of [c.a, c.b].filter(Boolean)) {
+        const pieces = splitSpoken([...text], await spoken(text), dict)
+        if (pieces) ruby[text] = compact(pieces).map((p) => (p.r ? [p.t, p.r] : p.t))
+        else failed.push(`${pack}/${file} ${text}  ←  ${await spoken(text)}`)
+      }
       if (!c.ex) continue
       const ja = c.ex.split('=')[0].trim()
       const [before, blank, after] = ja.split(/[{}]/)

@@ -26,6 +26,8 @@ export interface McqItem extends ItemBase {
   glyphSub?: string
   audio?: string
   reveal?: boolean
+  listen?: boolean
+  cue?: string
   /** Shuffled copy of the question's choices. */
   choices: string[]
   correctIndex: number
@@ -185,6 +187,8 @@ export function buildSession(
         glyphSub: q.glyphSub,
         audio: q.audio,
         reveal: q.reveal,
+        listen: q.listen,
+        cue: q.cue,
         choices,
         correctIndex: choices.indexOf(q.choices[0]),
       }

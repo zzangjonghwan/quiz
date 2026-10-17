@@ -1,6 +1,7 @@
 // Records pronunciation for the 일본어 단어 팩 with VOICEVOX (free, runs on this PC): one clip per
-// word and one per example sentence, as small MP3s in .stories/jp/. Publish them with
-// `node scripts/publish-stories.mjs` (they go to the `stories` branch next to the story audio).
+// word and one per example sentence, and one per line of a 일본어 듣기 scene, as small MP3s in
+// .stories/jp/. Publish them with `node scripts/publish-stories.mjs` (they go to the `stories` branch
+// next to the story audio).
 //
 //   node scripts/jp-audio.mjs              everything not recorded yet (packs/jp-*.json)
 //   node scripts/jp-audio.mjs --force      record again
@@ -50,6 +51,12 @@ const fixed = []
 for (const pack of packs) {
   const { cards } = JSON.parse(readFileSync(join(ROOT, 'packs', pack), 'utf8'))
   for (const card of cards) {
+    // 일본어 듣기 scenes: each line of the conversation.
+    for (const line of card.explanation.listen?.lines ?? []) {
+      if (!line.audio || (!force && existsSync(join(OUT, line.audio)))) continue
+      await record(await query(line.ja), line.audio)
+      made++
+    }
     const jp = card.explanation.jp
     if (!jp?.audio) continue
     const reading = jp.reading ?? jp.word

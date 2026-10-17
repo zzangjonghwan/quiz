@@ -66,9 +66,16 @@ export interface JpInfo {
   pair?: { word: string; reading?: string; meaning: string; note: string }
 }
 
+/** A 일본어 듣기 scene: what was said and the answer, each with furigana and its recording. */
+export interface ListenInfo {
+  place: string
+  lines: { who: string; ja: string; ruby?: RubyPiece[]; ko: string; audio?: string }[]
+}
+
 export interface Explanation {
   kanji?: KanjiInfo
   jp?: JpInfo
+  listen?: ListenInfo
   word?: WordInfo
   breakdown?: BreakdownPart[]
   /** Literal meaning after joining the breakdown ("합치면"). */
@@ -91,6 +98,12 @@ export interface McqQuestion {
   audio?: string
   /** glyphSub and audio stay hidden until the question is answered (they'd give the answer away). */
   reveal?: boolean
+  /**
+   * Answered by ear (일본어 듣기): only the sound (and `cue`, e.g. "편의점 · 점원") is there at first;
+   * the glyph and glyphSub appear once it is answered.
+   */
+  listen?: boolean
+  cue?: string
   /** Its 문제 형식, which players can leave out before starting (see src/formats.ts). */
   skill?: string
   /** choices[0] is always the correct answer; the app shuffles them. */

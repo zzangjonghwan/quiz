@@ -27,6 +27,8 @@ export function questionForCard(card: Card, item?: SessionItem) {
   const q = card.questions[questionIndex(card, item)]
   if (q.mode !== 'mcq') return { prompt: q.prompt, choices: [] }
   const choices = (item?.kind === 'mcq' ? item.choices : shuffle(q.choices)).map((c) => splitLabel(c).word)
+  // A 듣기 question shows only its cue; the friend hears it from the link.
+  if (q.listen) return { prompt: `[듣기] ${q.cue ? `${q.cue} · ` : ''}${q.prompt}`, choices }
   return { prompt: q.prompt, glyph: q.glyph, glyphSub: q.reveal ? undefined : q.glyphSub, choices }
 }
 
@@ -60,6 +62,8 @@ export async function sharedQuestion(bank: QuestionBank): Promise<McqItem | null
     glyphSub: q.glyphSub,
     audio: q.audio,
     reveal: q.reveal,
+    listen: q.listen,
+    cue: q.cue,
     choices,
     correctIndex: choices.indexOf(q.choices[0]),
   }

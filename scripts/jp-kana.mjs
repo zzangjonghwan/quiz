@@ -102,8 +102,11 @@ function split(text, reading, dict, same) {
       }
       const entry = dict.kanji.get(ch)
       if (!entry) return null
-      for (const base of entry.readings) {
-        for (const v of variants(base, first, !kanjiAt(i + 1))) {
+      // Every reading as is before any changed form, so 中 in 一日中 is じゅう, not ちゅう voiced
+      // to ぢゅう (which sounds the same).
+      const forms = entry.readings.map((base) => variants(base, first, !kanjiAt(i + 1)))
+      for (let n = 0; n < Math.max(...forms.map((f) => f.length)); n++) {
+        for (const v of forms.map((f) => f[n]).filter(Boolean)) {
           const used = same(reading, j, v)
           if (!used) continue
           const rest = go(i + 1, j + used)
@@ -170,10 +173,14 @@ export function compact(pieces) {
 
 /**
  * Where VOICEVOX's own reading is wrong or less usual, it's given kana instead: 日本 is にっぽん to
- * it, but everyday Japanese (and what learners hear) is にほん; 雨が降りそう is ふりそう, not おりそう.
+ * it, but everyday Japanese (and what learners hear) is にほん; 雨が降りそう is ふりそう, not おりそう;
+ * 角 (corner) is かど, not かく; 〜は何ですか is なんですか; 辛いもの is からいもの.
  */
 const SAY = [
   ['日本', 'にほん'],
   ['雨が降りそう', '雨がふりそう'],
+  ['あの角を', 'あのかどを'],
+  ['は何ですか', 'はなんですか'],
+  ['辛いもの', 'からいもの'],
 ]
 export const sayable = (text) => SAY.reduce((t, [from, to]) => t.replaceAll(from, to), text)

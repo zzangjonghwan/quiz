@@ -5,7 +5,7 @@ import { shareQuestion } from '../shareCard'
 import { questionForCard, questionLink } from '../sharedQuestion'
 import { canReport, reportUrl } from '../report'
 import type { SessionItem } from '../session'
-import type { Card, JpInfo, KanjiInfo, RubyPiece, WordInfo } from '../types'
+import type { Card, JpInfo, KanjiInfo, ListenInfo, RubyPiece, WordInfo } from '../types'
 import { Marked } from './Marked'
 import { SpeakButton } from './SpeakButton'
 
@@ -35,6 +35,7 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
       {e.kanji && <KanjiHeader kanji={e.kanji} />}
       {e.word && <WordHeader word={e.word} />}
       {e.jp && <JpHeader jp={e.jp} />}
+      {e.listen && <Conversation listen={e.listen} />}
       {e.breakdown && e.breakdown.length > 0 && (
         <Section label={e.kanji ? '모양 쪼개기' : e.word ? '어원 쪼개기' : e.jp ? '한자 쪼개기' : '쪼개기'}>
           <div className="flex flex-col divide-y divide-line">
@@ -60,7 +61,7 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
         </Section>
       )}
       {e.literal && <Section label="합치면">{e.literal}</Section>}
-      <Section label={e.kanji || e.word || e.jp ? '뜻' : e.literal ? '실제 뜻' : '해설'}>{e.meaning}</Section>
+      {!e.listen && <Section label={e.kanji || e.word || e.jp ? '뜻' : e.literal ? '실제 뜻' : '해설'}>{e.meaning}</Section>}
       {e.jp?.bridge && <Bridge jp={e.jp} />}
       {e.origin && <Section label="유래">{e.origin}</Section>}
       {e.tip && (
@@ -247,6 +248,28 @@ function Bridge({ jp }: { jp: JpInfo }) {
           </>
         )}
       </p>
+    </Section>
+  )
+}
+
+/** A 일본어 듣기 scene: who said what, and the answer, each to read along and hear again. */
+function Conversation({ listen }: { listen: ListenInfo }) {
+  return (
+    <Section label={`${listen.place}에서`}>
+      <div className="flex flex-col gap-3">
+        {listen.lines.map((line, i) => (
+          <div key={i} className="flex items-start gap-3">
+            <div className="flex flex-1 flex-col gap-0.5">
+              <span className="text-xs font-semibold text-fg-subtle">{line.who}</span>
+              <p lang="ja" className="text-[17px] leading-loose font-medium">
+                {line.ruby ? <Ruby pieces={line.ruby} /> : line.ja}
+              </p>
+              <p className="text-fg-muted">{line.ko}</p>
+            </div>
+            {line.audio && <SpeakButton file={line.audio} label={`${line.who}의 말 듣기`} />}
+          </div>
+        ))}
+      </div>
     </Section>
   )
 }

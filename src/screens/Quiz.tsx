@@ -454,6 +454,29 @@ function Glyph({ item, answered }: { item: McqItem; answered: boolean }) {
   const size = !ja ? 'text-4xl font-bold break-all' : sentence ? 'text-2xl leading-relaxed font-medium' : 'leading-tight font-medium whitespace-nowrap'
   const shown = !item.reveal || answered
   const appear = item.reveal ? 'fx-reveal' : ''
+  if (item.listen && item.audio) {
+    // 듣기: the sound plays by itself, the big button plays it again, and the words show afterwards.
+    return (
+      <div className="flex flex-col items-center gap-3 rounded-2xl bg-surface px-4 py-6 text-center">
+        {item.cue && <span className="text-sm text-fg-muted">{item.cue}</span>}
+        <SpeakButton file={item.audio} large autoPlay label="다시 듣기" />
+        {answered ? (
+          <div className="fx-reveal flex flex-col items-center gap-1.5">
+            <span lang="ja" className="text-2xl leading-relaxed font-medium">
+              {text}
+            </span>
+            {item.glyphSub && (
+              <span lang={isJapanese(item.glyphSub) ? 'ja' : undefined} className="text-base text-fg-muted">
+                <Marked text={item.glyphSub} />
+              </span>
+            )}
+          </div>
+        ) : (
+          <span className="text-xs text-fg-subtle">눌러서 다시 듣기</span>
+        )}
+      </div>
+    )
+  }
   return (
     <div className="relative flex flex-col items-center gap-2 rounded-2xl bg-surface px-4 py-6 text-center [container-type:inline-size]">
       <span lang={ja ? 'ja' : 'en'} className={size} style={ja && !sentence ? { fontSize: `min(4.5rem, ${84 / length}cqi)` } : undefined}>

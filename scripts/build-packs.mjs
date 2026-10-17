@@ -61,7 +61,20 @@ const PACKS = [
     category: 'japanese',
     kind: 'japanese',
     name: '일본어 단어 (JLPT N4)',
-    desc: '한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝, 발음 듣기로 익히는 N4 단어',
+    desc: '한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝, 귀여운 의성어·의태어까지 발음과 함께 익히는 N4 단어',
+    minVersion: '0.14.0',
+    newApps: true,
+  },
+  {
+    id: 'jp-listen-n4',
+    category: 'listening',
+    kind: 'listening',
+    name: '일본어 듣기 (N4)',
+    desc: '소리만 듣고 뜻 고르기, 편의점·식당·역 같은 장면에서 알맞은 대답 고르기',
+    // 듣고 뜻 고르기 cards come from the 단어 pack's easy cards and its recordings.
+    from: 'jp-n4',
+    words: 60,
+    sentences: 40,
     minVersion: '0.14.0',
     newApps: true,
   },
@@ -342,7 +355,7 @@ async function buildEnglish(pack) {
 //
 // The kanji in it are explained from packs-src/<pack>/_kanji.mjs, and the furigana over the example
 // come from _ruby.json (made by scripts/jp-ruby.mjs, which checks them against the recording).
-const JP_POS = ['명사', '동사', 'い형용사', 'な형용사', '부사', '표현']
+const JP_POS = ['명사', '동사', 'い형용사', 'な형용사', '부사', '표현', '의성어', '의태어']
 const hasKanji = (s) => /\p{Script=Han}/u.test(s)
 const isJapanese = (s) => /^[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}ー〜・]+$/u.test(s)
 /** Stable id from the word and its reading, so cards keep their progress when files are reordered. */
@@ -474,7 +487,98 @@ async function buildJapanese(pack) {
   })
 }
 
-const BUILDERS = { kanji: buildKanji, english: buildEnglish, japanese: buildJapanese }
+// 일본어 듣기 pack: questions you answer by ear. Two kinds of card:
+//   - words and example sentences taken from another pack (`from`), heard with that pack's
+//     recordings and explained the same way; picked from its easy cards, so the same ones come up
+//     on every build.
+//   - 상황 대답 scenes from packs-src/<pack>/*.mjs (shape in 02-scenes.mjs): hear what someone says
+//     at the 편의점 or the 역, then pick what it means, and what to answer.
+// Nothing is shown until the question is answered (listen); then the words, furigana (_ruby.json,
+// made by scripts/jp-ruby.mjs) and translation appear.
+const unmarkKo = (s) => s.replace(/\[([^\]]+)\]/g, '$1')
+/** 점원이 / 친구가 */
+const subject = (who) => who + ((who.charCodeAt(who.length - 1) - 0xac00) % 28 ? '이' : '가')
+
+async function buildListening(pack, built) {
+  const dir = join(SRC, pack.id)
+  const rubyFile = join(dir, '_ruby.json')
+  const ruby = existsSync(rubyFile) ? JSON.parse(readFileSync(rubyFile, 'utf8')) : {}
+  const source = built[pack.from]
+  if (!source) {
+    errors.push(`${pack.id}: from(${pack.from}) 팩을 먼저 만들어야 함`)
+    return []
+  }
+  const cards = []
+
+  const easy = seededShuffle(source.filter((c) => c.difficulty === 'easy'), `${pack.id} listen`)
+  const words = easy.slice(0, pack.words)
+  const sentences = easy.slice(pack.words).filter((c) => c.explanation.jp?.sentence).slice(0, pack.sentences)
+  const translations = source.map((c) => c.explanation.jp?.sentence?.ko).filter(Boolean).map(unmarkKo)
+  for (const c of words) {
+    const jp = c.explanation.jp
+    const meaning = c.questions.find((q) => q.skill === 'meaning')
+    cards.push({
+      id: c.id.replace(/^[a-z]+-/, 'listening-w'),
+      difficulty: c.difficulty,
+      answer: c.answer,
+      questions: [
+        { mode: 'mcq', skill: 'listen', prompt: '들리는 단어의 뜻은?', listen: true, cue: '단어', audio: jp.audio, glyph: jp.word, ...(jp.reading && { glyphSub: jp.reading }), choices: meaning.choices },
+      ],
+      explanation: c.explanation,
+    })
+  }
+  for (const c of sentences) {
+    const s = c.explanation.jp.sentence
+    const ko = unmarkKo(s.ko)
+    const wrong = seededShuffle([...new Set(translations.filter((k) => k !== ko))], c.id + 's').slice(0, 3)
+    cards.push({
+      id: c.id.replace(/^[a-z]+-/, 'listening-s'),
+      difficulty: c.difficulty,
+      answer: s.ja,
+      questions: [{ mode: 'mcq', skill: 'listen', prompt: '들리는 문장의 뜻은?', listen: true, cue: '문장', audio: s.audio, glyph: s.ja, glyphSub: s.ko, choices: [ko, ...wrong] }],
+      explanation: c.explanation,
+    })
+  }
+
+  const scenes = []
+  for (const { c, file } of await readCards(pack)) {
+    const where = `${pack.id}/${file} ${c.a}`
+    for (const key of ['p', 'who', 'a', 'ak', 'b', 'bk']) if (!c[key]) errors.push(`${where}: ${key}는 필수`)
+    if (!DIFF[c.d]) errors.push(`${where}: d는 e/n/h`)
+    if (!Array.isArray(c.w) || c.w.length !== 3) errors.push(`${where}: w(틀린 대답)는 3개`)
+    for (const text of [c.a, c.b]) if (text && !ruby[text]) errors.push(`${where}: 「${text}」 후리가나가 없음 — VOICEVOX를 켜고 node scripts/jp-ruby.mjs`)
+    scenes.push({ ...c, where, hash: createHash('sha1').update(c.a).digest('hex').slice(0, 10) })
+  }
+  checkDuplicates(scenes.map((s) => ({ ...s, char: s.a })))
+  for (const s of scenes) {
+    const others = seededShuffle([...new Set(scenes.filter((x) => x !== s && x.ak !== s.ak).map((x) => x.ak))], s.hash).slice(0, 3)
+    const audio = { a: `${s.hash}-a.mp3`, b: `${s.hash}-b.mp3` }
+    const heard = { listen: true, cue: `${s.p} · ${s.who}`, audio: audio.a, glyph: s.a, glyphSub: s.ak }
+    cards.push({
+      id: `listening-${s.hash}`,
+      difficulty: DIFF[s.d],
+      answer: s.b,
+      questions: [
+        { mode: 'mcq', skill: 'listen', prompt: `${subject(s.who)} 뭐라고 했을까?`, ...heard, choices: [s.ak, ...others] },
+        { mode: 'mcq', skill: 'scene', prompt: `${s.who}에게 알맞은 대답은?`, ...heard, choices: [s.b, ...s.w] },
+      ],
+      explanation: {
+        listen: {
+          place: s.p,
+          lines: [
+            { who: s.who, ja: s.a, ruby: ruby[s.a], ko: s.ak, audio: audio.a },
+            { who: '나', ja: s.b, ruby: ruby[s.b], ko: s.bk, audio: audio.b },
+          ],
+        },
+        meaning: s.bk,
+        ...(s.t && { tip: s.t }),
+      },
+    })
+  }
+  return cards
+}
+
+const BUILDERS = { kanji: buildKanji, english: buildEnglish, japanese: buildJapanese, listening: buildListening }
 
 mkdirSync(OUT, { recursive: true })
 // Pack lists, newest first. The app reads catalog-v2.json (src/packs.ts) and hides packs whose
@@ -485,8 +589,13 @@ const catalogPath = join(OUT, 'catalog.json')
 const indexPath = join(OUT, 'index.json')
 const previous = [catalog2Path, catalogPath, indexPath].filter(existsSync).flatMap((f) => JSON.parse(readFileSync(f, 'utf8')).packs)
 const index = []
-for (const { kind, newApps, ...pack } of PACKS) {
-  const cards = await BUILDERS[kind](pack)
+// Built cards by pack id, for packs made from another (일본어 듣기 uses the 단어 pack).
+const built = {}
+for (const { kind, newApps, ...spec } of PACKS) {
+  // Building settings stay out of the pack lists.
+  const { from: _from, words: _words, sentences: _sentences, ...pack } = spec
+  const cards = await BUILDERS[kind](spec, built)
+  built[pack.id] = cards
   for (const card of cards) {
     for (const q of card.questions) {
       if (new Set(q.choices).size !== 4) errors.push(`${card.id}: 보기 중복 ${q.choices.join(' / ')}`)
