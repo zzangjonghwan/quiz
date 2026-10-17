@@ -46,6 +46,8 @@ export interface Settings {
   soundPicks: Partial<Record<SoundName, string>>
   /** Bumped when the default sounds change, so old picks give way to the new defaults. */
   soundVersion: number
+  /** 상식플러스 오디오 팩: the stories show only once it is "downloaded" in 설정. */
+  storyPack: boolean
   /** 문제 형식 left out per 학습 팩 category (see src/formats.ts). */
   skipFormats: Partial<Record<CategoryId, string[]>>
   /** Downloaded 학습 팩 (the files themselves live in app storage, see src/packs.ts). */
@@ -89,6 +91,7 @@ const DEFAULT_SETTINGS: Settings = {
   sound: true,
   soundPicks: {},
   soundVersion: 3,
+  storyPack: false,
   skipFormats: {},
   packs: [],
 }
@@ -107,6 +110,10 @@ export async function loadStore() {
         stats: { ...EMPTY_STATS, ...saved.stats },
         settings: { ...DEFAULT_SETTINGS, ...saved.settings },
         listening: saved.listening ?? {},
+      }
+      // 상식플러스 became an 오디오 팩 in v0.14; whoever already listened keeps it.
+      if (saved.settings && !('storyPack' in saved.settings) && Object.keys(state.listening).length) {
+        state.settings = { ...state.settings, storyPack: true }
       }
       const { soundVersion, soundPicks } = state.settings
       if (soundVersion !== DEFAULT_SETTINGS.soundVersion) {

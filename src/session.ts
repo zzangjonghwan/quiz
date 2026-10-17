@@ -1,5 +1,6 @@
 import { isTypeable, normalize } from './answer'
 import type { QuestionBank } from './data'
+import { AUDIO_FORMATS, skippedFormats } from './formats'
 import type { CardProgress } from './store'
 import type { Card, CategoryId, CountChoice, DifficultyChoice, McqQuestion, PlayStyle, QuizMode } from './types'
 
@@ -99,12 +100,14 @@ export function collectPool(bank: QuestionBank, o: PoolOptions): PoolEntry[] {
   const pool: PoolEntry[] = []
   for (const [category, cards] of bank) {
     if (o.category ? category !== o.category : o.excluded.includes(category)) continue
+    // 종합 never asks by ear (AUDIO_FORMATS); a category leaves out what the player switched off.
+    const skipped = [...skippedFormats(o.skip ?? {}, category), ...(o.category ? [] : AUDIO_FORMATS)]
     for (const card of cards) {
       if (o.difficulty !== 'mixed' && card.difficulty !== o.difficulty) continue
       if (o.only && !o.only.has(card.id)) continue
       const prompts =
         o.mode === 'mcq'
-          ? card.questions.filter((q): q is McqQuestion => q.mode === 'mcq' && !(q.skill && o.skip?.[category]?.includes(q.skill)))
+          ? card.questions.filter((q): q is McqQuestion => q.mode === 'mcq' && !(q.skill && skipped.includes(q.skill)))
           : subjectivePrompts(card)
       if (prompts.length) pool.push({ card, category, prompts })
     }

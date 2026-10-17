@@ -5,6 +5,7 @@ import { Header, PrimaryButton, Screen, SecondaryButton, Segmented } from '../co
 import { useBackHandler } from '../native'
 import { fetchPackIndex, installPack, removePack, type PackInfo } from '../packs'
 import { resetProgress, updateSettings, useStore } from '../store'
+import { loadStories, removeDownloads } from '../stories'
 import type { CategoryId } from '../types'
 
 export function SettingsScreen({
@@ -88,6 +89,10 @@ export function SettingsScreen({
 
         <Group title="학습 팩">
           <PackList onChanged={onPacksChanged} />
+        </Group>
+
+        <Group title="오디오 팩">
+          <StoryPack />
         </Group>
 
         <section className="flex flex-col gap-2">
@@ -229,6 +234,57 @@ function PackList({ onChanged }: { onChanged: () => void }) {
         )
       })}
       {error && <p className="text-xs text-wrong">{error}</p>}
+    </div>
+  )
+}
+
+/**
+ * 상식플러스 오디오 팩. The story list ships with the app; 받기 turns the 상식플러스 tab on, and each
+ * story's audio is downloaded when it's first played. 삭제 also clears those downloads.
+ */
+function StoryPack() {
+  const { settings } = useStore()
+  const [count, setCount] = useState<number | null>(null)
+  const [busy, setBusy] = useState(false)
+  useEffect(() => {
+    void loadStories().then((s) => setCount(s.length), () => {})
+  }, [])
+  const on = settings.storyPack
+  return (
+    <div className="flex items-center gap-3 rounded-xl bg-surface-2 px-3 py-3">
+      <span className="flex flex-1 flex-col gap-0.5">
+        <span className="text-[15px] font-semibold">상식플러스 이야기</span>
+        <span className="text-xs text-fg-muted">귀로 듣는 3분 교양 이야기. 들을 때 한 편씩 내려받아요</span>
+        <span className="text-[11px] text-fg-subtle tabular-nums">
+          {count ? `${count}편 · 모아 목소리` : '모아 목소리'}
+          {on && ' · 받음'}
+        </span>
+      </span>
+      {busy ? (
+        <LoaderCircle size={20} className="animate-spin text-fg-muted" />
+      ) : on ? (
+        <button
+          onClick={() => {
+            setBusy(true)
+            void removeDownloads().finally(() => {
+              updateSettings({ storyPack: false })
+              setBusy(false)
+            })
+          }}
+          aria-label="상식플러스 이야기 삭제"
+          className="flex size-10 items-center justify-center rounded-full text-fg-subtle active:bg-surface"
+        >
+          <Trash2 size={18} />
+        </button>
+      ) : (
+        <button
+          onClick={() => updateSettings({ storyPack: true })}
+          className="flex items-center gap-1.5 rounded-full bg-accent px-3.5 py-2 text-sm font-bold text-accent-fg"
+        >
+          <Download size={15} strokeWidth={2.5} />
+          받기
+        </button>
+      )}
     </div>
   )
 }

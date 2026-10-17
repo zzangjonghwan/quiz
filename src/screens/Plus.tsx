@@ -1,4 +1,4 @@
-import { Check, Clock } from 'lucide-react'
+import { Check, Clock, Headphones } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { useBackHandler } from '../native'
 import { usePlayer } from '../player'
@@ -6,10 +6,10 @@ import { formatTime, loadStories, STORY_CATEGORIES, type Story, type StoryCatego
 import { useStore } from '../store'
 
 /** 상식플러스 tab: the list of audio stories by category. */
-export function Plus({ onOpen, onBack }: { onOpen: (story: Story) => void; onBack: () => void }) {
+export function Plus({ onOpen, onBack, onSettings }: { onOpen: (story: Story) => void; onBack: () => void; onSettings: () => void }) {
   const [stories, setStories] = useState<Story[] | null>(null)
   const [cat, setCat] = useState<StoryCategory | 'all'>('all')
-  const { listening } = useStore()
+  const { listening, settings } = useStore()
   const { story: current, playing } = usePlayer()
 
   useBackHandler(() => {
@@ -31,59 +31,72 @@ export function Plus({ onOpen, onBack }: { onOpen: (story: Story) => void; onBac
           상식<span className="text-accent">플러스</span>
         </h1>
         <p className="text-sm text-fg-muted">
-          귀로 듣는 3분 교양 이야기{stories ? ` · ${stories.length}편 중 ${done}편 들음` : ''}
+          귀로 듣는 3분 교양 이야기{stories && settings.storyPack ? ` · ${stories.length}편 중 ${done}편 들음` : ''}
         </p>
       </header>
 
-      <div className="no-scrollbar flex gap-2 overflow-x-auto px-5 pt-5 pb-1">
-        <Chip active={cat === 'all'} onClick={() => setCat('all')} label="전체" />
-        {STORY_CATEGORIES.map((c) => (
-          <Chip key={c.id} active={cat === c.id} onClick={() => setCat(c.id)} label={c.name} />
-        ))}
-      </div>
+      {!settings.storyPack ? (
+        // The stories are an 오디오 팩, downloaded from 설정 like the 학습 팩.
+        <main className="flex flex-1 flex-col items-center justify-center gap-4 px-8 pb-44 text-center">
+          <Headphones size={40} strokeWidth={1.5} className="text-fg-subtle" />
+          <p className="text-[15px] text-fg-muted">설정에서 오디오 팩을 받을 수 있어요</p>
+          <button onClick={onSettings} className="rounded-full bg-surface px-5 py-2.5 text-sm font-semibold active:bg-surface-2">
+            설정으로 가기
+          </button>
+        </main>
+      ) : (
+        <>
+          <div className="no-scrollbar flex gap-2 overflow-x-auto px-5 pt-5 pb-1">
+            <Chip active={cat === 'all'} onClick={() => setCat('all')} label="전체" />
+            {STORY_CATEGORIES.map((c) => (
+              <Chip key={c.id} active={cat === c.id} onClick={() => setCat(c.id)} label={c.name} />
+            ))}
+          </div>
 
-      <main className="flex flex-col gap-2.5 px-5 pt-3 pb-44">
-        {stories === null && <p className="py-10 text-center text-sm text-fg-muted">불러오는 중…</p>}
-        {shown.map((s) => {
-          const c = STORY_CATEGORIES.find((x) => x.id === s.cat)!
-          const saved = listening[s.id]
-          const isCurrent = current?.id === s.id
-          return (
-            <button
-              key={s.id}
-              onClick={() => onOpen(s)}
-              className={`flex items-center gap-4 rounded-2xl p-4 text-left active:scale-[0.99] ${
-                isCurrent ? 'bg-accent/10 ring-1 ring-accent/50' : 'bg-surface'
-              }`}
-            >
-              <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-surface-2 text-accent">
-                <c.icon size={22} strokeWidth={1.75} />
-              </span>
-              <span className="flex min-w-0 flex-1 flex-col gap-0.5">
-                <span className="text-xs text-fg-subtle">{c.name}</span>
-                <span className="truncate text-[15px] font-bold">{s.title}</span>
-                <span className="truncate text-xs text-fg-muted">{s.sub}</span>
-              </span>
-              <span className="flex shrink-0 flex-col items-end gap-1 text-xs tabular-nums">
-                {isCurrent && playing ? (
-                  <span className="font-semibold text-accent">재생 중</span>
-                ) : saved?.done ? (
-                  <span className="flex items-center gap-0.5 text-accent">
-                    <Check size={14} strokeWidth={3} />
-                    들음
+          <main className="flex flex-col gap-2.5 px-5 pt-3 pb-44">
+            {stories === null && <p className="py-10 text-center text-sm text-fg-muted">불러오는 중…</p>}
+            {shown.map((s) => {
+              const c = STORY_CATEGORIES.find((x) => x.id === s.cat)!
+              const saved = listening[s.id]
+              const isCurrent = current?.id === s.id
+              return (
+                <button
+                  key={s.id}
+                  onClick={() => onOpen(s)}
+                  className={`flex items-center gap-4 rounded-2xl p-4 text-left active:scale-[0.99] ${
+                    isCurrent ? 'bg-accent/10 ring-1 ring-accent/50' : 'bg-surface'
+                  }`}
+                >
+                  <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-surface-2 text-accent">
+                    <c.icon size={22} strokeWidth={1.75} />
                   </span>
-                ) : saved && saved.position > 5 ? (
-                  <span className="text-fg-muted">{formatTime(saved.position)}부터</span>
-                ) : null}
-                <span className="flex items-center gap-1 text-fg-subtle">
-                  <Clock size={12} />
-                  {formatTime(s.duration)}
-                </span>
-              </span>
-            </button>
-          )
-        })}
-      </main>
+                  <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+                    <span className="text-xs text-fg-subtle">{c.name}</span>
+                    <span className="truncate text-[15px] font-bold">{s.title}</span>
+                    <span className="truncate text-xs text-fg-muted">{s.sub}</span>
+                  </span>
+                  <span className="flex shrink-0 flex-col items-end gap-1 text-xs tabular-nums">
+                    {isCurrent && playing ? (
+                      <span className="font-semibold text-accent">재생 중</span>
+                    ) : saved?.done ? (
+                      <span className="flex items-center gap-0.5 text-accent">
+                        <Check size={14} strokeWidth={3} />
+                        들음
+                      </span>
+                    ) : saved && saved.position > 5 ? (
+                      <span className="text-fg-muted">{formatTime(saved.position)}부터</span>
+                    ) : null}
+                    <span className="flex items-center gap-1 text-fg-subtle">
+                      <Clock size={12} />
+                      {formatTime(s.duration)}
+                    </span>
+                  </span>
+                </button>
+              )
+            })}
+          </main>
+        </>
+      )}
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { CATEGORY_BY_ID, categoryGroups, MIXED_ICON } from '../categories'
 import { Header, PrimaryButton, Screen, Segmented } from '../components/ui'
 import type { QuestionBank } from '../data'
 import { useBackHandler } from '../native'
-import { FORMATS } from '../formats'
+import { FORMATS, skippedFormats } from '../formats'
 import { collectPool, summarizePool, type SessionConfig } from '../session'
 import { updateSettings, useStore } from '../store'
 import type { CategoryId, QuizMode } from '../types'
@@ -132,7 +132,7 @@ function SetupSheet({
   const { count, play, skipFormats } = settings
   // The Japanese packs pick 문제 형식 instead of a difficulty.
   const formats = category ? FORMATS[category] : undefined
-  const skipped = (category && skipFormats[category]) || []
+  const skipped = category ? skippedFormats(skipFormats, category) : []
   const difficulty = formats ? 'mixed' : settings.difficulty
 
   useBackHandler(() => {

@@ -217,9 +217,10 @@ export const VARIANTS: Record<SoundName, Variant[]> = {
       },
     },
   ],
-  // The 결과 발표 sounds play over the confetti and were too loud next to the rest: half volume.
+  // The 결과 발표 sounds play over the confetti and were too loud next to the rest. The trumpet was
+  // halved, then halved again at the user's ask (0.9 → 0.45 → 0.225).
   fanfare: [
-    { id: 'trumpet', label: '트럼펫', play: () => clip('fanfare', 0.45) },
+    { id: 'trumpet', label: '트럼펫', play: () => clip('fanfare', 0.225) },
     {
       id: 'brass',
       label: '빰빠밤',

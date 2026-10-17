@@ -125,7 +125,7 @@ export default function App() {
     case 'plus':
       return (
         <>
-          <Plus onOpen={openStory} onBack={home} />
+          <Plus onOpen={openStory} onBack={home} onSettings={() => setScreen({ name: 'settings' })} />
           {tabs('plus')}
         </>
       )

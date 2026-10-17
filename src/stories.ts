@@ -122,6 +122,12 @@ export async function isDownloaded(story: Story) {
   }
 }
 
+/** Deletes every downloaded story (when the 상식플러스 오디오 팩 is removed). */
+export async function removeDownloads() {
+  if (!Capacitor.isNativePlatform()) return
+  await Filesystem.rmdir({ path: 'stories', directory: Directory.Data, recursive: true }).catch(() => {})
+}
+
 export function formatTime(sec: number) {
   const s = Math.max(0, Math.floor(sec))
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`
