@@ -91,6 +91,8 @@ export interface McqQuestion {
   audio?: string
   /** glyphSub and audio stay hidden until the question is answered (they'd give the answer away). */
   reveal?: boolean
+  /** What the question practises, when players can turn it off: "reading" is 일본어 읽기 고르기. */
+  skill?: 'reading'
   /** choices[0] is always the correct answer; the app shuffles them. */
   choices: [string, string, string, string]
 }

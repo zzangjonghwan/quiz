@@ -442,7 +442,7 @@ async function buildJapanese(pack) {
       const sharing = others((x) => x.r, 'r', (x) => x.r && [...x.word].some((ch) => chars.includes(ch)))
       const rest = others((x) => x.r, 'r2', (x) => x.r && Math.abs(x.r.length - e.r.length) <= 1)
       const readings = [...new Set([...alike, ...sharing, ...rest])].filter((r) => r !== e.r).slice(0, 3)
-      if (readings.length === 3) questions.push({ mode: 'mcq', prompt: '이 단어는 어떻게 읽을까?', glyph: e.word, audio, reveal: true, choices: [e.r, ...readings] })
+      if (readings.length === 3) questions.push({ mode: 'mcq', prompt: '이 단어는 어떻게 읽을까?', glyph: e.word, audio, reveal: true, skill: 'reading', choices: [e.r, ...readings] })
     }
     if (e.kr) {
       // Here the reading is the clue: でんしゃ sounds like 전차.

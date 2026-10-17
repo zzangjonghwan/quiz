@@ -88,6 +88,16 @@ export function SettingsScreen({
 
         <Group title="학습 팩">
           <PackList onChanged={onPacksChanged} />
+          {settings.packs.some((p) => p.category === 'japanese') && (
+            <>
+              <Row label="일본어 읽기 문제">
+                <Toggle on={settings.jpReading} onChange={(jpReading) => updateSettings({ jpReading })} />
+              </Row>
+              <p className="-mt-2 text-xs text-fg-subtle">
+                {settings.jpReading ? '한자를 보고 읽는 법을 고르는 문제도 나와요.' : '읽는 법 고르기는 빼고, 뜻·빈칸 문제로만 풀어요.'}
+              </p>
+            </>
+          )}
         </Group>
 
         <section className="flex flex-col gap-2">

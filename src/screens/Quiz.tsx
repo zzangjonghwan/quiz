@@ -264,12 +264,15 @@ function McqChoices({
   blink: boolean
   onAnswer: (pickedIndex: number, el: HTMLElement) => void
 }) {
+  // One size for the whole list, so a longer word doesn't look less important.
+  const large = item.choices.every((c) => isGlyph(splitLabel(c).word))
   return (
     <div className="flex flex-col gap-2.5">
       {item.choices.map((choice, i) => (
         <ChoiceButton
           key={i}
           label={choice}
+          large={large}
           number={i + 1}
           blink={blink}
           state={
@@ -437,8 +440,9 @@ const isGlyph = (label: string) => [...label].length <= 2 && isHan(label)
 const isLatin = (label: string) => /^[A-Za-z][A-Za-z' -]*$|^-[a-z]+$/.test(label)
 
 /**
- * The character, word or sentence a 학습 팩 question is about: big for a kanji, smaller as it gets
- * longer, with its reading (or a sentence's translation) underneath and a pronunciation button.
+ * The character, word or sentence a 학습 팩 question is about, with its reading (or a sentence's
+ * translation) underneath and a pronunciation button. Japanese words all show at one size and only
+ * shrink when they wouldn't fit on a line (よろしくお願いします); sentences wrap at reading size.
  * When those would give the answer away (item.reveal), they appear once it's answered: the word is
  * recalled from the kanji first, then read and heard.
  */
@@ -446,12 +450,13 @@ function Glyph({ item, answered }: { item: McqItem; answered: boolean }) {
   const text = item.glyph!
   const ja = isJapanese(text)
   const length = [...text].length
-  const size = !ja ? 'text-4xl font-bold break-all' : length <= 2 ? 'text-7xl leading-none font-medium' : length <= 6 ? 'text-5xl font-medium' : 'text-2xl leading-relaxed font-medium'
+  const sentence = ja && (length > 12 || /[。、？！?!＿]/.test(text))
+  const size = !ja ? 'text-4xl font-bold break-all' : sentence ? 'text-2xl leading-relaxed font-medium' : 'leading-tight font-medium whitespace-nowrap'
   const shown = !item.reveal || answered
   const appear = item.reveal ? 'fx-reveal' : ''
   return (
-    <div className="relative flex flex-col items-center gap-2 rounded-2xl bg-surface px-4 py-6 text-center">
-      <span lang={ja ? 'ja' : 'en'} className={size}>
+    <div className="relative flex flex-col items-center gap-2 rounded-2xl bg-surface px-4 py-6 text-center [container-type:inline-size]">
+      <span lang={ja ? 'ja' : 'en'} className={size} style={ja && !sentence ? { fontSize: `min(4.5rem, ${84 / length}cqi)` } : undefined}>
         {text}
       </span>
       {item.glyphSub && shown && (
@@ -477,12 +482,15 @@ const CHOICE_STYLES: Record<ChoiceState, string> = {
 
 function ChoiceButton({
   label,
+  large,
   number,
   state,
   blink,
   onClick,
 }: {
   label: string
+  /** Every choice is a single kanji or radical, so they can all be big. */
+  large: boolean
   number: number
   state: ChoiceState
   /** 게임 모드: a wrong pick blinks twice. */
@@ -511,7 +519,7 @@ function ChoiceButton({
       >
         {state === 'correct' ? <Check size={18} strokeWidth={3} /> : state === 'wrong' ? <X size={18} strokeWidth={3} /> : number}
       </span>
-      {isGlyph(word) ? (
+      {large ? (
         <span lang="ja" className="flex-1 text-3xl leading-none">
           {word}
           {revealed}
@@ -521,7 +529,7 @@ function ChoiceButton({
           {label}
         </span>
       ) : isJapanese(word) ? (
-        <span lang="ja" className="flex-1 text-lg">
+        <span lang="ja" className="flex-1 text-xl">
           {word}
           {revealed}
         </span>

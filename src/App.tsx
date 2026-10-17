@@ -93,7 +93,7 @@ export default function App() {
   const reloadBank = () => loadBank().then(setBank, (e: unknown) => console.error('reload failed', e))
   const startQuiz = (config: SessionConfig) => {
     const { progress, settings } = getState()
-    const items = buildSession(bank, progress, config, settings.excluded)
+    const items = buildSession(bank, progress, config, settings.excluded, settings.jpReading ? [] : ['reading'])
     setScreen({ name: 'quiz', config, items, startedAt: Date.now() })
   }
   // Sessions started from the 오답노트 return there, everything else returns home.

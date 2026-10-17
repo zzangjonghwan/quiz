@@ -57,6 +57,8 @@ export interface PoolOptions {
   excluded: CategoryId[]
   /** Restrict to these card ids (오답노트). */
   only?: Set<string>
+  /** Question skills turned off in settings. */
+  skip?: string[]
 }
 
 interface PoolEntry {
@@ -100,7 +102,7 @@ export function collectPool(bank: QuestionBank, o: PoolOptions): PoolEntry[] {
       if (o.only && !o.only.has(card.id)) continue
       const prompts =
         o.mode === 'mcq'
-          ? card.questions.filter((q): q is McqQuestion => q.mode === 'mcq')
+          ? card.questions.filter((q): q is McqQuestion => q.mode === 'mcq' && !(q.skill && o.skip?.includes(q.skill)))
           : subjectivePrompts(card)
       if (prompts.length) pool.push({ card, category, prompts })
     }
@@ -134,6 +136,7 @@ export function buildSession(
   progress: Record<string, CardProgress>,
   config: SessionConfig,
   excluded: CategoryId[],
+  skip: string[] = [],
 ): SessionItem[] {
   const now = Date.now()
   const only =
@@ -141,7 +144,7 @@ export function buildSession(
       ? new Set(Object.entries(progress).filter(([, p]) => p.inNote).map(([id]) => id))
       : undefined
   // 종합 exclusions only shape normal play; the 오답노트 always shows everything in it.
-  const pool = collectPool(bank, { ...config, excluded: only ? [] : excluded, only })
+  const pool = collectPool(bank, { ...config, excluded: only ? [] : excluded, only, skip })
   const limit = config.count === 'infinite' ? pool.length : config.count
 
   let chosen: PoolEntry[]
