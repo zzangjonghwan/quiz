@@ -4,6 +4,7 @@
 import { Capacitor } from '@capacitor/core'
 import { Directory, Filesystem } from '@capacitor/filesystem'
 import { Share } from '@capacitor/share'
+import { markPieces, unmark } from './marks'
 
 export const WEB_URL = 'https://zzangjonghwan.github.io/quiz/'
 
@@ -275,7 +276,28 @@ export async function drawQuestionCard(data: QuestionCardData) {
     if (data.glyphSub) {
       ctx.font = font(400, 34)
       ctx.fillStyle = C.muted
-      ctx.fillText(wrap(ctx, data.glyphSub, W - PAD * 2 - 80, 1)[0] ?? '', W / 2, ly + 62)
+      const plain = unmark(data.glyphSub)
+      const fits = wrap(ctx, plain, W - PAD * 2 - 80, 1)[0] === plain
+      if (fits && plain !== data.glyphSub) {
+        // The translation with its 형광펜, drawn piece by piece from the centred start.
+        ctx.textAlign = 'left'
+        let x = W / 2 - ctx.measureText(plain).width / 2
+        for (const p of markPieces(data.glyphSub)) {
+          const w = ctx.measureText(p.text).width
+          if (p.mark) {
+            ctx.fillStyle = C.accent
+            ctx.globalAlpha = 0.4
+            ctx.fillRect(x - 2, ly + 62 - 12, w + 4, 18)
+            ctx.globalAlpha = 1
+          }
+          ctx.fillStyle = p.mark ? C.fg : C.muted
+          ctx.fillText(p.text, x, ly + 62)
+          x += w
+        }
+        ctx.textAlign = 'center'
+      } else {
+        ctx.fillText(wrap(ctx, plain, W - PAD * 2 - 80, 1)[0] ?? '', W / 2, ly + 62)
+      }
     }
     ctx.textAlign = 'left'
     ctx.fillStyle = C.fg

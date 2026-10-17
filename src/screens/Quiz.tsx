@@ -4,10 +4,12 @@ import { hintText, judge, type Verdict } from '../answer'
 import { CATEGORY_BY_ID, DIFFICULTY_LABEL } from '../categories'
 import { CardImage } from '../components/CardImage'
 import { Explanation } from '../components/Explanation'
+import { Marked } from '../components/Marked'
 import { SpeakButton } from '../components/SpeakButton'
 import { PrimaryButton, Screen, SecondaryButton } from '../components/ui'
 import { celebrate, clearFx, extinguish, fireworks, flashWrong, floatText, setFlame } from '../fx'
 import { comboLevel, isMilestone, pointsFor, type GameResult } from '../game'
+import { splitLabel } from '../marks'
 import { hapticCorrect, hapticWrong, useBackHandler } from '../native'
 import type { AnswerRecord, McqItem, SessionConfig, SessionItem, SubjectiveItem } from '../session'
 import { playSound, preloadSounds, setGameAudio } from '../sound'
@@ -196,7 +198,7 @@ export function Quiz({
           <h2 className="text-xl leading-snug font-bold">{item.prompt}</h2>
         </div>
 
-        {item.kind === 'mcq' && item.glyph && <Glyph item={item} />}
+        {item.kind === 'mcq' && item.glyph && <Glyph item={item} answered={!!current} />}
 
         {item.card.image && <CardImage image={item.card.image} />}
 
@@ -437,24 +439,28 @@ const isLatin = (label: string) => /^[A-Za-z][A-Za-z' -]*$|^-[a-z]+$/.test(label
 /**
  * The character, word or sentence a 학습 팩 question is about: big for a kanji, smaller as it gets
  * longer, with its reading (or a sentence's translation) underneath and a pronunciation button.
+ * When those would give the answer away (item.reveal), they appear once it's answered: the word is
+ * recalled from the kanji first, then read and heard.
  */
-function Glyph({ item }: { item: McqItem }) {
+function Glyph({ item, answered }: { item: McqItem; answered: boolean }) {
   const text = item.glyph!
   const ja = isJapanese(text)
   const length = [...text].length
   const size = !ja ? 'text-4xl font-bold break-all' : length <= 2 ? 'text-7xl leading-none font-medium' : length <= 6 ? 'text-5xl font-medium' : 'text-2xl leading-relaxed font-medium'
+  const shown = !item.reveal || answered
+  const appear = item.reveal ? 'fx-reveal' : ''
   return (
     <div className="relative flex flex-col items-center gap-2 rounded-2xl bg-surface px-4 py-6 text-center">
       <span lang={ja ? 'ja' : 'en'} className={size}>
         {text}
       </span>
-      {item.glyphSub && (
-        <span lang={isJapanese(item.glyphSub) ? 'ja' : undefined} className="text-base text-fg-muted">
-          {item.glyphSub}
+      {item.glyphSub && shown && (
+        <span lang={isJapanese(item.glyphSub) ? 'ja' : undefined} className={`text-base text-fg-muted ${appear}`}>
+          <Marked text={item.glyphSub} />
         </span>
       )}
-      {item.audio && (
-        <div className="absolute top-2 right-2">
+      {item.audio && shown && (
+        <div className={`absolute top-2 right-2 ${appear}`}>
           <SpeakButton file={item.audio} />
         </div>
       )}
@@ -483,6 +489,11 @@ function ChoiceButton({
   blink: boolean
   onClick: (el: HTMLElement) => void
 }) {
+  // A Japanese choice keeps its reading to itself until the question is answered.
+  const { word, reading } = splitLabel(label)
+  const revealed = reading && state !== 'idle' && (
+    <span className="fx-reveal ml-2 text-sm font-normal opacity-75">{reading}</span>
+  )
   return (
     <button
       onClick={(e) => onClick(e.currentTarget)}
@@ -500,17 +511,19 @@ function ChoiceButton({
       >
         {state === 'correct' ? <Check size={18} strokeWidth={3} /> : state === 'wrong' ? <X size={18} strokeWidth={3} /> : number}
       </span>
-      {isGlyph(label) ? (
+      {isGlyph(word) ? (
         <span lang="ja" className="flex-1 text-3xl leading-none">
-          {label}
+          {word}
+          {revealed}
         </span>
       ) : isLatin(label) ? (
         <span lang="en" className="flex-1 text-lg font-semibold">
           {label}
         </span>
-      ) : isJapanese(label) ? (
+      ) : isJapanese(word) ? (
         <span lang="ja" className="flex-1 text-lg">
-          {label}
+          {word}
+          {revealed}
         </span>
       ) : (
         <span className="flex-1">{label}</span>

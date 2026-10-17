@@ -44,6 +44,8 @@ export interface WordInfo {
   related?: { word: string; meaning: string }[]
 }
 
+export type RubyPiece = string | [text: string, reading: string, word?: 1]
+
 /** A Japanese word card's reading, Korean sound bridge, example and look-alike (일본어 단어 팩). */
 export interface JpInfo {
   word: string
@@ -51,9 +53,15 @@ export interface JpInfo {
   reading?: string
   pos?: string
   audio?: string
-  /** The same hanja word in Korean: 電車 → 전차 → でんしゃ, sound by sound. */
-  bridge?: { ko: string; parts?: { ja: string; ko: string }[]; rule?: string }
-  sentence?: { ja: string; ko: string; audio?: string }
+  /** Kanji read as a whole rather than one by one (今日 → きょう). */
+  whole?: { word: string; reading: string }
+  /** The same hanja word in Korean: 電車 → 전차 → でんしゃ. */
+  bridge?: { ko: string }
+  /**
+   * An example sentence. `ko` marks the Korean for the word in [brackets]; `ruby` is the sentence
+   * in pieces, plain text or [text, furigana, 1 if it's the word itself].
+   */
+  sentence?: { ja: string; ko: string; ruby?: RubyPiece[]; audio?: string }
   /** A word that's easy to mix up with this one. */
   pair?: { word: string; reading?: string; meaning: string; note: string }
 }
@@ -77,10 +85,12 @@ export interface McqQuestion {
   prompt: string
   /** A character, word or sentence shown large under the prompt (학습 팩 cards). */
   glyph?: string
-  /** A smaller line under the glyph: a word's reading, or a sentence's translation. */
+  /** A smaller line under the glyph: a word's reading, or a sentence's translation ([…] is highlighted). */
   glyphSub?: string
   /** Pronunciation of the glyph (일본어 단어 팩), a file name under the pack audio URL. */
   audio?: string
+  /** glyphSub and audio stay hidden until the question is answered (they'd give the answer away). */
+  reveal?: boolean
   /** choices[0] is always the correct answer; the app shuffles them. */
   choices: [string, string, string, string]
 }

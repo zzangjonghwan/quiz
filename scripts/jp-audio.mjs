@@ -15,6 +15,7 @@ import { spawnSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { sayable, sound } from './jp-kana.mjs'
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const OUT = join(ROOT, '.stories', 'jp')
@@ -23,36 +24,8 @@ const SPEAKER = 14
 const FFMPEG = process.env.FFMPEG ?? 'ffmpeg'
 const force = process.argv.includes('--force')
 
-/** ひらがな → カタカナ */
-const kata = (s) => s.replace(/[\u3041-\u3096]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60))
-const VOWEL = {}
-for (const [v, row] of Object.entries({
-  a: 'アカサタナハマヤラワガザダバパャァ',
-  i: 'イキシチニヒミリギジヂビピィ',
-  u: 'ウクスツヌフムユルグズヅブプュゥ',
-  e: 'エケセテネヘメレゲゼデベペェ',
-  o: 'オコソトノホモヨロヲゴゾドボポョォ',
-})) for (const ch of row) VOWEL[ch] = v
-/**
- * Spelling → sound, so a reading compares with VOICEVOX's moras: long vowels become the vowel
- * itself (キョウ → キョオ, セイ → セエ, ー → the vowel before) and punctuation goes.
- */
-function sound(text) {
-  // \u30c5/\u30ba, \u30c2/\u30b8 and \u30f2/\u30aa sound the same, and VOICEVOX writes the second of each.
-  const chars = [...kata(text).replace(/[^\u30a0-\u30ff]/g, '').replace(/\u30c5/g, '\u30ba').replace(/\u30c2/g, '\u30b8').replace(/\u30f2/g, '\u30aa')]
-  let out = ''
-  for (const ch of chars) {
-    const prev = VOWEL[out.at(-1)]
-    if (ch === 'ー' && prev) out += { a: 'ア', i: 'イ', u: 'ウ', e: 'エ', o: 'オ' }[prev]
-    else if (ch === 'ウ' && prev === 'o') out += 'オ'
-    else if (ch === 'イ' && prev === 'e') out += 'エ'
-    else out += ch
-  }
-  return out
-}
-
 async function query(text) {
-  const res = await fetch(`${API}/audio_query?speaker=${SPEAKER}&text=${encodeURIComponent(text)}`, { method: 'POST' })
+  const res = await fetch(`${API}/audio_query?speaker=${SPEAKER}&text=${encodeURIComponent(sayable(text))}`, { method: 'POST' })
   if (!res.ok) throw new Error(`audio_query ${res.status}`)
   const q = await res.json()
   q.speedScale = 0.95

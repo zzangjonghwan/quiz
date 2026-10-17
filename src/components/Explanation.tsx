@@ -5,7 +5,8 @@ import { shareQuestion } from '../shareCard'
 import { questionForCard, questionLink } from '../sharedQuestion'
 import { canReport, reportUrl } from '../report'
 import type { SessionItem } from '../session'
-import type { Card, JpInfo, KanjiInfo, WordInfo } from '../types'
+import type { Card, JpInfo, KanjiInfo, RubyPiece, WordInfo } from '../types'
+import { Marked } from './Marked'
 import { SpeakButton } from './SpeakButton'
 
 /**
@@ -35,18 +36,27 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
       {e.word && <WordHeader word={e.word} />}
       {e.jp && <JpHeader jp={e.jp} />}
       {e.breakdown && e.breakdown.length > 0 && (
-        <Section label={e.kanji ? '모양 쪼개기' : e.word ? '어원 쪼개기' : '쪼개기'}>
+        <Section label={e.kanji ? '모양 쪼개기' : e.word ? '어원 쪼개기' : e.jp ? '한자 쪼개기' : '쪼개기'}>
           <div className="flex flex-col divide-y divide-line">
             {e.breakdown.map((b, i) => (
               <div key={i} className="flex items-baseline gap-3 py-2 first:pt-0 last:pb-0">
-                <span lang={e.kanji ? 'ja' : e.word ? 'en' : undefined} className="min-w-[2.5rem] shrink-0 text-lg font-bold">
+                <span lang={e.kanji || e.jp ? 'ja' : e.word ? 'en' : undefined} className="min-w-[2.5rem] shrink-0 text-lg font-bold">
                   {b.part}
                 </span>
-                {b.origin && <span className="shrink-0 text-sm text-fg-muted">{b.origin}</span>}
+                {b.origin && (
+                  <span lang={e.jp ? 'ja' : undefined} className="shrink-0 text-sm text-fg-muted">
+                    {b.origin}
+                  </span>
+                )}
                 <span className="ml-auto text-right text-[15px]">{b.meaning}</span>
               </div>
             ))}
           </div>
+          {e.jp?.whole && (
+            <p className="mt-1 text-sm text-fg-muted">
+              <span lang="ja">{e.jp.whole.word}</span>는 한 글자씩 읽지 않고 통째로 <span lang="ja">{e.jp.whole.reading}</span>라고 읽어요.
+            </p>
+          )}
         </Section>
       )}
       {e.literal && <Section label="합치면">{e.literal}</Section>}
@@ -63,10 +73,12 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
         <Section label="예문">
           <div className="flex items-start gap-3">
             <div className="flex flex-1 flex-col gap-1">
-              <p lang="ja" className="text-[17px] font-medium">
-                {e.jp.sentence.ja}
+              <p lang="ja" className="text-[17px] leading-loose font-medium">
+                {e.jp.sentence.ruby ? <Ruby pieces={e.jp.sentence.ruby} /> : e.jp.sentence.ja}
               </p>
-              <p className="text-fg-muted">{e.jp.sentence.ko}</p>
+              <p className="text-fg-muted">
+                <Marked text={e.jp.sentence.ko} />
+              </p>
             </div>
             {e.jp.sentence.audio && <SpeakButton file={e.jp.sentence.audio} label="예문 듣기" />}
           </div>
@@ -220,15 +232,14 @@ function JpHeader({ jp }: { jp: JpInfo }) {
   )
 }
 
-/** 電車 → 전차 → でんしゃ: the Korean reading of the same hanja, sound by sound. */
+/** 電車 → 전차 → でんしゃ: the Korean reading of the same hanja. */
 function Bridge({ jp }: { jp: JpInfo }) {
-  const b = jp.bridge!
   return (
     <Section label="한국어 소리 다리">
       <p className="text-[17px]">
         <span lang="ja">{jp.word}</span>
         <span className="text-fg-subtle"> → </span>
-        <span className="font-semibold text-accent">{b.ko}</span>
+        <span className="font-semibold text-accent">{jp.bridge!.ko}</span>
         {jp.reading && (
           <>
             <span className="text-fg-subtle"> → </span>
@@ -236,17 +247,43 @@ function Bridge({ jp }: { jp: JpInfo }) {
           </>
         )}
       </p>
-      {b.parts && (
-        <p className="flex flex-wrap gap-x-3 text-sm text-fg-muted">
-          {b.parts.map((part, i) => (
-            <span key={i}>
-              {part.ko} = <span lang="ja">{part.ja}</span>
-            </span>
-          ))}
-        </p>
-      )}
-      {b.rule && <p className="text-sm text-fg-muted">규칙: {b.rule}</p>}
     </Section>
+  )
+}
+
+/**
+ * An example sentence with furigana over its kanji. The explanation is for learning, not a test,
+ * so the readings are there to read along with (or instead of) the recording.
+ */
+function Ruby({ pieces }: { pieces: RubyPiece[] }) {
+  // Neighbouring pieces of the word itself share one 형광펜.
+  const groups: { mark: boolean; pieces: RubyPiece[] }[] = []
+  for (const p of pieces) {
+    const mark = typeof p !== 'string' && p[2] === 1
+    if (groups.at(-1)?.mark === mark) groups.at(-1)!.pieces.push(p)
+    else groups.push({ mark, pieces: [p] })
+  }
+  const render = (p: RubyPiece, i: number) =>
+    typeof p === 'string' || !p[1] ? (
+      <span key={i}>{typeof p === 'string' ? p : p[0]}</span>
+    ) : (
+      <ruby key={i}>
+        {p[0]}
+        <rt>{p[1]}</rt>
+      </ruby>
+    )
+  return (
+    <>
+      {groups.map((g, i) =>
+        g.mark ? (
+          <mark key={i} className="mark-hl">
+            {g.pieces.map(render)}
+          </mark>
+        ) : (
+          <span key={i}>{g.pieces.map(render)}</span>
+        ),
+      )}
+    </>
   )
 }
 

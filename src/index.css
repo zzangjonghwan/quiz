@@ -17,6 +17,11 @@
   --color-wrong: #e5484d;
 }
 
+/* 형광펜 (see .mark-hl) */
+:root {
+  --highlight: rgba(198, 244, 50, 0.34);
+}
+
 :root[data-theme='light'] {
   --color-bg: #f6f6f7;
   --color-surface: #ffffff;
@@ -28,6 +33,7 @@
   --color-accent: #5b8c00;
   --color-accent-fg: #ffffff;
   --color-wrong: #d1343a;
+  --highlight: rgba(198, 244, 50, 0.7);
 }
 
 html,
@@ -120,6 +126,42 @@ body {
 }
 .fx-pop { animation: fx-pop 0.35s ease-out; }
 
+/* ── 일본어 단어 팩 ── */
+
+/* 형광펜: the Korean for the word in a translation, and the word in its example sentence. */
+.mark-hl {
+  background: linear-gradient(transparent 38%, var(--highlight) 38%);
+  border-radius: 2px;
+  padding: 0 2px;
+  color: var(--color-fg);
+  font-weight: 600;
+}
+ruby > rt {
+  font-size: 0.55em;
+  font-weight: 400;
+  color: var(--color-fg-muted);
+}
+
+/* Speaker button: squashes on press, bounces back and sends out a ring. */
+@keyframes fx-speak {
+  0% { transform: scale(0.74); }
+  55% { transform: scale(1.16); }
+  100% { transform: scale(1); }
+}
+.fx-speak { animation: fx-speak 0.38s cubic-bezier(0.3, 1.6, 0.5, 1); }
+@keyframes fx-ring {
+  0% { transform: scale(1); opacity: 0.7; }
+  100% { transform: scale(1.9); opacity: 0; }
+}
+.fx-ring { animation: fx-ring 0.6s ease-out forwards; }
+
+/* The reading and speaker appearing once a question is answered. */
+@keyframes fx-reveal {
+  0% { opacity: 0; transform: translateY(4px); }
+  100% { opacity: 1; transform: none; }
+}
+.fx-reveal { animation: fx-reveal 0.3s ease-out both; }
+
 @media (prefers-reduced-motion: reduce) {
-  .fx-blink, .fx-flash-wrong, .fx-pulse, .fx-banner, .fx-pop { animation-duration: 0.01s; }
+  .fx-blink, .fx-flash-wrong, .fx-pulse, .fx-banner, .fx-pop, .fx-speak, .fx-ring, .fx-reveal { animation-duration: 0.01s; }
 }

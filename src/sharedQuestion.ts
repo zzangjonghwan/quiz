@@ -5,6 +5,7 @@ import { CATEGORY_BY_ID } from './categories'
 import type { QuestionBank } from './data'
 import { fetchPackCards } from './packs'
 import type { McqItem, SessionItem } from './session'
+import { splitLabel } from './marks'
 import { WEB_URL } from './shareCard'
 import type { Card, CategoryId, McqQuestion } from './types'
 
@@ -18,12 +19,15 @@ export function questionLink(card: Card, item?: SessionItem) {
   return `${WEB_URL}?q=${encodeURIComponent(card.id)}~${questionIndex(card, item)}`
 }
 
-/** The question and choices to draw, shuffled so the right answer isn't always first. */
+/**
+ * The question and choices to draw, shuffled so the right answer isn't always first. Like in the
+ * app, nothing that gives the answer away: no reading under a word or beside a choice.
+ */
 export function questionForCard(card: Card, item?: SessionItem) {
   const q = card.questions[questionIndex(card, item)]
-  if (item?.kind === 'mcq') return { prompt: item.prompt, glyph: item.glyph, glyphSub: item.glyphSub, choices: item.choices }
   if (q.mode !== 'mcq') return { prompt: q.prompt, choices: [] }
-  return { prompt: q.prompt, glyph: q.glyph, glyphSub: q.glyphSub, choices: shuffle(q.choices) }
+  const choices = (item?.kind === 'mcq' ? item.choices : shuffle(q.choices)).map((c) => splitLabel(c).word)
+  return { prompt: q.prompt, glyph: q.glyph, glyphSub: q.reveal ? undefined : q.glyphSub, choices }
 }
 
 function shuffle<T>(items: readonly T[]) {
@@ -55,6 +59,7 @@ export async function sharedQuestion(bank: QuestionBank): Promise<McqItem | null
     glyph: q.glyph,
     glyphSub: q.glyphSub,
     audio: q.audio,
+    reveal: q.reveal,
     choices,
     correctIndex: choices.indexOf(q.choices[0]),
   }

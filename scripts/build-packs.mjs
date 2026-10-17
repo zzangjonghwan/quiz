@@ -32,6 +32,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
+import { loadKanji, lookAlikes, splitWord } from './jp-kana.mjs'
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const SRC = join(ROOT, 'packs-src')
@@ -60,7 +61,7 @@ const PACKS = [
     category: 'japanese',
     kind: 'japanese',
     name: '일본어 단어 (JLPT N4)',
-    desc: '한국어 한자음 다리, 헷갈리는 짝, 일상 예문, 원어민 발음으로 익히는 N4 단어',
+    desc: '한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝, 발음 듣기로 익히는 N4 단어',
     minVersion: '0.14.0',
     newApps: true,
   },
@@ -171,7 +172,7 @@ function wrongChars(card, pool, seed) {
 async function readCards(pack) {
   const dir = join(SRC, pack.id)
   const cards = []
-  for (const file of readdirSync(dir).filter((f) => f.endsWith('.mjs')).sort()) {
+  for (const file of readdirSync(dir).filter((f) => f.endsWith('.mjs') && !f.startsWith('_')).sort()) {
     const mod = (await import(pathToFileURL(join(dir, file)).href)).default
     for (const c of mod.cards) cards.push({ c, file })
   }
@@ -330,6 +331,17 @@ async function buildEnglish(pack) {
   })
 }
 
+// 일본어 단어 card shape:
+//
+//   { w: '電車', r: 'でんしゃ', d: 'e', pos: '명사', m: '전철, 전차',
+//     kr: '전차' (the same hanja word in Korean, for the 소리 다리),
+//     ex: '{電車}で会社に行きます。=[전철]로 회사에 가요.' (the word in {…}, its Korean in […]),
+//     l: '…' (합치면, when joining the kanji's meanings doesn't read well), t: '기억 팁', x: '덤',
+//     vs: '…' (a word in the pack that's easy to mix up), vn: '…' (how to tell them apart),
+//     syn: [...] (never a wrong choice) }
+//
+// The kanji in it are explained from packs-src/<pack>/_kanji.mjs, and the furigana over the example
+// come from _ruby.json (made by scripts/jp-ruby.mjs, which checks them against the recording).
 const JP_POS = ['명사', '동사', 'い형용사', 'な형용사', '부사', '표현']
 const hasKanji = (s) => /\p{Script=Han}/u.test(s)
 const isJapanese = (s) => /^[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}ー〜・]+$/u.test(s)
@@ -337,6 +349,11 @@ const isJapanese = (s) => /^[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana
 const jpId = (w, r) => createHash('sha1').update(`${w}|${r ?? ''}`).digest('hex').slice(0, 10)
 
 async function buildJapanese(pack) {
+  const dir = join(SRC, pack.id)
+  const dict = await loadKanji(dir)
+  const rubyFile = join(dir, '_ruby.json')
+  const ruby = existsSync(rubyFile) ? JSON.parse(readFileSync(rubyFile, 'utf8')) : {}
+  if (!dict) errors.push(`${pack.id}: 한자 사전 _kanji.mjs가 없음`)
   const entries = []
   for (const { c, file } of await readCards(pack)) {
     const where = `${pack.id}/${file} ${c.w}`
@@ -346,6 +363,13 @@ async function buildJapanese(pack) {
     if (!DIFF[c.d]) errors.push(`${where}: d는 e/n/h`)
     if (!c.m) errors.push(`${where}: m(뜻)은 필수`)
     if (!JP_POS.includes(c.pos)) errors.push(`${where}: pos는 ${JP_POS.join('/')}`)
+    // The word kanji by kanji: 電車 → 電(でん) + 車(しゃ).
+    let pieces
+    if (dict && hasKanji(c.w) && c.r) {
+      pieces = splitWord(c.w, c.r, dict)
+      if (!pieces) errors.push(`${where}: _kanji.mjs의 읽기로 ${c.r}를 한자마다 나눌 수 없음 (읽기를 더하거나 whole에 넣기)`)
+      for (const ch of [...c.w].filter(hasKanji)) if (!dict.kanji.has(ch)) errors.push(`${where}: _kanji.mjs에 ${ch}가 없음`)
+    }
     let sentence
     if (c.ex) {
       const [ja, ko] = c.ex.split('=').map((s) => s?.trim())
@@ -353,7 +377,10 @@ async function buildJapanese(pack) {
       else {
         const blank = ja.match(/\{(.+?)\}/)?.[1]
         if (!blank) errors.push(`${where}: 예문에서 이 단어를 {…}로 표시해야 함`)
-        sentence = { ja: ja.replace(/[{}]/g, ''), ko, blank, gap: ja.replace(/\{.+?\}/, '＿＿') }
+        if ((ko.match(/\[[^\]]+\]/g) ?? []).length !== 1) errors.push(`${where}: 번역에서 이 단어에 해당하는 말을 […]로 한 번 표시해야 함`)
+        const plain = ja.replace(/[{}]/g, '')
+        if (!ruby[plain]) errors.push(`${where}: 예문 후리가나가 없음 — VOICEVOX를 켜고 node scripts/jp-ruby.mjs`)
+        sentence = { ja: plain, ko, blank, gap: ja.replace(/\{.+?\}/, '＿＿'), ruby: ruby[plain] }
       }
     }
     const id = `japanese-${jpId(c.w, c.r)}`
@@ -365,9 +392,9 @@ async function buildJapanese(pack) {
       char: c.w,
       id,
       where,
+      pieces,
       sentence,
       label: c.r && hasKanji(c.w) ? `${c.w}（${c.r}）` : c.w,
-      bridgeParts: c.kb && parseParts(where, c.kb)?.map((p) => ({ ja: p.part, ko: p.meaning })),
     })
   }
   checkDuplicates(entries)
@@ -393,19 +420,32 @@ async function buildJapanese(pack) {
     // mean nearly the same (思う/考える), where it would make two right answers.
     const contrast = pair && !overlaps(pair.m, e.m) ? [pair.label] : []
     const wrongWords = [...contrast, ...others((x) => x.label, 'w')].filter((v, i, a) => a.indexOf(v) === i).slice(0, 3)
+    // The reading and the sound stay hidden until the question is answered (reveal), so the word
+    // is recalled from the kanji first and then heard.
     const questions = [
-      { mode: 'mcq', prompt: '이 단어의 뜻으로 알맞은 것은?', glyph: e.word, ...(e.label !== e.word && { glyphSub: e.r }), audio, choices: [e.m, ...meanings] },
+      { mode: 'mcq', prompt: '이 단어의 뜻으로 알맞은 것은?', glyph: e.word, ...(e.label !== e.word && { glyphSub: e.r }), audio, reveal: true, choices: [e.m, ...meanings] },
       { mode: 'mcq', prompt: `${quoted(e.m)} 뜻의 일본어는?`, choices: [e.label, ...wrongWords] },
     ]
     if (hasKanji(e.word)) {
-      // Wrong readings: words sharing a kanji first (電車 → でんわ), then any of similar length.
+      // Wrong readings: two that sound almost right (と/ど, きょう/きょ, がっこう/がこう), each a
+      // different kind of slip, then a real reading of a word sharing a kanji (電車 → でんわ).
+      const real = new Set(entries.map((x) => x.r))
+      const kinds = new Set()
+      const alike = []
+      for (const a of seededShuffle(lookAlikes(e.pieces), e.id + 'a').sort((x, y) => (y.kind === 'voice') - (x.kind === 'voice'))) {
+        if (alike.length === 2) break
+        if (kinds.has(a.kind) || real.has(a.r) || (e.syn ?? []).includes(a.r)) continue
+        kinds.add(a.kind)
+        alike.push(a.r)
+      }
       const chars = [...e.word].filter(hasKanji)
       const sharing = others((x) => x.r, 'r', (x) => x.r && [...x.word].some((ch) => chars.includes(ch)))
       const rest = others((x) => x.r, 'r2', (x) => x.r && Math.abs(x.r.length - e.r.length) <= 1)
-      const readings = [...new Set([...sharing, ...rest])].filter((r) => r !== e.r).slice(0, 3)
-      if (readings.length === 3) questions.push({ mode: 'mcq', prompt: '이 단어는 어떻게 읽을까?', glyph: e.word, audio, choices: [e.r, ...readings] })
+      const readings = [...new Set([...alike, ...sharing, ...rest])].filter((r) => r !== e.r).slice(0, 3)
+      if (readings.length === 3) questions.push({ mode: 'mcq', prompt: '이 단어는 어떻게 읽을까?', glyph: e.word, audio, reveal: true, choices: [e.r, ...readings] })
     }
     if (e.kr) {
+      // Here the reading is the clue: でんしゃ sounds like 전차.
       const kos = others((x) => x.kr, 'k')
       if (kos.length === 3)
         questions.push({ mode: 'mcq', prompt: '같은 한자를 쓰는 한국어 단어는?', glyph: e.word, glyphSub: e.r, audio, choices: [e.kr, ...kos] })
@@ -413,13 +453,25 @@ async function buildJapanese(pack) {
     if (e.sentence?.blank === e.word) {
       questions.push({ mode: 'mcq', prompt: '빈칸에 알맞은 말은?', glyph: e.sentence.gap, glyphSub: e.sentence.ko, choices: [e.label, ...wrongWords] })
     }
+    // 한자 쪼개기: each kanji with its reading here and its Korean hanja name.
+    const kanjiPieces = (e.pieces ?? []).flatMap((p) =>
+      p.whole ? [...p.t].map((ch) => ({ ch, whole: true })) : p.r ? [{ ch: p.t, r: p.r }] : [],
+    )
+    const breakdown = kanjiPieces.map(({ ch, r }) => {
+      const k = dict.kanji.get(ch)
+      return { part: ch, ...(r && { origin: r }), meaning: k.old ? `${k.ko} · 한국 한자 ${k.old}` : k.ko }
+    })
+    const literal =
+      e.l ?? (kanjiPieces.length >= 2 ? `${kanjiPieces.map(({ ch }) => dict.kanji.get(ch).kw).join(' + ')} → ${e.m.split(',')[0].replace(/\(.*?\)/g, '').trim()}` : undefined)
+    const whole = (e.pieces ?? []).find((p) => p.whole)
     const jp = {
       word: e.word,
       ...(e.label !== e.word && { reading: e.r }),
       pos: e.pos,
       audio,
-      ...(e.kr && { bridge: { ko: e.kr, ...(e.bridgeParts && { parts: e.bridgeParts }), ...(e.kt && { rule: e.kt }) } }),
-      ...(e.sentence && { sentence: { ja: e.sentence.ja, ko: e.sentence.ko, audio: audio.replace('.mp3', '-ex.mp3') } }),
+      ...(whole && { whole: { word: whole.t, reading: whole.r } }),
+      ...(e.kr && { bridge: { ko: e.kr } }),
+      ...(e.sentence && { sentence: { ja: e.sentence.ja, ko: e.sentence.ko, ruby: e.sentence.ruby, audio: audio.replace('.mp3', '-ex.mp3') } }),
       ...(pair && { pair: { word: pair.word, ...(pair.label !== pair.word && { reading: pair.r }), meaning: pair.m, note: e.vn ?? '' } }),
     }
     return {
@@ -429,6 +481,8 @@ async function buildJapanese(pack) {
       questions,
       explanation: {
         jp,
+        ...(breakdown.length > 0 && { breakdown }),
+        ...(literal && { literal }),
         meaning: e.m,
         ...(e.t && { tip: e.t }),
         ...(e.x && { bonus: e.x }),

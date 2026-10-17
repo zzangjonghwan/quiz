@@ -24,12 +24,12 @@
       "id": "jp-n4",
       "category": "japanese",
       "name": "일본어 단어 (JLPT N4)",
-      "desc": "한국어 한자음 다리, 헷갈리는 짝, 일상 예문, 원어민 발음으로 익히는 N4 단어",
+      "desc": "한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝, 발음 듣기로 익히는 N4 단어",
       "minVersion": "0.14.0",
-      "version": 1,
-      "hash": "3bf1fb7cc92a",
+      "version": 2,
+      "hash": "12d5ed760912",
       "cards": 403,
-      "bytes": 511920
+      "bytes": 603417
     }
   ]
 }

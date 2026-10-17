@@ -5,8 +5,11 @@ const BASE = import.meta.env.DEV ? '/.stories/jp/' : 'https://raw.githubusercont
 
 let current: HTMLAudioElement | null = null
 
+/** Plays a clip (stopping any other), and returns it so a button can show while it plays. */
 export function playJp(file: string) {
   current?.pause()
-  current = new Audio(BASE + file)
-  void current.play().catch(() => {})
+  const audio = new Audio(BASE + file)
+  current = audio
+  void audio.play().catch(() => audio.dispatchEvent(new Event('ended')))
+  return audio
 }
