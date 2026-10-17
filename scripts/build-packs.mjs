@@ -60,8 +60,8 @@ const PACKS = [
     id: 'jp-n4',
     category: 'japanese',
     kind: 'japanese',
-    name: '일본어 단어 (JLPT N4)',
-    desc: '한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝, 귀여운 의성어·의태어까지 발음과 함께 익히는 N4 단어',
+    name: '일본어 단어 (초급)',
+    desc: 'JLPT N4 수준 단어를 한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝으로. 귀여운 의성어·의태어도 발음과 함께',
     minVersion: '0.14.0',
     newApps: true,
   },
@@ -69,7 +69,7 @@ const PACKS = [
     id: 'jp-listen-n4',
     category: 'listening',
     kind: 'listening',
-    name: '일본어 듣기 (N4)',
+    name: '일본어 듣기 (초급)',
     desc: '소리만 듣고 뜻 고르기, 편의점·식당·역 같은 장면에서 알맞은 대답 고르기',
     // 듣고 뜻 고르기 cards come from the 단어 pack's easy cards and its recordings.
     from: 'jp-n4',
@@ -496,6 +496,18 @@ async function buildJapanese(pack) {
 // Nothing is shown until the question is answered (listen); then the words, furigana (_ruby.json,
 // made by scripts/jp-ruby.mjs) and translation appear.
 const unmarkKo = (s) => s.replace(/\[([^\]]+)\]/g, '$1')
+/** Scenes in the same kind of place answer each other's questions wrong, so they must be heard. */
+const SCENE_GROUP = {
+  편의점: '편의점', 식당: '식당', 카페: '식당', 이자카야: '이자카야', 역: '역', 전철: '역',
+  관광지: '여행', '관광 안내소': '여행', 길: '여행', '기념품 가게': '여행', 료칸: '여행', 호텔: '여행',
+  '옷 가게': '쇼핑', '선물 가게': '쇼핑', 가게: '쇼핑', 학교: '학교·회사', 회사: '학교·회사', 친구: '친구',
+  병원: '생활', 약국: '생활', 동네: '생활', 집: '생활', 미용실: '생활', 우체국: '생활', 모임: '모임', '문 앞': '모임',
+}
+/** Answers that fit almost any offer or request; never someone else's wrong choice. */
+const ANY_ANSWER = new Set([
+  'はい、お願いします。', 'はい、わかりました。', 'ありがとうございます。', 'わかりました。ありがとう。', 'はい、どうぞ。',
+  'あ、どうも。', 'あ、どうぞ。', 'はい、すみません。', 'すみません、ありがとうございます。', 'あ、ありがとうございます。', 'ありがとうございました。',
+])
 /** 점원이 / 친구가 */
 const subject = (who) => who + ((who.charCodeAt(who.length - 1) - 0xac00) % 28 ? '이' : '가')
 
@@ -545,13 +557,25 @@ async function buildListening(pack, built) {
     const where = `${pack.id}/${file} ${c.a}`
     for (const key of ['p', 'who', 'a', 'ak', 'b', 'bk']) if (!c[key]) errors.push(`${where}: ${key}는 필수`)
     if (!DIFF[c.d]) errors.push(`${where}: d는 e/n/h`)
+    if (!SCENE_GROUP[c.p]) errors.push(`${where}: 장소 '${c.p}'를 SCENE_GROUP에 넣어야 함`)
     if (!Array.isArray(c.w) || c.w.length !== 3) errors.push(`${where}: w(틀린 대답)는 3개`)
     for (const text of [c.a, c.b]) if (text && !ruby[text]) errors.push(`${where}: 「${text}」 후리가나가 없음 — VOICEVOX를 켜고 node scripts/jp-ruby.mjs`)
     scenes.push({ ...c, where, hash: createHash('sha1').update(c.a).digest('hex').slice(0, 10) })
   }
   checkDuplicates(scenes.map((s) => ({ ...s, char: s.a })))
   for (const s of scenes) {
-    const others = seededShuffle([...new Set(scenes.filter((x) => x !== s && x.ak !== s.ak).map((x) => x.ak))], s.hash).slice(0, 3)
+    // Wrong choices come from scenes in the same kind of place (봉투? → 데워 주세요 / 카드로 할게요),
+    // so the place alone doesn't give the answer away. `fits` lists answers that would also be
+    // right here, and `keep` keeps the hand-written ones (二人/二時/二つ/二階 are better by ear).
+    const near = scenes.filter((x) => x !== s && SCENE_GROUP[x.p] === SCENE_GROUP[s.p])
+    const fill = (picked, extra) => [...new Set([...picked, ...extra])].slice(0, 3)
+    const others = fill(
+      seededShuffle([...new Set(near.map((x) => x.ak))].filter((ak) => ak !== s.ak), s.hash),
+      seededShuffle(scenes.filter((x) => x !== s && x.ak !== s.ak).map((x) => x.ak), s.hash + 'all'),
+    )
+    const replies = s.keep
+      ? s.w
+      : fill(seededShuffle([...new Set(near.map((x) => x.b))].filter((b) => b !== s.b && !ANY_ANSWER.has(b) && !(s.fits ?? []).includes(b)), s.hash + 'b'), s.w)
     const audio = { a: `${s.hash}-a.mp3`, b: `${s.hash}-b.mp3` }
     const heard = { listen: true, cue: `${s.p} · ${s.who}`, audio: audio.a, glyph: s.a, glyphSub: s.ak }
     cards.push({
@@ -560,7 +584,7 @@ async function buildListening(pack, built) {
       answer: s.b,
       questions: [
         { mode: 'mcq', skill: 'listen', prompt: `${subject(s.who)} 뭐라고 했을까?`, ...heard, choices: [s.ak, ...others] },
-        { mode: 'mcq', skill: 'scene', prompt: `${s.who}에게 알맞은 대답은?`, ...heard, choices: [s.b, ...s.w] },
+        { mode: 'mcq', skill: 'scene', prompt: `${s.who}에게 알맞은 대답은?`, ...heard, choices: [s.b, ...replies] },
       ],
       explanation: {
         listen: {
