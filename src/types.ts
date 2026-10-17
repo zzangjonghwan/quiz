@@ -12,7 +12,7 @@ export type CategoryId =
   | 'book' | 'film' | 'music' | 'art' | 'architecture' | 'sports'
   | 'trivia' | 'news' | 'tech'
   // Optional packs, downloaded from 설정 > 학습 팩.
-  | 'kanji' | 'english' | 'japanese'
+  | 'kanji' | 'english' | 'japanese' | 'listening'
 
 /** One piece of a "쪼개기" breakdown: a character, word, or word root. */
 export interface BreakdownPart {
@@ -91,8 +91,8 @@ export interface McqQuestion {
   audio?: string
   /** glyphSub and audio stay hidden until the question is answered (they'd give the answer away). */
   reveal?: boolean
-  /** What the question practises, when players can turn it off: "reading" is 일본어 읽기 고르기. */
-  skill?: 'reading'
+  /** Its 문제 형식, which players can leave out before starting (see src/formats.ts). */
+  skill?: string
   /** choices[0] is always the correct answer; the app shuffles them. */
   choices: [string, string, string, string]
 }

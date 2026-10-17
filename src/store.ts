@@ -46,8 +46,8 @@ export interface Settings {
   soundPicks: Partial<Record<SoundName, string>>
   /** Bumped when the default sounds change, so old picks give way to the new defaults. */
   soundVersion: number
-  /** 일본어 단어 팩의 읽기 고르기 문제를 낼지. */
-  jpReading: boolean
+  /** 문제 형식 left out per 학습 팩 category (see src/formats.ts). */
+  skipFormats: Partial<Record<CategoryId, string[]>>
   /** Downloaded 학습 팩 (the files themselves live in app storage, see src/packs.ts). */
   packs: InstalledPack[]
 }
@@ -89,7 +89,7 @@ const DEFAULT_SETTINGS: Settings = {
   sound: true,
   soundPicks: {},
   soundVersion: 3,
-  jpReading: true,
+  skipFormats: {},
   packs: [],
 }
 

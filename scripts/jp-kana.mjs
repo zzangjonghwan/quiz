@@ -168,59 +168,6 @@ export function compact(pieces) {
   return out
 }
 
-const DEVOICED = Object.fromEntries(Object.entries(VOICED).map(([a, b]) => [b, a]))
-const PLAIN_OF_SEMI = Object.fromEntries(Object.entries(SEMI).map(([a, b]) => [b, VOICED[a]]))
-const SMALL = { ゃ: 'や', ゅ: 'ゆ', ょ: 'よ' }
-const O_ROW = /[こそとのほもよろごぞどぼぽょ]/
-const U_ROW = /[くすつぬふむゆるぐずづぶぷゅ]/
-
-/**
- * Wrong readings that sound almost right, the ones people actually mix up: と/ど, か/が
- * (とけい → どけい), long or short vowels (きょう → きょ), with or without っ (がっこう → がこう)
- * and big or small ゃゅょ (きょう → きよう). Each comes with what kind of slip it is.
- *
- * `pieces` is the word split by splitWord(). Only the kanji's sounds change: kana written in the
- * word (the く of 行く) are on screen, so changing them would give the answer away. っ is only
- * added between two kanji (ち|こく → ちっこく), the way it really appears.
- */
-export function lookAlikes(pieces) {
-  const chars = []
-  for (const [n, p] of pieces.entries()) {
-    const kanji = !!p.r
-    ;[...(p.r ?? p.t)].forEach((ch, k) => chars.push({ ch, kanji, joint: kanji && k === 0 && n > 0 && !!pieces[n - 1].r }))
-  }
-  const reading = chars.map((c) => c.ch).join('')
-  const out = []
-  const add = (kind, i, remove, insert = '') => {
-    const arr = chars.map((c) => c.ch)
-    arr.splice(i, remove, ...insert)
-    const r = arr.join('')
-    if (r !== reading && !out.some((o) => o.r === r) && !/^[っー]|っ$|っ[あいうえおなにぬねのまみむめもやゆよらりるれろわんっがぎぐげござじずぜぞだぢづでどばびぶべぼ]/.test(r)) out.push({ kind, r })
-  }
-  chars.forEach(({ ch, kanji, joint }, i) => {
-    const prev = chars[i - 1]?.ch ?? ''
-    // A っ between two kanji, the way がく+こう becomes がっこう: く/つ/ち/き before it turns
-    // into っ (やく|そく → やっそく), and after another short sound one is slipped in (ち|こく → ちっこく).
-    if (joint && /[かきくけこさしすせそたちつてとぱぴぷぺぽ]/.test(ch)) {
-      if (/[くつちき]/.test(prev) && i >= 2) add('small-tsu', i - 1, 1, 'っ')
-      else if (!/[いうんっーゃゅょくつちき]/.test(prev)) add('small-tsu', i, 0, 'っ')
-    }
-    if (!kanji) return
-    // と ↔ ど, ぱ → ば
-    const swap = VOICED[ch] ?? DEVOICED[ch] ?? PLAIN_OF_SEMI[ch]
-    if (swap && !/[ぢづ]/.test(swap)) add('voice', i, 1, swap)
-    // きょう → きょ, せんせい → せんせ
-    if ((ch === 'う' && (O_ROW.test(prev) || U_ROW.test(prev))) || (ch === 'い' && /[えけせてねへめれげぜでべぺ]/.test(prev))) add('long', i, 1)
-    // しゅみ → しゅうみ: a short ゅ/ょ stretched
-    if ((ch === 'ゅ' || ch === 'ょ') && chars[i + 1]?.ch !== 'う') add('long', i + 1, 0, 'う')
-    // がっこう → がこう
-    if (ch === 'っ') add('small-tsu', i, 1)
-    // きょう → きよう
-    if (SMALL[ch]) add('small-ya', i, 1, SMALL[ch])
-  })
-  return out
-}
-
 /**
  * Where VOICEVOX's own reading is wrong or less usual, it's given kana instead: 日本 is にっぽん to
  * it, but everyday Japanese (and what learners hear) is にほん; 雨が降りそう is ふりそう, not おりそう.

@@ -1,7 +1,7 @@
 import {
   Atom, BookOpen, BookType, Brain, Briefcase, Building2, Clapperboard, Cpu, Earth, Gavel, Globe, HeartPulse, Landmark, Music,
   Languages, Lightbulb, Mic, Newspaper, Palette, PawPrint, Quote, ScrollText, Sparkles, SpellCheck,
-  Sun, Trophy, User, UtensilsCrossed, Home, WholeWord, MessageCircle, type LucideIcon,
+  Sun, Trophy, User, UtensilsCrossed, Home, WholeWord, MessageCircle, Ear, type LucideIcon,
 } from 'lucide-react'
 import type { CategoryId, Difficulty } from './types'
 
@@ -83,6 +83,7 @@ export const PACK_GROUP: CategoryGroup = {
     { id: 'kanji', name: '일본어 한자', icon: BookType },
     { id: 'english', name: '영단어 어원', icon: WholeWord },
     { id: 'japanese', name: '일본어 단어', icon: MessageCircle },
+    { id: 'listening', name: '일본어 듣기', icon: Ear },
   ],
 }
 

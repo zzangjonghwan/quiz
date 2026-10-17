@@ -57,8 +57,8 @@ export interface PoolOptions {
   excluded: CategoryId[]
   /** Restrict to these card ids (오답노트). */
   only?: Set<string>
-  /** Question skills turned off in settings. */
-  skip?: string[]
+  /** 문제 형식 left out, per category. */
+  skip?: Partial<Record<CategoryId, string[]>>
 }
 
 interface PoolEntry {
@@ -102,7 +102,7 @@ export function collectPool(bank: QuestionBank, o: PoolOptions): PoolEntry[] {
       if (o.only && !o.only.has(card.id)) continue
       const prompts =
         o.mode === 'mcq'
-          ? card.questions.filter((q): q is McqQuestion => q.mode === 'mcq' && !(q.skill && o.skip?.includes(q.skill)))
+          ? card.questions.filter((q): q is McqQuestion => q.mode === 'mcq' && !(q.skill && o.skip?.[category]?.includes(q.skill)))
           : subjectivePrompts(card)
       if (prompts.length) pool.push({ card, category, prompts })
     }
@@ -136,7 +136,7 @@ export function buildSession(
   progress: Record<string, CardProgress>,
   config: SessionConfig,
   excluded: CategoryId[],
-  skip: string[] = [],
+  skip: Partial<Record<CategoryId, string[]>> = {},
 ): SessionItem[] {
   const now = Date.now()
   const only =

@@ -3,6 +3,7 @@ import { CATEGORY_BY_ID, categoryGroups, MIXED_ICON } from '../categories'
 import { Header, PrimaryButton, Screen, Segmented } from '../components/ui'
 import type { QuestionBank } from '../data'
 import { useBackHandler } from '../native'
+import { FORMATS } from '../formats'
 import { collectPool, summarizePool, type SessionConfig } from '../session'
 import { updateSettings, useStore } from '../store'
 import type { CategoryId, QuizMode } from '../types'
@@ -128,7 +129,11 @@ function SetupSheet({
   onStart: (config: SessionConfig) => void
 }) {
   const { progress, settings } = useStore()
-  const { difficulty, count, play } = settings
+  const { count, play, skipFormats } = settings
+  // The Japanese packs pick 문제 형식 instead of a difficulty.
+  const formats = category ? FORMATS[category] : undefined
+  const skipped = (category && skipFormats[category]) || []
+  const difficulty = formats ? 'mixed' : settings.difficulty
 
   useBackHandler(() => {
     onClose()
@@ -137,14 +142,14 @@ function SetupSheet({
 
   const summaries = useMemo(() => {
     const summarize = (d: typeof difficulty) =>
-      summarizePool(collectPool(bank, { mode, category, difficulty: d, excluded: settings.excluded }), progress)
+      summarizePool(collectPool(bank, { mode, category, difficulty: d, excluded: settings.excluded, skip: skipFormats }), progress)
     return {
       easy: summarize('easy'),
       normal: summarize('normal'),
       hard: summarize('hard'),
       mixed: summarize('mixed'),
     }
-  }, [bank, mode, category, settings.excluded, progress])
+  }, [bank, mode, category, settings.excluded, skipFormats, progress])
   const current = summaries[difficulty]
   const actual = count === 'infinite' ? current.total : Math.min(count, current.total)
 
@@ -163,19 +168,51 @@ function SetupSheet({
           </p>
         </div>
 
-        <div className="flex flex-col gap-2">
-          <span className="text-sm text-fg-muted">난이도</span>
-          <Segmented
-            value={difficulty}
-            onChange={(v) => updateSettings({ difficulty: v })}
-            options={[
-              { value: 'easy', label: '쉬움', sub: `${summaries.easy.total}`, disabled: summaries.easy.total === 0 },
-              { value: 'normal', label: '보통', sub: `${summaries.normal.total}`, disabled: summaries.normal.total === 0 },
-              { value: 'hard', label: '어려움', sub: `${summaries.hard.total}`, disabled: summaries.hard.total === 0 },
-              { value: 'mixed', label: '섞기', sub: `${summaries.mixed.total}` },
-            ]}
-          />
-        </div>
+        {formats && category ? (
+          <div className="flex flex-col gap-2">
+            <span className="text-sm text-fg-muted">
+              문제 형식 <span className="text-fg-subtle">· 빼고 싶은 건 꺼 두세요</span>
+            </span>
+            <div className="flex flex-wrap gap-2">
+              {formats.map((f) => {
+                const on = !skipped.includes(f.id)
+                // At least one stays on.
+                const last = on && formats.every((g) => g.id === f.id || skipped.includes(g.id))
+                return (
+                  <button
+                    key={f.id}
+                    aria-pressed={on}
+                    disabled={last}
+                    onClick={() =>
+                      updateSettings({
+                        skipFormats: { ...skipFormats, [category]: on ? [...skipped, f.id] : skipped.filter((id) => id !== f.id) },
+                      })
+                    }
+                    className={`rounded-full px-4 py-2 text-[15px] font-medium transition-colors ${
+                      on ? 'bg-accent text-accent-fg' : 'bg-surface-2 text-fg-muted line-through decoration-fg-subtle'
+                    }`}
+                  >
+                    {f.label}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+        ) : (
+          <div className="flex flex-col gap-2">
+            <span className="text-sm text-fg-muted">난이도</span>
+            <Segmented
+              value={difficulty}
+              onChange={(v) => updateSettings({ difficulty: v })}
+              options={[
+                { value: 'easy', label: '쉬움', sub: `${summaries.easy.total}`, disabled: summaries.easy.total === 0 },
+                { value: 'normal', label: '보통', sub: `${summaries.normal.total}`, disabled: summaries.normal.total === 0 },
+                { value: 'hard', label: '어려움', sub: `${summaries.hard.total}`, disabled: summaries.hard.total === 0 },
+                { value: 'mixed', label: '섞기', sub: `${summaries.mixed.total}` },
+              ]}
+            />
+          </div>
+        )}
 
         <div className="flex flex-col gap-2">
           <span className="text-sm text-fg-muted">문제 수</span>

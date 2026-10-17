@@ -32,7 +32,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
-import { loadKanji, lookAlikes, splitWord } from './jp-kana.mjs'
+import { loadKanji, splitWord } from './jp-kana.mjs'
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const SRC = join(ROOT, 'packs-src')
@@ -420,38 +420,21 @@ async function buildJapanese(pack) {
     // mean nearly the same (思う/考える), where it would make two right answers.
     const contrast = pair && !overlaps(pair.m, e.m) ? [pair.label] : []
     const wrongWords = [...contrast, ...others((x) => x.label, 'w')].filter((v, i, a) => a.indexOf(v) === i).slice(0, 3)
-    // The reading and the sound stay hidden until the question is answered (reveal), so the word
-    // is recalled from the kanji first and then heard.
+    // A kanji word's reading and sound stay hidden until the question is answered (reveal), so it
+    // is recalled from the kanji first and then heard. A kana word (ワクワク) can be heard right away.
+    // `skill` is the 문제 형식 players can leave out before starting (src/formats.ts).
     const questions = [
-      { mode: 'mcq', prompt: '이 단어의 뜻으로 알맞은 것은?', glyph: e.word, ...(e.label !== e.word && { glyphSub: e.r }), audio, reveal: true, choices: [e.m, ...meanings] },
-      { mode: 'mcq', prompt: `${quoted(e.m)} 뜻의 일본어는?`, choices: [e.label, ...wrongWords] },
+      { mode: 'mcq', skill: 'meaning', prompt: '이 단어의 뜻으로 알맞은 것은?', glyph: e.word, ...(e.label !== e.word && { glyphSub: e.r }), audio, ...(hasKanji(e.word) && { reveal: true }), choices: [e.m, ...meanings] },
+      { mode: 'mcq', skill: 'word', prompt: `${quoted(e.m)} 뜻의 일본어는?`, choices: [e.label, ...wrongWords] },
     ]
-    if (hasKanji(e.word)) {
-      // Wrong readings: two that sound almost right (と/ど, きょう/きょ, がっこう/がこう), each a
-      // different kind of slip, then a real reading of a word sharing a kanji (電車 → でんわ).
-      const real = new Set(entries.map((x) => x.r))
-      const kinds = new Set()
-      const alike = []
-      for (const a of seededShuffle(lookAlikes(e.pieces), e.id + 'a').sort((x, y) => (y.kind === 'voice') - (x.kind === 'voice'))) {
-        if (alike.length === 2) break
-        if (kinds.has(a.kind) || real.has(a.r) || (e.syn ?? []).includes(a.r)) continue
-        kinds.add(a.kind)
-        alike.push(a.r)
-      }
-      const chars = [...e.word].filter(hasKanji)
-      const sharing = others((x) => x.r, 'r', (x) => x.r && [...x.word].some((ch) => chars.includes(ch)))
-      const rest = others((x) => x.r, 'r2', (x) => x.r && Math.abs(x.r.length - e.r.length) <= 1)
-      const readings = [...new Set([...alike, ...sharing, ...rest])].filter((r) => r !== e.r).slice(0, 3)
-      if (readings.length === 3) questions.push({ mode: 'mcq', prompt: '이 단어는 어떻게 읽을까?', glyph: e.word, audio, reveal: true, skill: 'reading', choices: [e.r, ...readings] })
-    }
     if (e.kr) {
       // Here the reading is the clue: でんしゃ sounds like 전차.
       const kos = others((x) => x.kr, 'k')
       if (kos.length === 3)
-        questions.push({ mode: 'mcq', prompt: '같은 한자를 쓰는 한국어 단어는?', glyph: e.word, glyphSub: e.r, audio, choices: [e.kr, ...kos] })
+        questions.push({ mode: 'mcq', skill: 'bridge', prompt: '같은 한자를 쓰는 한국어 단어는?', glyph: e.word, glyphSub: e.r, audio, choices: [e.kr, ...kos] })
     }
     if (e.sentence?.blank === e.word) {
-      questions.push({ mode: 'mcq', prompt: '빈칸에 알맞은 말은?', glyph: e.sentence.gap, glyphSub: e.sentence.ko, choices: [e.label, ...wrongWords] })
+      questions.push({ mode: 'mcq', skill: 'blank', prompt: '빈칸에 알맞은 말은?', glyph: e.sentence.gap, glyphSub: e.sentence.ko, choices: [e.label, ...wrongWords] })
     }
     // 한자 쪼개기: each kanji with its reading here and its Korean hanja name.
     const kanjiPieces = (e.pieces ?? []).flatMap((p) =>
