@@ -1,10 +1,11 @@
 // Records pronunciation for the 일본어 단어 팩 with VOICEVOX (free, runs on this PC): one clip per
 // word and one per example sentence, and one per line of a 일본어 듣기 scene, as small MP3s in
-// .stories/jp/. Publish them with `node scripts/publish-stories.mjs` (they go to the `stories` branch
-// next to the story audio).
+// .stories/jp/. Publish them with `node scripts/publish-stories.mjs` (they go to the `stories`
+// branch next to the story audio).
 //
 //   node scripts/jp-audio.mjs              everything not recorded yet (packs/jp-*.json)
 //   node scripts/jp-audio.mjs --force      record again
+//   node scripts/jp-audio.mjs --force --pack jp-n3     record one pack again
 //
 // Needs the VOICEVOX engine running at 127.0.0.1:50021 (C:\tts\voicevox\windows-cpu\run.exe).
 // Voice: VOICEVOX:冥鳴ひまり, a little slower and with a little more pitch movement than default,
@@ -27,6 +28,8 @@ const SPEAKER = 14
 const OTHER = 11
 const FFMPEG = process.env.FFMPEG ?? 'ffmpeg'
 const force = process.argv.includes('--force')
+// --pack jp-n3: only that pack (with --force, its clips are recorded again).
+const only = process.argv.includes('--pack') ? process.argv[process.argv.indexOf('--pack') + 1] : null
 
 async function query(text, speaker = SPEAKER) {
   const res = await fetch(`${API}/audio_query?speaker=${speaker}&text=${encodeURIComponent(sayable(text))}`, { method: 'POST' })
@@ -37,6 +40,14 @@ async function query(text, speaker = SPEAKER) {
   return q
 }
 const spoken = (q) => sound(q.accent_phrases.flatMap((ap) => ap.moras.map((m) => m.text)).join(''))
+/** Whether VOICEVOX said `reading` somewhere in `said`; the particles は and へ are said ワ and エ. */
+function saidAs(said, reading, whole = false) {
+  const want = sound(reading)
+  const same = (at) => [...want].every((ch, i) => said[at + i] === ch || (ch === 'ハ' && said[at + i] === 'ワ') || (ch === 'ヘ' && said[at + i] === 'エ'))
+  if (whole) return said.length === want.length && same(0)
+  for (let at = 0; at + want.length <= said.length; at++) if (same(at)) return true
+  return false
+}
 
 async function record(q, file, speaker = SPEAKER) {
   const res = await fetch(`${API}/synthesis?speaker=${speaker}`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(q) })
@@ -48,7 +59,7 @@ async function record(q, file, speaker = SPEAKER) {
 }
 
 mkdirSync(OUT, { recursive: true })
-const packs = readdirSync(join(ROOT, 'packs')).filter((f) => /^jp-.*\.json$/.test(f))
+const packs = readdirSync(join(ROOT, 'packs')).filter((f) => /^jp-.*\.json$/.test(f) && (!only || f === `${only}.json`))
 let made = 0
 const fixed = []
 for (const pack of packs) {
@@ -67,7 +78,7 @@ for (const pack of packs) {
     // The word on its own.
     if (force || !existsSync(join(OUT, jp.audio))) {
       let q = await query(jp.word)
-      if (spoken(q) !== sound(reading)) {
+      if (!saidAs(spoken(q), reading, true)) {
         fixed.push(`${jp.word}: ${spoken(q)} → ${sound(reading)}`)
         q = await query(reading)
       }
@@ -78,7 +89,7 @@ for (const pack of packs) {
     const s = jp.sentence
     if (s?.audio && (force || !existsSync(join(OUT, s.audio)))) {
       let q = await query(s.ja)
-      if (jp.reading && !spoken(q).includes(sound(jp.reading))) {
+      if (jp.reading && !saidAs(spoken(q), jp.reading)) {
         fixed.push(`${s.ja}: ${jp.word} → ${jp.reading}`)
         q = await query(s.ja.replace(jp.word, jp.reading))
       }

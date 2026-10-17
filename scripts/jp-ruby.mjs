@@ -31,7 +31,9 @@ for (const pack of readdirSync(join(ROOT, 'packs-src')).filter((p) => p.startsWi
   for (const file of readdirSync(dir).filter((f) => f.endsWith('.mjs') && !f.startsWith('_')).sort()) {
     for (const c of (await import(pathToFileURL(join(dir, file)).href)).default.cards) {
       // 상황 대답 scenes: what is said (a) and the answer (b), read as they are.
-      for (const text of [c.a, c.b].filter(Boolean)) {
+      // The 여행 일본어 pack shows its reply choices in kana, so the wrong ones need readings too.
+      const replies = pack === 'jp-travel' && Array.isArray(c.w) ? c.w : []
+      for (const text of [c.a, c.b, ...replies].filter(Boolean)) {
         const pieces = splitSpoken([...text], await spoken(text), dict)
         if (pieces) ruby[text] = compact(pieces).map((p) => (p.r ? [p.t, p.r] : p.t))
         else failed.push(`${pack}/${file} ${text}  ←  ${await spoken(text)}`)

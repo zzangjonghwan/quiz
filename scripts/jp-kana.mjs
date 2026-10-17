@@ -151,11 +151,16 @@ export function splitSpoken(sentence, spoken, dict) {
     const prev = j > 0 ? s[j - 1] : ''
     const want = sound(prev + part).slice(prev ? 1 : 0)
     if (s.startsWith(want, j)) return want.length
-    // は, へ and を as particles.
     // いう is said ユウ.
     if (part === 'い' && s[j] === 'ユ' && s[j + 1] === 'ウ') return 1
+    // は, へ and を as particles, alone or ending a known word (実は → じつわ).
     const particle = { は: 'ワ', へ: 'エ', を: 'オ' }[part]
-    return particle && s[j] === particle ? 1 : 0
+    if (particle) return s[j] === particle ? 1 : 0
+    if (part.length > 1 && /[はへ]$/.test(part)) {
+      const said = sound(prev + part.slice(0, -1)).slice(prev ? 1 : 0) + { は: 'ワ', へ: 'エ' }[part.at(-1)]
+      if (s.startsWith(said, j)) return said.length
+    }
+    return 0
   }
   return split(sentence, heard, dict, same)
 }
@@ -174,7 +179,7 @@ export function compact(pieces) {
 /**
  * Where VOICEVOX's own reading is wrong or less usual, it's given kana instead: 日本 is にっぽん to
  * it, but everyday Japanese (and what learners hear) is にほん; 雨が降りそう is ふりそう, not おりそう;
- * 角 (corner) is かど, not かく; 〜は何ですか is なんですか; 辛いもの is からいもの.
+ * 角 (corner) is かど, not かく; 〜は何ですか is なんですか; 辛いもの·辛さ are から-; 暇 is ひま, not いとま.
  */
 const SAY = [
   ['日本', 'にほん'],
@@ -182,5 +187,7 @@ const SAY = [
   ['あの角を', 'あのかどを'],
   ['は何ですか', 'はなんですか'],
   ['辛いもの', 'からいもの'],
+  ['明日暇', '明日ひま'],
+  ['辛さ', 'からさ'],
 ]
 export const sayable = (text) => SAY.reduce((t, [from, to]) => t.replaceAll(from, to), text)

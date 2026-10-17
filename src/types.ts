@@ -13,6 +13,7 @@ export type CategoryId =
   | 'trivia' | 'news' | 'tech'
   // Optional packs, downloaded from 설정 > 학습 팩.
   | 'kanji' | 'english' | 'japanese' | 'listening'
+  | 'travel' | 'japanese3' | 'listening3'
 
 /** One piece of a "쪼개기" breakdown: a character, word, or word root. */
 export interface BreakdownPart {

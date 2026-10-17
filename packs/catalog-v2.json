@@ -21,6 +21,17 @@
       "bytes": 357332
     },
     {
+      "id": "jp-travel",
+      "category": "travel",
+      "name": "여행 일본어 (왕초급)",
+      "desc": "여행에서 바로 쓰는 문장과 공항·호텔·식당·역 장면 대화. 히라가나만 읽을 수 있으면 돼요",
+      "minVersion": "0.14.0",
+      "version": 1,
+      "hash": "9445a7790aed",
+      "cards": 195,
+      "bytes": 240517
+    },
+    {
       "id": "jp-n4",
       "category": "japanese",
       "name": "일본어 단어 (초급)",
@@ -41,6 +52,28 @@
       "hash": "db8c458f8e24",
       "cards": 200,
       "bytes": 227355
+    },
+    {
+      "id": "jp-n3",
+      "category": "japanese3",
+      "name": "일본어 단어 (중급)",
+      "desc": "JLPT N3 수준 단어를 한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝으로. 대화·뉴스·덕질에서 바로 쓰는 말",
+      "minVersion": "0.14.0",
+      "version": 1,
+      "hash": "02263d484cb1",
+      "cards": 313,
+      "bytes": 439562
+    },
+    {
+      "id": "jp-listen-n3",
+      "category": "listening3",
+      "name": "일본어 듣기 (중급)",
+      "desc": "중급 단어·예문을 귀로 듣고, 회사·집 구하기·전화·친구 사이 같은 장면에서 알맞은 대답 고르기",
+      "minVersion": "0.14.0",
+      "version": 1,
+      "hash": "47b93db748c0",
+      "cards": 200,
+      "bytes": 238729
     }
   ]
 }
