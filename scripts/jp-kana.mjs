@@ -180,7 +180,7 @@ export function compact(pieces) {
 /**
  * Where VOICEVOX's own reading is wrong or less usual, it's given kana instead: 日本 is にっぽん to
  * it, but everyday Japanese (and what learners hear) is にほん; 雨が降りそう is ふりそう, not おりそう;
- * 角 (corner) is かど, not かく; 〜は何ですか is なんですか; 辛いもの·辛さ are から-; 暇 is ひま, not いとま.
+ * 角 (corner) is かど, not かく; 〜は何ですか is なんですか; 辛いもの·辛さ are から-; 暇 is ひま, not いとま; 清水(寺) is きよみず; 並盛 is なみもり; 手をたたく is て, not しゅ; 入れる (can go in) is はいれる, not いれる; 色 after katakana is いろ.
  */
 const SAY = [
   ['日本', 'にほん'],
@@ -190,6 +190,14 @@ const SAY = [
   ['辛いもの', 'からいもの'],
   ['明日暇', '明日ひま'],
   ['辛さ', 'からさ'],
+  ['清水の舞台', 'きよみずの舞台'],
+  ['並盛', 'なみもり'],
+  ['手をたたく', 'てをたたく'],
+  ['辛いのと', 'からいのと'],
+  ['オレンジ色', 'オレンジいろ'],
+  ['お風呂に入れません', 'お風呂にはいれません'],
+  ['何時まで入れますか', '何時まではいれますか'],
+  ['今空き', 'いま空き'],
 ]
 export const sayable = (text) => SAY.reduce((t, [from, to]) => t.replaceAll(from, to), text)
 

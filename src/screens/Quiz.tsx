@@ -492,7 +492,10 @@ function Glyph({ item, answered, ko }: { item: McqItem; answered: boolean; ko?: 
     )
   }
   return (
-    <div className="relative flex flex-col items-center gap-2 rounded-2xl bg-surface px-4 py-6 text-center [container-type:inline-size]">
+    // A sentence keeps clear of the pronunciation button in the corner (여행 명소 장면).
+    <div
+      className={`relative flex flex-col items-center gap-2 rounded-2xl bg-surface py-6 text-center [container-type:inline-size] ${item.audio && sentence ? 'px-11' : 'px-4'}`}
+    >
       <span lang={ja ? 'ja' : 'en'} className={size} style={ja && !sentence ? { fontSize: `min(4.5rem, ${84 / length}cqi)` } : undefined}>
         {text}
       </span>

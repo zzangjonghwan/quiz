@@ -64,7 +64,7 @@ const PACKS = [
     category: 'travel',
     kind: 'listening',
     name: '여행 일본어 (왕초급)',
-    desc: '여행에서 바로 쓰는 문장과 공항·호텔·식당·역 장면 대화. 히라가나만 읽을 수 있으면 돼요',
+    desc: '여행에서 바로 쓰는 문장과 공항·호텔·식당·역 장면 대화, 이치란·돈키호테·도톤보리 같은 명소에서 만나는 상황까지. 히라가나만 읽을 수 있으면 돼요',
     // Choices in kana, for people who can't read kanji yet.
     kana: true,
     minVersion: '0.14.0',
@@ -639,7 +639,7 @@ async function buildListening(pack, built) {
     const where = `${pack.id}/${file} ${c.a}`
     for (const key of ['p', 'who', 'a', 'ak', 'b', 'bk']) if (!c[key]) errors.push(`${where}: ${key}는 필수`)
     if (!DIFF[c.d]) errors.push(`${where}: d는 e/n/h`)
-    if (!SCENE_GROUP[c.p]) errors.push(`${where}: 장소 '${c.p}'를 SCENE_GROUP에 넣어야 함`)
+    if (!c.g && !SCENE_GROUP[c.p]) errors.push(`${where}: 장소 '${c.p}'를 SCENE_GROUP에 넣거나 g(묶음)를 적어야 함`)
     if (!Array.isArray(c.w) || c.w.length !== 3) errors.push(`${where}: w(틀린 대답)는 3개`)
     for (const text of [c.a, c.b]) if (text && !ruby[text]) errors.push(`${where}: 「${text}」 후리가나가 없음 — VOICEVOX를 켜고 node scripts/jp-ruby.mjs`)
     scenes.push({ ...c, where, hash: createHash('sha1').update(c.a).digest('hex').slice(0, 10) })
@@ -680,7 +680,8 @@ async function buildListening(pack, built) {
     // Wrong choices come from scenes in the same kind of place (봉투? → 데워 주세요 / 카드로 할게요),
     // so the place alone doesn't give the answer away. `fits` lists answers that would also be
     // right here, and `keep` keeps the hand-written ones (二人/二時/二つ/二階 are better by ear).
-    const near = scenes.filter((x) => x !== s && SCENE_GROUP[x.p] === SCENE_GROUP[s.p])
+    const group = (x) => x.g ?? SCENE_GROUP[x.p]
+    const near = scenes.filter((x) => x !== s && group(x) === group(s))
     const fill = (picked, extra) => [...new Set([...picked, ...extra])].slice(0, 3)
     const others = fill(
       seededShuffle([...new Set(near.map((x) => x.ak))].filter((ak) => ak !== s.ak), s.hash),
@@ -697,6 +698,23 @@ async function buildListening(pack, built) {
     }
     const audio = { a: `${s.hash}-a.mp3`, b: `${s.hash}-b.mp3` }
     const heard = { listen: true, cue: `${s.p} · ${s.who}`, audio: audio.a, glyph: s.a, glyphSub: s.ak, ...koFor([[s.a, ko(s.a)]]) }
+    // `read` scenes (여행 명소) can also be read, not only heard, so they come up in the formats that
+    // start switched on (뜻 맞히기, 일본어 고르기): the line is shown and its sound is a tap away.
+    const shown = { glyph: say(s.a), audio: audio.a }
+    const read = s.read
+      ? [
+          { mode: 'mcq', skill: 'meaning', prompt: `${s.p} · ${subject(s.who)} 한 말의 뜻은?`, ...shown, ...koFor([[say(s.a), ko(s.a)]]), choices: [s.ak, ...others] },
+          {
+            mode: 'mcq',
+            skill: 'word',
+            prompt: `${s.p} · ${s.who}에게 알맞은 대답은?`,
+            ...shown,
+            glyphSub: s.ak,
+            ...koFor([s.a, s.b, ...replies].map((t) => [say(t), ko(t)])),
+            choices: [s.b, ...replies].map(say),
+          },
+        ]
+      : []
     cards.push({
       id: `${prefix}-${s.hash}`,
       difficulty: DIFF[s.d],
@@ -704,6 +722,7 @@ async function buildListening(pack, built) {
       questions: [
         { mode: 'mcq', skill: 'listen', prompt: `${subject(s.who)} 뭐라고 했을까?`, ...heard, choices: [s.ak, ...others] },
         { mode: 'mcq', skill: 'scene', prompt: `${s.who}에게 알맞은 대답은?`, ...heard, ...koFor([s.b, ...replies].map((t) => [say(t), ko(t)])), choices: [s.b, ...replies].map(say) },
+        ...read,
       ],
       explanation: {
         listen: {

@@ -62,7 +62,9 @@ export function toHangul(kana) {
     const ch = chars[i]
     const two = TWO[ch + (chars[i + 1] ?? '')]
     if (LONG[ch] && vowel && LONG[ch].includes(vowel)) {
+      // Held once: シンゴオオ (信号を) is 신고-오, not 신고--.
       out += '-'
+      vowel = ''
       continue
     }
     if (two) {
