@@ -83,3 +83,21 @@ export function SecondaryButton({ children, onClick }: { children: ReactNode; on
     </button>
   )
 }
+
+/** An on/off switch. */
+export function Toggle({ on, onChange }: { on: boolean; onChange: (on: boolean) => void }) {
+  return (
+    <button
+      role="switch"
+      aria-checked={on}
+      onClick={() => onChange(!on)}
+      className={`relative h-7 w-12 rounded-full transition-colors ${on ? 'bg-accent' : 'bg-surface-2'}`}
+    >
+      <span
+        className={`absolute top-1 left-1 size-5 rounded-full shadow transition-transform ${
+          on ? 'translate-x-5 bg-accent-fg' : 'bg-fg-subtle'
+        }`}
+      />
+    </button>
+  )
+}

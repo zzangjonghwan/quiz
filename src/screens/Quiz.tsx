@@ -7,13 +7,14 @@ import { Explanation } from '../components/Explanation'
 import { Marked } from '../components/Marked'
 import { SpeakButton } from '../components/SpeakButton'
 import { PrimaryButton, Screen, SecondaryButton } from '../components/ui'
+import { koSayOn } from '../formats'
 import { celebrate, clearFx, extinguish, fireworks, flashWrong, floatText, setFlame } from '../fx'
 import { comboLevel, isMilestone, pointsFor, type GameResult } from '../game'
 import { splitLabel } from '../marks'
 import { hapticCorrect, hapticWrong, useBackHandler } from '../native'
 import type { AnswerRecord, McqItem, SessionConfig, SessionItem, SubjectiveItem } from '../session'
 import { playSound, preloadSounds, setGameAudio } from '../sound'
-import { recordAnswer, replaceAnswer, type AnswerSnapshot } from '../store'
+import { recordAnswer, replaceAnswer, useStore, type AnswerSnapshot } from '../store'
 
 type Answer = Omit<AnswerRecord, 'item' | 'points'>
 
@@ -154,6 +155,9 @@ export function Quiz({
   })
 
   const cat = CATEGORY_BY_ID[item.category]
+  // 한국어 발음 (왕초급·초급, switched on before starting).
+  const { settings } = useStore()
+  const ko = item.kind === 'mcq' && koSayOn(settings.koSay, item.category) ? item.ko : undefined
 
   return (
     <Screen>
@@ -198,7 +202,7 @@ export function Quiz({
           <h2 className="text-xl leading-snug font-bold">{item.prompt}</h2>
         </div>
 
-        {item.kind === 'mcq' && item.glyph && <Glyph item={item} answered={!!current} />}
+        {item.kind === 'mcq' && item.glyph && <Glyph item={item} answered={!!current} ko={ko} />}
 
         {item.card.image && <CardImage image={item.card.image} />}
 
@@ -206,6 +210,7 @@ export function Quiz({
           <McqChoices
             key={index}
             item={item}
+            ko={ko}
             current={current}
             blink={game}
             onAnswer={(pickedIndex, el) => answer({ correct: pickedIndex === item.correctIndex, pickedIndex }, el)}
@@ -255,11 +260,13 @@ export function Quiz({
 
 function McqChoices({
   item,
+  ko,
   current,
   blink,
   onAnswer,
 }: {
   item: McqItem
+  ko?: Record<string, string>
   current: AnswerRecord | undefined
   blink: boolean
   onAnswer: (pickedIndex: number, el: HTMLElement) => void
@@ -272,6 +279,7 @@ function McqChoices({
         <ChoiceButton
           key={i}
           label={choice}
+          ko={ko?.[choice]}
           large={large}
           number={i + 1}
           blink={blink}
@@ -446,8 +454,10 @@ const isLatin = (label: string) => /^[A-Za-z][A-Za-z' -]*$|^-[a-z]+$/.test(label
  * When those would give the answer away (item.reveal), they appear once it's answered: the word is
  * recalled from the kanji first, then read and heard.
  */
-function Glyph({ item, answered }: { item: McqItem; answered: boolean }) {
+function Glyph({ item, answered, ko }: { item: McqItem; answered: boolean; ko?: Record<string, string> }) {
   const text = item.glyph!
+  const say = ko?.[text]
+  const sayLine = say && <span className="text-sm text-fg-subtle">{say}</span>
   const ja = isJapanese(text)
   const length = [...text].length
   const sentence = ja && (length > 12 || /[。、？！?!＿]/.test(text))
@@ -470,6 +480,7 @@ function Glyph({ item, answered }: { item: McqItem; answered: boolean }) {
                 <Marked text={item.glyphSub} />
               </span>
             )}
+            {sayLine}
           </div>
         ) : (
           <span className="text-xs text-fg-subtle">눌러서 다시 듣기</span>
@@ -487,6 +498,7 @@ function Glyph({ item, answered }: { item: McqItem; answered: boolean }) {
           <Marked text={item.glyphSub} />
         </span>
       )}
+      {shown && say && <span className={`text-sm text-fg-subtle ${appear}`}>{say}</span>}
       {item.audio && shown && (
         <div className={`absolute top-2 right-2 ${appear}`}>
           <SpeakButton file={item.audio} />
@@ -505,6 +517,7 @@ const CHOICE_STYLES: Record<ChoiceState, string> = {
 
 function ChoiceButton({
   label,
+  ko,
   large,
   number,
   state,
@@ -512,6 +525,8 @@ function ChoiceButton({
   onClick,
 }: {
   label: string
+  /** 한국어 발음, shown with the choice (after answering, if the choice hides its reading). */
+  ko?: string
   /** Every choice is a single kanji or radical, so they can all be big. */
   large: boolean
   number: number
@@ -525,6 +540,7 @@ function ChoiceButton({
   const revealed = reading && state !== 'idle' && (
     <span className="fx-reveal ml-2 text-sm font-normal opacity-75">{reading}</span>
   )
+  const say = ko && (!reading || state !== 'idle') && <span className="block text-sm font-normal opacity-60">{ko}</span>
   return (
     <button
       onClick={(e) => onClick(e.currentTarget)}
@@ -555,6 +571,7 @@ function ChoiceButton({
         <span lang="ja" className="flex-1 text-xl">
           {word}
           {revealed}
+          {say}
         </span>
       ) : (
         <span className="flex-1">{label}</span>

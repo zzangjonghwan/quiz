@@ -26,21 +26,21 @@
       "name": "여행 일본어 (왕초급)",
       "desc": "여행에서 바로 쓰는 문장과 공항·호텔·식당·역 장면 대화. 히라가나만 읽을 수 있으면 돼요",
       "minVersion": "0.14.0",
-      "version": 1,
-      "hash": "9445a7790aed",
+      "version": 2,
+      "hash": "d7f4d851f924",
       "cards": 195,
-      "bytes": 240517
+      "bytes": 328908
     },
     {
       "id": "jp-n4",
       "category": "japanese",
       "name": "일본어 단어 (초급)",
-      "desc": "JLPT N4 수준 단어를 한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝으로. 귀여운 의성어·의태어도 발음과 함께",
+      "desc": "JLPT N4 수준 단어를 한자 쪼개기, 닮은 소리 힌트, 헷갈리는 짝으로. 귀여운 의성어·의태어도 발음과 함께",
       "minVersion": "0.14.0",
-      "version": 5,
-      "hash": "d92ec7b178c4",
+      "version": 6,
+      "hash": "7c664bb5a45d",
       "cards": 482,
-      "bytes": 649133
+      "bytes": 772471
     },
     {
       "id": "jp-listen-n4",
@@ -48,16 +48,16 @@
       "name": "일본어 듣기 (초급)",
       "desc": "소리만 듣고 뜻 고르기, 편의점·식당·역 같은 장면에서 알맞은 대답 고르기",
       "minVersion": "0.14.0",
-      "version": 2,
-      "hash": "db8c458f8e24",
+      "version": 3,
+      "hash": "271a61eaa1e2",
       "cards": 200,
-      "bytes": 227355
+      "bytes": 282701
     },
     {
       "id": "jp-n3",
       "category": "japanese3",
       "name": "일본어 단어 (중급)",
-      "desc": "JLPT N3 수준 단어를 한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝으로. 대화·뉴스·덕질에서 바로 쓰는 말",
+      "desc": "JLPT N3 수준 단어를 한자 쪼개기, 닮은 소리 힌트, 헷갈리는 짝으로. 대화·뉴스·덕질에서 바로 쓰는 말",
       "minVersion": "0.14.0",
       "version": 1,
       "hash": "02263d484cb1",

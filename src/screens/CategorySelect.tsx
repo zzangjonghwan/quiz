@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react'
 import { CATEGORY_BY_ID, categoryGroups, MIXED_ICON } from '../categories'
-import { Header, PrimaryButton, Screen, Segmented } from '../components/ui'
+import { Header, PrimaryButton, Screen, Segmented, Toggle } from '../components/ui'
 import type { QuestionBank } from '../data'
 import { useBackHandler } from '../native'
-import { FORMATS, skippedFormats } from '../formats'
+import { FORMATS, KO_SAY, koSayOn, skippedFormats } from '../formats'
 import { collectPool, summarizePool, type SessionConfig } from '../session'
 import { updateSettings, useStore } from '../store'
 import type { CategoryId, QuizMode } from '../types'
@@ -197,6 +197,18 @@ function SetupSheet({
                 )
               })}
             </div>
+            {KO_SAY[category] !== undefined && (
+              <div className="mt-2 flex items-center justify-between gap-4">
+                <span className="flex flex-col">
+                  <span className="text-[15px]">한국어 발음</span>
+                  <span className="text-xs text-fg-subtle">일본어 밑에 한글로 읽는 소리를 보여 줘요</span>
+                </span>
+                <Toggle
+                  on={koSayOn(settings.koSay, category)}
+                  onChange={(on) => updateSettings({ koSay: { ...settings.koSay, [category]: on } })}
+                />
+              </div>
+            )}
           </div>
         ) : (
           <div className="flex flex-col gap-2">

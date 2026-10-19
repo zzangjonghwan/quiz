@@ -32,6 +32,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
+import { toHangul } from './jp-hangul.mjs'
 import { loadKanji, splitWord } from './jp-kana.mjs'
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
@@ -58,6 +59,8 @@ const PACKS = [
   },
   {
     id: 'jp-travel',
+    // 한국어 발음 option (왕초급·초급).
+    koSay: true,
     category: 'travel',
     kind: 'listening',
     name: '여행 일본어 (왕초급)',
@@ -69,15 +72,19 @@ const PACKS = [
   },
   {
     id: 'jp-n4',
+    // 한국어 발음 option (왕초급·초급).
+    koSay: true,
     category: 'japanese',
     kind: 'japanese',
     name: '일본어 단어 (초급)',
-    desc: 'JLPT N4 수준 단어를 한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝으로. 귀여운 의성어·의태어도 발음과 함께',
+    desc: 'JLPT N4 수준 단어를 한자 쪼개기, 닮은 소리 힌트, 헷갈리는 짝으로. 귀여운 의성어·의태어도 발음과 함께',
     minVersion: '0.14.0',
     newApps: true,
   },
   {
     id: 'jp-listen-n4',
+    // 한국어 발음 option (왕초급·초급).
+    koSay: true,
     category: 'listening',
     kind: 'listening',
     name: '일본어 듣기 (초급)',
@@ -93,7 +100,7 @@ const PACKS = [
     category: 'japanese3',
     kind: 'japanese',
     name: '일본어 단어 (중급)',
-    desc: 'JLPT N3 수준 단어를 한자 쪼개기, 한국어 한자음 다리, 헷갈리는 짝으로. 대화·뉴스·덕질에서 바로 쓰는 말',
+    desc: 'JLPT N3 수준 단어를 한자 쪼개기, 닮은 소리 힌트, 헷갈리는 짝으로. 대화·뉴스·덕질에서 바로 쓰는 말',
     // Words already in the 초급 pack are left out.
     after: ['jp-n4'],
     minVersion: '0.14.0',
@@ -380,7 +387,7 @@ async function buildEnglish(pack) {
 // 일본어 단어 card shape:
 //
 //   { w: '電車', r: 'でんしゃ', d: 'e', pos: '명사', m: '전철, 전차',
-//     kr: '전차' (the same hanja word in Korean, for the 소리 다리),
+//     kr: '전차' (the same hanja word in Korean, for the 닮은 소리 힌트),
 //     ex: '{電車}で会社に行きます。=[전철]로 회사에 가요.' (the word in {…}, its Korean in […]),
 //     l: '…' (합치면, when joining the kanji's meanings doesn't read well), t: '기억 팁', x: '덤',
 //     vs: '…' (a word in the pack that's easy to mix up), vn: '…' (how to tell them apart),
@@ -394,6 +401,23 @@ const isJapanese = (s) => /^[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana
 /** Stable id from the word and its reading, so cards keep their progress when files are reordered. */
 const jpId = (w, r) => createHash('sha1').update(`${w}|${r ?? ''}`).digest('hex').slice(0, 10)
 
+/**
+ * 한국어 발음 for the 왕초급·초급 packs (koSay): how VOICEVOX said a text (_say.json, made by
+ * scripts/jp-ruby.mjs) in Korean letters. ko(text) is undefined for packs without it.
+ */
+function koSayer(pack, dir) {
+  const file = join(dir, '_say.json')
+  if (!pack.koSay) return () => undefined
+  if (!existsSync(file)) errors.push(`${pack.id}: _say.json이 없음 — VOICEVOX를 켜고 node scripts/jp-ruby.mjs`)
+  const said = existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : {}
+  return (text) => (said[text] ? toHangul(said[text]) : undefined)
+}
+/** { ko: { text: 한국어 발음 } } for a question, left out when there is none. */
+const koFor = (entries) => {
+  const ko = Object.fromEntries(entries.filter(([, v]) => v))
+  return Object.keys(ko).length ? { ko } : {}
+}
+
 /** The pack's own kanji dictionary, or the shared one in packs-src/jp-n4. */
 const loadJpKanji = async (dir) => (await loadKanji(dir)) ?? (await loadKanji(join(SRC, 'jp-n4')))
 
@@ -402,6 +426,7 @@ async function buildJapanese(pack, built) {
   const dict = await loadJpKanji(dir)
   const rubyFile = join(dir, '_ruby.json')
   const ruby = existsSync(rubyFile) ? JSON.parse(readFileSync(rubyFile, 'utf8')) : {}
+  const ko = koSayer(pack, dir)
   if (!dict) errors.push(`${pack.id}: 한자 사전 _kanji.mjs가 없음`)
   const entries = []
   for (const { c, file } of await readCards(pack)) {
@@ -451,6 +476,7 @@ async function buildJapanese(pack, built) {
   const below = new Set((pack.after ?? []).flatMap((id) => (built[id] ?? []).map((c) => c.answer)))
   for (const e of entries) if (below.has(e.word)) errors.push(`${e.where}: 아래 단계 팩에 이미 있는 단어`)
   const byWord = new Map(entries.map((e) => [e.word, e]))
+  const byLabel = new Map(entries.map((e) => [e.label, e.word]))
   for (const e of entries) if (e.vs && !byWord.has(e.vs)) errors.push(`${e.where}: vs(헷갈리는 짝) '${e.vs}'가 팩에 없음`)
 
   return entries.map((e) => {
@@ -476,14 +502,14 @@ async function buildJapanese(pack, built) {
     // is recalled from the kanji first and then heard. A kana word (ワクワク) can be heard right away.
     // `skill` is the 문제 형식 players can leave out before starting (src/formats.ts).
     const questions = [
-      { mode: 'mcq', skill: 'meaning', prompt: '이 단어의 뜻으로 알맞은 것은?', glyph: e.word, ...(e.label !== e.word && { glyphSub: e.r }), audio, ...(hasKanji(e.word) && { reveal: true }), choices: [e.m, ...meanings] },
-      { mode: 'mcq', skill: 'word', prompt: `${quoted(e.m)} 뜻의 일본어는?`, choices: [e.label, ...wrongWords] },
+      { mode: 'mcq', skill: 'meaning', prompt: '이 단어의 뜻으로 알맞은 것은?', glyph: e.word, ...(e.label !== e.word && { glyphSub: e.r }), audio, ...(hasKanji(e.word) && { reveal: true }), ...koFor([[e.word, ko(e.word)]]), choices: [e.m, ...meanings] },
+      { mode: 'mcq', skill: 'word', prompt: `${quoted(e.m)} 뜻의 일본어는?`, ...koFor([e.label, ...wrongWords].map((l) => [l, ko(byLabel.get(l))])), choices: [e.label, ...wrongWords] },
     ]
     if (e.kr) {
       // Here the reading is the clue: でんしゃ sounds like 전차.
       const kos = others((x) => x.kr, 'k')
       if (kos.length === 3)
-        questions.push({ mode: 'mcq', skill: 'bridge', prompt: '같은 한자를 쓰는 한국어 단어는?', glyph: e.word, glyphSub: e.r, audio, choices: [e.kr, ...kos] })
+        questions.push({ mode: 'mcq', skill: 'bridge', prompt: '같은 한자를 쓰는 한국어 단어는?', glyph: e.word, glyphSub: e.r, audio, ...koFor([[e.word, ko(e.word)]]), choices: [e.kr, ...kos] })
     }
     if (e.sentence?.blank === e.word) {
       questions.push({ mode: 'mcq', skill: 'blank', prompt: '빈칸에 알맞은 말은?', glyph: e.sentence.gap, glyphSub: e.sentence.ko, choices: [e.label, ...wrongWords] })
@@ -504,9 +530,10 @@ async function buildJapanese(pack, built) {
       ...(e.label !== e.word && { reading: e.r }),
       pos: e.pos,
       audio,
+      ...(ko(e.word) && { sayKo: ko(e.word) }),
       ...(whole && { whole: { word: whole.t, reading: whole.r } }),
       ...(e.kr && { bridge: { ko: e.kr } }),
-      ...(e.sentence && { sentence: { ja: e.sentence.ja, ko: e.sentence.ko, ruby: e.sentence.ruby, audio: audio.replace('.mp3', '-ex.mp3') } }),
+      ...(e.sentence && { sentence: { ja: e.sentence.ja, ko: e.sentence.ko, ruby: e.sentence.ruby, ...(ko(e.sentence.ja) && { sayKo: ko(e.sentence.ja) }), audio: audio.replace('.mp3', '-ex.mp3') } }),
       ...(pair && { pair: { word: pair.word, ...(pair.label !== pair.word && { reading: pair.r }), meaning: pair.m, note: e.vn ?? '' } }),
     }
     return {
@@ -558,6 +585,7 @@ async function buildListening(pack, built) {
   const dir = join(SRC, pack.id)
   const rubyFile = join(dir, '_ruby.json')
   const ruby = existsSync(rubyFile) ? JSON.parse(readFileSync(rubyFile, 'utf8')) : {}
+  const ko = koSayer(pack, dir)
   const prefix = pack.category
   const cards = []
 
@@ -576,7 +604,7 @@ async function buildListening(pack, built) {
         difficulty: c.difficulty,
         answer: c.answer,
         questions: [
-          { mode: 'mcq', skill: 'listen', prompt: '들리는 단어의 뜻은?', listen: true, cue: '단어', audio: jp.audio, glyph: jp.word, ...(jp.reading && { glyphSub: jp.reading }), choices: meaning.choices },
+          { mode: 'mcq', skill: 'listen', prompt: '들리는 단어의 뜻은?', listen: true, cue: '단어', audio: jp.audio, glyph: jp.word, ...(jp.reading && { glyphSub: jp.reading }), ...koFor([[jp.word, jp.sayKo]]), choices: meaning.choices },
         ],
         explanation: c.explanation,
       })
@@ -589,7 +617,7 @@ async function buildListening(pack, built) {
         id: c.id.replace(/^[a-z0-9]+-/, `${prefix}-s`),
         difficulty: c.difficulty,
         answer: s.ja,
-        questions: [{ mode: 'mcq', skill: 'listen', prompt: '들리는 문장의 뜻은?', listen: true, cue: '문장', audio: s.audio, glyph: s.ja, glyphSub: s.ko, choices: [ko, ...wrong] }],
+        questions: [{ mode: 'mcq', skill: 'listen', prompt: '들리는 문장의 뜻은?', listen: true, cue: '문장', audio: s.audio, glyph: s.ja, glyphSub: s.ko, ...koFor([[s.ja, s.sayKo]]), choices: [ko, ...wrong] }],
         explanation: c.explanation,
       })
     }
@@ -616,6 +644,7 @@ async function buildListening(pack, built) {
     scenes.push({ ...c, where, hash: createHash('sha1').update(c.a).digest('hex').slice(0, 10) })
   }
   checkDuplicates(phrases)
+  const byKana = new Map(phrases.map((x) => [x.r ?? x.w, x.w]))
 
   // Phrases are for beginners, so they're shown in kana and heard from the start.
   for (const p of phrases) {
@@ -626,18 +655,19 @@ async function buildListening(pack, built) {
         .filter((v) => v !== fn(p))
         .slice(0, 3)
     const audio = `${p.hash}.mp3`
-    const glyph = { glyph: p.w, ...(p.r && { glyphSub: p.r }), audio }
+    const glyph = { glyph: p.w, ...(p.r && { glyphSub: p.r }), audio, ...koFor([[p.w, ko(p.w)]]) }
+    const said = [kana, ...pick((x) => x.r ?? x.w, 'w')]
     cards.push({
       id: `${prefix}-${p.hash}`,
       difficulty: DIFF[p.d],
       answer: p.w,
       questions: [
         { mode: 'mcq', skill: 'meaning', prompt: '이 말의 뜻은?', ...glyph, choices: [p.m, ...pick((x) => x.m, 'm')] },
-        { mode: 'mcq', skill: 'word', prompt: `${quoted(p.m)} 말을 일본어로?`, choices: [kana, ...pick((x) => x.r ?? x.w, 'w')] },
-        { mode: 'mcq', skill: 'listen', prompt: '들리는 말의 뜻은?', listen: true, cue: p.g, audio, glyph: p.w, ...(p.r && { glyphSub: p.r }), choices: [p.m, ...pick((x) => x.m, 'l')] },
+        { mode: 'mcq', skill: 'word', prompt: `${quoted(p.m)} 말을 일본어로?`, ...koFor(said.map((k) => [k, ko(byKana.get(k))])), choices: said },
+        { mode: 'mcq', skill: 'listen', prompt: '들리는 말의 뜻은?', listen: true, cue: p.g, audio, ...glyph, choices: [p.m, ...pick((x) => x.m, 'l')] },
       ],
       explanation: {
-        jp: { word: p.w, ...(p.r && { reading: p.r }), pos: p.g, audio },
+        jp: { word: p.w, ...(p.r && { reading: p.r }), pos: p.g, audio, ...(ko(p.w) && { sayKo: ko(p.w) }) },
         meaning: p.m,
         ...(p.t && { tip: p.t }),
       },
@@ -665,21 +695,21 @@ async function buildListening(pack, built) {
       return (ruby[text] ?? []).map((p) => (typeof p === 'string' ? p : p[1] || p[0])).join('')
     }
     const audio = { a: `${s.hash}-a.mp3`, b: `${s.hash}-b.mp3` }
-    const heard = { listen: true, cue: `${s.p} · ${s.who}`, audio: audio.a, glyph: s.a, glyphSub: s.ak }
+    const heard = { listen: true, cue: `${s.p} · ${s.who}`, audio: audio.a, glyph: s.a, glyphSub: s.ak, ...koFor([[s.a, ko(s.a)]]) }
     cards.push({
       id: `${prefix}-${s.hash}`,
       difficulty: DIFF[s.d],
       answer: s.b,
       questions: [
         { mode: 'mcq', skill: 'listen', prompt: `${subject(s.who)} 뭐라고 했을까?`, ...heard, choices: [s.ak, ...others] },
-        { mode: 'mcq', skill: 'scene', prompt: `${s.who}에게 알맞은 대답은?`, ...heard, choices: [s.b, ...replies].map(say) },
+        { mode: 'mcq', skill: 'scene', prompt: `${s.who}에게 알맞은 대답은?`, ...heard, ...koFor([s.b, ...replies].map((t) => [say(t), ko(t)])), choices: [s.b, ...replies].map(say) },
       ],
       explanation: {
         listen: {
           place: s.p,
           lines: [
-            { who: s.who, ja: s.a, ruby: ruby[s.a], ko: s.ak, audio: audio.a },
-            { who: '나', ja: s.b, ruby: ruby[s.b], ko: s.bk, audio: audio.b },
+            { who: s.who, ja: s.a, ruby: ruby[s.a], ko: s.ak, ...(ko(s.a) && { sayKo: ko(s.a) }), audio: audio.a },
+            { who: '나', ja: s.b, ruby: ruby[s.b], ko: s.bk, ...(ko(s.b) && { sayKo: ko(s.b) }), audio: audio.b },
           ],
         },
         meaning: s.bk,
@@ -705,7 +735,7 @@ const index = []
 const built = {}
 for (const { kind, newApps, ...spec } of PACKS) {
   // Building settings stay out of the pack lists.
-  const { from: _from, words: _words, sentences: _sentences, after: _after, kana: _kana, ...pack } = spec
+  const { from: _from, words: _words, sentences: _sentences, after: _after, kana: _kana, koSay: _koSay, ...pack } = spec
   const cards = await BUILDERS[kind](spec, built)
   built[pack.id] = cards
   for (const card of cards) {

@@ -62,7 +62,9 @@ export interface JpInfo {
    * An example sentence. `ko` marks the Korean for the word in [brackets]; `ruby` is the sentence
    * in pieces, plain text or [text, furigana, 1 if it's the word itself].
    */
-  sentence?: { ja: string; ko: string; ruby?: RubyPiece[]; audio?: string }
+  sentence?: { ja: string; ko: string; ruby?: RubyPiece[]; sayKo?: string; audio?: string }
+  /** 한국어 발음 of the word (왕초급·초급 packs). */
+  sayKo?: string
   /** A word that's easy to mix up with this one. */
   pair?: { word: string; reading?: string; meaning: string; note: string }
 }
@@ -70,7 +72,7 @@ export interface JpInfo {
 /** A 일본어 듣기 scene: what was said and the answer, each with furigana and its recording. */
 export interface ListenInfo {
   place: string
-  lines: { who: string; ja: string; ruby?: RubyPiece[]; ko: string; audio?: string }[]
+  lines: { who: string; ja: string; ruby?: RubyPiece[]; ko: string; sayKo?: string; audio?: string }[]
 }
 
 export interface Explanation {
@@ -105,6 +107,8 @@ export interface McqQuestion {
    */
   listen?: boolean
   cue?: string
+  /** 한국어 발음 of the glyph or of a choice, by its text (왕초급·초급 packs, shown when switched on). */
+  ko?: Record<string, string>
   /** Its 문제 형식, which players can leave out before starting (see src/formats.ts). */
   skill?: string
   /** choices[0] is always the correct answer; the app shuffles them. */

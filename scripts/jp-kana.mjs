@@ -191,3 +191,15 @@ const SAY = [
   ['辛さ', 'からさ'],
 ]
 export const sayable = (text) => SAY.reduce((t, [from, to]) => t.replaceAll(from, to), text)
+
+/**
+ * Whether VOICEVOX said `reading` (somewhere in `said`, or all of it); the particles は and へ are
+ * said ワ and エ.
+ */
+export function saidAs(said, reading, whole = false) {
+  const want = sound(reading)
+  const same = (at) => [...want].every((ch, i) => said[at + i] === ch || (ch === 'ハ' && said[at + i] === 'ワ') || (ch === 'ヘ' && said[at + i] === 'エ'))
+  if (whole) return said.length === want.length && same(0)
+  for (let at = 0; at + want.length <= said.length; at++) if (same(at)) return true
+  return false
+}

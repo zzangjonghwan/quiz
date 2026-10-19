@@ -29,6 +29,7 @@ export interface McqItem extends ItemBase {
   reveal?: boolean
   listen?: boolean
   cue?: string
+  ko?: Record<string, string>
   /** Shuffled copy of the question's choices. */
   choices: string[]
   correctIndex: number
@@ -192,6 +193,7 @@ export function buildSession(
         reveal: q.reveal,
         listen: q.listen,
         cue: q.cue,
+        ko: q.ko,
         choices,
         correctIndex: choices.indexOf(q.choices[0]),
       }

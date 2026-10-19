@@ -28,11 +28,20 @@ export const AUDIO_FORMATS = ['listen', 'scene']
 /** 문제 형식 left out until the player switches them on. */
 const DEFAULT_SKIP: Partial<Record<CategoryId, string[]>> = {
   travel: AUDIO_FORMATS,
+  japanese: ['bridge'],
+  japanese3: ['bridge'],
 }
 
 /** What is left out in a category: the player's choice, or the default. */
 export const skippedFormats = (skip: Partial<Record<CategoryId, string[]>>, category: CategoryId) =>
   skip[category] ?? DEFAULT_SKIP[category] ?? []
+
+/** Categories with the 한국어 발음 option (왕초급·초급), and whether it starts on. */
+export const KO_SAY: Partial<Record<CategoryId, boolean>> = { travel: true, japanese: false, listening: false }
+
+/** Whether 한국어 발음 is shown in a category. */
+export const koSayOn = (koSay: Partial<Record<CategoryId, boolean>>, category: CategoryId) =>
+  koSay[category] ?? KO_SAY[category] ?? false
 
 export const FORMATS: Partial<Record<CategoryId, QuestionFormat[]>> = {
   japanese: WORDS,

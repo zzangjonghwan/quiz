@@ -1,11 +1,13 @@
 import { Flag, Lightbulb, Share2 } from 'lucide-react'
 import { useState, type ReactNode } from 'react'
 import { CATEGORY_BY_ID } from '../categories'
+import { koSayOn } from '../formats'
 import { shareQuestion } from '../shareCard'
 import { questionForCard, questionLink } from '../sharedQuestion'
 import { canReport, reportUrl } from '../report'
 import type { SessionItem } from '../session'
-import type { Card, JpInfo, KanjiInfo, ListenInfo, RubyPiece, WordInfo } from '../types'
+import { useStore } from '../store'
+import type { Card, CategoryId, JpInfo, KanjiInfo, ListenInfo, RubyPiece, WordInfo } from '../types'
 import { Marked } from './Marked'
 import { SpeakButton } from './SpeakButton'
 
@@ -15,6 +17,9 @@ import { SpeakButton } from './SpeakButton'
  */
 export function Explanation({ card, item }: { card: Card; item?: SessionItem }) {
   const e = card.explanation
+  // 한국어 발음 (왕초급·초급), when switched on for this category.
+  const { settings } = useStore()
+  const koOn = koSayOn(settings.koSay, card.id.split('-')[0] as CategoryId)
   const notice = NOTICES[card.id.split('-')[0]]
   const canShare = card.questions.some((q) => q.mode === 'mcq') && !card.image
   const [sharing, setSharing] = useState(false)
@@ -34,8 +39,8 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
     <div className="flex flex-col gap-4 rounded-2xl bg-surface p-5">
       {e.kanji && <KanjiHeader kanji={e.kanji} />}
       {e.word && <WordHeader word={e.word} />}
-      {e.jp && <JpHeader jp={e.jp} />}
-      {e.listen && <Conversation listen={e.listen} />}
+      {e.jp && <JpHeader jp={e.jp} koOn={koOn} />}
+      {e.listen && <Conversation listen={e.listen} koOn={koOn} />}
       {e.breakdown && e.breakdown.length > 0 && (
         <Section label={e.kanji ? '모양 쪼개기' : e.word ? '어원 쪼개기' : e.jp ? '한자 쪼개기' : '쪼개기'}>
           <div className="flex flex-col divide-y divide-line">
@@ -77,6 +82,7 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
               <p lang="ja" className="text-[17px] leading-loose font-medium">
                 {e.jp.sentence.ruby ? <Ruby pieces={e.jp.sentence.ruby} /> : e.jp.sentence.ja}
               </p>
+              {koOn && e.jp.sentence.sayKo && <p className="text-sm text-fg-subtle">{e.jp.sentence.sayKo}</p>}
               <p className="text-fg-muted">
                 <Marked text={e.jp.sentence.ko} />
               </p>
@@ -216,7 +222,7 @@ function WordHeader({ word }: { word: WordInfo }) {
 }
 
 /** The Japanese word, its reading and part of speech, with its pronunciation. */
-function JpHeader({ jp }: { jp: JpInfo }) {
+function JpHeader({ jp, koOn }: { jp: JpInfo; koOn: boolean }) {
   return (
     <div className="flex items-center gap-3">
       <div className="flex flex-1 flex-col">
@@ -227,6 +233,7 @@ function JpHeader({ jp }: { jp: JpInfo }) {
           {jp.reading && <span lang="ja">{jp.reading}</span>}
           {jp.pos && <span>{jp.pos}</span>}
         </span>
+        {koOn && jp.sayKo && <span className="text-sm text-fg-subtle">{jp.sayKo}</span>}
       </div>
       {jp.audio && <SpeakButton file={jp.audio} size={20} />}
     </div>
@@ -236,7 +243,7 @@ function JpHeader({ jp }: { jp: JpInfo }) {
 /** 電車 → 전차 → でんしゃ: the Korean reading of the same hanja. */
 function Bridge({ jp }: { jp: JpInfo }) {
   return (
-    <Section label="한국어 소리 다리">
+    <Section label="닮은 소리 힌트">
       <p className="text-[17px]">
         <span lang="ja">{jp.word}</span>
         <span className="text-fg-subtle"> → </span>
@@ -253,7 +260,7 @@ function Bridge({ jp }: { jp: JpInfo }) {
 }
 
 /** A 일본어 듣기 scene: who said what, and the answer, each to read along and hear again. */
-function Conversation({ listen }: { listen: ListenInfo }) {
+function Conversation({ listen, koOn }: { listen: ListenInfo; koOn: boolean }) {
   return (
     <Section label={`${listen.place}에서`}>
       <div className="flex flex-col gap-3">
@@ -264,6 +271,7 @@ function Conversation({ listen }: { listen: ListenInfo }) {
               <p lang="ja" className="text-[17px] leading-loose font-medium">
                 {line.ruby ? <Ruby pieces={line.ruby} /> : line.ja}
               </p>
+              {koOn && line.sayKo && <p className="text-sm text-fg-subtle">{line.sayKo}</p>}
               <p className="text-fg-muted">{line.ko}</p>
             </div>
             {line.audio && <SpeakButton file={line.audio} label={`${line.who}의 말 듣기`} />}

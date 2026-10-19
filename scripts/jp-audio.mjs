@@ -17,7 +17,7 @@ import { spawnSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { sayable, sound } from './jp-kana.mjs'
+import { saidAs, sayable, sound } from './jp-kana.mjs'
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const OUT = join(ROOT, '.stories', 'jp')
@@ -40,15 +40,6 @@ async function query(text, speaker = SPEAKER) {
   return q
 }
 const spoken = (q) => sound(q.accent_phrases.flatMap((ap) => ap.moras.map((m) => m.text)).join(''))
-/** Whether VOICEVOX said `reading` somewhere in `said`; the particles は and へ are said ワ and エ. */
-function saidAs(said, reading, whole = false) {
-  const want = sound(reading)
-  const same = (at) => [...want].every((ch, i) => said[at + i] === ch || (ch === 'ハ' && said[at + i] === 'ワ') || (ch === 'ヘ' && said[at + i] === 'エ'))
-  if (whole) return said.length === want.length && same(0)
-  for (let at = 0; at + want.length <= said.length; at++) if (same(at)) return true
-  return false
-}
-
 async function record(q, file, speaker = SPEAKER) {
   const res = await fetch(`${API}/synthesis?speaker=${speaker}`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(q) })
   if (!res.ok) throw new Error(`synthesis ${res.status}`)
