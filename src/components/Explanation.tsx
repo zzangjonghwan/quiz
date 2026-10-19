@@ -54,6 +54,7 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
                     {b.origin}
                   </span>
                 )}
+                {koOn && b.originKo && <span className="shrink-0 text-sm text-fg-subtle">{b.originKo}</span>}
                 <span className="ml-auto text-right text-[15px]">{b.meaning}</span>
               </div>
             ))}
@@ -103,6 +104,7 @@ export function Explanation({ card, item }: { card: Card; item?: SessionItem }) 
                   {e.jp.pair.reading}
                 </span>
               )}
+              {koOn && e.jp.pair.sayKo && <span className="text-sm text-fg-subtle">{e.jp.pair.sayKo}</span>}
               <span className="ml-auto text-right">{e.jp.pair.meaning}</span>
             </span>
             {e.jp.pair.note && <span className="text-sm text-fg-muted">{e.jp.pair.note}</span>}

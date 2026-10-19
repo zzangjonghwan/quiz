@@ -81,6 +81,38 @@ for (const pack of readdirSync(join(ROOT, 'packs-src')).filter((p) => p.startsWi
         failed.push(`${pack}/${file} ${plain}  ←  ${heard}`)
         continue
       }
+      // The sentence as said with the word left out, for the 빈칸 question: ＿＿와 아메가 훗테 이마스.
+      if (keepSay) {
+        const span = target ? pieces.filter((p) => p.m) : null
+        let start = -1
+        let end = -1
+        if (span?.length) {
+          start = Math.min(...span.map((p) => p.at))
+          end = Math.max(...span.map((p) => p.at + p.len))
+        } else {
+          // Not the card's own word: find it by position in the sentence.
+          let at = 0
+          for (const p of pieces) {
+            if (at >= before.length && at < before.length + blank.length) {
+              start = start < 0 ? p.at : Math.min(start, p.at)
+              end = Math.max(end, p.at + p.len)
+            }
+            at += p.t.length
+          }
+        }
+        const breaks = new Set()
+        let n = 0
+        for (const ph of await phrases(voiced)) breaks.add((n += ph.length))
+        let gap = ''
+        // sound() keeps positions, so the spans line up with what VOICEVOX said, mora for mora.
+        for (let i = 0; i < heard.length; i++) {
+          if (i > 0 && breaks.has(i) && !gap.endsWith(' ')) gap += ' '
+          if (i === start) gap += '＿＿'
+          if (i >= start && i < end) continue
+          gap += heard[i]
+        }
+        if (start >= 0) say[`${plain}#gap`] = gap.trim()
+      }
       // Without a known reading, still mark where the word is.
       if (!target) {
         let at = 0

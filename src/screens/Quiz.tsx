@@ -458,6 +458,7 @@ function Glyph({ item, answered, ko }: { item: McqItem; answered: boolean; ko?: 
   const text = item.glyph!
   const say = ko?.[text]
   const sayLine = say && <span className="text-sm text-fg-subtle">{say}</span>
+  const subIsJa = !!item.glyphSub && isJapanese(item.glyphSub)
   const ja = isJapanese(text)
   const length = [...text].length
   const sentence = ja && (length > 12 || /[。、？！?!＿]/.test(text))
@@ -495,12 +496,14 @@ function Glyph({ item, answered, ko }: { item: McqItem; answered: boolean; ko?: 
       <span lang={ja ? 'ja' : 'en'} className={size} style={ja && !sentence ? { fontSize: `min(4.5rem, ${84 / length}cqi)` } : undefined}>
         {text}
       </span>
+      {/* A sentence's pronunciation goes right under it, before its translation. */}
+      {shown && say && !subIsJa && <span className="text-sm text-fg-subtle">{say}</span>}
       {item.glyphSub && shown && (
-        <span lang={isJapanese(item.glyphSub) ? 'ja' : undefined} className={`text-base text-fg-muted ${appear}`}>
+        <span lang={subIsJa ? 'ja' : undefined} className={`text-base text-fg-muted ${appear}`}>
           <Marked text={item.glyphSub} />
         </span>
       )}
-      {shown && say && <span className={`text-sm text-fg-subtle ${appear}`}>{say}</span>}
+      {shown && say && subIsJa && <span className={`text-sm text-fg-subtle ${appear}`}>{say}</span>}
       {item.audio && shown && (
         <div className={`absolute top-2 right-2 ${appear}`}>
           <SpeakButton file={item.audio} />

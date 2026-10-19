@@ -33,7 +33,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { join } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { toHangul } from './jp-hangul.mjs'
-import { loadKanji, splitWord } from './jp-kana.mjs'
+import { loadKanji, sound, splitWord } from './jp-kana.mjs'
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const SRC = join(ROOT, 'packs-src')
@@ -512,7 +512,7 @@ async function buildJapanese(pack, built) {
         questions.push({ mode: 'mcq', skill: 'bridge', prompt: '같은 한자를 쓰는 한국어 단어는?', glyph: e.word, glyphSub: e.r, audio, ...koFor([[e.word, ko(e.word)]]), choices: [e.kr, ...kos] })
     }
     if (e.sentence?.blank === e.word) {
-      questions.push({ mode: 'mcq', skill: 'blank', prompt: '빈칸에 알맞은 말은?', glyph: e.sentence.gap, glyphSub: e.sentence.ko, choices: [e.label, ...wrongWords] })
+      questions.push({ mode: 'mcq', skill: 'blank', prompt: '빈칸에 알맞은 말은?', glyph: e.sentence.gap, glyphSub: e.sentence.ko, ...koFor([[e.sentence.gap, ko(`${e.sentence.ja}#gap`)], ...[e.label, ...wrongWords].map((l) => [l, ko(byLabel.get(l))])]), choices: [e.label, ...wrongWords] })
     }
     // 한자 쪼개기: each kanji with its reading here and its Korean hanja name.
     const kanjiPieces = (e.pieces ?? []).flatMap((p) =>
@@ -520,7 +520,8 @@ async function buildJapanese(pack, built) {
     )
     const breakdown = kanjiPieces.map(({ ch, r }) => {
       const k = dict.kanji.get(ch)
-      return { part: ch, ...(r && { origin: r }), meaning: k.old ? `${k.ko} · 한국 한자 ${k.old}` : k.ko }
+      const said = r && pack.koSay ? { originKo: toHangul(sound(r)) } : {}
+      return { part: ch, ...(r && { origin: r }), ...said, meaning: k.old ? `${k.ko} · 한국 한자 ${k.old}` : k.ko }
     })
     const literal =
       e.l ?? (kanjiPieces.length >= 2 ? `${kanjiPieces.map(({ ch }) => dict.kanji.get(ch).kw).join(' + ')} → ${e.m.split(',')[0].replace(/\(.*?\)/g, '').trim()}` : undefined)
@@ -534,7 +535,7 @@ async function buildJapanese(pack, built) {
       ...(whole && { whole: { word: whole.t, reading: whole.r } }),
       ...(e.kr && { bridge: { ko: e.kr } }),
       ...(e.sentence && { sentence: { ja: e.sentence.ja, ko: e.sentence.ko, ruby: e.sentence.ruby, ...(ko(e.sentence.ja) && { sayKo: ko(e.sentence.ja) }), audio: audio.replace('.mp3', '-ex.mp3') } }),
-      ...(pair && { pair: { word: pair.word, ...(pair.label !== pair.word && { reading: pair.r }), meaning: pair.m, note: e.vn ?? '' } }),
+      ...(pair && { pair: { word: pair.word, ...(pair.label !== pair.word && { reading: pair.r }), meaning: pair.m, note: e.vn ?? '', ...(ko(pair.word) && { sayKo: ko(pair.word) }) } }),
     }
     return {
       id: e.id,

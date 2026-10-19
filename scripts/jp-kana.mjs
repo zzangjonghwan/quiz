@@ -75,7 +75,7 @@ function variants(reading, first, last) {
 /**
  * Splits `text` (kanji and kana) over its reading, kanji by kanji: 食べ物/たべもの →
  * [食:た][べ][物:もの]. `same(a, b)` compares kana with kana. Returns null if the dictionary has
- * no reading that fits.
+ * no reading that fits. Each piece also says where it is in the reading (at, len).
  */
 function split(text, reading, dict, same) {
   const units = Array.isArray(text) ? text : [...text]
@@ -87,7 +87,7 @@ function split(text, reading, dict, same) {
     if (typeof ch !== 'string') {
       const used = same(reading, j, ch.r)
       const rest = used && go(i + 1, j + used)
-      return rest ? [...ch.pieces.map((p) => ({ ...p, m: 1 })), ...rest] : null
+      return rest ? [...ch.pieces.map((p) => ({ ...p, m: 1, at: j, len: used })), ...rest] : null
     }
     if (isKanji(ch)) {
       const first = !kanjiAt(i - 1)
@@ -96,8 +96,9 @@ function split(text, reading, dict, same) {
         const w = units.slice(i, i + n).join('')
         const r = dict.whole.get(w)
         if (r && same(reading, j, r)) {
-          const rest = go(i + n, j + same(reading, j, r))
-          if (rest) return [{ t: w, r, whole: true }, ...rest]
+          const used = same(reading, j, r)
+          const rest = go(i + n, j + used)
+          if (rest) return [{ t: w, r, whole: true, at: j, len: used }, ...rest]
         }
       }
       const entry = dict.kanji.get(ch)
@@ -110,7 +111,7 @@ function split(text, reading, dict, same) {
           const used = same(reading, j, v)
           if (!used) continue
           const rest = go(i + 1, j + used)
-          if (rest) return [{ t: ch, r: v }, ...rest]
+          if (rest) return [{ t: ch, r: v, at: j, len: used }, ...rest]
         }
       }
       return null
@@ -119,18 +120,18 @@ function split(text, reading, dict, same) {
       const used = same(reading, j, ch)
       if (!used) return null
       const rest = go(i + 1, j + used)
-      return rest && [{ t: ch }, ...rest]
+      return rest && [{ t: ch, at: j, len: used }, ...rest]
     }
     // Anything else in a sentence: punctuation reads as nothing, Latin letters (LINE) as some kana.
     if (/[A-Za-z0-9]/.test(ch)) {
       for (let n = 0; j + n <= reading.length; n++) {
         const rest = go(i + 1, j + n)
-        if (rest) return [{ t: ch }, ...rest]
+        if (rest) return [{ t: ch, at: j, len: n }, ...rest]
       }
       return null
     }
     const rest = go(i + 1, j)
-    return rest && [{ t: ch }, ...rest]
+    return rest && [{ t: ch, at: j, len: 0 }, ...rest]
   }
   return go(0, 0)
 }

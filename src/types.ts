@@ -20,6 +20,8 @@ export interface BreakdownPart {
   part: string
   /** Hanja or original-language spelling, e.g. 兎 or inflate. */
   origin?: string
+  /** 한국어 발음 of origin when it is a Japanese reading (왕초급·초급 packs). */
+  originKo?: string
   meaning: string
 }
 
@@ -66,7 +68,7 @@ export interface JpInfo {
   /** 한국어 발음 of the word (왕초급·초급 packs). */
   sayKo?: string
   /** A word that's easy to mix up with this one. */
-  pair?: { word: string; reading?: string; meaning: string; note: string }
+  pair?: { word: string; reading?: string; meaning: string; note: string; sayKo?: string }
 }
 
 /** A 일본어 듣기 scene: what was said and the answer, each with furigana and its recording. */
