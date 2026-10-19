@@ -462,8 +462,10 @@ function Glyph({ item, answered, ko }: { item: McqItem; answered: boolean; ko?: 
   const length = [...text].length
   const sentence = ja && (length > 12 || /[。、？！?!＿]/.test(text))
   const size = !ja ? 'text-4xl font-bold break-all' : sentence ? 'text-2xl leading-relaxed font-medium' : 'leading-tight font-medium whitespace-nowrap'
-  const shown = !item.reveal || answered
-  const appear = item.reveal ? 'fx-reveal' : ''
+  // With 한국어 발음 switched on, the reading and sound are there from the start: the player asked
+  // for help reading.
+  const shown = !item.reveal || answered || !!say
+  const appear = item.reveal && !say ? 'fx-reveal' : ''
   if (item.listen && item.audio) {
     // 듣기: the sound plays by itself, the big button plays it again, and the words show afterwards.
     return (
@@ -537,10 +539,11 @@ function ChoiceButton({
 }) {
   // A Japanese choice keeps its reading to itself until the question is answered.
   const { word, reading } = splitLabel(label)
-  const revealed = reading && state !== 'idle' && (
+  const open = state !== 'idle' || !!ko
+  const revealed = reading && open && (
     <span className="fx-reveal ml-2 text-sm font-normal opacity-75">{reading}</span>
   )
-  const say = ko && (!reading || state !== 'idle') && <span className="block text-sm font-normal opacity-60">{ko}</span>
+  const say = ko && <span className="block text-sm font-normal opacity-60">{ko}</span>
   return (
     <button
       onClick={(e) => onClick(e.currentTarget)}
@@ -562,6 +565,7 @@ function ChoiceButton({
         <span lang="ja" className="flex-1 text-3xl leading-none">
           {word}
           {revealed}
+          {say && <span className="mt-1.5 block text-sm leading-normal font-normal opacity-60">{ko}</span>}
         </span>
       ) : isLatin(label) ? (
         <span lang="en" className="flex-1 text-lg font-semibold">

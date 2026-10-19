@@ -37,7 +37,7 @@ export const skippedFormats = (skip: Partial<Record<CategoryId, string[]>>, cate
   skip[category] ?? DEFAULT_SKIP[category] ?? []
 
 /** Categories with the 한국어 발음 option (왕초급·초급), and whether it starts on. */
-export const KO_SAY: Partial<Record<CategoryId, boolean>> = { travel: true, japanese: false, listening: false }
+export const KO_SAY: Partial<Record<CategoryId, boolean>> = { travel: true, japanese: true, listening: true }
 
 /** Whether 한국어 발음 is shown in a category. */
 export const koSayOn = (koSay: Partial<Record<CategoryId, boolean>>, category: CategoryId) =>
