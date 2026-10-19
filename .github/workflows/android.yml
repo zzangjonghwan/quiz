@@ -57,6 +57,8 @@ jobs:
             -PversionName="$VERSION_NAME"
           mkdir -p ../out
           cp app/build/outputs/apk/release/app-release.apk "../out/sangsikhanip-$VERSION_NAME.apk"
+          # Also under a fixed name, so releases/latest/download/sangsikhanip.apk always gets the newest.
+          cp app/build/outputs/apk/release/app-release.apk ../out/sangsikhanip.apk
 
       - uses: actions/upload-artifact@v7
         with:
